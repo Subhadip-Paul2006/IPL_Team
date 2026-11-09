@@ -442,5 +442,4 @@ This repository operates under strict engineering governance detailed in [`docs/
 - **Open-Meteo Weather API**: Meteorological data provided by [Open-Meteo.com](https://open-meteo.com) under the terms of the Creative Commons Attribution 4.0 International license (CC BY 4.0).
 - **HawkeyeStats**: Ball-tracking telemetry schema and trajectory dataset provided for sports analytics research under open permissive licensing.
 - **IPL / BCCI Trademark Notice**: "Indian Premier League", "IPL", "BCCI", "Rajasthan Royals", and associated franchise names and insignias are trademarks of their respective governing bodies and owners. Used herein strictly under sports analytical research and hackathon fair dealing provisions.
-#   I P L _ T e a m  
- 
+# IPL_Team
