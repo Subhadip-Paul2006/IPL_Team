@@ -66,7 +66,8 @@ Agent** and the **Chief Architect**.
   inputs. Stochastic routines MUST require an explicit integer seed.
 
 ### 2.2 Central Normalised 3NF Relational Core
-- All player/match/delivery entities reside in a 3NF PostgreSQL 16 schema across 27 entities.
+- All player/match/delivery entities reside in a normalised 3NF PostgreSQL 16 schema across 31
+  entities (`derived_features` is the single documented non-3NF feature-store exception).
 - Redundant attributes forbidden; deliveries reference canonical entity IDs via foreign keys.
 - High-volume rollups live in `derived_features`, isolated from the operational core.
 
@@ -93,7 +94,7 @@ Agent** and the **Chief Architect**.
 | Initial UI        | Streamlit                         | Latest stable; thin adapters, no analytics|
 | Future UI         | Next.js / React / TypeScript      | Reuses engine contracts; not in MVP       |
 | Core Engines      | Python                            | 3.11+ (strict typing, PEP 8)            |
-| Database Core     | PostgreSQL                          | 16.0+ (3NF, 27 entities)                  |
+| Database Core     | PostgreSQL                          | 16.0+ (3NF, 31 entities)                  |
 | Scientific Math   | NumPy / Pandas / SciPy             | NumPy 1.26+, Pandas 2.2+                      |
 | Orchestration     | MIE + typed engine contracts       | UI-independent, versioned                     |
 | Data Sources      | CricSheet, Kaggle, HawkeyeStats,  | Provenance-tracked, licence-compliant         |
@@ -136,38 +137,61 @@ enforce the following.
 
 ### 4.1 Player Identity (PIRE)
 - **Never merge two players merely because their names are similar.**
-- Identity resolution uses the 4-tier waterfall (registry key → alias → contextual → fuzzy +
-  biometric). Low-confidence or multi-candidate results are quarantined with
-  `needs_review=TRUE` and routed to user clarification or human review.
-- Date-of-birth and team/competition association are corroborating evidence, not overrides.
+- Identity resolution uses the 4-tier waterfall (registry key → verified alias → deterministic
+  contextual intersection → fuzzy + **contextual attribute corroboration**: DOB, hand, role,
+  active era — these are registry/cricketing attributes, **not biometric identifiers**).
+  Low-confidence or multi-candidate results are quarantined with `needs_review=TRUE` and routed
+  to user clarification or human review.
+- **Tier outcomes are deterministic; the fuzzy thresholds (Jaro-Winkler ≥ 0.92, Levenshtein ≤
+  2) are tunable configuration parameters, not calibrated probabilities.** A numeric
+  `confidence` is exposed only after calibration against a labelled test set
+  (`calibrated=TRUE`); otherwise it is `NULL`.
+- **Identity, membership, career-coverage, and eligibility confidences are separate
+  measurements**, reported by their respective engines; PIRE reports identity status only.
 - Unresolved identities are stored with `identity_status='UNRESOLVED'`/`PROVISIONAL`; they are
   never silently assigned to an existing player.
 
-### 4.2 Team Membership (TMVE)
-- **Six-class taxonomy is exhaustive and mutually exclusive**: `CURRENT_SQUAD`,
-  `HISTORICAL_RR_PLAYER`, `PREVIOUSLY_ASSOCIATED`, `NEVER_REPRESENTED_RR`, `UNVERIFIED`,
-  `ELIGIBILITY_UNVERIFIED`.
-- **`CURRENT_SQUAD` is assigned only with verified current-season squad evidence.**
+### 4.2 Team Membership & Eligibility (TMVE) — three independent dimensions
+These dimensions must **never be conflated** into a single label:
+- **Dimension 1 — RR relationship** (`rr_relationship_state`): `CURRENT_RR_SQUAD`,
+  `HISTORICAL_RR_APPEARANCE`, `HISTORICAL_RR_SQUAD_ONLY`, `PREVIOUSLY_ASSOCIATED`,
+  `NO_VERIFIED_RR_RELATIONSHIP`, `RR_RELATIONSHIP_UNKNOWN`.
+- **Dimension 2 — Current membership** (`rr_current_state`): `CURRENT`, `NOT_CURRENT`,
+  `UNKNOWN` — verified **separately** from relationship history.
+- **Dimension 3 — IPL eligibility / uncapped classification** (`eligibility_status`,
+  season-bound, `eligibility_policies` version): `VERIFIED_ELIGIBLE`, `VERIFIED_NOT_ELIGIBLE`,
+  `ELIGIBILITY_UNVERIFIED`, `NOT_ASSESSED`.
+
+Mandates:
+- **`CURRENT_RR_SQUAD` is assigned only with verified current-season squad evidence.**
 - **Squad inclusion is not a match appearance**: a player on a squad list is not counted as a
-  verified appearance.
+  verified appearance (`appearances = 0`, state `HISTORICAL_RR_SQUAD_ONLY`).
 - **Historical membership is not current membership**: a former RR player is not re-classified
   as current.
-- **RR 2016–2017 suspension** is represented separately (never analysed as normal seasons);
-  membership analysis runs 2008–2015 / suspension / 2018+, with 2018–2026 as the primary
-  post-return window and **2027 as a future target season** until verified.
-- **A player who does not appear in a record base is `UNVERIFIED`, not `NEVER_REPRESENTED_RR`**,
-  unless a source confirms the absence.
+- **RR 2016–2017 suspension is a franchise participation fact** (IPL continued for all other
+  teams), recorded in `team_season_participation` as `SUSPENDED` — never a competition-wide
+  property. Membership analysis runs 2008–2015 (PARTICIPATING) / 2016–17 (SUSPENDED) /
+  2018–2026 (PARTICIPATING) / 2027 (**UNKNOWN until authoritative squad evidence exists**).
+- **A player who does not appear in a record base is `RR_RELATIONSHIP_UNKNOWN`, not
+  `NO_VERIFIED_RR_RELATIONSHIP`**, unless the full TRD §4.5 negative-verification requirements
+  are met (coverage scope, relevant RR seasons, squad-list + scorecard coverage, source
+  quality, conflicting-evidence handling, human review).
 
 ### 4.3 Evidence Verification (Service C)
 - Every external claim records source URL, provider, retrieval timestamp, licence, verification
-  status, confidence, and original record ID.
-- **The verification hierarchy** is: (1) official IPL/franchise records, (2) official scorecards,
-  (3) BCCI records, (4) reliable cricket databases, (5) reputable secondary reporting.
+  status, **evidence tier (1–5 per the verification hierarchy)**, confidence (only when
+  calibrated), and original record ID.
+- **The verification hierarchy** is: (1) official IPL/franchise records, (2) official
+  scorecards, (3) BCCI records, (4) reliable cricket databases, (5) reputable secondary
+  reporting.
 - **CONFLICT** between sources routes to human review; MIE does not auto-resolve.
 - **Absence in a dataset is `DATASET_UNAVAILABLE` / `NOT_ESTABLISHED`**, never
   `CONFIRMED_NON_PARTICIPATION`.
-- **The product must never automatically assume an unknown player is uncapped**; unknown =
-  `UNVERIFIED` / `ELIGIBILITY_UNVERIFIED`.
+- **The product must never automatically assume an unknown player is uncapped**; an unknown
+  player defaults to `NOT_ASSESSED` eligibility and `RR_RELATIONSHIP_UNKNOWN`.
+- **Eligibility policy is versioned, season-bound, source-traceable (BCCI/IPL rule reference),
+  independently verified, and effective-date aware** — never a hardcoded rule in application
+  logic.
 
 ---
 
@@ -257,7 +281,7 @@ The following actions are **strictly prohibited** across all agents and scripts.
 | P4 | Allowing Super Over statistics to increment career totals                           |
 | P5 | Attributing byes/leg-byes/penalty runs to bowler runs conceded                     |
 | P6 | Merging two players solely because their names are similar                          |
-| P7 | Classifying an unknown player as uncapped or as NEVER_REPRESENTED_RR without evidence|
+| P7 | Classifying an unknown player as uncapped/eligible or as `NO_VERIFIED_RR_RELATIONSHIP` without the TRD §4.5 evidence|
 | P8 | Inferring a player's mental state from match statistics                            |
 | P9 | Fabricating injury histories or eligibility facts                                   |
 | P10| Representing weather as a direct pitch-condition measurement                       |
@@ -285,7 +309,9 @@ resolves them.
 ## 7. Conclusion & Engineering Attestation
 
 This directive forms an unbroken chain of architectural and domain constraints. By enforcing
-deterministic reproducibility, a strict 27-entity 3NF core, an immutable data lake, evidence-first
-provenance, the six-class membership taxonomy, the four-state coverage model, and the twelve domain
-rules, the team guarantees that the **RR Squad Intelligence & Team Composition Platform** is built
-on forensic accuracy, evidence-backed verification, and production engineering standards.
+deterministic reproducibility, a normalised 31-entity 3NF core (with `derived_features` as the
+single documented non-3NF exception), an immutable data lake, evidence-first provenance, the
+three-dimension membership model (relationship · currency · season-bound eligibility), the
+franchise-level participation model, the four-state coverage model, and the domain rules above,
+the team guarantees that the **RR Squad Intelligence & Team Composition Platform** is built on
+forensic accuracy, evidence-backed verification, and production engineering standards.

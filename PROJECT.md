@@ -1,113 +1,158 @@
-# Project: Rajasthan Royals Squad Intelligence & Historical Performance Engine (IPL 2027 Auction Scouting Hackathon)
+# Project: RR Squad Intelligence & Team Composition Platform (IPL 2027 RR Scouting Hackathon)
 
-## Architecture
-- **Multi-Tier Analytical Architecture**: Client Presentation (Next.js 15, Tailwind CSS 3.4, Apache ECharts 5.5, Recharts 2.12, React Flow 11.11) <-> REST API & Service Layer (FastAPI, ASGI Uvicorn, Pydantic v2, Redis 7.2) <-> Analytics & Tactical Simulation Engine (Python 3.13 / 3.11+, NumPy 1.26+, Pandas 2.2+, SciPy) <-> Central Normalized Relational Core (PostgreSQL 16, 20 Discrete Entities, Declarative Partitioning) <-> Ingestion & Contextual Enrichment Pipeline (CricSheet JSON v1.3.0 / YAML v0.94, Kaggle Historicals, Open-Meteo Historical Weather, HawkeyeStats Tracking Telemetry).
-- **Core Engineering Principles**:
-  1. *Deterministic Reproducibility*: Every metric, feature vector, and valuation is bit-for-bit reproducible from raw source payloads with SHA-256 cryptographic digests and explicit pseudo-random generator seeds (`seed=42`).
-  2. *Strict 3NF Relational Core*: Central PostgreSQL 16 schema enforces Third Normal Form across 20 entities with hard foreign keys, composite unique constraints, and domain check constraints.
-  3. *Read-Only Immutable Data Lake*: The raw data directory (`CricSheet/`) is strictly read-only; all payloads pass through SHA-256 hashing into a staging lake with quarantine handling.
-  4. *Zero Statistical Fabrication*: Missing metrics evaluate strictly to `NULL`. The system never imputes missing values as zero, never fabricates fictitious player records, and never confuses bowling style with delivery variation.
-  5. *Domain-Specific Cricket Integrity*: Super Overs are segregated from career aggregates, DLS revised targets are normalized against match overs, penalty runs are excluded from bowler charges, and Hawkeye post-shot coordinates are never conflated with fielder coordinates.
-  6. *Greenfield Baseline Governance*: The repository is at a 100% Greenfield Baseline where Phase 0 establishes the complete technical specification before application code is written. Planned features are rigorously demarcated with `[STATUS: PLANNED]`.
+> ⚠️ **SUPERSEDED-V1 NOTICE**: This file previously carried the **v1.0.0** "Historical
+> Performance Engine" specification (Next.js 15 / FastAPI / Redis presentation-and-service
+> stack, 20-entity schema, F01–F25 auction-war-room feature inventory, `CricSheet/` data
+> path). **That architecture is no longer the project architecture.** This file has been
+> reconciled (v2.1.0) to the current charter. The superseded v1 content is preserved for
+> audit at the end of this file under "Appendix A — Historical v1.0.0 Specification
+> (superseded)". Authoritative current documents: `README.md`, `docs/PRD.md`,
+> `docs/TRD.md`, `docs/ARCHITECTURE.md`, `docs/PHASES.md`, `docs/AGENTS.md`,
+> `docs/AI_INSTRUCTIONS.md`, `docs/DATA_SOURCE_REGISTER.md`, `docs/DATA_DICTIONARY.md`.
 
----
+## Architecture (current, v2.1.0)
+- **Streamlit-primary, frontend-agnostic engine layer**: Streamlit application (initial
+  UI, 11 views) over typed, versioned engine contracts; a future Next.js frontend reuses
+  the same contracts (no engine imports a UI framework).
+- **Mother Intelligence Engine (MIE)**: central orchestrator — coordinates the six
+  specialised engines, merges verified outputs, tracks verification status and source
+  provenance, returns structured reports. MIE never invents statistics, identities,
+  memberships, or eligibility decisions.
+- **Six specialised engines**: PIRE (identity) · TMVE (membership verification) · CDCRE
+  (career discovery, dual capability) · CPPAE (performance analytics) · CMIE (contextual
+  match intelligence) · SICE (squad intelligence & composition).
+- **Five support services**: A. Data Ingestion · B. Player Profile Generator ·
+  C. Source Verification & Provenance · D. Data Quality & Coverage · E. Team Builder.
+- **Normalised 31-entity PostgreSQL 16 core** (3NF core; `derived_features` the single
+  documented non-3NF exception; season-partitioned `deliveries` with enforced
+  partitioned-table FKs on PG ≥ 15).
+- **Ingestion & provenance pipeline**: immutable raw staging (SHA-256), quarantine
+  handling, five-tier evidence provenance (`datasets/` local lake; Kaggle / HawkeyeStats /
+  Open-Meteo / official records per `docs/DATA_SOURCE_REGISTER.md`).
+- **Core engineering principles**:
+  1. *Deterministic reproducibility* — deterministic query path; versioned, seeded model
+     configuration; bit-for-bit reproducible rankings (AC-18).
+  2. *Normalised 3NF relational core* — 31 entities, hard foreign keys, expression
+     indexes, domain check constraints; no false-claim defaults.
+  3. *Read-only immutable data lake* — `datasets/` is immutable; payloads staged with
+     SHA-256 digests and quarantining.
+  4. *Zero statistical fabrication* — missing → `NULL`; no invented players, memberships,
+     injuries, or mental states; no cross-format stat mixing without documented
+     normalisation.
+  5. *Evidence-first membership & eligibility* — three independent dimensions (RR
+     relationship · currency · season-bound versioned eligibility); franchise-level
+     `team_season_participation` (RR 2016–17 suspended; 2027 UNKNOWN until evidenced);
+     negative membership only via TRD §4.5 requirements.
+  6. *Greenfield governance* — no application code exists; all planned features
+     demarcated `[STATUS: PLANNED]`; Phase 0b (empirical source audit) remains open.
 
-## Feature Inventory
+## Feature & Component Inventory (current)
 
-| # | Feature | Category | Description | Assigned Milestone | Source Reference | Status |
-|---|---------|----------|-------------|-------------------|------------------|--------|
-| F01 | Ball-by-Ball Context Valuation | Match Impact | True Strike Rate (TSR) & True Economy Rate (TER) normalized against tournament phase pars (Powerplay, Middle 1, Middle 2, Death). | M1, M2 | PRD §4.1, TRD §6.1 | `[STATUS: PLANNED]` |
-| F02 | Win Probability Added (WPA) & xR | Match Impact | Delivery-by-delivery state-space Win Probability model evaluating delta WP and Expected Runs (xR) based on score, balls remaining, wickets in hand, and required run rate. | M1, M2 | PRD §4.1, TRD §6.2 | `[STATUS: PLANNED]` |
-| F03 | Clutch Index & Leverage Analysis | Match Impact | High-pressure leverage quantification filtering deliveries where Leverage Index (LI) > 1.5 to measure performance under acute match strain. | M1, M2 | PRD §4.1, TRD §6.3 | `[STATUS: PLANNED]` |
-| F04 | Pitch & Ground Behavioral Profiling | Venue Profiling | Boundary geometry modeling (straight vs square dimensions), pitch soil taxonomy (red-soil bounce vs black-soil low-skid), and boundary-running coefficient. | M1, M2 | PRD §4.2, TRD §6.4 | `[STATUS: PLANNED]` |
-| F05 | SMS Jaipur Fortress Engine | Venue Profiling | Sawai Mansingh Stadium home ground intelligence: large outfield dynamics (68–78m boundaries), running-between-wickets premium, and April–May diurnal temperature drops. | M1, M2 | PRD §1.2, TRD §6.4 | `[STATUS: PLANNED]` |
-| F06 | Environmental & Dew Factor Correlation | Venue Profiling | Open-Meteo historical macro-meteorological integration (ambient temperature, relative humidity, dew point) modeling 2nd-innings dew impact on bowling grip and boundary ease. | M1, M2 | PRD §4.2, TRD §6.5 | `[STATUS: PLANNED]` |
-| F07 | Batter vs Bowling Type Profiling | Tactical Matrix | Granular batting proficiency matrix evaluated against 6 distinct bowling archetypes (Right-Arm Fast, Left-Arm Fast, Off-Spin, Slow Left-Arm Orthodox, Leg-Break Googly, Left-Arm Wrist Spin). | M1, M2 | PRD §4.3, TRD §6.6 | `[STATUS: PLANNED]` |
-| F08 | Head-to-Head Batter vs Bowler Matrix | Tactical Matrix | Pairwise historical matchup matrices between individual batters and bowlers with dismissal lineage, dot-ball percentage, and false-shot frequency. | M1, M2 | PRD §4.3, TRD §6.6 | `[STATUS: PLANNED]` |
-| F09 | Pitch Trajectory & Length Vulnerability | Tactical Matrix | Hawkeye delivery tracking telemetry integration projecting pitch release speed, landing length zones (Yorker, Full, Good, Short, Bouncer), and batter dismissal heatmaps. | M1, M2 | PRD §4.3, TRD §6.7 | `[STATUS: PLANNED]` |
-| F10 | Multi-Format Workload Engine | Workload & Fatigue | Cumulative bowling overs and spells logged across IPL, Syed Mushtaq Ali Trophy, ICC T20 World Cups, ODI World Cups, and The Hundred to monitor physical accumulation. | M1, M2 | PRD §4.4, TRD §6.8 | `[STATUS: PLANNED]` |
-| F11 | Schedule Congestion & Travel Strain | Workload & Fatigue | Empirical fatigue decay curves modeling performance degradation resulting from compressed rest intervals (<48 hours) and multi-city transits across India. | M1, M2 | PRD §4.4, TRD §6.8 | `[STATUS: PLANNED]` |
-| F12 | Injury History & Availability Logging | Workload & Fatigue | Historical injury records, downtime durations, recurrence risk flags, and international duty NOC calendar availability restrictions for overseas players. | M1, M2 | PRD §4.4, TRD §2.16 | `[STATUS: PLANNED]` |
-| F13 | Expected Auction Price (EAP) Modeling | Auction Valuation | Elastic net and random forest regression models estimating the clearing auction price at the IPL 2027 Mega-Auction based on player age, role scarcity, and 3-year performance. | M1, M2 | PRD §4.5, TRD §6.9 | `[STATUS: PLANNED]` |
-| F14 | Value Over Replacement Player (VORP) | Auction Valuation | T20 sabermetric adaptation quantifying runs and wickets contributed relative to a freely available domestic replacement player benchmark (baseline replacement index). | M1, M2 | PRD §4.5, TRD §6.9 | `[STATUS: PLANNED]` |
-| F15 | Role Scarcity & Premium Multipliers | Auction Valuation | Dynamic valuation adjustments reflecting structural marketplace scarcity for high-demand tactical archetypes (Indian pace bowling all-rounders, elite death-overs finishers). | M1, M2 | PRD §4.5, TRD §6.9 | `[STATUS: PLANNED]` |
-| F16 | Playing XI Constraint Optimizer | Squad Simulation | Constraint-satisfaction integer programming optimizer selecting the optimal starting XI under strict IPL regulations (maximum 4 overseas, minimum 1 wicketkeeper, minimum 5 bowlers). | M1, M2 | PRD §4.6, TRD §6.10 | `[STATUS: PLANNED]` |
-| F17 | Impact Player Deployment Engine | Squad Simulation | Tactical decision model evaluating match state and pitch conditions to recommend the optimal 12th-man substitution from the nominated 5-player bench. | M1, M2 | PRD §4.6, TRD §6.10 | `[STATUS: PLANNED]` |
-| F18 | Monte Carlo Tournament Simulator | Squad Simulation | 10,000-iteration tournament campaign engine projecting playoff qualification probability, net run rate distributions, and title odds under alternative auction acquisition rosters. | M1, M2 | PRD §4.6, TRD §6.10 | `[STATUS: PLANNED]` |
-| F19 | Cross-Competition Normalisation | Talent Scouting | Equivalency modeling calibrating raw statistics from domestic competitions (Syed Mushtaq Ali, Ranji Trophy, U-19 World Cup, The Hundred) to the IPL difficulty tier. | M1, M2 | PRD §4.7, TRD §6.11 | `[STATUS: PLANNED]` |
-| F20 | Diamond-in-the-Rough Scouting Filter | Talent Scouting | Algorithmic filter detecting high-upside domestic Indian talent (age <= 24, base auction bracket <= ₹50 Lakh) exhibiting elite isolated micro-skills (death economy, boundary percentage). | M1, M2 | PRD §4.7, TRD §6.11 | `[STATUS: PLANNED]` |
-| F21 | Multi-Source Player Identity Resolution | Core Data | 4-tier waterfall identity resolution engine disambiguating aliases and names across providers, anchored by CricSheet unique hex hashes (`people.csv` registry). | M1, M2 | PRD §4.8, TRD §3 | `[STATUS: PLANNED]` |
-| F22 | Multi-Format Ingestion Engine | Data Ingestion | High-throughput streaming loaders parsing CricSheet JSON v1.3.0 and legacy YAML v0.94 payloads with cryptographic SHA-256 deduplication and quarantine handling. | M2 | TRD §1.1, ARCH §2.2 | `[STATUS: PLANNED]` |
-| F23 | DLS Par & Revised Target Reconciler | Data Ingestion | Interrupted match normalization reconciling rain-curtailed deliveries and adjusted target scores against Duckworth-Lewis-Stern par calculations. | M1, M2 | PRD §5.1, TRD §4.2 | `[STATUS: PLANNED]` |
-| F24 | Super Over Isolation & Accounting | Core Data | Structural isolation of Super Over balls into dedicated extra innings records (`innings_type='SUPER_OVER'`), preventing distortion of regular 20-over career metrics. | M1, M2 | PRD §5.1, TRD §2.8 | `[STATUS: PLANNED]` |
-| F25 | Central 20-Entity PostgreSQL Schema | Architecture | Enterprise 3NF relational schema encompassing 20 discrete entities with declarative seasonal partitioning on deliveries, domain check constraints, and composite indexes. | M2 | TRD §2, ARCH §2.7 | `[STATUS: PLANNED]` |
+| # | Component | Category | Description | Phase | Governing doc | Status |
+|---|---|---|---|---|---|---|
+| C1 | PIRE | Engine 01 | Deterministic 4-tier identity resolution + contextual attribute corroboration; calibrated-only confidence | 2 | TRD §3 | `[STATUS: PLANNED]` |
+| C2 | TMVE | Engine 02 | Three-dimension membership (relationship / currency / season-bound eligibility) + negative-verification protocol | 3 | TRD §4 | `[STATUS: PLANNED]` |
+| C3 | CDCRE (dual capability) | Engine 03 | `discover_candidates(raw_name)` pre-identity + `discover_career(player_id)` post-identity; four-state coverage | 4 | TRD §5 | `[STATUS: PLANNED]` |
+| C4 | CPPAE | Engine 04 | Full performance profiles governed by `DATA_DICTIONARY.md` (B/W/F/M series, NOT_COMPUTABLE list) | 5 | TRD §6 + DATA_DICTIONARY | `[STATUS: PLANNED]` |
+| C5 | CMIE | Engine 05 | Contextual conditions with 5 provenance tiers; weather ≠ pitch; ratings only with validated methodology | 6 | TRD §7 | `[STATUS: PLANNED]` |
+| C6 | SICE | Engine 06 | Squad role/depth/balance analysis; labelled analytical recommendations; hackathon ranking support | 8 | TRD §8 | `[STATUS: PLANNED]` |
+| C7 | MIE | Orchestrator | Candidate-discovery-first sequence; merges outputs; verification tracking; provenance assembly | 7 | TRD §2 | `[STATUS: PLANNED]` |
+| C8 | Services A–E | Support | Ingestion · profile export · provenance · quality/coverage · team builder | 1/7/4/1/8 | TRD §9 | `[STATUS: PLANNED]` |
+| C9 | 31-entity DDL | Data | Remediated PostgreSQL 16 core (design decisions D1–D10) | 2 | TRD §10 | `[STATUS: PLANNED]` |
+| C10 | `team_season_participation` | Data | Franchise-season participation (PARTICIPATING/SUSPENDED/NOT_ENTERED/UNKNOWN, evidence-bound) | 3 | TRD D4 | `[STATUS: PLANNED]` |
+| C11 | Eligibility policy model | Data | `eligibility_policies` (versioned, season-bound, source-traceable, effective-dated) + `player_eligibility` | 3 | TRD D5 | `[STATUS: PLANNED]` |
+| C12 | DATA_SOURCE_REGISTER | Governance | Source-to-field mapping, verification statuses, match/delivery reconciliation, licence evidence | 0b | docs/DATA_SOURCE_REGISTER.md | `[STATUS: OPEN - external verification outstanding]` |
+| C13 | DATA_DICTIONARY | Governance | Complete metric definitions (formula, numerator/denominator, null rules, samples, class) | 5 | docs/DATA_DICTIONARY.md | `[STATUS: COMPLETE]` |
+| C14 | Streamlit application | UI | 11 required views; session-state discipline; UI separated from analytics | 9 | TRD §12, PRD §6 | `[STATUS: PLANNED]` |
+| C15 | Hackathon Top-10 deliverable | Deliverable | Youngest eligible uncapped candidate board + reserves, reproducible role-aware ranking, evidence dossiers | 10 | PRD §4.3 | `[STATUS: PLANNED]` |
+| C16 | Post-MVP enhancements | Deferred | EAP/VORP-WAR regression, Monte Carlo campaign simulation, Playing XI optimizer, Impact Player engine, Next.js frontend | — | PRD §7 | `[STATUS: POST-MVP]` |
 
----
+## Roadmap
+Phases 0a/0b → 1–10 per [`docs/PHASES.md`](docs/PHASES.md). **Phase 0a COMPLETE; Phase 0b
+OPEN (PARTIALLY_COMPLETE)**; Phases 1–10 PLANNED.
 
-## Milestones
-
-| # | Name | Scope | Dependencies | Status |
-|---|------|-------|-------------|--------|
-| **M1** | Product, Process & Agent Specifications | Author `docs/PRD.md`, `docs/PHASES.md`, `docs/AGENTS.md`, and `docs/AI_INSTRUCTIONS.md` establishing the complete business and governance baseline. | Workspace Inspection & Audit | **COMPLETE** |
-| **M2** | Technical Architecture & Database Schema | Author `docs/TRD.md` (20-entity DDL) and `docs/ARCHITECTURE.md` (10 syntactically valid Mermaid diagrams). | M1 Complete | **COMPLETE** |
-| **M3** | Repository Overview & Navigation Hub | Author root `README.md`, documentation hub `docs/README.md`, and root `PROJECT.md` synchronizing all specifications and cross-document links. | M1, M2 Complete | **IN_PROGRESS** |
-| **M4** | Verification, Audit & Final Report | Multi-Agent review, empirical validation of links and diagrams, forensic audit verification, and executive handoff. | M1, M2, M3 Complete | **PLANNED** |
-
----
-
-## Code Layout
-
-```
-d:\New folder (2)\
-├── .agents/                                # Multi-Agent Framework & Working Memory
-│   └── teamwork/                           # Agent working directories, plans, handoffs, dispatches
-│       ├── orchestrator_1/                 # Master orchestrator tracking state & milestone gates
-│       ├── worker_m1/                      # Milestone 1 specification artifacts
-│       ├── worker_m2/                      # Milestone 2 technical architecture artifacts
-│       └── worker_m3/                      # Milestone 3 root overview & documentation hub artifacts
-├── CricSheet/                              # [IMMUTABLE READ-ONLY CACHE] Raw Cricket Datasets
-│   ├── hnd_json/                           # The Hundred Ball-by-Ball Match Payloads (JSON v1.3.0)
-│   ├── icc_mens_cricket_world_cup/         # ICC ODI World Cup Historical Payloads (YAML v0.94)
-│   ├── icc_mens_t20_world_cup_json/        # ICC Men's T20 World Cup Payloads (JSON v1.3.0)
-│   ├── ipl_json/                           # Indian Premier League 2008–2026 Payloads (JSON v1.3.0)
-│   └── sma/                                # Syed Mushtaq Ali Trophy Domestic Payloads (YAML v0.94)
-├── docs/                                   # Authoritative Engineering Documentation Suite
-│   ├── README.md                           # Documentation Hub, Reading Pathways & Traceability Matrix
-│   ├── PRD.md                              # Product Requirements Document (IPL 2027 Scouting Spec)
-│   ├── TRD.md                              # Technical Requirements Document & 20-Entity PostgreSQL DDL
-│   ├── ARCHITECTURE.md                     # System Architecture Specification (10 Mermaid Diagrams)
-│   ├── PHASES.md                           # 9-Phase Engineering Implementation Roadmap (Phases 0 to 8)
-│   ├── AGENTS.md                           # Multi-Agent Operating Constitution (14 AI Engineering Agents)
-│   └── AI_INSTRUCTIONS.md                  # AI Architectural Principles, Coding Standards & Domain Guardrails
-├── PROJECT.md                              # Root Project Definition, Feature Inventory & Milestone Matrix
-└── README.md                               # Project Root Overview, Architecture & Evaluation Index
-```
-
-### Planned Implementation Layout (Phases 1 to 8)
-When implementation code generation commences in subsequent phases, the application codebase will be organized into the following standardized subdirectories:
+## Repository Layout
 
 ```
 d:\New folder (2)\
-├── backend/                                # [PLANNED - Phase 1+] FastAPI Application & Analytics Engine
-│   ├── app/
-│   │   ├── api/                            # REST Endpoints (v1/players, v1/scouting, v1/matches)
-│   │   ├── core/                           # Configuration, Redis client, database session pooling
-│   │   ├── models/                         # SQLAlchemy 2.0 ORM & Pydantic v2 domain schemas
-│   │   ├── services/                       # Business logic (PIR waterfall, VORP, WPA, EAP regression)
-│   │   └── simulation/                     # Monte Carlo tournament simulator & Playing XI optimizer
-│   ├── db/
-│   │   ├── migrations/                     # Alembic / Flyway declarative SQL migrations (V001__*.sql)
-│   │   └── seeds/                          # Venue geometry seeds, reference pars, and competition tiers
-│   ├── ingestion/                          # High-throughput ELT loaders (CricSheet, Weather, Hawkeye)
-│   └── tests/                              # Unit, integration, and statistical invariant test suites
-├── frontend/                               # [PLANNED - Phase 8] Next.js 15 Web Application
-│   ├── src/
-│   │   ├── app/                            # Next.js App Router (layout, page routes, loading states)
-│   │   ├── components/                     # Tailwind UI components, ECharts spray charts, Recharts
-│   │   ├── hooks/                          # React Query / SWR data fetching hooks
-│   │   ├── lib/                            # API client, mathematical utilities, formatting helpers
-│   │   └── types/                          # TypeScript 5.3 strict interfaces and domain types
-│   ├── public/                             # Static assets, team crests, stadium boundary svgs
-│   └── tests/                              # Vitest & Playwright end-to-end integration tests
-└── scripts/                                # [PLANNED - Phase 1+] DevOps, validation & utility CLI tools
+├── .agents/teamwork/                    # Historical agent evidence (v1/v2 audits) — preserved, not modified
+├── datasets/                            # [IMMUTABLE, UNTRACKED] Raw cricket datasets (4 CricSheet archives, ODC-By)
+│   ├── ipl_male_json/                   #   1,243 IPL match files (JSON v1.3.0) + LICENSE/README
+│   ├── hnd_male_json/                   #   201 The Hundred match files
+│   ├── icc_mens_cricket_world_cup_male_json/ # 265 ODI WC files (24 withheld, CricSheet policy)
+│   └── icc_mens_t20_world_cup_male_json/     # 230 T20 WC files (29 withheld, CricSheet policy)
+├── docs/                                # Authoritative documentation suite (9 documents)
+│   ├── README.md · PRD.md · TRD.md · ARCHITECTURE.md · PHASES.md
+│   ├── AGENTS.md · AI_INSTRUCTIONS.md
+│   ├── DATA_SOURCE_REGISTER.md · DATA_DICTIONARY.md
+├── reports/DOCUMENTATION_REMEDIATION_AUDIT.md
+├── DOCUMENTATION_PRE_REMEDIATION_AUDIT.md
+├── PROJECT.md                           # This charter (v2.1.0)
+└── README.md                            # Project overview, status, change set
 ```
+
+## Planned Implementation Layout (Phases 1–9)
+
+```
+d:\New folder (2)\
+├── src/                                 # [PLANNED - Phase 2+] Engine & service implementations
+│   ├── mie/                             #   Mother Intelligence Engine (orchestration, merge, verification status)
+│   ├── pir/                             #   PIRE (4-tier resolver, alias registry, review queue)
+│   ├── membership/                      #   TMVE (three dimensions, negative-verification, participation seeding)
+│   ├── research/                        #   CDCRE dual capability + external research adapter (provenance-tracked)
+│   ├── analytics/                       #   CPPAE per DATA_DICTIONARY (NULL-safe, format-tagged, sample-visible)
+│   ├── context/                         #   CMIE (5 provenance tiers; weather/pitch separation)
+│   ├── squad/                           #   SICE + ranking model configuration (versioned weights)
+│   ├── elt/                             #   Ingestion, SHA-256 staging, quarantine, reconciliation (Service D)
+│   └── profile_gen/                     #   Service B exports (JSON/CSV, attribution, confidentiality guard)
+├── migrations/                          # [PLANNED - Phase 2] V001__initial_31_entity_schema.sql, V002__*.sql
+├── app/streamlit/                       # [PLANNED - Phase 9] 11-view Streamlit application (thin adapters only)
+└── tests/                               # Unit, integration, statistical, adversarial, and architecture import tests
+```
+
+---
+
+## Appendix A — Historical v1.0.0 Specification (superseded, preserved for audit)
+
+The following is the superseded v1.0.0 specification. It is retained **for audit
+continuity only** and must not be read as the current architecture.
+
+### A.1 Superseded Architecture Statement
+> Multi-Tier Analytical Architecture: Client Presentation (Next.js 15, Tailwind CSS 3.4,
+> Apache ECharts 5.5, Recharts 2.12, React Flow 11.11) ↔ REST API & Service Layer
+> (FastAPI, ASGI Uvicorn, Pydantic v2, Redis 7.2) ↔ Analytics & Tactical Simulation
+> Engine (Python 3.13 / 3.11+, NumPy 1.26+, Pandas 2.2+, SciPy) ↔ Central Normalized
+> Relational Core (PostgreSQL 16, 20 Discrete Entities, Declarative Partitioning) ↔
+> Ingestion & Contextual Enrichment Pipeline (CricSheet JSON v1.3.0 / YAML v0.94 in
+> `CricSheet/`, Kaggle Historicals, Open-Meteo Historical Weather, HawkeyeStats Tracking
+> Telemetry). **Superseded by the MIE + 6 engines + 5 services architecture over the
+> 31-entity core with `datasets/` as the data path.**
+
+### A.2 Superseded v1 Feature Inventory (F01–F25, all PLANNED, now re-mapped)
+| # | Feature | v1 Category | v2.1.0 Disposition |
+|---|---|---|---|
+| F01 | Ball-by-Ball Context Valuation (TSR/TER) | Match Impact | Post-MVP analytics depth (CMIE/CPPAE); not in MVP |
+| F02 | Win Probability Added (WPA) & xR | Match Impact | Post-MVP |
+| F03 | Clutch Index & Leverage | Match Impact | Superseded by CMIE "measurable high-leverage contribution" (DATA_DICTIONARY M06); mental-state inference prohibited |
+| F04 | Pitch & Ground Behavioral Profiling | Venue Profiling | CMIE pitch reporting (text preserved; ratings methodology-bound) |
+| F05 | SMS Jaipur Fortress Engine | Venue Profiling | Post-MVP venue profiling (out of MVP scope) |
+| F06 | Environmental & Dew Factor Correlation | Venue Profiling | CMIE weather-as-context (no dew-imputed pitch claims) |
+| F07 | Batter vs Bowling Type Profiling | Tactical Matrix | CPPAE B14/B15 (style-class splits) |
+| F08 | Head-to-Head Batter vs Bowler | Tactical Matrix | CPPAE B13/W10 (sample-visible) |
+| F09 | Pitch Trajectory & Length | Tactical Matrix | Post-MVP (HawkeyeStats UNVERIFIED; third-party, not official Hawk-Eye) |
+| F10 | Multi-Format Workload | Fatigue | Post-MVP (not in MVP; no unvalidated fatigue curves) |
+| F11 | Schedule Congestion & Travel | Fatigue | Post-MVP |
+| F12 | Injury & Availability | Fatigue | CMIE/CPPAE verified-only availability (`player_injuries`, `player_availability`); no unvalidated risk scores |
+| F13 | Expected Auction Price (EAP) | Valuation | **Post-MVP** — no probabilities from unvalidated models (SICE guardrail) |
+| F14 | VORP | Valuation | Post-MVP |
+| F15 | Role Scarcity Multipliers | Valuation | Post-MVP |
+| F16 | Playing XI Constraint Optimizer | Squad Simulation | Post-MVP |
+| F17 | Impact Player Deployment | Squad Simulation | Post-MVP |
+| F18 | Monte Carlo Tournament Simulator | Squad Simulation | Post-MVP (deterministic seed if implemented) |
+| F19 | Cross-Competition Normalisation | Scouting | Prohibited without documented normalisation factors (NFR-04) |
+| F20 | Diamond-in-the-Rough Filter | Scouting | Superseded by the **Top-10 youngest eligible uncapped deliverable** (PRD §4.3; transparent role-aware ranking, versioned weights) |
+| F21 | Multi-Source Player Identity Resolution | Core Data | PIRE (deterministic tiers; `agent_pire`) |
+| F22 | Multi-Format Ingestion Engine | Ingestion | Service A ingestion (JSON v1.3.0 local; YAML not present locally — `datasets/` are all JSON) |
+| F23 | DLS Par & Revised Target Reconciler | Ingestion | CPPAE/CMIE DLS rules (DATA_DICTIONARY global conventions) |
+| F24 | Super Over Isolation | Core Data | Enforced in DDL (`innings.is_super_over`) + DATA_DICTIONARY exclusions |
+| F25 | Central 20-Entity Schema | Architecture | Superseded by the 31-entity remediated DDL (TRD §10) |

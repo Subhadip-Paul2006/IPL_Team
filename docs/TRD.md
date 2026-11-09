@@ -1,40 +1,44 @@
 # Technical Requirements Document (TRD) & Central Database Schema
 **Product**: RR Squad Intelligence & Team Composition Platform
 **Focus Franchise**: Rajasthan Royals (RR) · **Primary Interface**: Streamlit (initial) · **Future Frontend**: Next.js
-**Document Version**: 2.0.0-ARCH-REVISION
+**Document Version**: 2.1.0-REMEDIATED
 **Status**: [STATUS: PLANNED - GREENFIELD BASELINE]
 **Author**: Engineering Architecture Team (`teamwork_worker_2`)
 
-> **Revision Note (v2.0.0)**: This document was revised to reflect the pivot from a
-> *historical player analytics / auction war-room system* to the **RR Squad Intelligence &
-> Team Composition Platform**. All six specialised engines, the Mother Intelligence Engine
-> (MIE) orchestration layer, five support services, the six-class membership taxonomy, and
-> the expanded 27-entity database are specified here. The initial user interface is
-> **Streamlit**; the engine layer is **frontend-agnostic** so a future Next.js frontend can
-> reuse it. All raw data now resides in `datasets/` (previously referenced as `CricSheet/`).
+> **Revision Note (v2.1.0, remediation)**: This revision corrects the v2.0.0 DDL (invalid
+> expression UNIQUE constraint, missing partitioned-table FKs, soft delivery links, false-claim
+> defaults, overs datatype), replaces the competition-level `seasons.is_suspension` model with a
+> franchise-level **`team_season_participation`** entity, splits the six-class membership taxonomy
+> into **three independent dimensions** (RR relationship · currency · IPL eligibility), adds
+> versioned **eligibility policies**, revises PIRE terminology (contextual attribute
+> corroboration, not "biometric") and confidence semantics, and gives CDCRE **two** capabilities
+> (pre-identity candidate discovery + post-identity career retrieval) to remove the MIE circular
+> dependency. Entity count: **31**. The metric dictionary now lives in
+> [`docs/DATA_DICTIONARY.md`](DATA_DICTIONARY.md); the source register in
+> [`docs/DATA_SOURCE_REGISTER.md`](DATA_SOURCE_REGISTER.md).
 
 ---
 
 ## 1. System Overview & Technical Architecture
 
 > **Architecture Baseline Status**: `[STATUS: PLANNED - GREENFIELD BASELINE]`
-> All schemas, database tables, partition schemes, mathematical models, engine contracts,
-> and service interfaces defined in this document represent the approved architectural
-> specification for greenfield implementation. Zero application code currently exists.
+> All schemas, database tables, partition schemes, mathematical models, engine contracts, and
+> service interfaces represent the approved architectural specification for greenfield
+> implementation. **Zero application code currently exists.**
 
 The **RR Squad Intelligence & Team Composition Platform** is an evidence-backed decision-support
 system for constructing and evaluating a Rajasthan Royals team. The primary workflow is:
 
 1. A user creates a team.
 2. The user enters a cricket player's name.
-3. The system identifies the player (**PIRE**).
-4. The system checks whether the player exists in the internal database.
-5. Where necessary, the system performs **authorised external research** to discover and verify
-   the player's identity and cricket history (**CDCRE** + external research).
-6. The system determines whether the player has represented Rajasthan Royals (**TMVE**).
-7. It distinguishes **historical RR players from current RR squad members**.
-8. It retrieves and analyses the player's cricket career (**CDCRE**).
-9. It evaluates the player's performance, contribution and role (**CPPAE**).
+3. **Pre-identity candidate discovery** (CDCRE capability 1) gathers raw-name evidence.
+4. The system identifies the player (**PIRE**), corroborated by discovered candidates;
+   ambiguous identities go to **user clarification**.
+5. The system checks whether the player exists in the internal database.
+6. Where necessary, authorised external research discovers and verifies identity and history.
+7. The system determines RR representation (**TMVE**) across the three independent dimensions.
+8. It retrieves and analyses the player's complete cricket career (**CDCRE** capability 2).
+9. It evaluates performance, contribution and role (**CPPAE**).
 10. It presents an evidence-backed player profile (**MIE**).
 11. The user adds the player to a team composition (**Team Builder Service**).
 12. The Squad Intelligence Engine evaluates the complete team (**SICE**).
@@ -57,26 +61,27 @@ system for constructing and evaluating a Rajasthan Royals team. The primary work
 ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐ ┌──────────────┐
 │ ENGINE 01     │ │ ENGINE 02     │ │ ENGINE 03     │ │ ENGINE 04     │ │ ENGINES 05/06│
 │ PIRE         │ │ TMVE         │ │ CDCRE        │ │ CPPAE        │ │ CMIE / SICE  │
-│ Identity Res. │ │ Membership   │ │ Career Disc. │ │ Performance  │ │ Context/ Squad │
+│ Identity Res. │ │ Membership   │ │ Candidate +  │ │ Performance  │ │ Context/ Squad │
+│              │ │ Verification  │ │ Career Disc. │ │              │ │              │
 └──────┬───────┘ └──────┬───────┘ └──────┬───────┘ └──────┬───────┘ └──────┬───────┘
-       │                │                │                │                │
        ▼                ▼                ▼                ▼                ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │                    SUPPORT SERVICES                                          │
-│  A. Data Ingestion · B. Player Profile Gen · C. Source Verification &       │
+│  A. Data Ingestion · B. Player Profile Generator · C. Source Verification & │
 │     Provenance · D. Data Quality & Coverage · E. Team Builder               │
-└─────────────────────────────────────────────┬───────────────────────────────┘
+└──────────────────────────────────────────────────────────────────────────────┘
                                               │ Read / derive (deterministic)
                                               ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│              Central PostgreSQL 16 Normalised Core (27 Entities, 3NF)       │
-│   players, player_aliases, teams, competitions, seasons, squad_memberships,│
-│   player_team_history, matches, innings, deliveries, batting_innings,      │
-│   bowling_spells, fielding_events, wicketkeeping_events, venues,           │
-│   pitch_conditions, weather_conditions, player_availability,               │
-│   player_injuries, player_awards, player_competition_history, user_teams,   │
-│   user_team_players, data_sources, source_records, verification_records,    │
-│   derived_features                                                          │
+│       Central PostgreSQL 16 Normalised Core (31 entities, 3NF core)          │
+│   players, player_aliases, teams, competitions, seasons,                    │
+│   team_season_participation, squad_memberships, player_team_history,        │
+│   matches, innings, deliveries, batting_innings, bowling_spells,           │
+│   fielding_events, wicketkeeping_events, venues, pitch_conditions,         │
+│   weather_conditions, player_availability, player_injuries, player_awards, │
+│   player_competition_history, player_membership_state, eligibility_policies,│
+│   player_eligibility, user_teams, user_team_players, data_sources,         │
+│   source_records, verification_records, derived_features                    │
 └──────────────────────────────────────▲──────────────────────────────────────┘
                                        │ Batch ELT (immutable raw payloads)
 ┌──────────────────────────────────────┴──────────────────────────────────────┐
@@ -88,26 +93,26 @@ system for constructing and evaluating a Rajasthan Royals team. The primary work
 ### 1.1 Architectural Subsystems
 
 1. **Presentation Tier (Streamlit, initial)**: Streamlit application exposing the 11 required
-   views (§12). UI components call MIE and are **strictly separated** from analytics
-   calculations; session state is used cautiously (see §12.2).
-2. **Mother Intelligence Engine (MIE)**: The central orchestrator (§2). MIE does **not**
-   invent statistics or make unsupported membership decisions; it coordinates the six engines,
-   merges their outputs, and returns structured responses to the UI.
+   views (§12). UI components call MIE and are **strictly separated** from analytics;
+   `st.session_state` is used for ephemeral UI state only (§12.2).
+2. **Mother Intelligence Engine (MIE)**: central orchestrator (§2). MIE does **not** invent
+   statistics or make membership/eligibility decisions; it coordinates the six engines, merges
+   outputs, and returns structured responses.
 3. **Six Specialised Engines (ENGINE 01–06)**: PIRE, TMVE, CDCRE, CPPAE, CMIE, SICE — each with
    a documented input/output contract (§3–§8).
-4. **Five Support Services (A–E)**: Data Ingestion, Player Profile Generator, Source Verification
-   & Provenance, Data Quality & Coverage, Team Builder (§9).
-5. **Central Normalised Relational Core (PostgreSQL 16, 27 entities)**: strict 3NF, canonical
-   `player_id` across all engines, declarative season partitioning on `deliveries` (§4).
-6. **Data Ingestion & ELT Pipeline**: immutable raw staging with SHA-256 provenance, quarantining
-   of malformed payloads (§9.1).
+4. **Five Support Services (A–E)**: §9.
+5. **Central Normalised Relational Core (PostgreSQL 16, 31 entities)**: normalised 3NF core
+   with canonical `player_id` across all engines and declarative season partitioning on
+   `deliveries` (§10). `derived_features` is a deliberately denormalised feature store,
+   documented as the one non-3NF table.
+6. **Data Ingestion & ELT Pipeline**: immutable raw staging with SHA-256 provenance and
+   quarantining (§9.1).
 
 ### 1.2 Frontend-Agnostic Engine Contract
-
-All six engines and the MIE expose **typed, versioned Python interfaces** (request/response data
-classes or Pydantic models) independent of any UI framework. Streamlit is the **initial** consumer
-only; the same engine layer is consumable by a future Next.js frontend without modification.
-No engine imports Streamlit, React, or any UI runtime.
+All six engines and MIE expose **typed, versioned Python interfaces** (request/response data
+classes or Pydantic models) independent of any UI framework. Streamlit is the **initial**
+consumer only; a future Next.js frontend reuses the identical contracts. No engine imports
+Streamlit, React, or any UI runtime.
 
 ---
 
@@ -116,7 +121,7 @@ No engine imports Streamlit, React, or any UI runtime.
 **ENGINE 00 — Mother Intelligence Engine (MIE)**
 
 ### 2.1 Responsibilities
-- Accept player search requests (from Streamlit or any frontend-agnostic API).
+- Accept player search requests (from Streamlit or any frontend-agnostic consumer).
 - Coordinate the six specialised engines in the correct dependency order.
 - Manage the player identification workflow end-to-end.
 - Trigger internal database searches; trigger **authorised external research** when internal
@@ -124,16 +129,17 @@ No engine imports Streamlit, React, or any UI runtime.
 - Route records to the appropriate analytics modules.
 - Merge engine outputs into a unified player intelligence report.
 - Maintain player identity consistency (single canonical `player_id` per real-world person).
-- Track verification status across identity, membership, and eligibility dimensions.
-- Manage confidence scores and source provenance (via Support Service C).
-- Produce unified, structured responses returned to the UI layer.
+- Track verification status across identity, membership, eligibility, and career dimensions.
+- Manage confidence and source provenance (via Support Service C).
+- Produce unified, structured responses returned to the UI.
 
 ### 2.2 MIE Input / Output Contract
 ```
 MIE.request_player_intelligence(name: str, team_id: Optional[UUID]) -> PlayerIntelligenceReport
 PlayerIntelligenceReport {
-    identity:       PIRE.Output            # resolved player_id + confidence + warnings
-    membership:     TMVE.Output            # six-class classification + evidence
+    identity:       PIRE.Output            # resolved player_id + tier + evidence + warnings
+    membership:     TMVE.Output            # three dimensions + evidence (independent states)
+    eligibility:    EligibilityOutput      # season-bound, policy-versioned (see §4.6)
     career:         CDCRE.Output           # competition history + coverage status
     performance:    CPPAE.Output           # batting/bowling/fielding/WK/match contribution
     context:        CMIE.Output            # environmental & match-condition annotations
@@ -143,22 +149,33 @@ PlayerIntelligenceReport {
 }
 ```
 
-### 2.3 Orchestration Sequence (Happy Path)
-1. `PIRE.resolve(name)` → canonical `player_id`, confidence, ambiguity flags.
-2. If unresolved or low-confidence → **authorised external research** (CDCRE + research service);
-   if still ambiguous → request **user clarification** (do not guess).
-3. `TMVE.verify(player_id)` → membership class + RR seasons + verified appearance count.
-4. `CDCRE.discover(player_id)` → career across competitions + coverage/provenance.
-5. `CPPAE.analyse(player_id)` → full performance profile.
-6. `CMIE.contextualise(player_id)` → condition annotations per match situation.
-7. If `team_id` supplied → `SICE.evaluate(team_id)` → squad report.
-8. MIE merges outputs, attaches provenance (Service C) and coverage (Service D), and returns.
+### 2.3 Orchestration Sequence (revised — no circular dependency)
+1. `CDCRE.discover_candidates(name)` — **pre-identity** candidate discovery: retrieve candidate
+   records (internal aliases + authorised external research) that *corroborate* the raw name.
+   This step works on raw names; it does **not** require a canonical `player_id`.
+2. `PIRE.resolve(name, candidates)` — deterministic tiered identity resolution using the
+   discovered candidates as corroboration. If the identity is ambiguous or unresolved →
+   **request user clarification / human review**; MIE does not guess.
+3. On resolution: canonical `player_id`.
+4. `TMVE.verify(player_id)` — three-dimension membership evaluation (RR relationship, currency,
+   evidence); triggers authorised research only where internal records are insufficient.
+5. `CDCRE.discover_career(player_id)` — **post-identity** full career retrieval + coverage.
+6. `CPPAE.analyse(player_id)` → `CMIE.contextualise(player_id)`.
+7. Eligibility: `EligibilityOutput` computed against the active `eligibility_policies` version
+   for the target season; `NOT_ASSESSED` until TMVE/research evidence supports a status.
+8. If `team_id` supplied → `SICE.evaluate(team_id)` → squad report.
+9. MIE merges, attaches provenance (Service C) and coverage (Service D), and returns.
+
+> **Process invariant**: `Raw name → candidate discovery → identity corroboration → canonical
+> player ID → membership verification → career retrieval → analytics`. CDCRE capability 1
+> never requires a canonical player ID; capability 2 operates only on resolved IDs.
 
 ### 2.4 MIE Guardrails
-- MIE **never** fabricates statistics; every numeric value in its response is derived by CPPAE,
-  CMIE, or SICE from verified records.
-- MIE **never** makes unsupported membership decisions; it reports the TMVE classification verbatim.
-- If any engine returns `UNVERIFIED`, MIE surfaces that flag — it does not silently resolve it.
+- MIE **never** fabricates statistics; every numeric value is derived by CPPAE, CMIE, or SICE
+  from verified records.
+- MIE **never** makes membership or eligibility decisions; it reports TMVE and
+  `player_eligibility` states verbatim.
+- Any `UNVERIFIED`/`UNKNOWN`/`CONFLICT` result is surfaced, never silently resolved.
 
 ---
 
@@ -167,103 +184,143 @@ PlayerIntelligenceReport {
 **Purpose**: Resolve the actual identity of a player from a name supplied by the user.
 
 ### 3.1 Responsibilities
-- Exact-name matching.
-- Alias matching.
-- Name variations (abbreviations, expanded forms, transliterations).
-- Spelling variations.
-- Duplicate player detection.
-- Disambiguation when multiple players share a name.
-- Player ID resolution to a canonical `player_id`.
-- Date-of-birth verification where available.
-- Team and competition association as corroborating evidence.
+Exact-name matching · alias matching · name variations (abbreviations, expanded forms,
+transliterations) · spelling variations · duplicate detection · disambiguation when multiple
+players share a name · player ID resolution to canonical `player_id` · date-of-birth and
+team/competition **contextual attribute corroboration** (these are cricketing/registry
+attributes, **not** biometric identifiers).
 
 ### 3.2 Output Contract
 ```
-PIRE.resolve(input_name) -> PIRE.Output {
-    resolved_player_id:    Optional[UUID]   # NULL if unresolved
+PIRE.resolve(input_name, candidates) -> PIRE.Output {
+    resolved_player_id:    Optional[UUID]
     canonical_name:        Optional[str]
     known_aliases:         List[str]
-    identity_confidence:   float            # 0.0–1.0
+    identity_status:       'RESOLVED' | 'PROVISIONAL' | 'UNRESOLVED'
+    resolution_tier:       1..4                # deterministic outcome, see §3.3
     matching_records:      List[SourceRecord]
-    unresolved_warnings:   List[str]        # e.g. "multiple players share this name"
+    unresolved_warnings:   List[str]           # e.g. "two players share this name"
     requires_human_review: bool
 }
 ```
 
-### 3.3 Disambiguation Algorithm (4-tier waterfall)
-1. **Tier 1 — Canonical registry key**: exact CricSheet hex hash / BCCI / ESPN ID → confidence `1.000`.
-2. **Tier 2 — Verified alias registry**: exact match in `player_aliases` (`is_verified=TRUE`) → `1.000`.
-3. **Tier 3 — Deterministic contextual intersection**: surname + initials + team + match window;
-   unique match → `0.980`, insert alias (unverified).
-4. **Tier 4 — Probabilistic fuzzy + biometric**: Jaro-Winkler ≥ 0.92 AND Levenshtein ≤ 2,
-   cross-validated against role, batting/bowling hand, DOB, active era. Score ≥ 0.950 and
-   single candidate → link; else **quarantine** with `needs_review=TRUE`.
+### 3.3 Resolution Tiers (deterministic outcomes — not calibrated probabilities)
+1. **Tier 1 — Canonical registry key**: exact CricSheet hex hash / BCCI / ESPN ID →
+   `identity_status=RESOLVED`, tier 1.
+2. **Tier 2 — Verified alias registry**: exact match in `player_aliases` with
+   `is_verified=TRUE` → RESOLVED, tier 2.
+3. **Tier 3 — Deterministic contextual intersection**: surname + initials + team + match
+   window yielding exactly one candidate → RESOLVED, tier 3; alias inserted unverified.
+4. **Tier 4 — Probabilistic fuzzy + contextual attribute corroboration**: Jaro-Winkler ≥ 0.92
+   AND Levenshtein ≤ 2 as **tunable matching thresholds** against DOB/role/hand/active-era
+   corroboration. Single corroborated candidate → PROVISIONAL (alias `is_verified=FALSE`);
+   else UNRESOLVED, quarantined with `needs_review=TRUE`.
 
-> **Mandatory rule**: **Never merge two players merely because their names are similar.**
-> Ambiguity below the confidence floor is routed to human review, not auto-resolved.
+> **Confidence semantics (correction)**: the tier outcome is deterministic. The numeric
+> thresholds above are **configuration parameters, not calibrated probabilities**. A numeric
+> `identity_confidence` value is exposed **only** after the resolution model has been
+> calibrated and validated against a labelled identity-resolution test set
+> (`calibrated=TRUE` flag required; otherwise the field stays `NULL`).
+> **Never merge two players merely because their names are similar** — ambiguity is routed to
+> user clarification / human review, never auto-resolved.
+> Identity confidence, membership verification confidence, career coverage completeness, and
+> eligibility confidence are **separate measurements** reported by their respective engines;
+> PIRE reports identity status only.
 
 ---
 
 ## 4. ENGINE 02 — Team Membership Verification Engine (TMVE)
 
-**Purpose**: Verify whether a player represented Rajasthan Royals, and distinguish historical from
-current membership.
+**Purpose**: Verify whether a player represented Rajasthan Royals, distinguishing relationship
+history, currency, and (independently) eligibility.
 
 ### 4.1 Responsibilities
-- Search internal historical membership records (`squad_memberships`, `player_team_history`).
-- Verify **actual RR match appearances** (from `matches`/`deliveries`), not just squad lists.
-- Verify historical squad inclusion.
-- Identify the RR seasons in which the player represented RR.
-- Identify other IPL teams the player has represented.
-- Verify **current** squad membership **separately** from historical membership.
-- Check retention / auction / transfer / release information where documented.
+- Search internal historical membership records (`squad_memberships`, `player_team_history`,
+  `team_season_participation`).
+- Verify **actual RR match appearances** (from `matches`/`deliveries`), distinct from squad
+  inclusion.
+- Identify RR seasons of representation using franchise participation: **RR 2008–2015**,
+  **RR suspended 2016–2017** (IPL continued; other franchises unaffected), **RR returned
+  2018–2026**, **IPL 2027 remains UNVERIFIED participation** until authoritative evidence
+  exists.
+- Identify other IPL teams and documented retention/auction/transfer/release facts.
+- Verify current squad membership **separately** from historical membership.
 - Perform **authorised external research** when internal records are insufficient.
 
 ### 4.2 Verification Hierarchy (evidence ranking)
-1. Official IPL and franchise records.
-2. Official match scorecards.
-3. BCCI records.
-4. Reliable cricket databases.
-5. Reputable secondary reporting.
+1. Official IPL and franchise records · 2. Official match scorecards · 3. BCCI records ·
+4. Reliable cricket databases · 5. Reputable secondary reporting.
 
-### 4.3 Six-Class Membership Taxonomy
-A player is assigned to **exactly one** class using verified evidence:
+### 4.3 Three Independent Membership/Eligibility Dimensions
+These dimensions are stored in `player_membership_state` (relationship + currency) and
+`player_eligibility` (eligibility, season-bound) and must **never be conflated** into one
+label. A former RR player can simultaneously have a separately assessed uncapped-eligibility
+state; a player unknown to the internal database is **never** auto-classified as uncapped.
 
-| Class | Definition |
+#### Dimension 1 — RR relationship (`rr_relationship_state`)
+| State | Definition |
 |---|---|
-| `CURRENT_SQUAD` | Verified current-season squad evidence. Assigned **only** with such evidence. |
-| `HISTORICAL_RR_PLAYER` | Verified RR match appearances or squad inclusion in a prior season. |
-| `PREVIOUSLY_ASSOCIATED` | Documented prior association (loan, brief squad, release) without confirmed RR match. |
-| `NEVER_REPRESENTED_RR` | Verified record base shows no RR representation. |
-| `UNVERIFIED` | Identity or membership could not be established; **not** treated as non-member. |
-| `ELIGIBILITY_UNVERIFIED` | Identity known but playing eligibility/uncapped status unconfirmed. |
+| `CURRENT_RR_SQUAD` | Verified current-season RR squad evidence. |
+| `HISTORICAL_RR_APPEARANCE` | Verified RR match appearance in a prior season. |
+| `HISTORICAL_RR_SQUAD_ONLY` | Verified RR squad inclusion without a confirmed appearance. |
+| `PREVIOUSLY_ASSOCIATED` | Documented prior association (loan, brief squad, release) with evidence, no confirmed match. |
+| `NO_VERIFIED_RR_RELATIONSHIP` | No verified relationship — **only** via the §4.5 negative-verification requirements. |
+| `RR_RELATIONSHIP_UNKNOWN` | Insufficient evidence; must not be reported as "never played RR". |
+
+#### Dimension 2 — Current membership verification (`rr_current_state`)
+`CURRENT` · `NOT_CURRENT` · `UNKNOWN` — verified independently of relationship history.
+
+#### Dimension 3 — IPL eligibility / uncapped classification (`eligibility_status`)
+`VERIFIED_ELIGIBLE` · `VERIFIED_NOT_ELIGIBLE` · `ELIGIBILITY_UNVERIFIED` · `NOT_ASSESSED` —
+always season-bound and policy-versioned (§4.6); `NOT_ASSESSED` is the default for any player
+whose eligibility has not been independently verified.
 
 ### 4.4 Output Contract
 ```
-TMVE.verify(player_id) -> TMVE.Output {
-    current_squad_status:   Optional[str]      # verified current membership or NULL
-    historical_rr_status:   bool              # TRUE/FALSE/NULL (unknown)
-    rr_seasons:             List[str]         # seasons in which player represented RR
-    other_ipl_teams:        List[str]
-    verified_rr_appearances:int              # confirmed match count (0 allowed, ≠ unknown)
-    membership_class:       enum(6 classes)
-    evidence_urls:          List[SourceRecord]
-    verification_date:      date
-    confidence_level:       float
+TMVE.verify(player_id, as_of_date) -> TMVE.Output {
+    rr_relationship_state:   enum(Dimension 1)
+    rr_current_state:        enum(Dimension 2)
+    rr_seasons:              List[str]       # verified RR seasons (2008-2015 | 2018-2026 verified so far; 2027 unverified)
+    other_ipl_teams:         List[str]
+    verified_rr_appearances: int             # confirmed match count; 0 is a value, not "unknown"
+    evidence:                List[SourceRecord]
+    verification_date:       date
+    membership_confidence:   Optional[float]  # NULL unless calibrated (see §3.3 semantics)
 }
 ```
 
-### 4.5 TMVE Guardrails
-- **Squad inclusion ≠ match appearance**: a player appearing on an RR squad list is not assumed
-  to have played a match.
-- **Historical membership ≠ current membership**: a player who played for RR in a prior season is
-  **not** automatically `CURRENT_SQUAD`.
-- **Suspension period represented separately**: RR was suspended for IPL 2016 and 2017 and returned
-  in 2018. RR franchise-membership analysis begins **2008–2015**; the 2016–2017 suspension is a
-  distinct representation; post-return analysis covers **2018 onwards**, with the primary window
-  **2018–2026**. **IPL 2027 is a future target season** and is not treated as verified participation
-  until squad records are confirmed.
-- **Absence of a search result is not proof of non-membership** — that is the `UNVERIFIED` class.
+### 4.5 Negative Membership Verification Requirements
+A player may be classified `NO_VERIFIED_RR_RELATIONSHIP` **only** when all of the following
+are satisfied (documented per player in `verification_records`):
+1. **Historical coverage scope**: verified squad-list coverage exists for every RR season in
+   scope (2008–2015, 2018–2026 verified; 2027 requires official squad publication).
+2. **Relevant RR seasons**: the player's active career window overlaps the in-scope seasons
+   (a player debuting in 2024 is not "verified absent" in 2009).
+3. **Squad-list coverage**: official/authoritative squad lists for in-scope seasons have been
+   consulted; absence from *one* dataset or *one* search engine is **not** proof of
+   non-membership.
+4. **Scorecard coverage**: verified absence from RR match records in the covered window.
+5. **Source quality**: at least one tier-1/2 source (official records or official scorecards).
+6. **Conflicting evidence handling**: any single contradicting record forces
+   `RR_RELATIONSHIP_UNKNOWN` and routes to human review.
+7. **Human-review requirement**: negative classifications are always human-reviewed before
+   publication.
+If the evidence base is incomplete, return `RR_RELATIONSHIP_UNKNOWN`, never a negative.
+
+### 4.6 Eligibility Policy (versioned)
+Uncapped-player eligibility rules are **not** hardcoded. They are represented as
+`eligibility_policies` rows: season-specific, versioned, traceable to the official IPL/BCCI
+rule reference (`rule_source`), independently verified (`verified=TRUE` + verification record),
+and effective-date aware (`effective_date`/`expiry_date`). `player_eligibility` rows always
+carry `policy_id`.
+
+### 4.7 TMVE Guardrails
+- **Squad inclusion ≠ match appearance**; **historical membership ≠ current membership**.
+- The RR 2016–2017 suspension is a **franchise participation state**
+  (`team_season_participation.participation_status='SUSPENDED'`), not a competition-level
+  property: IPL 2016/2017 seasons exist with all other franchises `PARTICIPATING`.
+- **IPL 2027 is a future target season**: RR's 2027 participation row is `UNKNOWN` until
+  authoritative squad/participation evidence is verified.
 
 ---
 
@@ -271,84 +328,95 @@ TMVE.verify(player_id) -> TMVE.Output {
 
 **Purpose**: Discover a player's complete available cricket career **beyond RR**.
 
-### 5.1 Competitions Investigated
+### 5.1 Two Capabilities (resolves the MIE circular dependency)
+1. **`discover_candidates(raw_name)` — pre-identity**: given a raw name string (no canonical
+   `player_id`), gather candidate records and corroborating evidence from internal aliases and
+   authorised external research; returns candidates + per-source provenance. Feeds PIRE.
+2. **`discover_career(player_id)` — post-identity**: given a canonical `player_id`, retrieve the
+   complete verified career across competitions with four-state coverage.
+
+### 5.2 Competitions Investigated
 Previous IPL franchises · domestic state teams · Ranji Trophy · Syed Mushtaq Ali Trophy · Vijay
 Hazare Trophy · Duleep Trophy · India A and age-group cricket · international cricket · other
-recognised T20 leagues · other verified competitions.
+recognised T20 leagues · other verified competitions. **Local data note**: SMAT is
+`DATASET_UNAVAILABLE` in the current local lake (see `docs/DATA_SOURCE_REGISTER.md`);
+discovery of SMAT participation requires external research and is provenance-tracked.
 
-### 5.2 Responsibilities
-- Discover relevant competitions and team history.
-- Retrieve available player statistics per competition.
-- Identify season participation and career gaps.
-- Track data coverage (which competitions are present/absent in the local data lake).
-- Record source provenance for every external claim.
+### 5.3 Responsibilities
+Discover competitions and team history · retrieve available statistics · identify season
+participation and career gaps · track data coverage · record provenance for every external claim.
 
-### 5.3 Output Contract
+### 5.4 Output Contracts
 ```
-CDCRE.discover(player_id) -> CDCRE.Output {
-    competitions:      List[{competition, seasons[], verified_appearances, stats, coverage_status}]
-    career_gaps:       List[str]
-    data_coverage:     {verified: [...], dataset_unavailable: [...], not_established: [...],
-                        confirmed_non_participation: [...]}
-    provenance:        List[SourceRecord]
+CDCRE.discover_candidates(raw_name) -> CDCRE.CandidateOutput {
+    candidates:  List[{name_variants[], team_hints[], season_hints[], source_records[], reliability}]
+    ambiguity:   'NONE' | 'SINGLE_CORROBORATED' | 'MULTIPLE'
+}
+
+CDCRE.discover_career(player_id) -> CDCRE.Output {
+    competitions:  List[{competition, seasons[], verified_appearances, stats, coverage_status}]
+    career_gaps:   List[str]
+    data_coverage: {verified: [...], dataset_unavailable: [...], not_established: [...],
+                    confirmed_non_participation: [...]}
+    provenance:    List[SourceRecord]
 }
 ```
 
-### 5.4 CDCRE Guardrails
-- **Do not assume** a player who is absent from a dataset never played that competition.
-- Distinguish **four** coverage states explicitly:
-  1. *Verified participation* — confirmed by a verified source.
-  2. *Dataset coverage unavailable* — not present in the local lake; status unknown.
-  3. *Participation not established* — no evidence for or against; must not be reported as "none".
-  4. *Confirmed non-participation* — a source positively confirms the player did not take part.
+### 5.5 CDCRE Guardrails
+- **Do not assume** a player absent from a dataset never played that competition.
+- Four coverage states, used explicitly: *verified participation* · *dataset coverage
+  unavailable* · *participation not established* · *confirmed non-participation*.
+- External research follows the §4.2 hierarchy; every claim lands in `verification_records`.
 
 ---
 
 ## 6. ENGINE 04 — Complete Player Performance Analytics Engine (CPPAE)
 
-**Purpose**: Generate a comprehensive, evidence-backed player performance profile. Every statistic
-produced by CPPAE has a **documented definition and calculation method** (see §6.6). Unverified
-statistics are **not** computed from incomplete data.
+**Purpose**: Generate a comprehensive, evidence-backed performance profile.
 
-### 6.1 Batting
-Innings · matches · runs · average · strike rate · boundaries (4s/6s) · dot balls · batting
-positions · performance split by opening / top-order / middle-order / finishing · performance
-against individual bowlers · performance against pace vs spin · performance against bowling styles
-and verified delivery variations · powerplay / middle-over / death-over performance · performance in
-successful vs unsuccessful matches · partnership contributions.
+**Every metric produced by CPPAE is defined in [`docs/DATA_DICTIONARY.md`](DATA_DICTIONARY.md)
+with its formula, numerator/denominator, source fields, exclusions, format restrictions, phase
+rules, null handling, minimum sample, and observed/derived/model-inferred class.** No metric
+exists outside that dictionary.
 
-### 6.2 Bowling
-Overs · runs conceded · wickets · economy · average · bowling strike rate · dot balls · powerplay /
-middle / death performance · batter-specific matchups · pace and spin classifications · delivery
-speed and line/length **where available** (NULL when unrecorded).
+### 6.1 Metric Families
+- **Batting**: matches · innings · runs · average · strike rate · balls faced · boundaries ·
+  boundary % · dot-ball % · batting position · position-specific splits · opening/
+  top-order/middle-order/finishing · vs individual bowlers · vs pace/spin · vs bowling style
+  and verified delivery variations · powerplay/middle/death splits · win/loss splits ·
+  partnership contributions.
+- **Bowling**: overs (ball count of record: integer legal balls; over notation derived) ·
+  runs conceded · wickets · economy · average · bowling strike rate · dot % · phase splits ·
+  batter-specific matchups · pace/spin classification · delivery speed and line/length
+  **where available** (`NULL` when unrecorded).
+- **Fielding**: catches · run-outs · stumpings · recorded dropped catches (recorded only;
+  absence from a scorecard ≠ 0) · boundary saves (recorded only) · opportunities · positions
+  where verified · contribution measures.
+- **Wicketkeeping**: dismissals · catches · stumpings · recorded missed chances (recorded
+  only) · appearances.
+- **Match contribution**: POTM awards (**an input signal, not a measure of total impact**) ·
+  participation · batting/bowling contribution · match situation · win/loss performance ·
+  measurable high-leverage contribution (leverage situations measured from state data, never
+  inferred mental state).
 
-### 6.3 Fielding
-Catches · run-outs · stumpings · recorded dropped catches · fielding opportunities · fielding
-positions (where verified) · fielding contribution.
+### 6.2 Statistical Guardrails
+- **Format-aware only**: IPL/T20, List A, and first-class statistics are never mixed without
+  explicit `format_tag` and documented normalisation.
+- **No zero-imputation**: missing → `NULL`; a player who did not bowl has a `NULL` economy.
+- **No false-shot frequency**: no available source records false shots; the metric is
+  `NOT_COMPUTABLE_FROM_AVAILABLE_SOURCES` in the dictionary and is never estimated.
+- **Sample-size visibility**: every metric response includes the underlying sample counts
+  (matches/balls faced/overs) so tiny and large samples are always distinguishable.
+- **Super Over isolation** and **DLS normalisation** per `docs/AI_INSTRUCTIONS.md`.
 
-### 6.4 Wicketkeeping
-Dismissals (catches + stumpings) · recorded missed chances · wicketkeeping appearances.
-
-### 6.5 Match Contribution
-Player-of-the-match awards · match participation · batting and bowling contribution · match
-situation · contribution to team outcomes · performance under pressure **where measurable**
-(leverage-based, not inferred mental state).
-
-### 6.6 Statistical Guardrails
-- **Format-aware comparisons only**: IPL / T20 / List A / first-class statistics are never mixed
-  without an explicit format tag.
-- **No zero-imputation**: missing figures stay `NULL`; a player who did not bowl has a `NULL`
-  economy, not `0.00`.
-- **Super Over isolation**: Super Over balls are segregated from career aggregates.
-- **No mental-state inference**: performance under pressure is expressed via measured leverage
-  situations, never as a claim about a player's psychology.
-
-### 6.7 Output Contract
+### 6.3 Output Contract
 ```
 CPPAE.analyse(player_id, formats=[...], window="career") -> CPPAE.Output {
-    batting:    {…}, bowling: {…}, fielding: {…}, wicketkeeping: {…},
-    match_contribution: {…},
-    per_stat:   {stat_name: {value, definition, formula, source, format_tag, null_reason?}}
+    batting: {...}, bowling: {...}, fielding: {...}, wicketkeeping: {...},
+    match_contribution: {...},
+    samples:   {matches, innings, balls_faced, legal_balls_bowled, ...},
+    per_stat:  {name: {value, definition_ref, formula, source_fields, format_tag,
+                       null_reason?, status='OBSERVED'|'DERIVED'|'MODEL_INFERRED'}}
 }
 ```
 
@@ -356,31 +424,37 @@ CPPAE.analyse(player_id, formats=[...], window="career") -> CPPAE.Output {
 
 ## 7. ENGINE 05 — Contextual Match Intelligence Engine (CMIE)
 
-**Purpose**: Understand the environmental and match conditions in which a player performed.
+**Purpose**: Understand the environmental and match conditions in which a player performed,
+separating measured, reported, estimated, inferred, and unknown information.
 
 ### 7.1 Analysed Conditions
-Opposition · opposing batter/bowler · bowling style · delivery variations · delivery speed · line
-and length · venue · pitch type and reported conditions · grass coverage (where documented) ·
-weather · humidity · temperature · wind speed/direction · rainfall · dew observations · match
-format · innings · match phase · required run rate · score pressure · target · match result.
+Opposition · opposing batter/bowler · bowling style · delivery variations · delivery speed ·
+line and length · venue · **pitch: surface description, soil type, grass coverage, reported
+moisture/pace/bounce/spin, dry/damp/worn condition, preparation notes — original source
+description preserved**; numerical pitch ratings are produced **only** when a validated
+annotation methodology version exists (`ratings_methodology_version` set), otherwise `NULL`.
+**Weather: ambient context only** — temperature, RH, dew point, wind, rainfall, cloud cover,
+observation timestamp, venue coordinates, local timezone, provider, and the
+spatial/temporal matching method are all recorded; weather is never presented as a direct
+pitch measurement. Match format · innings · phase · required run rate · target · result.
 
 ### 7.2 Output Contract
 ```
 CMIE.contextualise(player_id) -> CMIE.Output {
-    match_contexts: List[{match_id, opposition, venue, pitch, weather, phase, rrr,
-                         result, provenance_flags[]}]
+    match_contexts: List[{match_id, opposition, venue, pitch{...}, weather{...},
+                          phase, rrr, target, result, provenance_tiers[]}]
 }
 ```
 
 ### 7.3 CMIE Guardrails
-- **Five provenance tiers** are attached to every contextual datum:
-  1. *Directly measured* — recorded by an authoritative instrument/official record.
-  2. *Officially reported* — published by a governing body.
-  3. *Third-party estimate* — reputable external estimate.
-  4. *Model-inferred* — derived by a documented model.
-  5. *Unknown* — not available.
-- **Weather must not be represented as a direct measurement of pitch conditions.** Ambient
-  macro-weather (e.g. Open-Meteo) is a context/dew proxy, explicitly labelled as such.
+- **Five provenance tiers** per datum: directly measured · officially reported · third-party
+  estimate · model-inferred · unknown.
+- Qualitative pitch reports are **preserved as text**; auto-numeric rating without a
+  validated methodology is prohibited.
+- **Player availability/injury data**: only publicly verified, legitimately accessible
+  information; no private medical data; no unvalidated recurrence probabilities
+  (`recurrence_risk_score` is `MODEL_INFERRED` and NULL until validated; unverified injuries
+  stay `verified=FALSE`).
 - **Never infer a player's mental state from match statistics.**
 
 ---
@@ -390,86 +464,103 @@ CMIE.contextualise(player_id) -> CMIE.Output {
 **Purpose**: Evaluate the team assembled by the user.
 
 ### 8.1 Responsibilities
-Analyse player roles · identify batting depth · identify bowling depth · analyse pace/spin balance
-· evaluate wicketkeeping options · evaluate all-rounder availability · analyse batting-order
-flexibility · identify role duplication · identify weak or missing roles · analyse historical
-player contribution · compare players occupying similar roles · identify potential replacements ·
-compare current squad players with new candidates · evaluate squad combinations.
+Role analysis · batting depth · bowling depth · pace/spin balance · wicketkeeping options ·
+all-rounder availability · batting-order flexibility · role duplication · weak/missing roles ·
+historical contribution analysis · comparisons of similar-role players · replacement
+identification · current-squad vs new-candidate comparison · squad-combination evaluation.
 
 ### 8.2 Output Contract
 ```
 SICE.evaluate(team_id) -> SICE.Output {
-    squad_overview:     {…}
-    role_distribution:  {…}
-    strengths:          [ ... ]
-    weaknesses:         [ ... ]
-    dependency_analysis:{…}        # e.g. single-point-of-failure roles
-    recruitment_priorities: List[{role, rationale, evidence}]
-    alternative_combinations: List[{members[], notes}]
-    recommendations:    List[{statement, evidence[], confidence}]
+    squad_overview, role_distribution, strengths[], weaknesses[],
+    dependency_analysis, recruitment_priorities[], alternative_combinations[],
+    recommendations: List[{statement, evidence[], confidence, label='ANALYTICAL_RECOMMENDATION'}]
 }
 ```
 
 ### 8.3 SICE Guardrails
-- **Do not confuse an analytical recommendation with an official RR selection or auction decision.**
-- **Do not generate recruitment probabilities** unless the underlying model has been statistically
-  validated and calibrated. Unvalidated outputs are presented as *evidence-backed qualitative
-  recommendations*, not probabilities.
+- Recommendations are labelled **analytical** — never official RR selections or auction decisions.
+- **No recruitment probabilities** unless the underlying model is statistically validated and
+  calibrated (`calibrated=TRUE`).
 
 ---
 
 ## 9. Support Services
 
 ### 9.1 Service A — Data Ingestion Service
-Imports: CricSheet datasets (`datasets/`), Kaggle datasets, HawkeyeStats, historical weather,
-official cricket records, verified research data. Immutable raw staging with SHA-256 digests;
-malformed payloads quarantined without halting the run.
+Imports CricSheet (`datasets/`), Kaggle, HawkeyeStats, historical weather, official records,
+and verified research data. Immutable raw staging (SHA-256), quarantining of malformed
+payloads without halting the run. Dataset availability and licences are governed by
+`docs/DATA_SOURCE_REGISTER.md` (statuses VERIFIED/PARTIALLY_VERIFIED/UNVERIFIED/UNAVAILABLE/
+RESTRICTED). **Known local gap: no SMAT archive present.**
 
 ### 9.2 Service B — Player Profile Generator
-Generates standardised **JSON and CSV** exports from the central database for a canonical
-`player_id`. Exports embed licensing attribution.
+Standardised **JSON/CSV** exports from the central database for a canonical `player_id`,
+embedding ODC-By/CC-BY attribution. Public exports never contain proprietary hackathon
+dataset content.
 
 ### 9.3 Service C — Source Verification & Provenance Service
-Records, for every external/derived claim: source URL · source provider · retrieval timestamp ·
-licence · verification status · confidence · original source record ID. Backed by
-`verification_records` and `data_sources`.
+For every external/derived claim: source URL · provider · retrieval timestamp · licence ·
+verification status · confidence (only when calibrated) · original source record ID
+(`verification_records`).
 
 ### 9.4 Service D — Data Quality & Coverage Service
-Detects: missing data · duplicates · conflicting statistics · invalid player associations ·
-inconsistent match identities · unavailable contextual features. Emits coverage states used by
-CDCRE and TMVE.
+Detects missing data · duplicates · conflicting statistics · invalid player associations ·
+inconsistent match identities (including **innings↔delivery consistency** checks: delivery
+`match_id` must equal its innings' `match_id`; innings delivery counts reconcile to
+`deliveries` aggregates) · unavailable contextual features. Emits coverage states consumed by
+CDCRE/TMVE.
 
 ### 9.5 Service E — Team Builder Service
-Manages user-created teams: player selection, removal, composition, role assignments, and saved
-team configurations. Backed by `user_teams` and `user_team_players`.
+User team lifecycle: create, add/remove players, composition, role and batting-order
+assignment, saved configurations (`user_teams`, `user_team_players`).
 
 ---
 
-## 10. Central Normalised PostgreSQL Database Schema (27 Entities)
+## 10. Central PostgreSQL 16 Database Schema (31 Entities)
 
-The data model enforces relational integrity across **27 entities**. Canonical `player_id` is the
-single join key across all engines. Raw payloads are kept separate from normalised records and
-from `derived_features`.
+Canonical `player_id` is the single join key across engines. Raw (`source_records`),
+normalised, and derived (`derived_features`) layers are strictly segregated. **31 logical
+entities** — two were added in this revision (`team_season_participation`,
+`player_membership_state`, `player_eligibility`, `eligibility_policies`) and the
+competition-level suspension flag removed.
 
 ### 10.1 Entity Domains
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────┐
 │ 1. INGESTION & PROVENANCE : data_sources, source_records, verification_records │
 │ 2. CORE IDENTITY          : players, player_aliases                             │
-│ 3. TEAMS & COMPETITIONS   : teams, competitions, seasons, squad_memberships,    │
-│                             player_team_history                                  │
-│ 4. MATCHES & CONDITIONS   : matches, venues, pitch_conditions, weather_conditions│
-│ 5. GRANULAR CRICKET CORE  : innings, deliveries (partitioned)                   │
-│ 6. SCORECARDS & FIELDING  : batting_innings, bowling_spells, fielding_events,   │
-│                             wicketkeeping_events                                  │
-│ 7. CAREER & ELIGIBILITY   : player_competition_history, player_awards,          │
-│                             player_availability, player_injuries                 │
+│ 3. TEAMS & COMPETITIONS   : teams, venues, competitions, seasons,              │
+│                             team_season_participation, squad_memberships,      │
+│                             player_team_history                                 │
+│ 4. MATCHES & CONDITIONS   : matches, pitch_conditions, weather_conditions      │
+│ 5. GRANULAR CRICKET CORE  : innings, deliveries (partitioned)                  │
+│ 6. SCORECARDS & FIELDING  : batting_innings, bowling_spells, fielding_events,  │
+│                             wicketkeeping_events                                │
+│ 7. CAREER & ELIGIBILITY   : player_competition_history, player_awards,         │
+│                             player_availability, player_injuries,              │
+│                             player_membership_state, eligibility_policies,    │
+│                             player_eligibility                                 │
 │ 8. USER TEAM COMPOSITION  : user_teams, user_team_players                       │
-│ 9. FEATURE STORE          : derived_features                                     │
+│ 9. FEATURE STORE          : derived_features                                    │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-### 10.2 Complete PostgreSQL 16 DDL
+### 10.2 DDL Design Decisions (remediation)
+| # | Decision | Rationale |
+|---|---|---|
+| D1 | `derived_features`: table UNIQUE constraint **removed**; replaced by a **unique expression index** `UNIQUE (player_id, feature_name, calculation_window, model_version, COALESCE(format_tag,''))` | PostgreSQL forbids expressions inside table-level UNIQUE constraints; expression indexes are the native mechanism and avoid a redundant mutable key column. |
+| D2 | `deliveries`: real FKs on `innings_id`, `match_id`, `batter_id`, `bowler_id`, `non_striker_id`, `player_out_id` (nullable) | Referential integrity. Target PostgreSQL 16 enforces FKs on partitioned referencing tables (supported since PG 15; load order: matches → innings → deliveries, FKs non-deferrable; on pre-15 engines these become enforced-by-check constraints — Phase 2 gate). Composite PK already includes the partition key `season_year`. |
+| D3 | `fielding_events`: `delivery_id` optional, integrity preserved via composite `(delivery_id, season_year)` FK to `deliveries(delivery_id, season_year)` + CHECK (both-or-none); partial unique index on (delivery, season_year, player_id, event_type) where delivery is present | Optional relationship stays optional but valid; NULL delivery links are recorded provenance (scorecard-level events without ball ids). |
+| D4 | `team_season_participation` replaces `seasons.is_suspension` | The RR 2016–17 suspension is franchise-specific; IPL continued for other teams. |
+| D5 | Membership split into `player_membership_state` + `player_eligibility` + `eligibility_policies` | Relationship, currency, and eligibility are independent dimensions (Part 4.2/4.4). |
+| D6 | `bowling_spells`: integer ball counts are the units of record; cricket over notation is a display derivation (`floor(balls/6)` and `balls % 6`); `overs_completed NUMERIC(4,1)` dropped | Decimal overs are ambiguous (13.4 ≠ 13+4/6); display formatting must never round-derive facts. |
+| D7 | `deliveries.runs_batter` cap 0..6 **removed** (non-negative check only); `runs_total` unrestricted non-negative | Overthrow sequences make total runs per delivery legally exceed 6; `runs_batter > 6` is flagged for DQ review rather than rejected. |
+| D8 | False-claim defaults removed: `national_board_noc_status` nullable (no default), `batting_innings.is_not_out` NOT NULL with no default, `wicketkeeping_events.appearances` NOT NULL with no default, `player_availability.availability_status` nullable | Unknowns must stay unknown (NULL) or be set explicitly from data, never defaulted into a fact. |
+| D9 | `deliveries.source_record_id` (nullable FK) | Ball-level provenance mapping to the ingesting raw record. |
+| D10 | `weather_conditions` gains timezone + spatial/temporal matching method columns; `pitch_conditions` gains `reported_description` + `ratings_methodology_version` | Measured-vs-reported separation (Part 7). |
+
+### 10.3 Complete PostgreSQL 16 DDL
 
 ```sql
 CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
@@ -485,6 +576,9 @@ CREATE TABLE data_sources (
         'JSON Feed','CSV Archive','REST API','Web Scraping / Official Feed','Manual Ingestion','External Research')),
     base_url         VARCHAR(255),
     license_type     VARCHAR(50) NOT NULL,
+    license_status   VARCHAR(20) NOT NULL DEFAULT 'UNVERIFIED'
+        CHECK (license_status IN ('VERIFIED','PARTIALLY_VERIFIED','UNVERIFIED','UNAVAILABLE','RESTRICTED')),
+    license_evidence TEXT,                       -- where the licence status was established
     update_cadence   VARCHAR(30) NOT NULL,
     data_steward     VARCHAR(100) NOT NULL,
     is_active        BOOLEAN NOT NULL DEFAULT TRUE,
@@ -498,7 +592,7 @@ CREATE TABLE data_sources (
 CREATE TABLE source_records (
     record_id            UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     source_id            UUID NOT NULL REFERENCES data_sources(source_id) ON DELETE RESTRICT,
-    external_entity_id   VARCHAR(100) NOT NULL,
+    external_entity_id   VARCHAR(100) NOT NULL,  -- provider-native ID, e.g. CricSheet match id
     raw_payload          JSONB NOT NULL,
     payload_sha256       CHAR(64) NOT NULL,
     ingestion_timestamp  TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -513,22 +607,24 @@ CREATE INDEX idx_source_records_status ON source_records(processing_status);
 CREATE INDEX idx_source_records_external_id ON source_records(source_id, external_entity_id);
 
 -- ============================================================================
--- 2b. verification_records (Source Verification & Provenance Service - C)
+-- 2b. verification_records (Service C)
 -- ============================================================================
 CREATE TABLE verification_records (
     verification_id  UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     subject_type     VARCHAR(30) NOT NULL CHECK (subject_type IN
-        ('player_identity','player_membership','player_eligibility','career_participation','source_record')),
-    subject_id       UUID NOT NULL,                 -- player_id, team_id, record_id, etc.
+        ('player_identity','player_membership','player_eligibility','career_participation','source_record','team_participation')),
+    subject_id       UUID NOT NULL,
     source_record_id UUID REFERENCES source_records(record_id) ON DELETE SET NULL,
+    data_source_id   UUID REFERENCES data_sources(source_id) ON DELETE SET NULL,
     source_url       VARCHAR(500),
     source_provider  VARCHAR(100),
+    evidence_tier    SMALLINT CHECK (evidence_tier BETWEEN 1 AND 5),
     retrieval_ts     TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     license          VARCHAR(80),
     verification_status VARCHAR(30) NOT NULL DEFAULT 'PENDING'
-        CHECK (verification_status IN ('PENDING','VERIFIED','UNVERIFIED','CONFLICT','RETRIED')),
+        CHECK (verification_status IN ('PENDING','VERIFIED','UNVERIFIED','CONFLICT')),
     confidence       NUMERIC(4,3) CHECK (confidence BETWEEN 0.000 AND 1.000),
-    original_source_record_id VARCHAR(100),          -- provider-native record ID
+    original_source_record_id VARCHAR(100),
     notes            TEXT,
     created_at       TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
@@ -548,15 +644,15 @@ CREATE TABLE players (
         'Batting All-rounder','Bowling All-rounder','Pace Bowler','Spin Bowler','Wicketkeeper')),
     batting_hand       VARCHAR(10) CHECK (batting_hand IN ('Right','Left')),
     bowling_arm        VARCHAR(10) CHECK (bowling_arm IN ('Right','Left')),
-    bowling_style      VARCHAR(50),
+    bowling_style      VARCHAR(50),  -- registered physical style; NEVER a delivery variation
     cricsheet_id       VARCHAR(50) UNIQUE,
     bcci_id            VARCHAR(50) UNIQUE,
     espn_id            VARCHAR(50) UNIQUE,
     identity_status    VARCHAR(20) NOT NULL DEFAULT 'UNRESOLVED'
         CHECK (identity_status IN ('UNRESOLVED','PROVISIONAL','RESOLVED')),
     is_active          BOOLEAN NOT NULL DEFAULT TRUE,
-    created_at        TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    updated_at        TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
+    created_at         TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    updated_at         TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 CREATE INDEX idx_players_canonical_name ON players(canonical_name);
 CREATE INDEX idx_players_cricsheet_id ON players(cricsheet_id) WHERE cricsheet_id IS NOT NULL;
@@ -569,7 +665,7 @@ CREATE TABLE player_aliases (
     player_id        UUID NOT NULL REFERENCES players(player_id) ON DELETE CASCADE,
     alias_name       VARCHAR(100) NOT NULL,
     source_id        UUID NOT NULL REFERENCES data_sources(source_id) ON DELETE RESTRICT,
-    confidence_score NUMERIC(4,3) NOT NULL CHECK (confidence_score BETWEEN 0.000 AND 1.000),
+    match_threshold_met BOOLEAN NOT NULL DEFAULT FALSE,  -- deterministic tier outcome, not a probability
     is_verified      BOOLEAN NOT NULL DEFAULT FALSE,
     needs_review     BOOLEAN NOT NULL DEFAULT FALSE,
     verified_by      VARCHAR(50),
@@ -581,7 +677,7 @@ CREATE INDEX idx_player_aliases_name ON player_aliases(alias_name);
 CREATE INDEX idx_player_aliases_review ON player_aliases(needs_review) WHERE needs_review IS TRUE;
 
 -- ============================================================================
--- 4b. venues (created before teams/matches, which reference it via FK)
+-- 4b. venues (before teams/matches, which reference it)
 -- ============================================================================
 CREATE TABLE venues (
     venue_id            UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -630,7 +726,9 @@ CREATE TABLE competitions (
 );
 
 -- ============================================================================
--- 7. seasons
+-- 7. seasons (competition editions; competition-wide, NOT franchise-specific)
+--    NOTE: franchise-level participation (incl. RR 2016-17 suspension) lives in
+--    team_season_participation. No competition-level suspension flag exists.
 -- ============================================================================
 CREATE TABLE seasons (
     season_id      UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -638,7 +736,6 @@ CREATE TABLE seasons (
     season_year    VARCHAR(20) NOT NULL,
     start_date     DATE NOT NULL,
     end_date       DATE NOT NULL,
-    is_suspension  BOOLEAN NOT NULL DEFAULT FALSE,   -- represent the RR 2016-2017 suspension
     created_at     TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT uq_season_comp UNIQUE (competition_id, season_year),
     CONSTRAINT chk_season_dates CHECK (end_date >= start_date)
@@ -646,7 +743,33 @@ CREATE TABLE seasons (
 CREATE INDEX idx_seasons_competition ON seasons(competition_id);
 
 -- ============================================================================
--- 8. squad_memberships (seasonal contracts / squad inclusion)
+-- 8. team_season_participation (franchise-level; corrects the old is_suspension model)
+-- ============================================================================
+CREATE TABLE team_season_participation (
+    participation_id     UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    team_id              UUID NOT NULL REFERENCES teams(team_id) ON DELETE CASCADE,
+    season_id            UUID NOT NULL REFERENCES seasons(season_id) ON DELETE CASCADE,
+    participation_status VARCHAR(20) NOT NULL CHECK (participation_status IN
+        ('PARTICIPATING','SUSPENDED','NOT_ENTERED','UNKNOWN')),
+    effective_start_date DATE,
+    effective_end_date   DATE,
+    evidence_source_id   UUID REFERENCES data_sources(source_id) ON DELETE SET NULL,
+    verification_status  VARCHAR(20) NOT NULL DEFAULT 'UNVERIFIED'
+        CHECK (verification_status IN ('PENDING','VERIFIED','UNVERIFIED','CONFLICT')),
+    notes                TEXT,
+    created_at           TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT uq_team_season_participation UNIQUE (team_id, season_id),
+    CONSTRAINT chk_tsp_dates CHECK (effective_end_date IS NULL OR effective_start_date IS NULL OR effective_end_date >= effective_start_date)
+);
+CREATE INDEX idx_tsp_team ON team_season_participation(team_id);
+CREATE INDEX idx_tsp_season ON team_season_participation(season_id);
+-- Representative rows (documentation): RR x IPL 2008..2015 = PARTICIPATING/VERIFIED;
+-- RR x IPL 2016, 2017 = SUSPENDED/VERIFIED (BCCI suspension of the franchise; the IPL
+-- competition continued for all other teams); RR x IPL 2018..2026 = PARTICIPATING/VERIFIED;
+-- RR x IPL 2027 = UNKNOWN until authoritative squad evidence exists.
+
+-- ============================================================================
+-- 9. squad_memberships (seasonal contracts / squad inclusion)
 -- ============================================================================
 CREATE TABLE squad_memberships (
     membership_id  UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -658,8 +781,9 @@ CREATE TABLE squad_memberships (
     salary_inr     NUMERIC(14,2) CHECK (salary_inr >= 0),
     jersey_number  INT CHECK (jersey_number BETWEEN 0 AND 999),
     is_captain     BOOLEAN NOT NULL DEFAULT FALSE,
-    is_overseas   BOOLEAN NOT NULL DEFAULT FALSE,
+    is_overseas   BOOLEAN,
     is_active_squad BOOLEAN NOT NULL DEFAULT TRUE,
+    evidence_source_id UUID REFERENCES data_sources(source_id) ON DELETE SET NULL,
     created_at     TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT uq_player_team_season UNIQUE (player_id, team_id, season_id)
 );
@@ -667,25 +791,26 @@ CREATE INDEX idx_squad_team_season ON squad_memberships(team_id, season_id);
 CREATE INDEX idx_squad_player ON squad_memberships(player_id);
 
 -- ============================================================================
--- 8b. player_team_history (verified career team associations, cross-franchise)
+-- 10. player_team_history (verified career team associations)
 -- ============================================================================
 CREATE TABLE player_team_history (
-    history_id      UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    player_id       UUID NOT NULL REFERENCES players(player_id) ON DELETE CASCADE,
-    team_id         UUID NOT NULL REFERENCES teams(team_id) ON DELETE RESTRICT,
-    season_year     VARCHAR(20) NOT NULL,
+    history_id       UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    player_id        UUID NOT NULL REFERENCES players(player_id) ON DELETE CASCADE,
+    team_id          UUID NOT NULL REFERENCES teams(team_id) ON DELETE RESTRICT,
+    season_year      VARCHAR(20) NOT NULL,
+    season_id        UUID REFERENCES seasons(season_id) ON DELETE SET NULL,
     association_type VARCHAR(30) NOT NULL CHECK (association_type IN
         ('Squad','Played','Released','Retained','Acquired','Loan')),
-    appearances     INT CHECK (appearances >= 0),
-    evidence_source UUID REFERENCES data_sources(source_id) ON DELETE SET NULL,
-    provenance_id   UUID REFERENCES source_records(record_id) ON DELETE SET NULL,
-    created_at      TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    appearances      INT CHECK (appearances >= 0),   -- verified match count; 0 = squad-only
+    evidence_source  UUID REFERENCES data_sources(source_id) ON DELETE SET NULL,
+    provenance_id    UUID REFERENCES source_records(record_id) ON DELETE SET NULL,
+    created_at       TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT uq_player_team_season UNIQUE (player_id, team_id, season_year)
 );
 CREATE INDEX idx_team_history_player ON player_team_history(player_id);
 
 -- ============================================================================
--- 9. matches
+-- 11. matches
 -- ============================================================================
 CREATE TABLE matches (
     match_id           UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -708,6 +833,7 @@ CREATE TABLE matches (
     dls_method_version VARCHAR(20),
     player_of_match_id UUID REFERENCES players(player_id) ON DELETE SET NULL,
     overs_scheduled    INT NOT NULL DEFAULT 20 CHECK (overs_scheduled > 0),
+    source_record_id   UUID REFERENCES source_records(record_id) ON DELETE SET NULL,
     status             VARCHAR(20) NOT NULL CHECK (status IN
         ('Scheduled','Completed','Abandoned','No Result')),
     created_at         TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -718,7 +844,7 @@ CREATE INDEX idx_matches_season ON matches(season_id);
 CREATE INDEX idx_matches_venue ON matches(venue_id);
 
 -- ============================================================================
--- 10. innings
+-- 12. innings
 -- ============================================================================
 CREATE TABLE innings (
     innings_id     UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -741,49 +867,54 @@ CREATE TABLE innings (
 );
 CREATE INDEX idx_innings_match ON innings(match_id);
 CREATE INDEX idx_innings_super_over ON innings(is_super_over) WHERE is_super_over IS TRUE;
+-- Consistency invariant (enforced by Service D / reconciliation job, not inline CHECK):
+--   COUNT(deliveries per innings) reconciles with innings.total_legal_deliveries
+--   (legal balls only; wides/noballs are delivery events, not legal deliveries).
 
 -- ============================================================================
--- 11. deliveries (DESCRIPTIVE PARTITIONED by season_year)
+-- 13. deliveries (PARTITIONED by season_year) — remediated FKs (D2, D7, D9)
 -- ============================================================================
 CREATE TABLE deliveries (
     delivery_id     UUID NOT NULL DEFAULT uuid_generate_v4(),
-    innings_id      UUID NOT NULL,
-    match_id        UUID NOT NULL,
+    innings_id      UUID NOT NULL REFERENCES innings(innings_id) ON DELETE CASCADE,
+    match_id        UUID NOT NULL REFERENCES matches(match_id) ON DELETE CASCADE,
     season_year     VARCHAR(20) NOT NULL,
-    over_number     INT NOT NULL CHECK (over_number >= 0 AND over_number < 50),
-    ball_in_over   INT NOT NULL CHECK (ball_in_over >= 1),
+    over_number     INT NOT NULL CHECK (over_number >= 0 AND over_number < 60),
+    ball_in_over    INT NOT NULL CHECK (ball_in_over >= 1),
     delivery_sequence INT NOT NULL CHECK (delivery_sequence >= 1),
-    batter_id       UUID NOT NULL,
-    bowler_id       UUID NOT NULL,
-    non_striker_id  UUID NOT NULL,
-    runs_batter     INT NOT NULL CHECK (runs_batter BETWEEN 0 AND 6),
-    runs_extras     INT NOT NULL DEFAULT 0,
+    batter_id       UUID NOT NULL REFERENCES players(player_id) ON DELETE RESTRICT,
+    bowler_id       UUID NOT NULL REFERENCES players(player_id) ON DELETE RESTRICT,
+    non_striker_id  UUID NOT NULL REFERENCES players(player_id) ON DELETE RESTRICT,
+    runs_batter     INT NOT NULL CHECK (runs_batter >= 0),  -- >6 (overthrows) -> DQ review, never rejected
+    runs_extras     INT NOT NULL DEFAULT 0 CHECK (runs_extras >= 0),
     runs_total      INT NOT NULL CHECK (runs_total >= 0),
     is_wide         BOOLEAN NOT NULL DEFAULT FALSE,
     is_noball       BOOLEAN NOT NULL DEFAULT FALSE,
     is_bye          BOOLEAN NOT NULL DEFAULT FALSE,
     is_legbye       BOOLEAN NOT NULL DEFAULT FALSE,
     is_penalty      BOOLEAN NOT NULL DEFAULT FALSE,
-    runs_wides      INT NOT NULL DEFAULT 0,
-    runs_noballs    INT NOT NULL DEFAULT 0,
-    runs_byes       INT NOT NULL DEFAULT 0,
-    runs_legbyes    INT NOT NULL DEFAULT 0,
-    runs_penalties  INT NOT NULL DEFAULT 0,
+    runs_wides      INT NOT NULL DEFAULT 0 CHECK (runs_wides >= 0),
+    runs_noballs    INT NOT NULL DEFAULT 0 CHECK (runs_noballs >= 0),
+    runs_byes       INT NOT NULL DEFAULT 0 CHECK (runs_byes >= 0),
+    runs_legbyes    INT NOT NULL DEFAULT 0 CHECK (runs_legbyes >= 0),
+    runs_penalties  INT NOT NULL DEFAULT 0 CHECK (runs_penalties >= 0),
     is_wicket       BOOLEAN NOT NULL DEFAULT FALSE,
     wicket_kind     VARCHAR(30),
-    player_out_id   UUID,
+    player_out_id   UUID REFERENCES players(player_id) ON DELETE SET NULL,
     is_bowler_credited_wicket BOOLEAN NOT NULL DEFAULT FALSE,
-    match_phase     VARCHAR(20) NOT NULL CHECK (match_phase IN
-        ('Powerplay','Middle 1','Middle 2','Death')),
+    match_phase     VARCHAR(20) CHECK (match_phase IN ('Powerplay','Middle 1','Middle 2','Death')),
+        -- T20-derived, nullable: NOT_APPLICABLE as NULL for List A / first-class rows
     variation_type  VARCHAR(50),
-    ball_speed_kph  NUMERIC(5,2),
+    ball_speed_kph  NUMERIC(5,2) CHECK (ball_speed_kph IS NULL OR ball_speed_kph > 0),
     pitch_coordinate_x NUMERIC(6,3),
     pitch_coordinate_y NUMERIC(6,3),
     post_shot_landing_x NUMERIC(6,2),
     post_shot_landing_y NUMERIC(6,2),
+    source_record_id UUID REFERENCES source_records(record_id) ON DELETE SET NULL,
     created_at      TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT pk_deliveries PRIMARY KEY (delivery_id, season_year),
-    CONSTRAINT chk_runs_consistency CHECK (runs_total = runs_batter + runs_extras)
+    CONSTRAINT chk_runs_consistency CHECK (runs_total = runs_batter + runs_extras),
+    CONSTRAINT chk_wicket_credit CHECK (is_wicket = TRUE OR player_out_id IS NULL)
 ) PARTITION BY LIST (season_year);
 
 CREATE TABLE deliveries_y2008_2015 PARTITION OF deliveries
@@ -800,41 +931,47 @@ CREATE INDEX idx_deliveries_match_innings ON deliveries(match_id, innings_id);
 CREATE INDEX idx_deliveries_batter ON deliveries(batter_id);
 CREATE INDEX idx_deliveries_bowler ON deliveries(bowler_id);
 CREATE INDEX idx_deliveries_matchup ON deliveries(batter_id, bowler_id);
+CREATE INDEX idx_deliveries_source ON deliveries(source_record_id) WHERE source_record_id IS NOT NULL;
+-- NOTE: deliveries.innings_id.match_id = deliveries.match_id consistency is a Service D
+-- reconciliation invariant (cross-table; not expressible as an inline CHECK).
 
 -- ============================================================================
--- 12. batting_innings
+-- 14. batting_innings (D8: no default on is_not_out; sample-size fields explicit)
 -- ============================================================================
 CREATE TABLE batting_innings (
     batting_innings_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     innings_id      UUID NOT NULL REFERENCES innings(innings_id) ON DELETE CASCADE,
     player_id       UUID NOT NULL REFERENCES players(player_id) ON DELETE RESTRICT,
     team_id         UUID NOT NULL REFERENCES teams(team_id) ON DELETE RESTRICT,
-    batting_position INT NOT NULL CHECK (batting_position BETWEEN 1 AND 11),
+    did_not_bat     BOOLEAN NOT NULL DEFAULT FALSE,  -- DNB rows explicit, not implied
+    batting_position INT CHECK (batting_position BETWEEN 1 AND 11),
     runs_scored     INT NOT NULL DEFAULT 0 CHECK (runs_scored >= 0),
-    balls_faced     INT NOT NULL DEFAULT 0 CHECK (balls_faced >= 0),
+    balls_faced     INT NOT NULL DEFAULT 0 CHECK (balls_faced >= 0),  -- legal balls only
     minutes_at_crease INT CHECK (minutes_at_crease >= 0),
-    fours           INT NOT NULL DEFAULT 0,
-    sixes           INT NOT NULL DEFAULT 0,
-    dot_balls_faced INT NOT NULL DEFAULT 0,
-    strike_rate     NUMERIC(6,2),
+    fours           INT NOT NULL DEFAULT 0 CHECK (fours >= 0),
+    sixes           INT NOT NULL DEFAULT 0 CHECK (sixes >= 0),
+    dot_balls_faced INT NOT NULL DEFAULT 0 CHECK (dot_balls_faced >= 0),
+    strike_rate     NUMERIC(6,2),                    -- NULL unless balls_faced > 0
     dismissal_kind  VARCHAR(30),
     dismissal_bowler_id UUID REFERENCES players(player_id) ON DELETE SET NULL,
     dismissal_fielder_id UUID REFERENCES players(player_id) ON DELETE SET NULL,
-    is_not_out      BOOLEAN NOT NULL DEFAULT TRUE,
-    runs_powerplay  INT NOT NULL DEFAULT 0,
-    balls_powerplay INT NOT NULL DEFAULT 0,
-    runs_middle     INT NOT NULL DEFAULT 0,
-    balls_middle    INT NOT NULL DEFAULT 0,
-    runs_death      INT NOT NULL DEFAULT 0,
-    balls_death     INT NOT NULL DEFAULT 0,
+    is_not_out      BOOLEAN NOT NULL,                -- set from data; never defaulted
+    runs_powerplay  INT NOT NULL DEFAULT 0 CHECK (runs_powerplay >= 0),
+    balls_powerplay INT NOT NULL DEFAULT 0 CHECK (balls_powerplay >= 0),
+    runs_middle     INT NOT NULL DEFAULT 0 CHECK (runs_middle >= 0),
+    balls_middle    INT NOT NULL DEFAULT 0 CHECK (balls_middle >= 0),
+    runs_death      INT NOT NULL DEFAULT 0 CHECK (runs_death >= 0),
+    balls_death     INT NOT NULL DEFAULT 0 CHECK (balls_death >= 0),
     created_at      TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT uq_innings_batter UNIQUE (innings_id, player_id),
-    CONSTRAINT chk_balls_faced CHECK (dot_balls_faced <= balls_faced)
+    CONSTRAINT chk_balls_faced CHECK (dot_balls_faced <= balls_faced),
+    CONSTRAINT chk_sr_consistency CHECK (strike_rate IS NULL OR balls_faced > 0),
+    CONSTRAINT chk_dnb CHECK (did_not_bat = TRUE OR balls_faced > 0)
 );
 CREATE INDEX idx_batting_player ON batting_innings(player_id);
 
 -- ============================================================================
--- 13. bowling_spells
+-- 15. bowling_spells (D6: integer balls of record; over notation derived)
 -- ============================================================================
 CREATE TABLE bowling_spells (
     spell_id           UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -842,17 +979,18 @@ CREATE TABLE bowling_spells (
     player_id          UUID NOT NULL REFERENCES players(player_id) ON DELETE RESTRICT,
     team_id            UUID NOT NULL REFERENCES teams(team_id) ON DELETE RESTRICT,
     spell_order        INT NOT NULL DEFAULT 1,
-    legal_balls_bowled INT NOT NULL DEFAULT 0,
-    overs_completed    NUMERIC(4,1) NOT NULL DEFAULT 0.0,
-    maidens            INT NOT NULL DEFAULT 0,
-    runs_conceded      INT NOT NULL DEFAULT 0,
+    legal_balls_bowled INT NOT NULL DEFAULT 0 CHECK (legal_balls_bowled >= 0),
+    illegal_events_wides INT NOT NULL DEFAULT 0 CHECK (illegal_events_wides >= 0),
+    illegal_events_noballs INT NOT NULL DEFAULT 0 CHECK (illegal_events_noballs >= 0),
+    maidens            INT NOT NULL DEFAULT 0 CHECK (maidens >= 0),
+    runs_conceded      INT NOT NULL DEFAULT 0 CHECK (runs_conceded >= 0),
+        -- = SUM(runs_batter + runs_wides + runs_noballs + penalty-free) per DDL domain rules;
+        --   byes/leg-byes/penalties EXCLUDED (see DATA_DICTIONARY)
     wickets_taken      INT NOT NULL DEFAULT 0 CHECK (wickets_taken BETWEEN 0 AND 10),
-    wides_bowled       INT NOT NULL DEFAULT 0,
-    noballs_bowled     INT NOT NULL DEFAULT 0,
     dot_balls_bowled   INT NOT NULL DEFAULT 0,
-    economy_rate       NUMERIC(5,2),
-    bowling_average    NUMERIC(6,2),
-    bowling_strike_rate NUMERIC(5,2),
+    economy_rate       NUMERIC(5,2),   -- NULL unless legal_balls_bowled > 0
+    bowling_average    NUMERIC(6,2),   -- NULL unless wickets_taken > 0
+    bowling_strike_rate NUMERIC(5,2),  -- NULL unless wickets_taken > 0
     runs_conceded_powerplay INT NOT NULL DEFAULT 0,
     balls_bowled_powerplay  INT NOT NULL DEFAULT 0,
     wickets_powerplay INT NOT NULL DEFAULT 0,
@@ -864,33 +1002,48 @@ CREATE TABLE bowling_spells (
     wickets_death   INT NOT NULL DEFAULT 0,
     created_at       TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT uq_innings_bowler UNIQUE (innings_id, player_id),
-    CONSTRAINT chk_dots_bowled CHECK (dot_balls_bowled <= legal_balls_bowled)
+    CONSTRAINT chk_dots_bowled CHECK (dot_balls_bowled <= legal_balls_bowled),
+    CONSTRAINT chk_spell_econ CHECK (economy_rate IS NULL OR legal_balls_bowled > 0),
+    CONSTRAINT chk_spell_avg CHECK (bowling_average IS NULL OR wickets_taken > 0)
 );
 CREATE INDEX idx_bowling_player ON bowling_spells(player_id);
+-- Display derivation (never stored as a fact): overs_display =
+--   floor(legal_balls_bowled/6) || '.' || (legal_balls_bowled % 6)
 
 -- ============================================================================
--- 14. fielding_events
+-- 16. fielding_events (D3: optional but integrity-preserving delivery link)
 -- ============================================================================
 CREATE TABLE fielding_events (
     fielding_event_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
-    delivery_id     UUID,
-    season_year     VARCHAR(20) NOT NULL,
+    delivery_id     UUID,                        -- optional: ball-level link
+    season_year     VARCHAR(20),                 -- required together with delivery_id
     player_id       UUID NOT NULL REFERENCES players(player_id) ON DELETE RESTRICT,
     is_substitute   BOOLEAN NOT NULL DEFAULT FALSE,
     event_type      VARCHAR(30) NOT NULL CHECK (event_type IN (
         'Catch','Run Out Thrower','Run Out Catcher','Stumping',
         'Dropped Catch','Missed Run Out','Boundary Save')),
-    is_successful   BOOLEAN NOT NULL DEFAULT TRUE,
+    is_recorded_opportunity BOOLEAN NOT NULL DEFAULT TRUE,  -- recorded, not inferred
     assisted_by_player_id UUID REFERENCES players(player_id) ON DELETE SET NULL,
     fielding_position VARCHAR(40),
-    runs_saved      INT DEFAULT 0,
-    created_at      TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
+    runs_saved      INT CHECK (runs_saved >= 0),
+    provenance_tier VARCHAR(30) NOT NULL CHECK (provenance_tier IN (
+        'DIRECTLY_MEASURED','OFFICIALLY_REPORTED','THIRD_PARTY_ESTIMATE','MODEL_INFERRED','UNKNOWN')),
+        -- no default: classification must be set explicitly at ELT time
+    created_at      TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT chk_delivery_pairing CHECK
+        ((delivery_id IS NULL AND season_year IS NULL) OR
+         (delivery_id IS NOT NULL AND season_year IS NOT NULL)),
+    CONSTRAINT fk_fielding_delivery FOREIGN KEY (delivery_id, season_year)
+        REFERENCES deliveries(delivery_id, season_year) ON DELETE SET NULL
 );
 CREATE INDEX idx_fielding_player ON fielding_events(player_id);
-CREATE INDEX idx_fielding_delivery ON fielding_events(delivery_id);
+CREATE UNIQUE INDEX uq_fielding_event ON fielding_events(delivery_id, season_year, player_id, event_type)
+    WHERE delivery_id IS NOT NULL;
+-- FK note: a partitioned referencing table (deliveries) is supported in PostgreSQL >= 15;
+-- target engine is 16. On pre-15 engines this becomes a Service D reconciliation check.
 
 -- ============================================================================
--- 14b. wicketkeeping_events
+-- 17. wicketkeeping_events
 -- ============================================================================
 CREATE TABLE wicketkeeping_events (
     wk_event_id      UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -899,40 +1052,52 @@ CREATE TABLE wicketkeeping_events (
     match_id         UUID NOT NULL REFERENCES matches(match_id) ON DELETE RESTRICT,
     stumpings        INT NOT NULL DEFAULT 0 CHECK (stumpings >= 0),
     catches          INT NOT NULL DEFAULT 0 CHECK (catches >= 0),
-    missed_stumpings INT CHECK (missed_stumpings >= 0),
+    missed_stumpings INT CHECK (missed_stumpings >= 0),   -- recorded missed chances only
     missed_catches   INT CHECK (missed_catches >= 0),
-    appearances      INT NOT NULL DEFAULT 1,
+    appearances      INT NOT NULL CHECK (appearances > 0),  -- set from data; no default
+    provenance_tier  VARCHAR(30) NOT NULL CHECK (provenance_tier IN (
+        'DIRECTLY_MEASURED','OFFICIALLY_REPORTED','THIRD_PARTY_ESTIMATE','MODEL_INFERRED','UNKNOWN')),
+        -- no default: classification must be set explicitly at ELT time
     created_at       TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT uq_wk_innings UNIQUE (innings_id, player_id)
 );
 CREATE INDEX idx_wk_player ON wicketkeeping_events(player_id);
 
 -- ============================================================================
--- 16. pitch_conditions
+-- 18. pitch_conditions (D10: preserve reported text; ratings optional+methodology-bound)
 -- ============================================================================
 CREATE TABLE pitch_conditions (
     pitch_condition_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     match_id         UUID NOT NULL REFERENCES matches(match_id) ON DELETE CASCADE,
     venue_id         UUID NOT NULL REFERENCES venues(venue_id) ON DELETE RESTRICT,
+    reported_description TEXT,              -- original source wording, preserved
     soil_type        VARCHAR(50),
+    grass_coverage   VARCHAR(30),
+    reported_moisture VARCHAR(30),
+    reported_surface_state VARCHAR(40),     -- dry / damp / worn, reported only
     pitch_pace_rating   NUMERIC(3,1) CHECK (pitch_pace_rating BETWEEN 1.0 AND 10.0),
     pitch_bounce_rating NUMERIC(3,1) CHECK (pitch_bounce_rating BETWEEN 1.0 AND 10.0),
     pitch_turn_rating   NUMERIC(3,1) CHECK (pitch_turn_rating BETWEEN 1.0 AND 10.0),
-    grass_coverage   VARCHAR(30),
-    provenance_tier  VARCHAR(30) NOT NULL DEFAULT 'UNKNOWN' CHECK (provenance_tier IN
-        ('DIRECTLY_MEASURED','OFFICIALLY_REPORTED','THIRD_PARTY_ESTIMATE','MODEL_INFERRED','UNKNOWN')),
-    source_curator_notes TEXT,
+    ratings_methodology_version VARCHAR(20),  -- numeric ratings ONLY when a validated methodology exists
+    provenance_tier  VARCHAR(30) NOT NULL DEFAULT 'UNKNOWN' CHECK (provenance_tier IN (
+        'DIRECTLY_MEASURED','OFFICIALLY_REPORTED','THIRD_PARTY_ESTIMATE','MODEL_INFERRED','UNKNOWN')),
+    source_record_id UUID REFERENCES source_records(record_id) ON DELETE SET NULL,
     created_at       TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    CONSTRAINT uq_match_pitch UNIQUE (match_id)
+    CONSTRAINT uq_match_pitch UNIQUE (match_id),
+    CONSTRAINT chk_ratings_methodology CHECK
+        ((pitch_pace_rating IS NULL AND pitch_bounce_rating IS NULL AND pitch_turn_rating IS NULL) OR
+         ratings_methodology_version IS NOT NULL)
 );
 
 -- ============================================================================
--- 17. weather_conditions
+-- 19. weather_conditions (D10: measured context, never pitch; timezone + match method)
 -- ============================================================================
 CREATE TABLE weather_conditions (
     weather_condition_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     match_id            UUID NOT NULL REFERENCES matches(match_id) ON DELETE CASCADE,
     observation_timestamp TIMESTAMPTZ NOT NULL,
+    venue_timezone      VARCHAR(40),
+    local_observation_time TIMESTAMPTZ,
     temperature_celsius NUMERIC(4,1),
     relative_humidity_pct NUMERIC(4,1) CHECK (relative_humidity_pct BETWEEN 0.0 AND 100.0),
     dew_point_celsius   NUMERIC(4,1),
@@ -942,6 +1107,9 @@ CREATE TABLE weather_conditions (
     precipitation_mm    NUMERIC(5,2) CHECK (precipitation_mm >= 0),
     atmospheric_pressure_hpa NUMERIC(6,1),
     cloud_cover_pct     NUMERIC(4,1) CHECK (cloud_cover_pct BETWEEN 0.0 AND 100.0),
+    spatial_temporal_match_method VARCHAR(80),  -- how the observation was matched to the match
+    data_provider       VARCHAR(60),
+    source_record_id    UUID REFERENCES source_records(record_id) ON DELETE SET NULL,
     data_provenance_flag VARCHAR(100) NOT NULL DEFAULT
         'Macro Environmental Context (Not Direct Pitch Moisture)',
     created_at          TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -950,7 +1118,7 @@ CREATE TABLE weather_conditions (
 CREATE INDEX idx_weather_match ON weather_conditions(match_id);
 
 -- ============================================================================
--- 18. player_availability
+-- 20. player_availability (D8: unknown stays unknown)
 -- ============================================================================
 CREATE TABLE player_availability (
     availability_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -958,17 +1126,20 @@ CREATE TABLE player_availability (
     season_id      UUID NOT NULL REFERENCES seasons(season_id) ON DELETE CASCADE,
     start_date     DATE NOT NULL,
     end_date       DATE NOT NULL,
-    availability_status VARCHAR(30) NOT NULL,
-    matches_expected_available INT,
+    availability_status VARCHAR(30),        -- nullable: absence of a report != 'Unavailable'
+    national_board_noc_status VARCHAR(20),  -- GRANTED/DENIED/UNKNOWN/NOT_APPLICABLE; NULL = not reported
+    matches_expected_available INT CHECK (matches_expected_available >= 0),
     reason_for_unavailability TEXT,
-    national_board_noc_granted BOOLEAN NOT NULL DEFAULT TRUE,
+    source_record_id UUID REFERENCES source_records(record_id) ON DELETE SET NULL,
     created_at     TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT uq_player_season_avail UNIQUE (player_id, season_id, start_date),
-    CONSTRAINT chk_avail_dates CHECK (end_date >= start_date)
+    CONSTRAINT chk_avail_dates CHECK (end_date >= start_date),
+    CONSTRAINT chk_noc_values CHECK (national_board_noc_status IS NULL OR national_board_noc_status IN
+        ('GRANTED','DENIED','UNKNOWN','NOT_APPLICABLE'))
 );
 
 -- ============================================================================
--- 19. player_injuries
+-- 21. player_injuries (verified-only claims)
 -- ============================================================================
 CREATE TABLE player_injuries (
     injury_id   UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -977,18 +1148,20 @@ CREATE TABLE player_injuries (
     injury_type VARCHAR(50),
     body_part   VARCHAR(50),
     severity    VARCHAR(20) CHECK (severity IN ('Minor','Moderate','Severe','Catastrophic')),
-    surgery_required BOOLEAN NOT NULL DEFAULT FALSE,
+    surgery_required BOOLEAN,
     recovery_time_days INT,
     return_to_play_date DATE,
-    recurrence_risk_score NUMERIC(3,2),
+    recurrence_risk_score NUMERIC(3,2) CHECK (recurrence_risk_score BETWEEN 0.00 AND 1.00),
+        -- MODEL_INFERRED, optional: NULL unless a validated, documented model produced it
     medical_notes TEXT,
-    verified    BOOLEAN NOT NULL DEFAULT FALSE,   -- NEVER fabricate; unverified injuries stay FALSE
+    source_record_id UUID REFERENCES source_records(record_id) ON DELETE SET NULL,
+    verified    BOOLEAN NOT NULL DEFAULT FALSE,   -- NEVER fabricate; unverified stays FALSE
     created_at  TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 CREATE INDEX idx_injuries_player ON player_injuries(player_id);
 
 -- ============================================================================
--- 19b. player_awards
+-- 22. player_awards
 -- ============================================================================
 CREATE TABLE player_awards (
     award_id   UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -1004,13 +1177,14 @@ CREATE TABLE player_awards (
 CREATE INDEX idx_awards_player ON player_awards(player_id);
 
 -- ============================================================================
--- 19c. player_competition_history
+-- 23. player_competition_history
 -- ============================================================================
 CREATE TABLE player_competition_history (
     comp_history_id UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     player_id       UUID NOT NULL REFERENCES players(player_id) ON DELETE CASCADE,
     competition_id  UUID NOT NULL REFERENCES competitions(competition_id) ON DELETE RESTRICT,
     season_year     VARCHAR(20) NOT NULL,
+    season_id       UUID REFERENCES seasons(season_id) ON DELETE SET NULL,
     appearances     INT CHECK (appearances >= 0),
     coverage_status VARCHAR(30) NOT NULL CHECK (coverage_status IN
         ('VERIFIED_PARTICIPATION','DATASET_UNAVAILABLE','NOT_ESTABLISHED','CONFIRMED_NON_PARTICIPATION')),
@@ -1021,7 +1195,64 @@ CREATE TABLE player_competition_history (
 CREATE INDEX idx_comp_history_player ON player_competition_history(player_id);
 
 -- ============================================================================
--- 20. user_teams
+-- 24. player_membership_state (D5: relationship + currency, evaluated, evidence-bound)
+-- ============================================================================
+CREATE TABLE player_membership_state (
+    state_id       UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    player_id      UUID NOT NULL REFERENCES players(player_id) ON DELETE CASCADE,
+    as_of_date     DATE NOT NULL,
+    rr_relationship_state VARCHAR(30) NOT NULL CHECK (rr_relationship_state IN (
+        'CURRENT_RR_SQUAD','HISTORICAL_RR_APPEARANCE','HISTORICAL_RR_SQUAD_ONLY',
+        'PREVIOUSLY_ASSOCIATED','NO_VERIFIED_RR_RELATIONSHIP','RR_RELATIONSHIP_UNKNOWN')),
+    rr_current_state   VARCHAR(15) NOT NULL CHECK (rr_current_state IN
+        ('CURRENT','NOT_CURRENT','UNKNOWN')),
+    negative_verification_met BOOLEAN,  -- TRUE only when TRD §4.5 requirements satisfied
+    evidence_verification_id UUID REFERENCES verification_records(verification_id) ON DELETE SET NULL,
+    notes          TEXT,
+    created_at     TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT uq_membership_state UNIQUE (player_id, as_of_date)
+);
+CREATE INDEX idx_membership_player ON player_membership_state(player_id);
+
+-- ============================================================================
+-- 25. eligibility_policies (D5: versioned, season-bound, source-traceable)
+-- ============================================================================
+CREATE TABLE eligibility_policies (
+    policy_id        UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    season_id        UUID NOT NULL REFERENCES seasons(season_id) ON DELETE CASCADE,
+    policy_version   INT NOT NULL DEFAULT 1 CHECK (policy_version >= 1),
+    effective_date   DATE NOT NULL,
+    expiry_date      DATE,
+    rule_source      VARCHAR(200) NOT NULL,   -- official BCCI/IPL rule reference
+    verified         BOOLEAN NOT NULL DEFAULT FALSE,
+    verification_id  UUID REFERENCES verification_records(verification_id) ON DELETE SET NULL,
+    policy_json      JSONB,                    -- structured, versioned policy content
+    notes            TEXT,
+    created_at       TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT uq_policy UNIQUE (season_id, policy_version),
+    CONSTRAINT chk_policy_dates CHECK (expiry_date IS NULL OR expiry_date >= effective_date)
+);
+
+-- ============================================================================
+-- 26. player_eligibility (D5: season-bound, policy-versioned assessment)
+-- ============================================================================
+CREATE TABLE player_eligibility (
+    eligibility_id  UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    player_id       UUID NOT NULL REFERENCES players(player_id) ON DELETE CASCADE,
+    season_id       UUID NOT NULL REFERENCES seasons(season_id) ON DELETE CASCADE,
+    policy_id       UUID NOT NULL REFERENCES eligibility_policies(policy_id) ON DELETE RESTRICT,
+    eligibility_status VARCHAR(25) NOT NULL CHECK (eligibility_status IN (
+        'VERIFIED_ELIGIBLE','VERIFIED_NOT_ELIGIBLE','ELIGIBILITY_UNVERIFIED','NOT_ASSESSED')),
+    verified        BOOLEAN NOT NULL DEFAULT FALSE,   -- unknown players are NEVER assumed uncapped/eligible
+    verification_id UUID REFERENCES verification_records(verification_id) ON DELETE SET NULL,
+    notes           TEXT,
+    created_at      TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT uq_player_season_policy UNIQUE (player_id, season_id, policy_id)
+);
+CREATE INDEX idx_eligibility_player ON player_eligibility(player_id);
+
+-- ============================================================================
+-- 27. user_teams
 -- ============================================================================
 CREATE TABLE user_teams (
     team_id      UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -1034,7 +1265,7 @@ CREATE TABLE user_teams (
 );
 
 -- ============================================================================
--- 21. user_team_players
+-- 28. user_team_players
 -- ============================================================================
 CREATE TABLE user_team_players (
     id           UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -1050,7 +1281,7 @@ CREATE TABLE user_team_players (
 CREATE INDEX idx_user_team_players ON user_team_players(user_team_id);
 
 -- ============================================================================
--- 22. derived_features
+-- 29. derived_features (D1: expression index replaces invalid table UNIQUE)
 -- ============================================================================
 CREATE TABLE derived_features (
     feature_id       UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
@@ -1064,53 +1295,62 @@ CREATE TABLE derived_features (
     feature_value_json  JSONB,
     calculation_window  VARCHAR(50) NOT NULL,
     format_tag        VARCHAR(20),
-    model_version     VARCHAR(20) NOT NULL DEFAULT 'v2.0',
+    status           VARCHAR(20) NOT NULL DEFAULT 'DERIVED' CHECK (status IN
+        ('OBSERVED','DERIVED','MODEL_INFERRED','NOT_COMPUTABLE')),
+    model_version     VARCHAR(20) NOT NULL DEFAULT 'v2.1',
     source_provenance UUID REFERENCES source_records(record_id) ON DELETE SET NULL,
-    computed_at       TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    CONSTRAINT uq_player_feature UNIQUE (player_id, feature_name, calculation_window, model_version, COALESCE(format_tag,''))
+    computed_at       TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+-- D1 decision: UNIQUE expression index (COALESCE allowed in INDEX, not in table constraint)
+CREATE UNIQUE INDEX uq_derived_features ON derived_features (
+    player_id, feature_name, calculation_window, model_version, COALESCE(format_tag, '')
 );
 CREATE INDEX idx_derived_features_player ON derived_features(player_id);
 CREATE INDEX idx_derived_features_group ON derived_features(feature_group);
 ```
 
-### 10.3 Key Schema Rules
-- **Canonical `player_id`** is the single join key across every engine and service.
-- **Raw ↔ normalised ↔ derived separation**: `source_records` (immutable), the normalised
-  core (entities 3–21), and `derived_features` are never merged.
-- **`is_suspension`** on `seasons` represents the RR 2016–2017 suspension explicitly.
-- **`coverage_status`** encodes the four CDCRE states so "absent from dataset" is never read
-  as "never played".
+### 10.4 DDL Integrity Summary
+- **Dependency ordering** is topological: venues precede teams/matches; `team_season_participation`
+  precedes nothing that references it; `eligibility_policies` precedes `player_eligibility`.
+- **Partitioned tables**: `deliveries` PK includes the partition key; PG15+ FK support on
+  partitioned referencing tables (target PG16; pre-15 fallback = Service D checks, D2).
+- **FK deletion actions** documented per column above (RESTRICT for fact integrity, CASCADE for
+  owned rows, SET NULL for optional links).
+- **3NF status**: the normalised core is 3NF (no repeating groups; non-key attributes depend on
+  keys via the documented entity split). `derived_features` is the single documented exception
+  (a versioned feature store, not a transactional entity).
+- **No false-claim defaults**: every default that could turn unknown into a fact was removed
+  (D8).
 
 ---
 
 ## 11. Engine Determinism & LLM Independence
 
-- **Deterministic database queries** are used for all known facts and statistics (CPPAE, CMIE,
-  SICE read paths). No LLM is required on the deterministic path.
-- **External research** (PIRE/TMVE/CDCRE where internal records are insufficient) is used for
+- **Deterministic database queries** serve all known facts and statistics (CPPAE, CMIE, SICE
+  read paths). No LLM is required on the deterministic path.
+- **External research** (PIRE corroboration via CDCRE candidates, TMVE/CDCRE gaps) is used for
   evidence **discovery and verification** only, with provenance recorded by Service C.
-- **No engine is made dependent on an LLM** for correctness; LLM-assisted research output is
-  always flagged as `THIRD_PARTY_ESTIMATE` or `MODEL_INFERRED` and routed for human review when
-  it affects identity, membership, or eligibility.
+- LLM-assisted research output is always flagged `THIRD_PARTY_ESTIMATE` or `MODEL_INFERRED` and
+  is routed for human review when it affects identity, membership, or eligibility.
+- **No engine is made dependent on an LLM** for correctness.
 
 ---
 
 ## 12. Streamlit Presentation Requirements
 
 ### 12.1 Required Views
-1. Home / Team Builder  2. Player Search  3. Player Identity Verification  4. Historical RR
-   Membership  5. Player Career Profile  6. Performance Analytics  7. Contextual Analysis  8.
-   Player Comparison  9. Squad Composition  10. Squad Intelligence Report  11. Data Source and
-   Verification Report.
+1. Home / Team Builder · 2. Player Search · 3. Player Identity Verification · 4. Historical RR
+   Membership · 5. Player Career Profile · 6. Performance Analytics · 7. Contextual Analysis ·
+   8. Player Comparison · 9. Squad Composition · 10. Squad Intelligence Report · 11. Data
+   Source and Verification Report.
 
 ### 12.2 Session State Discipline
-- Use `st.session_state` **only** for ephemeral UI state (current team, active player, filters).
-- **No analytics calculation** may live in Streamlit; all views render MIE/engine outputs.
-- Components (Streamlit functions) must be separated from engine calls via thin adapters.
+- `st.session_state` holds **only** ephemeral UI state (active team, active player, filters).
+- **No analytics in Streamlit**; views render MIE/engine outputs through thin adapters.
 
 ### 12.3 Frontend-Agnostic Guarantee
-The Streamlit layer consumes the same structured contracts defined in §2–§8 as any future
-Next.js frontend; no engine imports Streamlit.
+The Streamlit layer consumes the same structured contracts (§2–§8) as any future Next.js
+frontend; no engine imports Streamlit.
 
 ---
 
@@ -1118,27 +1358,35 @@ Next.js frontend; no engine imports Streamlit.
 
 | Capability | Contract | Description |
 |---|---|---|
-| `resolve_player(name)` | PIRE | Identity resolution + confidence + warnings |
-| `verify_membership(player_id)` | TMVE | Six-class membership + RR seasons + evidence |
-| `discover_career(player_id)` | CDCRE | Competition history + coverage + provenance |
-| `analyse_performance(player_id, formats, window)` | CPPAE | Full performance profile |
-| `contextualise(player_id)` | CMIE | Condition annotations with provenance tiers |
+| `discover_candidates(raw_name)` | CDCRE (pre-identity) | Candidate + corroboration evidence; no player_id required |
+| `resolve_player(raw_name, candidates)` | PIRE | Tiered identity resolution + status + evidence |
+| `verify_membership(player_id, as_of_date)` | TMVE | Three-dimension states + evidence + confidence (only if calibrated) |
+| `discover_career(player_id)` | CDCRE (post-identity) | Competition history + four-state coverage + provenance |
+| `analyse_performance(player_id, formats, window)` | CPPAE | Full performance profile, per DATA_DICTIONARY |
+| `contextualise(player_id)` | CMIE | Condition annotations + provenance tiers |
 | `evaluate_squad(user_team_id)` | SICE | Squad intelligence report |
-| `generate_profile_export(player_id, fmt)` | Service B | JSON/CSV export |
-| `get_provenance(record_id)` | Service C | Source provenance + verification status |
+| `assess_eligibility(player_id, season_id)` | player_eligibility | Season-bound, policy-versioned status |
+| `generate_profile_export(player_id, fmt)` | Service B | JSON/CSV export with attribution |
+| `get_provenance(record_id)` | Service C | Provenance + verification status |
 | `upsert_user_team(user_team)` | Service E | Team create/update |
-| `request_player_intelligence(name, team_id)` | MIE | Orchestrated end-to-end report |
+| `request_player_intelligence(name, team_id)` | MIE | End-to-end orchestrated report |
 
-All responses are versioned, structured objects; every derived field carries `source_provenance`
-and, where applicable, a `format_tag` (no cross-format mixing).
+All responses are versioned structured objects; every derived field carries
+`source_provenance` and, where applicable, a `format_tag` (no cross-format mixing).
 
 ---
 
 ## 14. Non-Functional Specifications
 
-- **Determinism**: identical inputs → identical outputs on the deterministic path.
-- **Zero fabrication**: missing → `NULL`; no invented players, matches, injuries, or memberships.
-- **Evidence-backed**: every membership/eligibility claim carries a `verification_records` entry.
-- **Format-aware**: cross-format comparisons are prohibited without explicit normalisation tags.
-- **Licensing**: all exports embed ODC-By (CricSheet) and CC BY 4.0 (Open-Meteo) attribution;
-  the proprietary hackathon dataset is kept confidential and isolated.
+- **Determinism**: identical inputs → identical deterministic outputs; seeded randomness only
+  where documented.
+- **Zero fabrication**: missing → `NULL`; no invented players, matches, injuries, memberships,
+  or mental-state claims.
+- **Evidence-backed**: every membership/eligibility/career claim carries a
+  `verification_records` entry with evidence tier.
+- **Format-aware**: cross-format comparisons prohibited without explicit normalisation tags.
+- **Licensing & confidentiality**: ODC-By (CricSheet, verified locally) and CC BY 4.0
+  (Open-Meteo, stated terms — verification per DATA_SOURCE_REGISTER) attribution embedded in
+  exports; the proprietary hackathon dataset is confidential and isolated.
+- **Data-lake gap**: local SMAT data is `DATASET_UNAVAILABLE`; SMAT claims route through
+  CDCRE external research with provenance.

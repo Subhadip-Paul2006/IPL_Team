@@ -58,7 +58,7 @@ handoff protocol.
 
 ### Agent 01: Chief Architect
 - **Identifier**: `agent_chief_architect`
-- **Core Mission**: Govern the MIE orchestration model, the 27-entity schema, and
+- **Core Mission**: Govern the MIE orchestration model, the 31-entity schema, and
   architecture integrity.
 - **Responsibilities**: maintain `docs/ARCHITECTURE.md`; approve schema migrations; enforce
   raw/normalised/derived separation; veto architectural violations; sign off phase gates (0–10).
@@ -83,36 +83,52 @@ handoff protocol.
 ### Agent 03: PIRE Agent (Engine 01)
 - **Identifier**: `agent_pire`
 - **Core Mission**: Resolve player identity (exact/alias/variation/spelling/duplicate/
-  disambiguation/DOB/team-competition association) to canonical `player_id`.
-- **Responsibilities**: 4-tier waterfall; alias registry; human-review queue; **never merge two
-  players merely because their names are similar**.
-- **Inputs**: name strings, `players`/`player_aliases`, registry hashes. **Outputs**: PIRE.Output
-  (confidence, aliases, matching records, unresolved warnings).
+  disambiguation) to canonical `player_id` using deterministic tiers + **contextual attribute
+  corroboration** (DOB, hand, role, era — registry/cricketing attributes, **not** biometrics).
+- **Responsibilities**: 4-tier deterministic waterfall; alias registry; human-review queue;
+  **never merge two players merely because their names are similar**; numeric confidence
+  exposed only after calibration (`calibrated=TRUE`), else NULL.
+- **Inputs**: name strings, CDCRE candidate outputs, `players`/`player_aliases`, registry
+  hashes. **Outputs**: PIRE.Output (tier, identity_status, aliases, matching records,
+  unresolved warnings).
 - **Verification**: adversarial collision suite; zero duplicate canonical records.
 
 ### Agent 04: TMVE Agent (Engine 02)
 - **Identifier**: `agent_tmve`
-- **Core Mission**: Verify RR representation via the six-class membership taxonomy, with RR
-  season segmentation (2008–2015 / 2016–2017 suspension / 2018+ / 2027-future) and the
-  documented verification hierarchy.
+- **Core Mission**: Verify RR representation via **three independent dimensions** (RR
+  relationship · current status · season-bound, policy-versioned eligibility), with franchise-
+  level participation (`team_season_participation`: RR 2008–2015 · 2016–2017 SUSPENDED ·
+  2018–2026 · 2027 UNKNOWN-until-evidenced) and the documented verification hierarchy.
 - **Responsibilities**: verify **actual appearances** (distinct from squad inclusion); identify
   RR seasons and other IPL teams; retention/auction/transfer/release facts; separate current
-  from historical; trigger authorised research when internal records are insufficient.
-- **Inputs**: `squad_memberships`, `player_team_history`, `matches`, `verification_records`.
-  **Outputs**: TMVE.Output (class, RR seasons, verified-appearance count, evidence, confidence).
-- **Guardrails**: `CURRENT_SQUAD` only with verified current-season evidence; absence ≠
-  `NEVER_REPRESENTED_RR` (use `UNVERIFIED`).
-- **Verification**: class-assignment fixtures; suspension assertion; appearance-vs-list differential.
+  from historical; negative membership **only** via TRD §4.5 requirements; trigger authorised
+  research when internal records are insufficient; eligibility always via versioned
+  `eligibility_policies` (default `NOT_ASSESSED`).
+- **Inputs**: `squad_memberships`, `player_team_history`, `team_season_participation`,
+  `matches`, `verification_records`, `eligibility_policies`.
+  **Outputs**: TMVE.Output (three dimension states, RR seasons, verified-appearance count,
+  evidence, calibrated confidence only).
+- **Guardrails**: `CURRENT_RR_SQUAD` only with verified current-season evidence; absence from
+  one dataset never yields `NO_VERIFIED_RR_RELATIONSHIP` (use `RR_RELATIONSHIP_UNKNOWN`);
+  unknown players are **never** auto-assumed uncapped (`NOT_ASSESSED` default).
+- **Verification**: dimension-assignment fixtures; suspension assertion; appearance-vs-squad-
+  list differential; negative-verification audit.
 
 ### Agent 05: CDCRE Agent (Engine 03)
-- **Identifier**: `agent_cdcpre`
-- **Core Mission**: Discover complete career across competitions with four-state coverage
-  tracking and provenance-recorded external research.
-- **Responsibilities**: competition/season discovery; team history; career gaps; **never infer
-  non-participation from dataset absence**; authorised research via the verification hierarchy.
-- **Inputs**: `player_competition_history`, external sources. **Outputs**: CDCRE.Output
-  (competitions, coverage states, gaps, provenance).
-- **Verification**: coverage-state audit; provenance completeness.
+- **Identifier**: `agent_cdcre`
+- **Core Mission**: Two capabilities — (1) **pre-identity candidate discovery** from a raw
+  name (`discover_candidates`, no player_id required), and (2) **post-identity career
+  retrieval** (`discover_career`) — across competitions with four-state coverage tracking and
+  provenance-recorded external research.
+- **Responsibilities**: candidate gathering for PIRE corroboration; competition/season
+  discovery; team history; career gaps; **never infer non-participation from dataset
+  absence**; authorised research via the verification hierarchy; SMAT gap
+  (`DATASET_UNAVAILABLE` locally) handled via research path.
+- **Inputs**: raw names (capability 1); canonical `player_id` (capability 2);
+  `player_competition_history`; external sources (register-governed). **Outputs**:
+  CDCRE.CandidateOutput / CDCRE.Output (competitions, coverage states, gaps, provenance).
+- **Verification**: coverage-state audit; provenance completeness; AC-10 contract test
+  (candidate discovery works without a player_id).
 
 ### Agent 06: CPPAE Agent (Engine 04)
 - **Identifier**: `agent_cppae`

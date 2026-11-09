@@ -1,13 +1,19 @@
 # RR Squad Intelligence & Team Composition Platform
 
-**Focus Franchise**: Rajasthan Royals (RR) · **Competition**: IPL 2027 Hackathon
+**Focus Franchise**: Rajasthan Royals (RR) · **Competition**: IPL 2027 RR scouting hackathon
 **Primary Interface (initial)**: Streamlit · **Future Frontend**: Next.js (engines are frontend-agnostic)
-**Status**: `[STATUS: GREENFIELD BASELINE — PHASE 0 COMPLETE / PHASES 1–10 PLANNED]`
+**Status**: `[STATUS: GREENFIELD BASELINE — PHASE 0a COMPLETE / PHASE 0b OPEN (PARTIALLY_COMPLETE) / PHASES 1–10 PLANNED]`
 
-> **Product version 2.0.0 (architecture revision)**. This repository was re-centred from a
-> historical auction-war-room analytics engine into the **RR Squad Intelligence & Team
-> Composition Platform**. The full change set is summarised in §4 below and in
-> [`docs/README.md §7`](docs/README.md#7-document-suite-changelog--version-control).
+> **Product version 2.1.0 (remediated)**. This revision corrects the v2.0.0 schema defects
+> (invalid `derived_features` expression UNIQUE constraint, missing partitioned-table
+> foreign keys, soft delivery links, false-claim defaults, overs datatype), replaces the
+> competition-level RR suspension flag with the franchise-level
+> **`team_season_participation`** entity, splits membership into **three independent
+> dimensions** (RR relationship · currency · season-bound versioned eligibility), gives
+> PIRE deterministic tiers with contextual-attribute corroboration, gives CDCRE two
+> capabilities (pre-identity candidate discovery + post-identity career retrieval), and adds
+> two governing documents: **`docs/DATA_SOURCE_REGISTER.md`** and **`docs/DATA_DICTIONARY.md`**.
+> Full change set: [`reports/DOCUMENTATION_REMEDIATION_AUDIT.md`](reports/DOCUMENTATION_REMEDIATION_AUDIT.md).
 
 ---
 
@@ -15,41 +21,49 @@
 
 The **RR Squad Intelligence & Team Composition Platform** turns a user-supplied player name
 into a **verified, evidence-backed player intelligence report**, and evaluates teams the user
-assembles. Its primary workflow is:
+assembles. Its primary workflow:
 
 1. A user creates a team.
 2. The user enters a cricket player's name.
-3. The system **identifies** the player (Engine 01 — PIRE).
-4. The system checks whether the player exists in the internal database.
-5. Where necessary, the system performs **authorised external research** to discover and
-   verify the player's identity and cricket history (Engine 03 — CDCRE).
-6. The system determines whether the player has represented Rajasthan Royals
-   (Engine 02 — TMVE).
-7. It distinguishes **historical RR players from current RR squad members**.
-8. It retrieves and analyses the player's cricket career (CDCRE).
-9. It evaluates the player's performance, contribution and role
-   (Engine 04 — CPPAE).
-10. It presents an **evidence-backed player profile** (Mother Intelligence Engine — MIE).
+3. **CDCRE (capability 1)** performs **pre-identity candidate discovery** on the raw name.
+4. The system **identifies** the player (Engine 01 — PIRE; deterministic tiers +
+   contextual attribute corroboration; ambiguous → user clarification).
+5. The system checks whether the player exists in the internal database.
+6. Where necessary, authorised external research (provenance-tracked, tiered) verifies
+   identity and cricket history.
+7. The system determines RR representation (Engine 02 — TMVE) across **three independent
+   dimensions**: RR relationship · current membership · season-bound, policy-versioned
+   IPL eligibility.
+8. It retrieves and analyses the complete career (CDCRE capability 2, four-state coverage).
+9. It evaluates performance, contribution and role (Engine 04 — CPPAE, per
+   `DATA_DICTIONARY.md`).
+10. It presents the evidence-backed profile (Mother Intelligence Engine — MIE).
 11. The user adds the player to a team composition (Team Builder Service).
 12. The **Squad Intelligence Engine** (Engine 06 — SICE) evaluates the complete team.
 
-The platform supports **all** of the following player populations, and it **never automatically
-assumes that an unknown player is an uncapped player** (unknown = `UNVERIFIED`):
+The platform supports **all** of the following player populations, and it **never
+automatically assumes that an unknown player is an uncapped player** (unknown =
+`RR_RELATIONSHIP_UNKNOWN` / eligibility `NOT_ASSESSED` until independently verified):
 
 - Existing RR players · Former RR players · Players who have never represented RR ·
   Domestic uncapped prospects · Players from other IPL franchises · International players ·
   Players whose identity or eligibility remains unverified.
+
+**Hackathon objective**: identify the **Top 10 youngest eligible uncapped players RR should
+consider backing for IPL 2027** (spec: `docs/PRD.md §4.3`) — with verified eligibility,
+exact ages as of the evaluation date, role-aware reproducible ranking, and per-candidate
+evidence dossiers.
 
 ---
 
 ## 2. Architecture at a Glance
 
 A central **Mother Intelligence Engine (MIE)** orchestrates **six specialised engines** and
-**five support services**, all reading a **27-entity 3NF PostgreSQL core**. The MIE never
-invents statistics or makes unsupported membership decisions; it coordinates the engines,
-merges their outputs, tracks verification status and source provenance, and returns structured
-reports. Engines are **frontend-agnostic**: the initial UI is **Streamlit**, and a future
-**Next.js** frontend reuses the same contracts.
+**five support services**, all reading a **31-entity normalised PostgreSQL core**. The MIE
+never invents statistics or makes membership/eligibility decisions; it coordinates the
+engines, merges their outputs, tracks verification status and source provenance, and returns
+structured reports. Engines are **frontend-agnostic**: the initial UI is **Streamlit**, and
+a future **Next.js** frontend reuses the same contracts.
 
 ```
 ┌────────────────────────────────────────────────────────────────────┐
@@ -59,6 +73,8 @@ reports. Engines are **frontend-agnostic**: the initial UI is **Streamlit**, and
                                 ▼
 ┌────────────────────────────────────────────────────────────────────┐
 │  MOTHER INTELLIGENCE ENGINE (MIE) — orchestrates, merges, tracks  │
+│  Sequence: candidate discovery → identity → membership → career   │
+│           → performance → context → eligibility → squad           │
 └──┬──────┬──────┬──────┬──────┬──────┬────────────────────────────┘
    ▼      ▼      ▼      ▼      ▼      ▼
  PIRE   TMVE   CDCRE  CPPAE  CMIE   SICE
@@ -66,71 +82,76 @@ reports. Engines are **frontend-agnostic**: the initial UI is **Streamlit**, and
    └────┴────┴────┴────┴────┴────── Support Services A–E
    │
    ▼
- Central PostgreSQL 16 core (27 entities, 3NF)  ←  datasets/ (immutable)
+ Central PostgreSQL 16 core (31 entities, normalised 3NF core)  ←  datasets/ (immutable)
 ```
 
 ### The six specialised engines
 | Engine | Name | Purpose |
 |---|---|---|
-| **ENGINE 01 — PIRE** | Player Identity Resolution | Resolve a name to a canonical player ID (aliases, spelling, duplicates, DOB, disambiguation). |
-| **ENGINE 02 — TMVE** | Team Membership Verification | Verify RR representation; six-class taxonomy; RR seasons vs current; verification hierarchy. |
-| **ENGINE 03 — CDCRE** | Career Discovery & Competition Research | Complete career beyond RR; cross-competition coverage; external research; provenance. |
-| **ENGINE 04 — CPPAE** | Complete Player Performance Analytics | Batting / bowling / fielding / wicketkeeping / match contribution, documented & format-aware. |
-| **ENGINE 05 — CMIE** | Contextual Match Intelligence | Environmental & match conditions; five-tier provenance; weather ≠ pitch; no mental-state inference. |
-| **ENGINE 06 — SICE** | Squad Intelligence & Composition | Role/depth/balance/duplication/gap analysis; comparisons; alternatives; evidence-backed recommendations. |
+| **ENGINE 01 — PIRE** | Player Identity Resolution | Resolve names to canonical player IDs; deterministic 4-tier waterfall with contextual attribute corroboration; never merges similar names; confidence only when calibrated. |
+| **ENGINE 02 — TMVE** | Team Membership Verification | Three-dimension membership (relationship · currency · season-bound eligibility); verified appearances vs squad inclusion; negative-verification protocol; franchise participation model. |
+| **ENGINE 03 — CDCRE** | Career Discovery & Competition Research | **Two capabilities**: `discover_candidates(raw_name)` (pre-identity) and `discover_career(player_id)` (post-identity); four-state coverage; provenance-tracked external research. |
+| **ENGINE 04 — CPPAE** | Complete Player Performance Analytics | Batting / bowling / fielding / wicketkeeping / match contribution, governed by `DATA_DICTIONARY.md` (formulas, null rules, sample minimums, format tags). |
+| **ENGINE 05 — CMIE** | Contextual Match Intelligence | Environmental & match conditions; five provenance tiers; weather ≠ pitch; no mental-state inference. |
+| **ENGINE 06 — SICE** | Squad Intelligence & Composition | Role/depth/balance/duplication/gap analysis; comparisons; labelled analytical recommendations; hackathon Top-10 ranking support. |
 
 ### The five support services
 | Service | Name | Responsibility |
 |---|---|---|
-| **A** | Data Ingestion | Import CricSheet, Kaggle, HawkeyeStats, historical weather, official records, verified research. |
-| **B** | Player Profile Generator | Standardised JSON/CSV exports from the central database. |
-| **C** | Source Verification & Provenance | URL, provider, timestamp, licence, status, confidence, original record ID. |
-| **D** | Data Quality & Coverage | Missing data, duplicates, conflicts, invalid associations, unavailable context. |
+| **A** | Data Ingestion | Import CricSheet, Kaggle, HawkeyeStats, historical weather, official records, verified research; statuses per `DATA_SOURCE_REGISTER.md`. |
+| **B** | Player Profile Generator | Standardised JSON/CSV exports from the central database (attribution embedded; confidentiality guard). |
+| **C** | Source Verification & Provenance | URL, provider, timestamp, licence, tier, status, calibrated confidence, record ID. |
+| **D** | Data Quality & Coverage | Missing data, duplicates, conflicts, invalid associations, innings↔delivery reconciliation, unavailable context. |
 | **E** | Team Builder | User teams, add/remove, composition, roles, saved configurations. |
 
 ---
 
 ## 3. Historical Context (Rajasthan Royals)
 
-- RR franchise membership analysis **begins with IPL 2008**; the first phase runs **2008–2015**.
-- RR were **suspended for IPL 2016 and 2017** and returned in **2018**; the suspension period is
-  represented separately (first-class state `seasons.is_suspension`), never filled with
-  fabricated squad data.
-- Post-return historical analysis covers **2018 onwards**; the primary post-return window is
-  **2018–2026**.
-- **IPL 2027 is a future target season**: it is treated as such until actual participation and
-  squad records are verified.
+- RR franchise participation analysis **begins with IPL 2008**; the first phase runs
+  **2008–2015**.
+- RR were **suspended for IPL 2016 and 2017** (a **franchise-specific** suspension; the IPL
+  competition continued for all other teams) and returned in **2018**. This is modelled in
+  **`team_season_participation`** (`RR × IPL 2016 = SUSPENDED`, `RR × IPL 2017 = SUSPENDED`),
+  not as a competition-wide property.
+- Post-return analysis covers **2018 onwards**; the primary window is **2018–2026**.
+- **IPL 2027 is a future target season**: RR's 2027 participation row is `UNKNOWN` until
+  authoritative squad/participation evidence is verified.
 
-The platform maintains **six separate membership classes** and assigns `CURRENT_SQUAD` **only**
-with verified current-season squad evidence:
+Membership is maintained as **three independent dimensions** (`player_membership_state` +
+`player_eligibility`), with `CURRENT_RR_SQUAD` assigned **only** on verified current-season
+squad evidence:
 
-`CURRENT_SQUAD` · `HISTORICAL_RR_PLAYER` · `PREVIOUSLY_ASSOCIATED` · `NEVER_REPRESENTED_RR` ·
-`UNVERIFIED` · `ELIGIBILITY_UNVERIFIED`
+- **RR relationship**: `CURRENT_RR_SQUAD` · `HISTORICAL_RR_APPEARANCE` ·
+  `HISTORICAL_RR_SQUAD_ONLY` · `PREVIOUSLY_ASSOCIATED` ·
+  `NO_VERIFIED_RR_RELATIONSHIP` (only via TRD §4.5 requirements) · `RR_RELATIONSHIP_UNKNOWN`
+- **Current status**: `CURRENT` · `NOT_CURRENT` · `UNKNOWN`
+- **Eligibility (season-bound, policy-versioned)**: `VERIFIED_ELIGIBLE` ·
+  `VERIFIED_NOT_ELIGIBLE` · `ELIGIBILITY_UNVERIFIED` · `NOT_ASSESSED`
 
 ---
 
-## 4. What Changed in This Revision (v1.0.0 → v2.0.0)
+## 4. What Changed (v2.0.0 → v2.1.0)
 
-| Area | v1.0.0 (superseded) | v2.0.0 (current) |
+| Area | v2.0.0 (superseded) | v2.1.0 (current) |
 |---|---|---|
-| **Product centre** | Auction war-room (valuation, EAP/VORP, Monte Carlo) | Squad intelligence & team composition with verified identity / membership / career |
-| **Orchestration** | Engines called directly by UI | **Mother Intelligence Engine (MIE)** central orchestrator |
-| **Engines** | "7 analytical modules + 1 subsystem" | **6 specialised engines** (PIRE, TMVE, CDCRE, CPPAE, CMIE, SICE) + 5 services, each with I/O contracts |
-| **Membership model** | Implicit (current squad assumed) | **Six-class taxonomy** + RR suspension + 2027-future + verified-evidence-only `CURRENT_SQUAD` |
-| **Unknown players** | Treated as uncapped prospects | **Never assumed uncapped** → `UNVERIFIED` / `ELIGIBILITY_UNVERIFIED` |
-| **Career coverage** | Presence/absence in dataset | **Four-state coverage** (verified / dataset-unavailable / not-established / confirmed-non-participation) |
-| **Database** | 20 entities | **27 entities** (+ team history, wicketkeeping, awards, competition history, user teams, verification records) |
-| **Primary UI** | Next.js 15 | **Streamlit** (initial); Next.js demoted to future, engine-agnostic |
-| **Roadmap** | Phases 0–8 | **Phases 0–10** (membership engine, career discovery, Streamlit app, hackathon evaluation) |
-| **Data location** | `CricSheet/` | `datasets/` |
-| **Agent model** | 14 agents keyed to Next.js/FastAPI | **16 agents** mapped to MIE + 6 engines + 5 services + delivery/QA |
-| **Guardrails** | 9 statistical commandments, 10 prohibitions | **12 domain rules, 14 prohibitions** incl. identity, membership & evidence mandates |
+| **Database DDL** | Table-level UNIQUE with `COALESCE(...)` expression (invalid in PostgreSQL); `deliveries` without FKs; soft `fielding_events.delivery_id`; false-claim defaults (`NOC DEFAULT TRUE`, `is_not_out DEFAULT TRUE`); decimal `overs_completed`; `runs_batter 0..6` cap | Unique **expression index** on `derived_features`; real FKs on partitioned `deliveries` (PG15+); composite `(delivery_id, season_year)` fielding FK; no-default/nullable unknowns; integer ball counts with derived over notation; overthrows allowed (DB findings DB-1…DB-13 resolved) |
+| **Suspension model** | Competition-level `seasons.is_suspension` | Franchise-level **`team_season_participation`** (PARTICIPATING/SUSPENDED/NOT_ENTERED/UNKNOWN, evidence-bound) |
+| **Membership model** | Six conflated classes | **Three independent dimensions** + versioned, season-bound **eligibility policies** |
+| **PIRE** | "Biometric" corroboration; scores as calibrated | **Contextual attribute corroboration**; deterministic tiers; calibrated-only numeric confidence |
+| **CDCRE** | Post-identity only (MIE circular dependency) | **Dual capability**: pre-identity `discover_candidates` + post-identity `discover_career` |
+| **Entity count** | 27 | **31** (+ `team_season_participation`, `player_membership_state`, `player_eligibility`, `eligibility_policies`; `is_suspension` column removed) |
+| **Metric governance** | Promised, not defined | **`docs/DATA_DICTIONARY.md`** (all B/W/F/M metrics, NOT_COMPUTABLE list incl. false shots) |
+| **Data sources** | Generic descriptions; unqualified "open" claims | **`docs/DATA_SOURCE_REGISTER.md`** (verification statuses; local evidence 2026-11-10: 1,243/201/265/230, ODC-By, **no SMAT** locally; Kaggle/HawkeyeStats marked RESTRICTED/UNVERIFIED) |
+| **Phase 0** | Marked COMPLETE (unsubstantiated) | Split: **0a documentation baseline COMPLETE** · **0b empirical data-source & licence audit OPEN / PARTIALLY_COMPLETE** |
+| **Agent id** | `agent_cdcpre` | `agent_cdcre` |
+| **Hackathon deliverable** | Not represented | **Top-10 youngest eligible uncapped candidates** spec + reproducible role-aware ranking methodology (PRD §4.3) |
 
-Still **retained** from v1.0.0 (now folded into the new architecture): deterministic
-reproducibility, strict 3NF + partitioning, the immutable data lake, zero-fabrication,
-Super Over isolation, DLS accounting, penalty-run exclusion, and ODC-By / CC BY 4.0
-attribution. Auction valuation (EAP/VORP), Monte Carlo simulation, and the Playing XI / Impact
-Player optimizers are **post-MVP enhancements**, not required for the hackathon submission.
+Still **retained** from v1.0.0/v2.0.0: deterministic reproducibility, normalised core with
+season partitioning, the immutable data lake, zero-fabrication, Super Over isolation, DLS
+accounting, penalty-run exclusion, and ODC-By / CC-BY attribution. Auction valuation
+(EAP/VORP), Monte Carlo, Playing XI / Impact Player optimizers remain **post-MVP
+enhancements**.
 
 ---
 
@@ -138,26 +159,28 @@ Player optimizers are **post-MVP enhancements**, not required for the hackathon 
 
 ```
 d:\New folder (2)\
-├── .agents/teamwork/                    # Multi-agent working memory, plans, handoffs
-├── datasets/                            # [IMMUTABLE] Raw cricket datasets (read-only)
-│   ├── ipl_male_json/                   #   IPL 2008–2026 (JSON v1.3.0) + LICENSE/README
-│   ├── icc_mens_t20_world_cup_male_json/  #   ICC T20 World Cup
-│   ├── icc_mens_cricket_world_cup_male_json/ #  ICC ODI World Cup
-│   └── hnd_male_json/                   #   The Hundred
-├── docs/                                # Authoritative documentation suite (7 documents)
-│   ├── README.md                        #   Documentation hub + reading pathways + traceability
-│   ├── PRD.md                           #   Product requirements (workflow, FRs, views, ACs)
-│   ├── TRD.md                           #   MIE + 6 engine contracts, 5 services, 27-entity DDL
-│   ├── ARCHITECTURE.md                  #   10 Mermaid diagrams + 7 ADRs
-│   ├── PHASES.md                        #   Phases 0–10 roadmap (MVP vs long-term)
-│   ├── AGENTS.md                        #   16-agent operating constitution
-│   └── AI_INSTRUCTIONS.md               #   Identity/membership/evidence mandates + domain rules
-├── PROJECT.md                           # Legacy v1 project definition (retained for audit)
-└── README.md                            # This file — product overview & current status
+├── .agents/teamwork/                    # Historical agent evidence (v1/v2 audits; preserved, not modified)
+├── datasets/                            # [IMMUTABLE, UNTRACKED] Raw cricket datasets (see .gitignore)
+│   ├── ipl_male_json/                   #   1,243 IPL match files (CricSheet JSON v1.3.0) + ODC-By LICENSE
+│   ├── hnd_male_json/                   #   201 The Hundred match files
+│   ├── icc_mens_cricket_world_cup_male_json/ # 265 ODI WC files (24 withheld by CricSheet policy)
+│   └── icc_mens_t20_world_cup_male_json/     # 230 T20 WC files (29 withheld by CricSheet policy)
+│   (no SMAT archive locally — recorded UNAVAILABLE; see DATA_SOURCE_REGISTER.md)
+├── docs/                                # Authoritative documentation suite
+│   ├── README.md                        #   Hub: pathways + traceability matrix
+│   ├── PRD.md                           #   Requirements, workflow, Top-10 deliverable, AC-01…AC-23
+│   ├── TRD.md                           #   MIE + 6 engine contracts, 5 services, 31-entity DDL
+│   ├── ARCHITECTURE.md                  #   10 Mermaid diagrams (DDL-mirrored ERD) + 7 ADRs
+│   ├── PHASES.md                        #   Phase 0a/0b + 1–10 roadmap (MVP vs long-term)
+│   ├── AGENTS.md                        #   16 agent contracts (`agent_cdcre` etc.)
+│   ├── AI_INSTRUCTIONS.md               #   Identity/membership/evidence mandates + domain rules
+│   ├── DATA_SOURCE_REGISTER.md          #   Source-to-field matrix, statuses, reconciliation
+│   └── DATA_DICTIONARY.md               #   Metric dictionary (B/W/F/M series + NOT_COMPUTABLE)
+├── reports/DOCUMENTATION_REMEDIATION_AUDIT.md  # Remediation record + validation results + commit list
+├── DOCUMENTATION_PRE_REMEDIATION_AUDIT.md       # Pre-remediation defect register
+├── PROJECT.md                           # Project charter (v2.1.0, supersedes the v1.0.0 spec)
+└── README.md                            # This file
 ```
-
-> Note: the v1.0.0 suite referenced a `CricSheet/` data directory. The data now lives in
-> `datasets/` (git-ignored); all documentation has been updated to the new path.
 
 ---
 
@@ -165,13 +188,15 @@ d:\New folder (2)\
 
 | Document | Purpose |
 |---|---|
-| [`docs/PRD.md`](docs/PRD.md) | Updated user experience: workflow, personas, engine FRs, 11 Streamlit views, MVP scope, acceptance criteria. |
-| [`docs/TRD.md`](docs/TRD.md) | All six engines + five services with documented I/O contracts; 27-entity DDL; membership taxonomy; Streamlit requirements. |
-| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Orchestration and data-flow: 10 Mermaid diagrams, MIE workflow, PIRE/TMVE decision flows, 27-entity ERD, SICE flow, 7 ADRs. |
-| [`docs/PHASES.md`](docs/PHASES.md) | Phases 0–10 with objectives, subphases, inputs/outputs, dependencies, checkpoints, acceptance criteria, testing, status, and the MVP split. |
-| [`docs/AGENTS.md`](docs/AGENTS.md) | Specialised agent responsibilities mapped to MIE, the six engines, and the five services. |
-| [`docs/AI_INSTRUCTIONS.md`](docs/AI_INSTRUCTIONS.md) | Enforces identity, membership, and evidence-verification guardrails (12 domain rules, 14 prohibitions). |
-| [`docs/README.md`](docs/README.md) | Documentation hub, reading pathways, cross-document traceability matrix, changelog. |
+| [`docs/PRD.md`](docs/PRD.md) | Updated user experience (candidate-discovery-first workflow), three-dimension membership, FR traceability, 11 Streamlit views, Top-10 hackathon spec, AC-01…AC-23. |
+| [`docs/TRD.md`](docs/TRD.md) | MIE + 6 engine I/O contracts, 5 services, remediated 31-entity DDL (design decisions D1–D10), negative-verification requirements, versioned eligibility policies, Streamlit requirements. |
+| [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) | Orchestration and data-flow: 10 Mermaid diagrams (DDL-mirrored 31-entity ERD), MIE/Pire/TMVE flows, SICE flow, 7 ADRs. |
+| [`docs/PHASES.md`](docs/PHASES.md) | Phase 0a/0b split + Phases 1–10 with objectives, subphases, dependencies, checkpoints, acceptance criteria, testing, status, and MVP split. |
+| [`docs/AGENTS.md`](docs/AGENTS.md) | 16 specialised agent contracts mapped to MIE, the six engines, five services, delivery & QA. |
+| [`docs/AI_INSTRUCTIONS.md`](docs/AI_INSTRUCTIONS.md) | Identity, membership and evidence-verification mandates; domain rules; prohibitions; Streamlit standards. |
+| [`docs/DATA_SOURCE_REGISTER.md`](docs/DATA_SOURCE_REGISTER.md) | Source-to-field mapping, verification statuses, match/delivery reconciliation plan, licence evidence. |
+| [`docs/DATA_DICTIONARY.md`](docs/DATA_DICTIONARY.md) | Complete metric definitions (formula, numerator/denominator, source fields, null rules, samples, class). |
+| [`docs/README.md`](docs/README.md) | Hub, reading pathways, cross-document traceability matrix, changelog. |
 
 ---
 
@@ -182,15 +207,16 @@ following is the *planned* runbook; it is realised incrementally across Phases 1
 
 ### 7.1 Prerequisites
 - **Python** 3.11+ (engines, services, Streamlit app).
-- **PostgreSQL** 16+ (27-entity normalised core).
+- **PostgreSQL 16+** (31-entity normalised core; partitioned-table FK support requires
+  ≥ 15, target is 16).
 - **Streamlit** (initial UI).
 - **Git** for version control.
 
 ### 7.2 Planned Steps
-1. **Database**: create the target database and apply the 27-entity DDL from
-   [`docs/TRD.md §10`](docs/TRD.md#10-central-normalised-postgresql-database-schema-27-entities).
-2. **Ingestion**: run the Phase 1 ingestion pipeline over `datasets/` into immutable staging
-   (SHA-256 + quarantine).
+1. **Database**: create the target database and apply the 31-entity DDL from
+   [`docs/TRD.md §10`](docs/TRD.md#10-central-postgresql-16-database-schema-31-entities).
+2. **Ingestion**: run the Phase 1 pipeline over `datasets/` into immutable staging
+   (SHA-256 + quarantine; counts per `DATA_SOURCE_REGISTER.md §3`).
 3. **Engines**: implement PIRE → TMVE → CDCRE → CPPAE → CMIE → SICE and the MIE orchestrator
    (Phases 2–8).
 4. **Streamlit app**: deliver the 11-view application consuming engine contracts (Phase 9).
@@ -200,7 +226,7 @@ following is the *planned* runbook; it is realised incrementally across Phases 1
    ```
 
 > No Streamlit deployment and no engine implementation are performed in this documentation
-> revision, per scope.
+> remediation, per scope.
 
 ---
 
@@ -208,45 +234,53 @@ following is the *planned* runbook; it is realised incrementally across Phases 1
 
 ```
 ========================================================================================
-                      CURRENT STATUS: 100% GREENFIELD BASELINE
+                 CURRENT STATUS: 100% GREENFIELD BASELINE (NO APPLICATION CODE)
 ========================================================================================
-[STATUS: COMPLETE]  Phase 0 — Documentation & Research Audit (all 7 docs + README)
+[STATUS: COMPLETE]            Phase 0a — Documentation baseline (suite + register + dictionary
+                              + pre/post remediation audits)
+[STATUS: OPEN / PARTIALLY_COMPLETE] Phase 0b — Empirical data-source & licence audit
+                              (local evidence recorded 2026-11-10; external verification
+                               of Kaggle/HawkeyeStats/Open-Meteo/official-record terms outstanding)
 [STATUS: PLANNED]   Phase 1 — Historical Dataset Acquisition & Data Quality
-[STATUS: PLANNED]   Phase 2 — Unified Database & Player Identity Resolution (PIRE)
-[STATUS: PLANNED]   Phase 3 — Team Membership Verification Engine (TMVE)
-[STATUS: PLANNED]   Phase 4 — Career Discovery & External Research (CDCRE)
-[STATUS: PLANNED]   Phase 5 — Complete Player Performance Analytics (CPPAE)
-[STATUS: PLANNED]   Phase 6 — Contextual Match Intelligence (CMIE)
-[STATUS: PLANNED]   Phase 7 — Player Profile Generation (MIE + Service B)
-[STATUS: PLANNED]   Phase 8 — Squad Intelligence & Composition (SICE + Service E)
-[STATUS: PLANNED]   Phase 9 — Streamlit Application
-[STATUS: PLANNED]   Phase 10 — Hackathon Candidate Evaluation & Final Submission
+[STATUS: PLANNED]   Phase 2 — Unified Database & Player Identity Resolution (31-entity DDL + PIRE)
+[STATUS: PLANNED]   Phase 3 — TMVE (three dimensions + team_season_participation + policies)
+[STATUS: PLANNED]   Phase 4 — CDCRE dual capability & external research
+[STATUS: PLANNED]   Phase 5 — CPPAE per DATA_DICTIONARY
+[STATUS: PLANNED]   Phase 6 — CMIE provenance-tiered context
+[STATUS: PLANNED]   Phase 7 — MIE + Player Profile Generation (Service B)
+[STATUS: PLANNED]   Phase 8 — SICE + Team Builder (Service E)
+[STATUS: PLANNED]   Phase 9 — Streamlit Application (11 views)
+[STATUS: PLANNED]   Phase 10 — Hackathon Candidate Evaluation (Top-10) & Final Submission
 ========================================================================================
 ```
 
-**Note for auditors & judges**: this repository is at an uncompromised **Greenfield Baseline**.
-Phase 0 establishes the complete technical specification, engine contracts, relational schema,
-and operating constitution *before* application code is written. All planned features remain
-`[STATUS: PLANNED]`.
+**Note for auditors & judges**: this repository is at an uncompromised **Greenfield
+Baseline**. No application code exists. Phase 0b remains open; no dataset counts are
+claimed beyond the locally verified figures in `DATA_SOURCE_REGISTER.md §3`.
 
 ---
 
 ## 9. Data Attribution & Licensing
 
-- **CricSheet** (in `datasets/`): **Open Data Commons Attribution License (ODC-By v1.0)** —
-  attributed to [CricSheet.org](https://cricsheet.org) in all exports.
-- **Open-Meteo historical weather**: **CC BY 4.0** — labelled as macro-environmental context,
-  never as direct pitch-soil measurement.
-- **Kaggle / HawkeyeStats**: open dataset / permissive research terms; provenance-tracked.
-- **Proprietary hackathon dataset**: kept confidential and isolated from public outputs.
-- **Trademarks**: "IPL", "BCCI", "Rajasthan Royals" and associated marks are the property of
-  their respective owners; used under hackathon fair-dealing for analytical research.
+- **CricSheet (local `datasets/`)**: **ODC-By** — `LICENSE.txt` present and inspected in all
+  four archives; attribution mandatory in all exports (verified locally 2026-11-10).
+- **Open-Meteo historical weather**: **CC BY 4.0** (stated; terms to be re-verified at
+  Phase 6) — labelled as macro-environmental context, never as direct pitch measurement.
+- **Kaggle / HawkeyeStats**: **RESTRICTED / UNVERIFIED** — terms not yet evidenced; do not
+  assume permissive reuse; see `DATA_SOURCE_REGISTER.md`.
+- **BCCI / IPL / ESPNcricinfo / Cricbuzz**: fair-dealing & automated-access limits apply;
+  per-claim provenance records required.
+- **Proprietary hackathon dataset**: confidential; isolated from public outputs.
+- **Trademarks**: "IPL", "BCCI", "Rajasthan Royals" and associated marks belong to their
+  respective owners; used under hackathon fair-dealing for analytical research.
 
 ---
 
 ## 10. Recommended Next Implementation Task
 
-**Phase 2 — Unified Database & Player Identity Resolution**: deploy the 27-entity DDL and
-implement the PIRE 4-tier resolution waterfall. This is the natural next step after the
-Phase 1 ingestion baseline, because every downstream engine (TMVE, CDCRE, CPPAE, CMIE, SICE)
-consumes canonical `player_id` values that PIRE produces.
+**Complete Phase 0b, then start Phase 1**: close the external-source licence/coverage
+verification (Kaggle S6/S7, HawkeyeStats S8, Open-Meteo S9, official records S10–S12 —
+dated evidence rows in `data_sources`), then deploy the Phase 1 ingestion pipeline over
+`datasets/` (verified counts 1,243/201/265/230; SMAT gap recorded). The immediate schema
+gate is the Phase 2 migration validation of the 31-entity DDL (partitioned `deliveries`
+FKs, `derived_features` expression index, composite fielding link).

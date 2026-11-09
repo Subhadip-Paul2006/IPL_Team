@@ -1,3 +1,64 @@
-# Ignore every dataset file and subfolder inside CricSheet.
-CricSheet/
-CricSheet/**/*
+# ----------------------------------------------------------------------------
+# Raw dataset protection — CURRENT data lake (verified local layout: datasets/)
+# ----------------------------------------------------------------------------
+# Ignore all DATA payloads under datasets/ by file type so no match ball-by-ball
+# files, archives, or proprietary dumps can enter Git:
+datasets/**/*.json
+datasets/**/*.yaml
+datasets/**/*.yml
+datasets/**/*.csv
+datasets/**/*.parquet
+datasets/**/*.zip
+datasets/**/*.tar
+datasets/**/*.tar.gz
+datasets/**/*.7z
+datasets/**/*.gz
+
+# Attribution / source-notice / documentation files are intentionally NOT
+# ignored, so each dataset's LICENSE.txt, README.txt (CricSheet source notices)
+# and any .md can still be tracked for provenance and licence compliance:
+#   (datasets/**/LICENSE.txt, datasets/**/README.txt, datasets/*.md remain
+#    trackable by default)
+
+# Legacy path (pre-2026-11 CricSheet/ archive) — keep protection in case it
+# reappears: ignore its payloads the same way.
+CricSheet/**/*.json
+CricSheet/**/*.yaml
+CricSheet/**/*.yml
+CricSheet/**/*.csv
+CricSheet/**/*.parquet
+CricSheet/**/*.zip
+CricSheet/**/*.tar
+CricSheet/**/*.tar.gz
+CricSheet/**/*.7z
+CricSheet/**/*.gz
+
+# Any future raw data landing zones.
+raw_data/
+staging/
+
+# ----------------------------------------------------------------------------
+# Large raw archives and proprietary hackathon data must never enter Git
+# ----------------------------------------------------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.7z
+# The proprietary hackathon dataset (introduced by the competition) — ignore the
+# whole directory wherever it lands; track ONLY a deliberate licence/notice stub
+# under docs/ if one is needed.
+hackathon_dataset/
+hackathon_dataset/**
+
+# ----------------------------------------------------------------------------
+# Local environments, tooling artifacts, scratch
+# ----------------------------------------------------------------------------
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.streamlit/secrets.toml
+node_modules/
+.mermaid-cache/
+*.log
