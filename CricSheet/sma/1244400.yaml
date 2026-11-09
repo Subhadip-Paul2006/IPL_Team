@@ -1,0 +1,2182 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-29'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-01-19'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Nagaland
+    by:
+      wickets: 8
+  overs: 20
+  players:
+    Manipur:
+    - Narsingh Yadav
+    - Gemson Singh
+    - Langlonyamba Meitan Keishangbam
+    - Nitesh Sedai
+    - Jayanta Sagatpam
+    - Ahmed Shah
+    - Rex Rajkumar
+    - L Kishan Singha
+    - Nongthombam Denin
+    - Lamabam Singh
+    - Bishworjit Konthoujam
+    Nagaland:
+    - STR Binny
+    - Nagaho Chishi
+    - SS Mundhe
+    - Khrievitso Kense
+    - Tahmeed Rahman
+    - Hokaito Zhimomi
+    - Hem Chetri
+    - Rongsen Jonathan
+    - Chetan Bist
+    - Sedezhalie Rupero
+    - Joshua Ozukum
+  registry:
+    people:
+      Ahmed Shah: 075d569e
+      Bishworjit Konthoujam: 15deff66
+      Chetan Bist: cf9d3356
+      Gemson Singh: f090ba10
+      Hem Chetri: d2ac5c4c
+      Hokaito Zhimomi: '96477053'
+      Jayanta Sagatpam: 8e5b6ee3
+      Joshua Ozukum: b13c506b
+      Khrievitso Kense: 2597e56b
+      L Kishan Singha: ca82673d
+      Lamabam Singh: 76860ea3
+      Langlonyamba Meitan Keishangbam: 61b9410c
+      Nagaho Chishi: 5b4d1d4e
+      Narsingh Yadav: 4c450aee
+      Nitesh Sedai: e9cb8d60
+      Nongthombam Denin: 1bf2759b
+      Rex Rajkumar: f3ba1bdc
+      Rongsen Jonathan: d4753890
+      SS Mundhe: 0af3426f
+      STR Binny: bd17b45f
+      Sedezhalie Rupero: e49574d6
+      Tahmeed Rahman: 13903f13
+    venues:
+      TI Cycles Ground, Murugappa, Chennai: cd930d23
+  teams:
+  - Manipur
+  - Nagaland
+  toss:
+    winner: Manipur
+    decision: bat
+  venue: TI Cycles Ground, Murugappa, Chennai
+  team_type: club
+innings:
+- 1st innings:
+    team: Manipur
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Gemson Singh
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Gemson Singh
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Gemson Singh
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Narsingh Yadav
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Gemson Singh
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Gemson Singh
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+        wicket:
+          player_out: Narsingh Yadav
+          fielders:
+          - Hokaito Zhimomi
+          kind: caught
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Gemson Singh
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gemson Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gemson Singh
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gemson Singh
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Gemson Singh
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gemson Singh
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gemson Singh
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gemson Singh
+        wicket:
+          player_out: Gemson Singh
+          fielders:
+          - Rongsen Jonathan
+          kind: caught
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Nitesh Sedai
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Nitesh Sedai
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Nitesh Sedai
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Nitesh Sedai
+        bowler: Nagaho Chishi
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: Nitesh Sedai
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Langlonyamba Meitan Keishangbam
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Nitesh Sedai
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Nitesh Sedai
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Nitesh Sedai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Nitesh Sedai
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Nitesh Sedai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Nitesh Sedai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Nitesh Sedai
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Nitesh Sedai
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Nitesh Sedai
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Nitesh Sedai
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Nitesh Sedai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Nitesh Sedai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Nitesh Sedai
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Nitesh Sedai
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Nitesh Sedai
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Nitesh Sedai
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Nitesh Sedai
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Nitesh Sedai
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Nitesh Sedai
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Nitesh Sedai
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+        wicket:
+          player_out: Nitesh Sedai
+          fielders:
+          - Hokaito Zhimomi
+          kind: caught
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Jayanta Sagatpam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Jayanta Sagatpam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jayanta Sagatpam
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jayanta Sagatpam
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jayanta Sagatpam
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Jayanta Sagatpam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Langlonyamba Meitan Keishangbam
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jayanta Sagatpam
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jayanta Sagatpam
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jayanta Sagatpam
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jayanta Sagatpam
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Jayanta Sagatpam
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Langlonyamba Meitan Keishangbam
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Jayanta Sagatpam
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+        wicket:
+          player_out: Jayanta Sagatpam
+          fielders:
+          - Nagaho Chishi
+          kind: run out
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Ahmed Shah
+        bowler: Hokaito Zhimomi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Hokaito Zhimomi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ahmed Shah
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Hokaito Zhimomi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ahmed Shah
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Hokaito Zhimomi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ahmed Shah
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Hokaito Zhimomi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ahmed Shah
+        wicket:
+          player_out: Ahmed Shah
+          fielders:
+          - STR Binny
+          kind: caught
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Rex Rajkumar
+        bowler: Hokaito Zhimomi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rex Rajkumar
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rex Rajkumar
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rex Rajkumar
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rex Rajkumar
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Rex Rajkumar
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rex Rajkumar
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Hem Chetri
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rex Rajkumar
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Hem Chetri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rex Rajkumar
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Hem Chetri
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rex Rajkumar
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Hem Chetri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rex Rajkumar
+        wicket:
+          player_out: Rex Rajkumar
+          kind: caught and bowled
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Hem Chetri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Kishan Singha
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: L Kishan Singha
+        bowler: Hem Chetri
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Langlonyamba Meitan Keishangbam
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Kishan Singha
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: L Kishan Singha
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Kishan Singha
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: L Kishan Singha
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Langlonyamba Meitan Keishangbam
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: L Kishan Singha
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Kishan Singha
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: L Kishan Singha
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Kishan Singha
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Kishan Singha
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: L Kishan Singha
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Kishan Singha
+        wicket:
+          player_out: L Kishan Singha
+          kind: bowled
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nongthombam Denin
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nongthombam Denin
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nongthombam Denin
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nongthombam Denin
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Nongthombam Denin
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Langlonyamba Meitan Keishangbam
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Nongthombam Denin
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: SS Mundhe
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Nongthombam Denin
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nongthombam Denin
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nongthombam Denin
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Nongthombam Denin
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Langlonyamba Meitan Keishangbam
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Nongthombam Denin
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nongthombam Denin
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Nongthombam Denin
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Langlonyamba Meitan Keishangbam
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Nongthombam Denin
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Nongthombam Denin
+        bowler: STR Binny
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nongthombam Denin
+        wicket:
+          player_out: Nongthombam Denin
+          fielders:
+          - Tahmeed Rahman
+          kind: run out
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Lamabam Singh
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Langlonyamba Meitan Keishangbam
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Lamabam Singh
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lamabam Singh
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Lamabam Singh
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Lamabam Singh
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Lamabam Singh
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Langlonyamba Meitan Keishangbam
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Lamabam Singh
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Lamabam Singh
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lamabam Singh
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Lamabam Singh
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+- 2nd innings:
+    team: Nagaland
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Chetan Bist
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Chetan Bist
+        bowler: Rex Rajkumar
+        extras:
+          byes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Chetan Bist
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Rongsen Jonathan
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Rongsen Jonathan
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Chetan Bist
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Rongsen Jonathan
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Rongsen Jonathan
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Rongsen Jonathan
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Chetan Bist
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Rongsen Jonathan
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chetan Bist
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Rongsen Jonathan
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Rongsen Jonathan
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Chetan Bist
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Rongsen Jonathan
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Rongsen Jonathan
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chetan Bist
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Rongsen Jonathan
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Rongsen Jonathan
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Chetan Bist
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Chetan Bist
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Rongsen Jonathan
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chetan Bist
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Rongsen Jonathan
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Rongsen Jonathan
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Rongsen Jonathan
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chetan Bist
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Chetan Bist
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Chetan Bist
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Chetan Bist
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rongsen Jonathan
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Chetan Bist
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Chetan Bist
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Rongsen Jonathan
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chetan Bist
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Chetan Bist
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Chetan Bist
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Rongsen Jonathan
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Rongsen Jonathan
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Chetan Bist
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Rongsen Jonathan
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Chetan Bist
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Chetan Bist
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Rongsen Jonathan
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Chetan Bist
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+        wicket:
+          player_out: Rongsen Jonathan
+          fielders:
+          - Langlonyamba Meitan Keishangbam
+          kind: caught
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: SS Mundhe
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: SS Mundhe
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chetan Bist
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Chetan Bist
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: SS Mundhe
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: SS Mundhe
+        bowler: Rex Rajkumar
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: Chetan Bist
+    - 7.4:
+        actual_delivery: '7.3'
+        non_striker: Chetan Bist
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: Chetan Bist
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Chetan Bist
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: SS Mundhe
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: SS Mundhe
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: SS Mundhe
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Chetan Bist
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: SS Mundhe
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Chetan Bist
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: SS Mundhe
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Chetan Bist
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SS Mundhe
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Chetan Bist
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: SS Mundhe
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Chetan Bist
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: SS Mundhe
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Chetan Bist
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Chetan Bist
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: SS Mundhe
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chetan Bist
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: SS Mundhe
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chetan Bist
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: SS Mundhe
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Chetan Bist
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: SS Mundhe
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: SS Mundhe
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Chetan Bist
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: SS Mundhe
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Chetan Bist
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Chetan Bist
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SS Mundhe
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Chetan Bist
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: SS Mundhe
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Chetan Bist
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: SS Mundhe
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Chetan Bist
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: SS Mundhe
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chetan Bist
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: SS Mundhe
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chetan Bist
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Chetan Bist
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Chetan Bist
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: SS Mundhe
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+        wicket:
+          player_out: Chetan Bist
+          kind: lbw
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: SS Mundhe
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: STR Binny
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: SS Mundhe
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: STR Binny
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: SS Mundhe
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: SS Mundhe
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: STR Binny
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: SS Mundhe
+        bowler: Bishworjit Konthoujam
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: STR Binny
+    - 14.6:
+        actual_delivery: '14.5'
+        non_striker: SS Mundhe
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: STR Binny
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: SS Mundhe
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: SS Mundhe
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: STR Binny
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: SS Mundhe
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: STR Binny
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SS Mundhe
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: STR Binny
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Mundhe
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: STR Binny
+        bowler: Nongthombam Denin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Mundhe
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: SS Mundhe
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: STR Binny
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: SS Mundhe
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: STR Binny
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: STR Binny
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: SS Mundhe
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: SS Mundhe
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: STR Binny

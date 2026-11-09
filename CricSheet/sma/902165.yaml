@@ -1,0 +1,2382 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-06'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2016-01-06'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Kerala
+    by:
+      runs: 50
+  overs: 20
+  players:
+    Kerala:
+    - VA Jagadeesh
+    - SV Samson
+    - Rohan Prem
+    - Sachin Baby
+    - RV Gomez
+    - P Prasanth
+    - Jafar Jamal
+    - Unnikrishnan Manukrishnan
+    - Nikhilesh Surendran
+    - Basil Thampi
+    - S Sandeep Warrier
+    Saurashtra:
+    - JD Unadkat
+    - S Sanandia
+    - Chirag Jani
+    - Deepak Punia
+    - K Makwana
+    - Dharmendrasinh Jadeja
+    - SP Jackson
+    - CA Pujara
+    - AA Barot
+    - Jaydev Shah
+    - Arpit Vasavada
+  registry:
+    people:
+      AA Barot: b690f34a
+      Arpit Vasavada: 2bbab579
+      Basil Thampi: 871e9faf
+      CA Pujara: d4f9dbd4
+      Chirag Jani: 783e6111
+      Deepak Punia: 5a004050
+      Dharmendrasinh Jadeja: d330f9b9
+      JD Unadkat: 1e66c162
+      Jafar Jamal: '37940451'
+      Jaydev Shah: 3c9b7d18
+      K Makwana: c59fdb7f
+      Nikhilesh Surendran: 78ea3a86
+      P Prasanth: ddb00822
+      RV Gomez: b2570b38
+      Rohan Prem: 92d07362
+      S Sanandia: 4c7543cf
+      S Sandeep Warrier: cdc6bdba
+      SP Jackson: acc1aeda
+      SV Samson: a4cc73aa
+      Sachin Baby: dc9dd038
+      Unnikrishnan Manukrishnan: 39dd4d6d
+      VA Jagadeesh: 8d83e97a
+    venues:
+      St Paul's College Ground, Kochi: 9941c014
+  teams:
+  - Kerala
+  - Saurashtra
+  toss:
+    winner: Saurashtra
+    decision: field
+  venue: St Paul's College Ground, Kochi
+  team_type: club
+innings:
+- 1st innings:
+    team: Kerala
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: SV Samson
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VA Jagadeesh
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: SV Samson
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VA Jagadeesh
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: SV Samson
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VA Jagadeesh
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: SV Samson
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VA Jagadeesh
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: VA Jagadeesh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: VA Jagadeesh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: VA Jagadeesh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: VA Jagadeesh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: VA Jagadeesh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: VA Jagadeesh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+        wicket:
+          player_out: SV Samson
+          fielders:
+          - Arpit Vasavada
+          kind: caught
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Rohan Prem
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VA Jagadeesh
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Rohan Prem
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VA Jagadeesh
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Rohan Prem
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VA Jagadeesh
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: VA Jagadeesh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: VA Jagadeesh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rohan Prem
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: VA Jagadeesh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rohan Prem
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: VA Jagadeesh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: VA Jagadeesh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Rohan Prem
+        bowler: S Sanandia
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: VA Jagadeesh
+    - 3.2:
+        actual_delivery: '3.1'
+        non_striker: Rohan Prem
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: VA Jagadeesh
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: Rohan Prem
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VA Jagadeesh
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: Rohan Prem
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VA Jagadeesh
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: VA Jagadeesh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: VA Jagadeesh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Rohan Prem
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VA Jagadeesh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Rohan Prem
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VA Jagadeesh
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Rohan Prem
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VA Jagadeesh
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: VA Jagadeesh
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: VA Jagadeesh
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rohan Prem
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: VA Jagadeesh
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Rohan Prem
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VA Jagadeesh
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Rohan Prem
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: VA Jagadeesh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Rohan Prem
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VA Jagadeesh
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: VA Jagadeesh
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rohan Prem
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: VA Jagadeesh
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Rohan Prem
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VA Jagadeesh
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: VA Jagadeesh
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: VA Jagadeesh
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Rohan Prem
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VA Jagadeesh
+        wicket:
+          player_out: VA Jagadeesh
+          kind: lbw
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Rohan Prem
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Rohan Prem
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Rohan Prem
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sachin Baby
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Rohan Prem
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Sachin Baby
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Rohan Prem
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Rohan Prem
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Sachin Baby
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Rohan Prem
+        bowler: Deepak Punia
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Sachin Baby
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Rohan Prem
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Sachin Baby
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Sachin Baby
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Sachin Baby
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rohan Prem
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Sachin Baby
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Rohan Prem
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Sachin Baby
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Rohan Prem
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Rohan Prem
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sachin Baby
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Rohan Prem
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Sachin Baby
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Rohan Prem
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Sachin Baby
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Sachin Baby
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Sachin Baby
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Sachin Baby
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Rohan Prem
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Sachin Baby
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rohan Prem
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Sachin Baby
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Rohan Prem
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Rohan Prem
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Sachin Baby
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Rohan Prem
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Sachin Baby
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Rohan Prem
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Sachin Baby
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Rohan Prem
+        bowler: K Makwana
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: Sachin Baby
+    - 12.2:
+        actual_delivery: '12.1'
+        non_striker: Rohan Prem
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sachin Baby
+    - 12.3:
+        actual_delivery: '12.2'
+        non_striker: Rohan Prem
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 12.4:
+        actual_delivery: '12.3'
+        non_striker: Sachin Baby
+        bowler: K Makwana
+        extras:
+          legbyes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Rohan Prem
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: Sachin Baby
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: Rohan Prem
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: Sachin Baby
+        bowler: K Makwana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Sachin Baby
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Sachin Baby
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Rohan Prem
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Rohan Prem
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Rohan Prem
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Rohan Prem
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sachin Baby
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Sachin Baby
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Rohan Prem
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Rohan Prem
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Rohan Prem
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sachin Baby
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Rohan Prem
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sachin Baby
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Rohan Prem
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sachin Baby
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Sachin Baby
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rohan Prem
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Sachin Baby
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Rohan Prem
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+        wicket:
+          player_out: Sachin Baby
+          fielders:
+          - Dharmendrasinh Jadeja
+          kind: caught
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: RV Gomez
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rohan Prem
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: RV Gomez
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: RV Gomez
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: RV Gomez
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+        wicket:
+          player_out: Rohan Prem
+          fielders:
+          - Jaydev Shah
+          kind: caught
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: RV Gomez
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Prasanth
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: P Prasanth
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RV Gomez
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: P Prasanth
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Gomez
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: P Prasanth
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Gomez
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: P Prasanth
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Gomez
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: P Prasanth
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Gomez
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: RV Gomez
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Prasanth
+        wicket:
+          player_out: P Prasanth
+          kind: caught and bowled
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Jafar Jamal
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Gomez
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Jafar Jamal
+        bowler: Dharmendrasinh Jadeja
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: RV Gomez
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Jafar Jamal
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Gomez
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Jafar Jamal
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RV Gomez
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Jafar Jamal
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RV Gomez
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: RV Gomez
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jafar Jamal
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Jafar Jamal
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Gomez
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Jafar Jamal
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Gomez
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: RV Gomez
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Jafar Jamal
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: RV Gomez
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jafar Jamal
+        wicket:
+          player_out: Jafar Jamal
+          fielders:
+          - CA Pujara
+          kind: caught
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: RV Gomez
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Unnikrishnan Manukrishnan
+        wicket:
+          player_out: Unnikrishnan Manukrishnan
+          fielders:
+          - CA Pujara
+          kind: caught
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Nikhilesh Surendran
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Gomez
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Nikhilesh Surendran
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Gomez
+        wicket:
+          player_out: Nikhilesh Surendran
+          fielders:
+          - S Sanandia
+          kind: run out
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: RV Gomez
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Basil Thampi
+        wicket:
+          player_out: Basil Thampi
+          kind: bowled
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: RV Gomez
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Sandeep Warrier
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: S Sandeep Warrier
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RV Gomez
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: S Sandeep Warrier
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Gomez
+- 2nd innings:
+    team: Saurashtra
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: CA Pujara
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Jackson
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: CA Pujara
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Jackson
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: CA Pujara
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: SP Jackson
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Pujara
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: SP Jackson
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Pujara
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: SP Jackson
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Pujara
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: SP Jackson
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Pujara
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: SP Jackson
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Pujara
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: CA Pujara
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Jackson
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: CA Pujara
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: SP Jackson
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Pujara
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: CA Pujara
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Jackson
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: SP Jackson
+        bowler: S Sandeep Warrier
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: CA Pujara
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: CA Pujara
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: SP Jackson
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Pujara
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: SP Jackson
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Pujara
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: SP Jackson
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Pujara
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: CA Pujara
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Jackson
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: SP Jackson
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Pujara
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: CA Pujara
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Jackson
+        wicket:
+          player_out: SP Jackson
+          fielders:
+          - RV Gomez
+          kind: caught
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: CA Pujara
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Barot
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: CA Pujara
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Barot
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: CA Pujara
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Barot
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: CA Pujara
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AA Barot
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: AA Barot
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CA Pujara
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: AA Barot
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Pujara
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: CA Pujara
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AA Barot
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: AA Barot
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Pujara
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: CA Pujara
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AA Barot
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: AA Barot
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Pujara
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: CA Pujara
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Barot
+        wicket:
+          player_out: AA Barot
+          kind: bowled
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: CA Pujara
+        bowler: Unnikrishnan Manukrishnan
+        extras:
+          legbyes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Jaydev Shah
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: CA Pujara
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: CA Pujara
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: CA Pujara
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: CA Pujara
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jaydev Shah
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: CA Pujara
+        bowler: Rohan Prem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jaydev Shah
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Jaydev Shah
+        bowler: Rohan Prem
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CA Pujara
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Jaydev Shah
+        bowler: Rohan Prem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Pujara
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Jaydev Shah
+        bowler: Rohan Prem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Pujara
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: CA Pujara
+        bowler: Rohan Prem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: CA Pujara
+        bowler: Rohan Prem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Jaydev Shah
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Pujara
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: CA Pujara
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+        wicket:
+          player_out: Jaydev Shah
+          fielders:
+          - Rohan Prem
+          kind: caught
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Chirag Jani
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Pujara
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Chirag Jani
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CA Pujara
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Chirag Jani
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Pujara
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: CA Pujara
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Chirag Jani
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Pujara
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Chirag Jani
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Pujara
+        wicket:
+          player_out: CA Pujara
+          fielders:
+          - Nikhilesh Surendran
+          kind: caught
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Deepak Punia
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Chirag Jani
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepak Punia
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Chirag Jani
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepak Punia
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Chirag Jani
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Deepak Punia
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Chirag Jani
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepak Punia
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Chirag Jani
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Deepak Punia
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Deepak Punia
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Chirag Jani
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepak Punia
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Chirag Jani
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepak Punia
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Chirag Jani
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Deepak Punia
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Deepak Punia
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Deepak Punia
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Deepak Punia
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Jani
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Deepak Punia
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Chirag Jani
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Deepak Punia
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Deepak Punia
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chirag Jani
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Chirag Jani
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepak Punia
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Chirag Jani
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepak Punia
+        wicket:
+          player_out: Deepak Punia
+          fielders:
+          - VA Jagadeesh
+          kind: caught
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Chirag Jani
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Vasavada
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Chirag Jani
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Vasavada
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Arpit Vasavada
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Chirag Jani
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Vasavada
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Arpit Vasavada
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+        wicket:
+          player_out: Chirag Jani
+          kind: bowled
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Arpit Vasavada
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: JD Unadkat
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Vasavada
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Arpit Vasavada
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Unadkat
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Arpit Vasavada
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: JD Unadkat
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Vasavada
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Arpit Vasavada
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JD Unadkat
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Arpit Vasavada
+        bowler: Unnikrishnan Manukrishnan
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: JD Unadkat
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: JD Unadkat
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Vasavada
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Arpit Vasavada
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Unadkat
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Arpit Vasavada
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Unadkat
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Arpit Vasavada
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Unadkat
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: JD Unadkat
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Vasavada
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Arpit Vasavada
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: JD Unadkat
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Vasavada
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Arpit Vasavada
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JD Unadkat
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Arpit Vasavada
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: JD Unadkat
+        bowler: VA Jagadeesh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Vasavada
+        wicket:
+          player_out: Arpit Vasavada
+          kind: caught and bowled
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: JD Unadkat
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Sanandia
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: JD Unadkat
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Sanandia
+        wicket:
+          player_out: S Sanandia
+          kind: bowled
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: JD Unadkat
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Makwana
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: JD Unadkat
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Makwana
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: JD Unadkat
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Makwana
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: JD Unadkat
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Makwana
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: JD Unadkat
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Makwana
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: K Makwana
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Unadkat
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: K Makwana
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JD Unadkat
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: K Makwana
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: JD Unadkat
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Makwana
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: JD Unadkat
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Makwana
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: K Makwana
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: JD Unadkat
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Makwana
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: JD Unadkat
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Makwana
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: K Makwana
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Unadkat
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: K Makwana
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JD Unadkat
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: K Makwana
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JD Unadkat
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: JD Unadkat
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Makwana
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: JD Unadkat
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Makwana
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: K Makwana
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JD Unadkat
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: K Makwana
+        bowler: S Sandeep Warrier
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: JD Unadkat
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: K Makwana
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Unadkat
+        wicket:
+          player_out: JD Unadkat
+          fielders:
+          - Unnikrishnan Manukrishnan
+          kind: caught
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: K Makwana
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dharmendrasinh Jadeja
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: K Makwana
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dharmendrasinh Jadeja
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: K Makwana
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dharmendrasinh Jadeja
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Dharmendrasinh Jadeja
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Makwana
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Dharmendrasinh Jadeja
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Makwana
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: K Makwana
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dharmendrasinh Jadeja
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: K Makwana
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dharmendrasinh Jadeja
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Dharmendrasinh Jadeja
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Makwana

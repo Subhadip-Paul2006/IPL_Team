@@ -1,0 +1,2393 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-01'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-11-22'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Baroda
+    by:
+      runs: 1
+  overs: 20
+  players:
+    Baroda:
+    - KH Devdhar
+    - Aditya Waghmode
+    - DJ Hooda
+    - KH Pandya
+    - YK Pathan
+    - Swapnil Singh
+    - Vishnu Solanki
+    - NA Rathva
+    - A Sheth
+    - RT Arothe
+    - BA Pathan
+    Delhi:
+    - Simarjeet Singh
+    - Lalit Yadav
+    - Suboth Bhati
+    - Varun Sood
+    - N Rana
+    - Pranshu Vijayran
+    - Hiten Dalal
+    - Kunwar Bidhuri
+    - Anuj Rawat
+    - DR Shorey
+    - Himmat Singh
+  registry:
+    people:
+      A Sheth: 4312e8f9
+      Aditya Waghmode: eb67df8f
+      Anuj Rawat: c8f5f961
+      BA Pathan: 870e4cec
+      DJ Hooda: 73ad96ed
+      DR Shorey: faa7365d
+      Himmat Singh: ebcfef83
+      Hiten Dalal: 74bace71
+      KH Devdhar: 62e07f92
+      KH Pandya: 5b8c830e
+      Kunwar Bidhuri: 9ffe4bfe
+      Lalit Yadav: ad427b5c
+      N Rana: fb2d1dda
+      NA Rathva: 8f607eea
+      Pranshu Vijayran: f0380005
+      RT Arothe: '50455929'
+      Simarjeet Singh: 30df8c66
+      Suboth Bhati: bee290b6
+      Swapnil Singh: 983f2f61
+      Varun Sood: '23639793'
+      Vishnu Solanki: 2e802011
+      YK Pathan: 3c6ffae8
+    venues:
+      Lalabhai Contractor Stadium, Surat: '0689d53a'
+  teams:
+  - Baroda
+  - Delhi
+  toss:
+    winner: Delhi
+    decision: field
+  venue: Lalabhai Contractor Stadium, Surat
+  team_type: club
+innings:
+- 1st innings:
+    team: Baroda
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Aditya Waghmode
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Aditya Waghmode
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Aditya Waghmode
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: KH Devdhar
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: KH Devdhar
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: KH Devdhar
+        bowler: Simarjeet Singh
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: KH Devdhar
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Aditya Waghmode
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: KH Devdhar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aditya Waghmode
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: KH Devdhar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Waghmode
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Aditya Waghmode
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: KH Devdhar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Aditya Waghmode
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Aditya Waghmode
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: KH Devdhar
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Waghmode
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Aditya Waghmode
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Aditya Waghmode
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: KH Devdhar
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aditya Waghmode
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: KH Devdhar
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Waghmode
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Aditya Waghmode
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: KH Devdhar
+        bowler: Lalit Yadav
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 3.2:
+        actual_delivery: '3.1'
+        non_striker: KH Devdhar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Waghmode
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: Aditya Waghmode
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+        wicket:
+          player_out: KH Devdhar
+          kind: lbw
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: Aditya Waghmode
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Aditya Waghmode
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: DJ Hooda
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: DJ Hooda
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Waghmode
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Aditya Waghmode
+        bowler: Simarjeet Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: DJ Hooda
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: DJ Hooda
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Waghmode
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Aditya Waghmode
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Aditya Waghmode
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Aditya Waghmode
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Aditya Waghmode
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Aditya Waghmode
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Hooda
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Aditya Waghmode
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Aditya Waghmode
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: DJ Hooda
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Waghmode
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Aditya Waghmode
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: DJ Hooda
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Waghmode
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: DJ Hooda
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Waghmode
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: DJ Hooda
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: DJ Hooda
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aditya Waghmode
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: DJ Hooda
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: DJ Hooda
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Waghmode
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Aditya Waghmode
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: DJ Hooda
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Waghmode
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: DJ Hooda
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: DJ Hooda
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Waghmode
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Aditya Waghmode
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Aditya Waghmode
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: DJ Hooda
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Waghmode
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: DJ Hooda
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: DJ Hooda
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Waghmode
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Aditya Waghmode
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Aditya Waghmode
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: DJ Hooda
+        bowler: Suboth Bhati
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: DJ Hooda
+        bowler: Suboth Bhati
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 8.7:
+        actual_delivery: '8.5'
+        non_striker: DJ Hooda
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 8.8:
+        actual_delivery: '8.6'
+        non_striker: DJ Hooda
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Waghmode
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Aditya Waghmode
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: DJ Hooda
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: DJ Hooda
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: DJ Hooda
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Waghmode
+        wicket:
+          player_out: Aditya Waghmode
+          fielders:
+          - Lalit Yadav
+          kind: caught
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: DJ Hooda
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: KH Pandya
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: KH Pandya
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+        wicket:
+          player_out: DJ Hooda
+          fielders:
+          - Himmat Singh
+          kind: caught
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: YK Pathan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: YK Pathan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: YK Pathan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: KH Pandya
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: KH Pandya
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: KH Pandya
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: KH Pandya
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: KH Pandya
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: YK Pathan
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: YK Pathan
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: KH Pandya
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: KH Pandya
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YK Pathan
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: KH Pandya
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: YK Pathan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: KH Pandya
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: KH Pandya
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: YK Pathan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: YK Pathan
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: KH Pandya
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: YK Pathan
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: KH Pandya
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: KH Pandya
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: YK Pathan
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: KH Pandya
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: YK Pathan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+        wicket:
+          player_out: KH Pandya
+          fielders:
+          - Anuj Rawat
+          kind: stumped
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: YK Pathan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: YK Pathan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Swapnil Singh
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: YK Pathan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Swapnil Singh
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: YK Pathan
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Swapnil Singh
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: YK Pathan
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Swapnil Singh
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: YK Pathan
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Swapnil Singh
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: YK Pathan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: YK Pathan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Swapnil Singh
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: YK Pathan
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Swapnil Singh
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: YK Pathan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Swapnil Singh
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: YK Pathan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: YK Pathan
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Swapnil Singh
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: YK Pathan
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: YK Pathan
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+        wicket:
+          player_out: Swapnil Singh
+          kind: caught and bowled
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Vishnu Solanki
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: YK Pathan
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vishnu Solanki
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: YK Pathan
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Solanki
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Vishnu Solanki
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+        wicket:
+          player_out: YK Pathan
+          kind: lbw
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Vishnu Solanki
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Rathva
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: NA Rathva
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Solanki
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: NA Rathva
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Vishnu Solanki
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Rathva
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: NA Rathva
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: NA Rathva
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Vishnu Solanki
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NA Rathva
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Vishnu Solanki
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NA Rathva
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Vishnu Solanki
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NA Rathva
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Vishnu Solanki
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NA Rathva
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Vishnu Solanki
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NA Rathva
+- 2nd innings:
+    team: Delhi
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Kunwar Bidhuri
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Hiten Dalal
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Kunwar Bidhuri
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Kunwar Bidhuri
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Kunwar Bidhuri
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Hiten Dalal
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Hiten Dalal
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Hiten Dalal
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Kunwar Bidhuri
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Kunwar Bidhuri
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hiten Dalal
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Kunwar Bidhuri
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Hiten Dalal
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kunwar Bidhuri
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Kunwar Bidhuri
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hiten Dalal
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Kunwar Bidhuri
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hiten Dalal
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Kunwar Bidhuri
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Hiten Dalal
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Hiten Dalal
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kunwar Bidhuri
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Hiten Dalal
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Kunwar Bidhuri
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hiten Dalal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Kunwar Bidhuri
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Kunwar Bidhuri
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+        wicket:
+          player_out: Hiten Dalal
+          fielders:
+          - YK Pathan
+          kind: caught
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Kunwar Bidhuri
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Anuj Rawat
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Anuj Rawat
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Kunwar Bidhuri
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Kunwar Bidhuri
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Kunwar Bidhuri
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Anuj Rawat
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Anuj Rawat
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kunwar Bidhuri
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Anuj Rawat
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Anuj Rawat
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Anuj Rawat
+        bowler: BA Pathan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 5.3:
+        actual_delivery: '5.2'
+        non_striker: Anuj Rawat
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kunwar Bidhuri
+    - 5.4:
+        actual_delivery: '5.3'
+        non_striker: Anuj Rawat
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: Kunwar Bidhuri
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+        wicket:
+          player_out: Anuj Rawat
+          fielders:
+          - DJ Hooda
+          kind: caught
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: Kunwar Bidhuri
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Shorey
+        wicket:
+          player_out: DR Shorey
+          kind: bowled
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: Kunwar Bidhuri
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: N Rana
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: N Rana
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: N Rana
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: N Rana
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kunwar Bidhuri
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: N Rana
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Kunwar Bidhuri
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: N Rana
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Kunwar Bidhuri
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Kunwar Bidhuri
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: N Rana
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: N Rana
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: N Rana
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: N Rana
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: N Rana
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+        wicket:
+          player_out: N Rana
+          fielders:
+          - Vishnu Solanki
+          kind: run out
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Himmat Singh
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Himmat Singh
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Himmat Singh
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Himmat Singh
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Himmat Singh
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Himmat Singh
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Himmat Singh
+        wicket:
+          player_out: Himmat Singh
+          fielders:
+          - KH Devdhar
+          kind: stumped
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: Kunwar Bidhuri
+        bowler: YK Pathan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Lalit Yadav
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Lalit Yadav
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Lalit Yadav
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kunwar Bidhuri
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Lalit Yadav
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kunwar Bidhuri
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Lalit Yadav
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Kunwar Bidhuri
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Lalit Yadav
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Lalit Yadav
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Lalit Yadav
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+        wicket:
+          player_out: Lalit Yadav
+          fielders:
+          - Vishnu Solanki
+          kind: caught
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pranshu Vijayran
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pranshu Vijayran
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Pranshu Vijayran
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Kunwar Bidhuri
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pranshu Vijayran
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Kunwar Bidhuri
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pranshu Vijayran
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Pranshu Vijayran
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Kunwar Bidhuri
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pranshu Vijayran
+        wicket:
+          player_out: Pranshu Vijayran
+          kind: caught and bowled
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Kunwar Bidhuri
+        bowler: Aditya Waghmode
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          role:
+          - in: Aditya Waghmode
+            out: A Sheth
+            reason: unknown
+            role: bowler
+        batsman: Varun Sood
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Varun Sood
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Varun Sood
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Varun Sood
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Varun Sood
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Varun Sood
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Kunwar Bidhuri
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Varun Sood
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Kunwar Bidhuri
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Varun Sood
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Kunwar Bidhuri
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Varun Sood
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Varun Sood
+        bowler: KH Pandya
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: Varun Sood
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+        wicket:
+          player_out: Varun Sood
+          fielders:
+          - KH Pandya
+          kind: run out
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Suboth Bhati
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kunwar Bidhuri
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Suboth Bhati
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Kunwar Bidhuri
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Suboth Bhati
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Suboth Bhati
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunwar Bidhuri
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Suboth Bhati
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kunwar Bidhuri
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Suboth Bhati
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunwar Bidhuri
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Kunwar Bidhuri
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Kunwar Bidhuri
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Kunwar Bidhuri
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Suboth Bhati
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunwar Bidhuri
+        wicket:
+          player_out: Kunwar Bidhuri
+          fielders:
+          - Vishnu Solanki
+          kind: caught
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Suboth Bhati
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Simarjeet Singh
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Simarjeet Singh
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Simarjeet Singh
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Suboth Bhati
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Simarjeet Singh
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Suboth Bhati
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Simarjeet Singh
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Suboth Bhati

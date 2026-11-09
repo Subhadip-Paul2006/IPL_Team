@@ -1,0 +1,2328 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-21'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-11-08'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Meghalaya
+    by:
+      wickets: 10
+  overs: 20
+  players:
+    Tripura:
+    - Bikramkumar Das
+    - Arkaprabha Sinha
+    - KB Pawan
+    - Dipayan Debbarma
+    - Rajat Dey
+    - Sankar Paul
+    - Manisankar Murasingh
+    - Amit Ali
+    - Saurabh Das
+    - Ajay Sarkar
+    - Rahil Shah
+    Meghalaya:
+    - Chirag Khurana
+    - Anish Charak
+    - Akash Choudhary
+    - Dippu Sangma
+    - Himan Phukan
+    - Chengkam Sangma
+    - Kishan Lyngdoh
+    - Larry Sangma
+    - Yogesh Tiwari
+    - Punit Bisht
+    - DB Ravi Teja
+  registry:
+    people:
+      Ajay Sarkar: 10636efb
+      Akash Choudhary: 0f60513c
+      Amit Ali: b54d8acf
+      Anish Charak: 62a48252
+      Arkaprabha Sinha: 92673ce8
+      Bikramkumar Das: 601398c4
+      Chengkam Sangma: cf495041
+      Chirag Khurana: 3d51cc7e
+      DB Ravi Teja: b720a5d6
+      Dipayan Debbarma: eb5dddc8
+      Dippu Sangma: 24ea8cf8
+      Himan Phukan: 9335178c
+      KB Pawan: 62dad180
+      Kishan Lyngdoh: d11f0758
+      Larry Sangma: 77f6fd61
+      Manisankar Murasingh: 52cb36a0
+      Punit Bisht: 310bddc0
+      Rahil Shah: 7c30f4d0
+      Rajat Dey: ccc04a61
+      Sankar Paul: 34cbc9d2
+      Saurabh Das: 38f548aa
+      Yogesh Tiwari: 144fdfd4
+    venues:
+      Andhra Cricket Association Stadium, Mangalagiri: 82da1bdb
+  teams:
+  - Tripura
+  - Meghalaya
+  toss:
+    winner: Tripura
+    decision: bat
+  venue: Andhra Cricket Association Stadium, Mangalagiri
+  team_type: club
+innings:
+- 1st innings:
+    team: Tripura
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Arkaprabha Sinha
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Bikramkumar Das
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arkaprabha Sinha
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Bikramkumar Das
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arkaprabha Sinha
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Arkaprabha Sinha
+        bowler: Chirag Khurana
+        extras:
+          wides: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Bikramkumar Das
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arkaprabha Sinha
+        wicket:
+          player_out: Arkaprabha Sinha
+          fielders:
+          - Dippu Sangma
+          kind: caught
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Bikramkumar Das
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Pawan
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Bikramkumar Das
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Pawan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Bikramkumar Das
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Pawan
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: KB Pawan
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: KB Pawan
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Bikramkumar Das
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Pawan
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Bikramkumar Das
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Pawan
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: KB Pawan
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Bikramkumar Das
+        bowler: Akash Choudhary
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KB Pawan
+    - 2.2:
+        actual_delivery: '2.1'
+        non_striker: Bikramkumar Das
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Pawan
+    - 2.3:
+        actual_delivery: '2.2'
+        non_striker: Bikramkumar Das
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Pawan
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: KB Pawan
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bikramkumar Das
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: KB Pawan
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bikramkumar Das
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: KB Pawan
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Bikramkumar Das
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Pawan
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: KB Pawan
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: KB Pawan
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+        wicket:
+          player_out: Bikramkumar Das
+          fielders:
+          - Himan Phukan
+          kind: caught
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: KB Pawan
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Dipayan Debbarma
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KB Pawan
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Dipayan Debbarma
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Pawan
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Dipayan Debbarma
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Pawan
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: KB Pawan
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Dipayan Debbarma
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KB Pawan
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Dipayan Debbarma
+        bowler: Dippu Sangma
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KB Pawan
+    - 4.4:
+        actual_delivery: '4.3'
+        non_striker: Dipayan Debbarma
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KB Pawan
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: Dipayan Debbarma
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Pawan
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: Dipayan Debbarma
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Pawan
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: KB Pawan
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dipayan Debbarma
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Dipayan Debbarma
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KB Pawan
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Dipayan Debbarma
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Pawan
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: KB Pawan
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dipayan Debbarma
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: KB Pawan
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dipayan Debbarma
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: KB Pawan
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Dipayan Debbarma
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Pawan
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: KB Pawan
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Dipayan Debbarma
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Pawan
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: KB Pawan
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dipayan Debbarma
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: KB Pawan
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Dipayan Debbarma
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Pawan
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: KB Pawan
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: KB Pawan
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Dipayan Debbarma
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Pawan
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: KB Pawan
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Dipayan Debbarma
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Pawan
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: KB Pawan
+        bowler: Dippu Sangma
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Dipayan Debbarma
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: KB Pawan
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dipayan Debbarma
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: KB Pawan
+        bowler: Dippu Sangma
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Dipayan Debbarma
+    - 7.8:
+        actual_delivery: '7.6'
+        non_striker: KB Pawan
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: KB Pawan
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Dipayan Debbarma
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KB Pawan
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Dipayan Debbarma
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Pawan
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: KB Pawan
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dipayan Debbarma
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: KB Pawan
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Dipayan Debbarma
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: KB Pawan
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: KB Pawan
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Dipayan Debbarma
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KB Pawan
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Dipayan Debbarma
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Pawan
+        wicket:
+          player_out: KB Pawan
+          fielders:
+          - Punit Bisht
+          kind: caught
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Dipayan Debbarma
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Dipayan Debbarma
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Rajat Dey
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dipayan Debbarma
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Dipayan Debbarma
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Rajat Dey
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dipayan Debbarma
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Rajat Dey
+        bowler: Chirag Khurana
+        extras:
+          wides: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: Dipayan Debbarma
+    - 10.4:
+        actual_delivery: '10.3'
+        non_striker: Dipayan Debbarma
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: Rajat Dey
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: Dipayan Debbarma
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: Dipayan Debbarma
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Rajat Dey
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Dipayan Debbarma
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Dey
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Dipayan Debbarma
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rajat Dey
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Dipayan Debbarma
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Dipayan Debbarma
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Rajat Dey
+        bowler: Chengkam Sangma
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Dipayan Debbarma
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: Rajat Dey
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Rajat Dey
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dipayan Debbarma
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Rajat Dey
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dipayan Debbarma
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Rajat Dey
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dipayan Debbarma
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Dipayan Debbarma
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Rajat Dey
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dipayan Debbarma
+        wicket:
+          player_out: Dipayan Debbarma
+          kind: bowled
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Rajat Dey
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sankar Paul
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Sankar Paul
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Rajat Dey
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sankar Paul
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Sankar Paul
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Rajat Dey
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sankar Paul
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Rajat Dey
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sankar Paul
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Sankar Paul
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Sankar Paul
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Rajat Dey
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sankar Paul
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Sankar Paul
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Rajat Dey
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sankar Paul
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Rajat Dey
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sankar Paul
+        wicket:
+          player_out: Sankar Paul
+          fielders:
+          - Akash Choudhary
+          kind: run out
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Rajat Dey
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manisankar Murasingh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Manisankar Murasingh
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+        wicket:
+          player_out: Rajat Dey
+          fielders:
+          - Kishan Lyngdoh
+          kind: caught
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Manisankar Murasingh
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Ali
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Amit Ali
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manisankar Murasingh
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Manisankar Murasingh
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Amit Ali
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Manisankar Murasingh
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Ali
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Amit Ali
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manisankar Murasingh
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Amit Ali
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manisankar Murasingh
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Amit Ali
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manisankar Murasingh
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Amit Ali
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manisankar Murasingh
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Manisankar Murasingh
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amit Ali
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Manisankar Murasingh
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amit Ali
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Manisankar Murasingh
+        bowler: Himan Phukan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Amit Ali
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Amit Ali
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manisankar Murasingh
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Manisankar Murasingh
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Ali
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Amit Ali
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manisankar Murasingh
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Manisankar Murasingh
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Ali
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Amit Ali
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Manisankar Murasingh
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Amit Ali
+        bowler: Chengkam Sangma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Manisankar Murasingh
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Manisankar Murasingh
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amit Ali
+        wicket:
+          player_out: Amit Ali
+          fielders:
+          - Dippu Sangma
+          kind: run out
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Manisankar Murasingh
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Saurabh Das
+        bowler: Dippu Sangma
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: Manisankar Murasingh
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: Manisankar Murasingh
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Saurabh Das
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: Manisankar Murasingh
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Saurabh Das
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: Manisankar Murasingh
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Das
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: Manisankar Murasingh
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+        wicket:
+          player_out: Manisankar Murasingh
+          fielders:
+          - Chengkam Sangma
+          kind: run out
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Ajay Sarkar
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Saurabh Das
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Ajay Sarkar
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Das
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Ajay Sarkar
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Saurabh Das
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ajay Sarkar
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Saurabh Das
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ajay Sarkar
+        wicket:
+          player_out: Saurabh Das
+          fielders:
+          - Punit Bisht
+          kind: run out
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Ajay Sarkar
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahil Shah
+        wicket:
+          player_out: Rahil Shah
+          fielders:
+          - Larry Sangma
+          kind: caught
+- 2nd innings:
+    team: Meghalaya
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Kishan Lyngdoh
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Kishan Lyngdoh
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Khurana
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Kishan Lyngdoh
+        bowler: Manisankar Murasingh
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Khurana
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Kishan Lyngdoh
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Khurana
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Kishan Lyngdoh
+        bowler: Manisankar Murasingh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Khurana
+    - 0.6:
+        actual_delivery: '0.4'
+        non_striker: Kishan Lyngdoh
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 0.7:
+        actual_delivery: '0.5'
+        non_striker: Chirag Khurana
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 0.8:
+        actual_delivery: '0.6'
+        non_striker: Chirag Khurana
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Chirag Khurana
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Chirag Khurana
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Chirag Khurana
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Chirag Khurana
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Kishan Lyngdoh
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Khurana
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Kishan Lyngdoh
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Kishan Lyngdoh
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Chirag Khurana
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Chirag Khurana
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Kishan Lyngdoh
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Kishan Lyngdoh
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Chirag Khurana
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Chirag Khurana
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kishan Lyngdoh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Kishan Lyngdoh
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Kishan Lyngdoh
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kishan Lyngdoh
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Chirag Khurana
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Chirag Khurana
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kishan Lyngdoh
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Chirag Khurana
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Kishan Lyngdoh
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Kishan Lyngdoh
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Chirag Khurana
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Chirag Khurana
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Chirag Khurana
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Kishan Lyngdoh
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Khurana
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Kishan Lyngdoh
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Khurana
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Kishan Lyngdoh
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Kishan Lyngdoh
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Kishan Lyngdoh
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Chirag Khurana
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Kishan Lyngdoh
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Chirag Khurana
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Kishan Lyngdoh
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Kishan Lyngdoh
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Chirag Khurana
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Kishan Lyngdoh
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Chirag Khurana
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Kishan Lyngdoh
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Chirag Khurana
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Kishan Lyngdoh
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Kishan Lyngdoh
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Chirag Khurana
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Chirag Khurana
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Kishan Lyngdoh
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Khurana
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Kishan Lyngdoh
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Chirag Khurana
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kishan Lyngdoh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Kishan Lyngdoh
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Kishan Lyngdoh
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kishan Lyngdoh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kishan Lyngdoh
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Kishan Lyngdoh
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Khurana
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Kishan Lyngdoh
+        bowler: Amit Ali
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Khurana
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Chirag Khurana
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Chirag Khurana
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Kishan Lyngdoh
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Chirag Khurana
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Chirag Khurana
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Kishan Lyngdoh
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Kishan Lyngdoh
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Chirag Khurana
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Kishan Lyngdoh
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Chirag Khurana
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Chirag Khurana
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kishan Lyngdoh
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Chirag Khurana
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Kishan Lyngdoh
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Chirag Khurana
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Kishan Lyngdoh
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Chirag Khurana
+        bowler: Amit Ali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kishan Lyngdoh
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Kishan Lyngdoh
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Kishan Lyngdoh
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Kishan Lyngdoh
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Chirag Khurana
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Chirag Khurana
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Kishan Lyngdoh
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Chirag Khurana
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kishan Lyngdoh
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Chirag Khurana
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kishan Lyngdoh
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Chirag Khurana
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Kishan Lyngdoh
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Kishan Lyngdoh
+        bowler: Saurabh Das
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Khurana
+    - 16.2:
+        actual_delivery: '16.1'
+        non_striker: Kishan Lyngdoh
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 16.3:
+        actual_delivery: '16.2'
+        non_striker: Chirag Khurana
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 16.4:
+        actual_delivery: '16.3'
+        non_striker: Kishan Lyngdoh
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Khurana
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: Kishan Lyngdoh
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: Chirag Khurana
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kishan Lyngdoh
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: Chirag Khurana
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Chirag Khurana
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kishan Lyngdoh
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Chirag Khurana
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kishan Lyngdoh
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Chirag Khurana
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kishan Lyngdoh
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Chirag Khurana
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Chirag Khurana
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Lyngdoh
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Kishan Lyngdoh
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Kishan Lyngdoh
+        bowler: Ajay Sarkar
+        extras:
+          wides: 3
+        runs:
+          extras: 3
+          total: 3
+          batsman: 0
+        batsman: Chirag Khurana

@@ -1,0 +1,2381 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-29'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-01-12'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Baroda
+    by:
+      wickets: 4
+  overs: 20
+  players:
+    Himachal:
+    - RI Thakur
+    - P Chopra
+    - AR Kumar
+    - Pankaj Jaswal
+    - R Dhawan
+    - EC Sen
+    - N A Sharma
+    - Akash Vasisht
+    - Ayush Jamwal
+    - Mayank Dagar
+    - VG Arora
+    Baroda:
+    - A Sheth
+    - LI Meriwala
+    - KH Pandya
+    - NA Rathva
+    - BA Pathan
+    - Chinta Gandhi
+    - KH Devdhar
+    - Vishnu Solanki
+    - SK Patel
+    - AV Rajput
+    - Bhanu Pania
+  registry:
+    people:
+      A Sheth: 4312e8f9
+      AR Kumar: d1f63ad5
+      AV Rajput: c1d3515b
+      Akash Vasisht: 35ccfdd4
+      Ayush Jamwal: fcd1dd35
+      BA Pathan: 870e4cec
+      Bhanu Pania: af863475
+      Chinta Gandhi: c5eff91b
+      EC Sen: 8a0ae9da
+      KH Devdhar: 62e07f92
+      KH Pandya: 5b8c830e
+      LI Meriwala: d3611425
+      Mayank Dagar: a457cfb5
+      N A Sharma: 5663eaa5
+      NA Rathva: 8f607eea
+      P Chopra: 8ac93ca2
+      Pankaj Jaswal: 3bc10d5b
+      R Dhawan: 26a85969
+      RI Thakur: 12ac8ca5
+      SK Patel: f93b43dd
+      VG Arora: 7c3b3b78
+      Vishnu Solanki: 2e802011
+    venues:
+      Reliance Stadium, Vadodara: 5bbd83c0
+  teams:
+  - Himachal
+  - Baroda
+  toss:
+    winner: Baroda
+    decision: field
+  venue: Reliance Stadium, Vadodara
+  team_type: club
+innings:
+- 1st innings:
+    team: Himachal
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: P Chopra
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RI Thakur
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: P Chopra
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RI Thakur
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: P Chopra
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RI Thakur
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: P Chopra
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RI Thakur
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: P Chopra
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RI Thakur
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: P Chopra
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RI Thakur
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: P Chopra
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RI Thakur
+        wicket:
+          player_out: RI Thakur
+          kind: bowled
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: P Chopra
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: P Chopra
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: P Chopra
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: P Chopra
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: P Chopra
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: AR Kumar
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Chopra
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: AR Kumar
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Chopra
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: AR Kumar
+        bowler: A Sheth
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: P Chopra
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: P Chopra
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: P Chopra
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Kumar
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: AR Kumar
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: AR Kumar
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: P Chopra
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: P Chopra
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Kumar
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: AR Kumar
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Chopra
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: AR Kumar
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: P Chopra
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: AR Kumar
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AR Kumar
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: AR Kumar
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Chopra
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: AR Kumar
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Chopra
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: AR Kumar
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: P Chopra
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Kumar
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: AR Kumar
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Chopra
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: AR Kumar
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: AR Kumar
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Chopra
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: AR Kumar
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AR Kumar
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Kumar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: AR Kumar
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: AR Kumar
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: P Chopra
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AR Kumar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: P Chopra
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: P Chopra
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Kumar
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: AR Kumar
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Chopra
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: AR Kumar
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Chopra
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: P Chopra
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: P Chopra
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: P Chopra
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: P Chopra
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Kumar
+        wicket:
+          player_out: AR Kumar
+          fielders:
+          - SK Patel
+          kind: caught
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: P Chopra
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pankaj Jaswal
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Pankaj Jaswal
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Pankaj Jaswal
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: P Chopra
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pankaj Jaswal
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: P Chopra
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Pankaj Jaswal
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: P Chopra
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pankaj Jaswal
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Pankaj Jaswal
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: P Chopra
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Pankaj Jaswal
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Chopra
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: P Chopra
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pankaj Jaswal
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: P Chopra
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pankaj Jaswal
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: P Chopra
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pankaj Jaswal
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: P Chopra
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pankaj Jaswal
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: P Chopra
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pankaj Jaswal
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: P Chopra
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pankaj Jaswal
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: P Chopra
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pankaj Jaswal
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Pankaj Jaswal
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Chopra
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Pankaj Jaswal
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Chopra
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Pankaj Jaswal
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: P Chopra
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Pankaj Jaswal
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: P Chopra
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pankaj Jaswal
+        wicket:
+          player_out: Pankaj Jaswal
+          fielders:
+          - LI Meriwala
+          kind: caught
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Dhawan
+        wicket:
+          player_out: R Dhawan
+          kind: lbw
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EC Sen
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: EC Sen
+    - 12.4:
+        actual_delivery: '12.3'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EC Sen
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: EC Sen
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EC Sen
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EC Sen
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: P Chopra
+        bowler: Chinta Gandhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: EC Sen
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: EC Sen
+        bowler: Chinta Gandhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: P Chopra
+        bowler: Chinta Gandhi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EC Sen
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: P Chopra
+        bowler: Chinta Gandhi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: EC Sen
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: P Chopra
+        bowler: Chinta Gandhi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: EC Sen
+        wicket:
+          player_out: EC Sen
+          fielders:
+          - SK Patel
+          kind: caught
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: P Chopra
+        bowler: Chinta Gandhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N A Sharma
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N A Sharma
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N A Sharma
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: N A Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: N A Sharma
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N A Sharma
+        wicket:
+          player_out: N A Sharma
+          fielders:
+          - Vishnu Solanki
+          kind: run out
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: P Chopra
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Vasisht
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Akash Vasisht
+        bowler: Chinta Gandhi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: P Chopra
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Akash Vasisht
+        bowler: Chinta Gandhi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Chopra
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Akash Vasisht
+        bowler: Chinta Gandhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: P Chopra
+        bowler: Chinta Gandhi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Vasisht
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: P Chopra
+        bowler: Chinta Gandhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Vasisht
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Akash Vasisht
+        bowler: Chinta Gandhi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Chopra
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Akash Vasisht
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Chopra
+        wicket:
+          player_out: P Chopra
+          fielders:
+          - KH Pandya
+          kind: caught
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Akash Vasisht
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ayush Jamwal
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Akash Vasisht
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ayush Jamwal
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Ayush Jamwal
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Vasisht
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Ayush Jamwal
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Vasisht
+        wicket:
+          player_out: Akash Vasisht
+          fielders:
+          - NA Rathva
+          kind: caught
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Mayank Dagar
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ayush Jamwal
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Ayush Jamwal
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Dagar
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Mayank Dagar
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ayush Jamwal
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Mayank Dagar
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ayush Jamwal
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Mayank Dagar
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ayush Jamwal
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Mayank Dagar
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ayush Jamwal
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Ayush Jamwal
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mayank Dagar
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Mayank Dagar
+        bowler: LI Meriwala
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ayush Jamwal
+    - 18.2:
+        actual_delivery: '18.1'
+        non_striker: Mayank Dagar
+        bowler: LI Meriwala
+        extras:
+          byes: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: Ayush Jamwal
+    - 18.3:
+        actual_delivery: '18.2'
+        non_striker: Mayank Dagar
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ayush Jamwal
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: Ayush Jamwal
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Dagar
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: Mayank Dagar
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ayush Jamwal
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: Ayush Jamwal
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mayank Dagar
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: Ayush Jamwal
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Dagar
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Ayush Jamwal
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mayank Dagar
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Ayush Jamwal
+        bowler: BA Pathan
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Mayank Dagar
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Mayank Dagar
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ayush Jamwal
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Mayank Dagar
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ayush Jamwal
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Mayank Dagar
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ayush Jamwal
+        wicket:
+          player_out: Ayush Jamwal
+          fielders:
+          - KH Devdhar
+          kind: caught
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: VG Arora
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mayank Dagar
+        wicket:
+          player_out: Mayank Dagar
+          fielders:
+          - NA Rathva
+          kind: caught
+- 2nd innings:
+    team: Baroda
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: NA Rathva
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: NA Rathva
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: NA Rathva
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: KH Devdhar
+        bowler: R Dhawan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: NA Rathva
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: KH Devdhar
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NA Rathva
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: KH Devdhar
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NA Rathva
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: KH Devdhar
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Rathva
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NA Rathva
+        wicket:
+          player_out: NA Rathva
+          fielders:
+          - P Chopra
+          kind: caught
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Solanki
+        wicket:
+          player_out: Vishnu Solanki
+          kind: lbw
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: KH Pandya
+        bowler: VG Arora
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: KH Pandya
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: KH Pandya
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: KH Devdhar
+        bowler: R Dhawan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KH Pandya
+    - 2.2:
+        actual_delivery: '2.1'
+        non_striker: KH Devdhar
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 2.3:
+        actual_delivery: '2.2'
+        non_striker: KH Devdhar
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: KH Devdhar
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+        wicket:
+          player_out: KH Pandya
+          fielders:
+          - P Chopra
+          kind: caught
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: KH Devdhar
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Patel
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: KH Devdhar
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SK Patel
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: KH Devdhar
+        bowler: R Dhawan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Patel
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: SK Patel
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: SK Patel
+        bowler: VG Arora
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KH Devdhar
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: SK Patel
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Patel
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SK Patel
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SK Patel
+    - 3.7:
+        actual_delivery: '3.5'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Patel
+    - 3.8:
+        actual_delivery: '3.6'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Patel
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: SK Patel
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: SK Patel
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: SK Patel
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: SK Patel
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Patel
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Patel
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SK Patel
+    - 5.2:
+        actual_delivery: '5.1'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Patel
+        wicket:
+          player_out: SK Patel
+          kind: bowled
+    - 5.3:
+        actual_delivery: '5.2'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Rajput
+    - 5.4:
+        actual_delivery: '5.3'
+        non_striker: AV Rajput
+        bowler: Ayush Jamwal
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KH Devdhar
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Rajput
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Rajput
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Rajput
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: AV Rajput
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AV Rajput
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AV Rajput
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Rajput
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Rajput
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Rajput
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: AV Rajput
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: AV Rajput
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Rajput
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Rajput
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: AV Rajput
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Rajput
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: KH Devdhar
+        bowler: Pankaj Jaswal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Rajput
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: KH Devdhar
+        bowler: Pankaj Jaswal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Rajput
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: AV Rajput
+        bowler: Pankaj Jaswal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: AV Rajput
+        bowler: Pankaj Jaswal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: KH Devdhar
+        bowler: Pankaj Jaswal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Rajput
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: AV Rajput
+        bowler: Pankaj Jaswal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Rajput
+        wicket:
+          player_out: AV Rajput
+          kind: bowled
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bhanu Pania
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        extras:
+          byes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Bhanu Pania
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bhanu Pania
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bhanu Pania
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bhanu Pania
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Bhanu Pania
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Bhanu Pania
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Bhanu Pania
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: KH Devdhar
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bhanu Pania
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Bhanu Pania
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: KH Devdhar
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bhanu Pania
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Bhanu Pania
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bhanu Pania
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bhanu Pania
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Bhanu Pania
+        bowler: Ayush Jamwal
+        extras:
+          byes: 3
+        runs:
+          extras: 3
+          total: 3
+          batsman: 0
+        batsman: KH Devdhar
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bhanu Pania
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bhanu Pania
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Bhanu Pania
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: KH Devdhar
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bhanu Pania
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Bhanu Pania
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+        wicket:
+          player_out: Bhanu Pania
+          fielders:
+          - Mayank Dagar
+          kind: run out
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: KH Devdhar
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Sheth
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: A Sheth
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: A Sheth
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Devdhar
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Sheth
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: A Sheth
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: A Sheth
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: A Sheth
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: A Sheth
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: KH Devdhar
+        bowler: Ayush Jamwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Sheth
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: A Sheth
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: A Sheth
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: A Sheth
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: A Sheth
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: KH Devdhar
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Sheth
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: A Sheth
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Sheth
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: A Sheth
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: A Sheth
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: A Sheth
+    - 15.5:
+        actual_delivery: '15.4'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: A Sheth
+    - 15.6:
+        actual_delivery: '15.4'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Sheth
+    - 15.7:
+        actual_delivery: '15.5'
+        non_striker: A Sheth
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Devdhar
+    - 15.8:
+        actual_delivery: '15.6'
+        non_striker: A Sheth
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: A Sheth
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Sheth
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: A Sheth
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Sheth
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: KH Devdhar
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Sheth
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: A Sheth
+        bowler: Mayank Dagar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: KH Devdhar
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Sheth
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: KH Devdhar
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Sheth
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: A Sheth
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: A Sheth
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: A Sheth
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Devdhar
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: A Sheth
+        bowler: Akash Vasisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: A Sheth
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: A Sheth
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: A Sheth
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: A Sheth
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Sheth
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: KH Devdhar
+        bowler: VG Arora
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Sheth

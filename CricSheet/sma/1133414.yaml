@@ -1,0 +1,2046 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-04'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2018-01-24'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Karnataka
+    by:
+      runs: 123
+  overs: 20
+  players:
+    Karnataka:
+    - MA Agarwal
+    - KK Nair
+    - BR Sharath
+    - Pavan Deshpande
+    - Aniruddha Joshi
+    - STR Binny
+    - M Prasidh Krishna
+    - S Aravind
+    - J Suchith
+    - A Mithun
+    - S Gopal
+    Jharkhand:
+    - Monu Kumar
+    - VR Aaron
+    - Vikash Singh
+    - Sunny Gupta
+    - S Nadeem
+    - KR Singh
+    - Kumar Deobrat
+    - Ishan Kishan
+    - Virat Singh
+    - SS Tiwary
+    - Nazim Siddiqui
+  registry:
+    people:
+      A Mithun: 66cf56a5
+      Aniruddha Joshi: 40c1eeeb
+      BR Sharath: c2dd89ea
+      Ishan Kishan: 752f7486
+      J Suchith: 4125d931
+      KK Nair: 944533a5
+      KR Singh: fe608a7e
+      Kumar Deobrat: bc6d8229
+      M Prasidh Krishna: 85e0cf10
+      MA Agarwal: 00ea847a
+      Monu Kumar: fb24e76c
+      Nazim Siddiqui: 88a4a356
+      Pavan Deshpande: 436b8481
+      S Aravind: 957532de
+      S Gopal: 7a8bd078
+      S Nadeem: 9d80c5e1
+      SS Tiwary: 709b0bac
+      STR Binny: bd17b45f
+      Sunny Gupta: ee3dfa89
+      VR Aaron: 0a3d54b9
+      Vikash Singh: 8b018008
+      Virat Singh: 26d76ad9
+    venues:
+      Eden Gardens, Kolkata: 672f066b
+  teams:
+  - Karnataka
+  - Jharkhand
+  toss:
+    winner: Jharkhand
+    decision: field
+  venue: Eden Gardens, Kolkata
+  team_type: club
+innings:
+- 1st innings:
+    team: Karnataka
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+        wicket:
+          player_out: MA Agarwal
+          fielders:
+          - Ishan Kishan
+          kind: caught
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR Sharath
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR Sharath
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR Sharath
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR Sharath
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: BR Sharath
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: BR Sharath
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: BR Sharath
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: BR Sharath
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: BR Sharath
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KK Nair
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: BR Sharath
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR Sharath
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BR Sharath
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: BR Sharath
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR Sharath
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BR Sharath
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR Sharath
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: BR Sharath
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: BR Sharath
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KK Nair
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: BR Sharath
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: BR Sharath
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: BR Sharath
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: KK Nair
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BR Sharath
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR Sharath
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BR Sharath
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BR Sharath
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BR Sharath
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: KK Nair
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BR Sharath
+        wicket:
+          player_out: BR Sharath
+          fielders:
+          - VR Aaron
+          kind: caught
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Pavan Deshpande
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: KK Nair
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: KK Nair
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: KK Nair
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: KK Nair
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: KK Nair
+        bowler: Sunny Gupta
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pavan Deshpande
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: KK Nair
+        bowler: Sunny Gupta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: KK Nair
+        bowler: Sunny Gupta
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pavan Deshpande
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: KK Nair
+        bowler: Sunny Gupta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: KK Nair
+        bowler: Sunny Gupta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Pavan Deshpande
+        bowler: Sunny Gupta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KK Nair
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: KK Nair
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: KK Nair
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pavan Deshpande
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: KK Nair
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Pavan Deshpande
+        bowler: Sunny Gupta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: KK Nair
+        bowler: Sunny Gupta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Pavan Deshpande
+        bowler: Sunny Gupta
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Nair
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Pavan Deshpande
+        bowler: Sunny Gupta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Pavan Deshpande
+        bowler: Sunny Gupta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Pavan Deshpande
+        bowler: Sunny Gupta
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: KK Nair
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Pavan Deshpande
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: KK Nair
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Pavan Deshpande
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Pavan Deshpande
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: KK Nair
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: KK Nair
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pavan Deshpande
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: KK Nair
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: KK Nair
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Pavan Deshpande
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: KK Nair
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: KK Nair
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pavan Deshpande
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Pavan Deshpande
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: KK Nair
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pavan Deshpande
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: KK Nair
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pavan Deshpande
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: KK Nair
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pavan Deshpande
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: KK Nair
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Pavan Deshpande
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: KK Nair
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pavan Deshpande
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: KK Nair
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Pavan Deshpande
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Nair
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Pavan Deshpande
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Pavan Deshpande
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Pavan Deshpande
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Pavan Deshpande
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: KK Nair
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pavan Deshpande
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: KK Nair
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: KK Nair
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Pavan Deshpande
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KK Nair
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Pavan Deshpande
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: KK Nair
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Pavan Deshpande
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Pavan Deshpande
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Nair
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Pavan Deshpande
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KK Nair
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Pavan Deshpande
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: KK Nair
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: KK Nair
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Nair
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KK Nair
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KK Nair
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: KK Nair
+        bowler: S Nadeem
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Pavan Deshpande
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: KK Nair
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Pavan Deshpande
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Nair
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Pavan Deshpande
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: KK Nair
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Pavan Deshpande
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+        wicket:
+          player_out: KK Nair
+          fielders:
+          - Monu Kumar
+          kind: caught
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Aniruddha Joshi
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aniruddha Joshi
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Aniruddha Joshi
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Aniruddha Joshi
+        bowler: Vikash Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Aniruddha Joshi
+        bowler: Vikash Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 17.7:
+        actual_delivery: '17.5'
+        non_striker: Aniruddha Joshi
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 17.8:
+        actual_delivery: '17.6'
+        non_striker: Pavan Deshpande
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aniruddha Joshi
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Pavan Deshpande
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aniruddha Joshi
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Pavan Deshpande
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aniruddha Joshi
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Pavan Deshpande
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aniruddha Joshi
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Aniruddha Joshi
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pavan Deshpande
+        wicket:
+          player_out: Pavan Deshpande
+          fielders:
+          - VR Aaron
+          kind: caught
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Aniruddha Joshi
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: STR Binny
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Aniruddha Joshi
+        bowler: VR Aaron
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Aniruddha Joshi
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: STR Binny
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Aniruddha Joshi
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: STR Binny
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Aniruddha Joshi
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: STR Binny
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aniruddha Joshi
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: STR Binny
+        bowler: Vikash Singh
+        extras:
+          legbyes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Aniruddha Joshi
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: STR Binny
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aniruddha Joshi
+- 2nd innings:
+    team: Jharkhand
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Ishan Kishan
+        bowler: M Prasidh Krishna
+        extras:
+          legbyes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Kumar Deobrat
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Ishan Kishan
+        bowler: M Prasidh Krishna
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kumar Deobrat
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Ishan Kishan
+        bowler: M Prasidh Krishna
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kumar Deobrat
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Ishan Kishan
+        bowler: M Prasidh Krishna
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kumar Deobrat
+        wicket:
+          player_out: Kumar Deobrat
+          kind: bowled
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Ishan Kishan
+        bowler: M Prasidh Krishna
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Ishan Kishan
+        bowler: M Prasidh Krishna
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Virat Singh
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Virat Singh
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ishan Kishan
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Virat Singh
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Virat Singh
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Virat Singh
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Virat Singh
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Ishan Kishan
+        bowler: M Prasidh Krishna
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Ishan Kishan
+        bowler: M Prasidh Krishna
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Virat Singh
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Ishan Kishan
+        bowler: M Prasidh Krishna
+        extras:
+          byes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Virat Singh
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Ishan Kishan
+        bowler: M Prasidh Krishna
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Ishan Kishan
+        bowler: M Prasidh Krishna
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+        wicket:
+          player_out: Virat Singh
+          fielders:
+          - KK Nair
+          kind: caught
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Ishan Kishan
+        bowler: M Prasidh Krishna
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Tiwary
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: SS Tiwary
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: SS Tiwary
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishan Kishan
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: SS Tiwary
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: SS Tiwary
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishan Kishan
+        wicket:
+          player_out: Ishan Kishan
+          fielders:
+          - A Mithun
+          kind: caught
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: SS Tiwary
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nazim Siddiqui
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: SS Tiwary
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nazim Siddiqui
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: SS Tiwary
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nazim Siddiqui
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: SS Tiwary
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nazim Siddiqui
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: SS Tiwary
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nazim Siddiqui
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Nazim Siddiqui
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Tiwary
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Nazim Siddiqui
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Tiwary
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Nazim Siddiqui
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Tiwary
+        wicket:
+          player_out: SS Tiwary
+          kind: bowled
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: KR Singh
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nazim Siddiqui
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Nazim Siddiqui
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KR Singh
+        wicket:
+          player_out: KR Singh
+          fielders:
+          - BR Sharath
+          kind: caught
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Nazim Siddiqui
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Nazim Siddiqui
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Nazim Siddiqui
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+        wicket:
+          player_out: Nazim Siddiqui
+          fielders:
+          - J Suchith
+          kind: run out
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: VR Aaron
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Nadeem
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: S Nadeem
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: S Nadeem
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: S Nadeem
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: S Nadeem
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: S Nadeem
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Aaron
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: VR Aaron
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Nadeem
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: S Nadeem
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: S Nadeem
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: S Nadeem
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Aaron
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: VR Aaron
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Nadeem
+        wicket:
+          player_out: S Nadeem
+          kind: bowled
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: VR Aaron
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sunny Gupta
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: VR Aaron
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sunny Gupta
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Sunny Gupta
+        bowler: S Gopal
+        extras:
+          legbyes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: VR Aaron
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Sunny Gupta
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Sunny Gupta
+        bowler: S Gopal
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: VR Aaron
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: VR Aaron
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sunny Gupta
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: VR Aaron
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sunny Gupta
+        wicket:
+          player_out: Sunny Gupta
+          fielders:
+          - MA Agarwal
+          kind: caught
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Vikash Singh
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: VR Aaron
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikash Singh
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: VR Aaron
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vikash Singh
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: VR Aaron
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikash Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: VR Aaron
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikash Singh
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Vikash Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Vikash Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Aaron
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Vikash Singh
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Vikash Singh
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Vikash Singh
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Vikash Singh
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Vikash Singh
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Vikash Singh
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: VR Aaron
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikash Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: VR Aaron
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikash Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Vikash Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Vikash Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Vikash Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Vikash Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: VR Aaron
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vikash Singh
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: VR Aaron
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikash Singh
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: VR Aaron
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikash Singh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: VR Aaron
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vikash Singh
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: VR Aaron
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikash Singh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: VR Aaron
+        bowler: S Gopal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vikash Singh
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Vikash Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Vikash Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Vikash Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Aaron
+        wicket:
+          player_out: VR Aaron
+          fielders:
+          - S Aravind
+          kind: caught
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Monu Kumar
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vikash Singh
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Monu Kumar
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikash Singh
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Vikash Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Monu Kumar
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Monu Kumar
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikash Singh
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Monu Kumar
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikash Singh
+        wicket:
+          player_out: Vikash Singh
+          fielders:
+          - S Gopal
+          kind: caught

@@ -1,0 +1,1744 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-01'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-11-17'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Chandigarh
+    by:
+      wickets: 10
+  overs: 20
+  players:
+    Arunachal Pradesh:
+    - Akhilesh Sahani
+    - Shashwat Kohli
+    - Suraj Tayam
+    - Samarth Seth
+    - Rahul Dalal
+    - Uvais Ahmad
+    - Song Tacho
+    - Techi Neri
+    - Kengo Bam
+    - Karkir Taye
+    - Licha Tehi
+    Chandigarh:
+    - Shreshth Nirmohi
+    - Jaskaran Singh
+    - Bipul Sharma
+    - Anirudh Kanwar
+    - Karanveer Singh
+    - Gaurav Gambhir
+    - M Vohra
+    - Shivam Bhambri
+    - Ankit Kaushik
+    - Jaskaranvir Singh Sohi
+    - Kunal Mahajan
+  registry:
+    people:
+      Akhilesh Sahani: d6ac52e8
+      Anirudh Kanwar: 6c8e4b0a
+      Ankit Kaushik: '084708eb'
+      Bipul Sharma: c18496e1
+      Gaurav Gambhir: 242a9261
+      Gaurav Puri: '0834996c'
+      Jaskaran Singh: d7b3a420
+      Jaskaranvir Singh Sohi: a030bba8
+      Karanveer Singh: 1647bd37
+      Karkir Taye: dfbd203a
+      Kengo Bam: dd55932d
+      Kunal Mahajan: b83ef011
+      Licha Tehi: 4b6cc6c2
+      M Vohra: c03e2850
+      Rahul Dalal: 802fdccf
+      Samarth Seth: 9fe56f2b
+      Shashwat Kohli: f782103d
+      Shivam Bhambri: e4bfcaad
+      Shreshth Nirmohi: e7e1eeb2
+      Song Tacho: 128d1861
+      Suraj Tayam: 6827210b
+      Techi Neri: d3885f28
+      Uvais Ahmad: c9d6f9f2
+    venues:
+      Sector 16 Stadium, Chandigarh: 1b74c7ea
+  teams:
+  - Arunachal Pradesh
+  - Chandigarh
+  toss:
+    winner: Arunachal Pradesh
+    decision: bat
+  venue: Sector 16 Stadium, Chandigarh
+  team_type: club
+innings:
+- 1st innings:
+    team: Arunachal Pradesh
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Shashwat Kohli
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akhilesh Sahani
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Shashwat Kohli
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akhilesh Sahani
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Shashwat Kohli
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akhilesh Sahani
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Akhilesh Sahani
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shashwat Kohli
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Akhilesh Sahani
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashwat Kohli
+        wicket:
+          player_out: Shashwat Kohli
+          fielders:
+          - Jaskaranvir Singh Sohi
+          kind: caught
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Akhilesh Sahani
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Suraj Tayam
+        bowler: Jaskaran Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Akhilesh Sahani
+    - 1.2:
+        actual_delivery: '1.1'
+        non_striker: Suraj Tayam
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akhilesh Sahani
+        wicket:
+          player_out: Akhilesh Sahani
+          kind: bowled
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: Suraj Tayam
+        bowler: Jaskaran Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Samarth Seth
+    - 1.4:
+        actual_delivery: '1.2'
+        non_striker: Suraj Tayam
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 1.5:
+        actual_delivery: '1.3'
+        non_striker: Samarth Seth
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suraj Tayam
+    - 1.6:
+        actual_delivery: '1.4'
+        non_striker: Suraj Tayam
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 1.7:
+        actual_delivery: '1.5'
+        non_striker: Suraj Tayam
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Samarth Seth
+    - 1.8:
+        actual_delivery: '1.6'
+        non_striker: Suraj Tayam
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Samarth Seth
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Samarth Seth
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Samarth Seth
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Samarth Seth
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Samarth Seth
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Samarth Seth
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Samarth Seth
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Suraj Tayam
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Suraj Tayam
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Suraj Tayam
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+        wicket:
+          player_out: Samarth Seth
+          fielders:
+          - Karanveer Singh
+          kind: caught
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Suraj Tayam
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Suraj Tayam
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Suraj Tayam
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Dalal
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Rahul Dalal
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Rahul Dalal
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Rahul Dalal
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suraj Tayam
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Suraj Tayam
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Suraj Tayam
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Dalal
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Suraj Tayam
+        bowler: Shreshth Nirmohi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: Rahul Dalal
+    - 5.4:
+        actual_delivery: '5.3'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Dalal
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Rahul Dalal
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Rahul Dalal
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Rahul Dalal
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Rahul Dalal
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suraj Tayam
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Suraj Tayam
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Rahul Dalal
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Rahul Dalal
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Rahul Dalal
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suraj Tayam
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Rahul Dalal
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Suraj Tayam
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Suraj Tayam
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Rahul Dalal
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Rahul Dalal
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Rahul Dalal
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Rahul Dalal
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Suraj Tayam
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Rahul Dalal
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suraj Tayam
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Suraj Tayam
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Rahul Dalal
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Tayam
+        wicket:
+          player_out: Suraj Tayam
+          fielders:
+          - Jaskaranvir Singh Sohi
+          kind: caught
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Rahul Dalal
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Uvais Ahmad
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Uvais Ahmad
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Rahul Dalal
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Uvais Ahmad
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Rahul Dalal
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Uvais Ahmad
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Rahul Dalal
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Uvais Ahmad
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Rahul Dalal
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Uvais Ahmad
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Rahul Dalal
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Uvais Ahmad
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Uvais Ahmad
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Rahul Dalal
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Uvais Ahmad
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Rahul Dalal
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Uvais Ahmad
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Uvais Ahmad
+        bowler: Bipul Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Uvais Ahmad
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Rahul Dalal
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Uvais Ahmad
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Uvais Ahmad
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Uvais Ahmad
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Dalal
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Uvais Ahmad
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+        wicket:
+          player_out: Rahul Dalal
+          fielders:
+          - Gaurav Puri (sub)
+          kind: caught
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Uvais Ahmad
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Song Tacho
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Song Tacho
+        bowler: Gaurav Gambhir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Uvais Ahmad
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Uvais Ahmad
+        bowler: Gaurav Gambhir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Song Tacho
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Song Tacho
+        bowler: Gaurav Gambhir
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Uvais Ahmad
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Song Tacho
+        bowler: Gaurav Gambhir
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Uvais Ahmad
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Song Tacho
+        bowler: Gaurav Gambhir
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Uvais Ahmad
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Uvais Ahmad
+        bowler: Gaurav Gambhir
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Song Tacho
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Song Tacho
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Uvais Ahmad
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Song Tacho
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Uvais Ahmad
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Uvais Ahmad
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Song Tacho
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Uvais Ahmad
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Song Tacho
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Uvais Ahmad
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Song Tacho
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Uvais Ahmad
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Song Tacho
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Song Tacho
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Uvais Ahmad
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Song Tacho
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Uvais Ahmad
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Uvais Ahmad
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Song Tacho
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Uvais Ahmad
+        bowler: Anirudh Kanwar
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Song Tacho
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Song Tacho
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Uvais Ahmad
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Song Tacho
+        bowler: Anirudh Kanwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Uvais Ahmad
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Uvais Ahmad
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Song Tacho
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Uvais Ahmad
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Song Tacho
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Uvais Ahmad
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Song Tacho
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Song Tacho
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Uvais Ahmad
+        wicket:
+          player_out: Uvais Ahmad
+          fielders:
+          - Ankit Kaushik
+          kind: caught
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Song Tacho
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Techi Neri
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Song Tacho
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Techi Neri
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Techi Neri
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Song Tacho
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Techi Neri
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Song Tacho
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Song Tacho
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Techi Neri
+        wicket:
+          player_out: Techi Neri
+          kind: lbw
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Song Tacho
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kengo Bam
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Song Tacho
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kengo Bam
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Kengo Bam
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Song Tacho
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Song Tacho
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kengo Bam
+        wicket:
+          player_out: Kengo Bam
+          fielders:
+          - Kunal Mahajan
+          kind: caught
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Song Tacho
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karkir Taye
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Song Tacho
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karkir Taye
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Song Tacho
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Karkir Taye
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Song Tacho
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karkir Taye
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Karkir Taye
+        bowler: Karanveer Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Song Tacho
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Song Tacho
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karkir Taye
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Song Tacho
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karkir Taye
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Karkir Taye
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Song Tacho
+        wicket:
+          player_out: Song Tacho
+          kind: lbw
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Karkir Taye
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Licha Tehi
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Licha Tehi
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karkir Taye
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Karkir Taye
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Licha Tehi
+- 2nd innings:
+    team: Chandigarh
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: M Vohra
+    - 0.2:
+        actual_delivery: '0.1'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Vohra
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: M Vohra
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Bhambri
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Vohra
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: M Vohra
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Bhambri
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Shivam Bhambri
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Vohra
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Shivam Bhambri
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Vohra
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Shivam Bhambri
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: M Vohra
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Bhambri
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: M Vohra
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Bhambri
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: M Vohra
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Bhambri
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: M Vohra
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Bhambri
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Vohra
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Vohra
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Shivam Bhambri
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: M Vohra
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shivam Bhambri
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: M Vohra
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shivam Bhambri
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: M Vohra
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Bhambri
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: M Vohra
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shivam Bhambri
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: M Vohra
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Bhambri
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Shivam Bhambri
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Vohra
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Shivam Bhambri
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Shivam Bhambri
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: M Vohra
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Shivam Bhambri
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: M Vohra
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Shivam Bhambri
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Vohra
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Shivam Bhambri
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Shivam Bhambri
+        bowler: Karkir Taye
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: M Vohra
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Shivam Bhambri
+        bowler: Karkir Taye
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Shivam Bhambri
+        bowler: Karkir Taye
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Shivam Bhambri
+        bowler: Karkir Taye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: M Vohra
+        bowler: Karkir Taye
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Bhambri
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: M Vohra
+        bowler: Karkir Taye
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shivam Bhambri
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Vohra
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Vohra
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Shivam Bhambri
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: M Vohra
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Bhambri
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: M Vohra
+        bowler: Kengo Bam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Bhambri
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Shivam Bhambri
+        bowler: Kengo Bam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: M Vohra
+        bowler: Kengo Bam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Bhambri
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: M Vohra
+        bowler: Kengo Bam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Bhambri
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: M Vohra
+        bowler: Kengo Bam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Bhambri
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Shivam Bhambri
+        bowler: Kengo Bam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Shivam Bhambri
+        bowler: Karkir Taye
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: M Vohra
+        bowler: Karkir Taye
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shivam Bhambri
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: M Vohra
+        bowler: Karkir Taye
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Bhambri
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: M Vohra
+        bowler: Karkir Taye
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shivam Bhambri
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: M Vohra
+        bowler: Karkir Taye
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shivam Bhambri
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: M Vohra
+        bowler: Karkir Taye
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shivam Bhambri
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Shivam Bhambri
+        bowler: Kengo Bam
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Vohra

@@ -1,0 +1,2407 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-21'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-11-05'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Bengal
+    by:
+      runs: 2
+  overs: 20
+  players:
+    Bengal:
+    - Abhisek Das
+    - Sudip Chatterjee
+    - Karan Lal
+    - WP Saha
+    - Kaif Ahmad
+    - Shahbaz Ahmed
+    - Ritwik Roy Chowdhury
+    - Writtick Chatterjee
+    - Akash Deep
+    - IC Porel
+    - Mukesh Kumar
+    Baroda:
+    - A Sheth
+    - KH Pandya
+    - LI Meriwala
+    - NA Rathva
+    - KR Kakade
+    - KH Devdhar
+    - Shashwat Rawat
+    - Dhruv Patel
+    - Vishnu Solanki
+    - Bhanu Pania
+    - Ansh Patel
+  registry:
+    people:
+      A Sheth: 4312e8f9
+      Abhisek Das: f4cd319e
+      Akash Deep: 0a67aec0
+      Ansh Patel: 9e76cdb3
+      Bhanu Pania: af863475
+      Dhruv Patel: e85f3659
+      IC Porel: fdf7491e
+      KH Devdhar: 62e07f92
+      KH Pandya: 5b8c830e
+      KR Kakade: ba86aae4
+      Kaif Ahmad: 7b09e19c
+      Karan Lal: '72147266'
+      LI Meriwala: d3611425
+      Mukesh Kumar: 2cffab74
+      NA Rathva: 8f607eea
+      Ritwik Roy Chowdhury: 6033d30a
+      Shahbaz Ahmed: f9e6e7ef
+      Shashwat Rawat: 7e435410
+      Sudip Chatterjee: 0cb8626f
+      Vishnu Solanki: 2e802011
+      WP Saha: fe11caa6
+      Writtick Chatterjee: a00e1842
+    venues:
+      Barsapara Cricket Stadium, Guwahati: 61e72dcd
+  teams:
+  - Bengal
+  - Baroda
+  toss:
+    winner: Bengal
+    decision: bat
+  venue: Barsapara Cricket Stadium, Guwahati
+  team_type: club
+innings:
+- 1st innings:
+    team: Bengal
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Sudip Chatterjee
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Abhisek Das
+        bowler: A Sheth
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: Abhisek Das
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Abhisek Das
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Abhisek Das
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Sudip Chatterjee
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Abhisek Das
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Abhisek Das
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sudip Chatterjee
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Sudip Chatterjee
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhisek Das
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Sudip Chatterjee
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhisek Das
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Sudip Chatterjee
+        bowler: KH Pandya
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Abhisek Das
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Sudip Chatterjee
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Abhisek Das
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Abhisek Das
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sudip Chatterjee
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Abhisek Das
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Sudip Chatterjee
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhisek Das
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Sudip Chatterjee
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Abhisek Das
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Abhisek Das
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Abhisek Das
+        bowler: LI Meriwala
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Sudip Chatterjee
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Sudip Chatterjee
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhisek Das
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Sudip Chatterjee
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Abhisek Das
+        bowler: NA Rathva
+        extras:
+          byes: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Abhisek Das
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Sudip Chatterjee
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Abhisek Das
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sudip Chatterjee
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Sudip Chatterjee
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abhisek Das
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Sudip Chatterjee
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhisek Das
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Sudip Chatterjee
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhisek Das
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Sudip Chatterjee
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhisek Das
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Sudip Chatterjee
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Abhisek Das
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Sudip Chatterjee
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Abhisek Das
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Sudip Chatterjee
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Abhisek Das
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+        wicket:
+          player_out: Sudip Chatterjee
+          kind: bowled
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Abhisek Das
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Lal
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Abhisek Das
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Lal
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Karan Lal
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Abhisek Das
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Lal
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Karan Lal
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Abhisek Das
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Lal
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Karan Lal
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Abhisek Das
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Lal
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Karan Lal
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Abhisek Das
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Lal
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Karan Lal
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhisek Das
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Karan Lal
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Abhisek Das
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Lal
+        wicket:
+          player_out: Karan Lal
+          kind: bowled
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Abhisek Das
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WP Saha
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: WP Saha
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Abhisek Das
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: WP Saha
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Abhisek Das
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WP Saha
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Abhisek Das
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: WP Saha
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abhisek Das
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Abhisek Das
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WP Saha
+        wicket:
+          player_out: Abhisek Das
+          fielders:
+          - NA Rathva
+          kind: run out
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Kaif Ahmad
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: WP Saha
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kaif Ahmad
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: WP Saha
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kaif Ahmad
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: WP Saha
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kaif Ahmad
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Kaif Ahmad
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Kaif Ahmad
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: WP Saha
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kaif Ahmad
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Kaif Ahmad
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WP Saha
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Kaif Ahmad
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WP Saha
+        wicket:
+          player_out: WP Saha
+          kind: lbw
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Kaif Ahmad
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shahbaz Ahmed
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Kaif Ahmad
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shahbaz Ahmed
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Shahbaz Ahmed
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kaif Ahmad
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Shahbaz Ahmed
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kaif Ahmad
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Shahbaz Ahmed
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kaif Ahmad
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Shahbaz Ahmed
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kaif Ahmad
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Shahbaz Ahmed
+        bowler: KH Pandya
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kaif Ahmad
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: Shahbaz Ahmed
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kaif Ahmad
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: Kaif Ahmad
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Kaif Ahmad
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Shahbaz Ahmed
+        bowler: KR Kakade
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kaif Ahmad
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Kaif Ahmad
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Shahbaz Ahmed
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kaif Ahmad
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Shahbaz Ahmed
+        bowler: KR Kakade
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: Kaif Ahmad
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: Shahbaz Ahmed
+        bowler: KR Kakade
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kaif Ahmad
+    - 12.7:
+        actual_delivery: '12.5'
+        non_striker: Shahbaz Ahmed
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kaif Ahmad
+        wicket:
+          player_out: Kaif Ahmad
+          kind: bowled
+    - 12.8:
+        actual_delivery: '12.6'
+        non_striker: Shahbaz Ahmed
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ritwik Roy Chowdhury
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Shahbaz Ahmed
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ritwik Roy Chowdhury
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Shahbaz Ahmed
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ritwik Roy Chowdhury
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shahbaz Ahmed
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Shahbaz Ahmed
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ritwik Roy Chowdhury
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shahbaz Ahmed
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shahbaz Ahmed
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shahbaz Ahmed
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Shahbaz Ahmed
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ritwik Roy Chowdhury
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Shahbaz Ahmed
+        bowler: KR Kakade
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ritwik Roy Chowdhury
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Shahbaz Ahmed
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ritwik Roy Chowdhury
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Shahbaz Ahmed
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ritwik Roy Chowdhury
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Shahbaz Ahmed
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ritwik Roy Chowdhury
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Shahbaz Ahmed
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Ritwik Roy Chowdhury
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Shahbaz Ahmed
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ritwik Roy Chowdhury
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shahbaz Ahmed
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shahbaz Ahmed
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Shahbaz Ahmed
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ritwik Roy Chowdhury
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Shahbaz Ahmed
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ritwik Roy Chowdhury
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Shahbaz Ahmed
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ritwik Roy Chowdhury
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Shahbaz Ahmed
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Ritwik Roy Chowdhury
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Ritwik Roy Chowdhury
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Shahbaz Ahmed
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ritwik Roy Chowdhury
+        wicket:
+          player_out: Ritwik Roy Chowdhury
+          fielders:
+          - NA Rathva
+          kind: caught
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Writtick Chatterjee
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shahbaz Ahmed
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Writtick Chatterjee
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shahbaz Ahmed
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Writtick Chatterjee
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shahbaz Ahmed
+        wicket:
+          player_out: Shahbaz Ahmed
+          fielders:
+          - LI Meriwala
+          kind: caught
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Writtick Chatterjee
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Deep
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Writtick Chatterjee
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Akash Deep
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Writtick Chatterjee
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Deep
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Akash Deep
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Writtick Chatterjee
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Writtick Chatterjee
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Akash Deep
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Writtick Chatterjee
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Deep
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Writtick Chatterjee
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Akash Deep
+- 2nd innings:
+    team: Baroda
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Shashwat Rawat
+        bowler: IC Porel
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KH Devdhar
+    - 0.2:
+        actual_delivery: '0.1'
+        non_striker: Shashwat Rawat
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: KH Devdhar
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashwat Rawat
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: KH Devdhar
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashwat Rawat
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: KH Devdhar
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashwat Rawat
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: KH Devdhar
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashwat Rawat
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: KH Devdhar
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashwat Rawat
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Shashwat Rawat
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: KH Devdhar
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashwat Rawat
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: KH Devdhar
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashwat Rawat
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Shashwat Rawat
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Shashwat Rawat
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Shashwat Rawat
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Shashwat Rawat
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Shashwat Rawat
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Shashwat Rawat
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Shashwat Rawat
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: KH Devdhar
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashwat Rawat
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Shashwat Rawat
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Shashwat Rawat
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: KH Devdhar
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashwat Rawat
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: KH Devdhar
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashwat Rawat
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Shashwat Rawat
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: KH Devdhar
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashwat Rawat
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Shashwat Rawat
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: KH Devdhar
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shashwat Rawat
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: KH Devdhar
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shashwat Rawat
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: KH Devdhar
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashwat Rawat
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: KH Devdhar
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashwat Rawat
+        wicket:
+          player_out: Shashwat Rawat
+          kind: bowled
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: KH Devdhar
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Patel
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: KH Devdhar
+        bowler: Shahbaz Ahmed
+        extras:
+          legbyes: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: Dhruv Patel
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Dhruv Patel
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Dhruv Patel
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Dhruv Patel
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Dhruv Patel
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: KH Devdhar
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Patel
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: KH Devdhar
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Patel
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Dhruv Patel
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: KH Devdhar
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Patel
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Dhruv Patel
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Dhruv Patel
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: KH Devdhar
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Patel
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Dhruv Patel
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+        wicket:
+          player_out: KH Devdhar
+          kind: lbw
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: KH Pandya
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Dhruv Patel
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: KH Pandya
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Patel
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: KH Pandya
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Patel
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: KH Pandya
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Patel
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Dhruv Patel
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Dhruv Patel
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Dhruv Patel
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Dhruv Patel
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Pandya
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Dhruv Patel
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Dhruv Patel
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Dhruv Patel
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: KH Pandya
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Dhruv Patel
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Dhruv Patel
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Dhruv Patel
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: KH Pandya
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Patel
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Dhruv Patel
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: KH Pandya
+        bowler: Writtick Chatterjee
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Dhruv Patel
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Dhruv Patel
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: KH Pandya
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Patel
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Dhruv Patel
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: KH Pandya
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Patel
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Dhruv Patel
+        bowler: Akash Deep
+        extras:
+          legbyes: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: KH Pandya
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Dhruv Patel
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Pandya
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Dhruv Patel
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Dhruv Patel
+        bowler: Karan Lal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: KH Pandya
+        bowler: Karan Lal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Patel
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Dhruv Patel
+        bowler: Karan Lal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: KH Pandya
+        bowler: Karan Lal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Dhruv Patel
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: KH Pandya
+        bowler: Karan Lal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Patel
+        wicket:
+          player_out: Dhruv Patel
+          fielders:
+          - WP Saha
+          kind: caught
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Vishnu Solanki
+        bowler: Karan Lal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: KH Pandya
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Vishnu Solanki
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: KH Pandya
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Vishnu Solanki
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Vishnu Solanki
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: KH Pandya
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: KH Pandya
+        bowler: Karan Lal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Solanki
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: KH Pandya
+        bowler: Karan Lal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Solanki
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: KH Pandya
+        bowler: Karan Lal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Vishnu Solanki
+        bowler: Karan Lal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Vishnu Solanki
+        bowler: Karan Lal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Vishnu Solanki
+        bowler: Karan Lal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Vishnu Solanki
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: KH Pandya
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vishnu Solanki
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: KH Pandya
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Vishnu Solanki
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Pandya
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Vishnu Solanki
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Pandya
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Vishnu Solanki
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: KH Pandya
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Vishnu Solanki
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: KH Pandya
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Vishnu Solanki
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: KH Pandya
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Solanki
+        wicket:
+          player_out: Vishnu Solanki
+          fielders:
+          - Ritwik Roy Chowdhury
+          kind: caught
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: A Sheth
+        bowler: Writtick Chatterjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: KH Pandya
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Sheth
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: KH Pandya
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Sheth
+        wicket:
+          player_out: A Sheth
+          fielders:
+          - Ritwik Roy Chowdhury
+          kind: run out
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: KH Pandya
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Bhanu Pania
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: KH Pandya
+        bowler: Shahbaz Ahmed
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Bhanu Pania
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: KH Pandya
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bhanu Pania
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: KH Pandya
+        bowler: Shahbaz Ahmed
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Bhanu Pania
+    - 16.7:
+        actual_delivery: '16.5'
+        non_striker: KH Pandya
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bhanu Pania
+    - 16.8:
+        actual_delivery: '16.6'
+        non_striker: Bhanu Pania
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: KH Pandya
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bhanu Pania
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: KH Pandya
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bhanu Pania
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: KH Pandya
+        bowler: Mukesh Kumar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Bhanu Pania
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: KH Pandya
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bhanu Pania
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Bhanu Pania
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Pandya
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Bhanu Pania
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Bhanu Pania
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: KH Pandya
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bhanu Pania
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Bhanu Pania
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Pandya
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Bhanu Pania
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: KH Pandya
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bhanu Pania
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: KH Pandya
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bhanu Pania
+        wicket:
+          player_out: Bhanu Pania
+          fielders:
+          - Ritwik Roy Chowdhury
+          kind: caught
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: KR Kakade
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Pandya
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: KH Pandya
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KR Kakade
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: KR Kakade
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: KR Kakade
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Pandya
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: KR Kakade
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: KR Kakade
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Pandya
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: KR Kakade
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Pandya

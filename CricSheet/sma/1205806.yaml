@@ -1,0 +1,2187 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-01'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-11-15'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Rajasthan
+    by:
+      wickets: 7
+  overs: 20
+  players:
+    Kerala:
+    - Vishnu Vinod
+    - Jalaj S Saxena
+    - SV Samson
+    - Sachin Baby
+    - RV Uthappa
+    - Mohammed Azharuddeen
+    - Akshay Chandran
+    - S Sandeep Warrier
+    - KM Asif
+    - Basil Thampi
+    - S Midhun
+    Rajasthan:
+    - Tanveer Ul-Haq
+    - DL Chahar
+    - RD Chahar
+    - KK Ahmed
+    - CP Singh
+    - MK Lomror
+    - MN Singh
+    - Ankit Lamba
+    - R Bishnoi
+    - Arjit Gupta
+    - Robin Bist
+  registry:
+    people:
+      Akshay Chandran: f0f5b2aa
+      Ankit Lamba: 90a3c0dc
+      Arjit Gupta: 145903a5
+      Basil Thampi: 871e9faf
+      CP Singh: 077da288
+      DL Chahar: 23eeb873
+      Jalaj S Saxena: 249abedf
+      KK Ahmed: a2f46292
+      KM Asif: 798cc28e
+      MK Lomror: da934ee8
+      MN Singh: 7ba6ef29
+      Mohammed Azharuddeen: 4ae89f36
+      R Bishnoi: 4d5a1617
+      RD Chahar: 2ed569a0
+      RV Uthappa: 1c17e270
+      Robin Bist: bc761d00
+      S Midhun: ade90de7
+      S Sandeep Warrier: cdc6bdba
+      SV Samson: a4cc73aa
+      Sachin Baby: dc9dd038
+      Tanveer Ul-Haq: 2795b0f6
+      Vishnu Vinod: '0494fa6e'
+    venues:
+      Greenfield International Stadium, Thiruvananthapuram: a5199fe6
+  teams:
+  - Kerala
+  - Rajasthan
+  toss:
+    winner: Rajasthan
+    decision: field
+  venue: Greenfield International Stadium, Thiruvananthapuram
+  team_type: club
+innings:
+- 1st innings:
+    team: Kerala
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Jalaj S Saxena
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Jalaj S Saxena
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Vishnu Vinod
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jalaj S Saxena
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Jalaj S Saxena
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Vishnu Vinod
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jalaj S Saxena
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Jalaj S Saxena
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Vishnu Vinod
+        bowler: DL Chahar
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Jalaj S Saxena
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Jalaj S Saxena
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Jalaj S Saxena
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Jalaj S Saxena
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Vishnu Vinod
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Jalaj S Saxena
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Jalaj S Saxena
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Vishnu Vinod
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jalaj S Saxena
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Jalaj S Saxena
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Vishnu Vinod
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jalaj S Saxena
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Vishnu Vinod
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jalaj S Saxena
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Jalaj S Saxena
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Jalaj S Saxena
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Vishnu Vinod
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Vishnu Vinod
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+        wicket:
+          player_out: Jalaj S Saxena
+          fielders:
+          - Robin Bist
+          kind: caught
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Vishnu Vinod
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: SV Samson
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Vishnu Vinod
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Vishnu Vinod
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Vishnu Vinod
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Vishnu Vinod
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SV Samson
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Vishnu Vinod
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: SV Samson
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: SV Samson
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Vishnu Vinod
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: SV Samson
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: SV Samson
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Vishnu Vinod
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: SV Samson
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Vishnu Vinod
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Vishnu Vinod
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Vishnu Vinod
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Vishnu Vinod
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Vishnu Vinod
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: SV Samson
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Vishnu Vinod
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Vishnu Vinod
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Vishnu Vinod
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: SV Samson
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vishnu Vinod
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: SV Samson
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Vishnu Vinod
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Vishnu Vinod
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Vishnu Vinod
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: SV Samson
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: SV Samson
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Vishnu Vinod
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: SV Samson
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Vishnu Vinod
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: SV Samson
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Vishnu Vinod
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Vishnu Vinod
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: SV Samson
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Vishnu Vinod
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Vishnu Vinod
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: SV Samson
+        bowler: MK Lomror
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 10.3:
+        actual_delivery: '10.2'
+        non_striker: SV Samson
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 10.4:
+        actual_delivery: '10.3'
+        non_striker: Vishnu Vinod
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: Vishnu Vinod
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: SV Samson
+        bowler: MK Lomror
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: Vishnu Vinod
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Vishnu Vinod
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: SV Samson
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+        wicket:
+          player_out: Vishnu Vinod
+          kind: lbw
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: SV Samson
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Sachin Baby
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: SV Samson
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Sachin Baby
+        bowler: Tanveer Ul-Haq
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Sachin Baby
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Sachin Baby
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: SV Samson
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Sachin Baby
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: SV Samson
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Sachin Baby
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: SV Samson
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Sachin Baby
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: SV Samson
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Sachin Baby
+        bowler: RD Chahar
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SV Samson
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: SV Samson
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sachin Baby
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: SV Samson
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: SV Samson
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Sachin Baby
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: SV Samson
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: SV Samson
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Sachin Baby
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: SV Samson
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+        wicket:
+          player_out: SV Samson
+          fielders:
+          - RD Chahar
+          kind: run out
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: RV Uthappa
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: RV Uthappa
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Sachin Baby
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: RV Uthappa
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Sachin Baby
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RV Uthappa
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Sachin Baby
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RV Uthappa
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: RV Uthappa
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: RV Uthappa
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sachin Baby
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: RV Uthappa
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Sachin Baby
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: RV Uthappa
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sachin Baby
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: RV Uthappa
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: RV Uthappa
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Sachin Baby
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: RV Uthappa
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Sachin Baby
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: RV Uthappa
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sachin Baby
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: RV Uthappa
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sachin Baby
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Sachin Baby
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: RV Uthappa
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sachin Baby
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: RV Uthappa
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: RV Uthappa
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sachin Baby
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: RV Uthappa
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: RV Uthappa
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+        wicket:
+          player_out: Sachin Baby
+          fielders:
+          - CP Singh
+          kind: caught
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Mohammed Azharuddeen
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: RV Uthappa
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohammed Azharuddeen
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Mohammed Azharuddeen
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: RV Uthappa
+        bowler: KK Ahmed
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Mohammed Azharuddeen
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Mohammed Azharuddeen
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Uthappa
+        wicket:
+          player_out: RV Uthappa
+          kind: caught and bowled
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Akshay Chandran
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammed Azharuddeen
+        wicket:
+          player_out: Mohammed Azharuddeen
+          fielders:
+          - MN Singh
+          kind: caught
+- 2nd innings:
+    team: Rajasthan
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Ankit Lamba
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MN Singh
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Ankit Lamba
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MN Singh
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Ankit Lamba
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MN Singh
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Ankit Lamba
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MN Singh
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Ankit Lamba
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MN Singh
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: MN Singh
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Ankit Lamba
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MN Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Ankit Lamba
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MN Singh
+        wicket:
+          player_out: MN Singh
+          fielders:
+          - Basil Thampi
+          kind: caught
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Ankit Lamba
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Bishnoi
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Ankit Lamba
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Bishnoi
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Ankit Lamba
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: R Bishnoi
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Lamba
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Ankit Lamba
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Bishnoi
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Ankit Lamba
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Bishnoi
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Ankit Lamba
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Bishnoi
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Ankit Lamba
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: R Bishnoi
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ankit Lamba
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: R Bishnoi
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ankit Lamba
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Ankit Lamba
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Bishnoi
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Ankit Lamba
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Bishnoi
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Ankit Lamba
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Bishnoi
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Ankit Lamba
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Bishnoi
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Ankit Lamba
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: R Bishnoi
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Ankit Lamba
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: R Bishnoi
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Lamba
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: R Bishnoi
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Lamba
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: R Bishnoi
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Lamba
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: R Bishnoi
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Lamba
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Ankit Lamba
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Bishnoi
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: R Bishnoi
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Lamba
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Ankit Lamba
+        bowler: Akshay Chandran
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: R Bishnoi
+    - 5.3:
+        actual_delivery: '5.2'
+        non_striker: Ankit Lamba
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Bishnoi
+    - 5.4:
+        actual_delivery: '5.3'
+        non_striker: Ankit Lamba
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Bishnoi
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: Ankit Lamba
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Bishnoi
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: Ankit Lamba
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: R Bishnoi
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ankit Lamba
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Ankit Lamba
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: R Bishnoi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Lamba
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Ankit Lamba
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Bishnoi
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Ankit Lamba
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: R Bishnoi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Lamba
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Ankit Lamba
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Ankit Lamba
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Bishnoi
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Ankit Lamba
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: R Bishnoi
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Lamba
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Ankit Lamba
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: R Bishnoi
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: R Bishnoi
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Ankit Lamba
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: R Bishnoi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: R Bishnoi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: R Bishnoi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+        wicket:
+          player_out: Ankit Lamba
+          kind: lbw
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: R Bishnoi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Lomror
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: MK Lomror
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: MK Lomror
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Bishnoi
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: MK Lomror
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Bishnoi
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: MK Lomror
+        bowler: Jalaj S Saxena
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: R Bishnoi
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: R Bishnoi
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MK Lomror
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: R Bishnoi
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: R Bishnoi
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: MK Lomror
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Bishnoi
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: MK Lomror
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: R Bishnoi
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+        wicket:
+          player_out: MK Lomror
+          fielders:
+          - Sachin Baby
+          kind: caught
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: R Bishnoi
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arjit Gupta
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Arjit Gupta
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: R Bishnoi
+        bowler: Akshay Chandran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Arjit Gupta
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Arjit Gupta
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: R Bishnoi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arjit Gupta
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: R Bishnoi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arjit Gupta
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Arjit Gupta
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Bishnoi
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Arjit Gupta
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: R Bishnoi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arjit Gupta
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: R Bishnoi
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Arjit Gupta
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: R Bishnoi
+        bowler: Basil Thampi
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Arjit Gupta
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Arjit Gupta
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: R Bishnoi
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arjit Gupta
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: R Bishnoi
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arjit Gupta
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Arjit Gupta
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Arjit Gupta
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: R Bishnoi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arjit Gupta
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Arjit Gupta
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: R Bishnoi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Arjit Gupta
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: R Bishnoi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arjit Gupta
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Arjit Gupta
+        bowler: S Midhun
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: R Bishnoi
+    - 13.7:
+        actual_delivery: '13.6'
+        non_striker: Arjit Gupta
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Arjit Gupta
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: R Bishnoi
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arjit Gupta
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Arjit Gupta
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Bishnoi
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Arjit Gupta
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Bishnoi
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Arjit Gupta
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: R Bishnoi
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arjit Gupta
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Arjit Gupta
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Bishnoi
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Arjit Gupta
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: R Bishnoi
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Arjit Gupta
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: R Bishnoi
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arjit Gupta
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Arjit Gupta
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: R Bishnoi
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arjit Gupta
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: R Bishnoi
+        bowler: S Sandeep Warrier
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Arjit Gupta
+    - 16.2:
+        actual_delivery: '16.1'
+        non_striker: R Bishnoi
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arjit Gupta
+    - 16.3:
+        actual_delivery: '16.2'
+        non_striker: R Bishnoi
+        bowler: S Sandeep Warrier
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: Arjit Gupta
+    - 16.4:
+        actual_delivery: '16.2'
+        non_striker: Arjit Gupta
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Bishnoi
+    - 16.5:
+        actual_delivery: '16.3'
+        non_striker: Arjit Gupta
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Bishnoi
+    - 16.6:
+        actual_delivery: '16.4'
+        non_striker: Arjit Gupta
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Bishnoi
+    - 16.7:
+        actual_delivery: '16.5'
+        non_striker: R Bishnoi
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Arjit Gupta
+    - 16.8:
+        actual_delivery: '16.6'
+        non_striker: R Bishnoi
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Arjit Gupta

@@ -1,0 +1,2094 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-01'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-11-17'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Tamil Nadu
+    by:
+      runs: 113
+  overs: 20
+  players:
+    Tamil Nadu:
+    - Washington Sundar
+    - M Vijay
+    - B Aparajith
+    - KD Karthik
+    - V Shankar
+    - M Shahrukh Khan
+    - M Mohammed
+    - M Ashwin
+    - R Sai Kishore
+    - G Periyaswamy
+    - T Natarajan
+    Vidarbha:
+    - RN Gurbani
+    - Yash Thakur
+    - DG Nalkande
+    - Akshay Wakhare
+    - Akshay Karnewar
+    - JM Sharma
+    - AV Kolhar
+    - SU Shrivastava
+    - Akshay Wadkar
+    - Ganesh Satish
+    - Tushar Gill
+  registry:
+    people:
+      AV Kolhar: e2b74f6e
+      Akshay Karnewar: e1e7f950
+      Akshay Wadkar: c88c8a7d
+      Akshay Wakhare: ec9fc54b
+      B Aparajith: 5b627626
+      DG Nalkande: cd8d2859
+      G Periyaswamy: 2e099662
+      Ganesh Satish: 0ed1a112
+      JM Sharma: 800d2d97
+      KD Karthik: c03f1114
+      M Ashwin: e2db2409
+      M Mohammed: 1b7c4d69
+      M Shahrukh Khan: 7dcb9bc9
+      M Vijay: 4b57e452
+      R Sai Kishore: c7a995d3
+      RN Gurbani: bcaf7d33
+      SU Shrivastava: a392328e
+      T Natarajan: ce794613
+      Tushar Gill: a1af722a
+      V Shankar: '0994d0ae'
+      Washington Sundar: f19ccfad
+      Yash Thakur: 4b31f3a3
+    venues:
+      Greenfield International Stadium, Thiruvananthapuram: a5199fe6
+  teams:
+  - Tamil Nadu
+  - Vidarbha
+  toss:
+    winner: Vidarbha
+    decision: field
+  venue: Greenfield International Stadium, Thiruvananthapuram
+  team_type: club
+innings:
+- 1st innings:
+    team: Tamil Nadu
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: M Vijay
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Washington Sundar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vijay
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Washington Sundar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vijay
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Washington Sundar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vijay
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Washington Sundar
+        bowler: RN Gurbani
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: M Vijay
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Washington Sundar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vijay
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: M Vijay
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Washington Sundar
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Vijay
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Washington Sundar
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vijay
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Washington Sundar
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vijay
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Washington Sundar
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Vijay
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Washington Sundar
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vijay
+        wicket:
+          player_out: M Vijay
+          kind: bowled
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Washington Sundar
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: B Aparajith
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Washington Sundar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Washington Sundar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Washington Sundar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: B Aparajith
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Washington Sundar
+        bowler: RN Gurbani
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: B Aparajith
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: Washington Sundar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: B Aparajith
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: B Aparajith
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Washington Sundar
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: B Aparajith
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Washington Sundar
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: B Aparajith
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+        wicket:
+          player_out: Washington Sundar
+          fielders:
+          - Akshay Wakhare
+          kind: caught
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: B Aparajith
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: B Aparajith
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: B Aparajith
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KD Karthik
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: B Aparajith
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: KD Karthik
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: KD Karthik
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: B Aparajith
+        bowler: DG Nalkande
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KD Karthik
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: B Aparajith
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: B Aparajith
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: B Aparajith
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KD Karthik
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: B Aparajith
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KD Karthik
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: B Aparajith
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: B Aparajith
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: KD Karthik
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: KD Karthik
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: B Aparajith
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: KD Karthik
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: B Aparajith
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: B Aparajith
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KD Karthik
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: B Aparajith
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: KD Karthik
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: KD Karthik
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: B Aparajith
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: KD Karthik
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: B Aparajith
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: KD Karthik
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: B Aparajith
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KD Karthik
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: B Aparajith
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: B Aparajith
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KD Karthik
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: B Aparajith
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: KD Karthik
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: B Aparajith
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: B Aparajith
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: KD Karthik
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: KD Karthik
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: B Aparajith
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KD Karthik
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: B Aparajith
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KD Karthik
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: B Aparajith
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: B Aparajith
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KD Karthik
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: B Aparajith
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: B Aparajith
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: KD Karthik
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: B Aparajith
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: KD Karthik
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: B Aparajith
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: KD Karthik
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: KD Karthik
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: B Aparajith
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: B Aparajith
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KD Karthik
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: B Aparajith
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KD Karthik
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: B Aparajith
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: KD Karthik
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: KD Karthik
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: KD Karthik
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: B Aparajith
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: KD Karthik
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+        wicket:
+          player_out: B Aparajith
+          fielders:
+          - Akshay Wadkar
+          kind: stumped
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: KD Karthik
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: V Shankar
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: KD Karthik
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: V Shankar
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+        wicket:
+          player_out: KD Karthik
+          kind: bowled
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: V Shankar
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: M Shahrukh Khan
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: M Shahrukh Khan
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: M Shahrukh Khan
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: M Shahrukh Khan
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: V Shankar
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: V Shankar
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Shahrukh Khan
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: V Shankar
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: V Shankar
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: V Shankar
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Shahrukh Khan
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: M Shahrukh Khan
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: V Shankar
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Shahrukh Khan
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: M Shahrukh Khan
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: M Shahrukh Khan
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: M Shahrukh Khan
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: V Shankar
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: M Shahrukh Khan
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: V Shankar
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Shahrukh Khan
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: M Shahrukh Khan
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: V Shankar
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: M Shahrukh Khan
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: V Shankar
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: M Shahrukh Khan
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: V Shankar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: M Shahrukh Khan
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: V Shankar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: V Shankar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Shahrukh Khan
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: M Shahrukh Khan
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: M Shahrukh Khan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: V Shankar
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: M Shahrukh Khan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+        wicket:
+          player_out: V Shankar
+          fielders:
+          - RN Gurbani
+          kind: caught
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: M Shahrukh Khan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Mohammed
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: M Mohammed
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Shahrukh Khan
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: M Shahrukh Khan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Mohammed
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: M Mohammed
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Shahrukh Khan
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: M Mohammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: M Shahrukh Khan
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: M Mohammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+        wicket:
+          player_out: M Shahrukh Khan
+          fielders:
+          - Akshay Karnewar
+          kind: caught
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: M Ashwin
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Mohammed
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: M Mohammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: M Ashwin
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: M Mohammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Ashwin
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: M Ashwin
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Mohammed
+        wicket:
+          player_out: M Mohammed
+          fielders:
+          - Yash Thakur
+          kind: caught
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: R Sai Kishore
+        bowler: Yash Thakur
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: M Ashwin
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: M Ashwin
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sai Kishore
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: R Sai Kishore
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Ashwin
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: M Ashwin
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sai Kishore
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: R Sai Kishore
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Ashwin
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: R Sai Kishore
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Ashwin
+        wicket:
+          player_out: R Sai Kishore
+          fielders:
+          - JM Sharma
+          kind: run out
+- 2nd innings:
+    team: Vidarbha
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: AV Kolhar
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: AV Kolhar
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: AV Kolhar
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+        wicket:
+          player_out: JM Sharma
+          fielders:
+          - V Shankar
+          kind: caught
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: SU Shrivastava
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Kolhar
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: SU Shrivastava
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Kolhar
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: SU Shrivastava
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Kolhar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: AV Kolhar
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: SU Shrivastava
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: AV Kolhar
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: AV Kolhar
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: AV Kolhar
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SU Shrivastava
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: AV Kolhar
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: AV Kolhar
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: AV Kolhar
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SU Shrivastava
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: AV Kolhar
+        bowler: R Sai Kishore
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SU Shrivastava
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: AV Kolhar
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: AV Kolhar
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: AV Kolhar
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: SU Shrivastava
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Kolhar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: AV Kolhar
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SU Shrivastava
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: AV Kolhar
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: AV Kolhar
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SU Shrivastava
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: AV Kolhar
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: SU Shrivastava
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Kolhar
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: SU Shrivastava
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Kolhar
+        wicket:
+          player_out: AV Kolhar
+          fielders:
+          - M Ashwin
+          kind: caught
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: SU Shrivastava
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: SU Shrivastava
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Akshay Wadkar
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Akshay Wadkar
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Akshay Wadkar
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Akshay Wadkar
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+        wicket:
+          player_out: SU Shrivastava
+          fielders:
+          - M Shahrukh Khan
+          kind: caught
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Ganesh Satish
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Akshay Wadkar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Ganesh Satish
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Ganesh Satish
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Akshay Wadkar
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Akshay Wadkar
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Ganesh Satish
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Akshay Wadkar
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Ganesh Satish
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Akshay Wadkar
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Ganesh Satish
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Akshay Wadkar
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Akshay Wadkar
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Akshay Wadkar
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+        wicket:
+          player_out: Ganesh Satish
+          fielders:
+          - M Vijay
+          kind: caught
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Akshay Karnewar
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Akshay Karnewar
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Akshay Karnewar
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Akshay Wadkar
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Karnewar
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Akshay Wadkar
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Karnewar
+        wicket:
+          player_out: Akshay Karnewar
+          fielders:
+          - M Mohammed
+          kind: caught
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Akshay Wadkar
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tushar Gill
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Akshay Wadkar
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tushar Gill
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Tushar Gill
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Akshay Wadkar
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tushar Gill
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Tushar Gill
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Akshay Wadkar
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tushar Gill
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Akshay Wadkar
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tushar Gill
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Tushar Gill
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akshay Wadkar
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Tushar Gill
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+        wicket:
+          player_out: Akshay Wadkar
+          fielders:
+          - B Aparajith
+          kind: run out
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: DG Nalkande
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tushar Gill
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Tushar Gill
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Nalkande
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Tushar Gill
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Nalkande
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: DG Nalkande
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tushar Gill
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Tushar Gill
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DG Nalkande
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: DG Nalkande
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tushar Gill
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Tushar Gill
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DG Nalkande
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Tushar Gill
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DG Nalkande
+        wicket:
+          player_out: DG Nalkande
+          fielders:
+          - Washington Sundar
+          kind: caught
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: RN Gurbani
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tushar Gill
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: RN Gurbani
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tushar Gill
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Tushar Gill
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RN Gurbani
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Tushar Gill
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RN Gurbani
+        wicket:
+          player_out: RN Gurbani
+          fielders:
+          - KD Karthik
+          kind: caught
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Tushar Gill
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Thakur
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Tushar Gill
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Thakur
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Tushar Gill
+        bowler: V Shankar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Thakur
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Yash Thakur
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tushar Gill
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Yash Thakur
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tushar Gill
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Tushar Gill
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Thakur
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Tushar Gill
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Thakur
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Tushar Gill
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Thakur
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Tushar Gill
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Thakur
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Yash Thakur
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tushar Gill
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Yash Thakur
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tushar Gill
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Tushar Gill
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Thakur
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Tushar Gill
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Thakur
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Yash Thakur
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tushar Gill
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Tushar Gill
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Thakur
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Yash Thakur
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tushar Gill
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Yash Thakur
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tushar Gill
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Yash Thakur
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tushar Gill
+        wicket:
+          player_out: Tushar Gill
+          fielders:
+          - B Aparajith
+          kind: caught
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Yash Thakur
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wakhare
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Yash Thakur
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wakhare
+        wicket:
+          player_out: Akshay Wakhare
+          kind: bowled

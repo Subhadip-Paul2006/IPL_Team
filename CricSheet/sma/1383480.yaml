@@ -1,0 +1,2473 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-10-23'
+  revision: 2
+info:
+  balls_per_over: 6
+  city: Ranchi
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2023-10-19'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Gujarat
+    by:
+      runs: 15
+  overs: 20
+  players:
+    Gujarat:
+    - Urvil Patel
+    - Priyank Panchal
+    - Aarya Desai
+    - UR Kumar
+    - Saurav Chauhan
+    - Chirag Gandhi
+    - RV Patel
+    - PP Chawla
+    - Chintan Gaja
+    - Ravi Bishnoi
+    - SN Patel
+    - A Nagwaswalla
+    Goa:
+    - SP Tari
+    - Ishaan Gadekar
+    - RA Tripathi
+    - Krishnamurthy Siddharth
+    - SS Prabhudessai
+    - Deepraj Gaonkar
+    - Darshan Misal
+    - TT Sawkar
+    - MS Redkar
+    - Lakshay Garg
+    - Arjun Tendulkar
+    - VK Singh
+  registry:
+    people:
+      A Nagwaswalla: 01ada0ed
+      Aarya Desai: 8053c798
+      Arjun Tendulkar: 44aac2f0
+      Chintan Gaja: 63bfb5fc
+      Chirag Gandhi: 35eb75af
+      Darshan Misal: ce2b42ae
+      Deepraj Gaonkar: d3c1f849
+      Ishaan Gadekar: e3751ee2
+      Krishnamurthy Siddharth: 330bc788
+      Lakshay Garg: 4af886ed
+      MS Redkar: f64c8577
+      PP Chawla: 98ae73b1
+      Priyank Panchal: ebf25cf2
+      R Seth: 540a44ba
+      RA Tripathi: 77255a9e
+      RV Patel: '60500956'
+      Ravi Bishnoi: df064e1a
+      SN Patel: f0f0f668
+      SP Tari: 1f1056c4
+      SS Prabhudessai: 9385de2e
+      Saurav Chauhan: 9e7225b0
+      TT Sawkar: 276b64d4
+      UR Kumar: 2fda74a2
+      UV Gandhe: 43dd4011
+      Urvil Patel: cf59b3f0
+      VK Singh: 0fe0cb24
+      Vinod Seshan: a3357a27
+    venues:
+      JSCA International Stadium Complex, Ranchi: cc5717a5
+  teams:
+  - Gujarat
+  - Goa
+  toss:
+    winner: Gujarat
+    decision: bat
+  umpires:
+  - UV Gandhe
+  - Vinod Seshan
+  venue: JSCA International Stadium Complex, Ranchi
+  team_type: club
+innings:
+- 1st innings:
+    team: Gujarat
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: Priyank Panchal
+        batsman: Urvil Patel
+    - 0.2:
+        actual_delivery: '0.2'
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Priyank Panchal
+        batsman: Urvil Patel
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Urvil Patel
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Urvil Patel
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Urvil Patel
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: Priyank Panchal
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Priyank Panchal
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Priyank Panchal
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Urvil Patel
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Urvil Patel
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+        wicket:
+          player_out: Priyank Panchal
+          fielders:
+          - Krishnamurthy Siddharth
+          kind: caught
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Urvil Patel
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          match:
+          - in: Aarya Desai
+            out: Priyank Panchal
+            team: Gujarat
+            reason: impact_player
+        batsman: Aarya Desai
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Urvil Patel
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aarya Desai
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Urvil Patel
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aarya Desai
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Urvil Patel
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aarya Desai
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Aarya Desai
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Aarya Desai
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Urvil Patel
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aarya Desai
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Urvil Patel
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aarya Desai
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Urvil Patel
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aarya Desai
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Aarya Desai
+        bowler: Lakshay Garg
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Urvil Patel
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Aarya Desai
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Aarya Desai
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Aarya Desai
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Urvil Patel
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aarya Desai
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Urvil Patel
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aarya Desai
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Aarya Desai
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Urvil Patel
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Aarya Desai
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Urvil Patel
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aarya Desai
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Urvil Patel
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aarya Desai
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Aarya Desai
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Aarya Desai
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Urvil Patel
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Aarya Desai
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Urvil Patel
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aarya Desai
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Aarya Desai
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Urvil Patel
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Aarya Desai
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Urvil Patel
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aarya Desai
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Urvil Patel
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aarya Desai
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Urvil Patel
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aarya Desai
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Aarya Desai
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Urvil Patel
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: Aarya Desai
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Urvil Patel
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aarya Desai
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Aarya Desai
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Urvil Patel
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Aarya Desai
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+        wicket:
+          player_out: Urvil Patel
+          fielders:
+          - VK Singh
+          kind: caught
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Aarya Desai
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UR Kumar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: UR Kumar
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aarya Desai
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Aarya Desai
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UR Kumar
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: UR Kumar
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aarya Desai
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Aarya Desai
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UR Kumar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: UR Kumar
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aarya Desai
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Aarya Desai
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UR Kumar
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Aarya Desai
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UR Kumar
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: UR Kumar
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aarya Desai
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: UR Kumar
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aarya Desai
+        wicket:
+          player_out: Aarya Desai
+          kind: bowled
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: UR Kumar
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Saurav Chauhan
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: UR Kumar
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Saurav Chauhan
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UR Kumar
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: UR Kumar
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Saurav Chauhan
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UR Kumar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Saurav Chauhan
+        bowler: VK Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: UR Kumar
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Saurav Chauhan
+        bowler: VK Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UR Kumar
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: UR Kumar
+        bowler: VK Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saurav Chauhan
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: UR Kumar
+        bowler: VK Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Saurav Chauhan
+        bowler: VK Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UR Kumar
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: UR Kumar
+        bowler: VK Singh
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: Saurav Chauhan
+    - 9.7:
+        actual_delivery: '9.6'
+        non_striker: Saurav Chauhan
+        bowler: VK Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UR Kumar
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: UR Kumar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Saurav Chauhan
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: UR Kumar
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Saurav Chauhan
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UR Kumar
+        wicket:
+          player_out: UR Kumar
+          fielders:
+          - Deepraj Gaonkar
+          kind: caught
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Saurav Chauhan
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Saurav Chauhan
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Chirag Gandhi
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Chirag Gandhi
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Saurav Chauhan
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Chirag Gandhi
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Saurav Chauhan
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Chirag Gandhi
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Saurav Chauhan
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Chirag Gandhi
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Saurav Chauhan
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Chirag Gandhi
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Saurav Chauhan
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Chirag Gandhi
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Saurav Chauhan
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Chirag Gandhi
+        bowler: MS Redkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Chirag Gandhi
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Saurav Chauhan
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Chirag Gandhi
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Chirag Gandhi
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Saurav Chauhan
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Chirag Gandhi
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Saurav Chauhan
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Gandhi
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Chirag Gandhi
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Saurav Chauhan
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Chirag Gandhi
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Chirag Gandhi
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Saurav Chauhan
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Gandhi
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Saurav Chauhan
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Saurav Chauhan
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Chirag Gandhi
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Saurav Chauhan
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chirag Gandhi
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Saurav Chauhan
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Chirag Gandhi
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Saurav Chauhan
+        bowler: Lakshay Garg
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Chirag Gandhi
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Saurav Chauhan
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Gandhi
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Saurav Chauhan
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+        wicket:
+          player_out: Chirag Gandhi
+          fielders:
+          - SS Prabhudessai
+          kind: caught
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Saurav Chauhan
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: RV Patel
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Saurav Chauhan
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RV Patel
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: Saurav Chauhan
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RV Patel
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: Saurav Chauhan
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Saurav Chauhan
+        bowler: SP Tari
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RV Patel
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: RV Patel
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Saurav Chauhan
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Patel
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Saurav Chauhan
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RV Patel
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Saurav Chauhan
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RV Patel
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Saurav Chauhan
+        bowler: SP Tari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Saurav Chauhan
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RV Patel
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Saurav Chauhan
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: RV Patel
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Saurav Chauhan
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: RV Patel
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: Saurav Chauhan
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RV Patel
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: Saurav Chauhan
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RV Patel
+    - 18.7:
+        actual_delivery: '18.5'
+        non_striker: Saurav Chauhan
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 18.8:
+        actual_delivery: '18.6'
+        non_striker: RV Patel
+        bowler: Arjun Tendulkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+        wicket:
+          player_out: Saurav Chauhan
+          kind: lbw
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: PP Chawla
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Patel
+        wicket:
+          player_out: RV Patel
+          kind: lbw
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: PP Chawla
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chintan Gaja
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: PP Chawla
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chintan Gaja
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: PP Chawla
+        bowler: Lakshay Garg
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Chintan Gaja
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: PP Chawla
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chintan Gaja
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: PP Chawla
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chintan Gaja
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: Chintan Gaja
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Chawla
+- 2nd innings:
+    team: Goa
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        non_striker: RA Tripathi
+        batsman: Ishaan Gadekar
+    - 0.2:
+        actual_delivery: '0.2'
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        non_striker: RA Tripathi
+        batsman: Ishaan Gadekar
+    - 0.3:
+        actual_delivery: '0.3'
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: RA Tripathi
+        batsman: Ishaan Gadekar
+    - 0.4:
+        actual_delivery: '0.4'
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: RA Tripathi
+        batsman: Ishaan Gadekar
+    - 0.5:
+        actual_delivery: '0.5'
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: RA Tripathi
+        batsman: Ishaan Gadekar
+    - 0.6:
+        actual_delivery: '0.6'
+        bowler: Chintan Gaja
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        non_striker: RA Tripathi
+        batsman: Ishaan Gadekar
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: RA Tripathi
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishaan Gadekar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Ishaan Gadekar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: RA Tripathi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishaan Gadekar
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: RA Tripathi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishaan Gadekar
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Ishaan Gadekar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Ishaan Gadekar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Ishaan Gadekar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Ishaan Gadekar
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: RA Tripathi
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishaan Gadekar
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: RA Tripathi
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishaan Gadekar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: RA Tripathi
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishaan Gadekar
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: RA Tripathi
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishaan Gadekar
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: RA Tripathi
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishaan Gadekar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Ishaan Gadekar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Ishaan Gadekar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Ishaan Gadekar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Ishaan Gadekar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Ishaan Gadekar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: RA Tripathi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishaan Gadekar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: RA Tripathi
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ishaan Gadekar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: RA Tripathi
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishaan Gadekar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Ishaan Gadekar
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Ishaan Gadekar
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Ishaan Gadekar
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: RA Tripathi
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishaan Gadekar
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: RA Tripathi
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ishaan Gadekar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: RA Tripathi
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishaan Gadekar
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: RA Tripathi
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishaan Gadekar
+        wicket:
+          player_out: Ishaan Gadekar
+          fielders:
+          - Aarya Desai
+          kind: caught
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: RA Tripathi
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 5.5:
+        actual_delivery: '5.5'
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: RA Tripathi
+    - 5.6:
+        actual_delivery: '5.6'
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: RA Tripathi
+    - 6.1:
+        actual_delivery: '6.1'
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: RA Tripathi
+        wicket:
+          player_out: RA Tripathi
+          kind: caught and bowled
+    - 6.2:
+        actual_delivery: '6.2'
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        non_striker: Krishnamurthy Siddharth
+        batsman: SS Prabhudessai
+    - 6.3:
+        actual_delivery: '6.3'
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: SS Prabhudessai
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: SS Prabhudessai
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Krishnamurthy Siddharth
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: SS Prabhudessai
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Krishnamurthy Siddharth
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: SS Prabhudessai
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Krishnamurthy Siddharth
+    - 7.1:
+        actual_delivery: '7.1'
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: Krishnamurthy Siddharth
+        batsman: SS Prabhudessai
+    - 7.2:
+        actual_delivery: '7.2'
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: SS Prabhudessai
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: SS Prabhudessai
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 7.4:
+        actual_delivery: '7.4'
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: SS Prabhudessai
+        wicket:
+          player_out: SS Prabhudessai
+          fielders:
+          - Urvil Patel
+          kind: caught
+    - 7.5:
+        actual_delivery: '7.5'
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Deepraj Gaonkar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Krishnamurthy Siddharth
+    - 8.1:
+        actual_delivery: '8.1'
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 8.2:
+        actual_delivery: '8.2'
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 8.3:
+        actual_delivery: '8.3'
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 8.4:
+        actual_delivery: '8.4'
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 8.5:
+        actual_delivery: '8.5'
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 8.6:
+        actual_delivery: '8.6'
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 9.1:
+        actual_delivery: '9.1'
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 9.2:
+        actual_delivery: '9.2'
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 9.3:
+        actual_delivery: '9.3'
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Deepraj Gaonkar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Krishnamurthy Siddharth
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Deepraj Gaonkar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Krishnamurthy Siddharth
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Deepraj Gaonkar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Deepraj Gaonkar
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 10.2:
+        actual_delivery: '10.2'
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Deepraj Gaonkar
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Krishnamurthy Siddharth
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Deepraj Gaonkar
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Krishnamurthy Siddharth
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Deepraj Gaonkar
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 10.6:
+        actual_delivery: '10.6'
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Deepraj Gaonkar
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Krishnamurthy Siddharth
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Deepraj Gaonkar
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 11.3:
+        actual_delivery: '11.3'
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Deepraj Gaonkar
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Krishnamurthy Siddharth
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Deepraj Gaonkar
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 11.6:
+        actual_delivery: '11.6'
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Deepraj Gaonkar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Krishnamurthy Siddharth
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Deepraj Gaonkar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 12.3:
+        actual_delivery: '12.3'
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 12.4:
+        actual_delivery: '12.4'
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Deepraj Gaonkar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 12.6:
+        actual_delivery: '12.6'
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Deepraj Gaonkar
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Krishnamurthy Siddharth
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Deepraj Gaonkar
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 13.3:
+        actual_delivery: '13.3'
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 13.4:
+        actual_delivery: '13.4'
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+    - 13.5:
+        actual_delivery: '13.5'
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: Deepraj Gaonkar
+        wicket:
+          player_out: Deepraj Gaonkar
+          fielders:
+          - Chirag Gandhi
+          kind: caught
+    - 13.6:
+        actual_delivery: '13.6'
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Darshan Misal
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 14.2:
+        actual_delivery: '14.2'
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 14.3:
+        actual_delivery: '14.3'
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Darshan Misal
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 14.5:
+        actual_delivery: '14.5'
+        bowler: A Nagwaswalla
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 14.6:
+        actual_delivery: '14.5'
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: Darshan Misal
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Krishnamurthy Siddharth
+    - 15.1:
+        actual_delivery: '15.1'
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Darshan Misal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 15.3:
+        actual_delivery: '15.3'
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 15.4:
+        actual_delivery: '15.4'
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Darshan Misal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Krishnamurthy Siddharth
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Darshan Misal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Darshan Misal
+        bowler: Chintan Gaja
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Krishnamurthy Siddharth
+    - 16.2:
+        actual_delivery: '16.1'
+        non_striker: Darshan Misal
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 16.3:
+        actual_delivery: '16.2'
+        bowler: Chintan Gaja
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 16.4:
+        actual_delivery: '16.2'
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 16.5:
+        actual_delivery: '16.3'
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 16.6:
+        actual_delivery: '16.4'
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 16.7:
+        actual_delivery: '16.5'
+        non_striker: Darshan Misal
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Krishnamurthy Siddharth
+    - 16.8:
+        actual_delivery: '16.6'
+        non_striker: Darshan Misal
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Darshan Misal
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Krishnamurthy Siddharth
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Darshan Misal
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 17.3:
+        actual_delivery: '17.3'
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 17.4:
+        actual_delivery: '17.4'
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 17.5:
+        actual_delivery: '17.5'
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Darshan Misal
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Darshan Misal
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Krishnamurthy Siddharth
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Darshan Misal
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Krishnamurthy Siddharth
+    - 18.3:
+        actual_delivery: '18.3'
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 18.4:
+        actual_delivery: '18.4'
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Krishnamurthy Siddharth
+        batsman: Darshan Misal
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Darshan Misal
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Krishnamurthy Siddharth
+        wicket:
+          player_out: Krishnamurthy Siddharth
+          fielders:
+          - Ravi Bishnoi
+          kind: caught
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Darshan Misal
+        bowler: SN Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          match:
+          - in: TT Sawkar
+            out: SP Tari
+            team: Goa
+            reason: impact_player
+        batsman: TT Sawkar
+        wicket:
+          player_out: TT Sawkar
+          fielders:
+          - RV Patel
+          kind: caught
+    - 19.1:
+        actual_delivery: '19.1'
+        bowler: A Nagwaswalla
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        non_striker: MS Redkar
+        batsman: Darshan Misal
+    - 19.2:
+        actual_delivery: '19.1'
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: MS Redkar
+        batsman: Darshan Misal
+    - 19.3:
+        actual_delivery: '19.2'
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: MS Redkar
+        batsman: Darshan Misal
+    - 19.4:
+        actual_delivery: '19.3'
+        non_striker: Darshan Misal
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Redkar
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: MS Redkar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Darshan Misal
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: MS Redkar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Darshan Misal
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: MS Redkar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Darshan Misal
+    target:
+      overs: 20
+      runs: 217

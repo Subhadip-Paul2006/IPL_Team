@@ -1,0 +1,2375 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-29'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-01-19'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Delhi
+    by:
+      runs: 110
+  overs: 20
+  players:
+    Delhi:
+    - Anuj Rawat
+    - A Badoni
+    - N Rana
+    - Himmat Singh
+    - Jonty Sidhu
+    - Kshitiz Sharma
+    - Lalit Yadav
+    - Shivank Vashisth
+    - Simarjeet Singh
+    - P Suyal
+    - Siddhant Sharma
+    Puducherry:
+    - Ashith Rajiv
+    - Santha Moorthy
+    - Sagar Udeshi
+    - Fabid Ahmed
+    - A Aravinddaraj
+    - Damodaran Rohit
+    - S Karthik
+    - SP Jackson
+    - P Dogra
+    - Subramanian Anand
+    - Premraj Rajavelu
+  registry:
+    people:
+      A Aravinddaraj: 21d38d47
+      A Badoni: 872b03f7
+      Anuj Rawat: c8f5f961
+      Ashith Rajiv: 502056e3
+      Damodaran Rohit: 37fec668
+      Fabid Ahmed: f705d984
+      Himmat Singh: ebcfef83
+      Jonty Sidhu: b3309131
+      Kshitiz Sharma: c910e89d
+      Lalit Yadav: ad427b5c
+      N Rana: fb2d1dda
+      P Dogra: 2728e7e9
+      P Suyal: cedc1d9a
+      Premraj Rajavelu: 9e031cfe
+      S Karthik: 14c90152
+      SP Jackson: acc1aeda
+      Sagar Udeshi: 8db0c0e1
+      Santha Moorthy: fa778d1b
+      Shivank Vashisth: 3a922344
+      Siddhant Sharma: ae85a996
+      Simarjeet Singh: 30df8c66
+      Subramanian Anand: 8b470bea
+    venues:
+      Bandra Kurla Complex, Mumbai: 4fbc052d
+  teams:
+  - Delhi
+  - Puducherry
+  toss:
+    winner: Puducherry
+    decision: field
+  venue: Bandra Kurla Complex, Mumbai
+  team_type: club
+innings:
+- 1st innings:
+    team: Delhi
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: A Badoni
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+        wicket:
+          player_out: Anuj Rawat
+          fielders:
+          - SP Jackson
+          kind: caught
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: A Badoni
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+        wicket:
+          player_out: N Rana
+          fielders:
+          - SP Jackson
+          kind: caught
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: A Badoni
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: A Badoni
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: A Badoni
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Himmat Singh
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: A Badoni
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: A Badoni
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himmat Singh
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: A Badoni
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Himmat Singh
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: A Badoni
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: A Badoni
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Himmat Singh
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Himmat Singh
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Himmat Singh
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: A Badoni
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: A Badoni
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: A Badoni
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himmat Singh
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Himmat Singh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Himmat Singh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: A Badoni
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: A Badoni
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: A Badoni
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Himmat Singh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: A Badoni
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: A Badoni
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Himmat Singh
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: A Badoni
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: A Badoni
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Himmat Singh
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Badoni
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Himmat Singh
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Himmat Singh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+        wicket:
+          player_out: A Badoni
+          kind: lbw
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Himmat Singh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jonty Sidhu
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Jonty Sidhu
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Jonty Sidhu
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Himmat Singh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jonty Sidhu
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Himmat Singh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Jonty Sidhu
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Jonty Sidhu
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Himmat Singh
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jonty Sidhu
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Himmat Singh
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jonty Sidhu
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Jonty Sidhu
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Jonty Sidhu
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Himmat Singh
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Jonty Sidhu
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Jonty Sidhu
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himmat Singh
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Jonty Sidhu
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Jonty Sidhu
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Himmat Singh
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jonty Sidhu
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Jonty Sidhu
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Himmat Singh
+        bowler: A Aravinddaraj
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Jonty Sidhu
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Himmat Singh
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jonty Sidhu
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Jonty Sidhu
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himmat Singh
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Jonty Sidhu
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Jonty Sidhu
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Himmat Singh
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jonty Sidhu
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Himmat Singh
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jonty Sidhu
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Himmat Singh
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Jonty Sidhu
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Jonty Sidhu
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Jonty Sidhu
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Himmat Singh
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jonty Sidhu
+        wicket:
+          player_out: Jonty Sidhu
+          fielders:
+          - Fabid Ahmed
+          kind: caught
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Himmat Singh
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Kshitiz Sharma
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Himmat Singh
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Himmat Singh
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Kshitiz Sharma
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Himmat Singh
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Kshitiz Sharma
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Himmat Singh
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Kshitiz Sharma
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Himmat Singh
+        bowler: Fabid Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Kshitiz Sharma
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Himmat Singh
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kshitiz Sharma
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Himmat Singh
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Himmat Singh
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Kshitiz Sharma
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Kshitiz Sharma
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Kshitiz Sharma
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Kshitiz Sharma
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Himmat Singh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Himmat Singh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Himmat Singh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kshitiz Sharma
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Himmat Singh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Himmat Singh
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kshitiz Sharma
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Himmat Singh
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Himmat Singh
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kshitiz Sharma
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Himmat Singh
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kshitiz Sharma
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Himmat Singh
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Kshitiz Sharma
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+        wicket:
+          player_out: Himmat Singh
+          fielders:
+          - Subramanian Anand
+          kind: caught
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Lalit Yadav
+        bowler: A Aravinddaraj
+        extras:
+          legbyes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Lalit Yadav
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Kshitiz Sharma
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Kshitiz Sharma
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Kshitiz Sharma
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Lalit Yadav
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Lalit Yadav
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Kshitiz Sharma
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Kshitiz Sharma
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Lalit Yadav
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Kshitiz Sharma
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Lalit Yadav
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Kshitiz Sharma
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Lalit Yadav
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Kshitiz Sharma
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Lalit Yadav
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Kshitiz Sharma
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Lalit Yadav
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Kshitiz Sharma
+        bowler: A Aravinddaraj
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Lalit Yadav
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Lalit Yadav
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kshitiz Sharma
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Kshitiz Sharma
+        bowler: Ashith Rajiv
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Lalit Yadav
+    - 17.2:
+        actual_delivery: '17.1'
+        non_striker: Kshitiz Sharma
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Lalit Yadav
+    - 17.3:
+        actual_delivery: '17.2'
+        non_striker: Kshitiz Sharma
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Lalit Yadav
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: Kshitiz Sharma
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Lalit Yadav
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Kshitiz Sharma
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Lalit Yadav
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Kshitiz Sharma
+        bowler: Ashith Rajiv
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Lalit Yadav
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Lalit Yadav
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kshitiz Sharma
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Lalit Yadav
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Kshitiz Sharma
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Lalit Yadav
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kshitiz Sharma
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Lalit Yadav
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Kshitiz Sharma
+        bowler: Santha Moorthy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Kshitiz Sharma
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Lalit Yadav
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Kshitiz Sharma
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Lalit Yadav
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kshitiz Sharma
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Lalit Yadav
+        bowler: A Aravinddaraj
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: Lalit Yadav
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kshitiz Sharma
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: Lalit Yadav
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kshitiz Sharma
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: Lalit Yadav
+        bowler: A Aravinddaraj
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 19.8:
+        actual_delivery: '19.6'
+        non_striker: Lalit Yadav
+        bowler: A Aravinddaraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kshitiz Sharma
+- 2nd innings:
+    team: Puducherry
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Damodaran Rohit
+        bowler: Siddhant Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Karthik
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Damodaran Rohit
+        bowler: Siddhant Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Karthik
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Damodaran Rohit
+        bowler: Siddhant Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Karthik
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: S Karthik
+        bowler: Siddhant Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: S Karthik
+        bowler: Siddhant Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: S Karthik
+        bowler: Siddhant Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Damodaran Rohit
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Karthik
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Damodaran Rohit
+        bowler: Simarjeet Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: S Karthik
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: Damodaran Rohit
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Karthik
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: S Karthik
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: S Karthik
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Damodaran Rohit
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: S Karthik
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: S Karthik
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Damodaran Rohit
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Karthik
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Damodaran Rohit
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Karthik
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Damodaran Rohit
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Karthik
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Damodaran Rohit
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Karthik
+        wicket:
+          player_out: S Karthik
+          fielders:
+          - Anuj Rawat
+          kind: caught
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Damodaran Rohit
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Jackson
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Damodaran Rohit
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Jackson
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: SP Jackson
+        bowler: Simarjeet Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 3.2:
+        actual_delivery: '3.1'
+        non_striker: SP Jackson
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: SP Jackson
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Damodaran Rohit
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: SP Jackson
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Damodaran Rohit
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: SP Jackson
+        bowler: Simarjeet Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 3.6:
+        actual_delivery: '3.4'
+        non_striker: SP Jackson
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 3.7:
+        actual_delivery: '3.5'
+        non_striker: SP Jackson
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Damodaran Rohit
+    - 3.8:
+        actual_delivery: '3.6'
+        non_striker: Damodaran Rohit
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Jackson
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: SP Jackson
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: SP Jackson
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: SP Jackson
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Damodaran Rohit
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Damodaran Rohit
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: SP Jackson
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: SP Jackson
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Damodaran Rohit
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Jackson
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Damodaran Rohit
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Jackson
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Damodaran Rohit
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: SP Jackson
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: SP Jackson
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+        wicket:
+          player_out: Damodaran Rohit
+          fielders:
+          - Lalit Yadav
+          kind: caught
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: SP Jackson
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: P Dogra
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: SP Jackson
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Dogra
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: SP Jackson
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Dogra
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: P Dogra
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: SP Jackson
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Dogra
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: P Dogra
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: SP Jackson
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Dogra
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: P Dogra
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: SP Jackson
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Dogra
+        wicket:
+          player_out: P Dogra
+          fielders:
+          - Himmat Singh
+          kind: caught
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Subramanian Anand
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Jackson
+        wicket:
+          player_out: SP Jackson
+          kind: bowled
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Subramanian Anand
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Premraj Rajavelu
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Premraj Rajavelu
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Subramanian Anand
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Premraj Rajavelu
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Subramanian Anand
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Subramanian Anand
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Premraj Rajavelu
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Subramanian Anand
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Subramanian Anand
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Subramanian Anand
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Subramanian Anand
+        wicket:
+          player_out: Subramanian Anand
+          fielders:
+          - Anuj Rawat
+          kind: caught
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fabid Ahmed
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Fabid Ahmed
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Fabid Ahmed
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Premraj Rajavelu
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Premraj Rajavelu
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fabid Ahmed
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Premraj Rajavelu
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fabid Ahmed
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Premraj Rajavelu
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fabid Ahmed
+        wicket:
+          player_out: Fabid Ahmed
+          kind: lbw
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Premraj Rajavelu
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashith Rajiv
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashith Rajiv
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashith Rajiv
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashith Rajiv
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashith Rajiv
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashith Rajiv
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashith Rajiv
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Premraj Rajavelu
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashith Rajiv
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Premraj Rajavelu
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashith Rajiv
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Premraj Rajavelu
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashith Rajiv
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Premraj Rajavelu
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashith Rajiv
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Ashith Rajiv
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Ashith Rajiv
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ashith Rajiv
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashith Rajiv
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashith Rajiv
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashith Rajiv
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Ashith Rajiv
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Ashith Rajiv
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Premraj Rajavelu
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashith Rajiv
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Premraj Rajavelu
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashith Rajiv
+        wicket:
+          player_out: Ashith Rajiv
+          fielders:
+          - A Badoni
+          kind: caught
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Sagar Udeshi
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Sagar Udeshi
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Sagar Udeshi
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Sagar Udeshi
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sagar Udeshi
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagar Udeshi
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagar Udeshi
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Sagar Udeshi
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Premraj Rajavelu
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagar Udeshi
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Premraj Rajavelu
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagar Udeshi
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Premraj Rajavelu
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagar Udeshi
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Premraj Rajavelu
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagar Udeshi
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Sagar Udeshi
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Sagar Udeshi
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Premraj Rajavelu
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Sagar Udeshi
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Sagar Udeshi
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Premraj Rajavelu
+        bowler: Jonty Sidhu
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagar Udeshi
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Premraj Rajavelu
+        bowler: Jonty Sidhu
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagar Udeshi
+        wicket:
+          player_out: Sagar Udeshi
+          fielders:
+          - A Badoni
+          kind: caught
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Santha Moorthy
+        bowler: Jonty Sidhu
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 16.4:
+        actual_delivery: '16.3'
+        non_striker: Santha Moorthy
+        bowler: Jonty Sidhu
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: Santha Moorthy
+        bowler: Jonty Sidhu
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Premraj Rajavelu
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: Premraj Rajavelu
+        bowler: Jonty Sidhu
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Santha Moorthy
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: Premraj Rajavelu
+        bowler: Jonty Sidhu
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Santha Moorthy
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Santha Moorthy
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Premraj Rajavelu
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Premraj Rajavelu
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Santha Moorthy
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Premraj Rajavelu
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Santha Moorthy
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Premraj Rajavelu
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Santha Moorthy
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Premraj Rajavelu
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Santha Moorthy
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Premraj Rajavelu
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Santha Moorthy
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Santha Moorthy
+        bowler: Jonty Sidhu
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Santha Moorthy
+        bowler: Jonty Sidhu
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Premraj Rajavelu
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Premraj Rajavelu
+        bowler: Jonty Sidhu
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Santha Moorthy
+        wicket:
+          player_out: Santha Moorthy
+          kind: caught and bowled
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Premraj Rajavelu
+        bowler: Jonty Sidhu
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Aravinddaraj
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Premraj Rajavelu
+        bowler: Jonty Sidhu
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Aravinddaraj
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Premraj Rajavelu
+        bowler: Jonty Sidhu
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Aravinddaraj
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: A Aravinddaraj
+        bowler: Himmat Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: A Aravinddaraj
+        bowler: Himmat Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: A Aravinddaraj
+        bowler: Himmat Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Premraj Rajavelu
+        wicket:
+          player_out: Premraj Rajavelu
+          fielders:
+          - Shivank Vashisth
+          kind: caught

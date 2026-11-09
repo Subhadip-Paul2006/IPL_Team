@@ -1,0 +1,1565 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-29'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-01-11'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Manipur
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Meghalaya:
+    - Yogesh Tiwari
+    - Punit Bisht
+    - DB Ravi Teja
+    - Dippu Sangma
+    - R Sanjay Yadav
+    - Abhay Negi
+    - Larry Sangma
+    - Anish Charak
+    - Kilco R Marak
+    - A Singhania
+    - Akash Choudhary
+    Manipur:
+    - Kishan Thokchom
+    - Rex Rajkumar
+    - Bishworjit Konthoujam
+    - Lamabam Singh
+    - L Kishan Singha
+    - Karnajit Yumnam
+    - P Prafullomani
+    - Narsingh Yadav
+    - Langlonyamba Meitan Keishangbam
+    - Nitesh Sedai
+    - Ahmed Shah
+  registry:
+    people:
+      A Singhania: 791a65ce
+      Abhay Negi: 481dd6dc
+      Ahmed Shah: 075d569e
+      Akash Choudhary: 0f60513c
+      Anish Charak: 62a48252
+      Bishworjit Konthoujam: 15deff66
+      DB Ravi Teja: b720a5d6
+      Dippu Sangma: 24ea8cf8
+      Karnajit Yumnam: 6f2093a8
+      Kilco R Marak: 4da2f572
+      Kishan Thokchom: dbc76c59
+      L Kishan Singha: ca82673d
+      Lamabam Singh: 76860ea3
+      Langlonyamba Meitan Keishangbam: 61b9410c
+      Larry Sangma: 77f6fd61
+      Narsingh Yadav: 4c450aee
+      Nitesh Sedai: e9cb8d60
+      P Prafullomani: f9900488
+      Punit Bisht: 310bddc0
+      R Sanjay Yadav: 33ffc3dd
+      Rex Rajkumar: f3ba1bdc
+      Yogesh Tiwari: 144fdfd4
+    venues:
+      Sri Sivasubramaniya Nadar College of Engineering Ground, Chennai: 7ce7583e
+  teams:
+  - Meghalaya
+  - Manipur
+  toss:
+    winner: Manipur
+    decision: field
+  venue: Sri Sivasubramaniya Nadar College of Engineering Ground, Chennai
+  team_type: club
+innings:
+- 1st innings:
+    team: Meghalaya
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Punit Bisht
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yogesh Tiwari
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Punit Bisht
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yogesh Tiwari
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Punit Bisht
+        bowler: Kishan Thokchom
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Yogesh Tiwari
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Punit Bisht
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yogesh Tiwari
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Punit Bisht
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yogesh Tiwari
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Yogesh Tiwari
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Punit Bisht
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Punit Bisht
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yogesh Tiwari
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Yogesh Tiwari
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Punit Bisht
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Yogesh Tiwari
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Punit Bisht
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Yogesh Tiwari
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Punit Bisht
+        wicket:
+          player_out: Punit Bisht
+          fielders:
+          - Langlonyamba Meitan Keishangbam
+          kind: caught
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Yogesh Tiwari
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Yogesh Tiwari
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: DB Ravi Teja
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yogesh Tiwari
+        wicket:
+          player_out: Yogesh Tiwari
+          kind: bowled
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Dippu Sangma
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Dippu Sangma
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Dippu Sangma
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Dippu Sangma
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Dippu Sangma
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: DB Ravi Teja
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dippu Sangma
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Dippu Sangma
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DB Ravi Teja
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Dippu Sangma
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: DB Ravi Teja
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dippu Sangma
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: DB Ravi Teja
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dippu Sangma
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Dippu Sangma
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: DB Ravi Teja
+        bowler: Rex Rajkumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dippu Sangma
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: DB Ravi Teja
+        bowler: Bishworjit Konthoujam
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Dippu Sangma
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Dippu Sangma
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: DB Ravi Teja
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dippu Sangma
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: DB Ravi Teja
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dippu Sangma
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Dippu Sangma
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+        wicket:
+          player_out: Dippu Sangma
+          fielders:
+          - Karnajit Yumnam
+          kind: run out
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: DB Ravi Teja
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: R Sanjay Yadav
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: DB Ravi Teja
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: DB Ravi Teja
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: DB Ravi Teja
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: DB Ravi Teja
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Sanjay Yadav
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: DB Ravi Teja
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: DB Ravi Teja
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: DB Ravi Teja
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: R Sanjay Yadav
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: DB Ravi Teja
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: R Sanjay Yadav
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: R Sanjay Yadav
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: DB Ravi Teja
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: R Sanjay Yadav
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DB Ravi Teja
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: R Sanjay Yadav
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: DB Ravi Teja
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: R Sanjay Yadav
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: DB Ravi Teja
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: R Sanjay Yadav
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: R Sanjay Yadav
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: DB Ravi Teja
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: DB Ravi Teja
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+        wicket:
+          player_out: R Sanjay Yadav
+          fielders:
+          - Kishan Thokchom
+          kind: caught
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: DB Ravi Teja
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhay Negi
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Abhay Negi
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+        wicket:
+          player_out: Abhay Negi
+          fielders:
+          - Karnajit Yumnam
+          kind: run out
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Larry Sangma
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DB Ravi Teja
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Larry Sangma
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: DB Ravi Teja
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Larry Sangma
+        wicket:
+          player_out: Larry Sangma
+          kind: lbw
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: DB Ravi Teja
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anish Charak
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: DB Ravi Teja
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anish Charak
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: DB Ravi Teja
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anish Charak
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Anish Charak
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DB Ravi Teja
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Anish Charak
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DB Ravi Teja
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Anish Charak
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: DB Ravi Teja
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anish Charak
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: DB Ravi Teja
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anish Charak
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: DB Ravi Teja
+        bowler: Lamabam Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anish Charak
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: DB Ravi Teja
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Anish Charak
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: DB Ravi Teja
+        bowler: L Kishan Singha
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Anish Charak
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Anish Charak
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DB Ravi Teja
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Anish Charak
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: DB Ravi Teja
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anish Charak
+        wicket:
+          player_out: Anish Charak
+          kind: bowled
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: DB Ravi Teja
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kilco R Marak
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Kilco R Marak
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Kilco R Marak
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+        wicket:
+          player_out: DB Ravi Teja
+          fielders:
+          - Langlonyamba Meitan Keishangbam
+          kind: caught
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Kilco R Marak
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Singhania
+        wicket:
+          player_out: A Singhania
+          kind: bowled
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Kilco R Marak
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Choudhary
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Kilco R Marak
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Choudhary
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Akash Choudhary
+        bowler: Bishworjit Konthoujam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kilco R Marak
+        wicket:
+          player_out: Kilco R Marak
+          fielders:
+          - Nitesh Sedai
+          kind: run out
+- 2nd innings:
+    team: Manipur
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: P Prafullomani
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karnajit Yumnam
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: P Prafullomani
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karnajit Yumnam
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: P Prafullomani
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karnajit Yumnam
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: P Prafullomani
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karnajit Yumnam
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: P Prafullomani
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karnajit Yumnam
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: P Prafullomani
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karnajit Yumnam
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Karnajit Yumnam
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Prafullomani
+        wicket:
+          player_out: P Prafullomani
+          fielders:
+          - Punit Bisht
+          kind: caught
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Karnajit Yumnam
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Karnajit Yumnam
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Narsingh Yadav
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Karnajit Yumnam
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Karnajit Yumnam
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Karnajit Yumnam
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Narsingh Yadav
+        bowler: Dippu Sangma
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Karnajit Yumnam
+    - 2.2:
+        actual_delivery: '2.1'
+        non_striker: Narsingh Yadav
+        bowler: Dippu Sangma
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Karnajit Yumnam
+    - 2.3:
+        actual_delivery: '2.1'
+        non_striker: Narsingh Yadav
+        bowler: Dippu Sangma
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Karnajit Yumnam
+    - 2.4:
+        actual_delivery: '2.1'
+        non_striker: Narsingh Yadav
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Karnajit Yumnam
+    - 2.5:
+        actual_delivery: '2.2'
+        non_striker: Narsingh Yadav
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karnajit Yumnam
+        wicket:
+          player_out: Karnajit Yumnam
+          fielders:
+          - Larry Sangma
+          kind: caught
+    - 2.6:
+        actual_delivery: '2.3'
+        non_striker: Narsingh Yadav
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 2.7:
+        actual_delivery: '2.4'
+        non_striker: Narsingh Yadav
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 2.8:
+        actual_delivery: '2.5'
+        non_striker: Langlonyamba Meitan Keishangbam
+        bowler: Dippu Sangma
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 2.9:
+        actual_delivery: '2.6'
+        non_striker: Narsingh Yadav
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Langlonyamba Meitan Keishangbam
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Narsingh Yadav
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Narsingh Yadav
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Narsingh Yadav
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Langlonyamba Meitan Keishangbam
+        wicket:
+          player_out: Langlonyamba Meitan Keishangbam
+          fielders:
+          - Yogesh Tiwari
+          kind: run out
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Rex Rajkumar
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Narsingh Yadav
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Rex Rajkumar
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Rex Rajkumar
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Narsingh Yadav
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Rex Rajkumar
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+        wicket:
+          player_out: Rex Rajkumar
+          fielders:
+          - R Sanjay Yadav
+          kind: run out
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Narsingh Yadav
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Narsingh Yadav
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Nitesh Sedai
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Narsingh Yadav
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Narsingh Yadav
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Narsingh Yadav
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Narsingh Yadav
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Nitesh Sedai
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Narsingh Yadav
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Narsingh Yadav
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Narsingh Yadav
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Narsingh Yadav
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Nitesh Sedai
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Narsingh Yadav
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Nitesh Sedai
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Nitesh Sedai
+        bowler: Dippu Sangma
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 6.3:
+        actual_delivery: '6.2'
+        non_striker: Nitesh Sedai
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 6.4:
+        actual_delivery: '6.3'
+        non_striker: Nitesh Sedai
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Narsingh Yadav
+    - 6.5:
+        actual_delivery: '6.4'
+        non_striker: Narsingh Yadav
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: Narsingh Yadav
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: Nitesh Sedai
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Narsingh Yadav
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Narsingh Yadav
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Nitesh Sedai
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Narsingh Yadav
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Narsingh Yadav
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Nitesh Sedai
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Nitesh Sedai
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Narsingh Yadav
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Nitesh Sedai
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Nitesh Sedai
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Narsingh Yadav
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Narsingh Yadav
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Nitesh Sedai
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Nitesh Sedai
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Narsingh Yadav
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Nitesh Sedai
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Narsingh Yadav
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Nitesh Sedai
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Narsingh Yadav
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Nitesh Sedai
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Narsingh Yadav
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Narsingh Yadav
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Narsingh Yadav
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Narsingh Yadav
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Nitesh Sedai
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Narsingh Yadav
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Nitesh Sedai
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Narsingh Yadav
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Narsingh Yadav
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Narsingh Yadav
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Nitesh Sedai
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Narsingh Yadav
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Nitesh Sedai
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Narsingh Yadav
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Nitesh Sedai
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Narsingh Yadav
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Narsingh Yadav
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Narsingh Yadav
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Nitesh Sedai
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Nitesh Sedai
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Narsingh Yadav
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Narsingh Yadav
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nitesh Sedai
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Narsingh Yadav
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Nitesh Sedai

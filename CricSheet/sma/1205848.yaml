@@ -1,0 +1,2223 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-01'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-11-24'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Maharashtra
+    by:
+      runs: 67
+  overs: 20
+  players:
+    Maharashtra:
+    - RD Gaikwad
+    - VH Zol
+    - KM Jadhav
+    - Azim Kazi
+    - SM Kazi
+    - SM Fallah
+    - DR Deshmukh
+    - RA Tripathi
+    - Naushad Shaikh
+    - NS Naik
+    - Satyajeet Bachhav
+    Baroda:
+    - BA Pathan
+    - Dhruv Patel
+    - KH Pandya
+    - RT Arothe
+    - Swapnil Singh
+    - NA Rathva
+    - KH Devdhar
+    - Aditya Waghmode
+    - DJ Hooda
+    - YK Pathan
+    - Vishnu Solanki
+  registry:
+    people:
+      Aditya Waghmode: eb67df8f
+      Azim Kazi: ccae927b
+      BA Pathan: 870e4cec
+      DJ Hooda: 73ad96ed
+      DR Deshmukh: ddc7a53d
+      Dhruv Patel: e85f3659
+      KH Devdhar: 62e07f92
+      KH Pandya: 5b8c830e
+      KM Jadhav: 99d63244
+      NA Rathva: 8f607eea
+      NS Naik: aedc3b7c
+      Naushad Shaikh: 9ed95736
+      RA Tripathi: 77255a9e
+      RD Gaikwad: 45a43fe2
+      RT Arothe: '50455929'
+      SM Fallah: c8f697bd
+      SM Kazi: 868e3639
+      Satyajeet Bachhav: '09a71776'
+      Swapnil Singh: 983f2f61
+      VH Zol: 6dbcf855
+      Vishnu Solanki: 2e802011
+      YK Pathan: 3c6ffae8
+    venues:
+      CB Patel International Cricket Stadium, Surat: a8d90b2d
+  teams:
+  - Maharashtra
+  - Baroda
+  toss:
+    winner: Maharashtra
+    decision: bat
+  venue: CB Patel International Cricket Stadium, Surat
+  team_type: club
+innings:
+- 1st innings:
+    team: Maharashtra
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: VH Zol
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: RD Gaikwad
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VH Zol
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: RD Gaikwad
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VH Zol
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: RD Gaikwad
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VH Zol
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: RD Gaikwad
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VH Zol
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: VH Zol
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: RD Gaikwad
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VH Zol
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: RD Gaikwad
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VH Zol
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: VH Zol
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: VH Zol
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: VH Zol
+        bowler: Dhruv Patel
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: RD Gaikwad
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: VH Zol
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: VH Zol
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: VH Zol
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: VH Zol
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: RD Gaikwad
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VH Zol
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: RD Gaikwad
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VH Zol
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: RD Gaikwad
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VH Zol
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: RD Gaikwad
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: VH Zol
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: VH Zol
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: VH Zol
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: VH Zol
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: VH Zol
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: RD Gaikwad
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VH Zol
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: VH Zol
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: RD Gaikwad
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VH Zol
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: VH Zol
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: VH Zol
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: RD Gaikwad
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VH Zol
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: RD Gaikwad
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VH Zol
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: VH Zol
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: RD Gaikwad
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VH Zol
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: VH Zol
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: RD Gaikwad
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: VH Zol
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: RD Gaikwad
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: VH Zol
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: RD Gaikwad
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VH Zol
+        wicket:
+          player_out: VH Zol
+          fielders:
+          - Vishnu Solanki
+          kind: caught
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: RD Gaikwad
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KM Jadhav
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: KM Jadhav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: KM Jadhav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: KM Jadhav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: RD Gaikwad
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: KM Jadhav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: RD Gaikwad
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KM Jadhav
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: KM Jadhav
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RD Gaikwad
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: KM Jadhav
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: RD Gaikwad
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: KM Jadhav
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: RD Gaikwad
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KM Jadhav
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: RD Gaikwad
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: RD Gaikwad
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KM Jadhav
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: RD Gaikwad
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: KM Jadhav
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RD Gaikwad
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: KM Jadhav
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: RD Gaikwad
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KM Jadhav
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: RD Gaikwad
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: RD Gaikwad
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KM Jadhav
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: RD Gaikwad
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KM Jadhav
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: RD Gaikwad
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KM Jadhav
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: RD Gaikwad
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: KM Jadhav
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+        wicket:
+          player_out: RD Gaikwad
+          kind: lbw
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: KM Jadhav
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Azim Kazi
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KM Jadhav
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Azim Kazi
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KM Jadhav
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Azim Kazi
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: KM Jadhav
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Azim Kazi
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KM Jadhav
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Azim Kazi
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Azim Kazi
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KM Jadhav
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Azim Kazi
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KM Jadhav
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Azim Kazi
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KM Jadhav
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Azim Kazi
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KM Jadhav
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Azim Kazi
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: KM Jadhav
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: KM Jadhav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: KM Jadhav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: KM Jadhav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Azim Kazi
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: KM Jadhav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Azim Kazi
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: KM Jadhav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Azim Kazi
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Azim Kazi
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: KM Jadhav
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Azim Kazi
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KM Jadhav
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Azim Kazi
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: KM Jadhav
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Azim Kazi
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KM Jadhav
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: KM Jadhav
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Azim Kazi
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KM Jadhav
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Azim Kazi
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KM Jadhav
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Azim Kazi
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: KM Jadhav
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Azim Kazi
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Azim Kazi
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KM Jadhav
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Azim Kazi
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: KM Jadhav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: KM Jadhav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Azim Kazi
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: KM Jadhav
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: KM Jadhav
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Azim Kazi
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: KM Jadhav
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Azim Kazi
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: KM Jadhav
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: KM Jadhav
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Azim Kazi
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: KM Jadhav
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: KM Jadhav
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Azim Kazi
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: KM Jadhav
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Azim Kazi
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: KM Jadhav
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: KM Jadhav
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Azim Kazi
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: KM Jadhav
+        bowler: Dhruv Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Azim Kazi
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Azim Kazi
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: KM Jadhav
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: KM Jadhav
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: KM Jadhav
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Azim Kazi
+        bowler: BA Pathan
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KM Jadhav
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: KM Jadhav
+        bowler: BA Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: KM Jadhav
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Azim Kazi
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: KM Jadhav
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Azim Kazi
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: KM Jadhav
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Azim Kazi
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: KM Jadhav
+        bowler: RT Arothe
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Azim Kazi
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: KM Jadhav
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: Azim Kazi
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KM Jadhav
+- 2nd innings:
+    team: Baroda
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Aditya Waghmode
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Aditya Waghmode
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: KH Devdhar
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Waghmode
+        wicket:
+          player_out: Aditya Waghmode
+          fielders:
+          - DR Deshmukh
+          kind: caught
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: KH Devdhar
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: KH Devdhar
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: DJ Hooda
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: KH Devdhar
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: KH Devdhar
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: KH Devdhar
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: KH Devdhar
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: KH Devdhar
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Hooda
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: KH Devdhar
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Hooda
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: DJ Hooda
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: KH Devdhar
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: DJ Hooda
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: DJ Hooda
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: DJ Hooda
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: DJ Hooda
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: KH Devdhar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+        wicket:
+          player_out: DJ Hooda
+          fielders:
+          - NS Naik
+          kind: stumped
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: KH Devdhar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: KH Devdhar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: KH Devdhar
+        bowler: Satyajeet Bachhav
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KH Pandya
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: KH Devdhar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: KH Devdhar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: KH Devdhar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: KH Devdhar
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: KH Devdhar
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: KH Devdhar
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: KH Devdhar
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: KH Devdhar
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: KH Devdhar
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: KH Pandya
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: KH Pandya
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: KH Devdhar
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: KH Pandya
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KH Devdhar
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: KH Pandya
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: KH Pandya
+        bowler: DR Deshmukh
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KH Devdhar
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: KH Pandya
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KH Devdhar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: KH Devdhar
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: KH Devdhar
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+        wicket:
+          player_out: KH Pandya
+          fielders:
+          - NS Naik
+          kind: stumped
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: KH Devdhar
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: YK Pathan
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: YK Pathan
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: KH Devdhar
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: KH Devdhar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: YK Pathan
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: KH Devdhar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: KH Devdhar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: KH Devdhar
+        bowler: Satyajeet Bachhav
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: YK Pathan
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: YK Pathan
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: KH Devdhar
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: YK Pathan
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: KH Devdhar
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: YK Pathan
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: KH Devdhar
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: KH Devdhar
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: KH Devdhar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+        wicket:
+          player_out: KH Devdhar
+          fielders:
+          - VH Zol
+          kind: run out
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: YK Pathan
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: YK Pathan
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: YK Pathan
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Swapnil Singh
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Swapnil Singh
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+        wicket:
+          player_out: YK Pathan
+          fielders:
+          - RA Tripathi
+          kind: caught
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Swapnil Singh
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Rathva
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: NA Rathva
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Swapnil Singh
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Rathva
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: NA Rathva
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Swapnil Singh
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Rathva
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: NA Rathva
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: NA Rathva
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Swapnil Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: NA Rathva
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Swapnil Singh
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Rathva
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: NA Rathva
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Swapnil Singh
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Rathva
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: NA Rathva
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Swapnil Singh
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Rathva
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: NA Rathva
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+        wicket:
+          player_out: Swapnil Singh
+          fielders:
+          - KM Jadhav
+          kind: caught
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Vishnu Solanki
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NA Rathva
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Vishnu Solanki
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Rathva
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: NA Rathva
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Solanki
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: NA Rathva
+        bowler: SM Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: NA Rathva
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Solanki
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: NA Rathva
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Vishnu Solanki
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NA Rathva
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Vishnu Solanki
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NA Rathva
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Vishnu Solanki
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NA Rathva
+        wicket:
+          player_out: NA Rathva
+          fielders:
+          - Naushad Shaikh
+          kind: caught
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Dhruv Patel
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Dhruv Patel
+        bowler: DR Deshmukh
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 14.2:
+        actual_delivery: '14.1'
+        non_striker: Vishnu Solanki
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Dhruv Patel
+    - 14.3:
+        actual_delivery: '14.2'
+        non_striker: Vishnu Solanki
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Patel
+    - 14.4:
+        actual_delivery: '14.3'
+        non_striker: Vishnu Solanki
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Patel
+    - 14.5:
+        actual_delivery: '14.4'
+        non_striker: Dhruv Patel
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 14.6:
+        actual_delivery: '14.5'
+        non_striker: Vishnu Solanki
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Patel
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: Vishnu Solanki
+        bowler: DR Deshmukh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Patel
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Dhruv Patel
+        bowler: Naushad Shaikh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Vishnu Solanki
+        bowler: Naushad Shaikh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Patel
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Dhruv Patel
+        bowler: Naushad Shaikh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Vishnu Solanki
+        bowler: Naushad Shaikh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Dhruv Patel
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Vishnu Solanki
+        bowler: Naushad Shaikh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Patel
+        wicket:
+          player_out: Dhruv Patel
+          kind: bowled
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Vishnu Solanki
+        bowler: Naushad Shaikh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RT Arothe
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: RT Arothe
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Solanki
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: RT Arothe
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vishnu Solanki
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: RT Arothe
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Solanki
+        wicket:
+          player_out: Vishnu Solanki
+          fielders:
+          - RA Tripathi
+          kind: caught
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: BA Pathan
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RT Arothe
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: BA Pathan
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RT Arothe
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: RT Arothe
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BA Pathan
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: BA Pathan
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RT Arothe
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: BA Pathan
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RT Arothe
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: BA Pathan
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RT Arothe
+        wicket:
+          player_out: RT Arothe
+          fielders:
+          - NS Naik
+          kind: caught

@@ -1,0 +1,2342 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-06'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2016-01-03'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Jharkhand
+    by:
+      wickets: 9
+  overs: 20
+  players:
+    Tripura:
+    - U U Bose
+    - SM Singha
+    - RD Banik
+    - Rajat Dey
+    - NN Sen Chowdhary
+    - Manisankar Murasingh
+    - SC Das
+    - SS Majumder
+    - BB Roy
+    - Rana Dutta
+    - CK Paul
+    Jharkhand:
+    - Vikash Singh
+    - Monu Kumar
+    - Prakash Seet
+    - KR Singh
+    - Ankit Dabas
+    - S Nadeem
+    - Virat Singh
+    - IR Jaggi
+    - SS Tiwary
+    - Sumit Kumar
+    - Kumar Deobrat
+  registry:
+    people:
+      Ankit Dabas: cbe8cf26
+      BB Roy: '09ea761c'
+      CK Paul: 35b67232
+      IR Jaggi: dded65e7
+      KR Singh: fe608a7e
+      Kumar Deobrat: bc6d8229
+      Manisankar Murasingh: 52cb36a0
+      Monu Kumar: fb24e76c
+      NN Sen Chowdhary: '08a11820'
+      Prakash Seet: dfeb5a99
+      RD Banik: 6794586e
+      Rajat Dey: ccc04a61
+      Rana Dutta: 6d981899
+      S Nadeem: 9d80c5e1
+      SC Das: d6d52545
+      SM Singha: 7ca04294
+      SS Majumder: 76307fc7
+      SS Tiwary: 709b0bac
+      Sumit Kumar: fe180dba
+      U U Bose: d28a7a2a
+      Vikash Singh: 8b018008
+      Virat Singh: 26d76ad9
+    venues:
+      Nehru Stadium, Kochi: 92dc91a4
+  teams:
+  - Tripura
+  - Jharkhand
+  toss:
+    winner: Jharkhand
+    decision: field
+  venue: Nehru Stadium, Kochi
+  team_type: club
+innings:
+- 1st innings:
+    team: Tripura
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: SM Singha
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: U U Bose
+        wicket:
+          player_out: U U Bose
+          kind: lbw
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: SM Singha
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Banik
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: RD Banik
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: RD Banik
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: RD Banik
+        bowler: Vikash Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SM Singha
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: RD Banik
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: RD Banik
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: SM Singha
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Banik
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: SM Singha
+        bowler: Monu Kumar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: RD Banik
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: SM Singha
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Banik
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: SM Singha
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Banik
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: SM Singha
+        bowler: Monu Kumar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: RD Banik
+    - 1.6:
+        actual_delivery: '1.4'
+        non_striker: SM Singha
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Banik
+    - 1.7:
+        actual_delivery: '1.5'
+        non_striker: SM Singha
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Banik
+    - 1.8:
+        actual_delivery: '1.6'
+        non_striker: SM Singha
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Banik
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: SM Singha
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Banik
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: SM Singha
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Banik
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: SM Singha
+        bowler: Vikash Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: RD Banik
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: SM Singha
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Banik
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: SM Singha
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Banik
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: RD Banik
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: RD Banik
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Singha
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: RD Banik
+        bowler: Monu Kumar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SM Singha
+    - 3.2:
+        actual_delivery: '3.1'
+        non_striker: RD Banik
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: RD Banik
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: RD Banik
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Singha
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: RD Banik
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: RD Banik
+        bowler: Monu Kumar
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SM Singha
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: SM Singha
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Banik
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: SM Singha
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Banik
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: SM Singha
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RD Banik
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: SM Singha
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Banik
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: RD Banik
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Singha
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: SM Singha
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Banik
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: SM Singha
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Banik
+        wicket:
+          player_out: RD Banik
+          kind: bowled
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Rajat Dey
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Rajat Dey
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Rajat Dey
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Rajat Dey
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Rajat Dey
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Singha
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: SM Singha
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: SM Singha
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: SM Singha
+        bowler: Prakash Seet
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rajat Dey
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Rajat Dey
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Rajat Dey
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Rajat Dey
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Singha
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Rajat Dey
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Singha
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: SM Singha
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: SM Singha
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Rajat Dey
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Rajat Dey
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Singha
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: SM Singha
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Rajat Dey
+        bowler: KR Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SM Singha
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Rajat Dey
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Singha
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: SM Singha
+        bowler: Ankit Dabas
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rajat Dey
+    - 8.2:
+        actual_delivery: '8.1'
+        non_striker: SM Singha
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 8.3:
+        actual_delivery: '8.2'
+        non_striker: SM Singha
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 8.4:
+        actual_delivery: '8.3'
+        non_striker: Rajat Dey
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Singha
+    - 8.5:
+        actual_delivery: '8.4'
+        non_striker: SM Singha
+        bowler: Ankit Dabas
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rajat Dey
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: Rajat Dey
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Singha
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: SM Singha
+        bowler: Ankit Dabas
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rajat Dey
+    - 8.8:
+        actual_delivery: '8.6'
+        non_striker: SM Singha
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rajat Dey
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Rajat Dey
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Rajat Dey
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+        wicket:
+          player_out: SM Singha
+          kind: bowled
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Rajat Dey
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NN Sen Chowdhary
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Rajat Dey
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NN Sen Chowdhary
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: NN Sen Chowdhary
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: NN Sen Chowdhary
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Rajat Dey
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NN Sen Chowdhary
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: NN Sen Chowdhary
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rajat Dey
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: NN Sen Chowdhary
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Dey
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: NN Sen Chowdhary
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Rajat Dey
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NN Sen Chowdhary
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Rajat Dey
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NN Sen Chowdhary
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Rajat Dey
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NN Sen Chowdhary
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Rajat Dey
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NN Sen Chowdhary
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: NN Sen Chowdhary
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Rajat Dey
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NN Sen Chowdhary
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Rajat Dey
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NN Sen Chowdhary
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: NN Sen Chowdhary
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: NN Sen Chowdhary
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Dey
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: NN Sen Chowdhary
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rajat Dey
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: NN Sen Chowdhary
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+        wicket:
+          player_out: NN Sen Chowdhary
+          fielders:
+          - Vikash Singh
+          kind: run out
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Manisankar Murasingh
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Rajat Dey
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manisankar Murasingh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Manisankar Murasingh
+        bowler: KR Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Manisankar Murasingh
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Rajat Dey
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Manisankar Murasingh
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Rajat Dey
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manisankar Murasingh
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Manisankar Murasingh
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Rajat Dey
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manisankar Murasingh
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Manisankar Murasingh
+        bowler: Ankit Dabas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Manisankar Murasingh
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Rajat Dey
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manisankar Murasingh
+        wicket:
+          player_out: Manisankar Murasingh
+          kind: caught and bowled
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: SC Das
+        bowler: Prakash Seet
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rajat Dey
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Rajat Dey
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SC Das
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: SC Das
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: SC Das
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rajat Dey
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Rajat Dey
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SC Das
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: SC Das
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rajat Dey
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: SC Das
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Dey
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: SC Das
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: SC Das
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rajat Dey
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: SC Das
+        bowler: Monu Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Rajat Dey
+        bowler: Vikash Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SC Das
+    - 16.2:
+        actual_delivery: '16.1'
+        non_striker: Rajat Dey
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SC Das
+    - 16.3:
+        actual_delivery: '16.2'
+        non_striker: Rajat Dey
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SC Das
+    - 16.4:
+        actual_delivery: '16.3'
+        non_striker: Rajat Dey
+        bowler: Vikash Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SC Das
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: SC Das
+        bowler: Vikash Singh
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: Rajat Dey
+    - 16.6:
+        actual_delivery: '16.4'
+        non_striker: Rajat Dey
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SC Das
+    - 16.7:
+        actual_delivery: '16.5'
+        non_striker: Rajat Dey
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SC Das
+    - 16.8:
+        actual_delivery: '16.6'
+        non_striker: SC Das
+        bowler: Vikash Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rajat Dey
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Rajat Dey
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SC Das
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: SC Das
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: SC Das
+        bowler: S Nadeem
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rajat Dey
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Rajat Dey
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SC Das
+        wicket:
+          player_out: SC Das
+          fielders:
+          - Monu Kumar
+          kind: caught
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: SS Majumder
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Dey
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: SS Majumder
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: SS Majumder
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Dey
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: SS Majumder
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: SS Majumder
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Dey
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: SS Majumder
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Rajat Dey
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Majumder
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: SS Majumder
+        bowler: Prakash Seet
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: SS Majumder
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Rajat Dey
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Majumder
+        wicket:
+          player_out: SS Majumder
+          fielders:
+          - Kumar Deobrat
+          kind: caught
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: BB Roy
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rajat Dey
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: BB Roy
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Dey
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: BB Roy
+        bowler: S Nadeem
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: BB Roy
+        bowler: S Nadeem
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rajat Dey
+- 2nd innings:
+    team: Jharkhand
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Virat Singh
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Virat Singh
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Virat Singh
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IR Jaggi
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Virat Singh
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IR Jaggi
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Virat Singh
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: IR Jaggi
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: IR Jaggi
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Virat Singh
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: IR Jaggi
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Virat Singh
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Virat Singh
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: IR Jaggi
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Virat Singh
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: IR Jaggi
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Virat Singh
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IR Jaggi
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Virat Singh
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IR Jaggi
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Virat Singh
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: IR Jaggi
+        bowler: Rana Dutta
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Virat Singh
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: IR Jaggi
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Virat Singh
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Virat Singh
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Virat Singh
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IR Jaggi
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Virat Singh
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: IR Jaggi
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Virat Singh
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IR Jaggi
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Virat Singh
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: IR Jaggi
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Virat Singh
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: IR Jaggi
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: IR Jaggi
+        bowler: SS Majumder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Virat Singh
+        bowler: SS Majumder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: IR Jaggi
+        bowler: SS Majumder
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: IR Jaggi
+        bowler: SS Majumder
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Virat Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: IR Jaggi
+        bowler: SS Majumder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Virat Singh
+        bowler: SS Majumder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Virat Singh
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IR Jaggi
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Virat Singh
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: IR Jaggi
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Virat Singh
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: IR Jaggi
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Virat Singh
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Virat Singh
+        bowler: SS Majumder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: IR Jaggi
+        bowler: SS Majumder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Virat Singh
+        bowler: SS Majumder
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: IR Jaggi
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Virat Singh
+        bowler: SS Majumder
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IR Jaggi
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Virat Singh
+        bowler: SS Majumder
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: IR Jaggi
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Virat Singh
+        bowler: SS Majumder
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Virat Singh
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IR Jaggi
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Virat Singh
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: IR Jaggi
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Virat Singh
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: IR Jaggi
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: IR Jaggi
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: IR Jaggi
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Virat Singh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Virat Singh
+        bowler: SC Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: IR Jaggi
+        bowler: SC Das
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Virat Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: IR Jaggi
+        bowler: SC Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Virat Singh
+        bowler: SC Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: IR Jaggi
+        bowler: SC Das
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Virat Singh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: IR Jaggi
+        bowler: SC Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: IR Jaggi
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Virat Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: IR Jaggi
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Virat Singh
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: IR Jaggi
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Virat Singh
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: IR Jaggi
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: IR Jaggi
+        bowler: SC Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Virat Singh
+        bowler: SC Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: IR Jaggi
+        bowler: SC Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Virat Singh
+        bowler: SC Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: IR Jaggi
+        bowler: SC Das
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Virat Singh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: IR Jaggi
+        bowler: SC Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: IR Jaggi
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Virat Singh
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Virat Singh
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IR Jaggi
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Virat Singh
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: IR Jaggi
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: IR Jaggi
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Virat Singh
+        wicket:
+          player_out: Virat Singh
+          fielders:
+          - SS Majumder
+          kind: caught
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: SS Tiwary
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: SS Tiwary
+        bowler: RD Banik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: IR Jaggi
+        bowler: RD Banik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Tiwary
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: SS Tiwary
+        bowler: RD Banik
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: IR Jaggi
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: SS Tiwary
+        bowler: RD Banik
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: IR Jaggi
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: SS Tiwary
+        bowler: RD Banik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: IR Jaggi
+        bowler: RD Banik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Tiwary
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: SS Tiwary
+        bowler: BB Roy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: IR Jaggi
+        bowler: BB Roy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Tiwary
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: SS Tiwary
+        bowler: BB Roy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: IR Jaggi
+        bowler: BB Roy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Tiwary
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: IR Jaggi
+        bowler: BB Roy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Tiwary
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: SS Tiwary
+        bowler: BB Roy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: SS Tiwary
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: IR Jaggi
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: SS Tiwary
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: IR Jaggi
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: SS Tiwary
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IR Jaggi
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: SS Tiwary
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: IR Jaggi
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: SS Tiwary
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: IR Jaggi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Tiwary
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: SS Tiwary
+        bowler: BB Roy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IR Jaggi
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: SS Tiwary
+        bowler: BB Roy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: IR Jaggi
+        bowler: BB Roy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SS Tiwary
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: IR Jaggi
+        bowler: BB Roy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Tiwary
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: SS Tiwary
+        bowler: BB Roy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IR Jaggi
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: SS Tiwary
+        bowler: BB Roy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: SS Tiwary
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IR Jaggi
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: IR Jaggi
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Tiwary
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: SS Tiwary
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: IR Jaggi

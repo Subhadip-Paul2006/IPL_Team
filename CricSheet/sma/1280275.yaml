@@ -1,0 +1,2283 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-21'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-11-09'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Maharashtra
+    by:
+      runs: 73
+  overs: 20
+  players:
+    Maharashtra:
+    - RD Gaikwad
+    - Yash Nahar
+    - Naushad Shaikh
+    - Ranjeet Nikam
+    - Azim Kazi
+    - Divyang Hinganekar
+    - Mukesh Choudhary
+    - A Palkar
+    - KM Jadhav
+    - Satyajeet Bachhav
+    - Sunil Yadav
+    Goa:
+    - Amit Yadav
+    - Lakshay Garg
+    - SB Wagh
+    - Darshan Misal
+    - Shubham Ranjane
+    - SS Prabhudessai
+    - Amulya Pandrekar
+    - Snehal Kauthankar
+    - Aditya Kaushik
+    - Eknath Kerkar
+    - Deepraj Gaonkar
+  registry:
+    people:
+      A Palkar: c4ab5dd8
+      Aditya Kaushik: 9a2d95ac
+      Amit Yadav: 907cb4c1
+      Amulya Pandrekar: 47ccd2bb
+      Azim Kazi: ccae927b
+      Darshan Misal: ce2b42ae
+      Deepraj Gaonkar: d3c1f849
+      Divyang Hinganekar: cb461421
+      Eknath Kerkar: '84085032'
+      KM Jadhav: 99d63244
+      Lakshay Garg: 4af886ed
+      Mukesh Choudhary: 765a4731
+      Naushad Shaikh: 9ed95736
+      RD Gaikwad: 45a43fe2
+      Ranjeet Nikam: ca099aeb
+      SB Wagh: dddca1d6
+      SS Prabhudessai: 9385de2e
+      Satyajeet Bachhav: '09a71776'
+      Shubham Ranjane: 6c7a68d0
+      Snehal Kauthankar: 3a0dc16e
+      Sunil Yadav: 76b0c2ac
+      Yash Nahar: 487f5721
+    venues:
+      Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow: ed4e4230
+  teams:
+  - Maharashtra
+  - Goa
+  toss:
+    winner: Maharashtra
+    decision: bat
+  venue: Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow
+  team_type: club
+innings:
+- 1st innings:
+    team: Maharashtra
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Yash Nahar
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: RD Gaikwad
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Yash Nahar
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: RD Gaikwad
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: RD Gaikwad
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Yash Nahar
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: RD Gaikwad
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: RD Gaikwad
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: RD Gaikwad
+        bowler: Lakshay Garg
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Yash Nahar
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: RD Gaikwad
+        bowler: Lakshay Garg
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Yash Nahar
+    - 1.4:
+        actual_delivery: '1.2'
+        non_striker: RD Gaikwad
+        bowler: Lakshay Garg
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Yash Nahar
+    - 1.5:
+        actual_delivery: '1.2'
+        non_striker: RD Gaikwad
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yash Nahar
+    - 1.6:
+        actual_delivery: '1.3'
+        non_striker: RD Gaikwad
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 1.7:
+        actual_delivery: '1.4'
+        non_striker: Yash Nahar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 1.8:
+        actual_delivery: '1.5'
+        non_striker: RD Gaikwad
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 1.9:
+        actual_delivery: '1.6'
+        non_striker: RD Gaikwad
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: RD Gaikwad
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: RD Gaikwad
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: RD Gaikwad
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Yash Nahar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: RD Gaikwad
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yash Nahar
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: RD Gaikwad
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Yash Nahar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Yash Nahar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Yash Nahar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: RD Gaikwad
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Yash Nahar
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Yash Nahar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Yash Nahar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: RD Gaikwad
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: RD Gaikwad
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Yash Nahar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: RD Gaikwad
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: RD Gaikwad
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yash Nahar
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: RD Gaikwad
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: RD Gaikwad
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Yash Nahar
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Yash Nahar
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Yash Nahar
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: RD Gaikwad
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yash Nahar
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: RD Gaikwad
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: RD Gaikwad
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: RD Gaikwad
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Yash Nahar
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: RD Gaikwad
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Yash Nahar
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: RD Gaikwad
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Yash Nahar
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Yash Nahar
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: RD Gaikwad
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Yash Nahar
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Yash Nahar
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: RD Gaikwad
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Yash Nahar
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: RD Gaikwad
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: RD Gaikwad
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: RD Gaikwad
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Yash Nahar
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Yash Nahar
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Yash Nahar
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Yash Nahar
+        bowler: Amit Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RD Gaikwad
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: RD Gaikwad
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: RD Gaikwad
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Yash Nahar
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: RD Gaikwad
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Yash Nahar
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: RD Gaikwad
+        bowler: Darshan Misal
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Yash Nahar
+    - 9.6:
+        actual_delivery: '9.5'
+        non_striker: RD Gaikwad
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 9.7:
+        actual_delivery: '9.6'
+        non_striker: Yash Nahar
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: RD Gaikwad
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Yash Nahar
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: RD Gaikwad
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: RD Gaikwad
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Yash Nahar
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: RD Gaikwad
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: RD Gaikwad
+        bowler: SS Prabhudessai
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: Yash Nahar
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: Yash Nahar
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Yash Nahar
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Yash Nahar
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Yash Nahar
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: RD Gaikwad
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Yash Nahar
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Yash Nahar
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Yash Nahar
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: RD Gaikwad
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Yash Nahar
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Yash Nahar
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Gaikwad
+        wicket:
+          player_out: RD Gaikwad
+          fielders:
+          - Deepraj Gaonkar
+          kind: run out
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Yash Nahar
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Yash Nahar
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Yash Nahar
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Naushad Shaikh
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Yash Nahar
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Naushad Shaikh
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Yash Nahar
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+        wicket:
+          player_out: Naushad Shaikh
+          fielders:
+          - Eknath Kerkar
+          kind: stumped
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Yash Nahar
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ranjeet Nikam
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Ranjeet Nikam
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Ranjeet Nikam
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Yash Nahar
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Ranjeet Nikam
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Yash Nahar
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ranjeet Nikam
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Yash Nahar
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ranjeet Nikam
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Yash Nahar
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ranjeet Nikam
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Ranjeet Nikam
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Ranjeet Nikam
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Yash Nahar
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Ranjeet Nikam
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Yash Nahar
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ranjeet Nikam
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Ranjeet Nikam
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Yash Nahar
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Ranjeet Nikam
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Yash Nahar
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ranjeet Nikam
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Yash Nahar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ranjeet Nikam
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Ranjeet Nikam
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Yash Nahar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ranjeet Nikam
+        wicket:
+          player_out: Ranjeet Nikam
+          kind: bowled
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Yash Nahar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Azim Kazi
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Yash Nahar
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Azim Kazi
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Yash Nahar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Azim Kazi
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Yash Nahar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Azim Kazi
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+        wicket:
+          player_out: Azim Kazi
+          kind: retired hurt
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Divyang Hinganekar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Yash Nahar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Divyang Hinganekar
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Divyang Hinganekar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Yash Nahar
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Divyang Hinganekar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Divyang Hinganekar
+        bowler: SB Wagh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Yash Nahar
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: Divyang Hinganekar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Yash Nahar
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: Divyang Hinganekar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Nahar
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: Yash Nahar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Divyang Hinganekar
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: Yash Nahar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Divyang Hinganekar
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Divyang Hinganekar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Nahar
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Divyang Hinganekar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yash Nahar
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Divyang Hinganekar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yash Nahar
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Divyang Hinganekar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Yash Nahar
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Divyang Hinganekar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Yash Nahar
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Divyang Hinganekar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Yash Nahar
+- 2nd innings:
+    team: Goa
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Aditya Kaushik
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Snehal Kauthankar
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Snehal Kauthankar
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Aditya Kaushik
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Snehal Kauthankar
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Aditya Kaushik
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Snehal Kauthankar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Snehal Kauthankar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Snehal Kauthankar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Snehal Kauthankar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Snehal Kauthankar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Snehal Kauthankar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Snehal Kauthankar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Snehal Kauthankar
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Snehal Kauthankar
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Kaushik
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Snehal Kauthankar
+        bowler: A Palkar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: Snehal Kauthankar
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: Snehal Kauthankar
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: Snehal Kauthankar
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Snehal Kauthankar
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+        wicket:
+          player_out: Aditya Kaushik
+          fielders:
+          - Naushad Shaikh
+          kind: caught
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Snehal Kauthankar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Eknath Kerkar
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Snehal Kauthankar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Eknath Kerkar
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Snehal Kauthankar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Eknath Kerkar
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Snehal Kauthankar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Eknath Kerkar
+        wicket:
+          player_out: Eknath Kerkar
+          fielders:
+          - Naushad Shaikh
+          kind: caught
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Snehal Kauthankar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Snehal Kauthankar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shubham Ranjane
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Shubham Ranjane
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Snehal Kauthankar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Shubham Ranjane
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Snehal Kauthankar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Shubham Ranjane
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Snehal Kauthankar
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Snehal Kauthankar
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Shubham Ranjane
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Snehal Kauthankar
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Snehal Kauthankar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Snehal Kauthankar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Snehal Kauthankar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shubham Ranjane
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Snehal Kauthankar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Snehal Kauthankar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shubham Ranjane
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Snehal Kauthankar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shubham Ranjane
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Shubham Ranjane
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Snehal Kauthankar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Shubham Ranjane
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Snehal Kauthankar
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Snehal Kauthankar
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Shubham Ranjane
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Snehal Kauthankar
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Shubham Ranjane
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Shubham Ranjane
+        bowler: Sunil Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Snehal Kauthankar
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Shubham Ranjane
+        bowler: Sunil Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Snehal Kauthankar
+        bowler: Sunil Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shubham Ranjane
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Snehal Kauthankar
+        bowler: Sunil Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Shubham Ranjane
+        bowler: Sunil Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Snehal Kauthankar
+        bowler: Sunil Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Snehal Kauthankar
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Snehal Kauthankar
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Shubham Ranjane
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Snehal Kauthankar
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Shubham Ranjane
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Snehal Kauthankar
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Shubham Ranjane
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Snehal Kauthankar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Snehal Kauthankar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Shubham Ranjane
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Snehal Kauthankar
+        wicket:
+          player_out: Snehal Kauthankar
+          fielders:
+          - Sunil Yadav
+          kind: caught
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Shubham Ranjane
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Prabhudessai
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Shubham Ranjane
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+        wicket:
+          player_out: SS Prabhudessai
+          kind: lbw
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Shubham Ranjane
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Darshan Misal
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Darshan Misal
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Shubham Ranjane
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Darshan Misal
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Shubham Ranjane
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Darshan Misal
+        wicket:
+          player_out: Darshan Misal
+          fielders:
+          - Satyajeet Bachhav
+          kind: run out
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Deepraj Gaonkar
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Deepraj Gaonkar
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Deepraj Gaonkar
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Shubham Ranjane
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepraj Gaonkar
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Deepraj Gaonkar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Shubham Ranjane
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Deepraj Gaonkar
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Deepraj Gaonkar
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Shubham Ranjane
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Deepraj Gaonkar
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Shubham Ranjane
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepraj Gaonkar
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Shubham Ranjane
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Deepraj Gaonkar
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Deepraj Gaonkar
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shubham Ranjane
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Deepraj Gaonkar
+        bowler: Azim Kazi
+        extras:
+          legbyes: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Deepraj Gaonkar
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Shubham Ranjane
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepraj Gaonkar
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Shubham Ranjane
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepraj Gaonkar
+        wicket:
+          player_out: Deepraj Gaonkar
+          fielders:
+          - KM Jadhav
+          kind: caught
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Amit Yadav
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Shubham Ranjane
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amit Yadav
+        wicket:
+          player_out: Amit Yadav
+          kind: lbw
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Shubham Ranjane
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lakshay Garg
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Shubham Ranjane
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lakshay Garg
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Shubham Ranjane
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lakshay Garg
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Shubham Ranjane
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Lakshay Garg
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Shubham Ranjane
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lakshay Garg
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Lakshay Garg
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+        wicket:
+          player_out: Shubham Ranjane
+          kind: lbw
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Lakshay Garg
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Wagh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Lakshay Garg
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Wagh
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Lakshay Garg
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Wagh
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: SB Wagh
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Lakshay Garg
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: SB Wagh
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lakshay Garg
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: SB Wagh
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Lakshay Garg
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: SB Wagh
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lakshay Garg
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: SB Wagh
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lakshay Garg
+        wicket:
+          player_out: Lakshay Garg
+          fielders:
+          - Ranjeet Nikam
+          kind: caught
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Amulya Pandrekar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Wagh
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Amulya Pandrekar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Wagh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Amulya Pandrekar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Wagh
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Amulya Pandrekar
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Wagh
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Amulya Pandrekar
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Wagh
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: SB Wagh
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amulya Pandrekar
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: SB Wagh
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amulya Pandrekar
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Amulya Pandrekar
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Wagh
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Amulya Pandrekar
+        bowler: A Palkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Wagh
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: SB Wagh
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amulya Pandrekar
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Amulya Pandrekar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Wagh
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Amulya Pandrekar
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Wagh
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: SB Wagh
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amulya Pandrekar
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: SB Wagh
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amulya Pandrekar
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: SB Wagh
+        bowler: Mukesh Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Amulya Pandrekar
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Amulya Pandrekar
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Wagh
+        wicket:
+          player_out: SB Wagh
+          fielders:
+          - Ranjeet Nikam
+          kind: caught

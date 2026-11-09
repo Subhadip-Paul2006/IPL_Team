@@ -1,0 +1,2416 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-04'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2018-01-15'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Madhya Pradesh
+    by:
+      runs: 24
+  overs: 20
+  players:
+    Madhya Pradesh:
+    - RM Patidar
+    - NV Ojha
+    - Harpreet Singh
+    - Anshul Tripathi
+    - Sohraab Dhaliwal
+    - Parth Sahani
+    - Ankit Sharma
+    - Ankit Kushwah
+    - IC Pandey
+    - Mihir Hirwani
+    - Avesh Khan
+    Railways:
+    - Amit Mishra
+    - Anureet Singh
+    - Karan Thakur
+    - Abhishek Sharma
+    - ARB Singh
+    - Chanderpal Saini
+    - Aakash Verma
+    - AG Sehrawat
+    - AN Ghosh
+    - M Rawat
+    - Ashish Yadav
+  registry:
+    people:
+      AG Sehrawat: 1bd8d47d
+      AN Ghosh: 7023d182
+      ARB Singh: 4d4e6658
+      Aakash Verma: 24f5e41a
+      Abhishek Sharma: f29185a1
+      Amit Mishra: 1d8388eb
+      Ankit Kushwah: d27dafe2
+      Ankit Sharma: 24d94623
+      Anshul Tripathi: 65ff7036
+      Anureet Singh: 69be866a
+      Ashish Yadav: 254c7802
+      Avesh Khan: eef2536f
+      Chanderpal Saini: f0c86c2d
+      Harpreet Singh: 28c78fb3
+      IC Pandey: e0407c01
+      Karan Thakur: 8050f0f0
+      M Rawat: de8d3876
+      Mihir Hirwani: 49bacd0f
+      NV Ojha: 890946a0
+      Parth Sahani: 239f7526
+      RM Patidar: c740ea83
+      Sohraab Dhaliwal: 564714f5
+    venues:
+      Shaheed Veer Narayan Singh International Stadium, Raipur: 5d785c7e
+  teams:
+  - Madhya Pradesh
+  - Railways
+  toss:
+    winner: Railways
+    decision: field
+  venue: Shaheed Veer Narayan Singh International Stadium, Raipur
+  team_type: club
+innings:
+- 1st innings:
+    team: Madhya Pradesh
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: NV Ojha
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: NV Ojha
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+        wicket:
+          player_out: RM Patidar
+          kind: bowled
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: NV Ojha
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Harpreet Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Harpreet Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Harpreet Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: NV Ojha
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: NV Ojha
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: NV Ojha
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: NV Ojha
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: NV Ojha
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: NV Ojha
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: NV Ojha
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Harpreet Singh
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: NV Ojha
+        bowler: Amit Mishra
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Harpreet Singh
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Harpreet Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Harpreet Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Harpreet Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: NV Ojha
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: NV Ojha
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Harpreet Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: NV Ojha
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Harpreet Singh
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: NV Ojha
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Harpreet Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: NV Ojha
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: NV Ojha
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: NV Ojha
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: NV Ojha
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Harpreet Singh
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NV Ojha
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Harpreet Singh
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Harpreet Singh
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: NV Ojha
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Harpreet Singh
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NV Ojha
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: NV Ojha
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Harpreet Singh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: NV Ojha
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: NV Ojha
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: NV Ojha
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: NV Ojha
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: NV Ojha
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: NV Ojha
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Harpreet Singh
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Harpreet Singh
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: NV Ojha
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: NV Ojha
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Harpreet Singh
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Harpreet Singh
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Harpreet Singh
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Harpreet Singh
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+        wicket:
+          player_out: NV Ojha
+          kind: bowled
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Harpreet Singh
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anshul Tripathi
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Harpreet Singh
+        bowler: ARB Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Anshul Tripathi
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Anshul Tripathi
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Harpreet Singh
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anshul Tripathi
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Anshul Tripathi
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Harpreet Singh
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Anshul Tripathi
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Harpreet Singh
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anshul Tripathi
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Anshul Tripathi
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Harpreet Singh
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anshul Tripathi
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Harpreet Singh
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Anshul Tripathi
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Harpreet Singh
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anshul Tripathi
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Anshul Tripathi
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Harpreet Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Anshul Tripathi
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Anshul Tripathi
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Harpreet Singh
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anshul Tripathi
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Harpreet Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anshul Tripathi
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Anshul Tripathi
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Anshul Tripathi
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Harpreet Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anshul Tripathi
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Anshul Tripathi
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Harpreet Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anshul Tripathi
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Harpreet Singh
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anshul Tripathi
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Anshul Tripathi
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Harpreet Singh
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anshul Tripathi
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Anshul Tripathi
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Harpreet Singh
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anshul Tripathi
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Anshul Tripathi
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+        wicket:
+          player_out: Anshul Tripathi
+          fielders:
+          - Ashish Yadav
+          kind: run out
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Harpreet Singh
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohraab Dhaliwal
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Harpreet Singh
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sohraab Dhaliwal
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Harpreet Singh
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sohraab Dhaliwal
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Harpreet Singh
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohraab Dhaliwal
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Harpreet Singh
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohraab Dhaliwal
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Sohraab Dhaliwal
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Sohraab Dhaliwal
+        bowler: ARB Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Harpreet Singh
+    - 13.2:
+        actual_delivery: '13.1'
+        non_striker: Sohraab Dhaliwal
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 13.3:
+        actual_delivery: '13.2'
+        non_striker: Harpreet Singh
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohraab Dhaliwal
+    - 13.4:
+        actual_delivery: '13.3'
+        non_striker: Sohraab Dhaliwal
+        bowler: ARB Singh
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: Harpreet Singh
+    - 13.5:
+        actual_delivery: '13.3'
+        non_striker: Harpreet Singh
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sohraab Dhaliwal
+    - 13.6:
+        actual_delivery: '13.4'
+        non_striker: Harpreet Singh
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohraab Dhaliwal
+    - 13.7:
+        actual_delivery: '13.5'
+        non_striker: Sohraab Dhaliwal
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 13.8:
+        actual_delivery: '13.6'
+        non_striker: Sohraab Dhaliwal
+        bowler: ARB Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Harpreet Singh
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohraab Dhaliwal
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Sohraab Dhaliwal
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Harpreet Singh
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohraab Dhaliwal
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Sohraab Dhaliwal
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Harpreet Singh
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Sohraab Dhaliwal
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Harpreet Singh
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohraab Dhaliwal
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Harpreet Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohraab Dhaliwal
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Sohraab Dhaliwal
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+        wicket:
+          player_out: Harpreet Singh
+          fielders:
+          - AN Ghosh
+          kind: caught
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Sohraab Dhaliwal
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Parth Sahani
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Sohraab Dhaliwal
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Parth Sahani
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Sohraab Dhaliwal
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Parth Sahani
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Sohraab Dhaliwal
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Parth Sahani
+        wicket:
+          player_out: Parth Sahani
+          kind: bowled
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Ankit Sharma
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sohraab Dhaliwal
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Ankit Sharma
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohraab Dhaliwal
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Sohraab Dhaliwal
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Ankit Sharma
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohraab Dhaliwal
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Sohraab Dhaliwal
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Ankit Sharma
+        bowler: Chanderpal Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohraab Dhaliwal
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Ankit Sharma
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohraab Dhaliwal
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Sohraab Dhaliwal
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Ankit Sharma
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sohraab Dhaliwal
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Ankit Sharma
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohraab Dhaliwal
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Ankit Sharma
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohraab Dhaliwal
+        wicket:
+          player_out: Sohraab Dhaliwal
+          kind: bowled
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Ankit Sharma
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Kushwah
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Ankit Kushwah
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Ankit Sharma
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ankit Kushwah
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Ankit Sharma
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Kushwah
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Ankit Sharma
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ankit Kushwah
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Ankit Sharma
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Kushwah
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Ankit Kushwah
+        bowler: Karan Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Ankit Kushwah
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Sharma
+        wicket:
+          player_out: Ankit Sharma
+          fielders:
+          - M Rawat
+          kind: caught
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Ankit Kushwah
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IC Pandey
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Ankit Kushwah
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IC Pandey
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: IC Pandey
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Kushwah
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: IC Pandey
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Kushwah
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Ankit Kushwah
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IC Pandey
+- 2nd innings:
+    team: Railways
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aakash Verma
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aakash Verma
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aakash Verma
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aakash Verma
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aakash Verma
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aakash Verma
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Aakash Verma
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: ARB Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Aakash Verma
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: ARB Singh
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Aakash Verma
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: ARB Singh
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Aakash Verma
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: ARB Singh
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: ARB Singh
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aakash Verma
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: ARB Singh
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aakash Verma
+        wicket:
+          player_out: Aakash Verma
+          kind: caught and bowled
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: AG Sehrawat
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: ARB Singh
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AG Sehrawat
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AG Sehrawat
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AG Sehrawat
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AG Sehrawat
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AG Sehrawat
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: AG Sehrawat
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: ARB Singh
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: AG Sehrawat
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: ARB Singh
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: AG Sehrawat
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: ARB Singh
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: AG Sehrawat
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: ARB Singh
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: ARB Singh
+        bowler: Avesh Khan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AG Sehrawat
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: ARB Singh
+        bowler: Avesh Khan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AG Sehrawat
+    - 3.7:
+        actual_delivery: '3.5'
+        non_striker: ARB Singh
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AG Sehrawat
+    - 3.8:
+        actual_delivery: '3.6'
+        non_striker: ARB Singh
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AG Sehrawat
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AG Sehrawat
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AG Sehrawat
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AG Sehrawat
+        wicket:
+          player_out: AG Sehrawat
+          fielders:
+          - NV Ojha
+          kind: caught
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Ghosh
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AN Ghosh
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: ARB Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Ghosh
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: ARB Singh
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Ghosh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: ARB Singh
+        bowler: Ankit Kushwah
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AN Ghosh
+    - 5.3:
+        actual_delivery: '5.2'
+        non_striker: ARB Singh
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Ghosh
+    - 5.4:
+        actual_delivery: '5.3'
+        non_striker: ARB Singh
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Ghosh
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: ARB Singh
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Ghosh
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: AN Ghosh
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: ARB Singh
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: AN Ghosh
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: ARB Singh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: AN Ghosh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: ARB Singh
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: ARB Singh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Ghosh
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: AN Ghosh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: ARB Singh
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: ARB Singh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Ghosh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: AN Ghosh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: ARB Singh
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: AN Ghosh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: ARB Singh
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: AN Ghosh
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: ARB Singh
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: AN Ghosh
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: ARB Singh
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: ARB Singh
+        bowler: Ankit Kushwah
+        extras:
+          wides: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: AN Ghosh
+    - 7.4:
+        actual_delivery: '7.3'
+        non_striker: AN Ghosh
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: ARB Singh
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: ARB Singh
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Ghosh
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: ARB Singh
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Ghosh
+        wicket:
+          player_out: ARB Singh
+          fielders:
+          - Ankit Kushwah
+          kind: run out
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: AN Ghosh
+        bowler: Ankit Kushwah
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: M Rawat
+    - 7.8:
+        actual_delivery: '7.6'
+        non_striker: AN Ghosh
+        bowler: Ankit Kushwah
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: M Rawat
+    - 7.9:
+        actual_delivery: '7.6'
+        non_striker: AN Ghosh
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: AN Ghosh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: M Rawat
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Ghosh
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: AN Ghosh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: M Rawat
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Ghosh
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: AN Ghosh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Rawat
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: AN Ghosh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: AN Ghosh
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Rawat
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: AN Ghosh
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: M Rawat
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AN Ghosh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: M Rawat
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Ghosh
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: M Rawat
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AN Ghosh
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: M Rawat
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Ghosh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: M Rawat
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Ghosh
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: M Rawat
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Ghosh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: M Rawat
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Ghosh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: AN Ghosh
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Rawat
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: AN Ghosh
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Rawat
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: AN Ghosh
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: AN Ghosh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: M Rawat
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Ghosh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: M Rawat
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Ghosh
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: AN Ghosh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: M Rawat
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Ghosh
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: M Rawat
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Ghosh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: M Rawat
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AN Ghosh
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: M Rawat
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Ghosh
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: AN Ghosh
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Rawat
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: AN Ghosh
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Rawat
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: AN Ghosh
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Rawat
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: AN Ghosh
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: AN Ghosh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: M Rawat
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Ghosh
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: M Rawat
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Ghosh
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: AN Ghosh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Rawat
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: AN Ghosh
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: M Rawat
+        bowler: Mihir Hirwani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Ghosh
+        wicket:
+          player_out: AN Ghosh
+          fielders:
+          - Anshul Tripathi
+          kind: run out
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: M Rawat
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Ashish Yadav
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: M Rawat
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Ashish Yadav
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: M Rawat
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Ashish Yadav
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Ashish Yadav
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Rawat
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Ashish Yadav
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: M Rawat
+        bowler: Ankit Kushwah
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ashish Yadav
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Ashish Yadav
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Rawat
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Ashish Yadav
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Rawat
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Ashish Yadav
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: M Rawat
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: M Rawat
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Yadav
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: M Rawat
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ashish Yadav
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: M Rawat
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Ashish Yadav
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Ashish Yadav
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Rawat
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Ashish Yadav
+        bowler: Avesh Khan
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: M Rawat
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: M Rawat
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: M Rawat
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Yadav
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: M Rawat
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Ashish Yadav
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Rawat
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: M Rawat
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Ashish Yadav
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Rawat
+        wicket:
+          player_out: M Rawat
+          fielders:
+          - NV Ojha
+          kind: stumped
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Ashish Yadav
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anureet Singh
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Ashish Yadav
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Ashish Yadav
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anureet Singh
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Anureet Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Yadav
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Anureet Singh
+        bowler: IC Pandey
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ashish Yadav
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: Anureet Singh
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: Ashish Yadav
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: Ashish Yadav
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Anureet Singh
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Anureet Singh
+        bowler: Avesh Khan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ashish Yadav
+    - 19.2:
+        actual_delivery: '19.1'
+        non_striker: Anureet Singh
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Yadav
+    - 19.3:
+        actual_delivery: '19.2'
+        non_striker: Anureet Singh
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 19.4:
+        actual_delivery: '19.3'
+        non_striker: Ashish Yadav
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anureet Singh
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: Anureet Singh
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: Ashish Yadav
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anureet Singh
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: Anureet Singh
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Yadav
+        wicket:
+          player_out: Ashish Yadav
+          fielders:
+          - Ankit Kushwah
+          kind: caught

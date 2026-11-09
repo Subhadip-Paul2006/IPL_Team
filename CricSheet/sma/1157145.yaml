@@ -1,0 +1,2399 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-03'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-02-25'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Tamil Nadu
+    by:
+      runs: 1
+  overs: 20
+  players:
+    Tamil Nadu:
+    - M Vijay
+    - Hari Nishaanth
+    - B Indrajith
+    - NS Chaturved
+    - Washington Sundar
+    - N Jagadeesan
+    - R Ashwin
+    - S Anirudha
+    - Abhishek Tanwar
+    - M Mohammed
+    - R Sai Kishore
+    Gujarat:
+    - Tejas Patel
+    - A Nagwaswalla
+    - Hemang Patel
+    - PP Chawla
+    - AR Patel
+    - HP Patel
+    - Urvil Patel
+    - Priyank Panchal
+    - Dhruv Raval
+    - Chirag Gandhi
+    - Hiten Mehra
+  registry:
+    people:
+      A Nagwaswalla: 01ada0ed
+      AR Patel: 2e171977
+      Abhishek Tanwar: c8ded7bc
+      B Indrajith: ff1e68fa
+      Chirag Gandhi: 35eb75af
+      Dhruv Raval: e635a5dd
+      HP Patel: 8254ea06
+      Hari Nishaanth: c3f37533
+      Hemang Patel: 59c8c5b5
+      Hiten Mehra: 2656936a
+      J Kousik: 398be4ed
+      M Mohammed: 1b7c4d69
+      M Vijay: 4b57e452
+      N Jagadeesan: bd54eef5
+      NS Chaturved: 1e295ba7
+      PP Chawla: 98ae73b1
+      Priyank Panchal: ebf25cf2
+      R Ashwin: 495d42a5
+      R Sai Kishore: c7a995d3
+      S Anirudha: 95a2ea61
+      Tejas Patel: 76ed445f
+      Urvil Patel: cf59b3f0
+      Washington Sundar: f19ccfad
+    venues:
+      Lalabhai Contractor Stadium, Surat: '0689d53a'
+  teams:
+  - Tamil Nadu
+  - Gujarat
+  toss:
+    winner: Gujarat
+    decision: field
+  venue: Lalabhai Contractor Stadium, Surat
+  team_type: club
+innings:
+- 1st innings:
+    team: Tamil Nadu
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Hari Nishaanth
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Vijay
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Hari Nishaanth
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vijay
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: M Vijay
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hari Nishaanth
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: M Vijay
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hari Nishaanth
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: M Vijay
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hari Nishaanth
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: M Vijay
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hari Nishaanth
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Hari Nishaanth
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vijay
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Hari Nishaanth
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vijay
+        wicket:
+          player_out: M Vijay
+          kind: lbw
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Hari Nishaanth
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Hari Nishaanth
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: B Indrajith
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hari Nishaanth
+        wicket:
+          player_out: Hari Nishaanth
+          kind: bowled
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: B Indrajith
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: NS Chaturved
+        bowler: Tejas Patel
+        extras:
+          wides: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: B Indrajith
+    - 2.2:
+        actual_delivery: '2.1'
+        non_striker: B Indrajith
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 2.3:
+        actual_delivery: '2.2'
+        non_striker: B Indrajith
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: B Indrajith
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: NS Chaturved
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: B Indrajith
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: NS Chaturved
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: B Indrajith
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: B Indrajith
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: NS Chaturved
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: B Indrajith
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: B Indrajith
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: NS Chaturved
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: NS Chaturved
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: NS Chaturved
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: NS Chaturved
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: NS Chaturved
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+        wicket:
+          player_out: B Indrajith
+          fielders:
+          - Chirag Gandhi
+          kind: caught
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NS Chaturved
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: NS Chaturved
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: NS Chaturved
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: NS Chaturved
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: NS Chaturved
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: NS Chaturved
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: NS Chaturved
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NS Chaturved
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: NS Chaturved
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NS Chaturved
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: NS Chaturved
+        bowler: PP Chawla
+        extras:
+          byes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Washington Sundar
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: NS Chaturved
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Washington Sundar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Washington Sundar
+        bowler: PP Chawla
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: NS Chaturved
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: Washington Sundar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Washington Sundar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Washington Sundar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Washington Sundar
+        bowler: AR Patel
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: NS Chaturved
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: NS Chaturved
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Washington Sundar
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: NS Chaturved
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Washington Sundar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: NS Chaturved
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: NS Chaturved
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Washington Sundar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: NS Chaturved
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: NS Chaturved
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Washington Sundar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: NS Chaturved
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Washington Sundar
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: NS Chaturved
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: NS Chaturved
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Washington Sundar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: NS Chaturved
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Washington Sundar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: NS Chaturved
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Washington Sundar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NS Chaturved
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: NS Chaturved
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: NS Chaturved
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Washington Sundar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NS Chaturved
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Washington Sundar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Washington Sundar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NS Chaturved
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Washington Sundar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Washington Sundar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NS Chaturved
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Washington Sundar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Washington Sundar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+        wicket:
+          player_out: NS Chaturved
+          kind: bowled
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Washington Sundar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Jagadeesan
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: N Jagadeesan
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Washington Sundar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Jagadeesan
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: N Jagadeesan
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: N Jagadeesan
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Washington Sundar
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Jagadeesan
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Washington Sundar
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Jagadeesan
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Washington Sundar
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Jagadeesan
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: N Jagadeesan
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Washington Sundar
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Jagadeesan
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: N Jagadeesan
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: N Jagadeesan
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Jagadeesan
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: N Jagadeesan
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Jagadeesan
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: N Jagadeesan
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Washington Sundar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Jagadeesan
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Washington Sundar
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Jagadeesan
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Washington Sundar
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Jagadeesan
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Washington Sundar
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Jagadeesan
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: N Jagadeesan
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Washington Sundar
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: N Jagadeesan
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Washington Sundar
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Jagadeesan
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: N Jagadeesan
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Washington Sundar
+        bowler: Tejas Patel
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: N Jagadeesan
+    - 17.3:
+        actual_delivery: '17.2'
+        non_striker: N Jagadeesan
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: Washington Sundar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Jagadeesan
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Washington Sundar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Jagadeesan
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Washington Sundar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Jagadeesan
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: N Jagadeesan
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Washington Sundar
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Washington Sundar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Jagadeesan
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: N Jagadeesan
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+        wicket:
+          player_out: Washington Sundar
+          fielders:
+          - Urvil Patel
+          kind: caught
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: R Ashwin
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Jagadeesan
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: N Jagadeesan
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ashwin
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: R Ashwin
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Jagadeesan
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: N Jagadeesan
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Ashwin
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: R Ashwin
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Jagadeesan
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: N Jagadeesan
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Ashwin
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: N Jagadeesan
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Ashwin
+        wicket:
+          player_out: R Ashwin
+          kind: bowled
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: N Jagadeesan
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: S Anirudha
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: N Jagadeesan
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Anirudha
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: S Anirudha
+        bowler: A Nagwaswalla
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: N Jagadeesan
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: S Anirudha
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Jagadeesan
+- 2nd innings:
+    team: Gujarat
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Priyank Panchal
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Priyank Panchal
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Priyank Panchal
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+        wicket:
+          player_out: Urvil Patel
+          fielders:
+          - M Mohammed
+          kind: caught
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Priyank Panchal
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Dhruv Raval
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Dhruv Raval
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Priyank Panchal
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Dhruv Raval
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Priyank Panchal
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Priyank Panchal
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+        wicket:
+          player_out: Dhruv Raval
+          fielders:
+          - R Ashwin
+          kind: caught
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Priyank Panchal
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Priyank Panchal
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Chirag Gandhi
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Chirag Gandhi
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Chirag Gandhi
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Priyank Panchal
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Gandhi
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Priyank Panchal
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Priyank Panchal
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Gandhi
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Chirag Gandhi
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Priyank Panchal
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Priyank Panchal
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Chirag Gandhi
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Priyank Panchal
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Chirag Gandhi
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Priyank Panchal
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Priyank Panchal
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Priyank Panchal
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Chirag Gandhi
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Chirag Gandhi
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Chirag Gandhi
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Chirag Gandhi
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Priyank Panchal
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Priyank Panchal
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Gandhi
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Priyank Panchal
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Priyank Panchal
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Priyank Panchal
+        bowler: M Mohammed
+        extras:
+          legbyes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Priyank Panchal
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Priyank Panchal
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Priyank Panchal
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Chirag Gandhi
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Priyank Panchal
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Chirag Gandhi
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Chirag Gandhi
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Chirag Gandhi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Priyank Panchal
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Priyank Panchal
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Chirag Gandhi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Priyank Panchal
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Chirag Gandhi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Priyank Panchal
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Chirag Gandhi
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Chirag Gandhi
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+        wicket:
+          player_out: Priyank Panchal
+          fielders:
+          - Hari Nishaanth
+          kind: caught
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: AR Patel
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: AR Patel
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Chirag Gandhi
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Patel
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: AR Patel
+        bowler: Hari Nishaanth
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 9.2:
+        actual_delivery: '9.1'
+        non_striker: AR Patel
+        bowler: Hari Nishaanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 9.3:
+        actual_delivery: '9.2'
+        non_striker: AR Patel
+        bowler: Hari Nishaanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+        wicket:
+          player_out: AR Patel
+          fielders:
+          - J Kousik (sub)
+          kind: run out
+    - 9.4:
+        actual_delivery: '9.3'
+        non_striker: Chirag Gandhi
+        bowler: Hari Nishaanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Mehra
+    - 9.5:
+        actual_delivery: '9.4'
+        non_striker: Chirag Gandhi
+        bowler: Hari Nishaanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Mehra
+    - 9.6:
+        actual_delivery: '9.5'
+        non_striker: Hiten Mehra
+        bowler: Hari Nishaanth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Gandhi
+    - 9.7:
+        actual_delivery: '9.6'
+        non_striker: Hiten Mehra
+        bowler: Hari Nishaanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Hiten Mehra
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Chirag Gandhi
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Mehra
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Chirag Gandhi
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Mehra
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Hiten Mehra
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Chirag Gandhi
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Mehra
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Chirag Gandhi
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Mehra
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Chirag Gandhi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hiten Mehra
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Chirag Gandhi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Mehra
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Hiten Mehra
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Hiten Mehra
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Chirag Gandhi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Mehra
+        wicket:
+          player_out: Hiten Mehra
+          kind: caught and bowled
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Chirag Gandhi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: PP Chawla
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Chirag Gandhi
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+        wicket:
+          player_out: PP Chawla
+          fielders:
+          - N Jagadeesan
+          kind: stumped
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Chirag Gandhi
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hemang Patel
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Hemang Patel
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Hemang Patel
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Hemang Patel
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Chirag Gandhi
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hemang Patel
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Chirag Gandhi
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hemang Patel
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Hemang Patel
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Chirag Gandhi
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hemang Patel
+        wicket:
+          player_out: Hemang Patel
+          fielders:
+          - J Kousik (sub)
+          kind: run out
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Chirag Gandhi
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tejas Patel
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Tejas Patel
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Chirag Gandhi
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tejas Patel
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Tejas Patel
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Gandhi
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Tejas Patel
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Tejas Patel
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Chirag Gandhi
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tejas Patel
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Tejas Patel
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+        wicket:
+          player_out: Tejas Patel
+          fielders:
+          - NS Chaturved
+          kind: run out
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: A Nagwaswalla
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Chirag Gandhi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Nagwaswalla
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Chirag Gandhi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Nagwaswalla
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: A Nagwaswalla
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Chirag Gandhi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Nagwaswalla
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Chirag Gandhi
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: A Nagwaswalla
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: A Nagwaswalla
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Chirag Gandhi
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Nagwaswalla
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: A Nagwaswalla
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chirag Gandhi
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: A Nagwaswalla
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Chirag Gandhi
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Nagwaswalla
+        wicket:
+          player_out: A Nagwaswalla
+          fielders:
+          - Washington Sundar
+          kind: caught
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: HP Patel
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: HP Patel
+        bowler: R Ashwin
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 17.2:
+        actual_delivery: '17.1'
+        non_striker: HP Patel
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 17.3:
+        actual_delivery: '17.2'
+        non_striker: HP Patel
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: HP Patel
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: HP Patel
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: HP Patel
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chirag Gandhi
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: HP Patel
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: HP Patel
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: HP Patel
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: HP Patel
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: HP Patel
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Gandhi
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: HP Patel
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: HP Patel
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: HP Patel
+        bowler: Abhishek Tanwar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 19.2:
+        actual_delivery: '19.1'
+        non_striker: HP Patel
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 19.3:
+        actual_delivery: '19.2'
+        non_striker: HP Patel
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chirag Gandhi
+    - 19.4:
+        actual_delivery: '19.3'
+        non_striker: HP Patel
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: HP Patel
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: HP Patel
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chirag Gandhi
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: HP Patel
+        bowler: Abhishek Tanwar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Gandhi
+        wicket:
+          player_out: HP Patel
+          fielders:
+          - Abhishek Tanwar
+          kind: run out

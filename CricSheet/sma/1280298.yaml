@@ -1,0 +1,2123 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-21'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-11-18'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Vidarbha
+    by:
+      wickets: 9
+  overs: 20
+  players:
+    Rajasthan:
+    - YB Kothari
+    - Arjit Gupta
+    - MK Lomror
+    - DJ Hooda
+    - KL Nagarkoti
+    - SF Khan
+    - Suraj Ahuja
+    - Shubham Kamal Sharma
+    - Ravi Bishnoi
+    - Tanveer Ul-Haq
+    - A Choudhary
+    Vidarbha:
+    - DG Nalkande
+    - LM Yadav
+    - Yash Thakur
+    - Akshay Karnewar
+    - Akshay Wakhare
+    - Atharva Taide
+    - Ganesh Satish
+    - Akshay Wadkar
+    - SB Dubey
+    - AV Wankhade
+    - JM Sharma
+  registry:
+    people:
+      A Choudhary: 18e6906e
+      AV Wankhade: 5708d0b6
+      Akshay Karnewar: e1e7f950
+      Akshay Wadkar: c88c8a7d
+      Akshay Wakhare: ec9fc54b
+      Arjit Gupta: 145903a5
+      Atharva Taide: 1ac746c8
+      DG Nalkande: cd8d2859
+      DJ Hooda: 73ad96ed
+      Ganesh Satish: 0ed1a112
+      JM Sharma: 800d2d97
+      KL Nagarkoti: b4f5c2d9
+      LM Yadav: e0c30d35
+      MK Lomror: da934ee8
+      Ravi Bishnoi: df064e1a
+      SB Dubey: 6b2ff18f
+      SF Khan: '25986786'
+      Shubham Kamal Sharma: 3b892965
+      Suraj Ahuja: a0d05c98
+      Tanveer Ul-Haq: 2795b0f6
+      YB Kothari: c2aaa4be
+      Yash Thakur: 4b31f3a3
+    venues:
+      Palam A Ground, Model Sports Complex, Delhi: a84e4939
+  teams:
+  - Rajasthan
+  - Vidarbha
+  toss:
+    winner: Vidarbha
+    decision: field
+  venue: Palam A Ground, Model Sports Complex, Delhi
+  team_type: club
+innings:
+- 1st innings:
+    team: Rajasthan
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Arjit Gupta
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YB Kothari
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Arjit Gupta
+        bowler: DG Nalkande
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: YB Kothari
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: Arjit Gupta
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YB Kothari
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Arjit Gupta
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YB Kothari
+        wicket:
+          player_out: Arjit Gupta
+          fielders:
+          - Ganesh Satish
+          kind: run out
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: MK Lomror
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YB Kothari
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: MK Lomror
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YB Kothari
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: YB Kothari
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: MK Lomror
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YB Kothari
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: MK Lomror
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YB Kothari
+        wicket:
+          player_out: YB Kothari
+          fielders:
+          - DG Nalkande
+          kind: caught
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: MK Lomror
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: MK Lomror
+        bowler: LM Yadav
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: DJ Hooda
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: MK Lomror
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: MK Lomror
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: MK Lomror
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: DJ Hooda
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MK Lomror
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: DJ Hooda
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Lomror
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: MK Lomror
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: DJ Hooda
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: DJ Hooda
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Lomror
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: MK Lomror
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: DJ Hooda
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MK Lomror
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: DJ Hooda
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Lomror
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: MK Lomror
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: DJ Hooda
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: DJ Hooda
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: DJ Hooda
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+        wicket:
+          player_out: MK Lomror
+          fielders:
+          - Akshay Karnewar
+          kind: caught
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: KL Nagarkoti
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: DJ Hooda
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: KL Nagarkoti
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+        wicket:
+          player_out: DJ Hooda
+          fielders:
+          - Akshay Wadkar
+          kind: caught
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: KL Nagarkoti
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SF Khan
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: KL Nagarkoti
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SF Khan
+        wicket:
+          player_out: SF Khan
+          kind: lbw
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: KL Nagarkoti
+        bowler: Yash Thakur
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Suraj Ahuja
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suraj Ahuja
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Suraj Ahuja
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Suraj Ahuja
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Suraj Ahuja
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Suraj Ahuja
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Suraj Ahuja
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Suraj Ahuja
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: KL Nagarkoti
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Suraj Ahuja
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: KL Nagarkoti
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suraj Ahuja
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Suraj Ahuja
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: KL Nagarkoti
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Ahuja
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: KL Nagarkoti
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Suraj Ahuja
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Suraj Ahuja
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Suraj Ahuja
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: KL Nagarkoti
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Ahuja
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: KL Nagarkoti
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suraj Ahuja
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Suraj Ahuja
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KL Nagarkoti
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Suraj Ahuja
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suraj Ahuja
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Suraj Ahuja
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Suraj Ahuja
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Ahuja
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Ahuja
+        wicket:
+          player_out: Suraj Ahuja
+          kind: bowled
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Kamal Sharma
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Shubham Kamal Sharma
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Shubham Kamal Sharma
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Shubham Kamal Sharma
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Shubham Kamal Sharma
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KL Nagarkoti
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Shubham Kamal Sharma
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Kamal Sharma
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Shubham Kamal Sharma
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Shubham Kamal Sharma
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Shubham Kamal Sharma
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Kamal Sharma
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Kamal Sharma
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Kamal Sharma
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Kamal Sharma
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Kamal Sharma
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Shubham Kamal Sharma
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Kamal Sharma
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Shubham Kamal Sharma
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Kamal Sharma
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Shubham Kamal Sharma
+        bowler: Atharva Taide
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 12.2:
+        actual_delivery: '12.1'
+        non_striker: Shubham Kamal Sharma
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 12.3:
+        actual_delivery: '12.2'
+        non_striker: KL Nagarkoti
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Kamal Sharma
+    - 12.4:
+        actual_delivery: '12.3'
+        non_striker: KL Nagarkoti
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Kamal Sharma
+        wicket:
+          player_out: Shubham Kamal Sharma
+          fielders:
+          - AV Wankhade
+          kind: caught
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: KL Nagarkoti
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Bishnoi
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: KL Nagarkoti
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Bishnoi
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: KL Nagarkoti
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Bishnoi
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Ravi Bishnoi
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Ravi Bishnoi
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Bishnoi
+        wicket:
+          player_out: Ravi Bishnoi
+          fielders:
+          - DG Nalkande
+          kind: caught
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanveer Ul-Haq
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanveer Ul-Haq
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanveer Ul-Haq
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Tanveer Ul-Haq
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Tanveer Ul-Haq
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Tanveer Ul-Haq
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Tanveer Ul-Haq
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: KL Nagarkoti
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanveer Ul-Haq
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: KL Nagarkoti
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanveer Ul-Haq
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Tanveer Ul-Haq
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Tanveer Ul-Haq
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Tanveer Ul-Haq
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanveer Ul-Haq
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanveer Ul-Haq
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanveer Ul-Haq
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Tanveer Ul-Haq
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Tanveer Ul-Haq
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: KL Nagarkoti
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanveer Ul-Haq
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: KL Nagarkoti
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanveer Ul-Haq
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Tanveer Ul-Haq
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KL Nagarkoti
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Tanveer Ul-Haq
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanveer Ul-Haq
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Tanveer Ul-Haq
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KL Nagarkoti
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Tanveer Ul-Haq
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KL Nagarkoti
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Tanveer Ul-Haq
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanveer Ul-Haq
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: KL Nagarkoti
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanveer Ul-Haq
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: KL Nagarkoti
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanveer Ul-Haq
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Tanveer Ul-Haq
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Tanveer Ul-Haq
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: KL Nagarkoti
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanveer Ul-Haq
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: KL Nagarkoti
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanveer Ul-Haq
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Tanveer Ul-Haq
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Tanveer Ul-Haq
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KL Nagarkoti
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Tanveer Ul-Haq
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KL Nagarkoti
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Tanveer Ul-Haq
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KL Nagarkoti
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: KL Nagarkoti
+        bowler: LM Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanveer Ul-Haq
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: KL Nagarkoti
+        bowler: LM Yadav
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Tanveer Ul-Haq
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Tanveer Ul-Haq
+        bowler: LM Yadav
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KL Nagarkoti
+- 2nd innings:
+    team: Vidarbha
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Ganesh Satish
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Atharva Taide
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Atharva Taide
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Atharva Taide
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Atharva Taide
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Ganesh Satish
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ganesh Satish
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ganesh Satish
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Ganesh Satish
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Ganesh Satish
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Ganesh Satish
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Ganesh Satish
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Atharva Taide
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Atharva Taide
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Atharva Taide
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Atharva Taide
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Ganesh Satish
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Ganesh Satish
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Ganesh Satish
+        bowler: DJ Hooda
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Atharva Taide
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Atharva Taide
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Atharva Taide
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Ganesh Satish
+        bowler: KL Nagarkoti
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Ganesh Satish
+        bowler: KL Nagarkoti
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Ganesh Satish
+        bowler: KL Nagarkoti
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Ganesh Satish
+        bowler: KL Nagarkoti
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Atharva Taide
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: Ganesh Satish
+        bowler: KL Nagarkoti
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Atharva Taide
+    - 4.6:
+        actual_delivery: '4.4'
+        non_striker: Ganesh Satish
+        bowler: KL Nagarkoti
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 4.7:
+        actual_delivery: '4.5'
+        non_striker: Ganesh Satish
+        bowler: KL Nagarkoti
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Taide
+    - 4.8:
+        actual_delivery: '4.6'
+        non_striker: Ganesh Satish
+        bowler: KL Nagarkoti
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Ganesh Satish
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Ganesh Satish
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Atharva Taide
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Ganesh Satish
+        bowler: DJ Hooda
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 5
+          batsman: 4
+        batsman: Atharva Taide
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: Ganesh Satish
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: Ganesh Satish
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: Ganesh Satish
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ganesh Satish
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ganesh Satish
+    - 6.5:
+        actual_delivery: '6.4'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: Ganesh Satish
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: Ganesh Satish
+        bowler: Ravi Bishnoi
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Atharva Taide
+    - 6.8:
+        actual_delivery: '6.6'
+        non_striker: Ganesh Satish
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Taide
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Atharva Taide
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Atharva Taide
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ganesh Satish
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Atharva Taide
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Atharva Taide
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Atharva Taide
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Atharva Taide
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Ganesh Satish
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Atharva Taide
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Ganesh Satish
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Ganesh Satish
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Taide
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Ganesh Satish
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Atharva Taide
+        bowler: Shubham Kamal Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ganesh Satish
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Ganesh Satish
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Atharva Taide
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Ganesh Satish
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Atharva Taide
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Atharva Taide
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ganesh Satish
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Atharva Taide
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ganesh Satish
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Ganesh Satish
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Atharva Taide
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+        wicket:
+          player_out: Ganesh Satish
+          fielders:
+          - SF Khan
+          kind: caught
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Atharva Taide
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Atharva Taide
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Atharva Taide
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Atharva Taide
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Akshay Wadkar
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Akshay Wadkar
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Akshay Wadkar
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Akshay Wadkar
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Taide
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Atharva Taide
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Akshay Wadkar
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Akshay Wadkar
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Atharva Taide
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Akshay Wadkar
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Akshay Wadkar
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Akshay Wadkar
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Akshay Wadkar
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Atharva Taide
+        bowler: Ravi Bishnoi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akshay Wadkar
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Akshay Wadkar
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Taide
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Akshay Wadkar
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Atharva Taide
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Atharva Taide
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Akshay Wadkar
+        bowler: MK Lomror
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Atharva Taide
+    - 14.6:
+        actual_delivery: '14.5'
+        non_striker: Akshay Wadkar
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide

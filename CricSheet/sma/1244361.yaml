@@ -1,0 +1,2038 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-29'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-01-15'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Nagaland
+    by:
+      runs: 100
+  overs: 20
+  players:
+    Nagaland:
+    - Rongsen Jonathan
+    - Chetan Bist
+    - SS Mundhe
+    - STR Binny
+    - Hokaito Zhimomi
+    - Hem Chetri
+    - Joshua Ozukum
+    - Tahmeed Rahman
+    - Khrievitso Kense
+    - Sedezhalie Rupero
+    - Nagaho Chishi
+    Sikkim:
+    - Anureet Singh
+    - Palzor Tamang
+    - Mandup Bhutia
+    - Varun Sood
+    - Ajay Pradhan
+    - Rajiv Darjee
+    - Nilesh Lamichaney
+    - Ashish Thapa
+    - Robin Bist
+    - Lee Yong Lepcha
+    - Md Saptula
+  registry:
+    people:
+      Ajay Pradhan: 700edf8d
+      Anureet Singh: 69be866a
+      Ashish Thapa: 60c6038a
+      Chetan Bist: cf9d3356
+      Hem Chetri: d2ac5c4c
+      Hokaito Zhimomi: '96477053'
+      Joshua Ozukum: b13c506b
+      Khrievitso Kense: 2597e56b
+      Lee Yong Lepcha: dd967d0d
+      Mandup Bhutia: 2c06dca9
+      Md Saptula: febe4bfa
+      Nagaho Chishi: 5b4d1d4e
+      Nilesh Lamichaney: dc501d26
+      Palzor Tamang: 61a3c20c
+      Rajiv Darjee: b6e96180
+      Robin Bist: bc761d00
+      Rongsen Jonathan: d4753890
+      SS Mundhe: 0af3426f
+      STR Binny: bd17b45f
+      Sedezhalie Rupero: e49574d6
+      Tahmeed Rahman: 13903f13
+      Varun Sood: '23639793'
+    venues:
+      Guru Nanak College Ground, Chennai: 43ac9a5d
+  teams:
+  - Nagaland
+  - Sikkim
+  toss:
+    winner: Sikkim
+    decision: field
+  venue: Guru Nanak College Ground, Chennai
+  team_type: club
+innings:
+- 1st innings:
+    team: Nagaland
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Chetan Bist
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Chetan Bist
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Rongsen Jonathan
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Rongsen Jonathan
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Rongsen Jonathan
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Rongsen Jonathan
+        bowler: Anureet Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chetan Bist
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Rongsen Jonathan
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chetan Bist
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Rongsen Jonathan
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Rongsen Jonathan
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Chetan Bist
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Chetan Bist
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Chetan Bist
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Rongsen Jonathan
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Chetan Bist
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Rongsen Jonathan
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Chetan Bist
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Rongsen Jonathan
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chetan Bist
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Rongsen Jonathan
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Rongsen Jonathan
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Chetan Bist
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rongsen Jonathan
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Chetan Bist
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Rongsen Jonathan
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Chetan Bist
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Rongsen Jonathan
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Chetan Bist
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Chetan Bist
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rongsen Jonathan
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Chetan Bist
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Rongsen Jonathan
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Rongsen Jonathan
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Chetan Bist
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Chetan Bist
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Chetan Bist
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Chetan Bist
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+        wicket:
+          player_out: Chetan Bist
+          fielders:
+          - Nilesh Lamichaney
+          kind: run out
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: SS Mundhe
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Rongsen Jonathan
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Rongsen Jonathan
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: SS Mundhe
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Rongsen Jonathan
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: SS Mundhe
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: SS Mundhe
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rongsen Jonathan
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: SS Mundhe
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: SS Mundhe
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rongsen Jonathan
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Rongsen Jonathan
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Rongsen Jonathan
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: SS Mundhe
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Rongsen Jonathan
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: SS Mundhe
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Rongsen Jonathan
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Rongsen Jonathan
+        bowler: Rajiv Darjee
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SS Mundhe
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Rongsen Jonathan
+        bowler: Rajiv Darjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: SS Mundhe
+        bowler: Rajiv Darjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: SS Mundhe
+        bowler: Rajiv Darjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: SS Mundhe
+        bowler: Rajiv Darjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Rongsen Jonathan
+        bowler: Rajiv Darjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Rongsen Jonathan
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Rongsen Jonathan
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: SS Mundhe
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rongsen Jonathan
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: SS Mundhe
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rongsen Jonathan
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: SS Mundhe
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Rongsen Jonathan
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SS Mundhe
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: SS Mundhe
+        bowler: Rajiv Darjee
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rongsen Jonathan
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: SS Mundhe
+        bowler: Rajiv Darjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Rongsen Jonathan
+        bowler: Rajiv Darjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: SS Mundhe
+        bowler: Rajiv Darjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Rongsen Jonathan
+        bowler: Rajiv Darjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: SS Mundhe
+        bowler: Rajiv Darjee
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rongsen Jonathan
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Rongsen Jonathan
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Mundhe
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Rongsen Jonathan
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Mundhe
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Rongsen Jonathan
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: SS Mundhe
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rongsen Jonathan
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: SS Mundhe
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Rongsen Jonathan
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Rongsen Jonathan
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Mundhe
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Rongsen Jonathan
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SS Mundhe
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Rongsen Jonathan
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Mundhe
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Rongsen Jonathan
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: SS Mundhe
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Rongsen Jonathan
+        bowler: Mandup Bhutia
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SS Mundhe
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: SS Mundhe
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+        wicket:
+          player_out: Rongsen Jonathan
+          fielders:
+          - Palzor Tamang
+          kind: caught
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: STR Binny
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: STR Binny
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: STR Binny
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SS Mundhe
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: STR Binny
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+        wicket:
+          player_out: SS Mundhe
+          fielders:
+          - Lee Yong Lepcha
+          kind: caught
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Hokaito Zhimomi
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Hokaito Zhimomi
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: STR Binny
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: STR Binny
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hokaito Zhimomi
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Hokaito Zhimomi
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: STR Binny
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Hokaito Zhimomi
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: STR Binny
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hokaito Zhimomi
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: STR Binny
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: STR Binny
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hokaito Zhimomi
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: STR Binny
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: STR Binny
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hokaito Zhimomi
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Hokaito Zhimomi
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Hokaito Zhimomi
+        bowler: Ajay Pradhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Hokaito Zhimomi
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: STR Binny
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Hokaito Zhimomi
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: STR Binny
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: STR Binny
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: STR Binny
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: STR Binny
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Hokaito Zhimomi
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: STR Binny
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Hokaito Zhimomi
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: STR Binny
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: STR Binny
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: STR Binny
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hokaito Zhimomi
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Hokaito Zhimomi
+        bowler: Anureet Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: STR Binny
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Hokaito Zhimomi
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: STR Binny
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Hokaito Zhimomi
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: STR Binny
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Hokaito Zhimomi
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: STR Binny
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Hokaito Zhimomi
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: STR Binny
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hokaito Zhimomi
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: STR Binny
+        bowler: Varun Sood
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Hokaito Zhimomi
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: STR Binny
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: STR Binny
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: STR Binny
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hokaito Zhimomi
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Hokaito Zhimomi
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+        wicket:
+          player_out: STR Binny
+          fielders:
+          - Rajiv Darjee
+          kind: caught
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Hem Chetri
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hokaito Zhimomi
+- 2nd innings:
+    team: Sikkim
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Ashish Thapa
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nilesh Lamichaney
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Ashish Thapa
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nilesh Lamichaney
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Nilesh Lamichaney
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Thapa
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Ashish Thapa
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nilesh Lamichaney
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Ashish Thapa
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nilesh Lamichaney
+        wicket:
+          player_out: Nilesh Lamichaney
+          fielders:
+          - Chetan Bist
+          kind: caught
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Ashish Thapa
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Robin Bist
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Thapa
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Ashish Thapa
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Ashish Thapa
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Ashish Thapa
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Robin Bist
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Ashish Thapa
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+        wicket:
+          player_out: Robin Bist
+          kind: caught and bowled
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Ashish Thapa
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lee Yong Lepcha
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Lee Yong Lepcha
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Lee Yong Lepcha
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 5
+          batsman: 5
+        batsman: Ashish Thapa
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Ashish Thapa
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Lee Yong Lepcha
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Ashish Thapa
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lee Yong Lepcha
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Lee Yong Lepcha
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Thapa
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Ashish Thapa
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lee Yong Lepcha
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Lee Yong Lepcha
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Lee Yong Lepcha
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Thapa
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Ashish Thapa
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lee Yong Lepcha
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Ashish Thapa
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lee Yong Lepcha
+        wicket:
+          player_out: Ashish Thapa
+          fielders:
+          - Hem Chetri
+          kind: run out
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Lee Yong Lepcha
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Lee Yong Lepcha
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Palzor Tamang
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lee Yong Lepcha
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Lee Yong Lepcha
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Lee Yong Lepcha
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Lee Yong Lepcha
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+        wicket:
+          player_out: Palzor Tamang
+          fielders:
+          - Hem Chetri
+          kind: caught
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Lee Yong Lepcha
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Varun Sood
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Varun Sood
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lee Yong Lepcha
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Lee Yong Lepcha
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Varun Sood
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Lee Yong Lepcha
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Varun Sood
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Lee Yong Lepcha
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Varun Sood
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Lee Yong Lepcha
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Varun Sood
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Lee Yong Lepcha
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Varun Sood
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Varun Sood
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lee Yong Lepcha
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Lee Yong Lepcha
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Varun Sood
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Varun Sood
+        bowler: SS Mundhe
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Lee Yong Lepcha
+    - 6.3:
+        actual_delivery: '6.2'
+        non_striker: Varun Sood
+        bowler: SS Mundhe
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Lee Yong Lepcha
+    - 6.4:
+        actual_delivery: '6.3'
+        non_striker: Lee Yong Lepcha
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Varun Sood
+    - 6.5:
+        actual_delivery: '6.4'
+        non_striker: Lee Yong Lepcha
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Varun Sood
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: Varun Sood
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lee Yong Lepcha
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: Lee Yong Lepcha
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Varun Sood
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Varun Sood
+        bowler: Tahmeed Rahman
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Lee Yong Lepcha
+        wicket:
+          player_out: Lee Yong Lepcha
+          fielders:
+          - Chetan Bist
+          kind: stumped
+    - 7.2:
+        actual_delivery: '7.1'
+        non_striker: Varun Sood
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anureet Singh
+    - 7.3:
+        actual_delivery: '7.2'
+        non_striker: Anureet Singh
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Varun Sood
+    - 7.4:
+        actual_delivery: '7.3'
+        non_striker: Varun Sood
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anureet Singh
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: Anureet Singh
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Varun Sood
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Varun Sood
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Varun Sood
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Anureet Singh
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Anureet Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Varun Sood
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Varun Sood
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Varun Sood
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Varun Sood
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Varun Sood
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Varun Sood
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Anureet Singh
+        bowler: Joshua Ozukum
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Varun Sood
+        wicket:
+          player_out: Varun Sood
+          fielders:
+          - Chetan Bist
+          kind: caught
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Anureet Singh
+        bowler: Joshua Ozukum
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandup Bhutia
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Mandup Bhutia
+        bowler: Joshua Ozukum
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Anureet Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Mandup Bhutia
+        bowler: Joshua Ozukum
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Mandup Bhutia
+        bowler: Joshua Ozukum
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Mandup Bhutia
+        bowler: Joshua Ozukum
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anureet Singh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Mandup Bhutia
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anureet Singh
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Anureet Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandup Bhutia
+        wicket:
+          player_out: Mandup Bhutia
+          kind: bowled
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Anureet Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Md Saptula
+        wicket:
+          player_out: Md Saptula
+          kind: lbw
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Anureet Singh
+        bowler: Khrievitso Kense
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rajiv Darjee
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: Anureet Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajiv Darjee
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: Anureet Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rajiv Darjee
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: Anureet Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajiv Darjee
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Rajiv Darjee
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anureet Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Rajiv Darjee
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Rajiv Darjee
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Rajiv Darjee
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Rajiv Darjee
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Rajiv Darjee
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anureet Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Rajiv Darjee
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Rajiv Darjee
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anureet Singh
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Rajiv Darjee
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Anureet Singh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Rajiv Darjee
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anureet Singh
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Rajiv Darjee
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Anureet Singh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Rajiv Darjee
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+        wicket:
+          player_out: Anureet Singh
+          fielders:
+          - Khrievitso Kense
+          kind: run out
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Ajay Pradhan
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajiv Darjee
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Ajay Pradhan
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajiv Darjee
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Ajay Pradhan
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajiv Darjee
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Ajay Pradhan
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajiv Darjee
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Ajay Pradhan
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajiv Darjee
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Ajay Pradhan
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajiv Darjee
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Rajiv Darjee
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ajay Pradhan
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Rajiv Darjee
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ajay Pradhan
+        wicket:
+          player_out: Ajay Pradhan
+          kind: bowled

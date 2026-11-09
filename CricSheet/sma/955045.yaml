@@ -1,0 +1,2285 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-06'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2016-01-15'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Baroda
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Vidarbha:
+    - JM Sharma
+    - FY Fazal
+    - Ganesh Satish
+    - AV Wankhade
+    - RL Jangid
+    - UR Patel
+    - Akshay Karnewar
+    - RN Gurbani
+    - SS Bandiwar
+    - Akshay Wakhare
+    - Ravikumar Thakur
+    Baroda:
+    - IK Pathan
+    - MM Patel
+    - HH Pandya
+    - RT Arothe
+    - Swapnil Singh
+    - A Sheth
+    - KH Devdhar
+    - Mrunal Devdhar
+    - DJ Hooda
+    - YK Pathan
+    - PR Shah
+  registry:
+    people:
+      A Sheth: 4312e8f9
+      AV Wankhade: 5708d0b6
+      Akshay Karnewar: e1e7f950
+      Akshay Wakhare: ec9fc54b
+      DJ Hooda: 73ad96ed
+      FY Fazal: c15e2193
+      Ganesh Satish: 0ed1a112
+      HH Pandya: dbe50b21
+      IK Pathan: 5fa06777
+      JM Sharma: 800d2d97
+      KH Devdhar: 62e07f92
+      MM Patel: f0f628c7
+      Mrunal Devdhar: a1765140
+      PR Shah: 0aadc906
+      RL Jangid: fe5f2e48
+      RN Gurbani: bcaf7d33
+      RT Arothe: '50455929'
+      Ravikumar Thakur: 1ea4fbd5
+      SS Bandiwar: 8b91afb4
+      Swapnil Singh: 983f2f61
+      UR Patel: 64677a10
+      YK Pathan: 3c6ffae8
+    venues:
+      Wankhede Stadium, Mumbai: 9e236baa
+  teams:
+  - Vidarbha
+  - Baroda
+  toss:
+    winner: Baroda
+    decision: field
+  venue: Wankhede Stadium, Mumbai
+  team_type: club
+innings:
+- 1st innings:
+    team: Vidarbha
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: FY Fazal
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: JM Sharma
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: JM Sharma
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: FY Fazal
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: FY Fazal
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Sharma
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: FY Fazal
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: JM Sharma
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: FY Fazal
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: JM Sharma
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: JM Sharma
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: FY Fazal
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Sharma
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: FY Fazal
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: JM Sharma
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: FY Fazal
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: JM Sharma
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: JM Sharma
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: FY Fazal
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: JM Sharma
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+        wicket:
+          player_out: FY Fazal
+          fielders:
+          - HH Pandya
+          kind: caught
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Ganesh Satish
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Sharma
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Ganesh Satish
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Ganesh Satish
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: JM Sharma
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Ganesh Satish
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Ganesh Satish
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Ganesh Satish
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: JM Sharma
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: JM Sharma
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Ganesh Satish
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Ganesh Satish
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: JM Sharma
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ganesh Satish
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Ganesh Satish
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: JM Sharma
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ganesh Satish
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: JM Sharma
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ganesh Satish
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: JM Sharma
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: JM Sharma
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Ganesh Satish
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: JM Sharma
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ganesh Satish
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: JM Sharma
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: JM Sharma
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ganesh Satish
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: JM Sharma
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Ganesh Satish
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Ganesh Satish
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: JM Sharma
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Ganesh Satish
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Ganesh Satish
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Ganesh Satish
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: JM Sharma
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: JM Sharma
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ganesh Satish
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Ganesh Satish
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Ganesh Satish
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Ganesh Satish
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: JM Sharma
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: JM Sharma
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Ganesh Satish
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Ganesh Satish
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: JM Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Ganesh Satish
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: JM Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ganesh Satish
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: JM Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Ganesh Satish
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Ganesh Satish
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: JM Sharma
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Ganesh Satish
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Ganesh Satish
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Ganesh Satish
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Ganesh Satish
+        bowler: HH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Ganesh Satish
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+        wicket:
+          player_out: JM Sharma
+          fielders:
+          - KH Devdhar
+          kind: caught
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: AV Wankhade
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Ganesh Satish
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: AV Wankhade
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ganesh Satish
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: AV Wankhade
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Ganesh Satish
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Wankhade
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: AV Wankhade
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Ganesh Satish
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: AV Wankhade
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Ganesh Satish
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: AV Wankhade
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ganesh Satish
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: AV Wankhade
+        bowler: IK Pathan
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ganesh Satish
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: AV Wankhade
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ganesh Satish
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: AV Wankhade
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Ganesh Satish
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: AV Wankhade
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+        wicket:
+          player_out: Ganesh Satish
+          fielders:
+          - RT Arothe
+          kind: caught
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: RL Jangid
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: AV Wankhade
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RL Jangid
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: RL Jangid
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: AV Wankhade
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: RL Jangid
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: AV Wankhade
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RL Jangid
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: AV Wankhade
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: RL Jangid
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AV Wankhade
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: AV Wankhade
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: RL Jangid
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Wankhade
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: RL Jangid
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Wankhade
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: RL Jangid
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: AV Wankhade
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RL Jangid
+        wicket:
+          player_out: RL Jangid
+          fielders:
+          - DJ Hooda
+          kind: caught
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: UR Patel
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: UR Patel
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: AV Wankhade
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UR Patel
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: AV Wankhade
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UR Patel
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: AV Wankhade
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UR Patel
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: AV Wankhade
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UR Patel
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: AV Wankhade
+        bowler: MM Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: UR Patel
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: UR Patel
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: AV Wankhade
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UR Patel
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: UR Patel
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AV Wankhade
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: UR Patel
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: AV Wankhade
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: UR Patel
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: AV Wankhade
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UR Patel
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: AV Wankhade
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UR Patel
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: UR Patel
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AV Wankhade
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: UR Patel
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Wankhade
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: UR Patel
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: AV Wankhade
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UR Patel
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: UR Patel
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: UR Patel
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Wankhade
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: UR Patel
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: AV Wankhade
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: UR Patel
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: AV Wankhade
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UR Patel
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: UR Patel
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+        wicket:
+          player_out: AV Wankhade
+          fielders:
+          - DJ Hooda
+          kind: run out
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: UR Patel
+        bowler: IK Pathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Karnewar
+- 2nd innings:
+    team: Baroda
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Mrunal Devdhar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Mrunal Devdhar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Mrunal Devdhar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Devdhar
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Mrunal Devdhar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: KH Devdhar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Mrunal Devdhar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: KH Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Mrunal Devdhar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: KH Devdhar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Mrunal Devdhar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Devdhar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Mrunal Devdhar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: KH Devdhar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mrunal Devdhar
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: KH Devdhar
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mrunal Devdhar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: KH Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: KH Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Mrunal Devdhar
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Mrunal Devdhar
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Mrunal Devdhar
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Mrunal Devdhar
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Mrunal Devdhar
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Mrunal Devdhar
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+        wicket:
+          player_out: KH Devdhar
+          fielders:
+          - UR Patel
+          kind: caught
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: HH Pandya
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HH Pandya
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HH Pandya
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HH Pandya
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Mrunal Devdhar
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: HH Pandya
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: HH Pandya
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Mrunal Devdhar
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: HH Pandya
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: HH Pandya
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HH Pandya
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HH Pandya
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: HH Pandya
+    - 7.4:
+        actual_delivery: '7.3'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HH Pandya
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: HH Pandya
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Mrunal Devdhar
+        bowler: SS Bandiwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HH Pandya
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: HH Pandya
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Mrunal Devdhar
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: HH Pandya
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+        wicket:
+          player_out: Mrunal Devdhar
+          kind: lbw
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: HH Pandya
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: DJ Hooda
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: HH Pandya
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: HH Pandya
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: DJ Hooda
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HH Pandya
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: DJ Hooda
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: HH Pandya
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: HH Pandya
+        bowler: Akshay Wakhare
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: DJ Hooda
+    - 9.6:
+        actual_delivery: '9.5'
+        non_striker: HH Pandya
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 9.7:
+        actual_delivery: '9.6'
+        non_striker: DJ Hooda
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HH Pandya
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: HH Pandya
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+        wicket:
+          player_out: DJ Hooda
+          kind: lbw
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: HH Pandya
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: YK Pathan
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: HH Pandya
+        bowler: RL Jangid
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: YK Pathan
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: HH Pandya
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: YK Pathan
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: HH Pandya
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: YK Pathan
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: YK Pathan
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HH Pandya
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: YK Pathan
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HH Pandya
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: YK Pathan
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: HH Pandya
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: YK Pathan
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HH Pandya
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: YK Pathan
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: YK Pathan
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: HH Pandya
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YK Pathan
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: HH Pandya
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: YK Pathan
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: HH Pandya
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+        wicket:
+          player_out: YK Pathan
+          kind: bowled
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: HH Pandya
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IK Pathan
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: HH Pandya
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IK Pathan
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: HH Pandya
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IK Pathan
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: HH Pandya
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IK Pathan
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: IK Pathan
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: HH Pandya
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IK Pathan
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: IK Pathan
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HH Pandya
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: HH Pandya
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IK Pathan
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: IK Pathan
+        bowler: Akshay Karnewar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: HH Pandya
+    - 14.3:
+        actual_delivery: '14.2'
+        non_striker: IK Pathan
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 14.4:
+        actual_delivery: '14.3'
+        non_striker: HH Pandya
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IK Pathan
+    - 14.5:
+        actual_delivery: '14.4'
+        non_striker: IK Pathan
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 14.6:
+        actual_delivery: '14.5'
+        non_striker: HH Pandya
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IK Pathan
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: IK Pathan
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: IK Pathan
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HH Pandya
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: IK Pathan
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HH Pandya
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: IK Pathan
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HH Pandya
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: IK Pathan
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HH Pandya
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: IK Pathan
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: HH Pandya
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IK Pathan
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: HH Pandya
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: IK Pathan
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: HH Pandya
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: IK Pathan
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: HH Pandya
+        bowler: Ravikumar Thakur
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: IK Pathan
+    - 16.4:
+        actual_delivery: '16.3'
+        non_striker: HH Pandya
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IK Pathan
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: IK Pathan
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HH Pandya
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: IK Pathan
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HH Pandya
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: IK Pathan
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: IK Pathan
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: HH Pandya
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IK Pathan
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: IK Pathan
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HH Pandya
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: IK Pathan
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HH Pandya
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: IK Pathan
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: HH Pandya
+        bowler: RN Gurbani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: IK Pathan
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: IK Pathan
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HH Pandya
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: IK Pathan
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HH Pandya
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: IK Pathan
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HH Pandya
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: HH Pandya
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: IK Pathan
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: HH Pandya
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: IK Pathan
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: IK Pathan
+        bowler: Ravikumar Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HH Pandya

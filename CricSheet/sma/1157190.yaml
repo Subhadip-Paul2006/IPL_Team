@@ -1,0 +1,2366 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-03'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-02-28'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Services
+    by:
+      wickets: 4
+  overs: 20
+  players:
+    Hyderabad (India):
+    - Tanmay Agarwal
+    - PA Reddy
+    - Tilak Varma
+    - Rohit Rayudu
+    - Bavanaka Sandeep
+    - Kolla Sumanth
+    - Ravi Teja
+    - PS Sairam
+    - CV Milind
+    - Mehdi Hassan
+    - Mohammed Siraj
+    Services:
+    - Diwesh Pathania
+    - Sachidanand Pandey
+    - Mohit Kumar
+    - AP Sharma
+    - Vikas Yadav
+    - Rajat Paliwal
+    - Nakul Verma
+    - Ravi Chauhan
+    - Mohit Ahlawat
+    - Vikas Hathwala
+    - Rahul Singh
+  registry:
+    people:
+      AP Sharma: 12f75dbd
+      Bavanaka Sandeep: bc67cc22
+      CV Milind: 7b5b6311
+      Diwesh Pathania: a63563c0
+      Kolla Sumanth: b93a5d0b
+      Mehdi Hassan: 5876c626
+      Mohammed Siraj: 2f49c897
+      Mohit Ahlawat: 791b8fac
+      Mohit Kumar: caabc8e4
+      Nakul Verma: 38c0d699
+      PA Reddy: 2461eef2
+      PS Sairam: c08963b0
+      Rahul Singh: adf454e9
+      Rajat Paliwal: 2fcb040c
+      Ravi Chauhan: f7ce1f24
+      Ravi Teja: 5f39537c
+      Rohit Rayudu: b4587494
+      Sachidanand Pandey: f8c7484e
+      Tanmay Agarwal: e6e9b619
+      Tilak Varma: b0482a1d
+      Vikas Hathwala: 904585d1
+      Vikas Yadav: fa73f373
+    venues:
+      Palam A Ground, Model Sports Complex, Delhi: a84e4939
+  teams:
+  - Hyderabad (India)
+  - Services
+  toss:
+    winner: Services
+    decision: field
+  venue: Palam A Ground, Model Sports Complex, Delhi
+  team_type: club
+innings:
+- 1st innings:
+    team: Hyderabad (India)
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: PA Reddy
+        bowler: Diwesh Pathania
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 0.2:
+        actual_delivery: '0.1'
+        non_striker: PA Reddy
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: PA Reddy
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: PA Reddy
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: PA Reddy
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Tanmay Agarwal
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: PA Reddy
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Tanmay Agarwal
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Tanmay Agarwal
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Tanmay Agarwal
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Tanmay Agarwal
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Tanmay Agarwal
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Tanmay Agarwal
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Tanmay Agarwal
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: PA Reddy
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: PA Reddy
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: PA Reddy
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: PA Reddy
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Tanmay Agarwal
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: PA Reddy
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: PA Reddy
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Tanmay Agarwal
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Tanmay Agarwal
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Tanmay Agarwal
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PA Reddy
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Tanmay Agarwal
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: PA Reddy
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Tanmay Agarwal
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: PA Reddy
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: PA Reddy
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Tanmay Agarwal
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Tanmay Agarwal
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: PA Reddy
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: PA Reddy
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+        wicket:
+          player_out: Tanmay Agarwal
+          fielders:
+          - Rahul Singh
+          kind: caught
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Tilak Varma
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: PA Reddy
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: PA Reddy
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tilak Varma
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: PA Reddy
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Tilak Varma
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: PA Reddy
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Tilak Varma
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Tilak Varma
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Tilak Varma
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Tilak Varma
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Tilak Varma
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Tilak Varma
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Tilak Varma
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Tilak Varma
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: PA Reddy
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: PA Reddy
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: PA Reddy
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: PA Reddy
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: PA Reddy
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: PA Reddy
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+        wicket:
+          player_out: Tilak Varma
+          kind: lbw
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: PA Reddy
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohit Rayudu
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Rohit Rayudu
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Reddy
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: PA Reddy
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Rayudu
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: PA Reddy
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Rayudu
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: PA Reddy
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Rayudu
+        wicket:
+          player_out: Rohit Rayudu
+          fielders:
+          - Rajat Paliwal
+          kind: run out
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Bavanaka Sandeep
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: PA Reddy
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Bavanaka Sandeep
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: PA Reddy
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Bavanaka Sandeep
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Bavanaka Sandeep
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: PA Reddy
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+        wicket:
+          player_out: PA Reddy
+          fielders:
+          - Rahul Singh
+          kind: run out
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Kolla Sumanth
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Bavanaka Sandeep
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Bavanaka Sandeep
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Bavanaka Sandeep
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Kolla Sumanth
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Bavanaka Sandeep
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Kolla Sumanth
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Kolla Sumanth
+        bowler: AP Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Kolla Sumanth
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Bavanaka Sandeep
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kolla Sumanth
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Bavanaka Sandeep
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Kolla Sumanth
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Bavanaka Sandeep
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Kolla Sumanth
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Bavanaka Sandeep
+        bowler: Rajat Paliwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Kolla Sumanth
+        bowler: Rajat Paliwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Bavanaka Sandeep
+        bowler: Rajat Paliwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+        wicket:
+          player_out: Kolla Sumanth
+          fielders:
+          - Nakul Verma
+          kind: stumped
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Bavanaka Sandeep
+        bowler: Rajat Paliwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Ravi Teja
+        bowler: Rajat Paliwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Bavanaka Sandeep
+        bowler: Rajat Paliwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Bavanaka Sandeep
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Ravi Teja
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Bavanaka Sandeep
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ravi Teja
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Bavanaka Sandeep
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Ravi Teja
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Bavanaka Sandeep
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Ravi Teja
+        bowler: Vikas Yadav
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: Ravi Teja
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Ravi Teja
+        bowler: Rajat Paliwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Ravi Teja
+        bowler: Rajat Paliwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Bavanaka Sandeep
+        bowler: Rajat Paliwal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ravi Teja
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Bavanaka Sandeep
+        bowler: Rajat Paliwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Ravi Teja
+        bowler: Rajat Paliwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Ravi Teja
+        bowler: Rajat Paliwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+        wicket:
+          player_out: Bavanaka Sandeep
+          fielders:
+          - Nakul Verma
+          kind: stumped
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: PS Sairam
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Ravi Teja
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PS Sairam
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Ravi Teja
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PS Sairam
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: PS Sairam
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Ravi Teja
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PS Sairam
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Ravi Teja
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PS Sairam
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: PS Sairam
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravi Teja
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: PS Sairam
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ravi Teja
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: PS Sairam
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Ravi Teja
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PS Sairam
+        wicket:
+          player_out: PS Sairam
+          fielders:
+          - AP Sharma
+          kind: caught
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Ravi Teja
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CV Milind
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Ravi Teja
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CV Milind
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: CV Milind
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravi Teja
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: CV Milind
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Ravi Teja
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Milind
+        wicket:
+          player_out: CV Milind
+          fielders:
+          - Nakul Verma
+          kind: caught
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Ravi Teja
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mehdi Hassan
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Mehdi Hassan
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ravi Teja
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Mehdi Hassan
+        bowler: Sachidanand Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Mehdi Hassan
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Ravi Teja
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mehdi Hassan
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Ravi Teja
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mehdi Hassan
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Ravi Teja
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mehdi Hassan
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Mehdi Hassan
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Teja
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Mehdi Hassan
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravi Teja
+- 2nd innings:
+    team: Services
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Ravi Chauhan
+        bowler: Mehdi Hassan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Nakul Verma
+    - 0.2:
+        actual_delivery: '0.1'
+        non_striker: Ravi Chauhan
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nakul Verma
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: Nakul Verma
+        bowler: Mehdi Hassan
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Ravi Chauhan
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nakul Verma
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Ravi Chauhan
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nakul Verma
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Ravi Chauhan
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nakul Verma
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Ravi Chauhan
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Nakul Verma
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Nakul Verma
+        bowler: Mohammed Siraj
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 1.2:
+        actual_delivery: '1.1'
+        non_striker: Nakul Verma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ravi Chauhan
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: Nakul Verma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravi Chauhan
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Nakul Verma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Ravi Chauhan
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nakul Verma
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Nakul Verma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Ravi Chauhan
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nakul Verma
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Ravi Chauhan
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Nakul Verma
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Ravi Chauhan
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nakul Verma
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Nakul Verma
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Ravi Chauhan
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nakul Verma
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Nakul Verma
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Nakul Verma
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Nakul Verma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Nakul Verma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Ravi Chauhan
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nakul Verma
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Nakul Verma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+        wicket:
+          player_out: Ravi Chauhan
+          kind: bowled
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Nakul Verma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohit Ahlawat
+        wicket:
+          player_out: Mohit Ahlawat
+          kind: bowled
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Nakul Verma
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Nakul Verma
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Paliwal
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Nakul Verma
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Paliwal
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Nakul Verma
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Rajat Paliwal
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Nakul Verma
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Rajat Paliwal
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nakul Verma
+        wicket:
+          player_out: Nakul Verma
+          fielders:
+          - Mehdi Hassan
+          kind: caught
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Vikas Hathwala
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Paliwal
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Rajat Paliwal
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikas Hathwala
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Rajat Paliwal
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikas Hathwala
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Rajat Paliwal
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Vikas Hathwala
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Paliwal
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Vikas Hathwala
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Paliwal
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Vikas Hathwala
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rajat Paliwal
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Rajat Paliwal
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Vikas Hathwala
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rajat Paliwal
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Vikas Hathwala
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Paliwal
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Vikas Hathwala
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Paliwal
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Vikas Hathwala
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Paliwal
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Vikas Hathwala
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Vikas Hathwala
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Paliwal
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Vikas Hathwala
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Paliwal
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Vikas Hathwala
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Paliwal
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Vikas Hathwala
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Paliwal
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Vikas Hathwala
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Rajat Paliwal
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikas Hathwala
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Vikas Hathwala
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Rajat Paliwal
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikas Hathwala
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Rajat Paliwal
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vikas Hathwala
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Rajat Paliwal
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vikas Hathwala
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Rajat Paliwal
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Vikas Hathwala
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Vikas Hathwala
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Rajat Paliwal
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikas Hathwala
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Rajat Paliwal
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Vikas Hathwala
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Paliwal
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Vikas Hathwala
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Rajat Paliwal
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vikas Hathwala
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Vikas Hathwala
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Rajat Paliwal
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikas Hathwala
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Rajat Paliwal
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Vikas Hathwala
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Rajat Paliwal
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Vikas Hathwala
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Vikas Hathwala
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Paliwal
+        wicket:
+          player_out: Rajat Paliwal
+          kind: lbw
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Vikas Hathwala
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Rahul Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Vikas Hathwala
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Vikas Hathwala
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Rahul Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vikas Hathwala
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Vikas Hathwala
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Rahul Singh
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Vikas Hathwala
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Rahul Singh
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Vikas Hathwala
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Rahul Singh
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Rahul Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikas Hathwala
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Rahul Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Vikas Hathwala
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rahul Singh
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Vikas Hathwala
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rahul Singh
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Vikas Hathwala
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Rahul Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vikas Hathwala
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Vikas Hathwala
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Vikas Hathwala
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Vikas Hathwala
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Rahul Singh
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Vikas Hathwala
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Rahul Singh
+        bowler: PS Sairam
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Vikas Hathwala
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: Rahul Singh
+        bowler: PS Sairam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Rahul Singh
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Vikas Hathwala
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Vikas Hathwala
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Rahul Singh
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vikas Hathwala
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Rahul Singh
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vikas Hathwala
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Rahul Singh
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Rahul Singh
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Vikas Hathwala
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Rahul Singh
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikas Hathwala
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Rahul Singh
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Vikas Hathwala
+        bowler: CV Milind
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rahul Singh
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: Vikas Hathwala
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: Rahul Singh
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikas Hathwala
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Vikas Hathwala
+        bowler: Mohammed Siraj
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rahul Singh
+    - 17.2:
+        actual_delivery: '17.1'
+        non_striker: Vikas Hathwala
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+        wicket:
+          player_out: Rahul Singh
+          fielders:
+          - Kolla Sumanth
+          kind: caught
+    - 17.3:
+        actual_delivery: '17.2'
+        non_striker: Vikas Hathwala
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AP Sharma
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: Vikas Hathwala
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AP Sharma
+        wicket:
+          player_out: AP Sharma
+          fielders:
+          - Tilak Varma
+          kind: caught
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Vikas Hathwala
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Diwesh Pathania
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Vikas Hathwala
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Diwesh Pathania
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Vikas Hathwala
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Diwesh Pathania
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Diwesh Pathania
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vikas Hathwala
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Diwesh Pathania
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Vikas Hathwala
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Diwesh Pathania
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Diwesh Pathania
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Vikas Hathwala
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Diwesh Pathania
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Diwesh Pathania
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vikas Hathwala
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Vikas Hathwala
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Diwesh Pathania
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Diwesh Pathania
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vikas Hathwala
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Diwesh Pathania
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikas Hathwala
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Diwesh Pathania
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vikas Hathwala

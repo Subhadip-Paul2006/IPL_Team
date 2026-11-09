@@ -1,0 +1,2402 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-09'
+  revision: 3
+info:
+  balls_per_over: 6
+  city: Kolkata
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2022-11-01'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Vidarbha
+    by:
+      runs: 1
+  overs: 20
+  players:
+    Vidarbha:
+    - Harsh Dubey
+    - Atharva Taide
+    - Sanjay Raghunath
+    - Akshay Wadkar
+    - AV Wankhade
+    - JM Sharma
+    - SB Dubey
+    - Akshay Karnewar
+    - AA Sarwate
+    - DG Nalkande
+    - UT Yadav
+    - Yash Thakur
+    Delhi:
+    - Navdeep Saini
+    - Himmat Singh
+    - S Dhawan
+    - YV Dhull
+    - N Rana
+    - A Badoni
+    - Lalit Yadav
+    - L Thareja
+    - Shivank Vashisth
+    - I Sharma
+    - K Khejroliya
+    - MP Yadav
+  registry:
+    people:
+      A Badoni: 872b03f7
+      AA Sarwate: 8996a9a0
+      AV Wankhade: 5708d0b6
+      Akshay Karnewar: e1e7f950
+      Akshay Wadkar: c88c8a7d
+      Atharva Taide: 1ac746c8
+      Chirra Ravikanthreddy: 8b680f55
+      DG Nalkande: cd8d2859
+      DS Manohar: b35f3ac8
+      Harsh Dubey: '25228673'
+      Himmat Singh: ebcfef83
+      I Sharma: 5bb1a1c4
+      J Madanagopal: 8275b04a
+      JM Sharma: 800d2d97
+      K Khejroliya: fa2f1dde
+      L Thareja: f38fcf70
+      Lalit Yadav: ad427b5c
+      MP Yadav: b1ad996b
+      N Rana: fb2d1dda
+      Navdeep Saini: 21d4e29b
+      S Dhawan: 0a476045
+      SB Dubey: 6b2ff18f
+      Sanjay Raghunath: a717c88e
+      Shivank Vashisth: 3a922344
+      UT Yadav: cc1e8c68
+      YV Dhull: dd7e9b3b
+      Yash Thakur: 4b31f3a3
+    venues:
+      Jadavpur University Campus 2nd Ground, Kolkata: d7e89a1f
+  teams:
+  - Vidarbha
+  - Delhi
+  toss:
+    winner: Delhi
+    decision: field
+  umpires:
+  - Chirra Ravikanthreddy
+  - J Madanagopal
+  venue: Jadavpur University Campus 2nd Ground, Kolkata
+  team_type: club
+innings:
+- 1st innings:
+    team: Vidarbha
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Sanjay Raghunath
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Sanjay Raghunath
+        bowler: I Sharma
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Atharva Taide
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Atharva Taide
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjay Raghunath
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Atharva Taide
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjay Raghunath
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Atharva Taide
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjay Raghunath
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Atharva Taide
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjay Raghunath
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Sanjay Raghunath
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Atharva Taide
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sanjay Raghunath
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Atharva Taide
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Sanjay Raghunath
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+        wicket:
+          player_out: Atharva Taide
+          fielders:
+          - YV Dhull
+          kind: caught
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Sanjay Raghunath
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Akshay Wadkar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjay Raghunath
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Sanjay Raghunath
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akshay Wadkar
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Sanjay Raghunath
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Sanjay Raghunath
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Sanjay Raghunath
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Akshay Wadkar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Sanjay Raghunath
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Akshay Wadkar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Sanjay Raghunath
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akshay Wadkar
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Sanjay Raghunath
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Akshay Wadkar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Sanjay Raghunath
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Sanjay Raghunath
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Sanjay Raghunath
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Sanjay Raghunath
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akshay Wadkar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Sanjay Raghunath
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akshay Wadkar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Sanjay Raghunath
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Akshay Wadkar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sanjay Raghunath
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Akshay Wadkar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Akshay Wadkar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sanjay Raghunath
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Akshay Wadkar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjay Raghunath
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Akshay Wadkar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjay Raghunath
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Akshay Wadkar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjay Raghunath
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Akshay Wadkar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Sanjay Raghunath
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Sanjay Raghunath
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Akshay Wadkar
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Sanjay Raghunath
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Sanjay Raghunath
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Akshay Wadkar
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sanjay Raghunath
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Akshay Wadkar
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Akshay Wadkar
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Sanjay Raghunath
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Akshay Wadkar
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Sanjay Raghunath
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Sanjay Raghunath
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Sanjay Raghunath
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Akshay Wadkar
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Sanjay Raghunath
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Akshay Wadkar
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Sanjay Raghunath
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akshay Wadkar
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Sanjay Raghunath
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Sanjay Raghunath
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Sanjay Raghunath
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Akshay Wadkar
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjay Raghunath
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Akshay Wadkar
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Sanjay Raghunath
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Sanjay Raghunath
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Akshay Wadkar
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Akshay Wadkar
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjay Raghunath
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Sanjay Raghunath
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Akshay Wadkar
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjay Raghunath
+        wicket:
+          player_out: Sanjay Raghunath
+          fielders:
+          - Navdeep Saini
+          kind: caught
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Akshay Wadkar
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AV Wankhade
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Akshay Wadkar
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: AV Wankhade
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Akshay Wadkar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Wankhade
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Akshay Wadkar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: AV Wankhade
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: AV Wankhade
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Akshay Wadkar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Wankhade
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Akshay Wadkar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Akshay Wadkar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AV Wankhade
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Akshay Wadkar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: AV Wankhade
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Akshay Wadkar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: AV Wankhade
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Akshay Wadkar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Wankhade
+        wicket:
+          player_out: AV Wankhade
+          fielders:
+          - N Rana
+          kind: caught
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: JM Sharma
+        bowler: MP Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          match:
+          - in: MP Yadav
+            out: Navdeep Saini
+            team: Delhi
+            reason: impact_player
+        batsman: Akshay Wadkar
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Akshay Wadkar
+        bowler: MP Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Akshay Wadkar
+        bowler: MP Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: JM Sharma
+        bowler: MP Yadav
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Akshay Wadkar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Akshay Wadkar
+        bowler: MP Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Akshay Wadkar
+        bowler: MP Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: JM Sharma
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: JM Sharma
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akshay Wadkar
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: JM Sharma
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Akshay Wadkar
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: JM Sharma
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Akshay Wadkar
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Akshay Wadkar
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Akshay Wadkar
+        bowler: MP Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: JM Sharma
+        bowler: MP Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Akshay Wadkar
+        bowler: MP Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Akshay Wadkar
+        bowler: MP Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Akshay Wadkar
+        bowler: MP Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Akshay Wadkar
+        bowler: MP Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+        wicket:
+          player_out: JM Sharma
+          fielders:
+          - Lalit Yadav
+          kind: caught
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: SB Dubey
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Akshay Wadkar
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: SB Dubey
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Akshay Wadkar
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: SB Dubey
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Akshay Wadkar
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: SB Dubey
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: SB Dubey
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Akshay Wadkar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Dubey
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Akshay Wadkar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SB Dubey
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Akshay Wadkar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SB Dubey
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Akshay Wadkar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Dubey
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Akshay Wadkar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Dubey
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: SB Dubey
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Akshay Wadkar
+        bowler: I Sharma
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: SB Dubey
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: SB Dubey
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: SB Dubey
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akshay Wadkar
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: SB Dubey
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Akshay Wadkar
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: SB Dubey
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Akshay Wadkar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: SB Dubey
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+        wicket:
+          player_out: Akshay Wadkar
+          fielders:
+          - K Khejroliya
+          kind: run out
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Akshay Karnewar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SB Dubey
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Akshay Karnewar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SB Dubey
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Akshay Karnewar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SB Dubey
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Akshay Karnewar
+        bowler: K Khejroliya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SB Dubey
+- 2nd innings:
+    team: Delhi
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: S Dhawan
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: S Dhawan
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Himmat Singh
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Himmat Singh
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Himmat Singh
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Himmat Singh
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: S Dhawan
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: S Dhawan
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: S Dhawan
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Himmat Singh
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Himmat Singh
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Himmat Singh
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: S Dhawan
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: S Dhawan
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: S Dhawan
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: S Dhawan
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: S Dhawan
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: S Dhawan
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Himmat Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Himmat Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Himmat Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: S Dhawan
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: S Dhawan
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Himmat Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: S Dhawan
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: S Dhawan
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Himmat Singh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: S Dhawan
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Himmat Singh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Himmat Singh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: S Dhawan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+        wicket:
+          player_out: Himmat Singh
+          fielders:
+          - AA Sarwate
+          kind: caught
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: S Dhawan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: S Dhawan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: YV Dhull
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: S Dhawan
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: YV Dhull
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: YV Dhull
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: YV Dhull
+        bowler: Akshay Karnewar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: S Dhawan
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: YV Dhull
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: YV Dhull
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: S Dhawan
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: S Dhawan
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: S Dhawan
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: YV Dhull
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: YV Dhull
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: YV Dhull
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dhawan
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: S Dhawan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: S Dhawan
+        bowler: Yash Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: YV Dhull
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: S Dhawan
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: YV Dhull
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dhawan
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: S Dhawan
+        bowler: AA Sarwate
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: YV Dhull
+    - 8.2:
+        actual_delivery: '8.1'
+        non_striker: S Dhawan
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 8.3:
+        actual_delivery: '8.2'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dhawan
+        wicket:
+          player_out: S Dhawan
+          fielders:
+          - JM Sharma
+          kind: caught
+    - 8.4:
+        actual_delivery: '8.3'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 8.5:
+        actual_delivery: '8.4'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: N Rana
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: N Rana
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: YV Dhull
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Rana
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: YV Dhull
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: N Rana
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: YV Dhull
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: N Rana
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: N Rana
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: N Rana
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: N Rana
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: YV Dhull
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: N Rana
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: YV Dhull
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: N Rana
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: YV Dhull
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Rana
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: N Rana
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+        wicket:
+          player_out: N Rana
+          kind: lbw
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: A Badoni
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: YV Dhull
+        bowler: AA Sarwate
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: YV Dhull
+        bowler: Harsh Dubey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          match:
+          - in: Harsh Dubey
+            out: SB Dubey
+            team: Vidarbha
+            reason: impact_player
+        batsman: A Badoni
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: YV Dhull
+        bowler: Harsh Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: A Badoni
+        bowler: Harsh Dubey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: YV Dhull
+    - 13.4:
+        actual_delivery: '13.3'
+        non_striker: A Badoni
+        bowler: Harsh Dubey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 13.5:
+        actual_delivery: '13.4'
+        non_striker: A Badoni
+        bowler: Harsh Dubey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: YV Dhull
+    - 13.6:
+        actual_delivery: '13.5'
+        non_striker: YV Dhull
+        bowler: Harsh Dubey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Badoni
+    - 13.7:
+        actual_delivery: '13.6'
+        non_striker: YV Dhull
+        bowler: Harsh Dubey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: A Badoni
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: YV Dhull
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: YV Dhull
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: A Badoni
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: A Badoni
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: YV Dhull
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: A Badoni
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: YV Dhull
+        bowler: Harsh Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: A Badoni
+        bowler: Harsh Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: YV Dhull
+        bowler: Harsh Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: A Badoni
+        bowler: Harsh Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: YV Dhull
+        bowler: Harsh Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: A Badoni
+        bowler: Harsh Dubey
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: YV Dhull
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: A Badoni
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: YV Dhull
+        bowler: UT Yadav
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: A Badoni
+    - 16.3:
+        actual_delivery: '16.2'
+        non_striker: YV Dhull
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 16.4:
+        actual_delivery: '16.3'
+        non_striker: A Badoni
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YV Dhull
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: A Badoni
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YV Dhull
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: A Badoni
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: YV Dhull
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: YV Dhull
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+        wicket:
+          player_out: A Badoni
+          fielders:
+          - JM Sharma
+          kind: caught
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: YV Dhull
+        bowler: Yash Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Lalit Yadav
+    - 17.3:
+        actual_delivery: '17.2'
+        non_striker: YV Dhull
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Lalit Yadav
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: YV Dhull
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Lalit Yadav
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: YV Dhull
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Lalit Yadav
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: YV Dhull
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Lalit Yadav
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Lalit Yadav
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YV Dhull
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Lalit Yadav
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: YV Dhull
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Lalit Yadav
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: YV Dhull
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Lalit Yadav
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Lalit Yadav
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: YV Dhull
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+        wicket:
+          player_out: Lalit Yadav
+          fielders:
+          - AV Wankhade
+          kind: caught
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: YV Dhull
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: L Thareja
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: YV Dhull
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Thareja
+        wicket:
+          player_out: L Thareja
+          fielders:
+          - Sanjay Raghunath
+          kind: caught
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: YV Dhull
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivank Vashisth
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Shivank Vashisth
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    target:
+      overs: 20
+      runs: 158

@@ -1,0 +1,1932 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-03'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-03-02'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Delhi
+    by:
+      wickets: 7
+  overs: 20
+  players:
+    Nagaland:
+    - Aditya
+    - Sedezhalie Rupero
+    - Rongsen Jonathan
+    - Paras Sehrawat
+    - Manjinder Singh
+    - Toni Chishi
+    - Dhavanath
+    - Tahmeed Rahman
+    - Imliwati Lemtur
+    - P Suyal
+    - Gaurav
+    Delhi:
+    - Suboth Bhati
+    - Gaurav Kumar
+    - Pranshu Vijayran
+    - P Negi
+    - Lalit Yadav
+    - N Rana
+    - UBT Chand
+    - Hiten Dalal
+    - Himmat Singh
+    - DR Shorey
+    - Anuj Rawat
+  registry:
+    people:
+      Aditya: b6b1155c
+      Anuj Rawat: c8f5f961
+      DR Shorey: faa7365d
+      Dhavanath: 3d894b46
+      Gaurav: edb80f24
+      Gaurav Kumar: 77616b3f
+      Himmat Singh: ebcfef83
+      Hiten Dalal: 74bace71
+      Imliwati Lemtur: 76a33e00
+      Lalit Yadav: ad427b5c
+      Manjinder Singh: 783e8d4d
+      N Rana: fb2d1dda
+      P Negi: f62772e5
+      P Suyal: cedc1d9a
+      Paras Sehrawat: 302a90a6
+      Pranshu Vijayran: f0380005
+      Rongsen Jonathan: d4753890
+      Sedezhalie Rupero: e49574d6
+      Suboth Bhati: bee290b6
+      Tahmeed Rahman: 13903f13
+      Toni Chishi: dabf96a5
+      UBT Chand: 0c94f480
+    venues:
+      Chukkapalli Pitchaiah Cricket Ground, Mulapadu: 8332a4ff
+  teams:
+  - Nagaland
+  - Delhi
+  toss:
+    winner: Nagaland
+    decision: bat
+  venue: Chukkapalli Pitchaiah Cricket Ground, Mulapadu
+  team_type: club
+innings:
+- 1st innings:
+    team: Nagaland
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Sedezhalie Rupero
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Sedezhalie Rupero
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Sedezhalie Rupero
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+        wicket:
+          player_out: Sedezhalie Rupero
+          fielders:
+          - Suboth Bhati
+          kind: run out
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Rongsen Jonathan
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Rongsen Jonathan
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Rongsen Jonathan
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Aditya
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rongsen Jonathan
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Aditya
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Rongsen Jonathan
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Rongsen Jonathan
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Rongsen Jonathan
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Aditya
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Aditya
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Aditya
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+        wicket:
+          player_out: Rongsen Jonathan
+          kind: bowled
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Aditya
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Paras Sehrawat
+        wicket:
+          player_out: Paras Sehrawat
+          fielders:
+          - Anuj Rawat
+          kind: caught
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Aditya
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manjinder Singh
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Aditya
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manjinder Singh
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Aditya
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Manjinder Singh
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Manjinder Singh
+        bowler: Gaurav Kumar
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: Aditya
+    - 3.2:
+        actual_delivery: '3.1'
+        non_striker: Manjinder Singh
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: Manjinder Singh
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: Manjinder Singh
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Manjinder Singh
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Aditya
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Manjinder Singh
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Aditya
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manjinder Singh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Manjinder Singh
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Manjinder Singh
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Aditya
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manjinder Singh
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Manjinder Singh
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Aditya
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manjinder Singh
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Manjinder Singh
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Aditya
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Aditya
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manjinder Singh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Aditya
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manjinder Singh
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Manjinder Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Manjinder Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Aditya
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manjinder Singh
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Aditya
+        bowler: P Negi
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Manjinder Singh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Aditya
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manjinder Singh
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Aditya
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manjinder Singh
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Manjinder Singh
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aditya
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Manjinder Singh
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Manjinder Singh
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aditya
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Manjinder Singh
+        bowler: Pranshu Vijayran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Manjinder Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Manjinder Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Manjinder Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Aditya
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manjinder Singh
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Manjinder Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Manjinder Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Aditya
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manjinder Singh
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Manjinder Singh
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Manjinder Singh
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Aditya
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Manjinder Singh
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Manjinder Singh
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Aditya
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manjinder Singh
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Manjinder Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Manjinder Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Aditya
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manjinder Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Aditya
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manjinder Singh
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Manjinder Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Aditya
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manjinder Singh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Manjinder Singh
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Manjinder Singh
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aditya
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Manjinder Singh
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Aditya
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manjinder Singh
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Manjinder Singh
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Manjinder Singh
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Aditya
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manjinder Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Manjinder Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Aditya
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manjinder Singh
+        wicket:
+          player_out: Manjinder Singh
+          kind: lbw
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Aditya
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Toni Chishi
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Aditya
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Toni Chishi
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Aditya
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Toni Chishi
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Toni Chishi
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Aditya
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Toni Chishi
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Toni Chishi
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Aditya
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Toni Chishi
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Toni Chishi
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya
+        wicket:
+          player_out: Aditya
+          fielders:
+          - Pranshu Vijayran
+          kind: run out
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Toni Chishi
+        bowler: Gaurav Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhavanath
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Dhavanath
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Toni Chishi
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Toni Chishi
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhavanath
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Toni Chishi
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhavanath
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Dhavanath
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Toni Chishi
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Dhavanath
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Toni Chishi
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Dhavanath
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Toni Chishi
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Dhavanath
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Toni Chishi
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Toni Chishi
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhavanath
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Toni Chishi
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhavanath
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Toni Chishi
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhavanath
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Toni Chishi
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhavanath
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Toni Chishi
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhavanath
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Dhavanath
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Toni Chishi
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Toni Chishi
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhavanath
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Toni Chishi
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhavanath
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Toni Chishi
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Dhavanath
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Dhavanath
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Toni Chishi
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Toni Chishi
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhavanath
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Dhavanath
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Toni Chishi
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Dhavanath
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Toni Chishi
+        wicket:
+          player_out: Dhavanath
+          fielders:
+          - UBT Chand
+          kind: run out
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Toni Chishi
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tahmeed Rahman
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Toni Chishi
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tahmeed Rahman
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Tahmeed Rahman
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Toni Chishi
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Tahmeed Rahman
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Toni Chishi
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Toni Chishi
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tahmeed Rahman
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Toni Chishi
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tahmeed Rahman
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Tahmeed Rahman
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Toni Chishi
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Toni Chishi
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tahmeed Rahman
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Toni Chishi
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tahmeed Rahman
+        wicket:
+          player_out: Tahmeed Rahman
+          fielders:
+          - Pranshu Vijayran
+          kind: caught
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Imliwati Lemtur
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Toni Chishi
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Toni Chishi
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imliwati Lemtur
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Toni Chishi
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Imliwati Lemtur
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Toni Chishi
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imliwati Lemtur
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Toni Chishi
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imliwati Lemtur
+        wicket:
+          player_out: Imliwati Lemtur
+          kind: bowled
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Toni Chishi
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Suyal
+        wicket:
+          player_out: P Suyal
+          kind: caught and bowled
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Toni Chishi
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gaurav
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Gaurav
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Toni Chishi
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Toni Chishi
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Gaurav
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Toni Chishi
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gaurav
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Gaurav
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Toni Chishi
+        wicket:
+          player_out: Toni Chishi
+          fielders:
+          - Pranshu Vijayran
+          kind: caught
+- 2nd innings:
+    team: Delhi
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: UBT Chand
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: UBT Chand
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: UBT Chand
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: UBT Chand
+        bowler: Gaurav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hiten Dalal
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: UBT Chand
+        bowler: Gaurav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: UBT Chand
+        bowler: Gaurav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Hiten Dalal
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: UBT Chand
+        bowler: Gaurav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Hiten Dalal
+        bowler: Gaurav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: UBT Chand
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Hiten Dalal
+        bowler: Gaurav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        extras:
+          wides: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: UBT Chand
+    - 2.3:
+        actual_delivery: '2.2'
+        non_striker: UBT Chand
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: UBT Chand
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: UBT Chand
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Hiten Dalal
+        bowler: Manjinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+        wicket:
+          player_out: UBT Chand
+          fielders:
+          - Paras Sehrawat
+          kind: caught
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Hiten Dalal
+        bowler: Manjinder Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: N Rana
+        bowler: Manjinder Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Hiten Dalal
+        bowler: Manjinder Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: N Rana
+        bowler: Manjinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: N Rana
+        bowler: Manjinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: N Rana
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+        wicket:
+          player_out: N Rana
+          kind: bowled
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Himmat Singh
+        bowler: Manjinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Himmat Singh
+        bowler: Manjinder Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hiten Dalal
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Himmat Singh
+        bowler: Manjinder Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hiten Dalal
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Himmat Singh
+        bowler: Manjinder Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hiten Dalal
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Himmat Singh
+        bowler: Manjinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Himmat Singh
+        bowler: Manjinder Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hiten Dalal
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Himmat Singh
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Himmat Singh
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Hiten Dalal
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Himmat Singh
+        bowler: P Suyal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Himmat Singh
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hiten Dalal
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Himmat Singh
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hiten Dalal
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Himmat Singh
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Himmat Singh
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Hiten Dalal
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himmat Singh
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Hiten Dalal
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Hiten Dalal
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Hiten Dalal
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Himmat Singh
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Himmat Singh
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Himmat Singh
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Hiten Dalal
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Himmat Singh
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Hiten Dalal
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Hiten Dalal
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Himmat Singh
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hiten Dalal
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Himmat Singh
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hiten Dalal
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Himmat Singh
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Himmat Singh
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Hiten Dalal
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Himmat Singh
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hiten Dalal
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Himmat Singh
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hiten Dalal
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Himmat Singh
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hiten Dalal
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Hiten Dalal
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Hiten Dalal
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himmat Singh
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Himmat Singh
+        bowler: Gaurav
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Hiten Dalal
+    - 11.2:
+        actual_delivery: '11.1'
+        non_striker: Himmat Singh
+        bowler: Gaurav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hiten Dalal
+    - 11.3:
+        actual_delivery: '11.2'
+        non_striker: Himmat Singh
+        bowler: Gaurav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hiten Dalal
+    - 11.4:
+        actual_delivery: '11.3'
+        non_striker: Himmat Singh
+        bowler: Gaurav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+        wicket:
+          player_out: Hiten Dalal
+          fielders:
+          - Aditya
+          kind: caught
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: DR Shorey
+        bowler: Gaurav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: Himmat Singh
+        bowler: Gaurav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Shorey
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: Himmat Singh
+        bowler: Gaurav
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: DR Shorey
+    - 11.8:
+        actual_delivery: '11.6'
+        non_striker: Himmat Singh
+        bowler: Gaurav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DR Shorey
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: DR Shorey
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: DR Shorey
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Himmat Singh
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Shorey

@@ -1,0 +1,2331 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-06'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2016-01-02'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Services
+    by:
+      wickets: 3
+  overs: 20
+  players:
+    Karnataka:
+    - Mohammed Taha
+    - MA Agarwal
+    - RV Uthappa
+    - KK Nair
+    - STR Binny
+    - CM Gautam
+    - R Vinay Kumar
+    - J Suchith
+    - A Mithun
+    - S Aravind
+    - KC Cariappa
+    Services:
+    - Raushan Raj
+    - Nitin Yadav
+    - D Rai
+    - Sumit Singh
+    - Avishek Sinha
+    - Aanshul Gupta
+    - Devender Lohchab
+    - Nakul Verma
+    - Rajat Paliwal
+    - Yashpal Singh
+    - SR Swain
+  registry:
+    people:
+      A Mithun: 66cf56a5
+      Aanshul Gupta: 71ee052e
+      Avishek Sinha: 9fc68dcb
+      CM Gautam: 30a2649b
+      D Rai: 549fdc26
+      Devender Lohchab: 92ac032e
+      J Suchith: 4125d931
+      KC Cariappa: edb3d4f8
+      KK Nair: 944533a5
+      MA Agarwal: 00ea847a
+      Mohammed Taha: 9fd83fec
+      Nakul Verma: 38c0d699
+      Nitin Yadav: ed3fdd1a
+      R Vinay Kumar: 41eb4a4f
+      RV Uthappa: 1c17e270
+      Rajat Paliwal: 2fcb040c
+      Raushan Raj: 4b2056c7
+      S Aravind: 957532de
+      SR Swain: 17f7177e
+      STR Binny: bd17b45f
+      Sumit Singh: 9ad3a550
+      Yashpal Singh: 297b26da
+    venues:
+      Barabati Stadium, Cuttack: 6cbe6b49
+  teams:
+  - Karnataka
+  - Services
+  toss:
+    winner: Services
+    decision: field
+  venue: Barabati Stadium, Cuttack
+  team_type: club
+innings:
+- 1st innings:
+    team: Karnataka
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: MA Agarwal
+        bowler: Raushan Raj
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Mohammed Taha
+    - 0.2:
+        actual_delivery: '0.1'
+        non_striker: MA Agarwal
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammed Taha
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: MA Agarwal
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammed Taha
+        wicket:
+          player_out: Mohammed Taha
+          fielders:
+          - Avishek Sinha
+          kind: caught
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: RV Uthappa
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: MA Agarwal
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: RV Uthappa
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: MA Agarwal
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Uthappa
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: RV Uthappa
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: RV Uthappa
+        bowler: Nitin Yadav
+        extras:
+          legbyes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: MA Agarwal
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: RV Uthappa
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: MA Agarwal
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RV Uthappa
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: MA Agarwal
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RV Uthappa
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: MA Agarwal
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RV Uthappa
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: RV Uthappa
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: RV Uthappa
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: MA Agarwal
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: RV Uthappa
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: RV Uthappa
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: RV Uthappa
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: RV Uthappa
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MA Agarwal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: RV Uthappa
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: MA Agarwal
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: RV Uthappa
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: RV Uthappa
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: RV Uthappa
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: MA Agarwal
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 5
+          batsman: 5
+        batsman: RV Uthappa
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: RV Uthappa
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+        wicket:
+          player_out: MA Agarwal
+          fielders:
+          - Nakul Verma
+          kind: caught
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: RV Uthappa
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: RV Uthappa
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: RV Uthappa
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: KK Nair
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Uthappa
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: RV Uthappa
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: RV Uthappa
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: KK Nair
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: KK Nair
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RV Uthappa
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: KK Nair
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Uthappa
+        wicket:
+          player_out: RV Uthappa
+          kind: bowled
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: KK Nair
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: KK Nair
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: STR Binny
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: STR Binny
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: STR Binny
+        bowler: Nitin Yadav
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KK Nair
+    - 6.4:
+        actual_delivery: '6.3'
+        non_striker: STR Binny
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 6.5:
+        actual_delivery: '6.4'
+        non_striker: STR Binny
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: STR Binny
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: STR Binny
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: KK Nair
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: STR Binny
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+        wicket:
+          player_out: KK Nair
+          fielders:
+          - Nitin Yadav
+          kind: caught
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: STR Binny
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CM Gautam
+        wicket:
+          player_out: CM Gautam
+          fielders:
+          - SR Swain
+          kind: run out
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: R Vinay Kumar
+        bowler: D Rai
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: STR Binny
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: R Vinay Kumar
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: R Vinay Kumar
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: STR Binny
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: STR Binny
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: STR Binny
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: STR Binny
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: STR Binny
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: STR Binny
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vinay Kumar
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: STR Binny
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: R Vinay Kumar
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: STR Binny
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: R Vinay Kumar
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: R Vinay Kumar
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: R Vinay Kumar
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: R Vinay Kumar
+        bowler: D Rai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: STR Binny
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: R Vinay Kumar
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: STR Binny
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: STR Binny
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: R Vinay Kumar
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: R Vinay Kumar
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: STR Binny
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: STR Binny
+        bowler: Avishek Sinha
+        extras:
+          legbyes: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: R Vinay Kumar
+        wicket:
+          player_out: STR Binny
+          fielders:
+          - Raushan Raj
+          kind: run out
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: J Suchith
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: J Suchith
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: R Vinay Kumar
+        bowler: Avishek Sinha
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: J Suchith
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: R Vinay Kumar
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Suchith
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: R Vinay Kumar
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Suchith
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: J Suchith
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: J Suchith
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: R Vinay Kumar
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Suchith
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: J Suchith
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: J Suchith
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: J Suchith
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Vinay Kumar
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: R Vinay Kumar
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Suchith
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: R Vinay Kumar
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Suchith
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: R Vinay Kumar
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Suchith
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: J Suchith
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: R Vinay Kumar
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Suchith
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: J Suchith
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Vinay Kumar
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: R Vinay Kumar
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Suchith
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: R Vinay Kumar
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Suchith
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: J Suchith
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: R Vinay Kumar
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Suchith
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: J Suchith
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: R Vinay Kumar
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: R Vinay Kumar
+        bowler: Sumit Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Suchith
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: R Vinay Kumar
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Suchith
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: J Suchith
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Vinay Kumar
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: J Suchith
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: R Vinay Kumar
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Suchith
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: J Suchith
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: R Vinay Kumar
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Suchith
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: R Vinay Kumar
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Suchith
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: J Suchith
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: R Vinay Kumar
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Suchith
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: J Suchith
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vinay Kumar
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: J Suchith
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: R Vinay Kumar
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Suchith
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: J Suchith
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: R Vinay Kumar
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Suchith
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: J Suchith
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: J Suchith
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Vinay Kumar
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: J Suchith
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: J Suchith
+        bowler: Avishek Sinha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: J Suchith
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: J Suchith
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: R Vinay Kumar
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Suchith
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: J Suchith
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: J Suchith
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vinay Kumar
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: J Suchith
+        bowler: Nitin Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+        wicket:
+          player_out: R Vinay Kumar
+          fielders:
+          - Rajat Paliwal
+          kind: caught
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: J Suchith
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Mithun
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: J Suchith
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Mithun
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: A Mithun
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Suchith
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: A Mithun
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Suchith
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: J Suchith
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Mithun
+        wicket:
+          player_out: A Mithun
+          kind: bowled
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: J Suchith
+        bowler: Raushan Raj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Aravind
+        wicket:
+          player_out: J Suchith
+          fielders:
+          - Nakul Verma
+          kind: run out
+- 2nd innings:
+    team: Services
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Devender Lohchab
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aanshul Gupta
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Devender Lohchab
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aanshul Gupta
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Devender Lohchab
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aanshul Gupta
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Devender Lohchab
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Aanshul Gupta
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Devender Lohchab
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Aanshul Gupta
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Devender Lohchab
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Devender Lohchab
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Aanshul Gupta
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Devender Lohchab
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Aanshul Gupta
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Devender Lohchab
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Aanshul Gupta
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Devender Lohchab
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Aanshul Gupta
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Devender Lohchab
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Devender Lohchab
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Devender Lohchab
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Aanshul Gupta
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Aanshul Gupta
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Devender Lohchab
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Aanshul Gupta
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Devender Lohchab
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Devender Lohchab
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aanshul Gupta
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Devender Lohchab
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Aanshul Gupta
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Devender Lohchab
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Devender Lohchab
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Aanshul Gupta
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Devender Lohchab
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Devender Lohchab
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Aanshul Gupta
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Devender Lohchab
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Aanshul Gupta
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Devender Lohchab
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Aanshul Gupta
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Devender Lohchab
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Aanshul Gupta
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Devender Lohchab
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Aanshul Gupta
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Devender Lohchab
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Aanshul Gupta
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Devender Lohchab
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Devender Lohchab
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aanshul Gupta
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Devender Lohchab
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Aanshul Gupta
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Devender Lohchab
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Aanshul Gupta
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Devender Lohchab
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Aanshul Gupta
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Devender Lohchab
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Aanshul Gupta
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Devender Lohchab
+        wicket:
+          player_out: Devender Lohchab
+          fielders:
+          - CM Gautam
+          kind: stumped
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Aanshul Gupta
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nakul Verma
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Aanshul Gupta
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nakul Verma
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Aanshul Gupta
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nakul Verma
+        wicket:
+          player_out: Nakul Verma
+          fielders:
+          - MA Agarwal
+          kind: caught
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Rajat Paliwal
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aanshul Gupta
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Rajat Paliwal
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aanshul Gupta
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Rajat Paliwal
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aanshul Gupta
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Rajat Paliwal
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aanshul Gupta
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Rajat Paliwal
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Aanshul Gupta
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Paliwal
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Rajat Paliwal
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Aanshul Gupta
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Paliwal
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Aanshul Gupta
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Rajat Paliwal
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Aanshul Gupta
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rajat Paliwal
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Aanshul Gupta
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Aanshul Gupta
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rajat Paliwal
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Aanshul Gupta
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Paliwal
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Aanshul Gupta
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Rajat Paliwal
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Aanshul Gupta
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Rajat Paliwal
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Rajat Paliwal
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Rajat Paliwal
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aanshul Gupta
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Rajat Paliwal
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Aanshul Gupta
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Paliwal
+        wicket:
+          player_out: Rajat Paliwal
+          kind: bowled
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Aanshul Gupta
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Aanshul Gupta
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yashpal Singh
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Yashpal Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aanshul Gupta
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Aanshul Gupta
+        bowler: KK Nair
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Aanshul Gupta
+        bowler: KK Nair
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yashpal Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Aanshul Gupta
+        bowler: KK Nair
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yashpal Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Yashpal Singh
+        bowler: KK Nair
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Aanshul Gupta
+        bowler: KK Nair
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yashpal Singh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Yashpal Singh
+        bowler: KK Nair
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Yashpal Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aanshul Gupta
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Yashpal Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aanshul Gupta
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Aanshul Gupta
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+        wicket:
+          player_out: Aanshul Gupta
+          fielders:
+          - R Vinay Kumar
+          kind: run out
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: SR Swain
+        bowler: J Suchith
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Yashpal Singh
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: SR Swain
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yashpal Singh
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: Yashpal Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Swain
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: SR Swain
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Yashpal Singh
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SR Swain
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: SR Swain
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: SR Swain
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: SR Swain
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: SR Swain
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yashpal Singh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Yashpal Singh
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SR Swain
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: SR Swain
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+        wicket:
+          player_out: SR Swain
+          fielders:
+          - Mohammed Taha
+          kind: run out
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Yashpal Singh
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sumit Singh
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Yashpal Singh
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sumit Singh
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Yashpal Singh
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sumit Singh
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Yashpal Singh
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sumit Singh
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Yashpal Singh
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sumit Singh
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Sumit Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Sumit Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yashpal Singh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Yashpal Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sumit Singh
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Yashpal Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sumit Singh
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Yashpal Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sumit Singh
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Yashpal Singh
+        bowler: J Suchith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Singh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Yashpal Singh
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Singh
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Sumit Singh
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yashpal Singh
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Yashpal Singh
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Singh
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Sumit Singh
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yashpal Singh
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Sumit Singh
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yashpal Singh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Yashpal Singh
+        bowler: KC Cariappa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sumit Singh
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Sumit Singh
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Sumit Singh
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Sumit Singh
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yashpal Singh
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Yashpal Singh
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Singh
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Sumit Singh
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Sumit Singh
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yashpal Singh
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Yashpal Singh
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sumit Singh
+        wicket:
+          player_out: Sumit Singh
+          fielders:
+          - R Vinay Kumar
+          kind: caught
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Avishek Sinha
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yashpal Singh
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Yashpal Singh
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Avishek Sinha
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Avishek Sinha
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Yashpal Singh
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Avishek Sinha
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yashpal Singh
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Yashpal Singh
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Avishek Sinha
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Yashpal Singh
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Avishek Sinha
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Avishek Sinha
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+        wicket:
+          player_out: Yashpal Singh
+          kind: caught and bowled
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Raushan Raj
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Avishek Sinha
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Raushan Raj
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Avishek Sinha
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Raushan Raj
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Avishek Sinha
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Avishek Sinha
+        bowler: R Vinay Kumar
+        extras:
+          noballs: 3
+        runs:
+          extras: 3
+          total: 3
+          batsman: 0
+        batsman: Raushan Raj
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: Avishek Sinha
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Raushan Raj

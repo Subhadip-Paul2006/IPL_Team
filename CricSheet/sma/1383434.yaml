@@ -1,0 +1,2071 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-10-23'
+  revision: 2
+info:
+  balls_per_over: 6
+  city: Jaipur
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2023-10-16'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Mumbai
+    by:
+      wickets: 8
+    method: VJD
+  overs: 20
+  players:
+    Haryana:
+    - HV Patel
+    - Ankit Kumar
+    - Himanshu Rana
+    - N Sindhu
+    - Sumit Kumar
+    - SM Rohilla
+    - R Tewatia
+    - MM Sharma
+    - A Mishra
+    - YS Chahal
+    - J Yadav
+    - A Kamboj
+    Mumbai:
+    - YBK Jaiswal
+    - A Raghuvanshi
+    - AM Rahane
+    - S Dube
+    - DS Kulkarni
+    - SN Khan
+    - PY Pawar
+    - Tanush Kotian
+    - TU Deshpande
+    - SZ Mulani
+    - Mohit Avasthi
+  registry:
+    people:
+      A Kamboj: fcc21ace
+      A Mishra: 6b19d823
+      A Raghuvanshi: d7017798
+      AM Rahane: 29e95537
+      Ankit Kumar: 9765545f
+      DS Kulkarni: d2a989fc
+      GR Sadashiv Iyer: 0be62e31
+      HV Patel: f986ca1a
+      Himanshu Rana: 9d3940b3
+      J Yadav: '81049310'
+      M Krishnadas: e298c588
+      MM Sharma: 759ac88f
+      Mohit Avasthi: 7e83cef2
+      N Sindhu: 3cea23da
+      P Dharmani: eaa90ab4
+      PY Pawar: c9f2fc04
+      R Tewatia: 39a2dfa8
+      S Dube: a4e37e47
+      SM Rohilla: 43666b9b
+      SN Khan: f088b960
+      SZ Mulani: 9d704f6f
+      Sumit Kumar: 8998a68f
+      TU Deshpande: 46a9bea1
+      Tanush Kotian: 5724e517
+      YBK Jaiswal: 6c19c6e5
+      YS Chahal: 57ee1fde
+    venues:
+      Sawai Mansingh Stadium, Jaipur: 5a985b66
+  teams:
+  - Haryana
+  - Mumbai
+  toss:
+    winner: Haryana
+    decision: bat
+  umpires:
+  - M Krishnadas
+  - GR Sadashiv Iyer
+  venue: Sawai Mansingh Stadium, Jaipur
+  team_type: club
+innings:
+- 1st innings:
+    team: Haryana
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Ankit Kumar
+        batsman: HV Patel
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: HV Patel
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Kumar
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: HV Patel
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Kumar
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: HV Patel
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Kumar
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: HV Patel
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Kumar
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: HV Patel
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Kumar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Ankit Kumar
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HV Patel
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Ankit Kumar
+        bowler: TU Deshpande
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: HV Patel
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: Ankit Kumar
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HV Patel
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Ankit Kumar
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HV Patel
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Ankit Kumar
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HV Patel
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: HV Patel
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Kumar
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: HV Patel
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Kumar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Ankit Kumar
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HV Patel
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: HV Patel
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Kumar
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: HV Patel
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Kumar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: HV Patel
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Kumar
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Ankit Kumar
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HV Patel
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Ankit Kumar
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HV Patel
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: HV Patel
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Kumar
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: HV Patel
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Kumar
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Ankit Kumar
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HV Patel
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: HV Patel
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Kumar
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Ankit Kumar
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HV Patel
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Ankit Kumar
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HV Patel
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Ankit Kumar
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: HV Patel
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Ankit Kumar
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HV Patel
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: HV Patel
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Kumar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: HV Patel
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Kumar
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Ankit Kumar
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HV Patel
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Ankit Kumar
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HV Patel
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: HV Patel
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Kumar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Ankit Kumar
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HV Patel
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Ankit Kumar
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HV Patel
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: HV Patel
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Kumar
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: HV Patel
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Kumar
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: HV Patel
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Kumar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: HV Patel
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Kumar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Ankit Kumar
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HV Patel
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: HV Patel
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ankit Kumar
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: HV Patel
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Kumar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Ankit Kumar
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HV Patel
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: HV Patel
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Kumar
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Ankit Kumar
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HV Patel
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Ankit Kumar
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HV Patel
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: HV Patel
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Kumar
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: HV Patel
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ankit Kumar
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: HV Patel
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Kumar
+        wicket:
+          player_out: Ankit Kumar
+          fielders:
+          - PY Pawar
+          kind: stumped
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: HV Patel
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himanshu Rana
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Himanshu Rana
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HV Patel
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: HV Patel
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Rana
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: HV Patel
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himanshu Rana
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Himanshu Rana
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HV Patel
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: HV Patel
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Rana
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: HV Patel
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Rana
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Himanshu Rana
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HV Patel
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Himanshu Rana
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HV Patel
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Himanshu Rana
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: HV Patel
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Himanshu Rana
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HV Patel
+        wicket:
+          player_out: HV Patel
+          fielders:
+          - AM Rahane
+          kind: caught
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Himanshu Rana
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Sindhu
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Himanshu Rana
+        bowler: Tanush Kotian
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: N Sindhu
+    - 9.7:
+        actual_delivery: '9.6'
+        non_striker: Himanshu Rana
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Sindhu
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: N Sindhu
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Rana
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: N Sindhu
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himanshu Rana
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: N Sindhu
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himanshu Rana
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Himanshu Rana
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Sindhu
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Himanshu Rana
+        bowler: SZ Mulani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Sindhu
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: N Sindhu
+        bowler: SZ Mulani
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: Himanshu Rana
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: N Sindhu
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himanshu Rana
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Himanshu Rana
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Sindhu
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Himanshu Rana
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Sindhu
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: N Sindhu
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Rana
+        wicket:
+          player_out: Himanshu Rana
+          fielders:
+          - YBK Jaiswal
+          kind: caught
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: N Sindhu
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          match:
+          - in: Sumit Kumar
+            out: Ankit Kumar
+            team: Haryana
+            reason: impact_player
+        batsman: Sumit Kumar
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Sumit Kumar
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Sindhu
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Sumit Kumar
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Sindhu
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Sumit Kumar
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Sindhu
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Sumit Kumar
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Sindhu
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: N Sindhu
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sumit Kumar
+        wicket:
+          player_out: Sumit Kumar
+          fielders:
+          - PY Pawar
+          kind: caught
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: N Sindhu
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Rohilla
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: SM Rohilla
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Sindhu
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: SM Rohilla
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Sindhu
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: SM Rohilla
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: N Sindhu
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: SM Rohilla
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Sindhu
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: N Sindhu
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Rohilla
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: SM Rohilla
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Sindhu
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: N Sindhu
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Rohilla
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: N Sindhu
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Rohilla
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: N Sindhu
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Rohilla
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: N Sindhu
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Rohilla
+        wicket:
+          player_out: SM Rohilla
+          fielders:
+          - YBK Jaiswal
+          kind: caught
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: N Sindhu
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Tewatia
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: N Sindhu
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Tewatia
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: R Tewatia
+        bowler: Mohit Avasthi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Sindhu
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: N Sindhu
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Tewatia
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: R Tewatia
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Sindhu
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: R Tewatia
+        bowler: DS Kulkarni
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: N Sindhu
+    - 15.4:
+        actual_delivery: '15.3'
+        non_striker: R Tewatia
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Sindhu
+    - 15.5:
+        actual_delivery: '15.4'
+        non_striker: R Tewatia
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Sindhu
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: N Sindhu
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Tewatia
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: R Tewatia
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Sindhu
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: N Sindhu
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Tewatia
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: N Sindhu
+        bowler: TU Deshpande
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: R Tewatia
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: R Tewatia
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Sindhu
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: R Tewatia
+        bowler: TU Deshpande
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: N Sindhu
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: N Sindhu
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Tewatia
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: R Tewatia
+        bowler: TU Deshpande
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Sindhu
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: N Sindhu
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Tewatia
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: R Tewatia
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Sindhu
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: N Sindhu
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Tewatia
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: R Tewatia
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Sindhu
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: R Tewatia
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Sindhu
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: N Sindhu
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Tewatia
+- 2nd innings:
+    team: Mumbai
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        bowler: MM Sharma
+        non_striker: A Raghuvanshi
+        batsman: YBK Jaiswal
+    - 0.2:
+        actual_delivery: '0.2'
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        bowler: MM Sharma
+        non_striker: A Raghuvanshi
+        batsman: YBK Jaiswal
+    - 0.3:
+        actual_delivery: '0.3'
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        bowler: MM Sharma
+        non_striker: A Raghuvanshi
+        batsman: YBK Jaiswal
+    - 0.4:
+        actual_delivery: '0.4'
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        bowler: MM Sharma
+        non_striker: A Raghuvanshi
+        batsman: YBK Jaiswal
+    - 0.5:
+        actual_delivery: '0.5'
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        bowler: MM Sharma
+        non_striker: A Raghuvanshi
+        batsman: YBK Jaiswal
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: A Raghuvanshi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        bowler: MM Sharma
+        batsman: YBK Jaiswal
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: YBK Jaiswal
+        bowler: A Kamboj
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: A Raghuvanshi
+    - 1.2:
+        actual_delivery: '1.1'
+        non_striker: A Raghuvanshi
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: A Raghuvanshi
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YBK Jaiswal
+        wicket:
+          player_out: YBK Jaiswal
+          fielders:
+          - SM Rohilla
+          kind: caught
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: A Raghuvanshi
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: A Raghuvanshi
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: A Raghuvanshi
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: A Raghuvanshi
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 5
+          batsman: 5
+        batsman: AM Rahane
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: A Raghuvanshi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        bowler: MM Sharma
+        batsman: AM Rahane
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: A Raghuvanshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        bowler: MM Sharma
+        batsman: AM Rahane
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: AM Rahane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        bowler: MM Sharma
+        batsman: A Raghuvanshi
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: A Raghuvanshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        bowler: MM Sharma
+        batsman: AM Rahane
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: A Raghuvanshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        bowler: MM Sharma
+        batsman: AM Rahane
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: AM Rahane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        bowler: MM Sharma
+        batsman: A Raghuvanshi
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: AM Rahane
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: A Raghuvanshi
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rahane
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: A Raghuvanshi
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: A Raghuvanshi
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: AM Rahane
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: AM Rahane
+        bowler: A Kamboj
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: A Raghuvanshi
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: AM Rahane
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: A Raghuvanshi
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: AM Rahane
+        bowler: N Sindhu
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: A Raghuvanshi
+        bowler: N Sindhu
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: AM Rahane
+        bowler: N Sindhu
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: A Raghuvanshi
+        bowler: N Sindhu
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: A Raghuvanshi
+        bowler: N Sindhu
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rahane
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: A Raghuvanshi
+        bowler: N Sindhu
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: AM Rahane
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: A Raghuvanshi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: AM Rahane
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: AM Rahane
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Raghuvanshi
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: AM Rahane
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Raghuvanshi
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: AM Rahane
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Raghuvanshi
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: AM Rahane
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Raghuvanshi
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: A Raghuvanshi
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: AM Rahane
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: AM Rahane
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: AM Rahane
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: A Raghuvanshi
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: A Raghuvanshi
+        bowler: HV Patel
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AM Rahane
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: A Raghuvanshi
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: A Raghuvanshi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: AM Rahane
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: AM Rahane
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: A Raghuvanshi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rahane
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: A Raghuvanshi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Rahane
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: A Raghuvanshi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: A Raghuvanshi
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rahane
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: A Raghuvanshi
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: AM Rahane
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: A Raghuvanshi
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: A Raghuvanshi
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: AM Rahane
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Raghuvanshi
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: A Raghuvanshi
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: AM Rahane
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: AM Rahane
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: AM Rahane
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: AM Rahane
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: A Raghuvanshi
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Rahane
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: AM Rahane
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Raghuvanshi
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: A Raghuvanshi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Rahane
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: A Raghuvanshi
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: AM Rahane
+        bowler: YS Chahal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: A Raghuvanshi
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: AM Rahane
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Raghuvanshi
+        wicket:
+          player_out: A Raghuvanshi
+          fielders:
+          - Sumit Kumar
+          kind: caught
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: AM Rahane
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: AM Rahane
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: AM Rahane
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: AM Rahane
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: S Dube
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: AM Rahane
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: S Dube
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rahane
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: S Dube
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: S Dube
+        bowler: J Yadav
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: AM Rahane
+    - 12.2:
+        actual_delivery: '12.1'
+        non_striker: AM Rahane
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 12.3:
+        actual_delivery: '12.2'
+        non_striker: AM Rahane
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 12.4:
+        actual_delivery: '12.3'
+        non_striker: AM Rahane
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: S Dube
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: AM Rahane
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: S Dube
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: AM Rahane
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: S Dube
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: AM Rahane
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: AM Rahane
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: S Dube
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Rahane
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: S Dube
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Rahane
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: S Dube
+        bowler: A Kamboj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: S Dube
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: AM Rahane
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dube
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: AM Rahane
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: AM Rahane
+        bowler: HV Patel
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: S Dube
+    - 14.5:
+        actual_delivery: '14.4'
+        non_striker: AM Rahane
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 14.6:
+        actual_delivery: '14.5'
+        non_striker: S Dube
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AM Rahane
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: S Dube
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Rahane
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: AM Rahane
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dube
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: AM Rahane
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: S Dube
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: AM Rahane
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: S Dube
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: AM Rahane
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: AM Rahane
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: S Dube
+    target:
+      overs: 18
+      runs: 149

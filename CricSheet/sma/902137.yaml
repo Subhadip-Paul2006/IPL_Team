@@ -1,0 +1,2321 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-06'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2016-01-04'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Gujarat
+    by:
+      wickets: 3
+  overs: 20
+  players:
+    Hyderabad (India):
+    - Tanmay Agarwal
+    - PA Reddy
+    - GH Vihari
+    - Bavanaka Sandeep
+    - Kolla Sumanth
+    - A Ashish Reddy
+    - Akash Bhandari
+    - CV Milind
+    - Vishal Sharma
+    - Ravi Kiran
+    - Mohammed Siraj
+    Gujarat:
+    - RP Singh
+    - Roosh Kalaria
+    - JJ Bumrah
+    - Rohit Dahiya
+    - HP Patel
+    - RH Bhatt
+    - PA Patel
+    - Priyank Panchal
+    - MC Juneja
+    - Chirag Gandhi
+    - Himalaya Barad
+  registry:
+    people:
+      A Ashish Reddy: 1c2a64cd
+      Akash Bhandari: c2ce55cb
+      Bavanaka Sandeep: bc67cc22
+      CV Milind: 7b5b6311
+      Chirag Gandhi: 35eb75af
+      GH Vihari: '94253925'
+      HP Patel: 8254ea06
+      Himalaya Barad: 411cc6c6
+      JJ Bumrah: 462411b3
+      Kolla Sumanth: b93a5d0b
+      MC Juneja: 605b7efa
+      Mohammed Siraj: 2f49c897
+      PA Patel: b5da6c24
+      PA Reddy: 2461eef2
+      Priyank Panchal: ebf25cf2
+      RH Bhatt: fc8c6088
+      RP Singh: c3d1402f
+      Ravi Kiran: 0ff9728b
+      Rohit Dahiya: e57ded95
+      Roosh Kalaria: 779b7f4d
+      Tanmay Agarwal: e6e9b619
+      Vishal Sharma: f555bcf4
+    venues:
+      Vidarbha Cricket Association Ground, Nagpur: dfed09f0
+  teams:
+  - Hyderabad (India)
+  - Gujarat
+  toss:
+    winner: Hyderabad (India)
+    decision: bat
+  venue: Vidarbha Cricket Association Ground, Nagpur
+  team_type: club
+innings:
+- 1st innings:
+    team: Hyderabad (India)
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: PA Reddy
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: PA Reddy
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: PA Reddy
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: PA Reddy
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Tanmay Agarwal
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Tanmay Agarwal
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+        wicket:
+          player_out: PA Reddy
+          fielders:
+          - RH Bhatt
+          kind: caught
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: GH Vihari
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Tanmay Agarwal
+        bowler: Roosh Kalaria
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: GH Vihari
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: Tanmay Agarwal
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Tanmay Agarwal
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Tanmay Agarwal
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Tanmay Agarwal
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Vihari
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Tanmay Agarwal
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Tanmay Agarwal
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Tanmay Agarwal
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Tanmay Agarwal
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: GH Vihari
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Tanmay Agarwal
+        bowler: RP Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: GH Vihari
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: Tanmay Agarwal
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: GH Vihari
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Tanmay Agarwal
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Tanmay Agarwal
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: GH Vihari
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: GH Vihari
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: GH Vihari
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Tanmay Agarwal
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: GH Vihari
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: GH Vihari
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: GH Vihari
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tanmay Agarwal
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: GH Vihari
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: GH Vihari
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: GH Vihari
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: GH Vihari
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: GH Vihari
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: GH Vihari
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Tanmay Agarwal
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: GH Vihari
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Tanmay Agarwal
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Tanmay Agarwal
+        bowler: Rohit Dahiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: GH Vihari
+        bowler: Rohit Dahiya
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Tanmay Agarwal
+        bowler: Rohit Dahiya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Vihari
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Tanmay Agarwal
+        bowler: Rohit Dahiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: GH Vihari
+        bowler: Rohit Dahiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: GH Vihari
+        bowler: Rohit Dahiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: GH Vihari
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tanmay Agarwal
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: GH Vihari
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Tanmay Agarwal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: GH Vihari
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+        wicket:
+          player_out: Tanmay Agarwal
+          fielders:
+          - Rohit Dahiya
+          kind: caught
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: GH Vihari
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Bavanaka Sandeep
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: GH Vihari
+        bowler: RH Bhatt
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Bavanaka Sandeep
+        bowler: RH Bhatt
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: GH Vihari
+    - 8.3:
+        actual_delivery: '8.2'
+        non_striker: Bavanaka Sandeep
+        bowler: RH Bhatt
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 8.4:
+        actual_delivery: '8.3'
+        non_striker: Bavanaka Sandeep
+        bowler: RH Bhatt
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Vihari
+    - 8.5:
+        actual_delivery: '8.4'
+        non_striker: Bavanaka Sandeep
+        bowler: RH Bhatt
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: Bavanaka Sandeep
+        bowler: RH Bhatt
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: GH Vihari
+        bowler: RH Bhatt
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Bavanaka Sandeep
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Bavanaka Sandeep
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Bavanaka Sandeep
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: GH Vihari
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: GH Vihari
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bavanaka Sandeep
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: GH Vihari
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Bavanaka Sandeep
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Bavanaka Sandeep
+        bowler: RH Bhatt
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: GH Vihari
+        bowler: RH Bhatt
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bavanaka Sandeep
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: GH Vihari
+        bowler: RH Bhatt
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Bavanaka Sandeep
+        bowler: RH Bhatt
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GH Vihari
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Bavanaka Sandeep
+        bowler: RH Bhatt
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Vihari
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Bavanaka Sandeep
+        bowler: RH Bhatt
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: GH Vihari
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bavanaka Sandeep
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: GH Vihari
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bavanaka Sandeep
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: GH Vihari
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Bavanaka Sandeep
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+        wicket:
+          player_out: GH Vihari
+          fielders:
+          - PA Patel
+          kind: caught
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Bavanaka Sandeep
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Bavanaka Sandeep
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Kolla Sumanth
+        bowler: Rohit Dahiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Bavanaka Sandeep
+        bowler: Rohit Dahiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Kolla Sumanth
+        bowler: Rohit Dahiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Bavanaka Sandeep
+        bowler: Rohit Dahiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Bavanaka Sandeep
+        bowler: Rohit Dahiya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kolla Sumanth
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Bavanaka Sandeep
+        bowler: Rohit Dahiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Bavanaka Sandeep
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Kolla Sumanth
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+        wicket:
+          player_out: Bavanaka Sandeep
+          fielders:
+          - PA Patel
+          kind: stumped
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Kolla Sumanth
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Ashish Reddy
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Kolla Sumanth
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Ashish Reddy
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Kolla Sumanth
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Ashish Reddy
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Kolla Sumanth
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Kolla Sumanth
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Ashish Reddy
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Kolla Sumanth
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Ashish Reddy
+        wicket:
+          player_out: A Ashish Reddy
+          fielders:
+          - PA Patel
+          kind: caught
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Kolla Sumanth
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Bhandari
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Kolla Sumanth
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Bhandari
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Kolla Sumanth
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Akash Bhandari
+        bowler: RP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Kolla Sumanth
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Akash Bhandari
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kolla Sumanth
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Akash Bhandari
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Kolla Sumanth
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Bhandari
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Kolla Sumanth
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Bhandari
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Kolla Sumanth
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Bhandari
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Akash Bhandari
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Kolla Sumanth
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Akash Bhandari
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kolla Sumanth
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Akash Bhandari
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Kolla Sumanth
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Akash Bhandari
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Akash Bhandari
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Akash Bhandari
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+        wicket:
+          player_out: Kolla Sumanth
+          kind: bowled
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Akash Bhandari
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CV Milind
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: CV Milind
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akash Bhandari
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: CV Milind
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Akash Bhandari
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Milind
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: CV Milind
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Bhandari
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: CV Milind
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Akash Bhandari
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Milind
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Akash Bhandari
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CV Milind
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Akash Bhandari
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CV Milind
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Akash Bhandari
+        bowler: Roosh Kalaria
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: CV Milind
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Akash Bhandari
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Milind
+        wicket:
+          player_out: CV Milind
+          fielders:
+          - Priyank Panchal
+          kind: caught
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Vishal Sharma
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Bhandari
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Vishal Sharma
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akash Bhandari
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Vishal Sharma
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Akash Bhandari
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Vishal Sharma
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Bhandari
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Vishal Sharma
+        bowler: JJ Bumrah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akash Bhandari
+- 2nd innings:
+    team: Gujarat
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Priyank Panchal
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Priyank Panchal
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Priyank Panchal
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: PA Patel
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: PA Patel
+        bowler: Ravi Kiran
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Priyank Panchal
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Priyank Panchal
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Priyank Panchal
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Patel
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Priyank Panchal
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: PA Patel
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: PA Patel
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: PA Patel
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: PA Patel
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Priyank Panchal
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Priyank Panchal
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: PA Patel
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: PA Patel
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Priyank Panchal
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Patel
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Priyank Panchal
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: PA Patel
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Priyank Panchal
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Patel
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Priyank Panchal
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Patel
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Priyank Panchal
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Patel
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Priyank Panchal
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: PA Patel
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: PA Patel
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: PA Patel
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: PA Patel
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Priyank Panchal
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Priyank Panchal
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Priyank Panchal
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Priyank Panchal
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Patel
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Priyank Panchal
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PA Patel
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Priyank Panchal
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Patel
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Priyank Panchal
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Patel
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Priyank Panchal
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: PA Patel
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Priyank Panchal
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Patel
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Priyank Panchal
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: PA Patel
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Priyank Panchal
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Priyank Panchal
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: PA Patel
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Priyank Panchal
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: PA Patel
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: PA Patel
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Priyank Panchal
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: PA Patel
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: PA Patel
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Priyank Panchal
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Priyank Panchal
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: PA Patel
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Priyank Panchal
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Priyank Panchal
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Patel
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Priyank Panchal
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Priyank Panchal
+        bowler: Vishal Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Patel
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: PA Patel
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Priyank Panchal
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Priyank Panchal
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: PA Patel
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: PA Patel
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Priyank Panchal
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PA Patel
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: PA Patel
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: PA Patel
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Priyank Panchal
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PA Patel
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Priyank Panchal
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: PA Patel
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: PA Patel
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Priyank Panchal
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Priyank Panchal
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+        wicket:
+          player_out: PA Patel
+          fielders:
+          - Bavanaka Sandeep
+          kind: caught
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: MC Juneja
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: MC Juneja
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: MC Juneja
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: MC Juneja
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: MC Juneja
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: MC Juneja
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Priyank Panchal
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Juneja
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: MC Juneja
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: MC Juneja
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Priyank Panchal
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MC Juneja
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: MC Juneja
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: MC Juneja
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: MC Juneja
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Priyank Panchal
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MC Juneja
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Priyank Panchal
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Juneja
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: MC Juneja
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Priyank Panchal
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Juneja
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: MC Juneja
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: MC Juneja
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+        wicket:
+          player_out: Priyank Panchal
+          fielders:
+          - Kolla Sumanth
+          kind: caught
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: RH Bhatt
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Juneja
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: MC Juneja
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RH Bhatt
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: MC Juneja
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RH Bhatt
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: MC Juneja
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RH Bhatt
+        wicket:
+          player_out: RH Bhatt
+          fielders:
+          - Akash Bhandari
+          kind: caught
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Chirag Gandhi
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MC Juneja
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: MC Juneja
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Chirag Gandhi
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MC Juneja
+        wicket:
+          player_out: Chirag Gandhi
+          fielders:
+          - Akash Bhandari
+          kind: run out
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: MC Juneja
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalaya Barad
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: MC Juneja
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalaya Barad
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: MC Juneja
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himalaya Barad
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: MC Juneja
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalaya Barad
+        wicket:
+          player_out: MC Juneja
+          fielders:
+          - CV Milind
+          kind: run out
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Rohit Dahiya
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalaya Barad
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Himalaya Barad
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohit Dahiya
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Rohit Dahiya
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalaya Barad
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Himalaya Barad
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohit Dahiya
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Himalaya Barad
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohit Dahiya
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Rohit Dahiya
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himalaya Barad
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Rohit Dahiya
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalaya Barad
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Himalaya Barad
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohit Dahiya
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Rohit Dahiya
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalaya Barad
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Himalaya Barad
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Dahiya
+        wicket:
+          player_out: Rohit Dahiya
+          kind: lbw
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Roosh Kalaria
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalaya Barad
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Roosh Kalaria
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalaya Barad
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Roosh Kalaria
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalaya Barad
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Roosh Kalaria
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalaya Barad
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Roosh Kalaria
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himalaya Barad
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Roosh Kalaria
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalaya Barad
+        wicket:
+          player_out: Himalaya Barad
+          fielders:
+          - Kolla Sumanth
+          kind: caught
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Roosh Kalaria
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RP Singh
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Roosh Kalaria
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RP Singh
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: RP Singh
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Roosh Kalaria

@@ -1,0 +1,2424 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-06'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2016-01-04'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Railways
+    by:
+      runs: 7
+  overs: 20
+  players:
+    Railways:
+    - AUK Pathan
+    - Vivek Singh
+    - Saurabh Wakaskar
+    - V Cheluvaraj
+    - Faiz Ahmed
+    - KV Sharma
+    - AR Pandey
+    - Anureet Singh
+    - K Upadhyay
+    - Ranjeet Mali
+    - KR Mahajan
+    Andhra:
+    - Bandaru Ayyappa
+    - Girinath Reddy
+    - Cheepurapalli Stephen
+    - K V Sasikanth
+    - Ashwin Hebbar
+    - Prashanth Kumar
+    - Sirla Srinivas
+    - KS Bharat
+    - Koripalli Sreekanth
+    - Karan Shinde
+    - Jyothi Sai Krishna
+  registry:
+    people:
+      AR Pandey: dd73b2ff
+      AUK Pathan: 3ae3f034
+      Anureet Singh: 69be866a
+      Ashwin Hebbar: b11d8647
+      Bandaru Ayyappa: cb4f31e2
+      Cheepurapalli Stephen: 48bf9d5c
+      Faiz Ahmed: 223104d2
+      Girinath Reddy: 5d3d423a
+      Jyothi Sai Krishna: eb87663e
+      K Upadhyay: 27e71d47
+      K V Sasikanth: bf6e03ea
+      KR Mahajan: 6ee6b491
+      KS Bharat: 44a89551
+      KV Sharma: 119678fd
+      Karan Shinde: '08a349ac'
+      Koripalli Sreekanth: 43b01577
+      Prashanth Kumar: 1f0b8f44
+      Ranjeet Mali: 7d4a4371
+      Saurabh Wakaskar: dd8439ed
+      Sirla Srinivas: 2712898a
+      V Cheluvaraj: ce1926ef
+      Vivek Singh: a446c7be
+    venues:
+      Moti Bagh Stadium, Vadodara: 8db14948
+  teams:
+  - Railways
+  - Andhra
+  toss:
+    winner: Andhra
+    decision: field
+  venue: Moti Bagh Stadium, Vadodara
+  team_type: club
+innings:
+- 1st innings:
+    team: Railways
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Vivek Singh
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AUK Pathan
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Vivek Singh
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AUK Pathan
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: AUK Pathan
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Vivek Singh
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AUK Pathan
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Vivek Singh
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AUK Pathan
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Vivek Singh
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AUK Pathan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Vivek Singh
+        bowler: Girinath Reddy
+        extras:
+          wides: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: AUK Pathan
+    - 1.2:
+        actual_delivery: '1.1'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vivek Singh
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vivek Singh
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Vivek Singh
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AUK Pathan
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: AUK Pathan
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vivek Singh
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: AUK Pathan
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: AUK Pathan
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: AUK Pathan
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: AUK Pathan
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Vivek Singh
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AUK Pathan
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: AUK Pathan
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: AUK Pathan
+        bowler: Cheepurapalli Stephen
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Vivek Singh
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: AUK Pathan
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+        wicket:
+          player_out: Vivek Singh
+          fielders:
+          - Jyothi Sai Krishna
+          kind: caught
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Saurabh Wakaskar
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AUK Pathan
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: AUK Pathan
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Wakaskar
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: AUK Pathan
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Saurabh Wakaskar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Saurabh Wakaskar
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AUK Pathan
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: AUK Pathan
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Wakaskar
+        wicket:
+          player_out: Saurabh Wakaskar
+          kind: bowled
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: AUK Pathan
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Cheluvaraj
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: AUK Pathan
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Cheluvaraj
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: V Cheluvaraj
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AUK Pathan
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: V Cheluvaraj
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AUK Pathan
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: AUK Pathan
+        bowler: Cheepurapalli Stephen
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: V Cheluvaraj
+    - 5.2:
+        actual_delivery: '5.1'
+        non_striker: AUK Pathan
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Cheluvaraj
+    - 5.3:
+        actual_delivery: '5.2'
+        non_striker: AUK Pathan
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Cheluvaraj
+    - 5.4:
+        actual_delivery: '5.3'
+        non_striker: AUK Pathan
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Cheluvaraj
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: AUK Pathan
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Cheluvaraj
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: AUK Pathan
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Cheluvaraj
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: V Cheluvaraj
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AUK Pathan
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Cheluvaraj
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: V Cheluvaraj
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AUK Pathan
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: V Cheluvaraj
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Cheluvaraj
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Cheluvaraj
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Cheluvaraj
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: V Cheluvaraj
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AUK Pathan
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: V Cheluvaraj
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AUK Pathan
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: V Cheluvaraj
+        bowler: K V Sasikanth
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AUK Pathan
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: AUK Pathan
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Cheluvaraj
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: V Cheluvaraj
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AUK Pathan
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: AUK Pathan
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Cheluvaraj
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Cheluvaraj
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: V Cheluvaraj
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AUK Pathan
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Cheluvaraj
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Cheluvaraj
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: V Cheluvaraj
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Cheluvaraj
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: V Cheluvaraj
+        bowler: Ashwin Hebbar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AUK Pathan
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: V Cheluvaraj
+        bowler: Ashwin Hebbar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AUK Pathan
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: V Cheluvaraj
+        bowler: Ashwin Hebbar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AUK Pathan
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: V Cheluvaraj
+        bowler: Ashwin Hebbar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AUK Pathan
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: V Cheluvaraj
+        bowler: Ashwin Hebbar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AUK Pathan
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: AUK Pathan
+        bowler: Ashwin Hebbar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Cheluvaraj
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: V Cheluvaraj
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AUK Pathan
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: AUK Pathan
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Cheluvaraj
+        wicket:
+          player_out: V Cheluvaraj
+          fielders:
+          - KS Bharat
+          kind: caught
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Faiz Ahmed
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AUK Pathan
+        wicket:
+          player_out: AUK Pathan
+          fielders:
+          - KS Bharat
+          kind: caught
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Faiz Ahmed
+        bowler: Girinath Reddy
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KV Sharma
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: Faiz Ahmed
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KV Sharma
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: KV Sharma
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faiz Ahmed
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: Faiz Ahmed
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KV Sharma
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: KV Sharma
+        bowler: Prashanth Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faiz Ahmed
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: KV Sharma
+        bowler: Prashanth Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faiz Ahmed
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Faiz Ahmed
+        bowler: Prashanth Kumar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KV Sharma
+    - 11.4:
+        actual_delivery: '11.3'
+        non_striker: Faiz Ahmed
+        bowler: Prashanth Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KV Sharma
+        wicket:
+          player_out: KV Sharma
+          fielders:
+          - KS Bharat
+          kind: caught
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: Faiz Ahmed
+        bowler: Prashanth Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Pandey
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: AR Pandey
+        bowler: Prashanth Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faiz Ahmed
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: AR Pandey
+        bowler: Prashanth Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faiz Ahmed
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: AR Pandey
+        bowler: K V Sasikanth
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Faiz Ahmed
+    - 12.2:
+        actual_delivery: '12.1'
+        non_striker: AR Pandey
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faiz Ahmed
+    - 12.3:
+        actual_delivery: '12.2'
+        non_striker: Faiz Ahmed
+        bowler: K V Sasikanth
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AR Pandey
+    - 12.4:
+        actual_delivery: '12.2'
+        non_striker: Faiz Ahmed
+        bowler: K V Sasikanth
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AR Pandey
+    - 12.5:
+        actual_delivery: '12.2'
+        non_striker: Faiz Ahmed
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AR Pandey
+    - 12.6:
+        actual_delivery: '12.3'
+        non_striker: Faiz Ahmed
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Pandey
+    - 12.7:
+        actual_delivery: '12.4'
+        non_striker: AR Pandey
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faiz Ahmed
+    - 12.8:
+        actual_delivery: '12.5'
+        non_striker: AR Pandey
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faiz Ahmed
+    - 12.9:
+        actual_delivery: '12.6'
+        non_striker: AR Pandey
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Faiz Ahmed
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Faiz Ahmed
+        bowler: Prashanth Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AR Pandey
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Faiz Ahmed
+        bowler: Prashanth Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Pandey
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: AR Pandey
+        bowler: Prashanth Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faiz Ahmed
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Faiz Ahmed
+        bowler: Prashanth Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Pandey
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: AR Pandey
+        bowler: Prashanth Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faiz Ahmed
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: AR Pandey
+        bowler: Prashanth Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faiz Ahmed
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: AR Pandey
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faiz Ahmed
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Faiz Ahmed
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Pandey
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Faiz Ahmed
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Pandey
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Faiz Ahmed
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AR Pandey
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Faiz Ahmed
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AR Pandey
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Faiz Ahmed
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Pandey
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: AR Pandey
+        bowler: Sirla Srinivas
+        extras:
+          byes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Faiz Ahmed
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: AR Pandey
+        bowler: Sirla Srinivas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faiz Ahmed
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Faiz Ahmed
+        bowler: Sirla Srinivas
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AR Pandey
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Faiz Ahmed
+        bowler: Sirla Srinivas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Pandey
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: AR Pandey
+        bowler: Sirla Srinivas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faiz Ahmed
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Faiz Ahmed
+        bowler: Sirla Srinivas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Pandey
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Faiz Ahmed
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Pandey
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Faiz Ahmed
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AR Pandey
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Faiz Ahmed
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AR Pandey
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Faiz Ahmed
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Pandey
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Faiz Ahmed
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Pandey
+        wicket:
+          player_out: AR Pandey
+          kind: bowled
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Faiz Ahmed
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Anureet Singh
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Faiz Ahmed
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Anureet Singh
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faiz Ahmed
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Faiz Ahmed
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Faiz Ahmed
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anureet Singh
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Anureet Singh
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Faiz Ahmed
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Anureet Singh
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faiz Ahmed
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Anureet Singh
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faiz Ahmed
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Anureet Singh
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Faiz Ahmed
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Faiz Ahmed
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anureet Singh
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Anureet Singh
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Faiz Ahmed
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Anureet Singh
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faiz Ahmed
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Anureet Singh
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faiz Ahmed
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Faiz Ahmed
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Anureet Singh
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Faiz Ahmed
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Faiz Ahmed
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anureet Singh
+        wicket:
+          player_out: Anureet Singh
+          kind: bowled
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Faiz Ahmed
+        bowler: Cheepurapalli Stephen
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: K Upadhyay
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: K Upadhyay
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Faiz Ahmed
+        wicket:
+          player_out: Faiz Ahmed
+          fielders:
+          - KS Bharat
+          kind: caught
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: K Upadhyay
+        bowler: Cheepurapalli Stephen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ranjeet Mali
+        wicket:
+          player_out: K Upadhyay
+          fielders:
+          - KS Bharat
+          kind: run out
+- 2nd innings:
+    team: Andhra
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: KS Bharat
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: KS Bharat
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: KS Bharat
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashanth Kumar
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Prashanth Kumar
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Bharat
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: KS Bharat
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: KS Bharat
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Prashanth Kumar
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Bharat
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Prashanth Kumar
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Bharat
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Prashanth Kumar
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Bharat
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Prashanth Kumar
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Bharat
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Prashanth Kumar
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Bharat
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: KS Bharat
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Prashanth Kumar
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Bharat
+        wicket:
+          player_out: KS Bharat
+          fielders:
+          - K Upadhyay
+          kind: caught
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Koripalli Sreekanth
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashanth Kumar
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Prashanth Kumar
+        bowler: Ranjeet Mali
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Koripalli Sreekanth
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: Prashanth Kumar
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Koripalli Sreekanth
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: Koripalli Sreekanth
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Prashanth Kumar
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: Koripalli Sreekanth
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Koripalli Sreekanth
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Prashanth Kumar
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Koripalli Sreekanth
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Prashanth Kumar
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Koripalli Sreekanth
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Prashanth Kumar
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Koripalli Sreekanth
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Prashanth Kumar
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Koripalli Sreekanth
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Prashanth Kumar
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Koripalli Sreekanth
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Prashanth Kumar
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Koripalli Sreekanth
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Koripalli Sreekanth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Koripalli Sreekanth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Koripalli Sreekanth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 5
+          batsman: 5
+        batsman: Prashanth Kumar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Prashanth Kumar
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Koripalli Sreekanth
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Prashanth Kumar
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Koripalli Sreekanth
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Koripalli Sreekanth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Prashanth Kumar
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Koripalli Sreekanth
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Koripalli Sreekanth
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashanth Kumar
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Prashanth Kumar
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Koripalli Sreekanth
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Prashanth Kumar
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Koripalli Sreekanth
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Prashanth Kumar
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Koripalli Sreekanth
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Koripalli Sreekanth
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+        wicket:
+          player_out: Prashanth Kumar
+          fielders:
+          - V Cheluvaraj
+          kind: caught
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Karan Shinde
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Koripalli Sreekanth
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Koripalli Sreekanth
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Karan Shinde
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Koripalli Sreekanth
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Shinde
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Karan Shinde
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Koripalli Sreekanth
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Karan Shinde
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Koripalli Sreekanth
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Koripalli Sreekanth
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Shinde
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Koripalli Sreekanth
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Shinde
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Koripalli Sreekanth
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Shinde
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Karan Shinde
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Koripalli Sreekanth
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Karan Shinde
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Koripalli Sreekanth
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Karan Shinde
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Koripalli Sreekanth
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Karan Shinde
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Koripalli Sreekanth
+        wicket:
+          player_out: Koripalli Sreekanth
+          fielders:
+          - V Cheluvaraj
+          kind: caught
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Ashwin Hebbar
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Shinde
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Ashwin Hebbar
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Shinde
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Ashwin Hebbar
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Shinde
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Ashwin Hebbar
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Shinde
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Ashwin Hebbar
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Karan Shinde
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Ashwin Hebbar
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Shinde
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Ashwin Hebbar
+        bowler: KR Mahajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Shinde
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Karan Shinde
+        bowler: KR Mahajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashwin Hebbar
+        wicket:
+          player_out: Ashwin Hebbar
+          kind: bowled
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Karan Shinde
+        bowler: KR Mahajan
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: Jyothi Sai Krishna
+    - 9.4:
+        actual_delivery: '9.3'
+        non_striker: Karan Shinde
+        bowler: KR Mahajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jyothi Sai Krishna
+    - 9.5:
+        actual_delivery: '9.4'
+        non_striker: Karan Shinde
+        bowler: KR Mahajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jyothi Sai Krishna
+    - 9.6:
+        actual_delivery: '9.5'
+        non_striker: Jyothi Sai Krishna
+        bowler: KR Mahajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Shinde
+    - 9.7:
+        actual_delivery: '9.6'
+        non_striker: Jyothi Sai Krishna
+        bowler: KR Mahajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Shinde
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Jyothi Sai Krishna
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Shinde
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Karan Shinde
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jyothi Sai Krishna
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Jyothi Sai Krishna
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Shinde
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Jyothi Sai Krishna
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Karan Shinde
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Jyothi Sai Krishna
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Shinde
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Jyothi Sai Krishna
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Karan Shinde
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Karan Shinde
+        bowler: KR Mahajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jyothi Sai Krishna
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Karan Shinde
+        bowler: KR Mahajan
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Jyothi Sai Krishna
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Jyothi Sai Krishna
+        bowler: KR Mahajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Shinde
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Karan Shinde
+        bowler: KR Mahajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jyothi Sai Krishna
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Karan Shinde
+        bowler: KR Mahajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jyothi Sai Krishna
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Karan Shinde
+        bowler: KR Mahajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jyothi Sai Krishna
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Jyothi Sai Krishna
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Karan Shinde
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Jyothi Sai Krishna
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Shinde
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Karan Shinde
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jyothi Sai Krishna
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Karan Shinde
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jyothi Sai Krishna
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Jyothi Sai Krishna
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Shinde
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Karan Shinde
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jyothi Sai Krishna
+        wicket:
+          player_out: Jyothi Sai Krishna
+          kind: bowled
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Girinath Reddy
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Shinde
+        wicket:
+          player_out: Girinath Reddy
+          fielders:
+          - K Upadhyay
+          kind: run out
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Sirla Srinivas
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Shinde
+        wicket:
+          player_out: Karan Shinde
+          kind: bowled
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Sirla Srinivas
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K V Sasikanth
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Sirla Srinivas
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K V Sasikanth
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: K V Sasikanth
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sirla Srinivas
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Sirla Srinivas
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K V Sasikanth
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: K V Sasikanth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sirla Srinivas
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: K V Sasikanth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sirla Srinivas
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: K V Sasikanth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sirla Srinivas
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: K V Sasikanth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sirla Srinivas
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Sirla Srinivas
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K V Sasikanth
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: K V Sasikanth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sirla Srinivas
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Sirla Srinivas
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K V Sasikanth
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: K V Sasikanth
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sirla Srinivas
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Sirla Srinivas
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K V Sasikanth
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Sirla Srinivas
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K V Sasikanth
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: K V Sasikanth
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sirla Srinivas
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Sirla Srinivas
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K V Sasikanth
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: K V Sasikanth
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sirla Srinivas
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Sirla Srinivas
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K V Sasikanth
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: K V Sasikanth
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sirla Srinivas
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: K V Sasikanth
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sirla Srinivas
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: K V Sasikanth
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sirla Srinivas
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: K V Sasikanth
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sirla Srinivas
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Sirla Srinivas
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K V Sasikanth
+        wicket:
+          player_out: K V Sasikanth
+          kind: caught and bowled
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Sirla Srinivas
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bandaru Ayyappa
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Sirla Srinivas
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bandaru Ayyappa
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Sirla Srinivas
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bandaru Ayyappa
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Sirla Srinivas
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bandaru Ayyappa
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Bandaru Ayyappa
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sirla Srinivas
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Bandaru Ayyappa
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sirla Srinivas
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Bandaru Ayyappa
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sirla Srinivas
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Bandaru Ayyappa
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sirla Srinivas
+        wicket:
+          player_out: Sirla Srinivas
+          fielders:
+          - Vivek Singh
+          kind: caught
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Cheepurapalli Stephen
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bandaru Ayyappa
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Bandaru Ayyappa
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Cheepurapalli Stephen
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Bandaru Ayyappa
+        bowler: Ranjeet Mali
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Cheepurapalli Stephen
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Cheepurapalli Stephen
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bandaru Ayyappa
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Cheepurapalli Stephen
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bandaru Ayyappa
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Cheepurapalli Stephen
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bandaru Ayyappa
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Cheepurapalli Stephen
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bandaru Ayyappa
+        wicket:
+          player_out: Bandaru Ayyappa
+          fielders:
+          - AR Pandey
+          kind: caught

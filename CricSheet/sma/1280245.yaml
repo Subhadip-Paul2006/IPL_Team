@@ -1,0 +1,2336 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-21'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-11-06'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Railways
+    by:
+      runs: 6
+  overs: 20
+  players:
+    Railways:
+    - Mrunal Devdhar
+    - Pratham Singh
+    - Vivek Singh
+    - Shivam Chaudhary
+    - Upendra Yadav
+    - KV Sharma
+    - Harsh Tyagi
+    - Shubham Chaubey
+    - Yuvraj Singh
+    - AR Pandey
+    - Ananta Saha
+    Kerala:
+    - Unnikrishnan Manukrishnan
+    - KM Asif
+    - Basil Thampi
+    - Jalaj S Saxena
+    - S Midhun
+    - Rojith Ganesh
+    - Sachin Baby
+    - Rohan Kunnummal
+    - Mohammed Azharuddeen
+    - SV Samson
+    - Vishnu Vinod
+  registry:
+    people:
+      AR Pandey: dd73b2ff
+      Ananta Saha: d52330c6
+      Basil Thampi: 871e9faf
+      Harsh Tyagi: 4a15018a
+      Jalaj S Saxena: 249abedf
+      KM Asif: 798cc28e
+      KV Sharma: 119678fd
+      Mohammed Azharuddeen: 4ae89f36
+      Mrunal Devdhar: a1765140
+      Pratham Singh: f9f21866
+      Rohan Kunnummal: a6004ded
+      Rojith Ganesh: cf77f579
+      S Midhun: ade90de7
+      SV Samson: a4cc73aa
+      Sachin Baby: dc9dd038
+      Shivam Chaudhary: e53af640
+      Shubham Chaubey: 58588e5a
+      Unnikrishnan Manukrishnan: 39dd4d6d
+      Upendra Yadav: 80ffea17
+      Vishnu Vinod: '0494fa6e'
+      Vivek Singh: a446c7be
+      Yuvraj Singh: 30829ea2
+    venues:
+      Arun Jaitley Stadium: eef26f35
+  teams:
+  - Railways
+  - Kerala
+  toss:
+    winner: Kerala
+    decision: field
+  venue: Arun Jaitley Stadium
+  team_type: club
+innings:
+- 1st innings:
+    team: Railways
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Pratham Singh
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Pratham Singh
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Mrunal Devdhar
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Mrunal Devdhar
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Pratham Singh
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Pratham Singh
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Mrunal Devdhar
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Mrunal Devdhar
+        bowler: KM Asif
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Pratham Singh
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Pratham Singh
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Pratham Singh
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Pratham Singh
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Mrunal Devdhar
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Pratham Singh
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Mrunal Devdhar
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Pratham Singh
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mrunal Devdhar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Pratham Singh
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Pratham Singh
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+        wicket:
+          player_out: Mrunal Devdhar
+          fielders:
+          - SV Samson
+          kind: caught
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Pratham Singh
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Vivek Singh
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Vivek Singh
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pratham Singh
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Vivek Singh
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Pratham Singh
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Pratham Singh
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Vivek Singh
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pratham Singh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Pratham Singh
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Pratham Singh
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vivek Singh
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Pratham Singh
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Pratham Singh
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Vivek Singh
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Vivek Singh
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Pratham Singh
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Pratham Singh
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Pratham Singh
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+        wicket:
+          player_out: Vivek Singh
+          kind: bowled
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Pratham Singh
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Chaudhary
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Shivam Chaudhary
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Shivam Chaudhary
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Pratham Singh
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Chaudhary
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Shivam Chaudhary
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pratham Singh
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Shivam Chaudhary
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Shivam Chaudhary
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Shivam Chaudhary
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Pratham Singh
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Shivam Chaudhary
+        bowler: Basil Thampi
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Pratham Singh
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: Shivam Chaudhary
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Pratham Singh
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Chaudhary
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Shivam Chaudhary
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Pratham Singh
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Chaudhary
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Pratham Singh
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Chaudhary
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Shivam Chaudhary
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+        wicket:
+          player_out: Pratham Singh
+          kind: lbw
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Shivam Chaudhary
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Shivam Chaudhary
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Upendra Yadav
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Shivam Chaudhary
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Upendra Yadav
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Shivam Chaudhary
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Upendra Yadav
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Chaudhary
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Shivam Chaudhary
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Upendra Yadav
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Chaudhary
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Shivam Chaudhary
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Upendra Yadav
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Chaudhary
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Shivam Chaudhary
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Upendra Yadav
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Chaudhary
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Shivam Chaudhary
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Upendra Yadav
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Shivam Chaudhary
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Upendra Yadav
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Upendra Yadav
+        bowler: Rojith Ganesh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shivam Chaudhary
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Upendra Yadav
+        bowler: Rojith Ganesh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shivam Chaudhary
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Upendra Yadav
+        bowler: Rojith Ganesh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Chaudhary
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Upendra Yadav
+        bowler: Rojith Ganesh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Chaudhary
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Shivam Chaudhary
+        bowler: Rojith Ganesh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Upendra Yadav
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Shivam Chaudhary
+        bowler: Rojith Ganesh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Shivam Chaudhary
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Upendra Yadav
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Chaudhary
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Upendra Yadav
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shivam Chaudhary
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Upendra Yadav
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Chaudhary
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Shivam Chaudhary
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Upendra Yadav
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Chaudhary
+        wicket:
+          player_out: Shivam Chaudhary
+          fielders:
+          - Unnikrishnan Manukrishnan
+          kind: caught
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Upendra Yadav
+        bowler: Sachin Baby
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KV Sharma
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: KV Sharma
+        bowler: Sachin Baby
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Upendra Yadav
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: KV Sharma
+        bowler: Sachin Baby
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Upendra Yadav
+        bowler: Sachin Baby
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KV Sharma
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Upendra Yadav
+        bowler: Sachin Baby
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KV Sharma
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: KV Sharma
+        bowler: Sachin Baby
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: KV Sharma
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Upendra Yadav
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: KV Sharma
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Upendra Yadav
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KV Sharma
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Upendra Yadav
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KV Sharma
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Upendra Yadav
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KV Sharma
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: KV Sharma
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: KV Sharma
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Upendra Yadav
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KV Sharma
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Upendra Yadav
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KV Sharma
+        wicket:
+          player_out: KV Sharma
+          fielders:
+          - Vishnu Vinod
+          kind: caught
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Harsh Tyagi
+        bowler: S Midhun
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Upendra Yadav
+    - 14.5:
+        actual_delivery: '14.4'
+        non_striker: Harsh Tyagi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Upendra Yadav
+    - 14.6:
+        actual_delivery: '14.5'
+        non_striker: Harsh Tyagi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: Upendra Yadav
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harsh Tyagi
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Upendra Yadav
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harsh Tyagi
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Upendra Yadav
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harsh Tyagi
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Harsh Tyagi
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Upendra Yadav
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harsh Tyagi
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Harsh Tyagi
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Upendra Yadav
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Harsh Tyagi
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Harsh Tyagi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Upendra Yadav
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harsh Tyagi
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Harsh Tyagi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Upendra Yadav
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harsh Tyagi
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Upendra Yadav
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harsh Tyagi
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Harsh Tyagi
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Harsh Tyagi
+        bowler: Basil Thampi
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Upendra Yadav
+    - 17.2:
+        actual_delivery: '17.1'
+        non_striker: Harsh Tyagi
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Upendra Yadav
+    - 17.3:
+        actual_delivery: '17.2'
+        non_striker: Harsh Tyagi
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Upendra Yadav
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: Harsh Tyagi
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Upendra Yadav
+        bowler: Basil Thampi
+        extras:
+          legbyes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Harsh Tyagi
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Upendra Yadav
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Harsh Tyagi
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Upendra Yadav
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harsh Tyagi
+        wicket:
+          player_out: Harsh Tyagi
+          fielders:
+          - Mohammed Azharuddeen
+          kind: caught
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Upendra Yadav
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Chaubey
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Shubham Chaubey
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Upendra Yadav
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shubham Chaubey
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Upendra Yadav
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shubham Chaubey
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Upendra Yadav
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Chaubey
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Shubham Chaubey
+        bowler: Unnikrishnan Manukrishnan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Shubham Chaubey
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Upendra Yadav
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Shubham Chaubey
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Upendra Yadav
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Shubham Chaubey
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Upendra Yadav
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Shubham Chaubey
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Upendra Yadav
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shubham Chaubey
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Upendra Yadav
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Shubham Chaubey
+- 2nd innings:
+    team: Kerala
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Mohammed Azharuddeen
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Kunnummal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Mohammed Azharuddeen
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Kunnummal
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Mohammed Azharuddeen
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Kunnummal
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Mohammed Azharuddeen
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rohan Kunnummal
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Mohammed Azharuddeen
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Kunnummal
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Mohammed Azharuddeen
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Kunnummal
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Rohan Kunnummal
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammed Azharuddeen
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Rohan Kunnummal
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohammed Azharuddeen
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Rohan Kunnummal
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mohammed Azharuddeen
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Rohan Kunnummal
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammed Azharuddeen
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Rohan Kunnummal
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammed Azharuddeen
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Rohan Kunnummal
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammed Azharuddeen
+        wicket:
+          player_out: Mohammed Azharuddeen
+          fielders:
+          - Shivam Chaudhary
+          kind: caught
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Jalaj S Saxena
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Kunnummal
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Jalaj S Saxena
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Kunnummal
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Jalaj S Saxena
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Kunnummal
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Jalaj S Saxena
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rohan Kunnummal
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Jalaj S Saxena
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Kunnummal
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Rohan Kunnummal
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Jalaj S Saxena
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Kunnummal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Rohan Kunnummal
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Rohan Kunnummal
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+        wicket:
+          player_out: Jalaj S Saxena
+          fielders:
+          - Upendra Yadav
+          kind: caught
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Rohan Kunnummal
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Rohan Kunnummal
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SV Samson
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Rohan Kunnummal
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: SV Samson
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Kunnummal
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: SV Samson
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Kunnummal
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: SV Samson
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Kunnummal
+        wicket:
+          player_out: Rohan Kunnummal
+          fielders:
+          - Shubham Chaubey
+          kind: caught
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: SV Samson
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: SV Samson
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: SV Samson
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: SV Samson
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Sachin Baby
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Sachin Baby
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Sachin Baby
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Sachin Baby
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+        wicket:
+          player_out: SV Samson
+          kind: lbw
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Sachin Baby
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Sachin Baby
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Sachin Baby
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Sachin Baby
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Vishnu Vinod
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Vishnu Vinod
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Vishnu Vinod
+        bowler: Ananta Saha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Vishnu Vinod
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Vishnu Vinod
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Sachin Baby
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Vishnu Vinod
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Sachin Baby
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Sachin Baby
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vishnu Vinod
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Vishnu Vinod
+        bowler: Shubham Chaubey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sachin Baby
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Vishnu Vinod
+        bowler: Shubham Chaubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Sachin Baby
+        bowler: Shubham Chaubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Vishnu Vinod
+        bowler: Shubham Chaubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Sachin Baby
+        bowler: Shubham Chaubey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vishnu Vinod
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Sachin Baby
+        bowler: Shubham Chaubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Sachin Baby
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Vishnu Vinod
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Sachin Baby
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Vishnu Vinod
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Sachin Baby
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vishnu Vinod
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Sachin Baby
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Sachin Baby
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Vishnu Vinod
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Sachin Baby
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Vishnu Vinod
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Vishnu Vinod
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Sachin Baby
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Vishnu Vinod
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Vishnu Vinod
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Sachin Baby
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Vishnu Vinod
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sachin Baby
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Vishnu Vinod
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Sachin Baby
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Sachin Baby
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Sachin Baby
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Sachin Baby
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Vishnu Vinod
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Sachin Baby
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Sachin Baby
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vishnu Vinod
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Vishnu Vinod
+        bowler: Shubham Chaubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Sachin Baby
+        bowler: Shubham Chaubey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Sachin Baby
+        bowler: Shubham Chaubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Vishnu Vinod
+        bowler: Shubham Chaubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Sachin Baby
+        bowler: Shubham Chaubey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Sachin Baby
+        bowler: Shubham Chaubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Sachin Baby
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vishnu Vinod
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Sachin Baby
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Vishnu Vinod
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Sachin Baby
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Vishnu Vinod
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+        wicket:
+          player_out: Sachin Baby
+          fielders:
+          - Upendra Yadav
+          kind: caught
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Vishnu Vinod
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rojith Ganesh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Vishnu Vinod
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rojith Ganesh
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Rojith Ganesh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vishnu Vinod
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Rojith Ganesh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Rojith Ganesh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Vishnu Vinod
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rojith Ganesh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Rojith Ganesh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vishnu Vinod
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Vishnu Vinod
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rojith Ganesh
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Vishnu Vinod
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rojith Ganesh
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Vishnu Vinod
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rojith Ganesh
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Rojith Ganesh
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vishnu Vinod
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Rojith Ganesh
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Rojith Ganesh
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Vishnu Vinod
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rojith Ganesh
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Rojith Ganesh
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Vishnu Vinod
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rojith Ganesh
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Vishnu Vinod
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rojith Ganesh
+        wicket:
+          player_out: Rojith Ganesh
+          fielders:
+          - AR Pandey
+          kind: caught
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Unnikrishnan Manukrishnan
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vishnu Vinod
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Unnikrishnan Manukrishnan
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Vishnu Vinod
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Unnikrishnan Manukrishnan
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Vishnu Vinod
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Unnikrishnan Manukrishnan
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Vishnu Vinod
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Unnikrishnan Manukrishnan
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Vishnu Vinod
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Unnikrishnan Manukrishnan
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Unnikrishnan Manukrishnan
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Vishnu Vinod
+        bowler: AR Pandey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Unnikrishnan Manukrishnan
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Unnikrishnan Manukrishnan
+        bowler: Yuvraj Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Vishnu Vinod
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Unnikrishnan Manukrishnan
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Vishnu Vinod
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Unnikrishnan Manukrishnan
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Vishnu Vinod
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Unnikrishnan Manukrishnan
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Vishnu Vinod
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Unnikrishnan Manukrishnan
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Vishnu Vinod
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Unnikrishnan Manukrishnan

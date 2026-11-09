@@ -1,0 +1,2333 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-06'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2016-01-09'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Haryana
+    by:
+      runs: 17
+  overs: 20
+  players:
+    Haryana:
+    - N Saini
+    - HV Patel
+    - MS Hooda
+    - A Mishra
+    - J Yadav
+    - AH Hooda
+    - Himanshu Rana
+    - YS Chahal
+    - RM Dagar
+    - Chaitanya Bishnoi
+    - PB Mehta
+    Bengal:
+    - AB Dinda
+    - Mukesh Kumar
+    - Anurag Tiwari
+    - Sayan Mondal
+    - Aamir Gani
+    - Pramod Chandila
+    - Abhisek Das
+    - Sudip Chatterjee
+    - WP Saha
+    - Pankaj Shaw
+    - DB Das
+  registry:
+    people:
+      A Mishra: 6b19d823
+      AB Dinda: 66b30f71
+      AH Hooda: e4072aa1
+      Aamir Gani: 2c3afa34
+      Abhisek Das: f4cd319e
+      Anurag Tiwari: 7793e24b
+      Chaitanya Bishnoi: e793a8ed
+      DB Das: 7050a1e7
+      HV Patel: f986ca1a
+      Himanshu Rana: 9d3940b3
+      J Yadav: '81049310'
+      MS Hooda: d851756a
+      Mukesh Kumar: 2cffab74
+      N Saini: addbde6c
+      PB Mehta: 2462f58c
+      Pankaj Shaw: b7892352
+      Pramod Chandila: f6f60dca
+      RM Dagar: 3fbc5cc9
+      Sayan Mondal: c14721ab
+      Sudip Chatterjee: 0cb8626f
+      WP Saha: fe11caa6
+      YS Chahal: 57ee1fde
+    venues:
+      Vidarbha Cricket Association Stadium, Jamtha, Nagpur: a0fc5764
+  teams:
+  - Haryana
+  - Bengal
+  toss:
+    winner: Haryana
+    decision: bat
+  venue: Vidarbha Cricket Association Stadium, Jamtha, Nagpur
+  team_type: club
+innings:
+- 1st innings:
+    team: Haryana
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: HV Patel
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: HV Patel
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: N Saini
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HV Patel
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: N Saini
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HV Patel
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: N Saini
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HV Patel
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: N Saini
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HV Patel
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: N Saini
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HV Patel
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: N Saini
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HV Patel
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: N Saini
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HV Patel
+        wicket:
+          player_out: HV Patel
+          fielders:
+          - Pankaj Shaw
+          kind: caught
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: MS Hooda
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: MS Hooda
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: N Saini
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: MS Hooda
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: MS Hooda
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: N Saini
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: MS Hooda
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: MS Hooda
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: MS Hooda
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: N Saini
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: N Saini
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: N Saini
+        bowler: Mukesh Kumar
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: MS Hooda
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: MS Hooda
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: MS Hooda
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: N Saini
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: MS Hooda
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Saini
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: MS Hooda
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: MS Hooda
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: N Saini
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: MS Hooda
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: N Saini
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: N Saini
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MS Hooda
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: N Saini
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: N Saini
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: MS Hooda
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Saini
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: MS Hooda
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: MS Hooda
+        bowler: Mukesh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: MS Hooda
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: N Saini
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: MS Hooda
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: MS Hooda
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: N Saini
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: MS Hooda
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: MS Hooda
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: MS Hooda
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: N Saini
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: N Saini
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MS Hooda
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: N Saini
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: N Saini
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: N Saini
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: MS Hooda
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: N Saini
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: MS Hooda
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: MS Hooda
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: MS Hooda
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Saini
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: MS Hooda
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: MS Hooda
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: N Saini
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: N Saini
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: MS Hooda
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Saini
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: MS Hooda
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Saini
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: MS Hooda
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Saini
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: N Saini
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: MS Hooda
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: N Saini
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: MS Hooda
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: MS Hooda
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: N Saini
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: MS Hooda
+        bowler: Pramod Chandila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: N Saini
+        bowler: Pramod Chandila
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: N Saini
+        bowler: Pramod Chandila
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MS Hooda
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: N Saini
+        bowler: Pramod Chandila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: MS Hooda
+        bowler: Pramod Chandila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: N Saini
+        bowler: Pramod Chandila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: N Saini
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: MS Hooda
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: N Saini
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: N Saini
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: N Saini
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: MS Hooda
+        bowler: Anurag Tiwari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: MS Hooda
+        bowler: Pramod Chandila
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Saini
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: MS Hooda
+        bowler: Pramod Chandila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: N Saini
+        bowler: Pramod Chandila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: MS Hooda
+        bowler: Pramod Chandila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: N Saini
+        bowler: Pramod Chandila
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: N Saini
+        bowler: Pramod Chandila
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MS Hooda
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: MS Hooda
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: N Saini
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: N Saini
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MS Hooda
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: N Saini
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: MS Hooda
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: N Saini
+        bowler: Sayan Mondal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: N Saini
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: MS Hooda
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: MS Hooda
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: N Saini
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: MS Hooda
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: N Saini
+        bowler: Aamir Gani
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: MS Hooda
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: N Saini
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: MS Hooda
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Saini
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: MS Hooda
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: MS Hooda
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: N Saini
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: N Saini
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: N Saini
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: MS Hooda
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: N Saini
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Hooda
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: MS Hooda
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Saini
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: MS Hooda
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: MS Hooda
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Saini
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: N Saini
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MS Hooda
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: N Saini
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Hooda
+        wicket:
+          player_out: MS Hooda
+          fielders:
+          - Sayan Mondal
+          kind: run out
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: A Mishra
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Saini
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: A Mishra
+        bowler: AB Dinda
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: N Saini
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: A Mishra
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: N Saini
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Mishra
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: N Saini
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Mishra
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: A Mishra
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: N Saini
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Mishra
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: N Saini
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Mishra
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: N Saini
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Mishra
+        wicket:
+          player_out: A Mishra
+          kind: bowled
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: N Saini
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Yadav
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: J Yadav
+        bowler: Aamir Gani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Saini
+- 2nd innings:
+    team: Bengal
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Abhisek Das
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Abhisek Das
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Abhisek Das
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Abhisek Das
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Abhisek Das
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Abhisek Das
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sayan Mondal
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Sayan Mondal
+        bowler: AH Hooda
+        extras:
+          wides: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: Abhisek Das
+    - 1.2:
+        actual_delivery: '1.1'
+        non_striker: Abhisek Das
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: Abhisek Das
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Abhisek Das
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Abhisek Das
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Abhisek Das
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Abhisek Das
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Sayan Mondal
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhisek Das
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Sayan Mondal
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhisek Das
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Sayan Mondal
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhisek Das
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Abhisek Das
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sayan Mondal
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Sayan Mondal
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhisek Das
+        wicket:
+          player_out: Abhisek Das
+          fielders:
+          - J Yadav
+          kind: caught
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Sayan Mondal
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Sudip Chatterjee
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sayan Mondal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Sayan Mondal
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Sudip Chatterjee
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Sudip Chatterjee
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Sayan Mondal
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Sayan Mondal
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+        wicket:
+          player_out: Sudip Chatterjee
+          fielders:
+          - RM Dagar
+          kind: caught
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Sayan Mondal
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Sayan Mondal
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WP Saha
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Sayan Mondal
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WP Saha
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Sayan Mondal
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WP Saha
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Sayan Mondal
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: WP Saha
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: WP Saha
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Sayan Mondal
+        bowler: PB Mehta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: WP Saha
+        bowler: PB Mehta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sayan Mondal
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Sayan Mondal
+        bowler: PB Mehta
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: WP Saha
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: WP Saha
+        bowler: PB Mehta
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sayan Mondal
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: WP Saha
+        bowler: PB Mehta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: WP Saha
+        bowler: PB Mehta
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sayan Mondal
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Sayan Mondal
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sayan Mondal
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Sayan Mondal
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sayan Mondal
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sayan Mondal
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: WP Saha
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sayan Mondal
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: WP Saha
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sayan Mondal
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Sayan Mondal
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: WP Saha
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sayan Mondal
+        wicket:
+          player_out: Sayan Mondal
+          fielders:
+          - RM Dagar
+          kind: caught
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Pankaj Shaw
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WP Saha
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Pankaj Shaw
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: WP Saha
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pankaj Shaw
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pankaj Shaw
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pankaj Shaw
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Pankaj Shaw
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pankaj Shaw
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Pankaj Shaw
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Pankaj Shaw
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: WP Saha
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pankaj Shaw
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: WP Saha
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pankaj Shaw
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Pankaj Shaw
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: WP Saha
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pankaj Shaw
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Pankaj Shaw
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Pankaj Shaw
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: WP Saha
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pankaj Shaw
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Pankaj Shaw
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: WP Saha
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pankaj Shaw
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: WP Saha
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pankaj Shaw
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: WP Saha
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pankaj Shaw
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: WP Saha
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pankaj Shaw
+        wicket:
+          player_out: Pankaj Shaw
+          fielders:
+          - N Saini
+          kind: stumped
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: WP Saha
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: WP Saha
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: WP Saha
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: WP Saha
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: WP Saha
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: WP Saha
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: WP Saha
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: WP Saha
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: WP Saha
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Pramod Chandila
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: WP Saha
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Pramod Chandila
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Pramod Chandila
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: WP Saha
+        bowler: YS Chahal
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Pramod Chandila
+    - 14.2:
+        actual_delivery: '14.1'
+        non_striker: WP Saha
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 14.3:
+        actual_delivery: '14.2'
+        non_striker: WP Saha
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 14.4:
+        actual_delivery: '14.3'
+        non_striker: Pramod Chandila
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WP Saha
+    - 14.5:
+        actual_delivery: '14.4'
+        non_striker: Pramod Chandila
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 14.6:
+        actual_delivery: '14.5'
+        non_striker: WP Saha
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pramod Chandila
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: WP Saha
+        bowler: YS Chahal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Pramod Chandila
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pramod Chandila
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: WP Saha
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Pramod Chandila
+        bowler: J Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Pramod Chandila
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: WP Saha
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pramod Chandila
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: WP Saha
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: WP Saha
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: WP Saha
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pramod Chandila
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: WP Saha
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Pramod Chandila
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: WP Saha
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Pramod Chandila
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WP Saha
+        wicket:
+          player_out: WP Saha
+          fielders:
+          - J Yadav
+          kind: caught
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: DB Das
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Pramod Chandila
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: DB Das
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+        wicket:
+          player_out: Pramod Chandila
+          kind: bowled
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: DB Das
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aamir Gani
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: DB Das
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aamir Gani
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Aamir Gani
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Das
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: DB Das
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aamir Gani
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: DB Das
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aamir Gani
+        wicket:
+          player_out: Aamir Gani
+          fielders:
+          - PB Mehta
+          kind: caught
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: DB Das
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AB Dinda
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: AB Dinda
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Das
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: DB Das
+        bowler: HV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AB Dinda
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: AB Dinda
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Das
+        wicket:
+          player_out: DB Das
+          fielders:
+          - YS Chahal
+          kind: run out
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: AB Dinda
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mukesh Kumar
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Mukesh Kumar
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AB Dinda
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Mukesh Kumar
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AB Dinda
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Mukesh Kumar
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AB Dinda
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Mukesh Kumar
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AB Dinda

@@ -1,0 +1,2402 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-06'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2016-01-04'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Delhi
+    by:
+      wickets: 4
+  overs: 20
+  players:
+    Madhya Pradesh:
+    - Zafar Ali
+    - Jalaj S Saxena
+    - IC Pandey
+    - NV Ojha
+    - Harpreet Singh
+    - Parth Sahani
+    - Sohraab Dhaliwal
+    - VR Iyer
+    - Puneet Datey
+    - Ankit Kushwah
+    - Ankit Sharma
+    Delhi:
+    - Navdeep Saini
+    - PJ Sangwan
+    - Suboth Bhati
+    - Sarang Rawat
+    - Manan Sharma
+    - P Negi
+    - Milind Kumar
+    - UBT Chand
+    - G Gambhir
+    - Aditya Kaushik
+    - N Rana
+  registry:
+    people:
+      Aditya Kaushik: 9a2d95ac
+      Ankit Kushwah: d27dafe2
+      Ankit Sharma: 24d94623
+      DR Shorey: faa7365d
+      G Gambhir: bb345e0b
+      Harpreet Singh: 28c78fb3
+      IC Pandey: e0407c01
+      Jalaj S Saxena: 249abedf
+      Manan Sharma: bfcff6cd
+      Milind Kumar: b4296080
+      N Rana: fb2d1dda
+      NV Ojha: 890946a0
+      Navdeep Saini: 21d4e29b
+      P Negi: f62772e5
+      PJ Sangwan: 9fc0ef64
+      Parth Sahani: 239f7526
+      Puneet Datey: 389ae08a
+      Sarang Rawat: 8dcae4c9
+      Sohraab Dhaliwal: 564714f5
+      Suboth Bhati: bee290b6
+      UBT Chand: 0c94f480
+      VR Iyer: a24be938
+      Zafar Ali: 87b455da
+    venues:
+      Reliance Stadium, Vadodara: 5bbd83c0
+  teams:
+  - Madhya Pradesh
+  - Delhi
+  toss:
+    winner: Delhi
+    decision: field
+  venue: Reliance Stadium, Vadodara
+  team_type: club
+innings:
+- 1st innings:
+    team: Madhya Pradesh
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Jalaj S Saxena
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zafar Ali
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Jalaj S Saxena
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Zafar Ali
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Jalaj S Saxena
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zafar Ali
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Jalaj S Saxena
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zafar Ali
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Jalaj S Saxena
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zafar Ali
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Jalaj S Saxena
+        bowler: Navdeep Saini
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Zafar Ali
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Jalaj S Saxena
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Zafar Ali
+        wicket:
+          player_out: Zafar Ali
+          fielders:
+          - UBT Chand
+          kind: caught
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Jalaj S Saxena
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: IC Pandey
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Jalaj S Saxena
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: IC Pandey
+        wicket:
+          player_out: IC Pandey
+          fielders:
+          - UBT Chand
+          kind: caught
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Jalaj S Saxena
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: NV Ojha
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: NV Ojha
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jalaj S Saxena
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: NV Ojha
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jalaj S Saxena
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: NV Ojha
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: NV Ojha
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: NV Ojha
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: NV Ojha
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: NV Ojha
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jalaj S Saxena
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Jalaj S Saxena
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Jalaj S Saxena
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Jalaj S Saxena
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NV Ojha
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Jalaj S Saxena
+        bowler: PJ Sangwan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: NV Ojha
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Jalaj S Saxena
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Jalaj S Saxena
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: NV Ojha
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Jalaj S Saxena
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Jalaj S Saxena
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Jalaj S Saxena
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Jalaj S Saxena
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Jalaj S Saxena
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Jalaj S Saxena
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NV Ojha
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: NV Ojha
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: NV Ojha
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jalaj S Saxena
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Jalaj S Saxena
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Jalaj S Saxena
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: NV Ojha
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: NV Ojha
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jalaj S Saxena
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: NV Ojha
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jalaj S Saxena
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Jalaj S Saxena
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Jalaj S Saxena
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Jalaj S Saxena
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: NV Ojha
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Jalaj S Saxena
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Jalaj S Saxena
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Jalaj S Saxena
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Jalaj S Saxena
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NV Ojha
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Jalaj S Saxena
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: NV Ojha
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jalaj S Saxena
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Jalaj S Saxena
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: NV Ojha
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jalaj S Saxena
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: NV Ojha
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jalaj S Saxena
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Jalaj S Saxena
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: NV Ojha
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: NV Ojha
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jalaj S Saxena
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Jalaj S Saxena
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: NV Ojha
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jalaj S Saxena
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: NV Ojha
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: NV Ojha
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: NV Ojha
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jalaj S Saxena
+        wicket:
+          player_out: Jalaj S Saxena
+          fielders:
+          - Milind Kumar
+          kind: caught
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Harpreet Singh
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NV Ojha
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Harpreet Singh
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: NV Ojha
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: NV Ojha
+        bowler: Manan Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: NV Ojha
+        bowler: Manan Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: NV Ojha
+        bowler: Manan Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: NV Ojha
+        bowler: Manan Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: NV Ojha
+        bowler: Manan Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: NV Ojha
+        bowler: Manan Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Harpreet Singh
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: NV Ojha
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: NV Ojha
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Harpreet Singh
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: NV Ojha
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Harpreet Singh
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NV Ojha
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Harpreet Singh
+        bowler: Sarang Rawat
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: NV Ojha
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: NV Ojha
+        bowler: Manan Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Harpreet Singh
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: NV Ojha
+        bowler: Manan Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Harpreet Singh
+        bowler: Manan Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: NV Ojha
+        bowler: Manan Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: NV Ojha
+        bowler: Manan Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: NV Ojha
+        bowler: Manan Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: NV Ojha
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: NV Ojha
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: NV Ojha
+        bowler: Navdeep Saini
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Harpreet Singh
+    - 13.4:
+        actual_delivery: '13.3'
+        non_striker: NV Ojha
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 13.5:
+        actual_delivery: '13.4'
+        non_striker: Harpreet Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          role:
+          - in: P Negi
+            out: Navdeep Saini
+            reason: unknown
+            role: bowler
+        batsman: NV Ojha
+    - 13.6:
+        actual_delivery: '13.5'
+        non_striker: Harpreet Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 13.7:
+        actual_delivery: '13.6'
+        non_striker: NV Ojha
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: NV Ojha
+        bowler: Milind Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: NV Ojha
+        bowler: Milind Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: NV Ojha
+        bowler: Milind Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: NV Ojha
+        bowler: Milind Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Harpreet Singh
+        bowler: Milind Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: NV Ojha
+        bowler: Milind Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: NV Ojha
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Harpreet Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Harpreet Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NV Ojha
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Harpreet Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Harpreet Singh
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: NV Ojha
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Harpreet Singh
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Harpreet Singh
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: NV Ojha
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+        wicket:
+          player_out: Harpreet Singh
+          fielders:
+          - PJ Sangwan
+          kind: caught
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Parth Sahani
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Parth Sahani
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: NV Ojha
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Parth Sahani
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: NV Ojha
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Parth Sahani
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Parth Sahani
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+        wicket:
+          player_out: NV Ojha
+          fielders:
+          - Milind Kumar
+          kind: caught
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Sohraab Dhaliwal
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Parth Sahani
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Sohraab Dhaliwal
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Parth Sahani
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Sohraab Dhaliwal
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Parth Sahani
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Parth Sahani
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sohraab Dhaliwal
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Parth Sahani
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sohraab Dhaliwal
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Sohraab Dhaliwal
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Parth Sahani
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Sohraab Dhaliwal
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Parth Sahani
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Sohraab Dhaliwal
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Parth Sahani
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Sohraab Dhaliwal
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Parth Sahani
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Parth Sahani
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sohraab Dhaliwal
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Parth Sahani
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sohraab Dhaliwal
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Parth Sahani
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sohraab Dhaliwal
+        wicket:
+          player_out: Sohraab Dhaliwal
+          fielders:
+          - DR Shorey (sub)
+          kind: caught
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: VR Iyer
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Parth Sahani
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: VR Iyer
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Parth Sahani
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: VR Iyer
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Parth Sahani
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: VR Iyer
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Parth Sahani
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: VR Iyer
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Parth Sahani
+- 2nd innings:
+    team: Delhi
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: G Gambhir
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: G Gambhir
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: UBT Chand
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Gambhir
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: UBT Chand
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Gambhir
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: UBT Chand
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Gambhir
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: UBT Chand
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: UBT Chand
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: G Gambhir
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: G Gambhir
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: G Gambhir
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: G Gambhir
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: UBT Chand
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: UBT Chand
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Gambhir
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: UBT Chand
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Gambhir
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: UBT Chand
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Gambhir
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: UBT Chand
+        bowler: IC Pandey
+        extras:
+          wides: 3
+        runs:
+          extras: 3
+          total: 3
+          batsman: 0
+        batsman: G Gambhir
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: UBT Chand
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: G Gambhir
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+        wicket:
+          player_out: UBT Chand
+          fielders:
+          - Ankit Kushwah
+          kind: caught
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Suboth Bhati
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Suboth Bhati
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: G Gambhir
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: G Gambhir
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Suboth Bhati
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: G Gambhir
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suboth Bhati
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Suboth Bhati
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Gambhir
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Suboth Bhati
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Gambhir
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: G Gambhir
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: G Gambhir
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Suboth Bhati
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: G Gambhir
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: G Gambhir
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: G Gambhir
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Suboth Bhati
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: G Gambhir
+        bowler: Ankit Kushwah
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Suboth Bhati
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: G Gambhir
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Suboth Bhati
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Gambhir
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Suboth Bhati
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: G Gambhir
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suboth Bhati
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Suboth Bhati
+        bowler: Puneet Datey
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: G Gambhir
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: Suboth Bhati
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Gambhir
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: Suboth Bhati
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: G Gambhir
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Suboth Bhati
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: G Gambhir
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: G Gambhir
+        bowler: Ankit Kushwah
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Suboth Bhati
+    - 6.4:
+        actual_delivery: '6.3'
+        non_striker: G Gambhir
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+    - 6.5:
+        actual_delivery: '6.4'
+        non_striker: G Gambhir
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+        wicket:
+          player_out: Suboth Bhati
+          fielders:
+          - Ankit Kushwah
+          kind: run out
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: G Gambhir
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: Aditya Kaushik
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Aditya Kaushik
+        bowler: Harpreet Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: G Gambhir
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Aditya Kaushik
+        bowler: Harpreet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: G Gambhir
+        bowler: Harpreet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Kaushik
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: G Gambhir
+        bowler: Harpreet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: G Gambhir
+        bowler: Harpreet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+        wicket:
+          player_out: Aditya Kaushik
+          fielders:
+          - Harpreet Singh
+          kind: run out
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: G Gambhir
+        bowler: Harpreet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: N Rana
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: G Gambhir
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: N Rana
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Gambhir
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: N Rana
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: G Gambhir
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: N Rana
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: N Rana
+        bowler: Harpreet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: G Gambhir
+        bowler: Harpreet Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: N Rana
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: G Gambhir
+        bowler: Harpreet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Rana
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: G Gambhir
+        bowler: Harpreet Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: N Rana
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: G Gambhir
+        bowler: Harpreet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: N Rana
+        bowler: Harpreet Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: G Gambhir
+    - 9.7:
+        actual_delivery: '9.6'
+        non_striker: N Rana
+        bowler: Harpreet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: N Rana
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: G Gambhir
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: N Rana
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: G Gambhir
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: N Rana
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: G Gambhir
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: G Gambhir
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Rana
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: N Rana
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: G Gambhir
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: G Gambhir
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: N Rana
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Gambhir
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: N Rana
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: G Gambhir
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: G Gambhir
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: N Rana
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: G Gambhir
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+        wicket:
+          player_out: N Rana
+          fielders:
+          - Sohraab Dhaliwal
+          kind: caught
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: G Gambhir
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Milind Kumar
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Milind Kumar
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Gambhir
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Milind Kumar
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: G Gambhir
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Milind Kumar
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Milind Kumar
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: G Gambhir
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: G Gambhir
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Milind Kumar
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: G Gambhir
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Milind Kumar
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: G Gambhir
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Milind Kumar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Milind Kumar
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Gambhir
+        wicket:
+          player_out: G Gambhir
+          fielders:
+          - Puneet Datey
+          kind: caught
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: P Negi
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Milind Kumar
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: P Negi
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Milind Kumar
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: P Negi
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Milind Kumar
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: P Negi
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Milind Kumar
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: P Negi
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Milind Kumar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: P Negi
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Milind Kumar
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: P Negi
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Milind Kumar
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Milind Kumar
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Negi
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: P Negi
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Milind Kumar
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Milind Kumar
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Negi
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: P Negi
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Milind Kumar
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Milind Kumar
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: P Negi
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Milind Kumar
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Negi
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Milind Kumar
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Negi
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: P Negi
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Milind Kumar
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: P Negi
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Milind Kumar
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Milind Kumar
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Negi
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: P Negi
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Milind Kumar
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Milind Kumar
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Negi
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Milind Kumar
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: P Negi
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Milind Kumar
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Negi
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Milind Kumar
+        bowler: Puneet Datey
+        extras:
+          wides: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: P Negi
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: P Negi
+        bowler: Puneet Datey
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Milind Kumar
+    - 17.5:
+        actual_delivery: '17.3'
+        non_striker: P Negi
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Milind Kumar
+    - 17.6:
+        actual_delivery: '17.4'
+        non_striker: P Negi
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Milind Kumar
+    - 17.7:
+        actual_delivery: '17.5'
+        non_striker: P Negi
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Milind Kumar
+    - 17.8:
+        actual_delivery: '17.6'
+        non_striker: P Negi
+        bowler: Puneet Datey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Milind Kumar
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Milind Kumar
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Negi
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: P Negi
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Milind Kumar
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: P Negi
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Milind Kumar
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Milind Kumar
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Negi
+        wicket:
+          player_out: P Negi
+          fielders:
+          - Jalaj S Saxena
+          kind: caught
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: PJ Sangwan
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Milind Kumar
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Milind Kumar
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PJ Sangwan
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: PJ Sangwan
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Milind Kumar
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: PJ Sangwan
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Milind Kumar
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Milind Kumar
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PJ Sangwan
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Milind Kumar
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PJ Sangwan
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Milind Kumar
+        bowler: Ankit Kushwah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PJ Sangwan

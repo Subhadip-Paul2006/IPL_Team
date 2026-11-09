@@ -1,0 +1,2220 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-21'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-11-08'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Vidarbha
+    by:
+      runs: 167
+  overs: 20
+  players:
+    Vidarbha:
+    - Atharva Taide
+    - Siddhesh Wath
+    - Akshay Wadkar
+    - SB Dubey
+    - JM Sharma
+    - AV Wankhade
+    - DG Nalkande
+    - Siddhesh Neral
+    - AS Thakare
+    - Akshay Karnewar
+    - Akshay Wakhare
+    Manipur:
+    - L Kishan Singha
+    - Somorjit Salam
+    - Nitesh Sedai
+    - Homendro Kabrambam
+    - Kishan Thokchom
+    - Chongtham Mehul
+    - Narsingh Yadav
+    - Al Bashid Muhammed
+    - Karnajit Yumnam
+    - Sanatombaroy Laiphangbam
+    - Johnson Singh
+  registry:
+    people:
+      AS Thakare: aa7176ba
+      AV Wankhade: 5708d0b6
+      Akshay Karnewar: e1e7f950
+      Akshay Wadkar: c88c8a7d
+      Akshay Wakhare: ec9fc54b
+      Al Bashid Muhammed: 1dc27b6b
+      Atharva Taide: 1ac746c8
+      Chongtham Mehul: c916b3c2
+      DG Nalkande: cd8d2859
+      Homendro Kabrambam: 1b480a44
+      JM Sharma: 800d2d97
+      Johnson Singh: 5355e20a
+      Karnajit Yumnam: 6f2093a8
+      Kishan Thokchom: dbc76c59
+      L Kishan Singha: ca82673d
+      Langlonyamba Meitan Keishangbam: 61b9410c
+      Narsingh Yadav: 4c450aee
+      Nitesh Sedai: e9cb8d60
+      SB Dubey: 6b2ff18f
+      Sanatombaroy Laiphangbam: a207d093
+      Siddhesh Neral: 5b181080
+      Siddhesh Wath: 5786f224
+      Somorjit Salam: 2b38fa6d
+    venues:
+      Andhra Cricket Association Stadium, Mangalagiri: 82da1bdb
+  teams:
+  - Vidarbha
+  - Manipur
+  toss:
+    winner: Vidarbha
+    decision: bat
+  venue: Andhra Cricket Association Stadium, Mangalagiri
+  team_type: club
+innings:
+- 1st innings:
+    team: Vidarbha
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Siddhesh Wath
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Atharva Taide
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Siddhesh Wath
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Atharva Taide
+        bowler: L Kishan Singha
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: Siddhesh Wath
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Atharva Taide
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Siddhesh Wath
+        wicket:
+          player_out: Siddhesh Wath
+          kind: bowled
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Atharva Taide
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Atharva Taide
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Akshay Wadkar
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Akshay Wadkar
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Akshay Wadkar
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Akshay Wadkar
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Akshay Wadkar
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Akshay Wadkar
+        bowler: Somorjit Salam
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Atharva Taide
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Akshay Wadkar
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Atharva Taide
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Akshay Wadkar
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Akshay Wadkar
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Atharva Taide
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Akshay Wadkar
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Akshay Wadkar
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Akshay Wadkar
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Akshay Wadkar
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Atharva Taide
+        bowler: Somorjit Salam
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 3.2:
+        actual_delivery: '3.1'
+        non_striker: Atharva Taide
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: Atharva Taide
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: Atharva Taide
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Atharva Taide
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Akshay Wadkar
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Atharva Taide
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Akshay Wadkar
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Atharva Taide
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Atharva Taide
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Akshay Wadkar
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Atharva Taide
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Atharva Taide
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Akshay Wadkar
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Akshay Wadkar
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Akshay Wadkar
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Atharva Taide
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Akshay Wadkar
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Akshay Wadkar
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+        wicket:
+          player_out: Atharva Taide
+          fielders:
+          - Nitesh Sedai
+          kind: caught
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: SB Dubey
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: SB Dubey
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Akshay Wadkar
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: SB Dubey
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akshay Wadkar
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: SB Dubey
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Akshay Wadkar
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Dubey
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Akshay Wadkar
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Akshay Wadkar
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: SB Dubey
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Akshay Wadkar
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: SB Dubey
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Akshay Wadkar
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: SB Dubey
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: SB Dubey
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Akshay Wadkar
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Dubey
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Akshay Wadkar
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: SB Dubey
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akshay Wadkar
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: SB Dubey
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Akshay Wadkar
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: SB Dubey
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: SB Dubey
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Akshay Wadkar
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Dubey
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Akshay Wadkar
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: SB Dubey
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Akshay Wadkar
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: SB Dubey
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: SB Dubey
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Akshay Wadkar
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SB Dubey
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Akshay Wadkar
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Dubey
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Akshay Wadkar
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: SB Dubey
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Wadkar
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Akshay Wadkar
+        bowler: Homendro Kabrambam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Akshay Wadkar
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: SB Dubey
+        bowler: Nitesh Sedai
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Akshay Wadkar
+    - 11.3:
+        actual_delivery: '11.2'
+        non_striker: SB Dubey
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Wadkar
+        wicket:
+          player_out: Akshay Wadkar
+          fielders:
+          - Al Bashid Muhammed
+          kind: caught
+    - 11.4:
+        actual_delivery: '11.3'
+        non_striker: SB Dubey
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: JM Sharma
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Dubey
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: JM Sharma
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: SB Dubey
+        bowler: Nitesh Sedai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: SB Dubey
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: SB Dubey
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: SB Dubey
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: SB Dubey
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: JM Sharma
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: SB Dubey
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: SB Dubey
+        bowler: Chongtham Mehul
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: SB Dubey
+        bowler: Chongtham Mehul
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Sharma
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: SB Dubey
+        bowler: Chongtham Mehul
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: SB Dubey
+        bowler: Chongtham Mehul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: SB Dubey
+        bowler: Chongtham Mehul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: JM Sharma
+        bowler: Chongtham Mehul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Dubey
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: JM Sharma
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Dubey
+        wicket:
+          player_out: SB Dubey
+          fielders:
+          - Langlonyamba Meitan Keishangbam (sub)
+          kind: caught
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: AV Wankhade
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: JM Sharma
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: AV Wankhade
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: JM Sharma
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: AV Wankhade
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: AV Wankhade
+        bowler: Chongtham Mehul
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: AV Wankhade
+        bowler: Chongtham Mehul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: JM Sharma
+        bowler: Chongtham Mehul
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AV Wankhade
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: JM Sharma
+        bowler: Chongtham Mehul
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AV Wankhade
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: JM Sharma
+        bowler: Chongtham Mehul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: AV Wankhade
+        bowler: Chongtham Mehul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: AV Wankhade
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Sharma
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: AV Wankhade
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: AV Wankhade
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: AV Wankhade
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: JM Sharma
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: AV Wankhade
+        bowler: L Kishan Singha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: AV Wankhade
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Sharma
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: AV Wankhade
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: AV Wankhade
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JM Sharma
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: AV Wankhade
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: AV Wankhade
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: AV Wankhade
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: JM Sharma
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Wankhade
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: JM Sharma
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AV Wankhade
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: JM Sharma
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: AV Wankhade
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: JM Sharma
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: AV Wankhade
+        bowler: Somorjit Salam
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: JM Sharma
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Wankhade
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: JM Sharma
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AV Wankhade
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: JM Sharma
+        bowler: Kishan Thokchom
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AV Wankhade
+    - 19.4:
+        actual_delivery: '19.3'
+        non_striker: JM Sharma
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AV Wankhade
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: JM Sharma
+        bowler: Kishan Thokchom
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AV Wankhade
+    - 19.6:
+        actual_delivery: '19.4'
+        non_striker: JM Sharma
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AV Wankhade
+    - 19.7:
+        actual_delivery: '19.5'
+        non_striker: JM Sharma
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AV Wankhade
+    - 19.8:
+        actual_delivery: '19.6'
+        non_striker: JM Sharma
+        bowler: Kishan Thokchom
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+- 2nd innings:
+    team: Manipur
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Nitesh Sedai
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Nitesh Sedai
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Narsingh Yadav
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Narsingh Yadav
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nitesh Sedai
+        wicket:
+          player_out: Nitesh Sedai
+          fielders:
+          - Atharva Taide
+          kind: run out
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Narsingh Yadav
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Narsingh Yadav
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Narsingh Yadav
+        bowler: Siddhesh Neral
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Narsingh Yadav
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Al Bashid Muhammed
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Al Bashid Muhammed
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Al Bashid Muhammed
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Narsingh Yadav
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Al Bashid Muhammed
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Narsingh Yadav
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Al Bashid Muhammed
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Al Bashid Muhammed
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Narsingh Yadav
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Al Bashid Muhammed
+        bowler: Siddhesh Neral
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Narsingh Yadav
+    - 2.2:
+        actual_delivery: '2.1'
+        non_striker: Al Bashid Muhammed
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Narsingh Yadav
+        wicket:
+          player_out: Narsingh Yadav
+          kind: lbw
+    - 2.3:
+        actual_delivery: '2.2'
+        non_striker: Al Bashid Muhammed
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Karnajit Yumnam
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: Al Bashid Muhammed
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karnajit Yumnam
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: Karnajit Yumnam
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: Karnajit Yumnam
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Karnajit Yumnam
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karnajit Yumnam
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Karnajit Yumnam
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karnajit Yumnam
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karnajit Yumnam
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Karnajit Yumnam
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Al Bashid Muhammed
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karnajit Yumnam
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Al Bashid Muhammed
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Karnajit Yumnam
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Al Bashid Muhammed
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karnajit Yumnam
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Karnajit Yumnam
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Karnajit Yumnam
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Karnajit Yumnam
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Karnajit Yumnam
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Al Bashid Muhammed
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Karnajit Yumnam
+        bowler: DG Nalkande
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Al Bashid Muhammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karnajit Yumnam
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Al Bashid Muhammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Karnajit Yumnam
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Al Bashid Muhammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karnajit Yumnam
+        wicket:
+          player_out: Karnajit Yumnam
+          fielders:
+          - Atharva Taide
+          kind: caught
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Al Bashid Muhammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanatombaroy Laiphangbam
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Al Bashid Muhammed
+        bowler: DG Nalkande
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Sanatombaroy Laiphangbam
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanatombaroy Laiphangbam
+        wicket:
+          player_out: Sanatombaroy Laiphangbam
+          kind: bowled
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Johnson Singh
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Johnson Singh
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Johnson Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Johnson Singh
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Johnson Singh
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Johnson Singh
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Johnson Singh
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Johnson Singh
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Johnson Singh
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Al Bashid Muhammed
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Al Bashid Muhammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Johnson Singh
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Al Bashid Muhammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Johnson Singh
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Johnson Singh
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Johnson Singh
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Johnson Singh
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Johnson Singh
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Johnson Singh
+        wicket:
+          player_out: Johnson Singh
+          fielders:
+          - Akshay Wadkar
+          kind: caught
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Kishan Singha
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: L Kishan Singha
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Al Bashid Muhammed
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Al Bashid Muhammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Kishan Singha
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Al Bashid Muhammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Kishan Singha
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Al Bashid Muhammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: L Kishan Singha
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Al Bashid Muhammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Kishan Singha
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Al Bashid Muhammed
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: L Kishan Singha
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: L Kishan Singha
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: L Kishan Singha
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: L Kishan Singha
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: L Kishan Singha
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: L Kishan Singha
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: L Kishan Singha
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Al Bashid Muhammed
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Kishan Singha
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: L Kishan Singha
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: L Kishan Singha
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: L Kishan Singha
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Al Bashid Muhammed
+        wicket:
+          player_out: Al Bashid Muhammed
+          fielders:
+          - JM Sharma
+          kind: caught
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Chongtham Mehul
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Kishan Singha
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: L Kishan Singha
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chongtham Mehul
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: L Kishan Singha
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chongtham Mehul
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: L Kishan Singha
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chongtham Mehul
+        wicket:
+          player_out: Chongtham Mehul
+          fielders:
+          - SB Dubey
+          kind: caught
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: L Kishan Singha
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Homendro Kabrambam
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Homendro Kabrambam
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Kishan Singha
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Homendro Kabrambam
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: L Kishan Singha
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: L Kishan Singha
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Homendro Kabrambam
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Homendro Kabrambam
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Kishan Singha
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Homendro Kabrambam
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Kishan Singha
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Homendro Kabrambam
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: L Kishan Singha
+        wicket:
+          player_out: L Kishan Singha
+          kind: bowled
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Homendro Kabrambam
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Thokchom
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Homendro Kabrambam
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Thokchom
+        wicket:
+          player_out: Kishan Thokchom
+          kind: lbw
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Homendro Kabrambam
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Somorjit Salam
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Somorjit Salam
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Homendro Kabrambam
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Somorjit Salam
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Homendro Kabrambam
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Somorjit Salam
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Homendro Kabrambam
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Somorjit Salam
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Homendro Kabrambam
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Somorjit Salam
+        bowler: Akshay Karnewar
+        extras:
+          byes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Homendro Kabrambam
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Somorjit Salam
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Homendro Kabrambam
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Homendro Kabrambam
+        bowler: Siddhesh Neral
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Somorjit Salam
+    - 15.2:
+        actual_delivery: '15.1'
+        non_striker: Homendro Kabrambam
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Somorjit Salam
+    - 15.3:
+        actual_delivery: '15.2'
+        non_striker: Homendro Kabrambam
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Somorjit Salam
+    - 15.4:
+        actual_delivery: '15.3'
+        non_striker: Homendro Kabrambam
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Somorjit Salam
+    - 15.5:
+        actual_delivery: '15.4'
+        non_striker: Somorjit Salam
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Homendro Kabrambam
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: Somorjit Salam
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Homendro Kabrambam
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: Somorjit Salam
+        bowler: Siddhesh Neral
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Homendro Kabrambam
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Somorjit Salam
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Homendro Kabrambam
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Somorjit Salam
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Homendro Kabrambam
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Somorjit Salam
+        bowler: AS Thakare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Homendro Kabrambam
+        wicket:
+          player_out: Homendro Kabrambam
+          fielders:
+          - SB Dubey
+          kind: caught

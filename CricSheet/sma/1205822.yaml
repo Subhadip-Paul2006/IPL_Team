@@ -1,0 +1,2319 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-01'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-11-17'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Uttarakhand
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Bihar:
+    - Vijay Bharti
+    - Kunal Dabas
+    - Babul Kumar
+    - MD Rahmatullah
+    - Rajesh Singh
+    - Asfan Khan
+    - Sarfaraz Ashraf
+    - Ashutosh Aman
+    - Shivam Kumar
+    - Shashi Shekhar
+    - Abhijeet Saket
+    Uttarakhand:
+    - Mayank Mishra
+    - Akash Madhwal
+    - Sunny Rana
+    - Rahil Shah
+    - Vaibhav Singh Panwar
+    - Himanshu Bisht
+    - Harshit Bisht
+    - AM Joshi
+    - TM Srivastava
+    - Karanveer Kaushal
+    - Saurabh Rawat
+  registry:
+    people:
+      AM Joshi: 748b7a38
+      Abhijeet Saket: 5fd3f9db
+      Akash Madhwal: 4bd09374
+      Asfan Khan: fc3d382b
+      Ashutosh Aman: 4948a916
+      Babul Kumar: 85e6ccde
+      Harshit Bisht: a2101f05
+      Himanshu Bisht: 24d163d7
+      Karanveer Kaushal: 9e62632a
+      Kunal Dabas: 90065d86
+      MD Rahmatullah: c10a99ec
+      Mayank Mishra: de00b96c
+      Rahil Shah: 7c30f4d0
+      Rajesh Singh: 985b57b1
+      Sarfaraz Ashraf: 8be36d3e
+      Saurabh Rawat: 839b6d2e
+      Shashi Shekhar: c166ca1c
+      Shivam Kumar: f81005c4
+      Sunny Rana: 798c67e5
+      TM Srivastava: a76d10ba
+      Vaibhav Singh Panwar: 8685f676
+      Vijay Bharti: 522bb42d
+    venues:
+      Andhra Cricket Association-Visakhapatnam District Cricket Association Stadium, Visakhapatnam: deae8c56
+  teams:
+  - Bihar
+  - Uttarakhand
+  toss:
+    winner: Uttarakhand
+    decision: field
+  venue: Andhra Cricket Association-Visakhapatnam District Cricket Association Stadium,
+    Visakhapatnam
+  team_type: club
+innings:
+- 1st innings:
+    team: Bihar
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Kunal Dabas
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vijay Bharti
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Kunal Dabas
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vijay Bharti
+        wicket:
+          player_out: Vijay Bharti
+          kind: lbw
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Kunal Dabas
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babul Kumar
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Kunal Dabas
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babul Kumar
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Kunal Dabas
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babul Kumar
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Babul Kumar
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Dabas
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Kunal Dabas
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babul Kumar
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Kunal Dabas
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babul Kumar
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Kunal Dabas
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babul Kumar
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Kunal Dabas
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babul Kumar
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Babul Kumar
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Dabas
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Babul Kumar
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Dabas
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Kunal Dabas
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babul Kumar
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Kunal Dabas
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babul Kumar
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Kunal Dabas
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babul Kumar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Kunal Dabas
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babul Kumar
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Kunal Dabas
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babul Kumar
+        wicket:
+          player_out: Babul Kumar
+          fielders:
+          - AM Joshi
+          kind: caught
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Kunal Dabas
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: MD Rahmatullah
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Dabas
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: MD Rahmatullah
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Dabas
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Kunal Dabas
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Kunal Dabas
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: MD Rahmatullah
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Dabas
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Kunal Dabas
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Kunal Dabas
+        bowler: Sunny Rana
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 4.2:
+        actual_delivery: '4.1'
+        non_striker: Kunal Dabas
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 4.3:
+        actual_delivery: '4.2'
+        non_striker: MD Rahmatullah
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kunal Dabas
+    - 4.4:
+        actual_delivery: '4.3'
+        non_striker: MD Rahmatullah
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Dabas
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: MD Rahmatullah
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Dabas
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: MD Rahmatullah
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Dabas
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: Kunal Dabas
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: MD Rahmatullah
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Dabas
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: MD Rahmatullah
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Dabas
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Kunal Dabas
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MD Rahmatullah
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Kunal Dabas
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Kunal Dabas
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Kunal Dabas
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: MD Rahmatullah
+        bowler: Vaibhav Singh Panwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Dabas
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: MD Rahmatullah
+        bowler: Vaibhav Singh Panwar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kunal Dabas
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: MD Rahmatullah
+        bowler: Vaibhav Singh Panwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Dabas
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: MD Rahmatullah
+        bowler: Vaibhav Singh Panwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Dabas
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Kunal Dabas
+        bowler: Vaibhav Singh Panwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: MD Rahmatullah
+        bowler: Vaibhav Singh Panwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Dabas
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Kunal Dabas
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Kunal Dabas
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Kunal Dabas
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Kunal Dabas
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Kunal Dabas
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: MD Rahmatullah
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Dabas
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Kunal Dabas
+        bowler: Vaibhav Singh Panwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Kunal Dabas
+        bowler: Vaibhav Singh Panwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MD Rahmatullah
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Kunal Dabas
+        bowler: Vaibhav Singh Panwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Kunal Dabas
+        bowler: Vaibhav Singh Panwar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MD Rahmatullah
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Kunal Dabas
+        bowler: Vaibhav Singh Panwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: MD Rahmatullah
+        bowler: Vaibhav Singh Panwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Dabas
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: MD Rahmatullah
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Dabas
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Kunal Dabas
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: MD Rahmatullah
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Dabas
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: MD Rahmatullah
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Dabas
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: MD Rahmatullah
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Dabas
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Kunal Dabas
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MD Rahmatullah
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: MD Rahmatullah
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Dabas
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Kunal Dabas
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Kunal Dabas
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: MD Rahmatullah
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Dabas
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Kunal Dabas
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MD Rahmatullah
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Kunal Dabas
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: MD Rahmatullah
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Dabas
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: MD Rahmatullah
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Dabas
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Kunal Dabas
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Kunal Dabas
+        bowler: Mayank Mishra
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: MD Rahmatullah
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kunal Dabas
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: MD Rahmatullah
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Dabas
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: Kunal Dabas
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Kunal Dabas
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+        wicket:
+          player_out: Kunal Dabas
+          fielders:
+          - Saurabh Rawat
+          kind: run out
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Rajesh Singh
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: MD Rahmatullah
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajesh Singh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: MD Rahmatullah
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajesh Singh
+        wicket:
+          player_out: Rajesh Singh
+          fielders:
+          - Rahil Shah
+          kind: caught
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: MD Rahmatullah
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: MD Rahmatullah
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Asfan Khan
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Asfan Khan
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MD Rahmatullah
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Asfan Khan
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: MD Rahmatullah
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: MD Rahmatullah
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: MD Rahmatullah
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: MD Rahmatullah
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+        wicket:
+          player_out: Asfan Khan
+          fielders:
+          - Akash Madhwal
+          kind: caught
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: MD Rahmatullah
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sarfaraz Ashraf
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: MD Rahmatullah
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfaraz Ashraf
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Sarfaraz Ashraf
+        bowler: Himanshu Bisht
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 14.4:
+        actual_delivery: '14.3'
+        non_striker: Sarfaraz Ashraf
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 14.5:
+        actual_delivery: '14.4'
+        non_striker: MD Rahmatullah
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfaraz Ashraf
+    - 14.6:
+        actual_delivery: '14.5'
+        non_striker: Sarfaraz Ashraf
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: Sarfaraz Ashraf
+        bowler: Himanshu Bisht
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MD Rahmatullah
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: MD Rahmatullah
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfaraz Ashraf
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Sarfaraz Ashraf
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Sarfaraz Ashraf
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Sarfaraz Ashraf
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MD Rahmatullah
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Sarfaraz Ashraf
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MD Rahmatullah
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Sarfaraz Ashraf
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MD Rahmatullah
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: MD Rahmatullah
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sarfaraz Ashraf
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Sarfaraz Ashraf
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: MD Rahmatullah
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sarfaraz Ashraf
+        wicket:
+          player_out: Sarfaraz Ashraf
+          fielders:
+          - AM Joshi
+          kind: caught
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Ashutosh Aman
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: MD Rahmatullah
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: MD Rahmatullah
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: MD Rahmatullah
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Ashutosh Aman
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+        wicket:
+          player_out: MD Rahmatullah
+          fielders:
+          - Himanshu Bisht
+          kind: caught
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Shivam Kumar
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Shivam Kumar
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Ashutosh Aman
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Kumar
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Shivam Kumar
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Ashutosh Aman
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Kumar
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Shivam Kumar
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Shivam Kumar
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ashutosh Aman
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Shivam Kumar
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Ashutosh Aman
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Kumar
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Shivam Kumar
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashutosh Aman
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Ashutosh Aman
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Kumar
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Shivam Kumar
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Shivam Kumar
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+        wicket:
+          player_out: Ashutosh Aman
+          kind: lbw
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Shivam Kumar
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashi Shekhar
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Shashi Shekhar
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shivam Kumar
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Shashi Shekhar
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shivam Kumar
+- 2nd innings:
+    team: Uttarakhand
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: AM Joshi
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harshit Bisht
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: AM Joshi
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harshit Bisht
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: AM Joshi
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harshit Bisht
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: AM Joshi
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harshit Bisht
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: AM Joshi
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Harshit Bisht
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: AM Joshi
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harshit Bisht
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: AM Joshi
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harshit Bisht
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: AM Joshi
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harshit Bisht
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: AM Joshi
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harshit Bisht
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: AM Joshi
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harshit Bisht
+        wicket:
+          player_out: Harshit Bisht
+          fielders:
+          - Abhijeet Saket
+          kind: caught
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: AM Joshi
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TM Srivastava
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: AM Joshi
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TM Srivastava
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: TM Srivastava
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Joshi
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: TM Srivastava
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Joshi
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: AM Joshi
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: TM Srivastava
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: TM Srivastava
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Joshi
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: TM Srivastava
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Joshi
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: TM Srivastava
+        bowler: Abhijeet Saket
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AM Joshi
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: TM Srivastava
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Joshi
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: TM Srivastava
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Joshi
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: TM Srivastava
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Joshi
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: TM Srivastava
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Joshi
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: AM Joshi
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TM Srivastava
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: AM Joshi
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: TM Srivastava
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: TM Srivastava
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Joshi
+        wicket:
+          player_out: AM Joshi
+          fielders:
+          - Asfan Khan
+          kind: caught
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Karanveer Kaushal
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TM Srivastava
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Karanveer Kaushal
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TM Srivastava
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Karanveer Kaushal
+        bowler: Sarfaraz Ashraf
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: TM Srivastava
+    - 4.4:
+        actual_delivery: '4.3'
+        non_striker: Karanveer Kaushal
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TM Srivastava
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: Karanveer Kaushal
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TM Srivastava
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: Karanveer Kaushal
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: TM Srivastava
+        wicket:
+          player_out: TM Srivastava
+          kind: bowled
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: Karanveer Kaushal
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Rawat
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Karanveer Kaushal
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Rawat
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Saurabh Rawat
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Saurabh Rawat
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Saurabh Rawat
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Karanveer Kaushal
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Rawat
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Karanveer Kaushal
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Rawat
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Karanveer Kaushal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Rawat
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Karanveer Kaushal
+        bowler: Ashutosh Aman
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Saurabh Rawat
+    - 6.3:
+        actual_delivery: '6.2'
+        non_striker: Karanveer Kaushal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Saurabh Rawat
+    - 6.4:
+        actual_delivery: '6.3'
+        non_striker: Karanveer Kaushal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Rawat
+    - 6.5:
+        actual_delivery: '6.4'
+        non_striker: Saurabh Rawat
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: Saurabh Rawat
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: Saurabh Rawat
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Karanveer Kaushal
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Rawat
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Karanveer Kaushal
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Rawat
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Saurabh Rawat
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Karanveer Kaushal
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Saurabh Rawat
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Karanveer Kaushal
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saurabh Rawat
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Karanveer Kaushal
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Rawat
+        wicket:
+          player_out: Saurabh Rawat
+          kind: caught and bowled
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Karanveer Kaushal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Karanveer Kaushal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Karanveer Kaushal
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Karanveer Kaushal
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Karanveer Kaushal
+        bowler: Rajesh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vaibhav Singh Panwar
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Karanveer Kaushal
+        bowler: Rajesh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vaibhav Singh Panwar
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Karanveer Kaushal
+        bowler: Rajesh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vaibhav Singh Panwar
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Karanveer Kaushal
+        bowler: Rajesh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Rajesh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Rajesh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Karanveer Kaushal
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Karanveer Kaushal
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Karanveer Kaushal
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Karanveer Kaushal
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Karanveer Kaushal
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Karanveer Kaushal
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vaibhav Singh Panwar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Karanveer Kaushal
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shivam Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Karanveer Kaushal
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Karanveer Kaushal
+        bowler: Rajesh Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vaibhav Singh Panwar
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Karanveer Kaushal
+        bowler: Rajesh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vaibhav Singh Panwar
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Karanveer Kaushal
+        bowler: Rajesh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Rajesh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Karanveer Kaushal
+        bowler: Rajesh Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Vaibhav Singh Panwar
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Rajesh Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Karanveer Kaushal
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Karanveer Kaushal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vaibhav Singh Panwar
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Karanveer Kaushal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Karanveer Kaushal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Karanveer Kaushal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Karanveer Kaushal
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vaibhav Singh Panwar
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Karanveer Kaushal
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Karanveer Kaushal
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Sarfaraz Ashraf
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Karanveer Kaushal
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Karanveer Kaushal
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Karanveer Kaushal
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vaibhav Singh Panwar
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Karanveer Kaushal
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Karanveer Kaushal
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karanveer Kaushal
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Karanveer Kaushal
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vaibhav Singh Panwar
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Vaibhav Singh Panwar
+        bowler: Shashi Shekhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karanveer Kaushal
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Karanveer Kaushal
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vaibhav Singh Panwar

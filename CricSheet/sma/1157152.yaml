@@ -1,0 +1,2412 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-03'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-02-25'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Chhattisgarh
+    by:
+      wickets: 5
+  overs: 20
+  players:
+    Haryana:
+    - Himanshu Rana
+    - GA Singh
+    - Chaitanya Bishnoi
+    - N Saini
+    - Sumit Kumar
+    - Pramod Chandila
+    - R Tewatia
+    - A Mishra
+    - Deepak Punia
+    - Arun Chaprana
+    - AH Hooda
+    Chhattisgarh:
+    - Pankaj Rao
+    - Shakeeb Ahmed
+    - Aishwary Mourya
+    - Vishal Kushwah
+    - Shubham Singh
+    - Shivendra Singh
+    - Rishabh Tiwari
+    - Shashank Chandrakar
+    - Harpreet Singh
+    - Amandeep Khare
+    - Lavin Coster
+  registry:
+    people:
+      A Mishra: 6b19d823
+      AH Hooda: e4072aa1
+      Aishwary Mourya: ea3a41e0
+      Amandeep Khare: 6c6cc94c
+      Arun Chaprana: 3bc94fb9
+      Chaitanya Bishnoi: e793a8ed
+      Deepak Punia: 5a004050
+      GA Singh: 7c628737
+      Harpreet Singh: 28c78fb3
+      Himanshu Rana: 9d3940b3
+      Lavin Coster: 6822e203
+      N Saini: addbde6c
+      Pankaj Rao: 13dd2a4b
+      Pramod Chandila: f6f60dca
+      R Tewatia: 39a2dfa8
+      Rishabh Tiwari: bd74f1a7
+      Shakeeb Ahmed: 21b9e62b
+      Shashank Chandrakar: 9c20688d
+      Shivendra Singh: 61e93009
+      Shubham Singh: dd6f4040
+      Sumit Kumar: 8998a68f
+      Vishal Kushwah: cc8531c2
+    venues:
+      DRIEMS Ground, Tangi, Cuttack: fbb1656d
+  teams:
+  - Haryana
+  - Chhattisgarh
+  toss:
+    winner: Haryana
+    decision: bat
+  venue: DRIEMS Ground, Tangi, Cuttack
+  team_type: club
+innings:
+- 1st innings:
+    team: Haryana
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: GA Singh
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Rana
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: GA Singh
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himanshu Rana
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: GA Singh
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Rana
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: GA Singh
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Rana
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: GA Singh
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Rana
+        wicket:
+          player_out: Himanshu Rana
+          fielders:
+          - Lavin Coster
+          kind: caught
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: GA Singh
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chaitanya Bishnoi
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GA Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GA Singh
+        wicket:
+          player_out: GA Singh
+          fielders:
+          - Amandeep Khare
+          kind: caught
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: N Saini
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Saini
+        wicket:
+          player_out: N Saini
+          fielders:
+          - Shivendra Singh
+          kind: caught
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Sumit Kumar
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chaitanya Bishnoi
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Chaitanya Bishnoi
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Sumit Kumar
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Chaitanya Bishnoi
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Sumit Kumar
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Chaitanya Bishnoi
+        bowler: Pankaj Rao
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Sumit Kumar
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: Chaitanya Bishnoi
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Sumit Kumar
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chaitanya Bishnoi
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sumit Kumar
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Sumit Kumar
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sumit Kumar
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sumit Kumar
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Sumit Kumar
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Sumit Kumar
+    - 4.4:
+        actual_delivery: '4.3'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sumit Kumar
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: Sumit Kumar
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Chaitanya Bishnoi
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Sumit Kumar
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Chaitanya Bishnoi
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sumit Kumar
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sumit Kumar
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Chaitanya Bishnoi
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sumit Kumar
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Chaitanya Bishnoi
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sumit Kumar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Sumit Kumar
+        bowler: Aishwary Mourya
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chaitanya Bishnoi
+    - 6.2:
+        actual_delivery: '6.1'
+        non_striker: Sumit Kumar
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chaitanya Bishnoi
+    - 6.3:
+        actual_delivery: '6.2'
+        non_striker: Sumit Kumar
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 6.4:
+        actual_delivery: '6.3'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sumit Kumar
+    - 6.5:
+        actual_delivery: '6.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sumit Kumar
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: Sumit Kumar
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chaitanya Bishnoi
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Chaitanya Bishnoi
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sumit Kumar
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Chaitanya Bishnoi
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Sumit Kumar
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chaitanya Bishnoi
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Sumit Kumar
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chaitanya Bishnoi
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Sumit Kumar
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Chaitanya Bishnoi
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sumit Kumar
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Sumit Kumar
+        bowler: Shubham Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shubham Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Sumit Kumar
+        bowler: Shubham Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chaitanya Bishnoi
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Sumit Kumar
+        bowler: Shubham Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shubham Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Sumit Kumar
+        bowler: Shubham Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Sumit Kumar
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Sumit Kumar
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sumit Kumar
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sumit Kumar
+        wicket:
+          player_out: Sumit Kumar
+          kind: lbw
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Pramod Chandila
+        bowler: Shubham Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chaitanya Bishnoi
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Pramod Chandila
+        bowler: Shubham Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shubham Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shubham Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pramod Chandila
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shubham Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Pramod Chandila
+        bowler: Shubham Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Pramod Chandila
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Pramod Chandila
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Pramod Chandila
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Chaitanya Bishnoi
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Pramod Chandila
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Chaitanya Bishnoi
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pramod Chandila
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pramod Chandila
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Chaitanya Bishnoi
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Chaitanya Bishnoi
+        bowler: Vishal Kushwah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pramod Chandila
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Pramod Chandila
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pramod Chandila
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Pramod Chandila
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pramod Chandila
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Pramod Chandila
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pramod Chandila
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pramod Chandila
+        wicket:
+          player_out: Pramod Chandila
+          fielders:
+          - Harpreet Singh
+          kind: caught
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Tewatia
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: R Tewatia
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Tewatia
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Tewatia
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Tewatia
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Tewatia
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Tewatia
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: R Tewatia
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Tewatia
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shivendra Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: R Tewatia
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: R Tewatia
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chaitanya Bishnoi
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: R Tewatia
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Tewatia
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: R Tewatia
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shivendra Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Tewatia
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: R Tewatia
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chaitanya Bishnoi
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: R Tewatia
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chaitanya Bishnoi
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: R Tewatia
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Pankaj Rao
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 5
+          batsman: 4
+        batsman: R Tewatia
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Tewatia
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Chaitanya Bishnoi
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Tewatia
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Chaitanya Bishnoi
+        bowler: Pankaj Rao
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Tewatia
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: R Tewatia
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chaitanya Bishnoi
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: R Tewatia
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chaitanya Bishnoi
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: R Tewatia
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chaitanya Bishnoi
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: R Tewatia
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Tewatia
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Chaitanya Bishnoi
+        bowler: Aishwary Mourya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Tewatia
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: R Tewatia
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Tewatia
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: R Tewatia
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chaitanya Bishnoi
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Tewatia
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Tewatia
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Chaitanya Bishnoi
+        bowler: Shakeeb Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Tewatia
+- 2nd innings:
+    team: Chhattisgarh
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Shashank Chandrakar
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Rishabh Tiwari
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Chandrakar
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Rishabh Tiwari
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Chandrakar
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Shashank Chandrakar
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rishabh Tiwari
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Shashank Chandrakar
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rishabh Tiwari
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Shashank Chandrakar
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rishabh Tiwari
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Rishabh Tiwari
+        bowler: Arun Chaprana
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Shashank Chandrakar
+    - 1.2:
+        actual_delivery: '1.1'
+        non_striker: Rishabh Tiwari
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Chandrakar
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: Shashank Chandrakar
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rishabh Tiwari
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Shashank Chandrakar
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Rishabh Tiwari
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Chandrakar
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Shashank Chandrakar
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rishabh Tiwari
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Shashank Chandrakar
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Shashank Chandrakar
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Rishabh Tiwari
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shashank Chandrakar
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Rishabh Tiwari
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shashank Chandrakar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Rishabh Tiwari
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Chandrakar
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Shashank Chandrakar
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rishabh Tiwari
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Shashank Chandrakar
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Shashank Chandrakar
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Rishabh Tiwari
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Chandrakar
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Rishabh Tiwari
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Chandrakar
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Shashank Chandrakar
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Rishabh Tiwari
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Chandrakar
+        wicket:
+          player_out: Shashank Chandrakar
+          kind: bowled
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Rishabh Tiwari
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Rishabh Tiwari
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Rishabh Tiwari
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Rishabh Tiwari
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Harpreet Singh
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rishabh Tiwari
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Harpreet Singh
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rishabh Tiwari
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Harpreet Singh
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rishabh Tiwari
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Rishabh Tiwari
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Harpreet Singh
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Rishabh Tiwari
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Rishabh Tiwari
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Harpreet Singh
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rishabh Tiwari
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Harpreet Singh
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rishabh Tiwari
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Rishabh Tiwari
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Harpreet Singh
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Rishabh Tiwari
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Rishabh Tiwari
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Rishabh Tiwari
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Rishabh Tiwari
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Rishabh Tiwari
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Harpreet Singh
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Rishabh Tiwari
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Harpreet Singh
+        bowler: A Mishra
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rishabh Tiwari
+    - 7.4:
+        actual_delivery: '7.3'
+        non_striker: Harpreet Singh
+        bowler: A Mishra
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rishabh Tiwari
+    - 7.5:
+        actual_delivery: '7.3'
+        non_striker: Harpreet Singh
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rishabh Tiwari
+    - 7.6:
+        actual_delivery: '7.4'
+        non_striker: Harpreet Singh
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 7.7:
+        actual_delivery: '7.5'
+        non_striker: Rishabh Tiwari
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 7.8:
+        actual_delivery: '7.6'
+        non_striker: Harpreet Singh
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Harpreet Singh
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Rishabh Tiwari
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Harpreet Singh
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rishabh Tiwari
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Harpreet Singh
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Rishabh Tiwari
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Harpreet Singh
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Harpreet Singh
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Rishabh Tiwari
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Harpreet Singh
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Rishabh Tiwari
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Rishabh Tiwari
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Harpreet Singh
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rishabh Tiwari
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Harpreet Singh
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rishabh Tiwari
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Harpreet Singh
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rishabh Tiwari
+        wicket:
+          player_out: Rishabh Tiwari
+          kind: bowled
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Harpreet Singh
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amandeep Khare
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Amandeep Khare
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Harpreet Singh
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amandeep Khare
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Amandeep Khare
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Amandeep Khare
+        bowler: Sumit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Amandeep Khare
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Harpreet Singh
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amandeep Khare
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Amandeep Khare
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Harpreet Singh
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amandeep Khare
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Amandeep Khare
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Amandeep Khare
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Amandeep Khare
+        bowler: R Tewatia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Harpreet Singh
+        bowler: R Tewatia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amandeep Khare
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Amandeep Khare
+        bowler: R Tewatia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Harpreet Singh
+        bowler: R Tewatia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amandeep Khare
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Amandeep Khare
+        bowler: R Tewatia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Amandeep Khare
+        bowler: R Tewatia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Harpreet Singh
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amandeep Khare
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Amandeep Khare
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Amandeep Khare
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Harpreet Singh
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amandeep Khare
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Amandeep Khare
+        bowler: A Mishra
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Harpreet Singh
+    - 13.6:
+        actual_delivery: '13.5'
+        non_striker: Amandeep Khare
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+        wicket:
+          player_out: Harpreet Singh
+          fielders:
+          - Sumit Kumar
+          kind: caught
+    - 13.7:
+        actual_delivery: '13.6'
+        non_striker: Vishal Kushwah
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amandeep Khare
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Amandeep Khare
+        bowler: R Tewatia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishal Kushwah
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Amandeep Khare
+        bowler: R Tewatia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishal Kushwah
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Vishal Kushwah
+        bowler: R Tewatia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Amandeep Khare
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Vishal Kushwah
+        bowler: R Tewatia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amandeep Khare
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Amandeep Khare
+        bowler: R Tewatia
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vishal Kushwah
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Amandeep Khare
+        bowler: R Tewatia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishal Kushwah
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Amandeep Khare
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishal Kushwah
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Vishal Kushwah
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amandeep Khare
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Vishal Kushwah
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amandeep Khare
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Vishal Kushwah
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amandeep Khare
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Vishal Kushwah
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amandeep Khare
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Amandeep Khare
+        bowler: A Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishal Kushwah
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Amandeep Khare
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishal Kushwah
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Vishal Kushwah
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amandeep Khare
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Vishal Kushwah
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Amandeep Khare
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Vishal Kushwah
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Amandeep Khare
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Vishal Kushwah
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amandeep Khare
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Amandeep Khare
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishal Kushwah
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Vishal Kushwah
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amandeep Khare
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Amandeep Khare
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishal Kushwah
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Vishal Kushwah
+        bowler: Arun Chaprana
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: Amandeep Khare
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: Amandeep Khare
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishal Kushwah
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Vishal Kushwah
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Amandeep Khare
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Vishal Kushwah
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Amandeep Khare
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Vishal Kushwah
+        bowler: Arun Chaprana
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Amandeep Khare
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Vishal Kushwah
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Amandeep Khare
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Vishal Kushwah
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Amandeep Khare
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Vishal Kushwah
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Amandeep Khare
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Vishal Kushwah
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Amandeep Khare
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Vishal Kushwah
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Amandeep Khare
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Vishal Kushwah
+        bowler: AH Hooda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Amandeep Khare
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Amandeep Khare
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishal Kushwah
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Vishal Kushwah
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Amandeep Khare
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Vishal Kushwah
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amandeep Khare
+        wicket:
+          player_out: Amandeep Khare
+          fielders:
+          - Sumit Kumar
+          kind: run out
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Vishal Kushwah
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aishwary Mourya
+        wicket:
+          player_out: Aishwary Mourya
+          fielders:
+          - N Saini
+          kind: run out
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Vishal Kushwah
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivendra Singh
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Shivendra Singh
+        bowler: Arun Chaprana
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Vishal Kushwah
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: Shivendra Singh
+        bowler: Arun Chaprana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishal Kushwah

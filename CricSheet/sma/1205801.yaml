@@ -1,0 +1,2413 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-01'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-11-14'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Madhya Pradesh
+    by:
+      runs: 85
+  overs: 20
+  players:
+    Madhya Pradesh:
+    - NV Ojha
+    - Ashutosh Sharma
+    - RM Patidar
+    - Parth Sahani
+    - VR Iyer
+    - Avesh Khan
+    - Saransh Jain
+    - K Kartikeya
+    - Rishabh Chouhan
+    - Gaurav Yadav
+    - IC Pandey
+    Meghalaya:
+    - Abhay Negi
+    - R Sanjay Yadav
+    - RR Biswa
+    - Kilco R Marak
+    - A Singhania
+    - Amiangshu Sen
+    - Swarajeet Das
+    - BB Dey
+    - Punit Bisht
+    - DB Ravi Teja
+    - Mark Ingty
+  registry:
+    people:
+      A Singhania: 791a65ce
+      Abhay Negi: 481dd6dc
+      Abhishek Bhandari: 18953b31
+      Amiangshu Sen: 42046ec9
+      Ashutosh Sharma: 84d9c311
+      Avesh Khan: eef2536f
+      BB Dey: 427e6670
+      DB Ravi Teja: b720a5d6
+      Gaurav Yadav: 3e5dc16b
+      IC Pandey: e0407c01
+      K Kartikeya: f6d8a7ab
+      Kilco R Marak: 4da2f572
+      Mark Ingty: 6b394eaa
+      NV Ojha: 890946a0
+      Parth Sahani: 239f7526
+      Punit Bisht: 310bddc0
+      R Sanjay Yadav: 33ffc3dd
+      RM Patidar: c740ea83
+      RR Biswa: 2df87089
+      Rishabh Chouhan: a64608ec
+      Saransh Jain: de33074a
+      Swarajeet Das: 324a6e1e
+      VR Iyer: a24be938
+    venues:
+      Wankhede Stadium, Mumbai: 9e236baa
+  teams:
+  - Madhya Pradesh
+  - Meghalaya
+  toss:
+    winner: Madhya Pradesh
+    decision: bat
+  venue: Wankhede Stadium, Mumbai
+  team_type: club
+innings:
+- 1st innings:
+    team: Madhya Pradesh
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Ashutosh Sharma
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Ashutosh Sharma
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Ashutosh Sharma
+        bowler: Abhay Negi
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: NV Ojha
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Ashutosh Sharma
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NV Ojha
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Ashutosh Sharma
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Ashutosh Sharma
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Ashutosh Sharma
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NV Ojha
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: NV Ojha
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashutosh Sharma
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: NV Ojha
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashutosh Sharma
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: NV Ojha
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Sharma
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: NV Ojha
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Sharma
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Ashutosh Sharma
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: NV Ojha
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashutosh Sharma
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Ashutosh Sharma
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Ashutosh Sharma
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: NV Ojha
+        bowler: Abhay Negi
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ashutosh Sharma
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: NV Ojha
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Sharma
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: NV Ojha
+        bowler: Abhay Negi
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ashutosh Sharma
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: Ashutosh Sharma
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Ashutosh Sharma
+        bowler: Abhay Negi
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: NV Ojha
+    - 2.8:
+        actual_delivery: '2.6'
+        non_striker: Ashutosh Sharma
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: NV Ojha
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Ashutosh Sharma
+        bowler: RR Biswa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Ashutosh Sharma
+        bowler: RR Biswa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: NV Ojha
+        bowler: RR Biswa
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ashutosh Sharma
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: NV Ojha
+        bowler: RR Biswa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Sharma
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Ashutosh Sharma
+        bowler: RR Biswa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: NV Ojha
+        bowler: RR Biswa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashutosh Sharma
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Ashutosh Sharma
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: NV Ojha
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashutosh Sharma
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: NV Ojha
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Sharma
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Ashutosh Sharma
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NV Ojha
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Ashutosh Sharma
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NV Ojha
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Ashutosh Sharma
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NV Ojha
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: NV Ojha
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Sharma
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Ashutosh Sharma
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Ashutosh Sharma
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: NV Ojha
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ashutosh Sharma
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: NV Ojha
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Sharma
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Ashutosh Sharma
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: NV Ojha
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ashutosh Sharma
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: NV Ojha
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Sharma
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Ashutosh Sharma
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NV Ojha
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Ashutosh Sharma
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NV Ojha
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Ashutosh Sharma
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: NV Ojha
+        bowler: Kilco R Marak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Sharma
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: NV Ojha
+        bowler: RR Biswa
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ashutosh Sharma
+    - 7.2:
+        actual_delivery: '7.1'
+        non_striker: NV Ojha
+        bowler: RR Biswa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Sharma
+    - 7.3:
+        actual_delivery: '7.2'
+        non_striker: Ashutosh Sharma
+        bowler: RR Biswa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NV Ojha
+    - 7.4:
+        actual_delivery: '7.3'
+        non_striker: Ashutosh Sharma
+        bowler: RR Biswa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: NV Ojha
+        bowler: RR Biswa
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ashutosh Sharma
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: NV Ojha
+        bowler: RR Biswa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Sharma
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Ashutosh Sharma
+        bowler: RR Biswa
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: NV Ojha
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: NV Ojha
+        bowler: A Singhania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Sharma
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Ashutosh Sharma
+        bowler: A Singhania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: NV Ojha
+        bowler: A Singhania
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ashutosh Sharma
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: NV Ojha
+        bowler: A Singhania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Sharma
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Ashutosh Sharma
+        bowler: A Singhania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: NV Ojha
+        bowler: A Singhania
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ashutosh Sharma
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Ashutosh Sharma
+        bowler: Amiangshu Sen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: NV Ojha
+        bowler: Amiangshu Sen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Sharma
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Ashutosh Sharma
+        bowler: Amiangshu Sen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: NV Ojha
+        bowler: Amiangshu Sen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Sharma
+        wicket:
+          player_out: Ashutosh Sharma
+          kind: bowled
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: NV Ojha
+        bowler: Amiangshu Sen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: RM Patidar
+        bowler: Amiangshu Sen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NV Ojha
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: RM Patidar
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NV Ojha
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: RM Patidar
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NV Ojha
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: RM Patidar
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NV Ojha
+        wicket:
+          player_out: NV Ojha
+          fielders:
+          - Abhay Negi
+          kind: caught
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: RM Patidar
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Parth Sahani
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Parth Sahani
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: RM Patidar
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Parth Sahani
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: RM Patidar
+        bowler: Amiangshu Sen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Parth Sahani
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Parth Sahani
+        bowler: Amiangshu Sen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Parth Sahani
+        bowler: Amiangshu Sen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: RM Patidar
+        bowler: Amiangshu Sen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Parth Sahani
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: RM Patidar
+        bowler: Amiangshu Sen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Parth Sahani
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Parth Sahani
+        bowler: Amiangshu Sen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Patidar
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: RM Patidar
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Parth Sahani
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: RM Patidar
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Parth Sahani
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Parth Sahani
+        bowler: Swarajeet Das
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: RM Patidar
+    - 12.4:
+        actual_delivery: '12.3'
+        non_striker: Parth Sahani
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Patidar
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: Parth Sahani
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RM Patidar
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: Parth Sahani
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: Parth Sahani
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Parth Sahani
+        bowler: BB Dey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: RM Patidar
+        bowler: BB Dey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Parth Sahani
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: RM Patidar
+        bowler: BB Dey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Parth Sahani
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Parth Sahani
+        bowler: BB Dey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: RM Patidar
+        bowler: BB Dey
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: Parth Sahani
+    - 13.6:
+        actual_delivery: '13.5'
+        non_striker: RM Patidar
+        bowler: BB Dey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Parth Sahani
+    - 13.7:
+        actual_delivery: '13.6'
+        non_striker: Parth Sahani
+        bowler: BB Dey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RM Patidar
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: RM Patidar
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Parth Sahani
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Parth Sahani
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Patidar
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Parth Sahani
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Parth Sahani
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RM Patidar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Parth Sahani
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: RM Patidar
+        bowler: Swarajeet Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Parth Sahani
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: RM Patidar
+        bowler: BB Dey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Parth Sahani
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Parth Sahani
+        bowler: BB Dey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: RM Patidar
+        bowler: BB Dey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Parth Sahani
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Parth Sahani
+        bowler: BB Dey
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RM Patidar
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Parth Sahani
+        bowler: BB Dey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: RM Patidar
+        bowler: BB Dey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Parth Sahani
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Parth Sahani
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: RM Patidar
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Parth Sahani
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: RM Patidar
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Parth Sahani
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: RM Patidar
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Parth Sahani
+        wicket:
+          player_out: Parth Sahani
+          kind: lbw
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: RM Patidar
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: VR Iyer
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: RM Patidar
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: VR Iyer
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: RM Patidar
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: VR Iyer
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: RM Patidar
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: VR Iyer
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: RM Patidar
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: VR Iyer
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: RM Patidar
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: VR Iyer
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RM Patidar
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: VR Iyer
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Patidar
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: VR Iyer
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RM Patidar
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: VR Iyer
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RM Patidar
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: VR Iyer
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Patidar
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: VR Iyer
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RM Patidar
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: RM Patidar
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: VR Iyer
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: RM Patidar
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: VR Iyer
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: RM Patidar
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: VR Iyer
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: RM Patidar
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: VR Iyer
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: RM Patidar
+        bowler: Abhay Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+        wicket:
+          player_out: VR Iyer
+          fielders:
+          - Swarajeet Das
+          kind: run out
+- 2nd innings:
+    team: Meghalaya
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Punit Bisht
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Biswa
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Punit Bisht
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Biswa
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Punit Bisht
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Biswa
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Punit Bisht
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Biswa
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Punit Bisht
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Biswa
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Punit Bisht
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Biswa
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Punit Bisht
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Biswa
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: RR Biswa
+        bowler: Avesh Khan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Punit Bisht
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: RR Biswa
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Punit Bisht
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: RR Biswa
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Punit Bisht
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: RR Biswa
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Punit Bisht
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: RR Biswa
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Punit Bisht
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: RR Biswa
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Punit Bisht
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Punit Bisht
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Biswa
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Punit Bisht
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Biswa
+        wicket:
+          player_out: RR Biswa
+          fielders:
+          - VR Iyer
+          kind: caught
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Amiangshu Sen
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Punit Bisht
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Amiangshu Sen
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Punit Bisht
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Amiangshu Sen
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Punit Bisht
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Amiangshu Sen
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Punit Bisht
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Punit Bisht
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Punit Bisht
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Punit Bisht
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Punit Bisht
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amiangshu Sen
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Amiangshu Sen
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Punit Bisht
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Punit Bisht
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amiangshu Sen
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Punit Bisht
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Punit Bisht
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amiangshu Sen
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Amiangshu Sen
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Punit Bisht
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Amiangshu Sen
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Punit Bisht
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Punit Bisht
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amiangshu Sen
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Amiangshu Sen
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Punit Bisht
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Punit Bisht
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Punit Bisht
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Punit Bisht
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Punit Bisht
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Punit Bisht
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Punit Bisht
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Amiangshu Sen
+        bowler: IC Pandey
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Punit Bisht
+    - 6.2:
+        actual_delivery: '6.1'
+        non_striker: Amiangshu Sen
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Punit Bisht
+    - 6.3:
+        actual_delivery: '6.2'
+        non_striker: Amiangshu Sen
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Punit Bisht
+    - 6.4:
+        actual_delivery: '6.3'
+        non_striker: Amiangshu Sen
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Punit Bisht
+    - 6.5:
+        actual_delivery: '6.4'
+        non_striker: Punit Bisht
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amiangshu Sen
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: Amiangshu Sen
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Punit Bisht
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: Amiangshu Sen
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Punit Bisht
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Amiangshu Sen
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Punit Bisht
+        wicket:
+          player_out: Punit Bisht
+          fielders:
+          - Abhishek Bhandari (sub)
+          kind: caught
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Amiangshu Sen
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: DB Ravi Teja
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: DB Ravi Teja
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: DB Ravi Teja
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: DB Ravi Teja
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Amiangshu Sen
+        bowler: K Kartikeya
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: DB Ravi Teja
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amiangshu Sen
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Amiangshu Sen
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Amiangshu Sen
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Amiangshu Sen
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Amiangshu Sen
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Amiangshu Sen
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Amiangshu Sen
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Amiangshu Sen
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: DB Ravi Teja
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: DB Ravi Teja
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amiangshu Sen
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Amiangshu Sen
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Amiangshu Sen
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DB Ravi Teja
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Amiangshu Sen
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DB Ravi Teja
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Amiangshu Sen
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DB Ravi Teja
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Amiangshu Sen
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: DB Ravi Teja
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amiangshu Sen
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Amiangshu Sen
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Amiangshu Sen
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DB Ravi Teja
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Amiangshu Sen
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Ravi Teja
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: DB Ravi Teja
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: DB Ravi Teja
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Amiangshu Sen
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: DB Ravi Teja
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: DB Ravi Teja
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Amiangshu Sen
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Amiangshu Sen
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+        wicket:
+          player_out: DB Ravi Teja
+          fielders:
+          - Rishabh Chouhan
+          kind: caught
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Amiangshu Sen
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: R Sanjay Yadav
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Amiangshu Sen
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: R Sanjay Yadav
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amiangshu Sen
+        wicket:
+          player_out: Amiangshu Sen
+          fielders:
+          - Gaurav Yadav
+          kind: caught
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: R Sanjay Yadav
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abhay Negi
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: R Sanjay Yadav
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abhay Negi
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Abhay Negi
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: R Sanjay Yadav
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhay Negi
+        wicket:
+          player_out: Abhay Negi
+          fielders:
+          - Abhishek Bhandari (sub)
+          kind: caught
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: R Sanjay Yadav
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mark Ingty
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Mark Ingty
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Mark Ingty
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: R Sanjay Yadav
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mark Ingty
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Mark Ingty
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: R Sanjay Yadav
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mark Ingty
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Mark Ingty
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: R Sanjay Yadav
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mark Ingty
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Mark Ingty
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Mark Ingty
+        bowler: Saransh Jain
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Mark Ingty
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: R Sanjay Yadav
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mark Ingty
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Mark Ingty
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: R Sanjay Yadav
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mark Ingty
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Mark Ingty
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: R Sanjay Yadav
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mark Ingty
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Mark Ingty
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: R Sanjay Yadav
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mark Ingty
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Mark Ingty
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+        wicket:
+          player_out: Mark Ingty
+          fielders:
+          - Saransh Jain
+          kind: run out
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Swarajeet Das
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: R Sanjay Yadav
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swarajeet Das
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Swarajeet Das
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Swarajeet Das
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: R Sanjay Yadav
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Swarajeet Das
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: R Sanjay Yadav
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swarajeet Das
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Swarajeet Das
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: R Sanjay Yadav
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swarajeet Das
+        wicket:
+          player_out: Swarajeet Das
+          kind: bowled
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: R Sanjay Yadav
+        bowler: Gaurav Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Singhania
+        wicket:
+          player_out: A Singhania
+          kind: bowled
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Kilco R Marak
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: R Sanjay Yadav
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kilco R Marak
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Kilco R Marak
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Sanjay Yadav
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Kilco R Marak
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Kilco R Marak
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Sanjay Yadav
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Kilco R Marak
+        bowler: IC Pandey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sanjay Yadav
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Kilco R Marak
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Kilco R Marak
+        bowler: Avesh Khan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 19.3:
+        actual_delivery: '19.2'
+        non_striker: Kilco R Marak
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+        wicket:
+          player_out: R Sanjay Yadav
+          kind: bowled
+    - 19.4:
+        actual_delivery: '19.3'
+        non_striker: Kilco R Marak
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BB Dey
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: Kilco R Marak
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BB Dey
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: Kilco R Marak
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BB Dey
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: BB Dey
+        bowler: Avesh Khan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kilco R Marak
+    - 19.8:
+        actual_delivery: '19.6'
+        non_striker: BB Dey
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kilco R Marak

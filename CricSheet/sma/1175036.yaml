@@ -1,0 +1,2353 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-03'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-03-10'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Maharashtra
+    by:
+      wickets: 4
+  overs: 20
+  players:
+    Gujarat:
+    - Dhruv Raval
+    - Priyank Panchal
+    - Piyush Tanwar
+    - Karan Patel
+    - Chirag Gandhi
+    - AR Patel
+    - PP Chawla
+    - KB Panchal
+    - Hemang Patel
+    - Tejas Patel
+    - A Nagwaswalla
+    Maharashtra:
+    - SM Fallah
+    - DJ Muthuswami
+    - Divyang Hinganekar
+    - Satyajeet Bachhav
+    - Azim Kazi
+    - RA Tripathi
+    - Naushad Shaikh
+    - RD Gaikwad
+    - RH Motwani
+    - AR Bawne
+    - NS Naik
+  registry:
+    people:
+      A Nagwaswalla: 01ada0ed
+      AR Bawne: afe3355a
+      AR Patel: 2e171977
+      Azim Kazi: ccae927b
+      Chirag Gandhi: 35eb75af
+      DJ Muthuswami: 2c76b512
+      Dhruv Raval: e635a5dd
+      Divyang Hinganekar: cb461421
+      Hemang Patel: 59c8c5b5
+      KB Panchal: eae999f9
+      Karan Patel: a18da10f
+      NS Naik: aedc3b7c
+      Naushad Shaikh: 9ed95736
+      PP Chawla: 98ae73b1
+      Piyush Tanwar: 9c53babc
+      Priyank Panchal: ebf25cf2
+      RA Tripathi: 77255a9e
+      RD Gaikwad: 45a43fe2
+      RH Motwani: 40fd2e48
+      SM Fallah: c8f697bd
+      Satyajeet Bachhav: '09a71776'
+      Tejas Patel: 76ed445f
+    venues:
+      Holkar Cricket Stadium, Indore: 354f95b9
+  teams:
+  - Gujarat
+  - Maharashtra
+  toss:
+    winner: Gujarat
+    decision: bat
+  venue: Holkar Cricket Stadium, Indore
+  team_type: club
+innings:
+- 1st innings:
+    team: Gujarat
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Priyank Panchal
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Priyank Panchal
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Priyank Panchal
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Dhruv Raval
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Dhruv Raval
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Priyank Panchal
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Raval
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Dhruv Raval
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Priyank Panchal
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Dhruv Raval
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Priyank Panchal
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Raval
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Priyank Panchal
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Dhruv Raval
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Priyank Panchal
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+        wicket:
+          player_out: Dhruv Raval
+          fielders:
+          - NS Naik
+          kind: caught
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Piyush Tanwar
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Piyush Tanwar
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Piyush Tanwar
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+        wicket:
+          player_out: Piyush Tanwar
+          fielders:
+          - Naushad Shaikh
+          kind: run out
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Karan Patel
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Karan Patel
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Priyank Panchal
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Patel
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Karan Patel
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Priyank Panchal
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Patel
+        wicket:
+          player_out: Karan Patel
+          kind: lbw
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Priyank Panchal
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Priyank Panchal
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Gandhi
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Priyank Panchal
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Priyank Panchal
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Priyank Panchal
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Priyank Panchal
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Priyank Panchal
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Chirag Gandhi
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Priyank Panchal
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Priyank Panchal
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Chirag Gandhi
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Priyank Panchal
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Chirag Gandhi
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Priyank Panchal
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Chirag Gandhi
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Priyank Panchal
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Gandhi
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Priyank Panchal
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Priyank Panchal
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Gandhi
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Chirag Gandhi
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Priyank Panchal
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Chirag Gandhi
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Priyank Panchal
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Chirag Gandhi
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Priyank Panchal
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Priyank Panchal
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+        wicket:
+          player_out: Priyank Panchal
+          fielders:
+          - Satyajeet Bachhav
+          kind: caught
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: AR Patel
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: AR Patel
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Patel
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AR Patel
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Chirag Gandhi
+        bowler: RA Tripathi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: AR Patel
+        bowler: RA Tripathi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Chirag Gandhi
+        bowler: RA Tripathi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AR Patel
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Chirag Gandhi
+        bowler: RA Tripathi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: AR Patel
+        bowler: RA Tripathi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Chirag Gandhi
+        bowler: RA Tripathi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AR Patel
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: AR Patel
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: AR Patel
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: AR Patel
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Patel
+        wicket:
+          player_out: AR Patel
+          fielders:
+          - NS Naik
+          kind: caught
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: PP Chawla
+        bowler: Naushad Shaikh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: PP Chawla
+        bowler: Naushad Shaikh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Chirag Gandhi
+        bowler: Naushad Shaikh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: PP Chawla
+        bowler: Naushad Shaikh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Chirag Gandhi
+        bowler: Naushad Shaikh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: PP Chawla
+        bowler: Naushad Shaikh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: PP Chawla
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: PP Chawla
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Chirag Gandhi
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Chawla
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Chirag Gandhi
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Chawla
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Chirag Gandhi
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Chirag Gandhi
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Chirag Gandhi
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+        wicket:
+          player_out: PP Chawla
+          fielders:
+          - Naushad Shaikh
+          kind: caught
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: KB Panchal
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Chirag Gandhi
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Panchal
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Chirag Gandhi
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Panchal
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: KB Panchal
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Chirag Gandhi
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Panchal
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Chirag Gandhi
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Panchal
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: KB Panchal
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: KB Panchal
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Chirag Gandhi
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Panchal
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: KB Panchal
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: KB Panchal
+        bowler: Azim Kazi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: KB Panchal
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Panchal
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: KB Panchal
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Panchal
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: KB Panchal
+        bowler: Divyang Hinganekar
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Chirag Gandhi
+        bowler: Divyang Hinganekar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KB Panchal
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: KB Panchal
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Chirag Gandhi
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Panchal
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Chirag Gandhi
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Panchal
+        wicket:
+          player_out: KB Panchal
+          fielders:
+          - RA Tripathi
+          kind: caught
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Hemang Patel
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Chirag Gandhi
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hemang Patel
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Chirag Gandhi
+        bowler: Satyajeet Bachhav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hemang Patel
+        wicket:
+          player_out: Chirag Gandhi
+          fielders:
+          - RA Tripathi
+          kind: run out
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Tejas Patel
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hemang Patel
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Tejas Patel
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hemang Patel
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Tejas Patel
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hemang Patel
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Hemang Patel
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tejas Patel
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Hemang Patel
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tejas Patel
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Hemang Patel
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tejas Patel
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Hemang Patel
+        bowler: SM Fallah
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Tejas Patel
+    - 18.2:
+        actual_delivery: '18.1'
+        non_striker: Hemang Patel
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tejas Patel
+    - 18.3:
+        actual_delivery: '18.2'
+        non_striker: Hemang Patel
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tejas Patel
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: Tejas Patel
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hemang Patel
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: Hemang Patel
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tejas Patel
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: Hemang Patel
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tejas Patel
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: Tejas Patel
+        bowler: SM Fallah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hemang Patel
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Hemang Patel
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tejas Patel
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Hemang Patel
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tejas Patel
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Tejas Patel
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Hemang Patel
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Hemang Patel
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tejas Patel
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Hemang Patel
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tejas Patel
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Hemang Patel
+        bowler: DJ Muthuswami
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tejas Patel
+        wicket:
+          player_out: Tejas Patel
+          fielders:
+          - DJ Muthuswami
+          kind: run out
+- 2nd innings:
+    team: Maharashtra
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: RA Tripathi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: RA Tripathi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: RA Tripathi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: RA Tripathi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RD Gaikwad
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: RA Tripathi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: RA Tripathi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RD Gaikwad
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: RD Gaikwad
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RA Tripathi
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: RD Gaikwad
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: RD Gaikwad
+        bowler: Tejas Patel
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: RA Tripathi
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: RD Gaikwad
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: RD Gaikwad
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: RD Gaikwad
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: RD Gaikwad
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: RA Tripathi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: RA Tripathi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: RA Tripathi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: RA Tripathi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Gaikwad
+        wicket:
+          player_out: RD Gaikwad
+          fielders:
+          - Karan Patel
+          kind: caught
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: RH Motwani
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: RH Motwani
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: RA Tripathi
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RH Motwani
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: RA Tripathi
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RH Motwani
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: RH Motwani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RA Tripathi
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: RH Motwani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RA Tripathi
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: RH Motwani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: RH Motwani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RA Tripathi
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: RH Motwani
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: RH Motwani
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: RH Motwani
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RA Tripathi
+        wicket:
+          player_out: RA Tripathi
+          kind: bowled
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: RH Motwani
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Bawne
+        wicket:
+          player_out: AR Bawne
+          fielders:
+          - Dhruv Raval
+          kind: caught
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: RH Motwani
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Naushad Shaikh
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: RH Motwani
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: RH Motwani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: RH Motwani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: RH Motwani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Naushad Shaikh
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: RH Motwani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: RH Motwani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: RH Motwani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: RH Motwani
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Naushad Shaikh
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RH Motwani
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: RH Motwani
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Naushad Shaikh
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RH Motwani
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Naushad Shaikh
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RH Motwani
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: RH Motwani
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: RH Motwani
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: RH Motwani
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Naushad Shaikh
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: RH Motwani
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: RH Motwani
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: RH Motwani
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Naushad Shaikh
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RH Motwani
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Naushad Shaikh
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RH Motwani
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Naushad Shaikh
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RH Motwani
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Naushad Shaikh
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RH Motwani
+        wicket:
+          player_out: RH Motwani
+          fielders:
+          - Hemang Patel
+          kind: caught
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Naushad Shaikh
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Azim Kazi
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Azim Kazi
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Azim Kazi
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Naushad Shaikh
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Azim Kazi
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Azim Kazi
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Azim Kazi
+        bowler: AR Patel
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Naushad Shaikh
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Naushad Shaikh
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Azim Kazi
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Azim Kazi
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Naushad Shaikh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Azim Kazi
+        bowler: PP Chawla
+        extras:
+          legbyes: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Azim Kazi
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Naushad Shaikh
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Azim Kazi
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Naushad Shaikh
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Azim Kazi
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Naushad Shaikh
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Azim Kazi
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Naushad Shaikh
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Naushad Shaikh
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Azim Kazi
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Naushad Shaikh
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Azim Kazi
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Naushad Shaikh
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Azim Kazi
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Azim Kazi
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Naushad Shaikh
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Azim Kazi
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Naushad Shaikh
+        wicket:
+          player_out: Naushad Shaikh
+          fielders:
+          - A Nagwaswalla
+          kind: caught
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: NS Naik
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Azim Kazi
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Naik
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Azim Kazi
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NS Naik
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Azim Kazi
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Naik
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: NS Naik
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: NS Naik
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Azim Kazi
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Naik
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Azim Kazi
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Naik
+        wicket:
+          player_out: NS Naik
+          kind: lbw
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Azim Kazi
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Divyang Hinganekar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Divyang Hinganekar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Divyang Hinganekar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Divyang Hinganekar
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Azim Kazi
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Divyang Hinganekar
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Azim Kazi
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Divyang Hinganekar
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Azim Kazi
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Divyang Hinganekar
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Divyang Hinganekar
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Azim Kazi
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Divyang Hinganekar
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Divyang Hinganekar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Divyang Hinganekar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Azim Kazi
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Divyang Hinganekar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Azim Kazi
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Divyang Hinganekar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Azim Kazi
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Divyang Hinganekar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Azim Kazi
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Divyang Hinganekar
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Divyang Hinganekar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Divyang Hinganekar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Azim Kazi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Divyang Hinganekar
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Azim Kazi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Divyang Hinganekar
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Azim Kazi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Divyang Hinganekar
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Divyang Hinganekar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Azim Kazi
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Azim Kazi
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Divyang Hinganekar
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Azim Kazi
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Divyang Hinganekar
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Azim Kazi
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Divyang Hinganekar
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Azim Kazi
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Divyang Hinganekar
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Divyang Hinganekar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Azim Kazi
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Divyang Hinganekar
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Azim Kazi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Divyang Hinganekar
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Azim Kazi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Divyang Hinganekar
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Divyang Hinganekar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Azim Kazi
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Azim Kazi
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Divyang Hinganekar
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Divyang Hinganekar
+        bowler: A Nagwaswalla
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Azim Kazi
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: Divyang Hinganekar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Azim Kazi

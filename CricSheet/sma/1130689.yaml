@@ -1,0 +1,2436 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-04'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2018-01-11'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Karnataka
+    by:
+      runs: 2
+  overs: 20
+  players:
+    Karnataka:
+    - MA Agarwal
+    - KK Nair
+    - K Gowtham
+    - MK Pandey
+    - STR Binny
+    - Pavan Deshpande
+    - R Vinay Kumar
+    - S Aravind
+    - CM Gautam
+    - A Mithun
+    - Ravikumar Samarth
+    Hyderabad (India):
+    - Mehdi Hassan
+    - Mohammed Siraj
+    - Ravi Teja
+    - Ravi Kiran
+    - Akash Bhandari
+    - Bavanaka Sandeep
+    - Tanmay Agarwal
+    - PA Reddy
+    - AT Rayudu
+    - Kolla Sumanth
+    - A Ashish Reddy
+  registry:
+    people:
+      A Ashish Reddy: 1c2a64cd
+      A Mithun: 66cf56a5
+      AT Rayudu: 70d205c9
+      Akash Bhandari: c2ce55cb
+      Bavanaka Sandeep: bc67cc22
+      CM Gautam: 30a2649b
+      K Gowtham: 90de905a
+      KK Nair: 944533a5
+      Kolla Sumanth: b93a5d0b
+      MA Agarwal: 00ea847a
+      MK Pandey: 93b4fc78
+      Mehdi Hassan: 5876c626
+      Mohammed Siraj: 2f49c897
+      PA Reddy: 2461eef2
+      Pavan Deshpande: 436b8481
+      R Vinay Kumar: 41eb4a4f
+      Ravi Kiran: 0ff9728b
+      Ravi Teja: 5f39537c
+      Ravikumar Samarth: f2dbbff5
+      S Aravind: 957532de
+      STR Binny: bd17b45f
+      Tanmay Agarwal: e6e9b619
+    venues:
+      Andhra Cricket Association-Visakhapatnam District Cricket Association Stadium, Visakhapatnam: deae8c56
+  teams:
+  - Karnataka
+  - Hyderabad (India)
+  toss:
+    winner: Hyderabad (India)
+    decision: field
+  venue: Andhra Cricket Association-Visakhapatnam District Cricket Association Stadium,
+    Visakhapatnam
+  team_type: club
+innings:
+- 1st innings:
+    team: Karnataka
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: MA Agarwal
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: KK Nair
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+        wicket:
+          player_out: MA Agarwal
+          fielders:
+          - Kolla Sumanth
+          kind: caught
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: KK Nair
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Gowtham
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: KK Nair
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: K Gowtham
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: K Gowtham
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: K Gowtham
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: KK Nair
+        bowler: Ravi Teja
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: K Gowtham
+    - 2.2:
+        actual_delivery: '2.1'
+        non_striker: KK Nair
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: K Gowtham
+    - 2.3:
+        actual_delivery: '2.2'
+        non_striker: KK Nair
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: K Gowtham
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: KK Nair
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Gowtham
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: KK Nair
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: K Gowtham
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: KK Nair
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Gowtham
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: KK Nair
+        bowler: Ravi Teja
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: K Gowtham
+    - 2.8:
+        actual_delivery: '2.6'
+        non_striker: KK Nair
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: K Gowtham
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: K Gowtham
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: K Gowtham
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: KK Nair
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: K Gowtham
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KK Nair
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: K Gowtham
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: KK Nair
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: K Gowtham
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: K Gowtham
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: K Gowtham
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: K Gowtham
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: K Gowtham
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: KK Nair
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: K Gowtham
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: KK Nair
+        bowler: Ravi Kiran
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: K Gowtham
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: KK Nair
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: K Gowtham
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: KK Nair
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: KK Nair
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: K Gowtham
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: K Gowtham
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Nair
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: K Gowtham
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: K Gowtham
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: K Gowtham
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: KK Nair
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Gowtham
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: KK Nair
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Gowtham
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: K Gowtham
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: KK Nair
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: K Gowtham
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: KK Nair
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: K Gowtham
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: K Gowtham
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: K Gowtham
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: KK Nair
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: K Gowtham
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: KK Nair
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: K Gowtham
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: KK Nair
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: KK Nair
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: K Gowtham
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: KK Nair
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: K Gowtham
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: KK Nair
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: K Gowtham
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: KK Nair
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: K Gowtham
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: K Gowtham
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Nair
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: K Gowtham
+        bowler: Akash Bhandari
+        extras:
+          byes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: KK Nair
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: K Gowtham
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: KK Nair
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: K Gowtham
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: KK Nair
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: KK Nair
+        bowler: Ravi Teja
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: K Gowtham
+    - 11.2:
+        actual_delivery: '11.1'
+        non_striker: KK Nair
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: K Gowtham
+    - 11.3:
+        actual_delivery: '11.2'
+        non_striker: KK Nair
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 11.4:
+        actual_delivery: '11.3'
+        non_striker: K Gowtham
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: K Gowtham
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: K Gowtham
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: K Gowtham
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Gowtham
+        wicket:
+          player_out: K Gowtham
+          fielders:
+          - PA Reddy
+          kind: caught
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Pandey
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Pandey
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Pandey
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: MK Pandey
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Pandey
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: KK Nair
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Pandey
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: KK Nair
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Pandey
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: MK Pandey
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: KK Nair
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Pandey
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: MK Pandey
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: KK Nair
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Pandey
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Pandey
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: MK Pandey
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: MK Pandey
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KK Nair
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: MK Pandey
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MK Pandey
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: KK Nair
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Pandey
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: KK Nair
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Pandey
+        wicket:
+          player_out: KK Nair
+          fielders:
+          - Akash Bhandari
+          kind: run out
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: STR Binny
+        bowler: Ravi Kiran
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: MK Pandey
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: MK Pandey
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: STR Binny
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Pandey
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: MK Pandey
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: STR Binny
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Pandey
+        wicket:
+          player_out: MK Pandey
+          fielders:
+          - Akash Bhandari
+          kind: caught
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Pavan Deshpande
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: STR Binny
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Pavan Deshpande
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: STR Binny
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Pavan Deshpande
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: STR Binny
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Pavan Deshpande
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Pavan Deshpande
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: STR Binny
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Pavan Deshpande
+        bowler: Ravi Kiran
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: STR Binny
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: STR Binny
+        bowler: Ravi Kiran
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: STR Binny
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Pavan Deshpande
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+        wicket:
+          player_out: STR Binny
+          kind: bowled
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Pavan Deshpande
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Vinay Kumar
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Pavan Deshpande
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Pavan Deshpande
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: R Vinay Kumar
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pavan Deshpande
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: R Vinay Kumar
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Pavan Deshpande
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: R Vinay Kumar
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: R Vinay Kumar
+        bowler: Mohammed Siraj
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Pavan Deshpande
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Vinay Kumar
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: R Vinay Kumar
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pavan Deshpande
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Pavan Deshpande
+        bowler: Ravi Kiran
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: R Vinay Kumar
+        bowler: Ravi Kiran
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Pavan Deshpande
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Pavan Deshpande
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Vinay Kumar
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Pavan Deshpande
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Vinay Kumar
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Pavan Deshpande
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Vinay Kumar
+- 2nd innings:
+    team: Hyderabad (India)
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: PA Reddy
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Tanmay Agarwal
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: PA Reddy
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Tanmay Agarwal
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Reddy
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Tanmay Agarwal
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: PA Reddy
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Tanmay Agarwal
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: PA Reddy
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: PA Reddy
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: PA Reddy
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tanmay Agarwal
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: PA Reddy
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: PA Reddy
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: PA Reddy
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Tanmay Agarwal
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: PA Reddy
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: PA Reddy
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Tanmay Agarwal
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: PA Reddy
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: PA Reddy
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: PA Reddy
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Tanmay Agarwal
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Tanmay Agarwal
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: PA Reddy
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tanmay Agarwal
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: PA Reddy
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: PA Reddy
+        bowler: S Aravind
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Tanmay Agarwal
+        bowler: S Aravind
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: PA Reddy
+    - 4.3:
+        actual_delivery: '4.2'
+        non_striker: PA Reddy
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tanmay Agarwal
+    - 4.4:
+        actual_delivery: '4.3'
+        non_striker: PA Reddy
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: Tanmay Agarwal
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Reddy
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: Tanmay Agarwal
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: Tanmay Agarwal
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: PA Reddy
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tanmay Agarwal
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: PA Reddy
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: PA Reddy
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Tanmay Agarwal
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: PA Reddy
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+        wicket:
+          player_out: Tanmay Agarwal
+          fielders:
+          - R Vinay Kumar
+          kind: caught
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Ravi Teja
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PA Reddy
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: PA Reddy
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Ravi Teja
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Ravi Teja
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Reddy
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Ravi Teja
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: PA Reddy
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Ravi Teja
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Reddy
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: PA Reddy
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ravi Teja
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: PA Reddy
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Teja
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: PA Reddy
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Ravi Teja
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Reddy
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Ravi Teja
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Ravi Teja
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: PA Reddy
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Ravi Teja
+        bowler: STR Binny
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: PA Reddy
+    - 8.3:
+        actual_delivery: '8.2'
+        non_striker: Ravi Teja
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 8.4:
+        actual_delivery: '8.3'
+        non_striker: PA Reddy
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 8.5:
+        actual_delivery: '8.4'
+        non_striker: Ravi Teja
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: PA Reddy
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: Ravi Teja
+        bowler: STR Binny
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: PA Reddy
+    - 8.8:
+        actual_delivery: '8.6'
+        non_striker: Ravi Teja
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Ravi Teja
+        bowler: Pavan Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: PA Reddy
+        bowler: Pavan Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Ravi Teja
+        bowler: Pavan Deshpande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Reddy
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Ravi Teja
+        bowler: Pavan Deshpande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Reddy
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Ravi Teja
+        bowler: Pavan Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: PA Reddy
+        bowler: Pavan Deshpande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Teja
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: PA Reddy
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Teja
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: PA Reddy
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravi Teja
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: PA Reddy
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Teja
+        wicket:
+          player_out: Ravi Teja
+          kind: caught and bowled
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: PA Reddy
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: AT Rayudu
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+        wicket:
+          player_out: PA Reddy
+          fielders:
+          - MK Pandey
+          kind: caught
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Kolla Sumanth
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Kolla Sumanth
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: AT Rayudu
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Kolla Sumanth
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: AT Rayudu
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kolla Sumanth
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: AT Rayudu
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Kolla Sumanth
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AT Rayudu
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: AT Rayudu
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kolla Sumanth
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: AT Rayudu
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kolla Sumanth
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: AT Rayudu
+        bowler: STR Binny
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kolla Sumanth
+    - 12.4:
+        actual_delivery: '12.3'
+        non_striker: AT Rayudu
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: Kolla Sumanth
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: AT Rayudu
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: Kolla Sumanth
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Kolla Sumanth
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AT Rayudu
+        wicket:
+          player_out: AT Rayudu
+          fielders:
+          - CM Gautam
+          kind: caught
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Kolla Sumanth
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: A Ashish Reddy
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Kolla Sumanth
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: A Ashish Reddy
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Kolla Sumanth
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Kolla Sumanth
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: A Ashish Reddy
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Kolla Sumanth
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: A Ashish Reddy
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Kolla Sumanth
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: A Ashish Reddy
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+        wicket:
+          player_out: Kolla Sumanth
+          kind: bowled
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Bavanaka Sandeep
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: A Ashish Reddy
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Bavanaka Sandeep
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: A Ashish Reddy
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Bavanaka Sandeep
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: A Ashish Reddy
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: A Ashish Reddy
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Bavanaka Sandeep
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: A Ashish Reddy
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: A Ashish Reddy
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Bavanaka Sandeep
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: A Ashish Reddy
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: A Ashish Reddy
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bavanaka Sandeep
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: A Ashish Reddy
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Bavanaka Sandeep
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: A Ashish Reddy
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bavanaka Sandeep
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: A Ashish Reddy
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+        wicket:
+          player_out: A Ashish Reddy
+          fielders:
+          - MK Pandey
+          kind: run out
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Akash Bhandari
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Akash Bhandari
+        bowler: R Vinay Kumar
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Akash Bhandari
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Bavanaka Sandeep
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Akash Bhandari
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bavanaka Sandeep
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Akash Bhandari
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Bavanaka Sandeep
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Akash Bhandari
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bavanaka Sandeep
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Akash Bhandari
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bavanaka Sandeep
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Bavanaka Sandeep
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Akash Bhandari
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+        wicket:
+          player_out: Bavanaka Sandeep
+          fielders:
+          - K Gowtham
+          kind: run out
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Mehdi Hassan
+        bowler: STR Binny
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Akash Bhandari
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Akash Bhandari
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mehdi Hassan
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Mehdi Hassan
+        bowler: STR Binny
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Akash Bhandari
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: Mehdi Hassan
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+        wicket:
+          player_out: Akash Bhandari
+          fielders:
+          - Ravikumar Samarth
+          kind: run out
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: Mehdi Hassan
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohammed Siraj
+        wicket:
+          player_out: Mohammed Siraj
+          fielders:
+          - CM Gautam
+          kind: caught

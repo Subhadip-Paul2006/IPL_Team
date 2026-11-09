@@ -1,0 +1,2381 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-29'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-01-13'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Goa
+    by:
+      wickets: 5
+  overs: 20
+  players:
+    Services:
+    - Lakhan Singh
+    - Ravi Chauhan
+    - Rahul Singh
+    - Rajat Paliwal
+    - Vikas Hathwala
+    - Nakul Sharma
+    - Diwesh Pathania
+    - Mohit Kumar
+    - Varun Choudhary
+    - Vikas Yadav
+    - Pulkit Narang
+    Goa:
+    - AB Dinda
+    - Lakshay Garg
+    - Darshan Misal
+    - Deepraj Gaonkar
+    - MG Sirur
+    - SS Prabhudessai
+    - Amit Verma
+    - Amogh Desai
+    - Aditya Kaushik
+    - Snehal Kauthankar
+    - Eknath Kerkar
+  registry:
+    people:
+      AB Dinda: 66b30f71
+      Aditya Kaushik: 9a2d95ac
+      Amit Verma: 3b30b8c4
+      Amogh Desai: 017e2f0d
+      Darshan Misal: ce2b42ae
+      Deepraj Gaonkar: d3c1f849
+      Diwesh Pathania: a63563c0
+      Eknath Kerkar: '84085032'
+      Lakhan Singh: ad72e8cc
+      Lakshay Garg: 4af886ed
+      MG Sirur: a71b0bd3
+      Mohit Kumar: caabc8e4
+      Nakul Sharma: f5cf7ae0
+      Pulkit Narang: 9dc27cf0
+      Rahul Singh: adf454e9
+      Rajat Paliwal: 2fcb040c
+      Ravi Chauhan: f7ce1f24
+      SS Prabhudessai: 9385de2e
+      Snehal Kauthankar: 3a0dc16e
+      Varun Choudhary: 134bead2
+      Vikas Hathwala: 904585d1
+      Vikas Yadav: fa73f373
+    venues:
+      Emerald High School Ground, Indore: '09c89765'
+  teams:
+  - Services
+  - Goa
+  toss:
+    winner: Goa
+    decision: field
+  venue: Emerald High School Ground, Indore
+  team_type: club
+innings:
+- 1st innings:
+    team: Services
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Ravi Chauhan
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Lakhan Singh
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Ravi Chauhan
+        bowler: AB Dinda
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Lakhan Singh
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Lakhan Singh
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Lakhan Singh
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravi Chauhan
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Lakhan Singh
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Lakhan Singh
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravi Chauhan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Ravi Chauhan
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lakhan Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Lakhan Singh
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Ravi Chauhan
+        bowler: Lakshay Garg
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Lakhan Singh
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Ravi Chauhan
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lakhan Singh
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Ravi Chauhan
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lakhan Singh
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Lakhan Singh
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Lakhan Singh
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Ravi Chauhan
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lakhan Singh
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Lakhan Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Ravi Chauhan
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lakhan Singh
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Lakhan Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Ravi Chauhan
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lakhan Singh
+        wicket:
+          player_out: Lakhan Singh
+          fielders:
+          - Deepraj Gaonkar
+          kind: caught
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Rahul Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Rahul Singh
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravi Chauhan
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Rahul Singh
+        bowler: Lakshay Garg
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: Rahul Singh
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: Rahul Singh
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravi Chauhan
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Rahul Singh
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Ravi Chauhan
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Ravi Chauhan
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Rahul Singh
+        bowler: AB Dinda
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Ravi Chauhan
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Ravi Chauhan
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Singh
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Ravi Chauhan
+        bowler: AB Dinda
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rahul Singh
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: Ravi Chauhan
+        bowler: AB Dinda
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 5
+          batsman: 4
+        batsman: Rahul Singh
+    - 4.6:
+        actual_delivery: '4.4'
+        non_striker: Ravi Chauhan
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 4.7:
+        actual_delivery: '4.5'
+        non_striker: Rahul Singh
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 4.8:
+        actual_delivery: '4.6'
+        non_striker: Ravi Chauhan
+        bowler: AB Dinda
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 5
+          batsman: 4
+        batsman: Rahul Singh
+    - 4.9:
+        actual_delivery: '4.6'
+        non_striker: Ravi Chauhan
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Singh
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Rahul Singh
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Ravi Chauhan
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Ravi Chauhan
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Ravi Chauhan
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Rahul Singh
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravi Chauhan
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Rahul Singh
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Rahul Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Rahul Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Ravi Chauhan
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Rahul Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Rahul Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Ravi Chauhan
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Ravi Chauhan
+        bowler: MG Sirur
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rahul Singh
+    - 7.2:
+        actual_delivery: '7.1'
+        non_striker: Ravi Chauhan
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 7.3:
+        actual_delivery: '7.2'
+        non_striker: Rahul Singh
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 7.4:
+        actual_delivery: '7.3'
+        non_striker: Ravi Chauhan
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: Ravi Chauhan
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Rahul Singh
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Rahul Singh
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Ravi Chauhan
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Singh
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Ravi Chauhan
+        bowler: Deepraj Gaonkar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rahul Singh
+    - 8.3:
+        actual_delivery: '8.2'
+        non_striker: Ravi Chauhan
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 8.4:
+        actual_delivery: '8.3'
+        non_striker: Rahul Singh
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 8.5:
+        actual_delivery: '8.4'
+        non_striker: Ravi Chauhan
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: Rahul Singh
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: Ravi Chauhan
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Ravi Chauhan
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rahul Singh
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Ravi Chauhan
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Ravi Chauhan
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Rahul Singh
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Rahul Singh
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Ravi Chauhan
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Rahul Singh
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Ravi Chauhan
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Rahul Singh
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Rahul Singh
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravi Chauhan
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Rahul Singh
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Rahul Singh
+        bowler: SS Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Rahul Singh
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Ravi Chauhan
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+        wicket:
+          player_out: Rahul Singh
+          fielders:
+          - Lakshay Garg
+          kind: caught
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Ravi Chauhan
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Rajat Paliwal
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Ravi Chauhan
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Rajat Paliwal
+        bowler: MG Sirur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Rajat Paliwal
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Ravi Chauhan
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Rajat Paliwal
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Rajat Paliwal
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Ravi Chauhan
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Rajat Paliwal
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Ravi Chauhan
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Rajat Paliwal
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Ravi Chauhan
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Rajat Paliwal
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravi Chauhan
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Rajat Paliwal
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ravi Chauhan
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Rajat Paliwal
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravi Chauhan
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Ravi Chauhan
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Rajat Paliwal
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Rajat Paliwal
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Rajat Paliwal
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravi Chauhan
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Rajat Paliwal
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravi Chauhan
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Rajat Paliwal
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Rajat Paliwal
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravi Chauhan
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Ravi Chauhan
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rajat Paliwal
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Ravi Chauhan
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Rajat Paliwal
+        bowler: Darshan Misal
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ravi Chauhan
+        wicket:
+          player_out: Ravi Chauhan
+          fielders:
+          - Amit Verma
+          kind: run out
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Rajat Paliwal
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vikas Hathwala
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Rajat Paliwal
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Rajat Paliwal
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Vikas Hathwala
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Rajat Paliwal
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Vikas Hathwala
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Rajat Paliwal
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Vikas Hathwala
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Vikas Hathwala
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rajat Paliwal
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Vikas Hathwala
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Rajat Paliwal
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikas Hathwala
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Rajat Paliwal
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Vikas Hathwala
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Paliwal
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Rajat Paliwal
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikas Hathwala
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Vikas Hathwala
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Paliwal
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Vikas Hathwala
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rajat Paliwal
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Vikas Hathwala
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Paliwal
+        wicket:
+          player_out: Rajat Paliwal
+          fielders:
+          - Darshan Misal
+          kind: caught
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Nakul Sharma
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Vikas Hathwala
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nakul Sharma
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Vikas Hathwala
+        bowler: AB Dinda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nakul Sharma
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Nakul Sharma
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikas Hathwala
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Vikas Hathwala
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Nakul Sharma
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Vikas Hathwala
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nakul Sharma
+        wicket:
+          player_out: Nakul Sharma
+          fielders:
+          - AB Dinda
+          kind: caught
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Vikas Hathwala
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Diwesh Pathania
+        wicket:
+          player_out: Vikas Hathwala
+          fielders:
+          - Lakshay Garg
+          kind: run out
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Diwesh Pathania
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohit Kumar
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Mohit Kumar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Diwesh Pathania
+        wicket:
+          player_out: Diwesh Pathania
+          kind: caught and bowled
+- 2nd innings:
+    team: Goa
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Aditya Kaushik
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amogh Desai
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Aditya Kaushik
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amogh Desai
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Aditya Kaushik
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amogh Desai
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Amogh Desai
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Amogh Desai
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Amogh Desai
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Aditya Kaushik
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amogh Desai
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Aditya Kaushik
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amogh Desai
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Amogh Desai
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Aditya Kaushik
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amogh Desai
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Amogh Desai
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aditya Kaushik
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Amogh Desai
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Aditya Kaushik
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amogh Desai
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Aditya Kaushik
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amogh Desai
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Amogh Desai
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Aditya Kaushik
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amogh Desai
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Amogh Desai
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Kaushik
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Amogh Desai
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Aditya Kaushik
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amogh Desai
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Aditya Kaushik
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amogh Desai
+        wicket:
+          player_out: Amogh Desai
+          fielders:
+          - Rajat Paliwal
+          kind: caught
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Snehal Kauthankar
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Aditya Kaushik
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Snehal Kauthankar
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Snehal Kauthankar
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Aditya Kaushik
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Snehal Kauthankar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Aditya Kaushik
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Snehal Kauthankar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Aditya Kaushik
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Snehal Kauthankar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Aditya Kaushik
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Snehal Kauthankar
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Kaushik
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Snehal Kauthankar
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Snehal Kauthankar
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Kaushik
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Snehal Kauthankar
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Aditya Kaushik
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Snehal Kauthankar
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Aditya Kaushik
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Snehal Kauthankar
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Aditya Kaushik
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Snehal Kauthankar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Snehal Kauthankar
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Aditya Kaushik
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Snehal Kauthankar
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Aditya Kaushik
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Snehal Kauthankar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Aditya Kaushik
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Snehal Kauthankar
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Snehal Kauthankar
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Aditya Kaushik
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Snehal Kauthankar
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Aditya Kaushik
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Snehal Kauthankar
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Aditya Kaushik
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Snehal Kauthankar
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Snehal Kauthankar
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Snehal Kauthankar
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Aditya Kaushik
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Snehal Kauthankar
+        wicket:
+          player_out: Snehal Kauthankar
+          fielders:
+          - Vikas Hathwala
+          kind: caught
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Amit Verma
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Aditya Kaushik
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Amit Verma
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Aditya Kaushik
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Amit Verma
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Aditya Kaushik
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amit Verma
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Aditya Kaushik
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amit Verma
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Aditya Kaushik
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amit Verma
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Aditya Kaushik
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Aditya Kaushik
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Amit Verma
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Aditya Kaushik
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amit Verma
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Aditya Kaushik
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Amit Verma
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Aditya Kaushik
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Amit Verma
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Amit Verma
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aditya Kaushik
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Amit Verma
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aditya Kaushik
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Amit Verma
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Aditya Kaushik
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Amit Verma
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Aditya Kaushik
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Aditya Kaushik
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Amit Verma
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Aditya Kaushik
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Amit Verma
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Aditya Kaushik
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Amit Verma
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Aditya Kaushik
+        bowler: Vikas Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Amit Verma
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Amit Verma
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Aditya Kaushik
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amit Verma
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Aditya Kaushik
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Amit Verma
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Aditya Kaushik
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Amit Verma
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Aditya Kaushik
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Amit Verma
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Amit Verma
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Aditya Kaushik
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Amit Verma
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Kaushik
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Amit Verma
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Aditya Kaushik
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Amit Verma
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Amit Verma
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Amit Verma
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Aditya Kaushik
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Amit Verma
+        bowler: Varun Choudhary
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Aditya Kaushik
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Amit Verma
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Aditya Kaushik
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Amit Verma
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Amit Verma
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Kaushik
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Amit Verma
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Aditya Kaushik
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Amit Verma
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Aditya Kaushik
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Amit Verma
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Aditya Kaushik
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Amit Verma
+        bowler: Diwesh Pathania
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Amit Verma
+        bowler: Varun Choudhary
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 17.2:
+        actual_delivery: '17.1'
+        non_striker: Amit Verma
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 17.3:
+        actual_delivery: '17.2'
+        non_striker: Aditya Kaushik
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amit Verma
+        wicket:
+          player_out: Amit Verma
+          fielders:
+          - Rahul Singh
+          kind: caught
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: Darshan Misal
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Aditya Kaushik
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Darshan Misal
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Darshan Misal
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Aditya Kaushik
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Darshan Misal
+        bowler: Varun Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Darshan Misal
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+        wicket:
+          player_out: Aditya Kaushik
+          fielders:
+          - Vikas Yadav
+          kind: caught
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: SS Prabhudessai
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Darshan Misal
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Darshan Misal
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: SS Prabhudessai
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Darshan Misal
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: SS Prabhudessai
+        bowler: Mohit Kumar
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Darshan Misal
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Darshan Misal
+        bowler: Mohit Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+        wicket:
+          player_out: SS Prabhudessai
+          fielders:
+          - Vikas Yadav
+          kind: caught
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Darshan Misal
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Eknath Kerkar
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Eknath Kerkar
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Darshan Misal
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Eknath Kerkar
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Darshan Misal
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Eknath Kerkar
+        bowler: Pulkit Narang
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Darshan Misal

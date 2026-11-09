@@ -1,0 +1,2376 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-04'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2018-01-09'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Hyderabad (India)
+    by:
+      runs: 19
+  overs: 20
+  players:
+    Hyderabad (India):
+    - Tanmay Agarwal
+    - PA Reddy
+    - A Ashish Reddy
+    - AT Rayudu
+    - Kolla Sumanth
+    - Bavanaka Sandeep
+    - Akash Bhandari
+    - Ravi Kiran
+    - PP Ojha
+    - Mohammed Siraj
+    - Mehdi Hassan
+    Goa:
+    - Lakshay Garg
+    - Vijesh Prabhudessai
+    - Felix Alemao
+    - Darshan Misal
+    - SB Jakati
+    - Achit Shigwan
+    - Amogh Desai
+    - SA Asnodkar
+    - Sagun Kamat
+    - KA Vaz
+    - Srinivas Fadte
+  registry:
+    people:
+      A Ashish Reddy: 1c2a64cd
+      AT Rayudu: 70d205c9
+      Achit Shigwan: 95f2b15b
+      Akash Bhandari: c2ce55cb
+      Amogh Desai: 017e2f0d
+      Bavanaka Sandeep: bc67cc22
+      Darshan Misal: ce2b42ae
+      Felix Alemao: 2d209101
+      KA Vaz: 2b126005
+      Kolla Sumanth: b93a5d0b
+      Lakshay Garg: 4af886ed
+      Mehdi Hassan: 5876c626
+      Mohammed Siraj: 2f49c897
+      PA Reddy: 2461eef2
+      PP Ojha: 6c6591ab
+      Ravi Kiran: 0ff9728b
+      SA Asnodkar: ae091d39
+      SB Jakati: c8179c68
+      Sagun Kamat: 8a58cc2a
+      Srinivas Fadte: 4af69c7c
+      Tanmay Agarwal: e6e9b619
+      Vijesh Prabhudessai: 773bf733
+    venues:
+      Andhra Cricket Association-Visakhapatnam District Cricket Association Stadium, Visakhapatnam: deae8c56
+  teams:
+  - Hyderabad (India)
+  - Goa
+  toss:
+    winner: Hyderabad (India)
+    decision: bat
+  venue: Andhra Cricket Association-Visakhapatnam District Cricket Association Stadium,
+    Visakhapatnam
+  team_type: club
+innings:
+- 1st innings:
+    team: Hyderabad (India)
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: PA Reddy
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Tanmay Agarwal
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Tanmay Agarwal
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: PA Reddy
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: PA Reddy
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: PA Reddy
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Tanmay Agarwal
+        bowler: Vijesh Prabhudessai
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: PA Reddy
+    - 1.2:
+        actual_delivery: '1.1'
+        non_striker: Tanmay Agarwal
+        bowler: Vijesh Prabhudessai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: Tanmay Agarwal
+        bowler: Vijesh Prabhudessai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Tanmay Agarwal
+        bowler: Vijesh Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: PA Reddy
+        bowler: Vijesh Prabhudessai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: PA Reddy
+        bowler: Vijesh Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Tanmay Agarwal
+        bowler: Vijesh Prabhudessai
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PA Reddy
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: PA Reddy
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Tanmay Agarwal
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: PA Reddy
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: PA Reddy
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Tanmay Agarwal
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Reddy
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Tanmay Agarwal
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: PA Reddy
+        bowler: Vijesh Prabhudessai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: PA Reddy
+        bowler: Vijesh Prabhudessai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: PA Reddy
+        bowler: Vijesh Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Tanmay Agarwal
+        bowler: Vijesh Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: PA Reddy
+        bowler: Vijesh Prabhudessai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: PA Reddy
+        bowler: Vijesh Prabhudessai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: PA Reddy
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Tanmay Agarwal
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Tanmay Agarwal
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Tanmay Agarwal
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: PA Reddy
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Tanmay Agarwal
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: PA Reddy
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Tanmay Agarwal
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Tanmay Agarwal
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: PA Reddy
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Tanmay Agarwal
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: PA Reddy
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Tanmay Agarwal
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: PA Reddy
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Tanmay Agarwal
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: PA Reddy
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+        wicket:
+          player_out: Tanmay Agarwal
+          fielders:
+          - Amogh Desai
+          kind: caught
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: A Ashish Reddy
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: PA Reddy
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Ashish Reddy
+        wicket:
+          player_out: A Ashish Reddy
+          fielders:
+          - Darshan Misal
+          kind: caught
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: AT Rayudu
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: PA Reddy
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: AT Rayudu
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: PA Reddy
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: AT Rayudu
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: PA Reddy
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: PA Reddy
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AT Rayudu
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: PA Reddy
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: AT Rayudu
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: PA Reddy
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: AT Rayudu
+        bowler: Felix Alemao
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: PA Reddy
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: PA Reddy
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AT Rayudu
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: PA Reddy
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AT Rayudu
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: AT Rayudu
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: PA Reddy
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AT Rayudu
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: PA Reddy
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: AT Rayudu
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: AT Rayudu
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: PA Reddy
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: PA Reddy
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: AT Rayudu
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Reddy
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: AT Rayudu
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: PA Reddy
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AT Rayudu
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: PA Reddy
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AT Rayudu
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: PA Reddy
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: PA Reddy
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: AT Rayudu
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: AT Rayudu
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: PA Reddy
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AT Rayudu
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: PA Reddy
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: AT Rayudu
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: AT Rayudu
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PA Reddy
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: AT Rayudu
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: AT Rayudu
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: PA Reddy
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AT Rayudu
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: PA Reddy
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: AT Rayudu
+        bowler: Felix Alemao
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: AT Rayudu
+        bowler: Achit Shigwan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Reddy
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: AT Rayudu
+        bowler: Achit Shigwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: AT Rayudu
+        bowler: Achit Shigwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+        wicket:
+          player_out: PA Reddy
+          fielders:
+          - Amogh Desai
+          kind: caught
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Kolla Sumanth
+        bowler: Achit Shigwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: AT Rayudu
+        bowler: Achit Shigwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Kolla Sumanth
+        bowler: Achit Shigwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Kolla Sumanth
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: AT Rayudu
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Kolla Sumanth
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: AT Rayudu
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kolla Sumanth
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: AT Rayudu
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Kolla Sumanth
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AT Rayudu
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: AT Rayudu
+        bowler: Achit Shigwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Kolla Sumanth
+        bowler: Achit Shigwan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AT Rayudu
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Kolla Sumanth
+        bowler: Achit Shigwan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AT Rayudu
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Kolla Sumanth
+        bowler: Achit Shigwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: AT Rayudu
+        bowler: Achit Shigwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: AT Rayudu
+        bowler: Achit Shigwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: AT Rayudu
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Kolla Sumanth
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: AT Rayudu
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+        wicket:
+          player_out: Kolla Sumanth
+          fielders:
+          - KA Vaz
+          kind: stumped
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: AT Rayudu
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Bavanaka Sandeep
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AT Rayudu
+        wicket:
+          player_out: AT Rayudu
+          fielders:
+          - Lakshay Garg
+          kind: caught
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Akash Bhandari
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Akash Bhandari
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Akash Bhandari
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Bavanaka Sandeep
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Akash Bhandari
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Bavanaka Sandeep
+        bowler: Lakshay Garg
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Akash Bhandari
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Bavanaka Sandeep
+        bowler: Lakshay Garg
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Akash Bhandari
+    - 17.6:
+        actual_delivery: '17.4'
+        non_striker: Bavanaka Sandeep
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+    - 17.7:
+        actual_delivery: '17.5'
+        non_striker: Akash Bhandari
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bavanaka Sandeep
+    - 17.8:
+        actual_delivery: '17.6'
+        non_striker: Akash Bhandari
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Akash Bhandari
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bavanaka Sandeep
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Akash Bhandari
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Bavanaka Sandeep
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Akash Bhandari
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Bavanaka Sandeep
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Akash Bhandari
+        bowler: SB Jakati
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Bavanaka Sandeep
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Bavanaka Sandeep
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Akash Bhandari
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Bavanaka Sandeep
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akash Bhandari
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Bavanaka Sandeep
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Akash Bhandari
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Bavanaka Sandeep
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Bhandari
+- 2nd innings:
+    team: Goa
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: SA Asnodkar
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amogh Desai
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: SA Asnodkar
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amogh Desai
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: SA Asnodkar
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amogh Desai
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Amogh Desai
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Asnodkar
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: SA Asnodkar
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Amogh Desai
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: SA Asnodkar
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Amogh Desai
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Amogh Desai
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Asnodkar
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Amogh Desai
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Asnodkar
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Amogh Desai
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Asnodkar
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Amogh Desai
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Asnodkar
+        wicket:
+          player_out: SA Asnodkar
+          kind: bowled
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Amogh Desai
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagun Kamat
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Amogh Desai
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Amogh Desai
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagun Kamat
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Amogh Desai
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Sagun Kamat
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Amogh Desai
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Sagun Kamat
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amogh Desai
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Sagun Kamat
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Amogh Desai
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Sagun Kamat
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amogh Desai
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Amogh Desai
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagun Kamat
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Amogh Desai
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagun Kamat
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Amogh Desai
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Sagun Kamat
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amogh Desai
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Amogh Desai
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagun Kamat
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Amogh Desai
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Amogh Desai
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Sagun Kamat
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amogh Desai
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Amogh Desai
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagun Kamat
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Amogh Desai
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagun Kamat
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Amogh Desai
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Sagun Kamat
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amogh Desai
+        wicket:
+          player_out: Amogh Desai
+          fielders:
+          - Tanmay Agarwal
+          kind: caught
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: KA Vaz
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Sagun Kamat
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Vaz
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Sagun Kamat
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: KA Vaz
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Sagun Kamat
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Vaz
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Sagun Kamat
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KA Vaz
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: KA Vaz
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagun Kamat
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: KA Vaz
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Sagun Kamat
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: KA Vaz
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagun Kamat
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: KA Vaz
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sagun Kamat
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: KA Vaz
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: KA Vaz
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sagun Kamat
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: KA Vaz
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Sagun Kamat
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: KA Vaz
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Sagun Kamat
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: KA Vaz
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: KA Vaz
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Sagun Kamat
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Vaz
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Sagun Kamat
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: KA Vaz
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sagun Kamat
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: KA Vaz
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Sagun Kamat
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Sagun Kamat
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: KA Vaz
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sagun Kamat
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: KA Vaz
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Sagun Kamat
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: KA Vaz
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Sagun Kamat
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Sagun Kamat
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: KA Vaz
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagun Kamat
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: KA Vaz
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sagun Kamat
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: KA Vaz
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Sagun Kamat
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KA Vaz
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Sagun Kamat
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KA Vaz
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: KA Vaz
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Sagun Kamat
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Vaz
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Sagun Kamat
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: KA Vaz
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Sagun Kamat
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: KA Vaz
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: KA Vaz
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Sagun Kamat
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KA Vaz
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Sagun Kamat
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: KA Vaz
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagun Kamat
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Sagun Kamat
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: KA Vaz
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sagun Kamat
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Sagun Kamat
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KA Vaz
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: KA Vaz
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagun Kamat
+        wicket:
+          player_out: Sagun Kamat
+          fielders:
+          - Mohammed Siraj
+          kind: caught
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Darshan Misal
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KA Vaz
+        wicket:
+          player_out: KA Vaz
+          fielders:
+          - A Ashish Reddy
+          kind: caught
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Achit Shigwan
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Darshan Misal
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Darshan Misal
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Achit Shigwan
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Darshan Misal
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Achit Shigwan
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Achit Shigwan
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Darshan Misal
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Darshan Misal
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Achit Shigwan
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Darshan Misal
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Achit Shigwan
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Achit Shigwan
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Darshan Misal
+        wicket:
+          player_out: Darshan Misal
+          fielders:
+          - AT Rayudu
+          kind: caught
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Achit Shigwan
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Jakati
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Achit Shigwan
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Jakati
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: SB Jakati
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Achit Shigwan
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: SB Jakati
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Achit Shigwan
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: SB Jakati
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Achit Shigwan
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Achit Shigwan
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SB Jakati
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Achit Shigwan
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Jakati
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: SB Jakati
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Achit Shigwan
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: SB Jakati
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Achit Shigwan
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Achit Shigwan
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Jakati
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: SB Jakati
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Achit Shigwan
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: SB Jakati
+        bowler: Mohammed Siraj
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Achit Shigwan
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: SB Jakati
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Achit Shigwan
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: Achit Shigwan
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SB Jakati
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: Achit Shigwan
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Jakati
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: SB Jakati
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Achit Shigwan
+        wicket:
+          player_out: Achit Shigwan
+          fielders:
+          - Mohammed Siraj
+          kind: caught
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Lakshay Garg
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Jakati
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: SB Jakati
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lakshay Garg
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Lakshay Garg
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Jakati
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Lakshay Garg
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Jakati
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Lakshay Garg
+        bowler: Ravi Kiran
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SB Jakati
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Lakshay Garg
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Jakati
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: SB Jakati
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lakshay Garg
+        wicket:
+          player_out: Lakshay Garg
+          fielders:
+          - Bavanaka Sandeep
+          kind: caught
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: SB Jakati
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Srinivas Fadte
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Srinivas Fadte
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SB Jakati
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: SB Jakati
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Srinivas Fadte
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: SB Jakati
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Srinivas Fadte
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Srinivas Fadte
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SB Jakati
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: SB Jakati
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Srinivas Fadte
+        wicket:
+          player_out: Srinivas Fadte
+          fielders:
+          - A Ashish Reddy
+          kind: caught
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Felix Alemao
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Jakati
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Felix Alemao
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SB Jakati
+        wicket:
+          player_out: SB Jakati
+          kind: bowled
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Felix Alemao
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vijesh Prabhudessai
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Felix Alemao
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vijesh Prabhudessai
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Vijesh Prabhudessai
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Felix Alemao

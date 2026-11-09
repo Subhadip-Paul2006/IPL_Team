@@ -1,0 +1,2255 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-06'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2016-01-10'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Tamil Nadu
+    by:
+      wickets: 4
+  overs: 20
+  players:
+    Hyderabad (India):
+    - CV Milind
+    - PA Reddy
+    - GH Vihari
+    - Tanmay Agarwal
+    - Bavanaka Sandeep
+    - Himalay Agarwal
+    - Jaweed Ali
+    - Akash Bhandari
+    - Kolla Sumanth
+    - Mehdi Hassan
+    - Ravi Kiran
+    Tamil Nadu:
+    - R Sathish
+    - J Kousik
+    - Abhishek Tanwar
+    - Rahil Shah
+    - M Ashwin
+    - M Shahrukh Khan
+    - Antony Dhas
+    - A Mukund
+    - K Bharath Shankar
+    - B Aparajith
+    - KD Karthik
+  registry:
+    people:
+      A Mukund: 6165bca6
+      Abhishek Tanwar: c8ded7bc
+      Akash Bhandari: c2ce55cb
+      Antony Dhas: b792bf93
+      B Aparajith: 5b627626
+      Bavanaka Sandeep: bc67cc22
+      CV Milind: 7b5b6311
+      GH Vihari: '94253925'
+      Himalay Agarwal: 8e48d9a3
+      J Kousik: 398be4ed
+      Jaweed Ali: 1ed99f80
+      K Bharath Shankar: 6099fd3f
+      KD Karthik: c03f1114
+      Kolla Sumanth: b93a5d0b
+      M Ashwin: e2db2409
+      M Shahrukh Khan: 7dcb9bc9
+      Mehdi Hassan: 5876c626
+      PA Reddy: 2461eef2
+      R Sathish: 626c5379
+      Rahil Shah: 7c30f4d0
+      Ravi Kiran: 0ff9728b
+      Tanmay Agarwal: e6e9b619
+    venues:
+      Vidarbha Cricket Association Stadium, Jamtha, Nagpur: a0fc5764
+  teams:
+  - Hyderabad (India)
+  - Tamil Nadu
+  toss:
+    winner: Tamil Nadu
+    decision: field
+  venue: Vidarbha Cricket Association Stadium, Jamtha, Nagpur
+  team_type: club
+innings:
+- 1st innings:
+    team: Hyderabad (India)
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: PA Reddy
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Milind
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: PA Reddy
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Milind
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: PA Reddy
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CV Milind
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: CV Milind
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: PA Reddy
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Milind
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: PA Reddy
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Milind
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: CV Milind
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: CV Milind
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: CV Milind
+        bowler: J Kousik
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: PA Reddy
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: CV Milind
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: CV Milind
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: CV Milind
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: PA Reddy
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CV Milind
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: PA Reddy
+        bowler: R Sathish
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: CV Milind
+    - 2.2:
+        actual_delivery: '2.1'
+        non_striker: PA Reddy
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CV Milind
+    - 2.3:
+        actual_delivery: '2.2'
+        non_striker: CV Milind
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: CV Milind
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PA Reddy
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: CV Milind
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Reddy
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: CV Milind
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: PA Reddy
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CV Milind
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: CV Milind
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: CV Milind
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: PA Reddy
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CV Milind
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: PA Reddy
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Milind
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: PA Reddy
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CV Milind
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: CV Milind
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PA Reddy
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: PA Reddy
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Milind
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: PA Reddy
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Milind
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: PA Reddy
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CV Milind
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: PA Reddy
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CV Milind
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: CV Milind
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: CV Milind
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: PA Reddy
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CV Milind
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: CV Milind
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: PA Reddy
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CV Milind
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: CV Milind
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+        wicket:
+          player_out: PA Reddy
+          kind: bowled
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: CV Milind
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: CV Milind
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: CV Milind
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: GH Vihari
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CV Milind
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: CV Milind
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Vihari
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: CV Milind
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: CV Milind
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: GH Vihari
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CV Milind
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: CV Milind
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: CV Milind
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: GH Vihari
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: CV Milind
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: GH Vihari
+        bowler: Rahil Shah
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: CV Milind
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: CV Milind
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: CV Milind
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: GH Vihari
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: CV Milind
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: GH Vihari
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Milind
+        wicket:
+          player_out: CV Milind
+          kind: bowled
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: GH Vihari
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tanmay Agarwal
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: GH Vihari
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: GH Vihari
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: GH Vihari
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Tanmay Agarwal
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Tanmay Agarwal
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Tanmay Agarwal
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: GH Vihari
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: GH Vihari
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Tanmay Agarwal
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: GH Vihari
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Tanmay Agarwal
+        bowler: R Sathish
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Tanmay Agarwal
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: GH Vihari
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: GH Vihari
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Tanmay Agarwal
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: GH Vihari
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Tanmay Agarwal
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: GH Vihari
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Tanmay Agarwal
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: GH Vihari
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Tanmay Agarwal
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: GH Vihari
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+        wicket:
+          player_out: Tanmay Agarwal
+          kind: lbw
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: GH Vihari
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Bavanaka Sandeep
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: GH Vihari
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Bavanaka Sandeep
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Bavanaka Sandeep
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Bavanaka Sandeep
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: GH Vihari
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: GH Vihari
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Bavanaka Sandeep
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: GH Vihari
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: GH Vihari
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Bavanaka Sandeep
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Bavanaka Sandeep
+        bowler: Rahil Shah
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: GH Vihari
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Bavanaka Sandeep
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+        wicket:
+          player_out: GH Vihari
+          fielders:
+          - KD Karthik
+          kind: stumped
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Bavanaka Sandeep
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Bavanaka Sandeep
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Himalay Agarwal
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+        wicket:
+          player_out: Bavanaka Sandeep
+          kind: bowled
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Himalay Agarwal
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaweed Ali
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Himalay Agarwal
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jaweed Ali
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Himalay Agarwal
+        bowler: M Shahrukh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jaweed Ali
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Jaweed Ali
+        bowler: M Shahrukh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Jaweed Ali
+        bowler: M Shahrukh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Himalay Agarwal
+        bowler: M Shahrukh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jaweed Ali
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Jaweed Ali
+        bowler: M Shahrukh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Jaweed Ali
+        bowler: M Shahrukh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Jaweed Ali
+        bowler: Antony Dhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Jaweed Ali
+        bowler: Antony Dhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Jaweed Ali
+        bowler: Antony Dhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Himalay Agarwal
+        bowler: Antony Dhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaweed Ali
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Himalay Agarwal
+        bowler: Antony Dhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaweed Ali
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Himalay Agarwal
+        bowler: Antony Dhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jaweed Ali
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Himalay Agarwal
+        bowler: M Shahrukh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Jaweed Ali
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Himalay Agarwal
+        bowler: M Shahrukh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jaweed Ali
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Himalay Agarwal
+        bowler: M Shahrukh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jaweed Ali
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Himalay Agarwal
+        bowler: M Shahrukh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Jaweed Ali
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Himalay Agarwal
+        bowler: M Shahrukh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jaweed Ali
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Himalay Agarwal
+        bowler: M Shahrukh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jaweed Ali
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Himalay Agarwal
+        bowler: Antony Dhas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jaweed Ali
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Himalay Agarwal
+        bowler: Antony Dhas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jaweed Ali
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Himalay Agarwal
+        bowler: Antony Dhas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jaweed Ali
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Himalay Agarwal
+        bowler: Antony Dhas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jaweed Ali
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Jaweed Ali
+        bowler: Antony Dhas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himalay Agarwal
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Jaweed Ali
+        bowler: Antony Dhas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Himalay Agarwal
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jaweed Ali
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Jaweed Ali
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+        wicket:
+          player_out: Himalay Agarwal
+          kind: bowled
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Jaweed Ali
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Akash Bhandari
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Jaweed Ali
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Bhandari
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Jaweed Ali
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Bhandari
+        wicket:
+          player_out: Akash Bhandari
+          fielders:
+          - B Aparajith
+          kind: caught
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Kolla Sumanth
+        bowler: J Kousik
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaweed Ali
+        wicket:
+          player_out: Jaweed Ali
+          fielders:
+          - KD Karthik
+          kind: caught
+- 2nd innings:
+    team: Tamil Nadu
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: K Bharath Shankar
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Mukund
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: K Bharath Shankar
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Mukund
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: A Mukund
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Bharath Shankar
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: A Mukund
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: K Bharath Shankar
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: A Mukund
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Bharath Shankar
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: A Mukund
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Bharath Shankar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: K Bharath Shankar
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Mukund
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: K Bharath Shankar
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Mukund
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: K Bharath Shankar
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Mukund
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: K Bharath Shankar
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Mukund
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: K Bharath Shankar
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Mukund
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: K Bharath Shankar
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Mukund
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: A Mukund
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Bharath Shankar
+        wicket:
+          player_out: K Bharath Shankar
+          fielders:
+          - PA Reddy
+          kind: caught
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: B Aparajith
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Mukund
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: A Mukund
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: A Mukund
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: B Aparajith
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Mukund
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: B Aparajith
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Mukund
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: B Aparajith
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Mukund
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: B Aparajith
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Mukund
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: B Aparajith
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Mukund
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: B Aparajith
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Mukund
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: B Aparajith
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Mukund
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: A Mukund
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: B Aparajith
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Mukund
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: B Aparajith
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Mukund
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: B Aparajith
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: A Mukund
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: A Mukund
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: B Aparajith
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: A Mukund
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: A Mukund
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: B Aparajith
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: B Aparajith
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Mukund
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: A Mukund
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: A Mukund
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: A Mukund
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: B Aparajith
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: A Mukund
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: A Mukund
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: B Aparajith
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: B Aparajith
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Mukund
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: B Aparajith
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Mukund
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: A Mukund
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: B Aparajith
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Mukund
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: A Mukund
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: B Aparajith
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Mukund
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: B Aparajith
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Mukund
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: B Aparajith
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Mukund
+        wicket:
+          player_out: A Mukund
+          fielders:
+          - Jaweed Ali
+          kind: caught
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: B Aparajith
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: B Aparajith
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KD Karthik
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: B Aparajith
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: KD Karthik
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: KD Karthik
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: B Aparajith
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KD Karthik
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: B Aparajith
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: KD Karthik
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: KD Karthik
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: B Aparajith
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: B Aparajith
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: KD Karthik
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: B Aparajith
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KD Karthik
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: B Aparajith
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: KD Karthik
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: B Aparajith
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KD Karthik
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: KD Karthik
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: KD Karthik
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+        wicket:
+          player_out: B Aparajith
+          kind: bowled
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: KD Karthik
+        bowler: Akash Bhandari
+        extras:
+          legbyes: 3
+        runs:
+          extras: 3
+          total: 3
+          batsman: 0
+        batsman: Antony Dhas
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Antony Dhas
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KD Karthik
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Antony Dhas
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: KD Karthik
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Antony Dhas
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Antony Dhas
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Antony Dhas
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: KD Karthik
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Antony Dhas
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Antony Dhas
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: KD Karthik
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Antony Dhas
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: KD Karthik
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Antony Dhas
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Antony Dhas
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: KD Karthik
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Antony Dhas
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: KD Karthik
+        bowler: Akash Bhandari
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Antony Dhas
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Antony Dhas
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: KD Karthik
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Antony Dhas
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: KD Karthik
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Antony Dhas
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Antony Dhas
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KD Karthik
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Antony Dhas
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Antony Dhas
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KD Karthik
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Antony Dhas
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: KD Karthik
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Antony Dhas
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: KD Karthik
+        bowler: Bavanaka Sandeep
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Antony Dhas
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Antony Dhas
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: KD Karthik
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Antony Dhas
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: KD Karthik
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Antony Dhas
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Antony Dhas
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Antony Dhas
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Antony Dhas
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Antony Dhas
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Antony Dhas
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: KD Karthik
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Antony Dhas
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Antony Dhas
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: KD Karthik
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Antony Dhas
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: KD Karthik
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Antony Dhas
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: KD Karthik
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Antony Dhas
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: KD Karthik
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Antony Dhas
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Antony Dhas
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KD Karthik
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Antony Dhas
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Antony Dhas
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+        wicket:
+          player_out: KD Karthik
+          fielders:
+          - Tanmay Agarwal
+          kind: caught
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Antony Dhas
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sathish
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Antony Dhas
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: R Sathish
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Antony Dhas
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sathish
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: R Sathish
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Antony Dhas
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: R Sathish
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Antony Dhas
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: R Sathish
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Antony Dhas
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Antony Dhas
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sathish
+        wicket:
+          player_out: R Sathish
+          fielders:
+          - Jaweed Ali
+          kind: caught
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: M Shahrukh Khan
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Antony Dhas
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Antony Dhas
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+        wicket:
+          player_out: M Shahrukh Khan
+          kind: lbw
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Antony Dhas
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Kousik
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: J Kousik
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Antony Dhas

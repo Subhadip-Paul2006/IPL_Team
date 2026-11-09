@@ -1,0 +1,2386 @@
+---
+meta:
+  data_version: 0.94
+  created: '2024-12-20'
+  revision: 2
+info:
+  balls_per_over: 6
+  city: Bengaluru
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2024-12-11'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Madhya Pradesh
+    by:
+      wickets: 6
+  overs: 20
+  player_of_match:
+  - VR Iyer
+  players:
+    Saurashtra:
+    - H Desai
+    - Tarang Gohel
+    - PN Mankad
+    - Vishvaraj Jadeja
+    - Chirag Jani
+    - Sammar Gajjar
+    - R Ahir
+    - Jay Gohil
+    - JD Unadkat
+    - A Panwar
+    - Dharmendrasinh Jadeja
+    Madhya Pradesh:
+    - Arpit Gaud
+    - HP Gawli
+    - Subhransu Senapati
+    - VR Iyer
+    - RM Patidar
+    - Harpreet Singh
+    - Rahul Batham
+    - K Kartikeya
+    - Tripuresh Singh
+    - Shivam Shukla
+    - Avesh Khan
+  registry:
+    people:
+      A Panwar: 3ae26eeb
+      Abhijit Bhattacharya: 59ec9638
+      Arpit Gaud: a6a50969
+      Avesh Khan: eef2536f
+      Chirag Jani: 783e6111
+      Dharmendrasinh Jadeja: d330f9b9
+      H Desai: 9c86350f
+      HP Gawli: 2c693be3
+      Harpreet Singh: 28c78fb3
+      IR Siddiqui: 6436f803
+      JD Unadkat: 1e66c162
+      Jay Gohil: efd1a0ef
+      K Kartikeya: f6d8a7ab
+      KN Ananthapadmanabhan: 3144063a
+      M Krishnadas: e298c588
+      PN Mankad: 663b5e34
+      R Ahir: a24c3894
+      RM Patidar: c740ea83
+      Rahul Batham: 891b9757
+      Sammar Gajjar: ba19f1be
+      Shivam Shukla: 4de4c0e9
+      Subhransu Senapati: 0edcb652
+      Tarang Gohel: 3b16788a
+      Tripuresh Singh: 3c29632a
+      VR Iyer: a24be938
+      Vishvaraj Jadeja: d30c6f81
+    venues:
+      KSCA Cricket Ground, Alur: 20c1f38f
+  teams:
+  - Saurashtra
+  - Madhya Pradesh
+  toss:
+    winner: Madhya Pradesh
+    decision: field
+  umpires:
+  - Abhijit Bhattacharya
+  - KN Ananthapadmanabhan
+  venue: KSCA Cricket Ground, Alur
+  team_type: club
+innings:
+- 1st innings:
+    team: Saurashtra
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Tarang Gohel
+        batsman: H Desai
+    - 0.2:
+        actual_delivery: '0.2'
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Tarang Gohel
+        batsman: H Desai
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: H Desai
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tarang Gohel
+        wicket:
+          player_out: Tarang Gohel
+          kind: bowled
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: H Desai
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: H Desai
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PN Mankad
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: H Desai
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PN Mankad
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: PN Mankad
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: H Desai
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: PN Mankad
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: PN Mankad
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Desai
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: H Desai
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: H Desai
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: H Desai
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: PN Mankad
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: PN Mankad
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: PN Mankad
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Desai
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: H Desai
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: H Desai
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: H Desai
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PN Mankad
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: PN Mankad
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: H Desai
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: PN Mankad
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: H Desai
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: PN Mankad
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Desai
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: H Desai
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PN Mankad
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: H Desai
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: H Desai
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+        wicket:
+          player_out: PN Mankad
+          fielders:
+          - VR Iyer
+          kind: caught
+    - 4.1:
+        actual_delivery: '4.1'
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Vishvaraj Jadeja
+        batsman: H Desai
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: H Desai
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: H Desai
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Vishvaraj Jadeja
+        bowler: Tripuresh Singh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: H Desai
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: H Desai
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: H Desai
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Vishvaraj Jadeja
+        bowler: Shivam Shukla
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: H Desai
+    - 5.2:
+        actual_delivery: '5.1'
+        non_striker: Vishvaraj Jadeja
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+        wicket:
+          player_out: H Desai
+          fielders:
+          - RM Patidar
+          kind: caught
+    - 5.3:
+        actual_delivery: '5.2'
+        non_striker: Vishvaraj Jadeja
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 5.4:
+        actual_delivery: '5.3'
+        non_striker: Vishvaraj Jadeja
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: Chirag Jani
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishvaraj Jadeja
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: Chirag Jani
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: Chirag Jani
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Vishvaraj Jadeja
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Chirag Jani
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Chirag Jani
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Chirag Jani
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Vishvaraj Jadeja
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chirag Jani
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Vishvaraj Jadeja
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Vishvaraj Jadeja
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Vishvaraj Jadeja
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Chirag Jani
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Chirag Jani
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Vishvaraj Jadeja
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Vishvaraj Jadeja
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Vishvaraj Jadeja
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Vishvaraj Jadeja
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Jani
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Vishvaraj Jadeja
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Chirag Jani
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Vishvaraj Jadeja
+        bowler: Rahul Batham
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Chirag Jani
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Chirag Jani
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Chirag Jani
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishvaraj Jadeja
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Chirag Jani
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Vishvaraj Jadeja
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Chirag Jani
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Chirag Jani
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Vishvaraj Jadeja
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Jani
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Chirag Jani
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+        wicket:
+          player_out: Vishvaraj Jadeja
+          fielders:
+          - Subhransu Senapati
+          kind: caught
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Chirag Jani
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sammar Gajjar
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Sammar Gajjar
+        bowler: Rahul Batham
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Chirag Jani
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Chirag Jani
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sammar Gajjar
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Sammar Gajjar
+        bowler: Rahul Batham
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Chirag Jani
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Chirag Jani
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sammar Gajjar
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Chirag Jani
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sammar Gajjar
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Sammar Gajjar
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Chirag Jani
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sammar Gajjar
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Sammar Gajjar
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Sammar Gajjar
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Jani
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Sammar Gajjar
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Sammar Gajjar
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Chirag Jani
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sammar Gajjar
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Chirag Jani
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sammar Gajjar
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Sammar Gajjar
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Jani
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Sammar Gajjar
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Chirag Jani
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sammar Gajjar
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Chirag Jani
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sammar Gajjar
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Chirag Jani
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sammar Gajjar
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Sammar Gajjar
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Chirag Jani
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sammar Gajjar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Chirag Jani
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sammar Gajjar
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Sammar Gajjar
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Sammar Gajjar
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Chirag Jani
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sammar Gajjar
+        wicket:
+          player_out: Sammar Gajjar
+          kind: bowled
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Chirag Jani
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Ahir
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Chirag Jani
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ahir
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: R Ahir
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: R Ahir
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Jani
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Chirag Jani
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Ahir
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Chirag Jani
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: R Ahir
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Chirag Jani
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ahir
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: R Ahir
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chirag Jani
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: R Ahir
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Chirag Jani
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ahir
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Chirag Jani
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ahir
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: R Ahir
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Jani
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: R Ahir
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Jani
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: R Ahir
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Chirag Jani
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Ahir
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Chirag Jani
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Ahir
+        wicket:
+          player_out: R Ahir
+          fielders:
+          - Subhransu Senapati
+          kind: caught
+    - 17.1:
+        actual_delivery: '17.1'
+        bowler: Avesh Khan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        non_striker: Jay Gohil
+        batsman: Chirag Jani
+    - 17.2:
+        actual_delivery: '17.1'
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: Jay Gohil
+        batsman: Chirag Jani
+    - 17.3:
+        actual_delivery: '17.2'
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Jay Gohil
+        batsman: Chirag Jani
+    - 17.4:
+        actual_delivery: '17.3'
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: Jay Gohil
+        batsman: Chirag Jani
+    - 17.5:
+        actual_delivery: '17.4'
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: Jay Gohil
+        batsman: Chirag Jani
+    - 17.6:
+        actual_delivery: '17.5'
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Jay Gohil
+        batsman: Chirag Jani
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Chirag Jani
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Gohil
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Jay Gohil
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Chirag Jani
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jay Gohil
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Chirag Jani
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Gohil
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Jay Gohil
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chirag Jani
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Jay Gohil
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Jay Gohil
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Chirag Jani
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Jay Gohil
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Chirag Jani
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Jay Gohil
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Chirag Jani
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Gohil
+        wicket:
+          player_out: Jay Gohil
+          kind: lbw
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Chirag Jani
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: JD Unadkat
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Jani
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: JD Unadkat
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Jani
+- 2nd innings:
+    team: Madhya Pradesh
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: HP Gawli
+        batsman: Arpit Gaud
+    - 0.2:
+        actual_delivery: '0.2'
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: HP Gawli
+        batsman: Arpit Gaud
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Arpit Gaud
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HP Gawli
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: HP Gawli
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Arpit Gaud
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: HP Gawli
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Gaud
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Arpit Gaud
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HP Gawli
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Arpit Gaud
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HP Gawli
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: HP Gawli
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Arpit Gaud
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: HP Gawli
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Gaud
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Arpit Gaud
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HP Gawli
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Arpit Gaud
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HP Gawli
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: HP Gawli
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Gaud
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: HP Gawli
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Gaud
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Arpit Gaud
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HP Gawli
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: HP Gawli
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: HP Gawli
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: HP Gawli
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: HP Gawli
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Arpit Gaud
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HP Gawli
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Arpit Gaud
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HP Gawli
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: HP Gawli
+        bowler: Chirag Jani
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Arpit Gaud
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: HP Gawli
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Arpit Gaud
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: HP Gawli
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: HP Gawli
+        bowler: Chirag Jani
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Arpit Gaud
+    - 3.7:
+        actual_delivery: '3.5'
+        non_striker: HP Gawli
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Arpit Gaud
+    - 3.8:
+        actual_delivery: '3.6'
+        non_striker: HP Gawli
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Gaud
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: HP Gawli
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: HP Gawli
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: HP Gawli
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Arpit Gaud
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: HP Gawli
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Arpit Gaud
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: HP Gawli
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Gaud
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Arpit Gaud
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HP Gawli
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Arpit Gaud
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: HP Gawli
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Arpit Gaud
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HP Gawli
+        wicket:
+          player_out: HP Gawli
+          fielders:
+          - R Ahir
+          kind: caught
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Arpit Gaud
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Subhransu Senapati
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Arpit Gaud
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Subhransu Senapati
+        bowler: A Panwar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Arpit Gaud
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: Subhransu Senapati
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: Subhransu Senapati
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Arpit Gaud
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Arpit Gaud
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Subhransu Senapati
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Arpit Gaud
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Subhransu Senapati
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Subhransu Senapati
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Subhransu Senapati
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Arpit Gaud
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Subhransu Senapati
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Gaud
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Subhransu Senapati
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+        wicket:
+          player_out: Arpit Gaud
+          fielders:
+          - Chirag Jani
+          kind: caught
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Subhransu Senapati
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Subhransu Senapati
+        bowler: PN Mankad
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: VR Iyer
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: VR Iyer
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Subhransu Senapati
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: VR Iyer
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Subhransu Senapati
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Subhransu Senapati
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Subhransu Senapati
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Subhransu Senapati
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: VR Iyer
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Subhransu Senapati
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Subhransu Senapati
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Subhransu Senapati
+        bowler: PN Mankad
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: VR Iyer
+    - 9.2:
+        actual_delivery: '9.1'
+        non_striker: Subhransu Senapati
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 9.3:
+        actual_delivery: '9.2'
+        non_striker: VR Iyer
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Subhransu Senapati
+    - 9.4:
+        actual_delivery: '9.3'
+        non_striker: VR Iyer
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Subhransu Senapati
+    - 9.5:
+        actual_delivery: '9.4'
+        non_striker: VR Iyer
+        bowler: PN Mankad
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Subhransu Senapati
+    - 9.6:
+        actual_delivery: '9.4'
+        non_striker: VR Iyer
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 9.7:
+        actual_delivery: '9.5'
+        non_striker: Subhransu Senapati
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: VR Iyer
+    - 9.8:
+        actual_delivery: '9.6'
+        non_striker: Subhransu Senapati
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Subhransu Senapati
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: VR Iyer
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Subhransu Senapati
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Subhransu Senapati
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: VR Iyer
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Subhransu Senapati
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: VR Iyer
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: VR Iyer
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Subhransu Senapati
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: VR Iyer
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Subhransu Senapati
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: VR Iyer
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Subhransu Senapati
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Subhransu Senapati
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: VR Iyer
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Subhransu Senapati
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Subhransu Senapati
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Subhransu Senapati
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Subhransu Senapati
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Subhransu Senapati
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: VR Iyer
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Subhransu Senapati
+        wicket:
+          player_out: Subhransu Senapati
+          fielders:
+          - PN Mankad
+          kind: caught
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: VR Iyer
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: VR Iyer
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: RM Patidar
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: VR Iyer
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: RM Patidar
+        bowler: Sammar Gajjar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          role:
+          - in: Sammar Gajjar
+            out: PN Mankad
+            reason: unknown
+            role: bowler
+        batsman: VR Iyer
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: VR Iyer
+        bowler: Sammar Gajjar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RM Patidar
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: VR Iyer
+        bowler: Sammar Gajjar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: RM Patidar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: VR Iyer
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: RM Patidar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: VR Iyer
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: RM Patidar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: VR Iyer
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: VR Iyer
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: RM Patidar
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: VR Iyer
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Patidar
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: VR Iyer
+        bowler: A Panwar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RM Patidar
+    - 15.5:
+        actual_delivery: '15.4'
+        non_striker: VR Iyer
+        bowler: A Panwar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RM Patidar
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: RM Patidar
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: RM Patidar
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: VR Iyer
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: VR Iyer
+        bowler: Chirag Jani
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RM Patidar
+    - 16.2:
+        actual_delivery: '16.1'
+        non_striker: VR Iyer
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Patidar
+    - 16.3:
+        actual_delivery: '16.2'
+        non_striker: VR Iyer
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 16.4:
+        actual_delivery: '16.3'
+        non_striker: RM Patidar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: VR Iyer
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: RM Patidar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: VR Iyer
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: VR Iyer
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Patidar
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: VR Iyer
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: VR Iyer
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+        wicket:
+          player_out: RM Patidar
+          fielders:
+          - Tarang Gohel
+          kind: caught
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: VR Iyer
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: VR Iyer
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: VR Iyer
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: VR Iyer
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Harpreet Singh
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: VR Iyer
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Harpreet Singh
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: VR Iyer
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Harpreet Singh
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: VR Iyer
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Harpreet Singh
+        bowler: A Panwar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: VR Iyer
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: VR Iyer
+        bowler: Sammar Gajjar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Harpreet Singh
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: VR Iyer
+        bowler: Sammar Gajjar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    target:
+      overs: 20
+      runs: 174

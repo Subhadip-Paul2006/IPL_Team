@@ -1,0 +1,2350 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-01'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-11-14'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Mumbai
+    by:
+      wickets: 3
+  overs: 20
+  players:
+    Bengal:
+    - SP Goswami
+    - Vivek Singh
+    - AR Easwaran
+    - MK Tiwary
+    - DB Das
+    - Shahbaz Ahmed
+    - Ayan Bhattacharjee
+    - Akash Deep
+    - Sayan Ghosh
+    - IC Porel
+    - Arnab Nandi
+    Mumbai:
+    - SD Lad
+    - DS Kulkarni
+    - SN Thakur
+    - S Dube
+    - Parikshit Valsangkar
+    - Shubham Ranjane
+    - Jay Bista
+    - AP Tare
+    - SS Iyer
+    - SA Yadav
+    - SZ Mulani
+  registry:
+    people:
+      AP Tare: 855a210c
+      AR Easwaran: 10b58586
+      Akash Deep: 0a67aec0
+      Arnab Nandi: cee8a83d
+      Ayan Bhattacharjee: bae68b09
+      DB Das: 7050a1e7
+      DS Kulkarni: d2a989fc
+      Dhrumil Matkar: dd506910
+      IC Porel: fdf7491e
+      Jay Bista: f079e8fe
+      MK Tiwary: 26e5cabf
+      Parikshit Valsangkar: 84ba2fbc
+      S Dube: a4e37e47
+      SA Yadav: 271f83cd
+      SD Lad: 9601c534
+      SN Thakur: 1abb78f8
+      SP Goswami: 541f85c9
+      SS Iyer: 85ec8e33
+      SZ Mulani: 9d704f6f
+      Sayan Ghosh: d4b8ea98
+      Shahbaz Ahmed: f9e6e7ef
+      Shubham Ranjane: 6c7a68d0
+      Vivek Singh: a446c7be
+    venues:
+      Wankhede Stadium, Mumbai: 9e236baa
+  teams:
+  - Bengal
+  - Mumbai
+  toss:
+    winner: Mumbai
+    decision: field
+  venue: Wankhede Stadium, Mumbai
+  team_type: club
+innings:
+- 1st innings:
+    team: Bengal
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Vivek Singh
+        bowler: SD Lad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Goswami
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: SP Goswami
+        bowler: SD Lad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: SP Goswami
+        bowler: SD Lad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: SP Goswami
+        bowler: SD Lad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Vivek Singh
+        bowler: SD Lad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Goswami
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Vivek Singh
+        bowler: SD Lad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Goswami
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: SP Goswami
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vivek Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: SP Goswami
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Vivek Singh
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SP Goswami
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Vivek Singh
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Goswami
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: SP Goswami
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Vivek Singh
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Goswami
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Vivek Singh
+        bowler: SD Lad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Goswami
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Vivek Singh
+        bowler: SD Lad
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SP Goswami
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Vivek Singh
+        bowler: SD Lad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Goswami
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Vivek Singh
+        bowler: SD Lad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Goswami
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: SP Goswami
+        bowler: SD Lad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: SP Goswami
+        bowler: SD Lad
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vivek Singh
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Vivek Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SP Goswami
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Vivek Singh
+        bowler: SN Thakur
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SP Goswami
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: Vivek Singh
+        bowler: SN Thakur
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SP Goswami
+    - 3.4:
+        actual_delivery: '3.2'
+        non_striker: Vivek Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Goswami
+    - 3.5:
+        actual_delivery: '3.3'
+        non_striker: Vivek Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Goswami
+    - 3.6:
+        actual_delivery: '3.4'
+        non_striker: SP Goswami
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 3.7:
+        actual_delivery: '3.5'
+        non_striker: Vivek Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Goswami
+    - 3.8:
+        actual_delivery: '3.6'
+        non_striker: SP Goswami
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Vivek Singh
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Goswami
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: SP Goswami
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: SP Goswami
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: SP Goswami
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: SP Goswami
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Vivek Singh
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Goswami
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: SP Goswami
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Vivek Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Goswami
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Vivek Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SP Goswami
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Vivek Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Goswami
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Vivek Singh
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Goswami
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: SP Goswami
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Vivek Singh
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Goswami
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Vivek Singh
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SP Goswami
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Vivek Singh
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Goswami
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: SP Goswami
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Vivek Singh
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Goswami
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Vivek Singh
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Goswami
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: SP Goswami
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vivek Singh
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: SP Goswami
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vivek Singh
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: SP Goswami
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Vivek Singh
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Goswami
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Vivek Singh
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Goswami
+        wicket:
+          player_out: SP Goswami
+          fielders:
+          - SD Lad
+          kind: caught
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Vivek Singh
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Easwaran
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Vivek Singh
+        bowler: Parikshit Valsangkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Easwaran
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: AR Easwaran
+        bowler: Parikshit Valsangkar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vivek Singh
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: AR Easwaran
+        bowler: Parikshit Valsangkar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vivek Singh
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: AR Easwaran
+        bowler: Parikshit Valsangkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Vivek Singh
+        bowler: Parikshit Valsangkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Easwaran
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: AR Easwaran
+        bowler: Parikshit Valsangkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: AR Easwaran
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Vivek Singh
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Easwaran
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: AR Easwaran
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Vivek Singh
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Easwaran
+        wicket:
+          player_out: AR Easwaran
+          fielders:
+          - SD Lad
+          kind: caught
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: MK Tiwary
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Vivek Singh
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Tiwary
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: MK Tiwary
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Vivek Singh
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MK Tiwary
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Vivek Singh
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Tiwary
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: MK Tiwary
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Vivek Singh
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Tiwary
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: MK Tiwary
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vivek Singh
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Vivek Singh
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Tiwary
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: MK Tiwary
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: MK Tiwary
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Vivek Singh
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Tiwary
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: MK Tiwary
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Vivek Singh
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MK Tiwary
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: MK Tiwary
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Vivek Singh
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Tiwary
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: MK Tiwary
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vivek Singh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: MK Tiwary
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: MK Tiwary
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Vivek Singh
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MK Tiwary
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: MK Tiwary
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Vivek Singh
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Tiwary
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: MK Tiwary
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Vivek Singh
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Tiwary
+        wicket:
+          player_out: MK Tiwary
+          fielders:
+          - Dhrumil Matkar (sub)
+          kind: caught
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: DB Das
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Vivek Singh
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Das
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: DB Das
+        bowler: Parikshit Valsangkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Vivek Singh
+        bowler: Parikshit Valsangkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Das
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: DB Das
+        bowler: Parikshit Valsangkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Singh
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Vivek Singh
+        bowler: Parikshit Valsangkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Das
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: DB Das
+        bowler: Parikshit Valsangkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: DB Das
+        bowler: Parikshit Valsangkar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vivek Singh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Vivek Singh
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Das
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Vivek Singh
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Das
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Vivek Singh
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Das
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: DB Das
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vivek Singh
+        wicket:
+          player_out: Vivek Singh
+          fielders:
+          - Jay Bista
+          kind: caught
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Shahbaz Ahmed
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Das
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: DB Das
+        bowler: Shubham Ranjane
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: DB Das
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shahbaz Ahmed
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: DB Das
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shahbaz Ahmed
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: DB Das
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shahbaz Ahmed
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: DB Das
+        bowler: DS Kulkarni
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Shahbaz Ahmed
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: DB Das
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: Shahbaz Ahmed
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Das
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: Shahbaz Ahmed
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Das
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: DB Das
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shahbaz Ahmed
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: DB Das
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shahbaz Ahmed
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: DB Das
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Shahbaz Ahmed
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Das
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Shahbaz Ahmed
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Das
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Shahbaz Ahmed
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Das
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: DB Das
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shahbaz Ahmed
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: DB Das
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shahbaz Ahmed
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: DB Das
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shahbaz Ahmed
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: DB Das
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Shahbaz Ahmed
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Das
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: DB Das
+        bowler: DS Kulkarni
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shahbaz Ahmed
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Shahbaz Ahmed
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Das
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: DB Das
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Shahbaz Ahmed
+        bowler: SN Thakur
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: DB Das
+    - 19.4:
+        actual_delivery: '19.3'
+        non_striker: Shahbaz Ahmed
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Das
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: DB Das
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shahbaz Ahmed
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: Shahbaz Ahmed
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Das
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: Shahbaz Ahmed
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DB Das
+- 2nd innings:
+    team: Mumbai
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: AP Tare
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: AP Tare
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Jay Bista
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AP Tare
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: AP Tare
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Jay Bista
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AP Tare
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: AP Tare
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: AP Tare
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: AP Tare
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jay Bista
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: AP Tare
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: AP Tare
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Jay Bista
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AP Tare
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: AP Tare
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Jay Bista
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AP Tare
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: AP Tare
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: AP Tare
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Jay Bista
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AP Tare
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: AP Tare
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jay Bista
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: AP Tare
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: AP Tare
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: AP Tare
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: AP Tare
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: AP Tare
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: AP Tare
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Jay Bista
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AP Tare
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Jay Bista
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AP Tare
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Jay Bista
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AP Tare
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Jay Bista
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AP Tare
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Jay Bista
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AP Tare
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: AP Tare
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: AP Tare
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: AP Tare
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jay Bista
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: AP Tare
+        bowler: Akash Deep
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Jay Bista
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Jay Bista
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AP Tare
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Jay Bista
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AP Tare
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Jay Bista
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AP Tare
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Jay Bista
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AP Tare
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: AP Tare
+        bowler: Sayan Ghosh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Jay Bista
+    - 6.2:
+        actual_delivery: '6.1'
+        non_striker: AP Tare
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 6.3:
+        actual_delivery: '6.2'
+        non_striker: Jay Bista
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AP Tare
+    - 6.4:
+        actual_delivery: '6.3'
+        non_striker: AP Tare
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jay Bista
+    - 6.5:
+        actual_delivery: '6.4'
+        non_striker: AP Tare
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Jay Bista
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: AP Tare
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: Jay Bista
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AP Tare
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Jay Bista
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AP Tare
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Jay Bista
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AP Tare
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: AP Tare
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Jay Bista
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AP Tare
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: AP Tare
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Jay Bista
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AP Tare
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: AP Tare
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Jay Bista
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AP Tare
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Jay Bista
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AP Tare
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Jay Bista
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AP Tare
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: AP Tare
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jay Bista
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: AP Tare
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: AP Tare
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Jay Bista
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AP Tare
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: AP Tare
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: AP Tare
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Jay Bista
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AP Tare
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Jay Bista
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AP Tare
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: AP Tare
+        bowler: Ayan Bhattacharjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Jay Bista
+        bowler: Ayan Bhattacharjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AP Tare
+        wicket:
+          player_out: AP Tare
+          kind: caught and bowled
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Jay Bista
+        bowler: Ayan Bhattacharjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Jay Bista
+        bowler: Ayan Bhattacharjee
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Iyer
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Jay Bista
+        bowler: Ayan Bhattacharjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Jay Bista
+        bowler: Ayan Bhattacharjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Jay Bista
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Jay Bista
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: SS Iyer
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Jay Bista
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: SS Iyer
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Jay Bista
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: SS Iyer
+        bowler: Akash Deep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Jay Bista
+        bowler: Ayan Bhattacharjee
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Iyer
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Jay Bista
+        bowler: Ayan Bhattacharjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: SS Iyer
+        bowler: Ayan Bhattacharjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Jay Bista
+        bowler: Ayan Bhattacharjee
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SS Iyer
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Jay Bista
+        bowler: Ayan Bhattacharjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: SS Iyer
+        bowler: Ayan Bhattacharjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jay Bista
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: SS Iyer
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+        wicket:
+          player_out: Jay Bista
+          fielders:
+          - MK Tiwary
+          kind: caught
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: SS Iyer
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: SA Yadav
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: SA Yadav
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+        wicket:
+          player_out: SS Iyer
+          fielders:
+          - Sayan Ghosh
+          kind: caught
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: SD Lad
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: SA Yadav
+        bowler: Shahbaz Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SD Lad
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: SD Lad
+        bowler: Arnab Nandi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: SA Yadav
+        bowler: Arnab Nandi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SD Lad
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: SA Yadav
+        bowler: Arnab Nandi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SD Lad
+        wicket:
+          player_out: SD Lad
+          kind: bowled
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: SA Yadav
+        bowler: Arnab Nandi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+        wicket:
+          player_out: S Dube
+          kind: caught and bowled
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: SA Yadav
+        bowler: Arnab Nandi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: SA Yadav
+        bowler: Arnab Nandi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: SA Yadav
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: SA Yadav
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Shubham Ranjane
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Yadav
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Shubham Ranjane
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: SA Yadav
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Shubham Ranjane
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Shubham Ranjane
+        bowler: Arnab Nandi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: SA Yadav
+        bowler: Arnab Nandi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Shubham Ranjane
+        bowler: Arnab Nandi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Yadav
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Shubham Ranjane
+        bowler: Arnab Nandi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: SA Yadav
+        bowler: Arnab Nandi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Ranjane
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: SA Yadav
+        bowler: Arnab Nandi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shubham Ranjane
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Shubham Ranjane
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: SA Yadav
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Shubham Ranjane
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Yadav
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Shubham Ranjane
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Yadav
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Shubham Ranjane
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: SA Yadav
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: SA Yadav
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shubham Ranjane
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: SA Yadav
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shubham Ranjane
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: SA Yadav
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Shubham Ranjane
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Shubham Ranjane
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: SA Yadav
+        bowler: IC Porel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shubham Ranjane
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Shubham Ranjane
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Yadav
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Shubham Ranjane
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Shubham Ranjane
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+        wicket:
+          player_out: SA Yadav
+          fielders:
+          - Arnab Nandi
+          kind: caught
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: SN Thakur
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shubham Ranjane
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: SN Thakur
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Ranjane
+        wicket:
+          player_out: SN Thakur
+          fielders:
+          - MK Tiwary
+          kind: run out
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: SZ Mulani
+        bowler: Sayan Ghosh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shubham Ranjane

@@ -1,0 +1,2317 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-01'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-11-08'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Goa
+    by:
+      wickets: 4
+  overs: 20
+  players:
+    Baroda:
+    - KH Devdhar
+    - Aditya Waghmode
+    - DJ Hooda
+    - Swapnil Singh
+    - YK Pathan
+    - NA Rathva
+    - Vishnu Solanki
+    - AS Karambelkar
+    - A Sheth
+    - RT Arothe
+    - LI Meriwala
+    Goa:
+    - Heramb Parab
+    - Lakshay Garg
+    - Darshan Misal
+    - Deepraj Gaonkar
+    - Amulya Pandrekar
+    - Amit Verma
+    - Aditya Kaushik
+    - Rajashekhar Harikant
+    - Snehal Kauthankar
+    - SS Prabhudessai
+    - Shubham Desai
+  registry:
+    people:
+      A Sheth: 4312e8f9
+      AS Karambelkar: '79194080'
+      Aditya Kaushik: 9a2d95ac
+      Aditya Waghmode: eb67df8f
+      Amit Verma: 3b30b8c4
+      Amulya Pandrekar: 47ccd2bb
+      DJ Hooda: 73ad96ed
+      Darshan Misal: ce2b42ae
+      Deepraj Gaonkar: d3c1f849
+      Heramb Parab: b29f6148
+      KH Devdhar: 62e07f92
+      LI Meriwala: d3611425
+      Lakshay Garg: 4af886ed
+      NA Rathva: 8f607eea
+      RT Arothe: '50455929'
+      Rajashekhar Harikant: b9228ad0
+      SS Prabhudessai: 9385de2e
+      Shubham Desai: 3fa96c98
+      Snehal Kauthankar: 3a0dc16e
+      Swapnil Singh: 983f2f61
+      Vishnu Solanki: 2e802011
+      YK Pathan: 3c6ffae8
+    venues:
+      Andhra Cricket Association-Visakhapatnam District Cricket Association Stadium, Visakhapatnam: deae8c56
+  teams:
+  - Baroda
+  - Goa
+  toss:
+    winner: Baroda
+    decision: bat
+  venue: Andhra Cricket Association-Visakhapatnam District Cricket Association Stadium,
+    Visakhapatnam
+  team_type: club
+innings:
+- 1st innings:
+    team: Baroda
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Aditya Waghmode
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: KH Devdhar
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Waghmode
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Aditya Waghmode
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: KH Devdhar
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Waghmode
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: KH Devdhar
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Waghmode
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: KH Devdhar
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Aditya Waghmode
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Aditya Waghmode
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Aditya Waghmode
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+        wicket:
+          player_out: Aditya Waghmode
+          fielders:
+          - SS Prabhudessai
+          kind: run out
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: DJ Hooda
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+        wicket:
+          player_out: KH Devdhar
+          fielders:
+          - Amulya Pandrekar
+          kind: caught
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Swapnil Singh
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: DJ Hooda
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Swapnil Singh
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: DJ Hooda
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Swapnil Singh
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: DJ Hooda
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: DJ Hooda
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: DJ Hooda
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Swapnil Singh
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Swapnil Singh
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: DJ Hooda
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Swapnil Singh
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: DJ Hooda
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: DJ Hooda
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Swapnil Singh
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: DJ Hooda
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: DJ Hooda
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Swapnil Singh
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: DJ Hooda
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Swapnil Singh
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: DJ Hooda
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Swapnil Singh
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Swapnil Singh
+        bowler: Heramb Parab
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: DJ Hooda
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: Swapnil Singh
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: Swapnil Singh
+        bowler: Heramb Parab
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Swapnil Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Swapnil Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Swapnil Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Hooda
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Swapnil Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: DJ Hooda
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Swapnil Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Swapnil Singh
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: DJ Hooda
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Swapnil Singh
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: DJ Hooda
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Swapnil Singh
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Hooda
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Swapnil Singh
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: DJ Hooda
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Swapnil Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Swapnil Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: DJ Hooda
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Swapnil Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+        wicket:
+          player_out: DJ Hooda
+          fielders:
+          - Lakshay Garg
+          kind: caught
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: YK Pathan
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Swapnil Singh
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Swapnil Singh
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+        wicket:
+          player_out: YK Pathan
+          kind: bowled
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Swapnil Singh
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Rathva
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: NA Rathva
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Swapnil Singh
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NA Rathva
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Swapnil Singh
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NA Rathva
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NA Rathva
+        wicket:
+          player_out: NA Rathva
+          fielders:
+          - Rajashekhar Harikant
+          kind: caught
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Vishnu Solanki
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Vishnu Solanki
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Vishnu Solanki
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Swapnil Singh
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Vishnu Solanki
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Swapnil Singh
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Vishnu Solanki
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Swapnil Singh
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Vishnu Solanki
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Vishnu Solanki
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Solanki
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Vishnu Solanki
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Vishnu Solanki
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Swapnil Singh
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Vishnu Solanki
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Swapnil Singh
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Vishnu Solanki
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Swapnil Singh
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Vishnu Solanki
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Swapnil Singh
+        bowler: Amulya Pandrekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Solanki
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Vishnu Solanki
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Solanki
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Solanki
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Solanki
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Vishnu Solanki
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Swapnil Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Vishnu Solanki
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Swapnil Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Solanki
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Swapnil Singh
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Vishnu Solanki
+        bowler: Darshan Misal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Swapnil Singh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Vishnu Solanki
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vishnu Solanki
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Solanki
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Vishnu Solanki
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Swapnil Singh
+        bowler: Amit Verma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Solanki
+        wicket:
+          player_out: Vishnu Solanki
+          fielders:
+          - Amulya Pandrekar
+          kind: caught
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: AS Karambelkar
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Swapnil Singh
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Karambelkar
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: AS Karambelkar
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Swapnil Singh
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Karambelkar
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: AS Karambelkar
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Swapnil Singh
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Karambelkar
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Swapnil Singh
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Karambelkar
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: AS Karambelkar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Swapnil Singh
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AS Karambelkar
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Swapnil Singh
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Karambelkar
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: AS Karambelkar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Swapnil Singh
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Karambelkar
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Swapnil Singh
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Karambelkar
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: AS Karambelkar
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Swapnil Singh
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Karambelkar
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: AS Karambelkar
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+        wicket:
+          player_out: Swapnil Singh
+          fielders:
+          - SS Prabhudessai
+          kind: caught
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: AS Karambelkar
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Sheth
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: AS Karambelkar
+        bowler: Deepraj Gaonkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Sheth
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: AS Karambelkar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Sheth
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: AS Karambelkar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: A Sheth
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: AS Karambelkar
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Sheth
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: A Sheth
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AS Karambelkar
+        wicket:
+          player_out: AS Karambelkar
+          fielders:
+          - Aditya Kaushik
+          kind: caught
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: A Sheth
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RT Arothe
+        wicket:
+          player_out: RT Arothe
+          fielders:
+          - Lakshay Garg
+          kind: run out
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: LI Meriwala
+        bowler: Lakshay Garg
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Sheth
+- 2nd innings:
+    team: Goa
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Rajashekhar Harikant
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Aditya Kaushik
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajashekhar Harikant
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Rajashekhar Harikant
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Rajashekhar Harikant
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Aditya Kaushik
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajashekhar Harikant
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Rajashekhar Harikant
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Aditya Kaushik
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajashekhar Harikant
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Rajashekhar Harikant
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Rajashekhar Harikant
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Aditya Kaushik
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajashekhar Harikant
+        wicket:
+          player_out: Rajashekhar Harikant
+          fielders:
+          - Swapnil Singh
+          kind: caught
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Aditya Kaushik
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Snehal Kauthankar
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Snehal Kauthankar
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Aditya Kaushik
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Snehal Kauthankar
+        wicket:
+          player_out: Snehal Kauthankar
+          fielders:
+          - NA Rathva
+          kind: caught
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Aditya Kaushik
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amit Verma
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Aditya Kaushik
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Amit Verma
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Amit Verma
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Aditya Kaushik
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Amit Verma
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Aditya Kaushik
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Amit Verma
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Amit Verma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Amit Verma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Aditya Kaushik
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amit Verma
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Aditya Kaushik
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Amit Verma
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Aditya Kaushik
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amit Verma
+        wicket:
+          player_out: Amit Verma
+          kind: lbw
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Aditya Kaushik
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Aditya Kaushik
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Aditya Kaushik
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: SS Prabhudessai
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Kaushik
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: SS Prabhudessai
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Aditya Kaushik
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: SS Prabhudessai
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Aditya Kaushik
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Aditya Kaushik
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Aditya Kaushik
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: SS Prabhudessai
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: SS Prabhudessai
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Aditya Kaushik
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Prabhudessai
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: SS Prabhudessai
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Aditya Kaushik
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Aditya Kaushik
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: SS Prabhudessai
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Aditya Kaushik
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Aditya Kaushik
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Aditya Kaushik
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: SS Prabhudessai
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Aditya Kaushik
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: SS Prabhudessai
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: SS Prabhudessai
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Aditya Kaushik
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Aditya Kaushik
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: SS Prabhudessai
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Kaushik
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: SS Prabhudessai
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Kaushik
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: SS Prabhudessai
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Aditya Kaushik
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Aditya Kaushik
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Aditya Kaushik
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Aditya Kaushik
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Aditya Kaushik
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Prabhudessai
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Aditya Kaushik
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: SS Prabhudessai
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Aditya Kaushik
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Aditya Kaushik
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: SS Prabhudessai
+        bowler: NA Rathva
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 10.3:
+        actual_delivery: '10.2'
+        non_striker: SS Prabhudessai
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Aditya Kaushik
+    - 10.4:
+        actual_delivery: '10.3'
+        non_striker: SS Prabhudessai
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: Aditya Kaushik
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: Aditya Kaushik
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SS Prabhudessai
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: Aditya Kaushik
+        bowler: NA Rathva
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: SS Prabhudessai
+        bowler: AS Karambelkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: SS Prabhudessai
+        bowler: AS Karambelkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Aditya Kaushik
+        bowler: AS Karambelkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: SS Prabhudessai
+        bowler: AS Karambelkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Aditya Kaushik
+        bowler: AS Karambelkar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SS Prabhudessai
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Aditya Kaushik
+        bowler: AS Karambelkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Aditya Kaushik
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: SS Prabhudessai
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Aditya Kaushik
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: SS Prabhudessai
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Aditya Kaushik
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Aditya Kaushik
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Aditya Kaushik
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: SS Prabhudessai
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Kaushik
+        wicket:
+          player_out: Aditya Kaushik
+          kind: lbw
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: SS Prabhudessai
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Deepraj Gaonkar
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Deepraj Gaonkar
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: SS Prabhudessai
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Deepraj Gaonkar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Deepraj Gaonkar
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: SS Prabhudessai
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepraj Gaonkar
+        wicket:
+          player_out: Deepraj Gaonkar
+          fielders:
+          - AS Karambelkar
+          kind: caught
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Darshan Misal
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: SS Prabhudessai
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Darshan Misal
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Darshan Misal
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: SS Prabhudessai
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Darshan Misal
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: SS Prabhudessai
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Darshan Misal
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Darshan Misal
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SS Prabhudessai
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: SS Prabhudessai
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Darshan Misal
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Darshan Misal
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: SS Prabhudessai
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Darshan Misal
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: SS Prabhudessai
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Darshan Misal
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Darshan Misal
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: SS Prabhudessai
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Darshan Misal
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: SS Prabhudessai
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Darshan Misal
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: SS Prabhudessai
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Darshan Misal
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Darshan Misal
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: SS Prabhudessai
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Darshan Misal
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: SS Prabhudessai
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Darshan Misal
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Darshan Misal
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Prabhudessai
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: SS Prabhudessai
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Darshan Misal
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Darshan Misal
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: SS Prabhudessai
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Darshan Misal
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Darshan Misal
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SS Prabhudessai
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Darshan Misal
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Prabhudessai
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Darshan Misal
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Prabhudessai
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: SS Prabhudessai
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Darshan Misal
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: SS Prabhudessai
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Darshan Misal
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: SS Prabhudessai
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Darshan Misal
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: SS Prabhudessai
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Darshan Misal
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: SS Prabhudessai
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Darshan Misal
+        wicket:
+          player_out: Darshan Misal
+          fielders:
+          - YK Pathan
+          kind: caught
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: SS Prabhudessai
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lakshay Garg
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Lakshay Garg
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: SS Prabhudessai
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lakshay Garg
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Lakshay Garg
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Prabhudessai
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: SS Prabhudessai
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Lakshay Garg

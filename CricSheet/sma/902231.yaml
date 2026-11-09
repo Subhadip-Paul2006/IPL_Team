@@ -1,0 +1,2350 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-06'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2016-01-10'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Saurashtra
+    by:
+      runs: 19
+  overs: 20
+  players:
+    Saurashtra:
+    - AA Barot
+    - CA Pujara
+    - Jaydev Shah
+    - PN Mankad
+    - SP Jackson
+    - Chirag Jani
+    - JD Unadkat
+    - Deepak Punia
+    - S Sanandia
+    - K Makwana
+    - Dharmendrasinh Jadeja
+    Punjab:
+    - Baltej Singh
+    - S Kaul
+    - Jaskaran Singh
+    - Gurinder Singh
+    - Harbhajan Singh
+    - Yuvraj Singh
+    - Jiwanjot Singh
+    - Pargat Singh
+    - Anmol Malhotra
+    - Mayank Sidhana
+    - Himanshu Chawla
+  registry:
+    people:
+      AA Barot: b690f34a
+      Anmol Malhotra: f59e9ac9
+      Baltej Singh: 0c0ef3fb
+      CA Pujara: d4f9dbd4
+      Chirag Jani: 783e6111
+      Deepak Punia: 5a004050
+      Dharmendrasinh Jadeja: d330f9b9
+      Gurinder Singh: 911d04ad
+      Harbhajan Singh: 8b5b6769
+      Himanshu Chawla: fdd6edff
+      JD Unadkat: 1e66c162
+      Jaskaran Singh: d7b3a420
+      Jaydev Shah: 3c9b7d18
+      Jiwanjot Singh: 39f9e2bc
+      K Makwana: c59fdb7f
+      Mayank Sidhana: 0bb51ea6
+      PN Mankad: 663b5e34
+      Pargat Singh: d2e67105
+      S Kaul: dcf81436
+      S Sanandia: 4c7543cf
+      SP Jackson: acc1aeda
+      Yuvraj Singh: 1c914163
+    venues:
+      Nehru Stadium, Kochi: 92dc91a4
+  teams:
+  - Saurashtra
+  - Punjab
+  toss:
+    winner: Saurashtra
+    decision: bat
+  venue: Nehru Stadium, Kochi
+  team_type: club
+innings:
+- 1st innings:
+    team: Saurashtra
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: CA Pujara
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Barot
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: CA Pujara
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AA Barot
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: CA Pujara
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Barot
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: CA Pujara
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Barot
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: CA Pujara
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AA Barot
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: CA Pujara
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Barot
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: AA Barot
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Pujara
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: AA Barot
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Pujara
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: AA Barot
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Pujara
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: CA Pujara
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Barot
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: CA Pujara
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AA Barot
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: CA Pujara
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Barot
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: AA Barot
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Pujara
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: AA Barot
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CA Pujara
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: CA Pujara
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Barot
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: CA Pujara
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AA Barot
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: AA Barot
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CA Pujara
+        wicket:
+          player_out: CA Pujara
+          kind: lbw
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: AA Barot
+        bowler: Jaskaran Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Jaydev Shah
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: AA Barot
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Jaydev Shah
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AA Barot
+        wicket:
+          player_out: AA Barot
+          fielders:
+          - Harbhajan Singh
+          kind: caught
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: PN Mankad
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jaydev Shah
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: PN Mankad
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: PN Mankad
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: PN Mankad
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: PN Mankad
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Jaydev Shah
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Jaydev Shah
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Jaydev Shah
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Jaydev Shah
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PN Mankad
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Jaydev Shah
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Jaydev Shah
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: PN Mankad
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jaydev Shah
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: PN Mankad
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: PN Mankad
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: PN Mankad
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jaydev Shah
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Jaydev Shah
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PN Mankad
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Jaydev Shah
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PN Mankad
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Jaydev Shah
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PN Mankad
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: PN Mankad
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: PN Mankad
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: PN Mankad
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Jaydev Shah
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: PN Mankad
+        bowler: Gurinder Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Jaydev Shah
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: PN Mankad
+        bowler: Gurinder Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Jaydev Shah
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: Jaydev Shah
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PN Mankad
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Jaydev Shah
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PN Mankad
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Jaydev Shah
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PN Mankad
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: PN Mankad
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jaydev Shah
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Jaydev Shah
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PN Mankad
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: PN Mankad
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: PN Mankad
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Jaydev Shah
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Jaydev Shah
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Jaydev Shah
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PN Mankad
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: PN Mankad
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: PN Mankad
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Jaydev Shah
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: PN Mankad
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: PN Mankad
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jaydev Shah
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Jaydev Shah
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PN Mankad
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: PN Mankad
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jaydev Shah
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: PN Mankad
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: PN Mankad
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: PN Mankad
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: PN Mankad
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jaydev Shah
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: PN Mankad
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Jaydev Shah
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: PN Mankad
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaydev Shah
+        wicket:
+          player_out: Jaydev Shah
+          fielders:
+          - Pargat Singh
+          kind: caught
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: PN Mankad
+        bowler: Jaskaran Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SP Jackson
+    - 10.4:
+        actual_delivery: '10.3'
+        non_striker: PN Mankad
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: SP Jackson
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: SP Jackson
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: SP Jackson
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: PN Mankad
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Jackson
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: PN Mankad
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Jackson
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: PN Mankad
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SP Jackson
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: PN Mankad
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: SP Jackson
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PN Mankad
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: SP Jackson
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PN Mankad
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: SP Jackson
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PN Mankad
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: SP Jackson
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PN Mankad
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: PN Mankad
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Jackson
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: PN Mankad
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SP Jackson
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: PN Mankad
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Jackson
+        wicket:
+          player_out: PN Mankad
+          fielders:
+          - Harbhajan Singh
+          kind: run out
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: SP Jackson
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: SP Jackson
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Chirag Jani
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: SP Jackson
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Jani
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: SP Jackson
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: SP Jackson
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Jani
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: SP Jackson
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Jani
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Chirag Jani
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: SP Jackson
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: SP Jackson
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Chirag Jani
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Jackson
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Chirag Jani
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SP Jackson
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Chirag Jani
+        bowler: Gurinder Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Chirag Jani
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Jackson
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Chirag Jani
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: SP Jackson
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Chirag Jani
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: SP Jackson
+        bowler: Baltej Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Jani
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: SP Jackson
+        bowler: Baltej Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Jani
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: Chirag Jani
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Chirag Jani
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: SP Jackson
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chirag Jani
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: SP Jackson
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: SP Jackson
+        bowler: S Kaul
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Jani
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: SP Jackson
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: Chirag Jani
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: SP Jackson
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Jani
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Chirag Jani
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: SP Jackson
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Jani
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: SP Jackson
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: SP Jackson
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Chirag Jani
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SP Jackson
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: SP Jackson
+        bowler: Jaskaran Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: SP Jackson
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Jani
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: SP Jackson
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Jani
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: SP Jackson
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Chirag Jani
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SP Jackson
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Chirag Jani
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Jackson
+        wicket:
+          player_out: SP Jackson
+          kind: bowled
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Chirag Jani
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JD Unadkat
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: JD Unadkat
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: JD Unadkat
+        bowler: Baltej Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Jani
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Chirag Jani
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: JD Unadkat
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Chirag Jani
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JD Unadkat
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Chirag Jani
+        bowler: Baltej Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JD Unadkat
+- 2nd innings:
+    team: Punjab
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Pargat Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Jiwanjot Singh
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Pargat Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jiwanjot Singh
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Pargat Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jiwanjot Singh
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Jiwanjot Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pargat Singh
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Pargat Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jiwanjot Singh
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Jiwanjot Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pargat Singh
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Jiwanjot Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pargat Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Jiwanjot Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pargat Singh
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Jiwanjot Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pargat Singh
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Jiwanjot Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pargat Singh
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Pargat Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jiwanjot Singh
+        wicket:
+          player_out: Jiwanjot Singh
+          fielders:
+          - JD Unadkat
+          kind: caught
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Yuvraj Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pargat Singh
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Pargat Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Pargat Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Pargat Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+        wicket:
+          player_out: Yuvraj Singh
+          fielders:
+          - K Makwana
+          kind: caught
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Pargat Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmol Malhotra
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Pargat Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmol Malhotra
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Pargat Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmol Malhotra
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Pargat Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmol Malhotra
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Pargat Singh
+        bowler: S Sanandia
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 5
+          batsman: 4
+        batsman: Anmol Malhotra
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: Pargat Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmol Malhotra
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: Pargat Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmol Malhotra
+        wicket:
+          player_out: Anmol Malhotra
+          fielders:
+          - K Makwana
+          kind: caught
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Mayank Sidhana
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pargat Singh
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Mayank Sidhana
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pargat Singh
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Mayank Sidhana
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pargat Singh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Pargat Singh
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mayank Sidhana
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Pargat Singh
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Sidhana
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Mayank Sidhana
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pargat Singh
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Mayank Sidhana
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pargat Singh
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Mayank Sidhana
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pargat Singh
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Pargat Singh
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mayank Sidhana
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Mayank Sidhana
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pargat Singh
+        wicket:
+          player_out: Pargat Singh
+          fielders:
+          - CA Pujara
+          kind: caught
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Mayank Sidhana
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himanshu Chawla
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Mayank Sidhana
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himanshu Chawla
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Mayank Sidhana
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himanshu Chawla
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Mayank Sidhana
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Himanshu Chawla
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Mayank Sidhana
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himanshu Chawla
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Himanshu Chawla
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Sidhana
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Mayank Sidhana
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himanshu Chawla
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Himanshu Chawla
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mayank Sidhana
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Himanshu Chawla
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mayank Sidhana
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Himanshu Chawla
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Sidhana
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Mayank Sidhana
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Chawla
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Himanshu Chawla
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Sidhana
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Mayank Sidhana
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Himanshu Chawla
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Mayank Sidhana
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himanshu Chawla
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Himanshu Chawla
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mayank Sidhana
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Himanshu Chawla
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mayank Sidhana
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Himanshu Chawla
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Sidhana
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Himanshu Chawla
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Sidhana
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Mayank Sidhana
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himanshu Chawla
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Mayank Sidhana
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Chawla
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Mayank Sidhana
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himanshu Chawla
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Himanshu Chawla
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Sidhana
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Mayank Sidhana
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Chawla
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Himanshu Chawla
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mayank Sidhana
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Himanshu Chawla
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Sidhana
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Mayank Sidhana
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himanshu Chawla
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Mayank Sidhana
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Chawla
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Mayank Sidhana
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himanshu Chawla
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Himanshu Chawla
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Sidhana
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Himanshu Chawla
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Sidhana
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Mayank Sidhana
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himanshu Chawla
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Mayank Sidhana
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himanshu Chawla
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Himanshu Chawla
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mayank Sidhana
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Himanshu Chawla
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Sidhana
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Mayank Sidhana
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himanshu Chawla
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Mayank Sidhana
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Himanshu Chawla
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Mayank Sidhana
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Chawla
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Mayank Sidhana
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himanshu Chawla
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Himanshu Chawla
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mayank Sidhana
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Himanshu Chawla
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mayank Sidhana
+        wicket:
+          player_out: Mayank Sidhana
+          fielders:
+          - SP Jackson
+          kind: stumped
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Himanshu Chawla
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurinder Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Gurinder Singh
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Chawla
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Gurinder Singh
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himanshu Chawla
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Himanshu Chawla
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurinder Singh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Himanshu Chawla
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurinder Singh
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Gurinder Singh
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himanshu Chawla
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Himanshu Chawla
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurinder Singh
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Himanshu Chawla
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurinder Singh
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Himanshu Chawla
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurinder Singh
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Gurinder Singh
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himanshu Chawla
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Himanshu Chawla
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurinder Singh
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Himanshu Chawla
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurinder Singh
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Gurinder Singh
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himanshu Chawla
+        wicket:
+          player_out: Himanshu Chawla
+          fielders:
+          - SP Jackson
+          kind: caught
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Harbhajan Singh
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurinder Singh
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Harbhajan Singh
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Gurinder Singh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Harbhajan Singh
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurinder Singh
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Gurinder Singh
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harbhajan Singh
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Gurinder Singh
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Harbhajan Singh
+        bowler: PN Mankad
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurinder Singh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Harbhajan Singh
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurinder Singh
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Harbhajan Singh
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurinder Singh
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Gurinder Singh
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Harbhajan Singh
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurinder Singh
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Gurinder Singh
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Harbhajan Singh
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurinder Singh
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Harbhajan Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurinder Singh
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Gurinder Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harbhajan Singh
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Gurinder Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Harbhajan Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurinder Singh
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Harbhajan Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurinder Singh
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Gurinder Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Harbhajan Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Gurinder Singh
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Harbhajan Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurinder Singh
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Gurinder Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Harbhajan Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Gurinder Singh
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Harbhajan Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurinder Singh
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Gurinder Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Harbhajan Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Gurinder Singh
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Harbhajan Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurinder Singh
+        wicket:
+          player_out: Gurinder Singh
+          fielders:
+          - S Sanandia
+          kind: caught
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Jaskaran Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Harbhajan Singh
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jaskaran Singh
+        wicket:
+          player_out: Jaskaran Singh
+          fielders:
+          - Jaydev Shah
+          kind: run out
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: S Kaul
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: S Kaul
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+        wicket:
+          player_out: Harbhajan Singh
+          fielders:
+          - CA Pujara
+          kind: caught
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Baltej Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Kaul
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Baltej Singh
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Kaul
+        wicket:
+          player_out: S Kaul
+          fielders:
+          - SP Jackson
+          kind: run out

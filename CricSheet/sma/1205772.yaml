@@ -1,0 +1,2296 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-01'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-11-12'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Railways
+    by:
+      wickets: 7
+  overs: 20
+  players:
+    Arunachal Pradesh:
+    - Samarth Seth
+    - Shashwat Kohli
+    - Neelam Obi
+    - Rahul Dalal
+    - Uvais Ahmad
+    - Akhilesh Sahani
+    - Song Tacho
+    - Techi Neri
+    - Licha Tehi
+    - Yab Niya
+    - Nabam Tempol
+    Railways:
+    - K Upadhyay
+    - Harsh Tyagi
+    - T Pradeep
+    - Hitesh Kadam
+    - KV Sharma
+    - Karthik Raman
+    - Mrunal Devdhar
+    - Pratham Singh
+    - Vikrant Rajput
+    - Dinesh Mor
+    - M Ahmed
+  registry:
+    people:
+      Akhilesh Sahani: d6ac52e8
+      Dinesh Mor: 7f28f186
+      Harsh Tyagi: 4a15018a
+      Hitesh Kadam: 83b19fa2
+      K Upadhyay: 27e71d47
+      KV Sharma: 119678fd
+      Karthik Raman: c55a5dff
+      Licha Tehi: 4b6cc6c2
+      M Ahmed: 7ca476bf
+      Mrunal Devdhar: a1765140
+      Nabam Tempol: 455a7563
+      Neelam Obi: 047fc26e
+      Pratham Singh: f9f21866
+      Rahul Dalal: 802fdccf
+      Samarth Seth: 9fe56f2b
+      Shashwat Kohli: f782103d
+      Song Tacho: 128d1861
+      T Pradeep: a0d66374
+      Techi Neri: d3885f28
+      Uvais Ahmad: c9d6f9f2
+      Vikrant Rajput: b5f7bae6
+      Yab Niya: 8d6505d3
+    venues:
+      Sector 16 Stadium, Chandigarh: 1b74c7ea
+  teams:
+  - Arunachal Pradesh
+  - Railways
+  toss:
+    winner: Arunachal Pradesh
+    decision: bat
+  venue: Sector 16 Stadium, Chandigarh
+  team_type: club
+innings:
+- 1st innings:
+    team: Arunachal Pradesh
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Shashwat Kohli
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Samarth Seth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashwat Kohli
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Samarth Seth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashwat Kohli
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Samarth Seth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashwat Kohli
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Shashwat Kohli
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Shashwat Kohli
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Shashwat Kohli
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Shashwat Kohli
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Samarth Seth
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashwat Kohli
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Samarth Seth
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashwat Kohli
+        wicket:
+          player_out: Shashwat Kohli
+          fielders:
+          - KV Sharma
+          kind: caught
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Samarth Seth
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Neelam Obi
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Samarth Seth
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Neelam Obi
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Neelam Obi
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Samarth Seth
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Neelam Obi
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Neelam Obi
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Neelam Obi
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Neelam Obi
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Neelam Obi
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Samarth Seth
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Neelam Obi
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Samarth Seth
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Neelam Obi
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Neelam Obi
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Samarth Seth
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Neelam Obi
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Samarth Seth
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Neelam Obi
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Samarth Seth
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Neelam Obi
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Neelam Obi
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Samarth Seth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Neelam Obi
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Samarth Seth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Neelam Obi
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Samarth Seth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Neelam Obi
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Samarth Seth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Neelam Obi
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Neelam Obi
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Samarth Seth
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Neelam Obi
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Samarth Seth
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Neelam Obi
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Samarth Seth
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Neelam Obi
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Samarth Seth
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Neelam Obi
+        wicket:
+          player_out: Neelam Obi
+          kind: bowled
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Samarth Seth
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Rahul Dalal
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Rahul Dalal
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Rahul Dalal
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Rahul Dalal
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Samarth Seth
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Samarth Seth
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Rahul Dalal
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Samarth Seth
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Samarth Seth
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Rahul Dalal
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Samarth Seth
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Rahul Dalal
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Samarth Seth
+        bowler: Harsh Tyagi
+        extras:
+          byes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Rahul Dalal
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Rahul Dalal
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Samarth Seth
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Rahul Dalal
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Rahul Dalal
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Samarth Seth
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Rahul Dalal
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Samarth Seth
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Rahul Dalal
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Samarth Seth
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Samarth Seth
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Rahul Dalal
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Samarth Seth
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Samarth Seth
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Samarth Seth
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Rahul Dalal
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Samarth Seth
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Rahul Dalal
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Rahul Dalal
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Samarth Seth
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Rahul Dalal
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Rahul Dalal
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Rahul Dalal
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Samarth Seth
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rahul Dalal
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Samarth Seth
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Samarth Seth
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rahul Dalal
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Samarth Seth
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Samarth Seth
+        bowler: Hitesh Kadam
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Dalal
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Rahul Dalal
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Samarth Seth
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Samarth Seth
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Samarth Seth
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Samarth Seth
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rahul Dalal
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Samarth Seth
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Rahul Dalal
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Samarth Seth
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Rahul Dalal
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Samarth Seth
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Dalal
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Samarth Seth
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Rahul Dalal
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Rahul Dalal
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Samarth Seth
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Dalal
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Samarth Seth
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rahul Dalal
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Samarth Seth
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Rahul Dalal
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Samarth Seth
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Samarth Seth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Samarth Seth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rahul Dalal
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Samarth Seth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Dalal
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Samarth Seth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rahul Dalal
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Samarth Seth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rahul Dalal
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Samarth Seth
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rahul Dalal
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Rahul Dalal
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Samarth Seth
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Samarth Seth
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Rahul Dalal
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Samarth Seth
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Rahul Dalal
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Seth
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Samarth Seth
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Samarth Seth
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Dalal
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Rahul Dalal
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Samarth Seth
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Rahul Dalal
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Seth
+        wicket:
+          player_out: Samarth Seth
+          fielders:
+          - KV Sharma
+          kind: caught
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Rahul Dalal
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Uvais Ahmad
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Uvais Ahmad
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Dalal
+        wicket:
+          player_out: Rahul Dalal
+          kind: bowled
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Uvais Ahmad
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akhilesh Sahani
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Uvais Ahmad
+        bowler: T Pradeep
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: Akhilesh Sahani
+    - 18.2:
+        actual_delivery: '18.1'
+        non_striker: Akhilesh Sahani
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Uvais Ahmad
+    - 18.3:
+        actual_delivery: '18.2'
+        non_striker: Uvais Ahmad
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akhilesh Sahani
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: Akhilesh Sahani
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Uvais Ahmad
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: Akhilesh Sahani
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Uvais Ahmad
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: Akhilesh Sahani
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Uvais Ahmad
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: Uvais Ahmad
+        bowler: T Pradeep
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akhilesh Sahani
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Akhilesh Sahani
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Uvais Ahmad
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Akhilesh Sahani
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Uvais Ahmad
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Akhilesh Sahani
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Uvais Ahmad
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Uvais Ahmad
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akhilesh Sahani
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Akhilesh Sahani
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Uvais Ahmad
+        wicket:
+          player_out: Uvais Ahmad
+          fielders:
+          - Mrunal Devdhar
+          kind: caught
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Song Tacho
+        bowler: Karthik Raman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akhilesh Sahani
+- 2nd innings:
+    team: Railways
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Pratham Singh
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mrunal Devdhar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Pratham Singh
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Pratham Singh
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mrunal Devdhar
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Pratham Singh
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Mrunal Devdhar
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Mrunal Devdhar
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Mrunal Devdhar
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Pratham Singh
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Mrunal Devdhar
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Mrunal Devdhar
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Mrunal Devdhar
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Pratham Singh
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Mrunal Devdhar
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Pratham Singh
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Mrunal Devdhar
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pratham Singh
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Mrunal Devdhar
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Mrunal Devdhar
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Pratham Singh
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mrunal Devdhar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Mrunal Devdhar
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pratham Singh
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Mrunal Devdhar
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Pratham Singh
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Pratham Singh
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Mrunal Devdhar
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Pratham Singh
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Pratham Singh
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mrunal Devdhar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Pratham Singh
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Mrunal Devdhar
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Pratham Singh
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Mrunal Devdhar
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+        wicket:
+          player_out: Pratham Singh
+          kind: caught and bowled
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Mrunal Devdhar
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikrant Rajput
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Vikrant Rajput
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mrunal Devdhar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Vikrant Rajput
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Mrunal Devdhar
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vikrant Rajput
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Mrunal Devdhar
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Vikrant Rajput
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mrunal Devdhar
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Vikrant Rajput
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Vikrant Rajput
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Mrunal Devdhar
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Vikrant Rajput
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mrunal Devdhar
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Vikrant Rajput
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Mrunal Devdhar
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikrant Rajput
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Mrunal Devdhar
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikrant Rajput
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Vikrant Rajput
+        bowler: Nabam Tempol
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Mrunal Devdhar
+        bowler: Nabam Tempol
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vikrant Rajput
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Mrunal Devdhar
+        bowler: Nabam Tempol
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vikrant Rajput
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Mrunal Devdhar
+        bowler: Nabam Tempol
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikrant Rajput
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Mrunal Devdhar
+        bowler: Nabam Tempol
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Vikrant Rajput
+        bowler: Nabam Tempol
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Vikrant Rajput
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Mrunal Devdhar
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Vikrant Rajput
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Mrunal Devdhar
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vikrant Rajput
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Mrunal Devdhar
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Vikrant Rajput
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Vikrant Rajput
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Mrunal Devdhar
+        bowler: Samarth Seth
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Vikrant Rajput
+    - 9.3:
+        actual_delivery: '9.2'
+        non_striker: Mrunal Devdhar
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 9.4:
+        actual_delivery: '9.3'
+        non_striker: Vikrant Rajput
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 9.5:
+        actual_delivery: '9.4'
+        non_striker: Mrunal Devdhar
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vikrant Rajput
+    - 9.6:
+        actual_delivery: '9.5'
+        non_striker: Mrunal Devdhar
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 9.7:
+        actual_delivery: '9.6'
+        non_striker: Vikrant Rajput
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Mrunal Devdhar
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Vikrant Rajput
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Mrunal Devdhar
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vikrant Rajput
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Mrunal Devdhar
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vikrant Rajput
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Mrunal Devdhar
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Vikrant Rajput
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Vikrant Rajput
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mrunal Devdhar
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Vikrant Rajput
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mrunal Devdhar
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Vikrant Rajput
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Mrunal Devdhar
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Vikrant Rajput
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Mrunal Devdhar
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Mrunal Devdhar
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Vikrant Rajput
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Mrunal Devdhar
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Vikrant Rajput
+        bowler: Yab Niya
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: Vikrant Rajput
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mrunal Devdhar
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: Vikrant Rajput
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mrunal Devdhar
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: Vikrant Rajput
+        bowler: Yab Niya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Vikrant Rajput
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Mrunal Devdhar
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikrant Rajput
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Mrunal Devdhar
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Vikrant Rajput
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Vikrant Rajput
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Mrunal Devdhar
+        bowler: Techi Neri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vikrant Rajput
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Mrunal Devdhar
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vikrant Rajput
+        wicket:
+          player_out: Vikrant Rajput
+          kind: bowled
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Mrunal Devdhar
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dinesh Mor
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Mrunal Devdhar
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dinesh Mor
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Dinesh Mor
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Dinesh Mor
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Dinesh Mor
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Dinesh Mor
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Mrunal Devdhar
+        bowler: Akhilesh Sahani
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Dinesh Mor
+    - 15.3:
+        actual_delivery: '15.2'
+        non_striker: Mrunal Devdhar
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dinesh Mor
+    - 15.4:
+        actual_delivery: '15.3'
+        non_striker: Dinesh Mor
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+        wicket:
+          player_out: Mrunal Devdhar
+          fielders:
+          - Uvais Ahmad
+          kind: caught
+    - 15.5:
+        actual_delivery: '15.4'
+        non_striker: KV Sharma
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dinesh Mor
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: Dinesh Mor
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KV Sharma
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: KV Sharma
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Dinesh Mor
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Dinesh Mor
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KV Sharma
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Dinesh Mor
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KV Sharma
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Dinesh Mor
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KV Sharma
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: KV Sharma
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dinesh Mor
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Dinesh Mor
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KV Sharma
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: KV Sharma
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dinesh Mor
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Dinesh Mor
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KV Sharma
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Dinesh Mor
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KV Sharma
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Dinesh Mor
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KV Sharma
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Dinesh Mor
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KV Sharma
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: KV Sharma
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dinesh Mor
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Dinesh Mor
+        bowler: Licha Tehi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KV Sharma
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: KV Sharma
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dinesh Mor
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Dinesh Mor
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KV Sharma
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Dinesh Mor
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KV Sharma
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: KV Sharma
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dinesh Mor
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Dinesh Mor
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KV Sharma
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Dinesh Mor
+        bowler: Akhilesh Sahani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KV Sharma
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Dinesh Mor
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KV Sharma
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: KV Sharma
+        bowler: Samarth Seth
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Dinesh Mor
+    - 19.3:
+        actual_delivery: '19.2'
+        non_striker: KV Sharma
+        bowler: Samarth Seth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dinesh Mor

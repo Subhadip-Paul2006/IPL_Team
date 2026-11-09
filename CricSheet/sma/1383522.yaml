@@ -1,0 +1,2001 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-10-23'
+  revision: 2
+info:
+  balls_per_over: 6
+  city: Dehra Dun
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2023-10-23'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Delhi
+    by:
+      runs: 124
+  overs: 20
+  players:
+    Delhi:
+    - HR Shokeen
+    - Priyansh Arya
+    - Anuj Rawat
+    - YV Dhull
+    - A Badoni
+    - Himmat Singh
+    - I Sharma
+    - Lalit Yadav
+    - Navdeep Saini
+    - Harshit Rana
+    - Suyash Sharma
+    - Dev Lakra
+    Tamil Nadu:
+    - T Natarajan
+    - G Ajitesh
+    - Hari Nishaanth
+    - B Sai Sudharsan
+    - V Shankar
+    - B Aparajith
+    - Washington Sundar
+    - M Shahrukh Khan
+    - R Sanjay Yadav
+    - R Sai Kishore
+    - CV Varun
+    - KR Sen
+  registry:
+    people:
+      A Badoni: 872b03f7
+      A Nand Kishore: 84424f4f
+      Anuj Rawat: c8f5f961
+      B Aparajith: 5b627626
+      B Sai Sudharsan: d5130a30
+      CV Varun: 5b7ab5a9
+      Dev Lakra: e41832f1
+      G Ajitesh: '09a341f9'
+      HAS Khalid: 291ded7c
+      HR Shokeen: 0c9652b0
+      Hari Nishaanth: c3f37533
+      Harshit Rana: 77b1aa15
+      Himmat Singh: ebcfef83
+      I Sharma: 5bb1a1c4
+      KR Sen: 2e78f685
+      Lalit Yadav: ad427b5c
+      M Shahrukh Khan: 7dcb9bc9
+      Navdeep Saini: 21d4e29b
+      Prakash Bhatt: f848ab0b
+      Priyansh Arya: b5797845
+      R Sai Kishore: c7a995d3
+      R Sanjay Yadav: 33ffc3dd
+      Suyash Sharma: 9440ef41
+      T Natarajan: ce794613
+      Tapan Sharma: b9aa2b6e
+      V Shankar: '0994d0ae'
+      Washington Sundar: f19ccfad
+      YV Dhull: dd7e9b3b
+    venues:
+      Abhimanyu Cricket Academy, Dehradun: f140992f
+  teams:
+  - Delhi
+  - Tamil Nadu
+  toss:
+    winner: Tamil Nadu
+    decision: field
+  umpires:
+  - HAS Khalid
+  - Tapan Sharma
+  venue: Abhimanyu Cricket Academy, Dehradun
+  team_type: club
+innings:
+- 1st innings:
+    team: Delhi
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: Anuj Rawat
+        batsman: Priyansh Arya
+    - 0.2:
+        actual_delivery: '0.2'
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Anuj Rawat
+        batsman: Priyansh Arya
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Priyansh Arya
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Priyansh Arya
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Anuj Rawat
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Anuj Rawat
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Priyansh Arya
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Anuj Rawat
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Anuj Rawat
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Anuj Rawat
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyansh Arya
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Anuj Rawat
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Priyansh Arya
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Priyansh Arya
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Anuj Rawat
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyansh Arya
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Anuj Rawat
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Anuj Rawat
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Priyansh Arya
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Anuj Rawat
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Anuj Rawat
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Anuj Rawat
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Priyansh Arya
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Anuj Rawat
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyansh Arya
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Anuj Rawat
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Priyansh Arya
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Anuj Rawat
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Anuj Rawat
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Anuj Rawat
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Anuj Rawat
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Priyansh Arya
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Anuj Rawat
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Priyansh Arya
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Anuj Rawat
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Anuj Rawat
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Priyansh Arya
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Priyansh Arya
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+        wicket:
+          player_out: Anuj Rawat
+          fielders:
+          - B Aparajith
+          kind: caught
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Priyansh Arya
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Priyansh Arya
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: YV Dhull
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Priyansh Arya
+        bowler: CV Varun
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          noballs: 1
+        batsman: YV Dhull
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: Priyansh Arya
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: YV Dhull
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: YV Dhull
+        bowler: KR Sen
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Priyansh Arya
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: YV Dhull
+        bowler: KR Sen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Priyansh Arya
+        bowler: KR Sen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Priyansh Arya
+        bowler: KR Sen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: YV Dhull
+        bowler: KR Sen
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Priyansh Arya
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: YV Dhull
+        bowler: KR Sen
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Priyansh Arya
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: YV Dhull
+        bowler: KR Sen
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Priyansh Arya
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Priyansh Arya
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Priyansh Arya
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: YV Dhull
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Priyansh Arya
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: YV Dhull
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Priyansh Arya
+        bowler: Washington Sundar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: YV Dhull
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Priyansh Arya
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Priyansh Arya
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: YV Dhull
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: YV Dhull
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: YV Dhull
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Priyansh Arya
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Priyansh Arya
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: YV Dhull
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Priyansh Arya
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: YV Dhull
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Priyansh Arya
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: YV Dhull
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Priyansh Arya
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: YV Dhull
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: YV Dhull
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Priyansh Arya
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: YV Dhull
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: YV Dhull
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Priyansh Arya
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Priyansh Arya
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YV Dhull
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: YV Dhull
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: YV Dhull
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Priyansh Arya
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: YV Dhull
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyansh Arya
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: YV Dhull
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Priyansh Arya
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: YV Dhull
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: YV Dhull
+        bowler: R Sai Kishore
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Priyansh Arya
+    - 12.2:
+        actual_delivery: '12.1'
+        non_striker: YV Dhull
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 12.3:
+        actual_delivery: '12.2'
+        non_striker: Priyansh Arya
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YV Dhull
+    - 12.4:
+        actual_delivery: '12.3'
+        non_striker: Priyansh Arya
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: YV Dhull
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: Priyansh Arya
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YV Dhull
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: Priyansh Arya
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: YV Dhull
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+        wicket:
+          player_out: Priyansh Arya
+          fielders:
+          - T Natarajan
+          kind: caught
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: YV Dhull
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: A Badoni
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: A Badoni
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YV Dhull
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: A Badoni
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: A Badoni
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YV Dhull
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: A Badoni
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Dhull
+        wicket:
+          player_out: YV Dhull
+          kind: bowled
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: A Badoni
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Himmat Singh
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: A Badoni
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: A Badoni
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Himmat Singh
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Himmat Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: A Badoni
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: A Badoni
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: A Badoni
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Himmat Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: A Badoni
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: A Badoni
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Himmat Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Himmat Singh
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: A Badoni
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Himmat Singh
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: A Badoni
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Himmat Singh
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Badoni
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Himmat Singh
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: A Badoni
+        bowler: R Sanjay Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: A Badoni
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: A Badoni
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Himmat Singh
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Badoni
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Himmat Singh
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Badoni
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Himmat Singh
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Badoni
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Himmat Singh
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Himmat Singh
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: A Badoni
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Himmat Singh
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Badoni
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Himmat Singh
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: A Badoni
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Himmat Singh
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: A Badoni
+        bowler: CV Varun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: A Badoni
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Himmat Singh
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: A Badoni
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Himmat Singh
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Badoni
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Himmat Singh
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Badoni
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: A Badoni
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himmat Singh
+- 2nd innings:
+    team: Tamil Nadu
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Hari Nishaanth
+        replacements:
+          match:
+          - in: HR Shokeen
+            out: Priyansh Arya
+            team: Delhi
+            reason: impact_player
+        batsman: G Ajitesh
+    - 0.2:
+        actual_delivery: '0.2'
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: Hari Nishaanth
+        batsman: G Ajitesh
+    - 0.3:
+        actual_delivery: '0.3'
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Hari Nishaanth
+        batsman: G Ajitesh
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Hari Nishaanth
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: G Ajitesh
+        wicket:
+          player_out: G Ajitesh
+          kind: bowled
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Hari Nishaanth
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: B Sai Sudharsan
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Hari Nishaanth
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Sai Sudharsan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: B Sai Sudharsan
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hari Nishaanth
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Hari Nishaanth
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Sai Sudharsan
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Hari Nishaanth
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Sai Sudharsan
+        wicket:
+          player_out: B Sai Sudharsan
+          fielders:
+          - Anuj Rawat
+          kind: caught
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Hari Nishaanth
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Hari Nishaanth
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: V Shankar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hari Nishaanth
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: V Shankar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hari Nishaanth
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: V Shankar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hari Nishaanth
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: V Shankar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hari Nishaanth
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: V Shankar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hari Nishaanth
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Hari Nishaanth
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Hari Nishaanth
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: V Shankar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hari Nishaanth
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: V Shankar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hari Nishaanth
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Hari Nishaanth
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: V Shankar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hari Nishaanth
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: V Shankar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hari Nishaanth
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Hari Nishaanth
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: V Shankar
+        bowler: Suyash Sharma
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Hari Nishaanth
+    - 4.2:
+        actual_delivery: '4.1'
+        non_striker: V Shankar
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hari Nishaanth
+    - 4.3:
+        actual_delivery: '4.2'
+        non_striker: Hari Nishaanth
+        bowler: Suyash Sharma
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: V Shankar
+    - 4.4:
+        actual_delivery: '4.3'
+        non_striker: V Shankar
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hari Nishaanth
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: Hari Nishaanth
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+        wicket:
+          player_out: V Shankar
+          fielders:
+          - A Badoni
+          kind: caught
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: Hari Nishaanth
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: Hari Nishaanth
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: B Aparajith
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hari Nishaanth
+        wicket:
+          player_out: Hari Nishaanth
+          fielders:
+          - Navdeep Saini
+          kind: caught
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: B Aparajith
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Washington Sundar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Washington Sundar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Washington Sundar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: B Aparajith
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Washington Sundar
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Washington Sundar
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Washington Sundar
+        bowler: Suyash Sharma
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: B Aparajith
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: B Aparajith
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: B Aparajith
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Washington Sundar
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: B Aparajith
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: B Aparajith
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Washington Sundar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: B Aparajith
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Washington Sundar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Aparajith
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: B Aparajith
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+        wicket:
+          player_out: Washington Sundar
+          fielders:
+          - Anuj Rawat
+          kind: caught
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: B Aparajith
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        replacements:
+          match:
+          - in: M Shahrukh Khan
+            out: T Natarajan
+            team: Tamil Nadu
+            reason: impact_player
+        batsman: M Shahrukh Khan
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: M Shahrukh Khan
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+        wicket:
+          player_out: B Aparajith
+          kind: lbw
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: M Shahrukh Khan
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: M Shahrukh Khan
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: M Shahrukh Khan
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: M Shahrukh Khan
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sanjay Yadav
+        wicket:
+          player_out: R Sanjay Yadav
+          fielders:
+          - Anuj Rawat
+          kind: caught
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: M Shahrukh Khan
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sai Kishore
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: M Shahrukh Khan
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sai Kishore
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: R Sai Kishore
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Shahrukh Khan
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: M Shahrukh Khan
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sai Kishore
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: R Sai Kishore
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Shahrukh Khan
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: M Shahrukh Khan
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sai Kishore
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: R Sai Kishore
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: M Shahrukh Khan
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sai Kishore
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: R Sai Kishore
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Shahrukh Khan
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: M Shahrukh Khan
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sai Kishore
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: M Shahrukh Khan
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sai Kishore
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: M Shahrukh Khan
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Sai Kishore
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: R Sai Kishore
+        bowler: Harshit Rana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: M Shahrukh Khan
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: M Shahrukh Khan
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sai Kishore
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: M Shahrukh Khan
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Sai Kishore
+        wicket:
+          player_out: R Sai Kishore
+          kind: bowled
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: M Shahrukh Khan
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CV Varun
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: CV Varun
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Shahrukh Khan
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: CV Varun
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+        wicket:
+          player_out: M Shahrukh Khan
+          fielders:
+          - Lalit Yadav
+          kind: caught
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: CV Varun
+        bowler: HR Shokeen
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KR Sen
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: KR Sen
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Varun
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: KR Sen
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Varun
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: KR Sen
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Varun
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: KR Sen
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Varun
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: KR Sen
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Varun
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: KR Sen
+        bowler: Suyash Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CV Varun
+        wicket:
+          player_out: CV Varun
+          kind: bowled
+    target:
+      overs: 20
+      runs: 192

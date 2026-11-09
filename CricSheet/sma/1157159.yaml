@@ -1,0 +1,2366 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-03'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-02-27'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Delhi
+    by:
+      runs: 32
+  overs: 20
+  players:
+    Delhi:
+    - UBT Chand
+    - Hiten Dalal
+    - DR Shorey
+    - N Rana
+    - Himmat Singh
+    - Lalit Yadav
+    - Anuj Rawat
+    - P Negi
+    - Suboth Bhati
+    - Navdeep Saini
+    - I Sharma
+    Andhra:
+    - Bandaru Ayyappa
+    - K V Sasikanth
+    - Harishankar Reddy
+    - KV Sharma
+    - Shoaib Mohammed Khan
+    - GH Vihari
+    - Girinath Reddy
+    - Ashwin Hebbar
+    - Prashanth Kumar
+    - KS Bharat
+    - RK Bhui
+  registry:
+    people:
+      Anuj Rawat: c8f5f961
+      Ashwin Hebbar: b11d8647
+      Bandaru Ayyappa: cb4f31e2
+      DR Shorey: faa7365d
+      GH Vihari: '94253925'
+      Girinath Reddy: 5d3d423a
+      Harishankar Reddy: 791c088d
+      Himmat Singh: ebcfef83
+      Hiten Dalal: 74bace71
+      I Sharma: 5bb1a1c4
+      K V Sasikanth: bf6e03ea
+      KS Bharat: 44a89551
+      KV Sharma: 119678fd
+      Lalit Yadav: ad427b5c
+      N Rana: fb2d1dda
+      Navdeep Saini: 21d4e29b
+      P Negi: f62772e5
+      Prashanth Kumar: 1f0b8f44
+      RK Bhui: b63e358a
+      Shoaib Mohammed Khan: 8dfc706f
+      Suboth Bhati: bee290b6
+      UBT Chand: 0c94f480
+    venues:
+      Devineni Venkata Ramana Praneetha Ground, Mulapadu: 7354790b
+  teams:
+  - Delhi
+  - Andhra
+  toss:
+    winner: Delhi
+    decision: bat
+  venue: Devineni Venkata Ramana Praneetha Ground, Mulapadu
+  team_type: club
+innings:
+- 1st innings:
+    team: Delhi
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Hiten Dalal
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Hiten Dalal
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Hiten Dalal
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Hiten Dalal
+        bowler: Bandaru Ayyappa
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: UBT Chand
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Hiten Dalal
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: UBT Chand
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: UBT Chand
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hiten Dalal
+        wicket:
+          player_out: Hiten Dalal
+          fielders:
+          - Shoaib Mohammed Khan
+          kind: caught
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: DR Shorey
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: UBT Chand
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: DR Shorey
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: UBT Chand
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: DR Shorey
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: UBT Chand
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: DR Shorey
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: UBT Chand
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Shorey
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: UBT Chand
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Shorey
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: DR Shorey
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: UBT Chand
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Shorey
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: UBT Chand
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Shorey
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: DR Shorey
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: UBT Chand
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: DR Shorey
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: DR Shorey
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: UBT Chand
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: UBT Chand
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DR Shorey
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: UBT Chand
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Shorey
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: UBT Chand
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Shorey
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: UBT Chand
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Shorey
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: UBT Chand
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Shorey
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: DR Shorey
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: DR Shorey
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: UBT Chand
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: DR Shorey
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: UBT Chand
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: DR Shorey
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: DR Shorey
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: UBT Chand
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: DR Shorey
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: UBT Chand
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Shorey
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: UBT Chand
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Shorey
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: UBT Chand
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Shorey
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: DR Shorey
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: DR Shorey
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: UBT Chand
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: DR Shorey
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: UBT Chand
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Shorey
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: UBT Chand
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Shorey
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: DR Shorey
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: UBT Chand
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Shorey
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: UBT Chand
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DR Shorey
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: UBT Chand
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Shorey
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: UBT Chand
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Shorey
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: UBT Chand
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DR Shorey
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: UBT Chand
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DR Shorey
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: UBT Chand
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DR Shorey
+        wicket:
+          player_out: DR Shorey
+          fielders:
+          - RK Bhui
+          kind: run out
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: UBT Chand
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: UBT Chand
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: N Rana
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: N Rana
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: UBT Chand
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: N Rana
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: UBT Chand
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+        wicket:
+          player_out: N Rana
+          fielders:
+          - KV Sharma
+          kind: caught
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: UBT Chand
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Himmat Singh
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Himmat Singh
+        bowler: GH Vihari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Himmat Singh
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: UBT Chand
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: UBT Chand
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: UBT Chand
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Himmat Singh
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: UBT Chand
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: UBT Chand
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: UBT Chand
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: UBT Chand
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Himmat Singh
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: UBT Chand
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Himmat Singh
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: UBT Chand
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Himmat Singh
+        bowler: KV Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Himmat Singh
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Himmat Singh
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UBT Chand
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: UBT Chand
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: UBT Chand
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himmat Singh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: UBT Chand
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: UBT Chand
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Himmat Singh
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: UBT Chand
+        wicket:
+          player_out: UBT Chand
+          fielders:
+          - RK Bhui
+          kind: caught
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Lalit Yadav
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Himmat Singh
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Lalit Yadav
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Himmat Singh
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Himmat Singh
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Himmat Singh
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Lalit Yadav
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Himmat Singh
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Lalit Yadav
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Lalit Yadav
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Himmat Singh
+        bowler: Shoaib Mohammed Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Himmat Singh
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Lalit Yadav
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Lalit Yadav
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Lalit Yadav
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Himmat Singh
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Lalit Yadav
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himmat Singh
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Lalit Yadav
+        bowler: K V Sasikanth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Himmat Singh
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Lalit Yadav
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Himmat Singh
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+        wicket:
+          player_out: Himmat Singh
+          fielders:
+          - Girinath Reddy
+          kind: run out
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Anuj Rawat
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Lalit Yadav
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Lalit Yadav
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Lalit Yadav
+        bowler: Girinath Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Anuj Rawat
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Lalit Yadav
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Anuj Rawat
+        bowler: Bandaru Ayyappa
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Lalit Yadav
+    - 16.3:
+        actual_delivery: '16.2'
+        non_striker: Anuj Rawat
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Lalit Yadav
+    - 16.4:
+        actual_delivery: '16.3'
+        non_striker: Anuj Rawat
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: Lalit Yadav
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: Anuj Rawat
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Lalit Yadav
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: Anuj Rawat
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Anuj Rawat
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Anuj Rawat
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Lalit Yadav
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Lalit Yadav
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Anuj Rawat
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+        wicket:
+          player_out: Lalit Yadav
+          fielders:
+          - K V Sasikanth
+          kind: caught
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Anuj Rawat
+        bowler: Harishankar Reddy
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: P Negi
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Anuj Rawat
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Negi
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: P Negi
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Anuj Rawat
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Negi
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: P Negi
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+        wicket:
+          player_out: Anuj Rawat
+          fielders:
+          - GH Vihari
+          kind: caught
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Suboth Bhati
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Negi
+        wicket:
+          player_out: P Negi
+          fielders:
+          - Bandaru Ayyappa
+          kind: run out
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Suboth Bhati
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Navdeep Saini
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Navdeep Saini
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suboth Bhati
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Suboth Bhati
+        bowler: Bandaru Ayyappa
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Navdeep Saini
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Navdeep Saini
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Suboth Bhati
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Navdeep Saini
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suboth Bhati
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Suboth Bhati
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Navdeep Saini
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Navdeep Saini
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Navdeep Saini
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suboth Bhati
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Navdeep Saini
+        bowler: Harishankar Reddy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Suboth Bhati
+- 2nd innings:
+    team: Andhra
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Ashwin Hebbar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Ashwin Hebbar
+        bowler: I Sharma
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: GH Vihari
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: Ashwin Hebbar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: GH Vihari
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Ashwin Hebbar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: GH Vihari
+        wicket:
+          player_out: GH Vihari
+          fielders:
+          - Anuj Rawat
+          kind: caught
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Ashwin Hebbar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashanth Kumar
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Prashanth Kumar
+        bowler: I Sharma
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ashwin Hebbar
+    - 0.7:
+        actual_delivery: '0.5'
+        non_striker: Prashanth Kumar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashwin Hebbar
+    - 0.8:
+        actual_delivery: '0.6'
+        non_striker: Prashanth Kumar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashwin Hebbar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Ashwin Hebbar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Ashwin Hebbar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Prashanth Kumar
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Ashwin Hebbar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Prashanth Kumar
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Ashwin Hebbar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashanth Kumar
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Prashanth Kumar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashwin Hebbar
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Prashanth Kumar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Prashanth Kumar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Ashwin Hebbar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Ashwin Hebbar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Ashwin Hebbar
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashanth Kumar
+        wicket:
+          player_out: Prashanth Kumar
+          fielders:
+          - Lalit Yadav
+          kind: caught
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: KS Bharat
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashwin Hebbar
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: KS Bharat
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: KS Bharat
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashwin Hebbar
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: KS Bharat
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashwin Hebbar
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: KS Bharat
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashwin Hebbar
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: KS Bharat
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashwin Hebbar
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: KS Bharat
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Ashwin Hebbar
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Bharat
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: KS Bharat
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Ashwin Hebbar
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Bharat
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: KS Bharat
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashwin Hebbar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: KS Bharat
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Ashwin Hebbar
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Bharat
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: KS Bharat
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ashwin Hebbar
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Ashwin Hebbar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Bharat
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Ashwin Hebbar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Bharat
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Ashwin Hebbar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Bharat
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Ashwin Hebbar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Bharat
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Ashwin Hebbar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KS Bharat
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Ashwin Hebbar
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Bharat
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Ashwin Hebbar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Bharat
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: KS Bharat
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Ashwin Hebbar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Bharat
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: KS Bharat
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Ashwin Hebbar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KS Bharat
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: KS Bharat
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: KS Bharat
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Ashwin Hebbar
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KS Bharat
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Ashwin Hebbar
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Bharat
+        wicket:
+          player_out: KS Bharat
+          fielders:
+          - Anuj Rawat
+          kind: stumped
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Ashwin Hebbar
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Bhui
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: RK Bhui
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashwin Hebbar
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: RK Bhui
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: RK Bhui
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Ashwin Hebbar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Bhui
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Ashwin Hebbar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Bhui
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Ashwin Hebbar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Bhui
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: RK Bhui
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Ashwin Hebbar
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Bhui
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Ashwin Hebbar
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Bhui
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: RK Bhui
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Ashwin Hebbar
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Bhui
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Ashwin Hebbar
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Bhui
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Ashwin Hebbar
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Bhui
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Ashwin Hebbar
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Bhui
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Ashwin Hebbar
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Bhui
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: RK Bhui
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashwin Hebbar
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: RK Bhui
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Ashwin Hebbar
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Bhui
+        wicket:
+          player_out: RK Bhui
+          fielders:
+          - DR Shorey
+          kind: caught
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Girinath Reddy
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashwin Hebbar
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Ashwin Hebbar
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Girinath Reddy
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Ashwin Hebbar
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Girinath Reddy
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Girinath Reddy
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashwin Hebbar
+        wicket:
+          player_out: Ashwin Hebbar
+          fielders:
+          - Himmat Singh
+          kind: caught
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Girinath Reddy
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Mohammed Khan
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Shoaib Mohammed Khan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Girinath Reddy
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Girinath Reddy
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Mohammed Khan
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Shoaib Mohammed Khan
+        bowler: N Rana
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Girinath Reddy
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: Shoaib Mohammed Khan
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Girinath Reddy
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Girinath Reddy
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Girinath Reddy
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Girinath Reddy
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Girinath Reddy
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Mohammed Khan
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Girinath Reddy
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Girinath Reddy
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Girinath Reddy
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Girinath Reddy
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Mohammed Khan
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Girinath Reddy
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Mohammed Khan
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Girinath Reddy
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Mohammed Khan
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Girinath Reddy
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Girinath Reddy
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shoaib Mohammed Khan
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Shoaib Mohammed Khan
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Girinath Reddy
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Shoaib Mohammed Khan
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Girinath Reddy
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Girinath Reddy
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shoaib Mohammed Khan
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Girinath Reddy
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Mohammed Khan
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Shoaib Mohammed Khan
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Girinath Reddy
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Shoaib Mohammed Khan
+        bowler: I Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Girinath Reddy
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Girinath Reddy
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Mohammed Khan
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Girinath Reddy
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Girinath Reddy
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Mohammed Khan
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Girinath Reddy
+        wicket:
+          player_out: Girinath Reddy
+          fielders:
+          - UBT Chand
+          kind: caught
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KV Sharma
+        wicket:
+          player_out: KV Sharma
+          fielders:
+          - P Negi
+          kind: caught
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: K V Sasikanth
+        bowler: Lalit Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Mohammed Khan
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: K V Sasikanth
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Mohammed Khan
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Shoaib Mohammed Khan
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K V Sasikanth
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Shoaib Mohammed Khan
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K V Sasikanth
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: K V Sasikanth
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shoaib Mohammed Khan
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: K V Sasikanth
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Mohammed Khan
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: K V Sasikanth
+        bowler: P Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Mohammed Khan
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K V Sasikanth
+        wicket:
+          player_out: K V Sasikanth
+          kind: bowled
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harishankar Reddy
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harishankar Reddy
+        wicket:
+          player_out: Harishankar Reddy
+          kind: caught and bowled
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bandaru Ayyappa
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Bandaru Ayyappa
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Mohammed Khan
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bandaru Ayyappa
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bandaru Ayyappa
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bandaru Ayyappa
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bandaru Ayyappa
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Bandaru Ayyappa
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shoaib Mohammed Khan
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Bandaru Ayyappa
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shoaib Mohammed Khan
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Bandaru Ayyappa
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Mohammed Khan
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Bandaru Ayyappa
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shoaib Mohammed Khan
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Bandaru Ayyappa
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Shoaib Mohammed Khan
+        bowler: Suboth Bhati
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bandaru Ayyappa
+        wicket:
+          player_out: Bandaru Ayyappa
+          kind: caught and bowled

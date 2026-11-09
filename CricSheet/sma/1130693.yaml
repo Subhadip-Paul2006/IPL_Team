@@ -1,0 +1,2178 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-04'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2018-01-11'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Baroda
+    by:
+      wickets: 8
+  overs: 20
+  players:
+    Saurashtra:
+    - SP Jackson
+    - RV Uthappa
+    - Kishan Parmar M
+    - Vishvaraj Jadeja
+    - PN Mankad
+    - Chirag Jani
+    - Dharmendrasinh Jadeja
+    - JD Unadkat
+    - S Sanandia
+    - Yuvraj Chudasama
+    - K D Patel
+    Baroda:
+    - A Sheth
+    - RT Arothe
+    - LI Meriwala
+    - KH Pandya
+    - Swapnil Singh
+    - DJ Hooda
+    - Soaeb Tai
+    - KH Devdhar
+    - Urvil Patel
+    - AS Karambelkar
+    - Vishnu Solanki
+  registry:
+    people:
+      A Sheth: 4312e8f9
+      AS Karambelkar: '79194080'
+      Chirag Jani: 783e6111
+      DJ Hooda: 73ad96ed
+      Dharmendrasinh Jadeja: d330f9b9
+      JD Unadkat: 1e66c162
+      K D Patel: 76cc7070
+      KH Devdhar: 62e07f92
+      KH Pandya: 5b8c830e
+      Kishan Parmar M: 6fa5314b
+      LI Meriwala: d3611425
+      PN Mankad: 663b5e34
+      RT Arothe: '50455929'
+      RV Uthappa: 1c17e270
+      S Sanandia: 4c7543cf
+      SP Jackson: acc1aeda
+      Soaeb Tai: c915ee65
+      Swapnil Singh: 983f2f61
+      Urvil Patel: cf59b3f0
+      Vishnu Solanki: 2e802011
+      Vishvaraj Jadeja: d30c6f81
+      Yuvraj Chudasama: '20666746'
+    venues:
+      Saurashtra Cricket Association Stadium, Rajkot: 97ce693c
+  teams:
+  - Saurashtra
+  - Baroda
+  toss:
+    winner: Saurashtra
+    decision: bat
+  venue: Saurashtra Cricket Association Stadium, Rajkot
+  team_type: club
+innings:
+- 1st innings:
+    team: Saurashtra
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: RV Uthappa
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SP Jackson
+        wicket:
+          player_out: SP Jackson
+          kind: bowled
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: RV Uthappa
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: RV Uthappa
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: RV Uthappa
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: RV Uthappa
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: RV Uthappa
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Kishan Parmar M
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: RV Uthappa
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kishan Parmar M
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: RV Uthappa
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: RV Uthappa
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: RV Uthappa
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: RV Uthappa
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Kishan Parmar M
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: RV Uthappa
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: RV Uthappa
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+        wicket:
+          player_out: Kishan Parmar M
+          fielders:
+          - AS Karambelkar
+          kind: caught
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: RV Uthappa
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: RV Uthappa
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: RV Uthappa
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Vishvaraj Jadeja
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: RV Uthappa
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Vishvaraj Jadeja
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: RV Uthappa
+        bowler: LI Meriwala
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: RV Uthappa
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Vishvaraj Jadeja
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: RV Uthappa
+        bowler: LI Meriwala
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 3.8:
+        actual_delivery: '3.6'
+        non_striker: RV Uthappa
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishvaraj Jadeja
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Vishvaraj Jadeja
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Uthappa
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Vishvaraj Jadeja
+        bowler: RT Arothe
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 7
+          batsman: 6
+        batsman: RV Uthappa
+    - 4.3:
+        actual_delivery: '4.2'
+        non_striker: Vishvaraj Jadeja
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RV Uthappa
+    - 4.4:
+        actual_delivery: '4.3'
+        non_striker: Vishvaraj Jadeja
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RV Uthappa
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: Vishvaraj Jadeja
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Uthappa
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: Vishvaraj Jadeja
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: RV Uthappa
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Vishvaraj Jadeja
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: RV Uthappa
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Vishvaraj Jadeja
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: RV Uthappa
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Vishvaraj Jadeja
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Uthappa
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Vishvaraj Jadeja
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RV Uthappa
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: RV Uthappa
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Vishvaraj Jadeja
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RV Uthappa
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Vishvaraj Jadeja
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Uthappa
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: RV Uthappa
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: RV Uthappa
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Vishvaraj Jadeja
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Uthappa
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: RV Uthappa
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Vishvaraj Jadeja
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Uthappa
+        wicket:
+          player_out: RV Uthappa
+          fielders:
+          - KH Devdhar
+          kind: caught
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Vishvaraj Jadeja
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PN Mankad
+        wicket:
+          player_out: PN Mankad
+          fielders:
+          - LI Meriwala
+          kind: run out
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Vishvaraj Jadeja
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Vishvaraj Jadeja
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Vishvaraj Jadeja
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Chirag Jani
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Chirag Jani
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishvaraj Jadeja
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Chirag Jani
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Vishvaraj Jadeja
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Vishvaraj Jadeja
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Jani
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Vishvaraj Jadeja
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Chirag Jani
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Vishvaraj Jadeja
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Chirag Jani
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishvaraj Jadeja
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Vishvaraj Jadeja
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+        wicket:
+          player_out: Vishvaraj Jadeja
+          fielders:
+          - DJ Hooda
+          kind: run out
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Chirag Jani
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Dharmendrasinh Jadeja
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Chirag Jani
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dharmendrasinh Jadeja
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Dharmendrasinh Jadeja
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Chirag Jani
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dharmendrasinh Jadeja
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Chirag Jani
+        bowler: DJ Hooda
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Dharmendrasinh Jadeja
+    - 10.4:
+        actual_delivery: '10.3'
+        non_striker: Chirag Jani
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dharmendrasinh Jadeja
+        wicket:
+          player_out: Dharmendrasinh Jadeja
+          fielders:
+          - A Sheth
+          kind: caught
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: JD Unadkat
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: Chirag Jani
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Unadkat
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: Chirag Jani
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Unadkat
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: JD Unadkat
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Chirag Jani
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: JD Unadkat
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Chirag Jani
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: JD Unadkat
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Chirag Jani
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Unadkat
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: JD Unadkat
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Chirag Jani
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Unadkat
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Chirag Jani
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: JD Unadkat
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Jani
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: JD Unadkat
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Chirag Jani
+        bowler: DJ Hooda
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: JD Unadkat
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: Chirag Jani
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Chirag Jani
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JD Unadkat
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Chirag Jani
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: JD Unadkat
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Chirag Jani
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JD Unadkat
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Chirag Jani
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: JD Unadkat
+        bowler: KH Pandya
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Jani
+    - 13.7:
+        actual_delivery: '13.6'
+        non_striker: JD Unadkat
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Chirag Jani
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Unadkat
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Chirag Jani
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: JD Unadkat
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Chirag Jani
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: JD Unadkat
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Jani
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: JD Unadkat
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Jani
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: JD Unadkat
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Jani
+        wicket:
+          player_out: Chirag Jani
+          kind: bowled
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: JD Unadkat
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Sanandia
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: JD Unadkat
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Sanandia
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: S Sanandia
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: JD Unadkat
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Sanandia
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: JD Unadkat
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Sanandia
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: JD Unadkat
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Sanandia
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: JD Unadkat
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: S Sanandia
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: JD Unadkat
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Sanandia
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: S Sanandia
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: JD Unadkat
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Sanandia
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: S Sanandia
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: S Sanandia
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: JD Unadkat
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: S Sanandia
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: JD Unadkat
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Sanandia
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: S Sanandia
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: JD Unadkat
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Sanandia
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: S Sanandia
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JD Unadkat
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: JD Unadkat
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Sanandia
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: S Sanandia
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+        wicket:
+          player_out: S Sanandia
+          fielders:
+          - Vishnu Solanki
+          kind: run out
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: JD Unadkat
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Chudasama
+        wicket:
+          player_out: Yuvraj Chudasama
+          fielders:
+          - Urvil Patel
+          kind: caught
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: JD Unadkat
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: K D Patel
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: JD Unadkat
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: K D Patel
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: JD Unadkat
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K D Patel
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: K D Patel
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JD Unadkat
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: K D Patel
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JD Unadkat
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: K D Patel
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: JD Unadkat
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: K D Patel
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JD Unadkat
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: JD Unadkat
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K D Patel
+        wicket:
+          player_out: JD Unadkat
+          fielders:
+          - Urvil Patel
+          kind: run out
+- 2nd innings:
+    team: Baroda
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Urvil Patel
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: KH Devdhar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: KH Devdhar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: KH Devdhar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Urvil Patel
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Urvil Patel
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: KH Devdhar
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Urvil Patel
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: KH Devdhar
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Urvil Patel
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: KH Devdhar
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Urvil Patel
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Urvil Patel
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Devdhar
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Urvil Patel
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Urvil Patel
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Urvil Patel
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Urvil Patel
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: KH Devdhar
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: KH Devdhar
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: KH Devdhar
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Urvil Patel
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Urvil Patel
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Urvil Patel
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: KH Devdhar
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+        wicket:
+          player_out: Urvil Patel
+          fielders:
+          - Kishan Parmar M
+          kind: caught
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: KH Pandya
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: KH Devdhar
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: KH Pandya
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: KH Pandya
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: KH Devdhar
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: KH Devdhar
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: KH Pandya
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: KH Pandya
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: KH Pandya
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: KH Devdhar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Pandya
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: KH Devdhar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: KH Devdhar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: KH Devdhar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: KH Pandya
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: KH Devdhar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: KH Pandya
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: KH Pandya
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: KH Devdhar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: KH Pandya
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: KH Devdhar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: KH Devdhar
+        bowler: Yuvraj Chudasama
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: KH Pandya
+        bowler: Yuvraj Chudasama
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: KH Devdhar
+        bowler: Yuvraj Chudasama
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: KH Devdhar
+        bowler: Yuvraj Chudasama
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: KH Pandya
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: KH Pandya
+        bowler: Yuvraj Chudasama
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: KH Pandya
+        bowler: Yuvraj Chudasama
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: KH Devdhar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Pandya
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: KH Devdhar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KH Pandya
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: KH Devdhar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: KH Devdhar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: KH Pandya
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: KH Pandya
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: KH Pandya
+        bowler: Yuvraj Chudasama
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: KH Pandya
+        bowler: Yuvraj Chudasama
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: KH Pandya
+        bowler: Yuvraj Chudasama
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: KH Pandya
+        bowler: Yuvraj Chudasama
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: KH Devdhar
+        bowler: Yuvraj Chudasama
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: KH Pandya
+        bowler: Yuvraj Chudasama
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: KH Pandya
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: KH Pandya
+        bowler: Chirag Jani
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KH Devdhar
+    - 10.3:
+        actual_delivery: '10.2'
+        non_striker: KH Pandya
+        bowler: Chirag Jani
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KH Devdhar
+    - 10.4:
+        actual_delivery: '10.3'
+        non_striker: KH Devdhar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: KH Devdhar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: KH Devdhar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+        wicket:
+          player_out: KH Pandya
+          kind: caught and bowled
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: KH Devdhar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: KH Devdhar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Hooda
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: KH Devdhar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: KH Devdhar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: DJ Hooda
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: KH Devdhar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: KH Devdhar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: KH Devdhar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: KH Devdhar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: DJ Hooda
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: KH Devdhar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: DJ Hooda
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: DJ Hooda
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: KH Devdhar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: KH Devdhar
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: KH Devdhar
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Hooda
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: KH Devdhar
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: DJ Hooda
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: KH Devdhar
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: KH Devdhar
+        bowler: K D Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: DJ Hooda
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: KH Devdhar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: DJ Hooda
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: DJ Hooda
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: DJ Hooda
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KH Devdhar
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: DJ Hooda
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: DJ Hooda
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: KH Devdhar
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: DJ Hooda
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Devdhar
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: DJ Hooda
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: KH Devdhar
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: DJ Hooda
+        bowler: S Sanandia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: DJ Hooda
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: KH Devdhar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: KH Devdhar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda

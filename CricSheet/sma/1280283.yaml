@@ -1,0 +1,2390 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-21'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-11-09'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Gujarat
+    by:
+      wickets: 5
+  overs: 20
+  players:
+    Bihar:
+    - Bipin Saurabh
+    - Kumar Rajnish
+    - Mangal Mahrour
+    - Babul Kumar
+    - S Gani
+    - Pratyush Singh
+    - Suraj Kashyap
+    - Ashutosh Aman
+    - Harsh Vikram Singh
+    - Anunay Singh
+    - Abhijeet Saket
+    Gujarat:
+    - A Nagwaswalla
+    - Chintan Gaja
+    - Tejas Patel
+    - PP Chawla
+    - HP Patel
+    - RV Patel
+    - Priyank Panchal
+    - Saurav Chauhan
+    - Urvil Patel
+    - Het Patel
+    - Chirag Gandhi
+  registry:
+    people:
+      A Nagwaswalla: 01ada0ed
+      Abhijeet Saket: 5fd3f9db
+      Anunay Singh: a3350945
+      Ashutosh Aman: 4948a916
+      Babul Kumar: 85e6ccde
+      Bipin Saurabh: 4cb5e3d1
+      Chintan Gaja: 63bfb5fc
+      Chirag Gandhi: 35eb75af
+      HP Patel: 8254ea06
+      Harsh Vikram Singh: 63ab7aeb
+      Het Patel: f543b251
+      Kumar Rajnish: 2057b225
+      Mangal Mahrour: 97c06e86
+      PP Chawla: 98ae73b1
+      Pratyush Singh: 456af189
+      Priyank Panchal: ebf25cf2
+      RV Patel: '60500956'
+      S Gani: 2ada2d82
+      Saurav Chauhan: 9e7225b0
+      Suraj Kashyap: 5f119c74
+      Tejas Patel: 76ed445f
+      Urvil Patel: cf59b3f0
+    venues:
+      Arun Jaitley Stadium: eef26f35
+  teams:
+  - Bihar
+  - Gujarat
+  toss:
+    winner: Gujarat
+    decision: field
+  venue: Arun Jaitley Stadium
+  team_type: club
+innings:
+- 1st innings:
+    team: Bihar
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Kumar Rajnish
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bipin Saurabh
+        wicket:
+          player_out: Bipin Saurabh
+          kind: bowled
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Kumar Rajnish
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kumar Rajnish
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kumar Rajnish
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kumar Rajnish
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        extras:
+          legbyes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Kumar Rajnish
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Kumar Rajnish
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Kumar Rajnish
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mangal Mahrour
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Kumar Rajnish
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Kumar Rajnish
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Kumar Rajnish
+        bowler: Chintan Gaja
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Kumar Rajnish
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Mangal Mahrour
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Kumar Rajnish
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kumar Rajnish
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kumar Rajnish
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kumar Rajnish
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kumar Rajnish
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kumar Rajnish
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kumar Rajnish
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Mangal Mahrour
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kumar Rajnish
+        wicket:
+          player_out: Kumar Rajnish
+          kind: lbw
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Mangal Mahrour
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babul Kumar
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Mangal Mahrour
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babul Kumar
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Mangal Mahrour
+        bowler: Tejas Patel
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Babul Kumar
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Mangal Mahrour
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Babul Kumar
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Mangal Mahrour
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Babul Kumar
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Babul Kumar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babul Kumar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Babul Kumar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Babul Kumar
+    - 4.4:
+        actual_delivery: '4.3'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Babul Kumar
+        wicket:
+          player_out: Babul Kumar
+          kind: retired hurt
+    - 4.5:
+        actual_delivery: '4.3'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Gani
+    - 4.6:
+        actual_delivery: '4.4'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: S Gani
+    - 4.7:
+        actual_delivery: '4.5'
+        non_striker: S Gani
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 4.8:
+        actual_delivery: '4.6'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Gani
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: S Gani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: S Gani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: S Gani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: S Gani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mangal Mahrour
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: S Gani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mangal Mahrour
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: S Gani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Mangal Mahrour
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Gani
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: S Gani
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: S Gani
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: S Gani
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: S Gani
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mangal Mahrour
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: S Gani
+        bowler: Chintan Gaja
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: S Gani
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Mangal Mahrour
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Gani
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Mangal Mahrour
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Gani
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Mangal Mahrour
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Gani
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: S Gani
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Mangal Mahrour
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Gani
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: S Gani
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Gani
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Gani
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Gani
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: S Gani
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Gani
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Gani
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: S Gani
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Mangal Mahrour
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Gani
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: S Gani
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Mangal Mahrour
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Gani
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: S Gani
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mangal Mahrour
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: S Gani
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Gani
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Gani
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: S Gani
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Gani
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Gani
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: S Gani
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Mangal Mahrour
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Gani
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: S Gani
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Mangal Mahrour
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Gani
+        wicket:
+          player_out: S Gani
+          fielders:
+          - Het Patel
+          kind: caught
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Mangal Mahrour
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratyush Singh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Mangal Mahrour
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratyush Singh
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Mangal Mahrour
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratyush Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Pratyush Singh
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mangal Mahrour
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Pratyush Singh
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Pratyush Singh
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Mangal Mahrour
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratyush Singh
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Mangal Mahrour
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratyush Singh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Pratyush Singh
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Pratyush Singh
+        bowler: RV Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mangal Mahrour
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Pratyush Singh
+        bowler: RV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+        wicket:
+          player_out: Pratyush Singh
+          fielders:
+          - A Nagwaswalla
+          kind: run out
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Mangal Mahrour
+        bowler: RV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Kashyap
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Mangal Mahrour
+        bowler: RV Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Suraj Kashyap
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Mangal Mahrour
+        bowler: RV Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Kashyap
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Mangal Mahrour
+        bowler: RV Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suraj Kashyap
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Kashyap
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Kashyap
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Kashyap
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suraj Kashyap
+        wicket:
+          player_out: Suraj Kashyap
+          fielders:
+          - Het Patel
+          kind: stumped
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Mangal Mahrour
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Ashutosh Aman
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Mangal Mahrour
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Ashutosh Aman
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Ashutosh Aman
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Mangal Mahrour
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Mangal Mahrour
+        bowler: PP Chawla
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: Mangal Mahrour
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Ashutosh Aman
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Ashutosh Aman
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Mangal Mahrour
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Mangal Mahrour
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Mangal Mahrour
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Mangal Mahrour
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ashutosh Aman
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Ashutosh Aman
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Ashutosh Aman
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Mangal Mahrour
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+        wicket:
+          player_out: Ashutosh Aman
+          fielders:
+          - Priyank Panchal
+          kind: caught
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Harsh Vikram Singh
+        bowler: Tejas Patel
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Harsh Vikram Singh
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mangal Mahrour
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Harsh Vikram Singh
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mangal Mahrour
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: Harsh Vikram Singh
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Harsh Vikram Singh
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mangal Mahrour
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Harsh Vikram Singh
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Mangal Mahrour
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harsh Vikram Singh
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Harsh Vikram Singh
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Mangal Mahrour
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harsh Vikram Singh
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Harsh Vikram Singh
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harsh Vikram Singh
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Harsh Vikram Singh
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Harsh Vikram Singh
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Mangal Mahrour
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harsh Vikram Singh
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Harsh Vikram Singh
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mangal Mahrour
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Harsh Vikram Singh
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mangal Mahrour
+- 2nd innings:
+    team: Gujarat
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Saurav Chauhan
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Saurav Chauhan
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+        wicket:
+          player_out: Priyank Panchal
+          fielders:
+          - Pratyush Singh
+          kind: caught
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Urvil Patel
+        bowler: Abhijeet Saket
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Urvil Patel
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Urvil Patel
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Urvil Patel
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Saurav Chauhan
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Saurav Chauhan
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Saurav Chauhan
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Saurav Chauhan
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Saurav Chauhan
+        bowler: Anunay Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Urvil Patel
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Urvil Patel
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Saurav Chauhan
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Saurav Chauhan
+        bowler: Abhijeet Saket
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Urvil Patel
+    - 2.2:
+        actual_delivery: '2.1'
+        non_striker: Saurav Chauhan
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 2.3:
+        actual_delivery: '2.2'
+        non_striker: Saurav Chauhan
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Urvil Patel
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: Saurav Chauhan
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: Urvil Patel
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saurav Chauhan
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: Urvil Patel
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Urvil Patel
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Saurav Chauhan
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Saurav Chauhan
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Urvil Patel
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+        wicket:
+          player_out: Saurav Chauhan
+          fielders:
+          - Pratyush Singh
+          kind: caught
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Urvil Patel
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Het Patel
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Het Patel
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Het Patel
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Het Patel
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Urvil Patel
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Urvil Patel
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Urvil Patel
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Het Patel
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Urvil Patel
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Het Patel
+        bowler: Anunay Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Urvil Patel
+    - 5.2:
+        actual_delivery: '5.1'
+        non_striker: Het Patel
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 5.3:
+        actual_delivery: '5.2'
+        non_striker: Urvil Patel
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 5.4:
+        actual_delivery: '5.3'
+        non_striker: Urvil Patel
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: Urvil Patel
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Het Patel
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: Urvil Patel
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: Het Patel
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Urvil Patel
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Het Patel
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+        wicket:
+          player_out: Urvil Patel
+          kind: lbw
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Het Patel
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: RV Patel
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: RV Patel
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: RV Patel
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Het Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: RV Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: RV Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Het Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Patel
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Het Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Patel
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Het Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Het Patel
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Patel
+        wicket:
+          player_out: RV Patel
+          fielders:
+          - Mangal Mahrour
+          kind: caught
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Chirag Gandhi
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Chirag Gandhi
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Chirag Gandhi
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Het Patel
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Het Patel
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Chirag Gandhi
+        bowler: Harsh Vikram Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Het Patel
+    - 9.2:
+        actual_delivery: '9.1'
+        non_striker: Chirag Gandhi
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 9.3:
+        actual_delivery: '9.2'
+        non_striker: Chirag Gandhi
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 9.4:
+        actual_delivery: '9.3'
+        non_striker: Het Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 9.5:
+        actual_delivery: '9.4'
+        non_striker: Het Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+        wicket:
+          player_out: Chirag Gandhi
+          kind: bowled
+    - 9.6:
+        actual_delivery: '9.5'
+        non_striker: Het Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 9.7:
+        actual_delivery: '9.6'
+        non_striker: Het Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: PP Chawla
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Het Patel
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: PP Chawla
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Het Patel
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Het Patel
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Chawla
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Het Patel
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: PP Chawla
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: PP Chawla
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: PP Chawla
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: PP Chawla
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: PP Chawla
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Het Patel
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Het Patel
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: PP Chawla
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Het Patel
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: PP Chawla
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Het Patel
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: PP Chawla
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Het Patel
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: PP Chawla
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Het Patel
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Het Patel
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PP Chawla
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Het Patel
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: PP Chawla
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: PP Chawla
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: PP Chawla
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Het Patel
+        bowler: Suraj Kashyap
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: PP Chawla
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: PP Chawla
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: PP Chawla
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Het Patel
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Het Patel
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: PP Chawla
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: PP Chawla
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Het Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: PP Chawla
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: PP Chawla
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Het Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: PP Chawla
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Het Patel
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: PP Chawla
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Het Patel
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: PP Chawla
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: PP Chawla
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Het Patel
+        bowler: Suraj Kashyap
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Het Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Chawla
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Het Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: PP Chawla
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Het Patel
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: PP Chawla
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Het Patel
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: PP Chawla
+        bowler: Harsh Vikram Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: PP Chawla
+        bowler: Abhijeet Saket
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Het Patel
+    - 18.2:
+        actual_delivery: '18.1'
+        non_striker: PP Chawla
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 18.3:
+        actual_delivery: '18.2'
+        non_striker: PP Chawla
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: Het Patel
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: PP Chawla
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: PP Chawla
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: Het Patel
+        bowler: Abhijeet Saket
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PP Chawla
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: PP Chawla
+        bowler: Anunay Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Het Patel

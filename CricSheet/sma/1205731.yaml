@@ -1,0 +1,1659 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-01'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-11-08'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Saurashtra
+    by:
+      wickets: 9
+  overs: 20
+  players:
+    Nagaland:
+    - AN Longchar
+    - YV Takawale
+    - Rongsen Jonathan
+    - STR Binny
+    - Nagaho Chishi
+    - SS Mundhe
+    - Hokaito Zhimomi
+    - Imliwati Lemtur
+    - Tahmeed Rahman
+    - Moakumzuk Tzudir
+    - Mughavi Wotsa
+    Saurashtra:
+    - JD Unadkat
+    - C Sakariya
+    - Chirag Jani
+    - Dharmendrasinh Jadeja
+    - Parth Chauhan
+    - Jay Chauhan
+    - Arpit Vasavada
+    - H Desai
+    - Kishan Parmar M
+    - Samarth Vyas
+    - SP Jackson
+  registry:
+    people:
+      AN Longchar: 04cd8289
+      Arpit Vasavada: 2bbab579
+      C Sakariya: 2cdce1be
+      Chirag Jani: 783e6111
+      Dharmendrasinh Jadeja: d330f9b9
+      H Desai: 9c86350f
+      Hokaito Zhimomi: '96477053'
+      Imliwati Lemtur: 76a33e00
+      JD Unadkat: 1e66c162
+      Jay Chauhan: c2468df1
+      Kishan Parmar M: 6fa5314b
+      Moakumzuk Tzudir: dcb0fe34
+      Mughavi Wotsa: f45e828c
+      Nagaho Chishi: 5b4d1d4e
+      Parth Chauhan: c7375760
+      Rongsen Jonathan: d4753890
+      SP Jackson: acc1aeda
+      SS Mundhe: 0af3426f
+      STR Binny: bd17b45f
+      Samarth Vyas: 34819e70
+      Tahmeed Rahman: 13903f13
+      YV Takawale: 4e04666c
+    venues:
+      CB Patel International Cricket Stadium, Surat: a8d90b2d
+  teams:
+  - Nagaland
+  - Saurashtra
+  toss:
+    winner: Saurashtra
+    decision: field
+  venue: CB Patel International Cricket Stadium, Surat
+  team_type: club
+innings:
+- 1st innings:
+    team: Nagaland
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: YV Takawale
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: YV Takawale
+        bowler: JD Unadkat
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AN Longchar
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: AN Longchar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Takawale
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: AN Longchar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YV Takawale
+        wicket:
+          player_out: YV Takawale
+          kind: bowled
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: AN Longchar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: AN Longchar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Rongsen Jonathan
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Rongsen Jonathan
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Rongsen Jonathan
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Rongsen Jonathan
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Rongsen Jonathan
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Rongsen Jonathan
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: AN Longchar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: AN Longchar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: AN Longchar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: AN Longchar
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Rongsen Jonathan
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Rongsen Jonathan
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: AN Longchar
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: AN Longchar
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rongsen Jonathan
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: AN Longchar
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: AN Longchar
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: AN Longchar
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Rongsen Jonathan
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: AN Longchar
+        bowler: Chirag Jani
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 4.2:
+        actual_delivery: '4.1'
+        non_striker: AN Longchar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 4.3:
+        actual_delivery: '4.2'
+        non_striker: AN Longchar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 4.4:
+        actual_delivery: '4.3'
+        non_striker: AN Longchar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: Rongsen Jonathan
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: Rongsen Jonathan
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Longchar
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: AN Longchar
+        bowler: Chirag Jani
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Rongsen Jonathan
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Longchar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: AN Longchar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: AN Longchar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Rongsen Jonathan
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Longchar
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: AN Longchar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Rongsen Jonathan
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: AN Longchar
+        bowler: Parth Chauhan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 6.2:
+        actual_delivery: '6.1'
+        non_striker: AN Longchar
+        bowler: Parth Chauhan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 6.3:
+        actual_delivery: '6.1'
+        non_striker: AN Longchar
+        bowler: Parth Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+        wicket:
+          player_out: Rongsen Jonathan
+          fielders:
+          - Dharmendrasinh Jadeja
+          kind: caught
+    - 6.4:
+        actual_delivery: '6.2'
+        non_striker: STR Binny
+        bowler: Parth Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 6.5:
+        actual_delivery: '6.3'
+        non_striker: STR Binny
+        bowler: Parth Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 6.6:
+        actual_delivery: '6.4'
+        non_striker: STR Binny
+        bowler: Parth Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 6.7:
+        actual_delivery: '6.5'
+        non_striker: STR Binny
+        bowler: Parth Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 6.8:
+        actual_delivery: '6.6'
+        non_striker: STR Binny
+        bowler: Parth Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: AN Longchar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: STR Binny
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Longchar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: AN Longchar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: AN Longchar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: AN Longchar
+        bowler: Dharmendrasinh Jadeja
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: STR Binny
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: AN Longchar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: AN Longchar
+        bowler: Dharmendrasinh Jadeja
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: STR Binny
+    - 7.8:
+        actual_delivery: '7.6'
+        non_striker: AN Longchar
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: AN Longchar
+        bowler: Parth Chauhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: STR Binny
+        bowler: Parth Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: STR Binny
+        bowler: Parth Chauhan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AN Longchar
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: STR Binny
+        bowler: Parth Chauhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Longchar
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: AN Longchar
+        bowler: Parth Chauhan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: STR Binny
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: AN Longchar
+        bowler: Parth Chauhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: STR Binny
+        bowler: Parth Chauhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AN Longchar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: STR Binny
+        bowler: Jay Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AN Longchar
+        wicket:
+          player_out: AN Longchar
+          fielders:
+          - H Desai
+          kind: stumped
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: STR Binny
+        bowler: Jay Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nagaho Chishi
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: STR Binny
+        bowler: Jay Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nagaho Chishi
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: STR Binny
+        bowler: Jay Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nagaho Chishi
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: STR Binny
+        bowler: Jay Chauhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nagaho Chishi
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Nagaho Chishi
+        bowler: Jay Chauhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Nagaho Chishi
+        bowler: Arpit Vasavada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Nagaho Chishi
+        bowler: Arpit Vasavada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Nagaho Chishi
+        bowler: Arpit Vasavada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: STR Binny
+        wicket:
+          player_out: STR Binny
+          kind: hit wicket
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Nagaho Chishi
+        bowler: Arpit Vasavada
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SS Mundhe
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Nagaho Chishi
+        bowler: Arpit Vasavada
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: SS Mundhe
+        bowler: Arpit Vasavada
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nagaho Chishi
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Nagaho Chishi
+        bowler: Jay Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Nagaho Chishi
+        bowler: Jay Chauhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: SS Mundhe
+        bowler: Jay Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nagaho Chishi
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: SS Mundhe
+        bowler: Jay Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nagaho Chishi
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: SS Mundhe
+        bowler: Jay Chauhan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nagaho Chishi
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: SS Mundhe
+        bowler: Jay Chauhan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nagaho Chishi
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: SS Mundhe
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nagaho Chishi
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: SS Mundhe
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nagaho Chishi
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: SS Mundhe
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nagaho Chishi
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: SS Mundhe
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nagaho Chishi
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Nagaho Chishi
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: SS Mundhe
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nagaho Chishi
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: SS Mundhe
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nagaho Chishi
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Nagaho Chishi
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: SS Mundhe
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nagaho Chishi
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: SS Mundhe
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Nagaho Chishi
+        wicket:
+          player_out: Nagaho Chishi
+          kind: bowled
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: SS Mundhe
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: SS Mundhe
+        bowler: C Sakariya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hokaito Zhimomi
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: SS Mundhe
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hokaito Zhimomi
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Hokaito Zhimomi
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Mundhe
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: SS Mundhe
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: SS Mundhe
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hokaito Zhimomi
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Hokaito Zhimomi
+        bowler: JD Unadkat
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SS Mundhe
+    - 14.6:
+        actual_delivery: '14.5'
+        non_striker: Hokaito Zhimomi
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SS Mundhe
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: Hokaito Zhimomi
+        bowler: JD Unadkat
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Mundhe
+        wicket:
+          player_out: SS Mundhe
+          fielders:
+          - Samarth Vyas
+          kind: caught
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Hokaito Zhimomi
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Imliwati Lemtur
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Hokaito Zhimomi
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imliwati Lemtur
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Imliwati Lemtur
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hokaito Zhimomi
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Imliwati Lemtur
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hokaito Zhimomi
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Hokaito Zhimomi
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Imliwati Lemtur
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Hokaito Zhimomi
+        bowler: Dharmendrasinh Jadeja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Imliwati Lemtur
+- 2nd innings:
+    team: Saurashtra
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Kishan Parmar M
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Kishan Parmar M
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Kishan Parmar M
+        bowler: STR Binny
+        extras:
+          legbyes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: H Desai
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Kishan Parmar M
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Kishan Parmar M
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Kishan Parmar M
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: H Desai
+        bowler: SS Mundhe
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 1.2:
+        actual_delivery: '1.1'
+        non_striker: H Desai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: H Desai
+        bowler: SS Mundhe
+        extras:
+          legbyes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: H Desai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: H Desai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: H Desai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kishan Parmar M
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: H Desai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Parmar M
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: H Desai
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: H Desai
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: H Desai
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kishan Parmar M
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: H Desai
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: H Desai
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: H Desai
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Parmar M
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: H Desai
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kishan Parmar M
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: H Desai
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Parmar M
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Kishan Parmar M
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: H Desai
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Kishan Parmar M
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Kishan Parmar M
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: H Desai
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Kishan Parmar M
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: H Desai
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: H Desai
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kishan Parmar M
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: H Desai
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: H Desai
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: H Desai
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kishan Parmar M
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Kishan Parmar M
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: H Desai
+        bowler: SS Mundhe
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kishan Parmar M
+    - 5.2:
+        actual_delivery: '5.1'
+        non_striker: H Desai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Parmar M
+        wicket:
+          player_out: Kishan Parmar M
+          kind: bowled
+    - 5.3:
+        actual_delivery: '5.2'
+        non_striker: H Desai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Vyas
+    - 5.4:
+        actual_delivery: '5.3'
+        non_striker: H Desai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Vyas
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: H Desai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Samarth Vyas
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: H Desai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Vyas
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: H Desai
+        bowler: SS Mundhe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Vyas
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Samarth Vyas
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Samarth Vyas
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Samarth Vyas
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: H Desai
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Samarth Vyas
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Samarth Vyas
+        bowler: Imliwati Lemtur
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: H Desai
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: Samarth Vyas
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Desai
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: H Desai
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Vyas
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: H Desai
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Vyas
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Samarth Vyas
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Samarth Vyas
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Desai
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: H Desai
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Vyas
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: H Desai
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Vyas
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: H Desai
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Samarth Vyas
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Samarth Vyas
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Desai
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: H Desai
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Vyas
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: H Desai
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Samarth Vyas
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: H Desai
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Vyas
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Samarth Vyas
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Samarth Vyas
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Desai
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Samarth Vyas
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Desai
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: H Desai
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Vyas
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Samarth Vyas
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Desai
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: H Desai
+        bowler: Tahmeed Rahman
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Samarth Vyas
+    - 9.5:
+        actual_delivery: '9.4'
+        non_striker: H Desai
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Vyas
+    - 9.6:
+        actual_delivery: '9.5'
+        non_striker: Samarth Vyas
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: H Desai
+    - 9.7:
+        actual_delivery: '9.6'
+        non_striker: Samarth Vyas
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Desai
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Samarth Vyas
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: H Desai
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: H Desai
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Samarth Vyas

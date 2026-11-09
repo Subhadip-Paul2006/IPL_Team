@@ -1,0 +1,2267 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-21'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-11-04'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Delhi
+    by:
+      runs: 35
+  overs: 20
+  players:
+    Delhi:
+    - Priyansh Arya
+    - Anuj Rawat
+    - Himmat Singh
+    - N Rana
+    - Kshitiz Sharma
+    - Lalit Yadav
+    - Shivank Vashisth
+    - PJ Sangwan
+    - Deepak Punia
+    - Navdeep Saini
+    - Simarjeet Singh
+    Uttarakhand:
+    - Ankit Manori
+    - Akash Madhwal
+    - Nikhil Kohli
+    - Swapnil Singh
+    - Mayank Mishra
+    - Dikshanshu Negi
+    - Jay Bista
+    - Kunal Chandela
+    - Robin Bist
+    - Saurabh Rawat
+    - Vijay Jethi
+  registry:
+    people:
+      Akash Madhwal: 4bd09374
+      Ankit Manori: 9983bb4e
+      Anuj Rawat: c8f5f961
+      Deepak Punia: 5a004050
+      Dikshanshu Negi: 1f3febed
+      Himmat Singh: ebcfef83
+      Jay Bista: f079e8fe
+      Kshitiz Sharma: c910e89d
+      Kunal Chandela: d38c03d4
+      Lalit Yadav: ad427b5c
+      Mayank Mishra: de00b96c
+      N Rana: fb2d1dda
+      Navdeep Saini: 21d4e29b
+      Nikhil Kohli: 17f03e69
+      PJ Sangwan: 9fc0ef64
+      Priyansh Arya: b5797845
+      Robin Bist: bc761d00
+      Saurabh Rawat: 839b6d2e
+      Shivank Vashisth: 3a922344
+      Simarjeet Singh: 30df8c66
+      Swapnil Singh: 983f2f61
+      Vijay Jethi: f45d6e23
+    venues:
+      CH Bansi Lal Cricket Stadium, Lahli, Rohtak: ffa60819
+  teams:
+  - Delhi
+  - Uttarakhand
+  toss:
+    winner: Uttarakhand
+    decision: field
+  venue: CH Bansi Lal Cricket Stadium, Lahli, Rohtak
+  team_type: club
+innings:
+- 1st innings:
+    team: Delhi
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Anuj Rawat
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Anuj Rawat
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyansh Arya
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Anuj Rawat
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Anuj Rawat
+        bowler: Ankit Manori
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Priyansh Arya
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Anuj Rawat
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Anuj Rawat
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyansh Arya
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Anuj Rawat
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyansh Arya
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Anuj Rawat
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Anuj Rawat
+        bowler: Akash Madhwal
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Priyansh Arya
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: Anuj Rawat
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyansh Arya
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Anuj Rawat
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Anuj Rawat
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Anuj Rawat
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Anuj Rawat
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Priyansh Arya
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anuj Rawat
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Anuj Rawat
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Priyansh Arya
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Anuj Rawat
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Anuj Rawat
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyansh Arya
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Anuj Rawat
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyansh Arya
+        wicket:
+          player_out: Priyansh Arya
+          fielders:
+          - Mayank Mishra
+          kind: caught
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Anuj Rawat
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Himmat Singh
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anuj Rawat
+        wicket:
+          player_out: Anuj Rawat
+          fielders:
+          - Saurabh Rawat
+          kind: caught
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Himmat Singh
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Himmat Singh
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Himmat Singh
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: N Rana
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Himmat Singh
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Rana
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Himmat Singh
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Rana
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: N Rana
+        bowler: Ankit Manori
+        extras:
+          legbyes: 4
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        batsman: Himmat Singh
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: N Rana
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Himmat Singh
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Himmat Singh
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Himmat Singh
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Rana
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Himmat Singh
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: N Rana
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Himmat Singh
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+        wicket:
+          player_out: N Rana
+          fielders:
+          - Saurabh Rawat
+          kind: caught
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Himmat Singh
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Himmat Singh
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Himmat Singh
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Himmat Singh
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Kshitiz Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Kshitiz Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Himmat Singh
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Himmat Singh
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Himmat Singh
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Himmat Singh
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kshitiz Sharma
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Kshitiz Sharma
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Kshitiz Sharma
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Kshitiz Sharma
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Himmat Singh
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Himmat Singh
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Himmat Singh
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Kshitiz Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Himmat Singh
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Himmat Singh
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Himmat Singh
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kshitiz Sharma
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Kshitiz Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Kshitiz Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Kshitiz Sharma
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Kshitiz Sharma
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Himmat Singh
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kshitiz Sharma
+        wicket:
+          player_out: Kshitiz Sharma
+          kind: caught and bowled
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Himmat Singh
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Lalit Yadav
+        wicket:
+          player_out: Lalit Yadav
+          kind: caught and bowled
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Himmat Singh
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivank Vashisth
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Himmat Singh
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivank Vashisth
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Shivank Vashisth
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Shivank Vashisth
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Shivank Vashisth
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Himmat Singh
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivank Vashisth
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Shivank Vashisth
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Himmat Singh
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivank Vashisth
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Himmat Singh
+        bowler: Dikshanshu Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivank Vashisth
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Shivank Vashisth
+        bowler: Dikshanshu Negi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himmat Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Shivank Vashisth
+        bowler: Dikshanshu Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Himmat Singh
+        bowler: Dikshanshu Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivank Vashisth
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Himmat Singh
+        bowler: Dikshanshu Negi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivank Vashisth
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Shivank Vashisth
+        bowler: Dikshanshu Negi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Himmat Singh
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivank Vashisth
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Shivank Vashisth
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Shivank Vashisth
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Himmat Singh
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivank Vashisth
+        wicket:
+          player_out: Shivank Vashisth
+          fielders:
+          - Saurabh Rawat
+          kind: stumped
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Himmat Singh
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PJ Sangwan
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Himmat Singh
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PJ Sangwan
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: PJ Sangwan
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Himmat Singh
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PJ Sangwan
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Himmat Singh
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PJ Sangwan
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: PJ Sangwan
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Himmat Singh
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PJ Sangwan
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: PJ Sangwan
+        bowler: Ankit Manori
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Himmat Singh
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Himmat Singh
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PJ Sangwan
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: PJ Sangwan
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: PJ Sangwan
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Himmat Singh
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PJ Sangwan
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Himmat Singh
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PJ Sangwan
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: PJ Sangwan
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Himmat Singh
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PJ Sangwan
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Himmat Singh
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PJ Sangwan
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: PJ Sangwan
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: PJ Sangwan
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: PJ Sangwan
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himmat Singh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Himmat Singh
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PJ Sangwan
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: PJ Sangwan
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himmat Singh
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: PJ Sangwan
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himmat Singh
+        wicket:
+          player_out: Himmat Singh
+          kind: lbw
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: PJ Sangwan
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepak Punia
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: PJ Sangwan
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepak Punia
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: PJ Sangwan
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Deepak Punia
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Deepak Punia
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PJ Sangwan
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: PJ Sangwan
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Deepak Punia
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Deepak Punia
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PJ Sangwan
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: PJ Sangwan
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepak Punia
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: PJ Sangwan
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepak Punia
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: PJ Sangwan
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Deepak Punia
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: PJ Sangwan
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Deepak Punia
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Deepak Punia
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PJ Sangwan
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: PJ Sangwan
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepak Punia
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: PJ Sangwan
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepak Punia
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: PJ Sangwan
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Deepak Punia
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Deepak Punia
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PJ Sangwan
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Deepak Punia
+        bowler: Akash Madhwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PJ Sangwan
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Deepak Punia
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PJ Sangwan
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: PJ Sangwan
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Deepak Punia
+        wicket:
+          player_out: Deepak Punia
+          fielders:
+          - Vijay Jethi
+          kind: caught
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Navdeep Saini
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PJ Sangwan
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Navdeep Saini
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PJ Sangwan
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Navdeep Saini
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PJ Sangwan
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Navdeep Saini
+        bowler: Nikhil Kohli
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PJ Sangwan
+- 2nd innings:
+    team: Uttarakhand
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Kunal Chandela
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Kunal Chandela
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jay Bista
+        wicket:
+          player_out: Jay Bista
+          fielders:
+          - Lalit Yadav
+          kind: caught
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Kunal Chandela
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Kunal Chandela
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Kunal Chandela
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Robin Bist
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Kunal Chandela
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Robin Bist
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Robin Bist
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Chandela
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Robin Bist
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Chandela
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Robin Bist
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Chandela
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Robin Bist
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Chandela
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Robin Bist
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Chandela
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Robin Bist
+        bowler: Navdeep Saini
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kunal Chandela
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Robin Bist
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kunal Chandela
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Kunal Chandela
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Kunal Chandela
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Robin Bist
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Kunal Chandela
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Kunal Chandela
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Kunal Chandela
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Robin Bist
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Robin Bist
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Chandela
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Robin Bist
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Chandela
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Robin Bist
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Chandela
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Robin Bist
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Chandela
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Kunal Chandela
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Kunal Chandela
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Kunal Chandela
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Robin Bist
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Kunal Chandela
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Robin Bist
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Robin Bist
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Chandela
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Robin Bist
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Chandela
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Robin Bist
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kunal Chandela
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Robin Bist
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Chandela
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Robin Bist
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Chandela
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Kunal Chandela
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Robin Bist
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Kunal Chandela
+        bowler: Deepak Punia
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Robin Bist
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Robin Bist
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Chandela
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Robin Bist
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Chandela
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Robin Bist
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kunal Chandela
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Kunal Chandela
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Robin Bist
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kunal Chandela
+        wicket:
+          player_out: Kunal Chandela
+          fielders:
+          - Anuj Rawat
+          kind: caught
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Robin Bist
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Dikshanshu Negi
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Robin Bist
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dikshanshu Negi
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Robin Bist
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dikshanshu Negi
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Robin Bist
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dikshanshu Negi
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Dikshanshu Negi
+        bowler: Simarjeet Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Robin Bist
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: Dikshanshu Negi
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Robin Bist
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Dikshanshu Negi
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Dikshanshu Negi
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Dikshanshu Negi
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Robin Bist
+        wicket:
+          player_out: Robin Bist
+          fielders:
+          - Shivank Vashisth
+          kind: caught
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Dikshanshu Negi
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Rawat
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Dikshanshu Negi
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Rawat
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Dikshanshu Negi
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Rawat
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Dikshanshu Negi
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Rawat
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Saurabh Rawat
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dikshanshu Negi
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Dikshanshu Negi
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Rawat
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Saurabh Rawat
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dikshanshu Negi
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Saurabh Rawat
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dikshanshu Negi
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Saurabh Rawat
+        bowler: PJ Sangwan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dikshanshu Negi
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Saurabh Rawat
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dikshanshu Negi
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Dikshanshu Negi
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Rawat
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Dikshanshu Negi
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Rawat
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Saurabh Rawat
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dikshanshu Negi
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Dikshanshu Negi
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Rawat
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Dikshanshu Negi
+        bowler: Deepak Punia
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Rawat
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Dikshanshu Negi
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Rawat
+        wicket:
+          player_out: Saurabh Rawat
+          fielders:
+          - Anuj Rawat
+          kind: caught
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Dikshanshu Negi
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vijay Jethi
+        wicket:
+          player_out: Vijay Jethi
+          fielders:
+          - Deepak Punia
+          kind: caught
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Dikshanshu Negi
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Swapnil Singh
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Dikshanshu Negi
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Swapnil Singh
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dikshanshu Negi
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Swapnil Singh
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dikshanshu Negi
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Dikshanshu Negi
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Swapnil Singh
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dikshanshu Negi
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Swapnil Singh
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dikshanshu Negi
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Swapnil Singh
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dikshanshu Negi
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Dikshanshu Negi
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Dikshanshu Negi
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Swapnil Singh
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dikshanshu Negi
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Swapnil Singh
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dikshanshu Negi
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Swapnil Singh
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dikshanshu Negi
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Swapnil Singh
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dikshanshu Negi
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Swapnil Singh
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dikshanshu Negi
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Dikshanshu Negi
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Dikshanshu Negi
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Swapnil Singh
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Dikshanshu Negi
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Dikshanshu Negi
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Swapnil Singh
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Dikshanshu Negi
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Swapnil Singh
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dikshanshu Negi
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Dikshanshu Negi
+        bowler: Simarjeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Dikshanshu Negi
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Swapnil Singh
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dikshanshu Negi
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Dikshanshu Negi
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+        wicket:
+          player_out: Swapnil Singh
+          fielders:
+          - Anuj Rawat
+          kind: caught
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Dikshanshu Negi
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mayank Mishra
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Mayank Mishra
+        bowler: Shivank Vashisth
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Dikshanshu Negi
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Dikshanshu Negi
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mayank Mishra
+        wicket:
+          player_out: Mayank Mishra
+          fielders:
+          - Himmat Singh
+          kind: caught
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Dikshanshu Negi
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Madhwal
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Dikshanshu Negi
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Madhwal
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Dikshanshu Negi
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Madhwal
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Dikshanshu Negi
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Madhwal
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Dikshanshu Negi
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Madhwal
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Dikshanshu Negi
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Madhwal
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Akash Madhwal
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dikshanshu Negi
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Akash Madhwal
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dikshanshu Negi
+        wicket:
+          player_out: Dikshanshu Negi
+          fielders:
+          - Anuj Rawat
+          kind: stumped
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Akash Madhwal
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Manori
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Akash Madhwal
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Manori
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Akash Madhwal
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Manori
+        wicket:
+          player_out: Akash Madhwal
+          fielders:
+          - Priyansh Arya
+          kind: run out
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Nikhil Kohli
+        bowler: Shivank Vashisth
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ankit Manori
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Ankit Manori
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Nikhil Kohli
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Nikhil Kohli
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Manori
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Nikhil Kohli
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Manori
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Nikhil Kohli
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Manori
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Nikhil Kohli
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Manori
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Nikhil Kohli
+        bowler: Navdeep Saini
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Manori
+        wicket:
+          player_out: Ankit Manori
+          kind: bowled

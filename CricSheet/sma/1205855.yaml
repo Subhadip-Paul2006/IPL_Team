@@ -1,0 +1,2352 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-01'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-11-25'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Tamil Nadu
+    by:
+      wickets: 4
+  overs: 20
+  players:
+    Punjab:
+    - Abhishek Sharma
+    - Shubman Gill
+    - Mandeep Singh
+    - Anmolpreet Singh
+    - Gurkeerat Singh
+    - Karan Kaila
+    - Harpreet Brar
+    - Anmol Malhotra
+    - M Markande
+    - Sandeep Sharma
+    - S Kaul
+    Tamil Nadu:
+    - R Sai Kishore
+    - M Siddharth
+    - Washington Sundar
+    - M Ashwin
+    - B Aparajith
+    - T Natarajan
+    - M Mohammed
+    - Hari Nishaanth
+    - M Shahrukh Khan
+    - KD Karthik
+    - V Shankar
+  registry:
+    people:
+      Abhishek Sharma: f29185a1
+      Anmol Malhotra: f59e9ac9
+      Anmolpreet Singh: 1399b39c
+      B Aparajith: 5b627626
+      Gurkeerat Singh: 6eb146d2
+      Hari Nishaanth: c3f37533
+      Harpreet Brar: c05edf8e
+      KD Karthik: c03f1114
+      Karan Kaila: b19f1fe9
+      M Ashwin: e2db2409
+      M Markande: a9fd84fb
+      M Mohammed: 1b7c4d69
+      M Shahrukh Khan: 7dcb9bc9
+      M Siddharth: cf0ccafa
+      Mandeep Singh: c3a96caf
+      R Sai Kishore: c7a995d3
+      S Kaul: dcf81436
+      Sandeep Sharma: ce820073
+      Shubman Gill: b4b99816
+      T Natarajan: ce794613
+      V Shankar: '0994d0ae'
+      Washington Sundar: f19ccfad
+    venues:
+      Lalabhai Contractor Stadium, Surat: '0689d53a'
+  teams:
+  - Punjab
+  - Tamil Nadu
+  toss:
+    winner: Tamil Nadu
+    decision: field
+  venue: Lalabhai Contractor Stadium, Surat
+  team_type: club
+innings:
+- 1st innings:
+    team: Punjab
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Shubman Gill
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Sharma
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Abhishek Sharma
+        bowler: R Sai Kishore
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Shubman Gill
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Shubman Gill
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Sharma
+        wicket:
+          player_out: Abhishek Sharma
+          kind: lbw
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Shubman Gill
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Shubman Gill
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Shubman Gill
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Shubman Gill
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Shubman Gill
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mandeep Singh
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Shubman Gill
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Shubman Gill
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+        wicket:
+          player_out: Mandeep Singh
+          kind: bowled
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Shubman Gill
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Shubman Gill
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Anmolpreet Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Anmolpreet Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubman Gill
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Shubman Gill
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Shubman Gill
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anmolpreet Singh
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Shubman Gill
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmolpreet Singh
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Anmolpreet Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Shubman Gill
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Shubman Gill
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Shubman Gill
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmolpreet Singh
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Anmolpreet Singh
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Anmolpreet Singh
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubman Gill
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Shubman Gill
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+        wicket:
+          player_out: Anmolpreet Singh
+          kind: bowled
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Gurkeerat Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Gurkeerat Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Gurkeerat Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Gurkeerat Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Gurkeerat Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+        wicket:
+          player_out: Shubman Gill
+          fielders:
+          - KD Karthik
+          kind: caught
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Gurkeerat Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Kaila
+        wicket:
+          player_out: Karan Kaila
+          kind: bowled
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Harpreet Brar
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Brar
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Harpreet Brar
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Gurkeerat Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Gurkeerat Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Brar
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Harpreet Brar
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Gurkeerat Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Gurkeerat Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Gurkeerat Singh
+        bowler: R Sai Kishore
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Harpreet Brar
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Harpreet Brar
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Harpreet Brar
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Harpreet Brar
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Gurkeerat Singh
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Gurkeerat Singh
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Gurkeerat Singh
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Gurkeerat Singh
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Gurkeerat Singh
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Brar
+        wicket:
+          player_out: Harpreet Brar
+          fielders:
+          - M Mohammed
+          kind: caught
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmol Malhotra
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Anmol Malhotra
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmol Malhotra
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmol Malhotra
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Anmol Malhotra
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Anmol Malhotra
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Gurkeerat Singh
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmol Malhotra
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Gurkeerat Singh
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmol Malhotra
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Anmol Malhotra
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Anmol Malhotra
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Anmol Malhotra
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Anmol Malhotra
+        bowler: M Siddharth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Anmol Malhotra
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmol Malhotra
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmol Malhotra
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmol Malhotra
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmol Malhotra
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Gurkeerat Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmol Malhotra
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Anmol Malhotra
+        bowler: M Ashwin
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 12.2:
+        actual_delivery: '12.1'
+        non_striker: Gurkeerat Singh
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmol Malhotra
+    - 12.3:
+        actual_delivery: '12.2'
+        non_striker: Gurkeerat Singh
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Anmol Malhotra
+    - 12.4:
+        actual_delivery: '12.3'
+        non_striker: Gurkeerat Singh
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmol Malhotra
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: Anmol Malhotra
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Gurkeerat Singh
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: Anmol Malhotra
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: Anmol Malhotra
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Gurkeerat Singh
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Gurkeerat Singh
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmol Malhotra
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Anmol Malhotra
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Gurkeerat Singh
+        bowler: B Aparajith
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Anmol Malhotra
+        wicket:
+          player_out: Anmol Malhotra
+          fielders:
+          - KD Karthik
+          kind: stumped
+    - 13.4:
+        actual_delivery: '13.3'
+        non_striker: Gurkeerat Singh
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Markande
+    - 13.5:
+        actual_delivery: '13.4'
+        non_striker: M Markande
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 13.6:
+        actual_delivery: '13.5'
+        non_striker: Gurkeerat Singh
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Markande
+    - 13.7:
+        actual_delivery: '13.6'
+        non_striker: Gurkeerat Singh
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Markande
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: M Markande
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Gurkeerat Singh
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Markande
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Gurkeerat Singh
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Markande
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Gurkeerat Singh
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Markande
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Gurkeerat Singh
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Markande
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: M Markande
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Gurkeerat Singh
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Markande
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: M Markande
+        bowler: B Aparajith
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 15.3:
+        actual_delivery: '15.2'
+        non_striker: M Markande
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Gurkeerat Singh
+    - 15.4:
+        actual_delivery: '15.3'
+        non_striker: M Markande
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 15.5:
+        actual_delivery: '15.4'
+        non_striker: M Markande
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: M Markande
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+        wicket:
+          player_out: Gurkeerat Singh
+          fielders:
+          - M Siddharth
+          kind: caught
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: Sandeep Sharma
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Markande
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Sandeep Sharma
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Markande
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Sandeep Sharma
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Markande
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Sandeep Sharma
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Markande
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Sandeep Sharma
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Markande
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Sandeep Sharma
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Markande
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Sandeep Sharma
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Markande
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Sandeep Sharma
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Markande
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: M Markande
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sandeep Sharma
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: M Markande
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sandeep Sharma
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Sandeep Sharma
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Markande
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Sandeep Sharma
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Markande
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Sandeep Sharma
+        bowler: B Aparajith
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Markande
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Sandeep Sharma
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Markande
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: M Markande
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sandeep Sharma
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Sandeep Sharma
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Markande
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Sandeep Sharma
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Markande
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: M Markande
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sandeep Sharma
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: M Markande
+        bowler: T Natarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sandeep Sharma
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: M Markande
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sandeep Sharma
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Sandeep Sharma
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Markande
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Sandeep Sharma
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Markande
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: M Markande
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sandeep Sharma
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Sandeep Sharma
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: M Markande
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Sandeep Sharma
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: M Markande
+- 2nd innings:
+    team: Tamil Nadu
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: M Shahrukh Khan
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hari Nishaanth
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: M Shahrukh Khan
+        bowler: Harpreet Brar
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Hari Nishaanth
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Hari Nishaanth
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Hari Nishaanth
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Hari Nishaanth
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Hari Nishaanth
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Shahrukh Khan
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: M Shahrukh Khan
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hari Nishaanth
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: M Shahrukh Khan
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hari Nishaanth
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: M Shahrukh Khan
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hari Nishaanth
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Hari Nishaanth
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Hari Nishaanth
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Shahrukh Khan
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: M Shahrukh Khan
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hari Nishaanth
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: M Shahrukh Khan
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hari Nishaanth
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: M Shahrukh Khan
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Hari Nishaanth
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: M Shahrukh Khan
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hari Nishaanth
+        wicket:
+          player_out: Hari Nishaanth
+          fielders:
+          - Anmol Malhotra
+          kind: stumped
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: M Shahrukh Khan
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Washington Sundar
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Shahrukh Khan
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Washington Sundar
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: M Shahrukh Khan
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Shahrukh Khan
+        wicket:
+          player_out: M Shahrukh Khan
+          fielders:
+          - Gurkeerat Singh
+          kind: caught
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Aparajith
+        wicket:
+          player_out: B Aparajith
+          fielders:
+          - Karan Kaila
+          kind: caught
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: KD Karthik
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Washington Sundar
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: KD Karthik
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Washington Sundar
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Washington Sundar
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Washington Sundar
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: KD Karthik
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Washington Sundar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: KD Karthik
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: KD Karthik
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Washington Sundar
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: KD Karthik
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: KD Karthik
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Washington Sundar
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Washington Sundar
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: KD Karthik
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Washington Sundar
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Washington Sundar
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: KD Karthik
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: KD Karthik
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: KD Karthik
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: KD Karthik
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Washington Sundar
+        bowler: Harpreet Brar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KD Karthik
+    - 8.3:
+        actual_delivery: '8.2'
+        non_striker: Washington Sundar
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KD Karthik
+    - 8.4:
+        actual_delivery: '8.3'
+        non_striker: KD Karthik
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 8.5:
+        actual_delivery: '8.4'
+        non_striker: Washington Sundar
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KD Karthik
+        wicket:
+          player_out: KD Karthik
+          fielders:
+          - Anmol Malhotra
+          kind: caught
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: Washington Sundar
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: Washington Sundar
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: V Shankar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: V Shankar
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Washington Sundar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: V Shankar
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Washington Sundar
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Washington Sundar
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Washington Sundar
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Washington Sundar
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Washington Sundar
+        bowler: Harpreet Brar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Washington Sundar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Washington Sundar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Washington Sundar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: V Shankar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Washington Sundar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: V Shankar
+        bowler: Abhishek Sharma
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Washington Sundar
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Washington Sundar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Washington Sundar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: V Shankar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Washington Sundar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Washington Sundar
+        bowler: Gurkeerat Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: V Shankar
+    - 13.6:
+        actual_delivery: '13.5'
+        non_striker: Washington Sundar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 13.7:
+        actual_delivery: '13.6'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Washington Sundar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: V Shankar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Washington Sundar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Washington Sundar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: V Shankar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: V Shankar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Washington Sundar
+        bowler: Gurkeerat Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: V Shankar
+    - 15.3:
+        actual_delivery: '15.2'
+        non_striker: Washington Sundar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 15.4:
+        actual_delivery: '15.3'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 15.5:
+        actual_delivery: '15.4'
+        non_striker: Washington Sundar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: Washington Sundar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Washington Sundar
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Washington Sundar
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: V Shankar
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: V Shankar
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: V Shankar
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: V Shankar
+        bowler: Karan Kaila
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Washington Sundar
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Washington Sundar
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Washington Sundar
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Washington Sundar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: V Shankar
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: V Shankar
+        bowler: Gurkeerat Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Washington Sundar
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Washington Sundar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Washington Sundar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: V Shankar
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Washington Sundar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Washington Sundar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: V Shankar
+        wicket:
+          player_out: V Shankar
+          fielders:
+          - Karan Kaila
+          kind: caught
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: M Mohammed
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Washington Sundar
+        bowler: Abhishek Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Mohammed
+        wicket:
+          player_out: M Mohammed
+          fielders:
+          - Anmolpreet Singh
+          kind: caught
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Washington Sundar
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Siddharth
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Washington Sundar
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Siddharth
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: M Siddharth
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Washington Sundar

@@ -1,0 +1,2374 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-21'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-11-18'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Hyderabad (India)
+    by:
+      runs: 30
+  overs: 20
+  players:
+    Hyderabad (India):
+    - Tanmay Agarwal
+    - Pragnay Reddy
+    - Tilak Varma
+    - Himalay Agarwal
+    - Bavanaka Sandeep
+    - Rahul Buddhi
+    - Rakshan Readdi
+    - Tanay Thyagarajan
+    - Mehdi Hassan
+    - Ravi Teja
+    - CV Milind
+    Gujarat:
+    - Roosh Kalaria
+    - Karan Patel
+    - Chintan Gaja
+    - Tejas Patel
+    - PP Chawla
+    - HP Patel
+    - Dhruv Raval
+    - Urvil Patel
+    - Saurav Chauhan
+    - Het Patel
+    - RV Patel
+  registry:
+    people:
+      Bavanaka Sandeep: bc67cc22
+      CV Milind: 7b5b6311
+      Chintan Gaja: 63bfb5fc
+      Dhruv Raval: e635a5dd
+      HP Patel: 8254ea06
+      Het Patel: f543b251
+      Himalay Agarwal: 8e48d9a3
+      Karan Patel: a18da10f
+      Mehdi Hassan: 5876c626
+      PP Chawla: 98ae73b1
+      Pragnay Reddy: 9e29431f
+      RV Patel: '60500956'
+      Rahul Buddhi: 70a9b353
+      Rakshan Readdi: adee5bbd
+      Ravi Teja: 5f39537c
+      Roosh Kalaria: 779b7f4d
+      Saurav Chauhan: 9e7225b0
+      Tanay Thyagarajan: f1809c03
+      Tanmay Agarwal: e6e9b619
+      Tejas Patel: 76ed445f
+      Tilak Varma: b0482a1d
+      Urvil Patel: cf59b3f0
+    venues:
+      Palam A Ground, Model Sports Complex, Delhi: a84e4939
+  teams:
+  - Hyderabad (India)
+  - Gujarat
+  toss:
+    winner: Gujarat
+    decision: field
+  venue: Palam A Ground, Model Sports Complex, Delhi
+  team_type: club
+innings:
+- 1st innings:
+    team: Hyderabad (India)
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Pragnay Reddy
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Pragnay Reddy
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Pragnay Reddy
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tanmay Agarwal
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Pragnay Reddy
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Pragnay Reddy
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Tanmay Agarwal
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pragnay Reddy
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Pragnay Reddy
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Pragnay Reddy
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Tanmay Agarwal
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pragnay Reddy
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Tanmay Agarwal
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pragnay Reddy
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Tanmay Agarwal
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pragnay Reddy
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Pragnay Reddy
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Tanmay Agarwal
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pragnay Reddy
+        wicket:
+          player_out: Pragnay Reddy
+          kind: lbw
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Tanmay Agarwal
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tilak Varma
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Tanmay Agarwal
+        bowler: Chintan Gaja
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Tilak Varma
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: Tanmay Agarwal
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: Tanmay Agarwal
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: Tanmay Agarwal
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Tanmay Agarwal
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Tilak Varma
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Tanmay Agarwal
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tilak Varma
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Tanmay Agarwal
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Tanmay Agarwal
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Tilak Varma
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Tilak Varma
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Tanmay Agarwal
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Tilak Varma
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Tanmay Agarwal
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Tilak Varma
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tanmay Agarwal
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Tilak Varma
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Tilak Varma
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Tilak Varma
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Tilak Varma
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Tilak Varma
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Tilak Varma
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Tanmay Agarwal
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Tilak Varma
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Tilak Varma
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Tanmay Agarwal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Tanmay Agarwal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Tanmay Agarwal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+        wicket:
+          player_out: Tanmay Agarwal
+          kind: bowled
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Himalay Agarwal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Tilak Varma
+        bowler: HP Patel
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Himalay Agarwal
+    - 7.3:
+        actual_delivery: '7.2'
+        non_striker: Tilak Varma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himalay Agarwal
+    - 7.4:
+        actual_delivery: '7.3'
+        non_striker: Tilak Varma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Himalay Agarwal
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: Tilak Varma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Tilak Varma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Tilak Varma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Himalay Agarwal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Himalay Agarwal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Himalay Agarwal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Himalay Agarwal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Tilak Varma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Himalay Agarwal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Tilak Varma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Himalay Agarwal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Tilak Varma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Tilak Varma
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Himalay Agarwal
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Tilak Varma
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Himalay Agarwal
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Tilak Varma
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Himalay Agarwal
+        bowler: Karan Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tilak Varma
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Tilak Varma
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Himalay Agarwal
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Himalay Agarwal
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Tilak Varma
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Himalay Agarwal
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Tilak Varma
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Himalay Agarwal
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tilak Varma
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Himalay Agarwal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Himalay Agarwal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Himalay Agarwal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Himalay Agarwal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Himalay Agarwal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Himalay Agarwal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Tilak Varma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Himalay Agarwal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Himalay Agarwal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Himalay Agarwal
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Tilak Varma
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Himalay Agarwal
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Himalay Agarwal
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Tilak Varma
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Tilak Varma
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Himalay Agarwal
+        wicket:
+          player_out: Himalay Agarwal
+          fielders:
+          - HP Patel
+          kind: caught
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Bavanaka Sandeep
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+        wicket:
+          player_out: Bavanaka Sandeep
+          fielders:
+          - Urvil Patel
+          kind: caught
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Buddhi
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Buddhi
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Buddhi
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Tilak Varma
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Buddhi
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Rahul Buddhi
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Rahul Buddhi
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tilak Varma
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Rahul Buddhi
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Tilak Varma
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Buddhi
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Rahul Buddhi
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Tilak Varma
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Buddhi
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Tilak Varma
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Buddhi
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Tilak Varma
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rahul Buddhi
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Tilak Varma
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Buddhi
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Tilak Varma
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Buddhi
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Rahul Buddhi
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Rahul Buddhi
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tilak Varma
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Tilak Varma
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Buddhi
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Rahul Buddhi
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tilak Varma
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Rahul Buddhi
+        bowler: Chintan Gaja
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Tilak Varma
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Tilak Varma
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Buddhi
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Tilak Varma
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Buddhi
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Tilak Varma
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Buddhi
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Tilak Varma
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Buddhi
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Rahul Buddhi
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Rahul Buddhi
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Tilak Varma
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Buddhi
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Rahul Buddhi
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Rahul Buddhi
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+        wicket:
+          player_out: Tilak Varma
+          fielders:
+          - Karan Patel
+          kind: run out
+- 2nd innings:
+    team: Gujarat
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Urvil Patel
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Urvil Patel
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Dhruv Raval
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Dhruv Raval
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Urvil Patel
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Urvil Patel
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Urvil Patel
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Urvil Patel
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Urvil Patel
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Dhruv Raval
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+        wicket:
+          player_out: Urvil Patel
+          fielders:
+          - Bavanaka Sandeep
+          kind: caught
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Saurav Chauhan
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Raval
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Saurav Chauhan
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Dhruv Raval
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Dhruv Raval
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Dhruv Raval
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Dhruv Raval
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Dhruv Raval
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Dhruv Raval
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Saurav Chauhan
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Saurav Chauhan
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+        wicket:
+          player_out: Dhruv Raval
+          fielders:
+          - CV Milind
+          kind: caught
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Saurav Chauhan
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Het Patel
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Saurav Chauhan
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Saurav Chauhan
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Saurav Chauhan
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Saurav Chauhan
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Saurav Chauhan
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Het Patel
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Saurav Chauhan
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Saurav Chauhan
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Het Patel
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Het Patel
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Het Patel
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Het Patel
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Saurav Chauhan
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Het Patel
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Het Patel
+        bowler: CV Milind
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Saurav Chauhan
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: Het Patel
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Het Patel
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Saurav Chauhan
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Het Patel
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Saurav Chauhan
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Het Patel
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Saurav Chauhan
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Het Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Saurav Chauhan
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Het Patel
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Saurav Chauhan
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Het Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurav Chauhan
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Saurav Chauhan
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Saurav Chauhan
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+        wicket:
+          player_out: Saurav Chauhan
+          fielders:
+          - Bavanaka Sandeep
+          kind: run out
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: PP Chawla
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Het Patel
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: PP Chawla
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Het Patel
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Het Patel
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Het Patel
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Het Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: PP Chawla
+        bowler: Mehdi Hassan
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Het Patel
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Het Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Het Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PP Chawla
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Het Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: PP Chawla
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Het Patel
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Het Patel
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: PP Chawla
+        bowler: Ravi Teja
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Het Patel
+    - 10.3:
+        actual_delivery: '10.2'
+        non_striker: PP Chawla
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 10.4:
+        actual_delivery: '10.3'
+        non_striker: Het Patel
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Chawla
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: Het Patel
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: PP Chawla
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Het Patel
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: Het Patel
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Het Patel
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: PP Chawla
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Het Patel
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: PP Chawla
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Het Patel
+        wicket:
+          player_out: Het Patel
+          fielders:
+          - CV Milind
+          kind: caught
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: PP Chawla
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Patel
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: PP Chawla
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: RV Patel
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: RV Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: PP Chawla
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Patel
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: PP Chawla
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: RV Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Chawla
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: RV Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: RV Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: PP Chawla
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: RV Patel
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: PP Chawla
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Patel
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: PP Chawla
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: RV Patel
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+        wicket:
+          player_out: PP Chawla
+          fielders:
+          - CV Milind
+          kind: caught
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Karan Patel
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RV Patel
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: RV Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Patel
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Karan Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: RV Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Patel
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Karan Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: RV Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Patel
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Karan Patel
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Karan Patel
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: RV Patel
+        bowler: Ravi Teja
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Karan Patel
+    - 15.3:
+        actual_delivery: '15.2'
+        non_striker: RV Patel
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karan Patel
+    - 15.4:
+        actual_delivery: '15.3'
+        non_striker: Karan Patel
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RV Patel
+    - 15.5:
+        actual_delivery: '15.4'
+        non_striker: Karan Patel
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: RV Patel
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karan Patel
+        wicket:
+          player_out: Karan Patel
+          fielders:
+          - Tanay Thyagarajan
+          kind: caught
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: Roosh Kalaria
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Patel
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: RV Patel
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Roosh Kalaria
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: RV Patel
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Roosh Kalaria
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: RV Patel
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Roosh Kalaria
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Roosh Kalaria
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RV Patel
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Roosh Kalaria
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RV Patel
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Roosh Kalaria
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Roosh Kalaria
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RV Patel
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Roosh Kalaria
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: RV Patel
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Roosh Kalaria
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Roosh Kalaria
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: RV Patel
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Roosh Kalaria
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Roosh Kalaria
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Roosh Kalaria
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RV Patel
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Roosh Kalaria
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RV Patel
+        wicket:
+          player_out: RV Patel
+          fielders:
+          - Bavanaka Sandeep
+          kind: caught
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Chintan Gaja
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Roosh Kalaria
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Chintan Gaja
+        bowler: CV Milind
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Roosh Kalaria
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: Chintan Gaja
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Roosh Kalaria
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: Chintan Gaja
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Roosh Kalaria
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: Chintan Gaja
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Roosh Kalaria
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Roosh Kalaria
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chintan Gaja
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Roosh Kalaria
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chintan Gaja
+        wicket:
+          player_out: Chintan Gaja
+          fielders:
+          - Tanay Thyagarajan
+          kind: caught
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Roosh Kalaria
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tejas Patel
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Tejas Patel
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Roosh Kalaria
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Roosh Kalaria
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tejas Patel
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Tejas Patel
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Roosh Kalaria

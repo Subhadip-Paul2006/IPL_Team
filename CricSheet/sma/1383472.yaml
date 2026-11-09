@@ -1,0 +1,2101 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-10-23'
+  revision: 2
+info:
+  balls_per_over: 6
+  city: Jaipur
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2023-10-19'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Hyderabad (India)
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Chhattisgarh:
+    - Shashank Chandrakar
+    - Amandeep Khare
+    - Harpreet Singh
+    - Shashank Singh
+    - Sanjeet Desai
+    - Eknath Kerkar
+    - Ajay Mandal
+    - Gagandeep Singh
+    - SS Agarwal
+    - Sourabh Majumdar
+    - J Butte
+    - PS Painkra
+    Hyderabad (India):
+    - Rakshan Readdi
+    - Tanmay Agarwal
+    - Rohit Rayudu
+    - Tilak Varma
+    - Rahul Singh
+    - CP Sahani
+    - Rahul Buddhi
+    - Ravi Teja
+    - Tanay Thyagarajan
+    - CV Milind
+    - Bhavesh Seth
+    - G Anikethreddy
+  registry:
+    people:
+      Ajay Mandal: 31ee319e
+      Amandeep Khare: 6c6cc94c
+      Bhavesh Seth: '038ff851'
+      CP Sahani: cb6793af
+      CV Milind: 7b5b6311
+      Eknath Kerkar: '84085032'
+      G Anikethreddy: 14d6a8d5
+      Gagandeep Singh: 239197f1
+      Harpreet Singh: 28c78fb3
+      J Butte: 88d3fcc5
+      M Krishnadas: e298c588
+      M Kuppuraj: aa4063d0
+      PS Painkra: 6cdc3215
+      Rahul Buddhi: 70a9b353
+      Rahul Singh: adf454e9
+      Rakshan Readdi: adee5bbd
+      Ravi Teja: 5f39537c
+      Rohit Rayudu: b4587494
+      SS Agarwal: b51f72a5
+      SS Raul: 4cfdf1d0
+      Sanjeet Desai: 9b0d5e52
+      Shashank Chandrakar: 9c20688d
+      Shashank Singh: 26989d80
+      Sourabh Majumdar: '30225730'
+      Tanay Thyagarajan: f1809c03
+      Tanmay Agarwal: e6e9b619
+      Tilak Varma: b0482a1d
+    venues:
+      Sawai Mansingh Stadium, Jaipur: 5a985b66
+  teams:
+  - Chhattisgarh
+  - Hyderabad (India)
+  toss:
+    winner: Hyderabad (India)
+    decision: field
+  umpires:
+  - M Kuppuraj
+  - M Krishnadas
+  venue: Sawai Mansingh Stadium, Jaipur
+  team_type: club
+innings:
+- 1st innings:
+    team: Chhattisgarh
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Amandeep Khare
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Chandrakar
+        wicket:
+          player_out: Shashank Chandrakar
+          fielders:
+          - Rahul Buddhi
+          kind: caught
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Amandeep Khare
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Harpreet Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Amandeep Khare
+        wicket:
+          player_out: Amandeep Khare
+          kind: lbw
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Harpreet Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Shashank Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Shashank Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Harpreet Singh
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Shashank Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+        wicket:
+          player_out: Harpreet Singh
+          fielders:
+          - Tanmay Agarwal
+          kind: caught
+    - 1.1:
+        actual_delivery: '1.1'
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Sanjeet Desai
+        replacements:
+          match:
+          - in: Sanjeet Desai
+            out: Shashank Chandrakar
+            team: Chhattisgarh
+            reason: impact_player
+        batsman: Shashank Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Sanjeet Desai
+        batsman: Shashank Singh
+    - 1.3:
+        actual_delivery: '1.3'
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Sanjeet Desai
+        batsman: Shashank Singh
+    - 1.4:
+        actual_delivery: '1.4'
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Sanjeet Desai
+        batsman: Shashank Singh
+    - 1.5:
+        actual_delivery: '1.5'
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: Sanjeet Desai
+        batsman: Shashank Singh
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Sanjeet Desai
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Sanjeet Desai
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Sanjeet Desai
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shashank Singh
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Sanjeet Desai
+        bowler: Ravi Teja
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shashank Singh
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: Sanjeet Desai
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: Shashank Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjeet Desai
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: Shashank Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjeet Desai
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Shashank Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjeet Desai
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Shashank Singh
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjeet Desai
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Shashank Singh
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sanjeet Desai
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Shashank Singh
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sanjeet Desai
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Sanjeet Desai
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Shashank Singh
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjeet Desai
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Shashank Singh
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjeet Desai
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Sanjeet Desai
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Shashank Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sanjeet Desai
+        wicket:
+          player_out: Sanjeet Desai
+          kind: lbw
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Shashank Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Eknath Kerkar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Shashank Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Eknath Kerkar
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Shashank Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Eknath Kerkar
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Shashank Singh
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Eknath Kerkar
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Shashank Singh
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Eknath Kerkar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Eknath Kerkar
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Shashank Singh
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Eknath Kerkar
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Shashank Singh
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Eknath Kerkar
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Eknath Kerkar
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Eknath Kerkar
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shashank Singh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Shashank Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Eknath Kerkar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Eknath Kerkar
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Shashank Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Eknath Kerkar
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Eknath Kerkar
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Shashank Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Eknath Kerkar
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Shashank Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Eknath Kerkar
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Eknath Kerkar
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Eknath Kerkar
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Shashank Singh
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Eknath Kerkar
+        wicket:
+          player_out: Eknath Kerkar
+          fielders:
+          - Bhavesh Seth
+          kind: caught
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Shashank Singh
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ajay Mandal
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Ajay Mandal
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Shashank Singh
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ajay Mandal
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Ajay Mandal
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Shashank Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ajay Mandal
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Shashank Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ajay Mandal
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Shashank Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ajay Mandal
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Shashank Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ajay Mandal
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Ajay Mandal
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shashank Singh
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Shashank Singh
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ajay Mandal
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Shashank Singh
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ajay Mandal
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Ajay Mandal
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Shashank Singh
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ajay Mandal
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Ajay Mandal
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shashank Singh
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Ajay Mandal
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Shashank Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ajay Mandal
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Ajay Mandal
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Shashank Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ajay Mandal
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Shashank Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ajay Mandal
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Ajay Mandal
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Ajay Mandal
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Ajay Mandal
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shashank Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Ajay Mandal
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Shashank Singh
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ajay Mandal
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Ajay Mandal
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Ajay Mandal
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Shashank Singh
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ajay Mandal
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Shashank Singh
+        bowler: Tilak Varma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ajay Mandal
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Ajay Mandal
+        bowler: Tilak Varma
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Shashank Singh
+    - 12.3:
+        actual_delivery: '12.2'
+        non_striker: Ajay Mandal
+        bowler: Tilak Varma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 12.4:
+        actual_delivery: '12.3'
+        non_striker: Shashank Singh
+        bowler: Tilak Varma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ajay Mandal
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: Shashank Singh
+        bowler: Tilak Varma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ajay Mandal
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: Shashank Singh
+        bowler: Tilak Varma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ajay Mandal
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: Ajay Mandal
+        bowler: Tilak Varma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Ajay Mandal
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Shashank Singh
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ajay Mandal
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Shashank Singh
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ajay Mandal
+        wicket:
+          player_out: Ajay Mandal
+          kind: bowled
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Shashank Singh
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gagandeep Singh
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Shashank Singh
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gagandeep Singh
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Shashank Singh
+        bowler: Tanay Thyagarajan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gagandeep Singh
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Shashank Singh
+        bowler: Tilak Varma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gagandeep Singh
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Gagandeep Singh
+        bowler: Tilak Varma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shashank Singh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Gagandeep Singh
+        bowler: Tilak Varma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Shashank Singh
+        bowler: Tilak Varma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gagandeep Singh
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Gagandeep Singh
+        bowler: Tilak Varma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Shashank Singh
+        bowler: Tilak Varma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gagandeep Singh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Shashank Singh
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gagandeep Singh
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Shashank Singh
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gagandeep Singh
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Gagandeep Singh
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Gagandeep Singh
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Shashank Singh
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gagandeep Singh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Shashank Singh
+        bowler: Rakshan Readdi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gagandeep Singh
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Shashank Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gagandeep Singh
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Gagandeep Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Gagandeep Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Shashank Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Gagandeep Singh
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Shashank Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gagandeep Singh
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Gagandeep Singh
+        bowler: G Anikethreddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Gagandeep Singh
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Shashank Singh
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gagandeep Singh
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Gagandeep Singh
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Shashank Singh
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gagandeep Singh
+        wicket:
+          player_out: Gagandeep Singh
+          fielders:
+          - Tilak Varma
+          kind: caught
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Shashank Singh
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Agarwal
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: SS Agarwal
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shashank Singh
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: SS Agarwal
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shashank Singh
+        wicket:
+          player_out: Shashank Singh
+          fielders:
+          - CP Sahani
+          kind: caught
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: SS Agarwal
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sourabh Majumdar
+        wicket:
+          player_out: Sourabh Majumdar
+          kind: bowled
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: SS Agarwal
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Butte
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: J Butte
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Agarwal
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: SS Agarwal
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Butte
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: SS Agarwal
+        bowler: Ravi Teja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Butte
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: SS Agarwal
+        bowler: CV Milind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Butte
+        wicket:
+          player_out: J Butte
+          fielders:
+          - Tilak Varma
+          kind: caught
+- 2nd innings:
+    team: Hyderabad (India)
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: Rohit Rayudu
+        batsman: Tanmay Agarwal
+    - 0.2:
+        actual_delivery: '0.2'
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Rohit Rayudu
+        batsman: Tanmay Agarwal
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Tanmay Agarwal
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Rayudu
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Tanmay Agarwal
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Rayudu
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Tanmay Agarwal
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rohit Rayudu
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Tanmay Agarwal
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rohit Rayudu
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Rohit Rayudu
+        bowler: Sourabh Majumdar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Rohit Rayudu
+        bowler: Sourabh Majumdar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Rohit Rayudu
+        bowler: Sourabh Majumdar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Rohit Rayudu
+        bowler: Sourabh Majumdar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Rohit Rayudu
+        bowler: Sourabh Majumdar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Tanmay Agarwal
+        bowler: Sourabh Majumdar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Rayudu
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Rohit Rayudu
+        bowler: PS Painkra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Rohit Rayudu
+        bowler: PS Painkra
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tanmay Agarwal
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Rohit Rayudu
+        bowler: PS Painkra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Tanmay Agarwal
+        bowler: PS Painkra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rohit Rayudu
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Tanmay Agarwal
+        bowler: PS Painkra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Rayudu
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Tanmay Agarwal
+        bowler: PS Painkra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Rayudu
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Rohit Rayudu
+        bowler: Sourabh Majumdar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tanmay Agarwal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Rohit Rayudu
+        bowler: Sourabh Majumdar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Tanmay Agarwal
+        bowler: Sourabh Majumdar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Rayudu
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Tanmay Agarwal
+        bowler: Sourabh Majumdar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Rayudu
+        wicket:
+          player_out: Rohit Rayudu
+          fielders:
+          - SS Agarwal
+          kind: caught
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Tanmay Agarwal
+        bowler: Sourabh Majumdar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Tanmay Agarwal
+        bowler: Sourabh Majumdar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Tilak Varma
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tanmay Agarwal
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Tilak Varma
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Tanmay Agarwal
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Tilak Varma
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+        wicket:
+          player_out: Tanmay Agarwal
+          kind: lbw
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Tilak Varma
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          match:
+          - in: Rahul Singh
+            out: Rakshan Readdi
+            team: Hyderabad (India)
+            reason: impact_player
+        batsman: Rahul Singh
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Tilak Varma
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Rahul Singh
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tilak Varma
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Rahul Singh
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Rahul Singh
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Tilak Varma
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Rahul Singh
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Rahul Singh
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Rahul Singh
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Rahul Singh
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Tilak Varma
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rahul Singh
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Tilak Varma
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rahul Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Tilak Varma
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Rahul Singh
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Tilak Varma
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Rahul Singh
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Tilak Varma
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Tilak Varma
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Tilak Varma
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Tilak Varma
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Tilak Varma
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Rahul Singh
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+        wicket:
+          player_out: Tilak Varma
+          fielders:
+          - J Butte
+          kind: caught
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Rahul Singh
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Sahani
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Rahul Singh
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Sahani
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Rahul Singh
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Sahani
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: CP Sahani
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: CP Sahani
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: CP Sahani
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Rahul Singh
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Sahani
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Rahul Singh
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Sahani
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: CP Sahani
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: CP Sahani
+        bowler: J Butte
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: CP Sahani
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rahul Singh
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: CP Sahani
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: CP Sahani
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Rahul Singh
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Sahani
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Rahul Singh
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CP Sahani
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Rahul Singh
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Sahani
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: CP Sahani
+        bowler: Gagandeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: CP Sahani
+        bowler: Gagandeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: CP Sahani
+        bowler: Gagandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Rahul Singh
+        bowler: Gagandeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Sahani
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Rahul Singh
+        bowler: Gagandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Sahani
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: CP Sahani
+        bowler: Gagandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: CP Sahani
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Rahul Singh
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CP Sahani
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Rahul Singh
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Sahani
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: CP Sahani
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: CP Sahani
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Rahul Singh
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Sahani
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: CP Sahani
+        bowler: Gagandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Rahul Singh
+        bowler: Gagandeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Sahani
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Rahul Singh
+        bowler: Gagandeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Sahani
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Rahul Singh
+        bowler: Gagandeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Sahani
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Rahul Singh
+        bowler: Gagandeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Sahani
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Rahul Singh
+        bowler: Gagandeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CP Sahani
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: CP Sahani
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Rahul Singh
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Sahani
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Rahul Singh
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CP Sahani
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Rahul Singh
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Sahani
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: CP Sahani
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rahul Singh
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: CP Sahani
+        bowler: Ajay Mandal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Singh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Rahul Singh
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Sahani
+        wicket:
+          player_out: CP Sahani
+          fielders:
+          - J Butte
+          kind: caught
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Rahul Singh
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Buddhi
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Rahul Buddhi
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Rahul Singh
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Buddhi
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Rahul Singh
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Buddhi
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Rahul Buddhi
+        bowler: SS Agarwal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Singh
+    target:
+      overs: 20
+      runs: 98

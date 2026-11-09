@@ -1,0 +1,1933 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-01'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-11-08'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Vidarbha
+    by:
+      wickets: 9
+  overs: 20
+  players:
+    Tripura:
+    - U U Bose
+    - SM Singha
+    - T Mishra
+    - Milind Kumar
+    - Arkaprabha Sinha
+    - Manisankar Murasingh
+    - Harmeet Singh
+    - Saurabh Das
+    - Rana Dutta
+    - AA Chakraborty
+    - Ajay Sarkar
+    Vidarbha:
+    - SB Wagh
+    - Yash Thakur
+    - DG Nalkande
+    - FY Fazal
+    - Akshay Wakhare
+    - Akshay Karnewar
+    - AV Kolhar
+    - SU Shrivastava
+    - Ganesh Satish
+    - RR Rathod
+    - JM Sharma
+  registry:
+    people:
+      AA Chakraborty: 44e58b5b
+      AV Kolhar: e2b74f6e
+      Ajay Sarkar: 10636efb
+      Akshay Karnewar: e1e7f950
+      Akshay Wakhare: ec9fc54b
+      Arkaprabha Sinha: 92673ce8
+      DG Nalkande: cd8d2859
+      FY Fazal: c15e2193
+      Ganesh Satish: 0ed1a112
+      Harmeet Singh: 0bf15e52
+      JM Sharma: 800d2d97
+      Manisankar Murasingh: 52cb36a0
+      Milind Kumar: b4296080
+      RR Rathod: 3c79f8af
+      Rana Dutta: 6d981899
+      SB Wagh: dddca1d6
+      SM Singha: 7ca04294
+      SU Shrivastava: a392328e
+      Saurabh Das: 38f548aa
+      T Mishra: c9cac448
+      U U Bose: d28a7a2a
+      Yash Thakur: 4b31f3a3
+    venues:
+      Greenfield International Stadium, Thiruvananthapuram: a5199fe6
+  teams:
+  - Tripura
+  - Vidarbha
+  toss:
+    winner: Vidarbha
+    decision: field
+  venue: Greenfield International Stadium, Thiruvananthapuram
+  team_type: club
+innings:
+- 1st innings:
+    team: Tripura
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: SM Singha
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: U U Bose
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: SM Singha
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: U U Bose
+        wicket:
+          player_out: U U Bose
+          fielders:
+          - JM Sharma
+          kind: caught
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: SM Singha
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: T Mishra
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: SM Singha
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Mishra
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: T Mishra
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Singha
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: SM Singha
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Mishra
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: SM Singha
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Mishra
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: SM Singha
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Mishra
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: T Mishra
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Singha
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: SM Singha
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: T Mishra
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: SM Singha
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Mishra
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: SM Singha
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Mishra
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: SM Singha
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Mishra
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: SM Singha
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Mishra
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: SM Singha
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Mishra
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: T Mishra
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Singha
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: SM Singha
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Mishra
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: SM Singha
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Mishra
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: T Mishra
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: T Mishra
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Singha
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: SM Singha
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Mishra
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: T Mishra
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Singha
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: SM Singha
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: T Mishra
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: T Mishra
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SM Singha
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: T Mishra
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Singha
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: T Mishra
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SM Singha
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: T Mishra
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SM Singha
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: T Mishra
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SM Singha
+        wicket:
+          player_out: SM Singha
+          fielders:
+          - FY Fazal
+          kind: caught
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Milind Kumar
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Mishra
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Milind Kumar
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: T Mishra
+        wicket:
+          player_out: T Mishra
+          fielders:
+          - FY Fazal
+          kind: caught
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Arkaprabha Sinha
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Milind Kumar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Milind Kumar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arkaprabha Sinha
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Arkaprabha Sinha
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Milind Kumar
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Arkaprabha Sinha
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Milind Kumar
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Arkaprabha Sinha
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Milind Kumar
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Arkaprabha Sinha
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Milind Kumar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Milind Kumar
+        bowler: FY Fazal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arkaprabha Sinha
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Milind Kumar
+        bowler: FY Fazal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arkaprabha Sinha
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Arkaprabha Sinha
+        bowler: FY Fazal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Milind Kumar
+        wicket:
+          player_out: Milind Kumar
+          fielders:
+          - RR Rathod
+          kind: caught
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Manisankar Murasingh
+        bowler: FY Fazal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arkaprabha Sinha
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Manisankar Murasingh
+        bowler: FY Fazal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arkaprabha Sinha
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Manisankar Murasingh
+        bowler: FY Fazal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arkaprabha Sinha
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Manisankar Murasingh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arkaprabha Sinha
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Manisankar Murasingh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arkaprabha Sinha
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Arkaprabha Sinha
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manisankar Murasingh
+        wicket:
+          player_out: Manisankar Murasingh
+          kind: lbw
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Arkaprabha Sinha
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harmeet Singh
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Harmeet Singh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arkaprabha Sinha
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Harmeet Singh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arkaprabha Sinha
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Harmeet Singh
+        bowler: FY Fazal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arkaprabha Sinha
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Harmeet Singh
+        bowler: FY Fazal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arkaprabha Sinha
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Arkaprabha Sinha
+        bowler: FY Fazal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harmeet Singh
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Harmeet Singh
+        bowler: FY Fazal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arkaprabha Sinha
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Harmeet Singh
+        bowler: FY Fazal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arkaprabha Sinha
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Arkaprabha Sinha
+        bowler: FY Fazal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harmeet Singh
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Arkaprabha Sinha
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harmeet Singh
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Harmeet Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arkaprabha Sinha
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Harmeet Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arkaprabha Sinha
+        wicket:
+          player_out: Arkaprabha Sinha
+          fielders:
+          - FY Fazal
+          kind: caught
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Saurabh Das
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Harmeet Singh
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Saurabh Das
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harmeet Singh
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Harmeet Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Harmeet Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Saurabh Das
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harmeet Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Harmeet Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Das
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Harmeet Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Das
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Harmeet Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Das
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Harmeet Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Harmeet Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Saurabh Das
+        bowler: Akshay Wakhare
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Harmeet Singh
+    - 11.3:
+        actual_delivery: '11.2'
+        non_striker: Saurabh Das
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Harmeet Singh
+    - 11.4:
+        actual_delivery: '11.3'
+        non_striker: Saurabh Das
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harmeet Singh
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: Saurabh Das
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harmeet Singh
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: Harmeet Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Das
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: Harmeet Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Das
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Saurabh Das
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harmeet Singh
+        wicket:
+          player_out: Harmeet Singh
+          fielders:
+          - DG Nalkande
+          kind: caught
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Rana Dutta
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Saurabh Das
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Rana Dutta
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Saurabh Das
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Rana Dutta
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Das
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Saurabh Das
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rana Dutta
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Saurabh Das
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rana Dutta
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Saurabh Das
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Rana Dutta
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Das
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Rana Dutta
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Das
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Rana Dutta
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Das
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Saurabh Das
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rana Dutta
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Saurabh Das
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rana Dutta
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Saurabh Das
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Rana Dutta
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Saurabh Das
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rana Dutta
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Saurabh Das
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rana Dutta
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Rana Dutta
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Das
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Rana Dutta
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Saurabh Das
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rana Dutta
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Saurabh Das
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Rana Dutta
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Saurabh Das
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Saurabh Das
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rana Dutta
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Saurabh Das
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Rana Dutta
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Saurabh Das
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rana Dutta
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Saurabh Das
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Rana Dutta
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Das
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Saurabh Das
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Rana Dutta
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Saurabh Das
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Rana Dutta
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Saurabh Das
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Rana Dutta
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Saurabh Das
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Saurabh Das
+        bowler: Yash Thakur
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rana Dutta
+    - 18.2:
+        actual_delivery: '18.1'
+        non_striker: Saurabh Das
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 18.3:
+        actual_delivery: '18.2'
+        non_striker: Rana Dutta
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Saurabh Das
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: Rana Dutta
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: Saurabh Das
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: Rana Dutta
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: Saurabh Das
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rana Dutta
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Rana Dutta
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saurabh Das
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Rana Dutta
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Saurabh Das
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Rana Dutta
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Saurabh Das
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Rana Dutta
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Das
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Saurabh Das
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rana Dutta
+        wicket:
+          player_out: Rana Dutta
+          fielders:
+          - Akshay Karnewar
+          kind: caught
+- 2nd innings:
+    team: Vidarbha
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: AV Kolhar
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: AV Kolhar
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: AV Kolhar
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: AV Kolhar
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: FY Fazal
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: AV Kolhar
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FY Fazal
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: FY Fazal
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: AV Kolhar
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: AV Kolhar
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: AV Kolhar
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FY Fazal
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: AV Kolhar
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FY Fazal
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: AV Kolhar
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FY Fazal
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: FY Fazal
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: AV Kolhar
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: FY Fazal
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: AV Kolhar
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FY Fazal
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: AV Kolhar
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: FY Fazal
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: FY Fazal
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: AV Kolhar
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FY Fazal
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: AV Kolhar
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: FY Fazal
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Kolhar
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: FY Fazal
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AV Kolhar
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: FY Fazal
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AV Kolhar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: AV Kolhar
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: FY Fazal
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Kolhar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: FY Fazal
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Kolhar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: FY Fazal
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: AV Kolhar
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: AV Kolhar
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: FY Fazal
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: AV Kolhar
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: AV Kolhar
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: AV Kolhar
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: AV Kolhar
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: AV Kolhar
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: FY Fazal
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: AV Kolhar
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FY Fazal
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: AV Kolhar
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: FY Fazal
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: AV Kolhar
+        bowler: U U Bose
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          role:
+          - in: U U Bose
+            out: Harmeet Singh
+            reason: unknown
+            role: bowler
+        batsman: FY Fazal
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: FY Fazal
+        bowler: U U Bose
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: FY Fazal
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: AV Kolhar
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FY Fazal
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: AV Kolhar
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: FY Fazal
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AV Kolhar
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: FY Fazal
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Kolhar
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: FY Fazal
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: FY Fazal
+        bowler: AA Chakraborty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: AV Kolhar
+        bowler: AA Chakraborty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: AV Kolhar
+        bowler: AA Chakraborty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: FY Fazal
+        bowler: AA Chakraborty
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Kolhar
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: FY Fazal
+        bowler: AA Chakraborty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Kolhar
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: FY Fazal
+        bowler: AA Chakraborty
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Kolhar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: AV Kolhar
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FY Fazal
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: AV Kolhar
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FY Fazal
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: AV Kolhar
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FY Fazal
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: AV Kolhar
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: FY Fazal
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: AV Kolhar
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: FY Fazal
+        bowler: AA Chakraborty
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Kolhar
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: FY Fazal
+        bowler: AA Chakraborty
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Kolhar
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: FY Fazal
+        bowler: AA Chakraborty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: AV Kolhar
+        bowler: AA Chakraborty
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: FY Fazal
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: AV Kolhar
+        bowler: AA Chakraborty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: FY Fazal
+        bowler: AA Chakraborty
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: FY Fazal
+        bowler: Harmeet Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AV Kolhar
+    - 11.2:
+        actual_delivery: '11.1'
+        non_striker: FY Fazal
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 11.3:
+        actual_delivery: '11.2'
+        non_striker: AV Kolhar
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 11.4:
+        actual_delivery: '11.3'
+        non_striker: FY Fazal
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Kolhar
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: FY Fazal
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AV Kolhar
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: FY Fazal
+        bowler: Harmeet Singh
+        extras:
+          wides: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: AV Kolhar
+    - 11.7:
+        actual_delivery: '11.5'
+        non_striker: AV Kolhar
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FY Fazal
+    - 11.8:
+        actual_delivery: '11.6'
+        non_striker: AV Kolhar
+        bowler: Harmeet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+        wicket:
+          player_out: FY Fazal
+          fielders:
+          - U U Bose
+          kind: caught
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: SU Shrivastava
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Kolhar
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: SU Shrivastava
+        bowler: Saurabh Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Kolhar
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: AV Kolhar
+        bowler: Saurabh Das
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SU Shrivastava

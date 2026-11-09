@@ -1,0 +1,1428 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-01'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-11-14'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Gujarat
+    by:
+      wickets: 9
+  overs: 20
+  players:
+    Sikkim:
+    - Bibek Diyali
+    - Ashish Thapa
+    - Yashpal Singh
+    - Iqbal Abdulla
+    - Palzor Tamang
+    - Jahan Uddin
+    - Karma Bhutia
+    - Ishwar Chaudhary
+    - Prabesh Gurung
+    - Anil Subba
+    - Pritam Nirala
+    Gujarat:
+    - Roosh Kalaria
+    - Chintan Gaja
+    - Tejas Patel
+    - AR Patel
+    - PP Chawla
+    - Priyank Panchal
+    - Urvil Patel
+    - RV Patel
+    - BH Merai
+    - Chirag Gandhi
+    - PA Patel
+  registry:
+    people:
+      AR Patel: 2e171977
+      Anil Subba: 941a4359
+      Ashish Thapa: 60c6038a
+      BH Merai: 15d20a08
+      Bibek Diyali: 54d9489d
+      Chintan Gaja: 63bfb5fc
+      Chirag Gandhi: 35eb75af
+      Iqbal Abdulla: 85aae393
+      Ishwar Chaudhary: fe473dc2
+      Jahan Uddin: 28970e5a
+      Karma Bhutia: 299984bc
+      PA Patel: b5da6c24
+      PP Chawla: 98ae73b1
+      Palzor Tamang: 61a3c20c
+      Prabesh Gurung: 44d9d268
+      Pritam Nirala: 4e57144f
+      Priyank Panchal: ebf25cf2
+      RV Patel: '60500956'
+      Roosh Kalaria: 779b7f4d
+      Tejas Patel: 76ed445f
+      Urvil Patel: cf59b3f0
+      Yashpal Singh: 297b26da
+    venues:
+      Lalabhai Contractor Stadium, Surat: '0689d53a'
+  teams:
+  - Sikkim
+  - Gujarat
+  toss:
+    winner: Sikkim
+    decision: bat
+  venue: Lalabhai Contractor Stadium, Surat
+  team_type: club
+innings:
+- 1st innings:
+    team: Sikkim
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Ashish Thapa
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bibek Diyali
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Bibek Diyali
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Bibek Diyali
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Thapa
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Ashish Thapa
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bibek Diyali
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Bibek Diyali
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Bibek Diyali
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Ashish Thapa
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Ashish Thapa
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bibek Diyali
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Bibek Diyali
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Bibek Diyali
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Bibek Diyali
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Thapa
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Ashish Thapa
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Bibek Diyali
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashish Thapa
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Bibek Diyali
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Thapa
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Ashish Thapa
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Ashish Thapa
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Ashish Thapa
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bibek Diyali
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Ashish Thapa
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Bibek Diyali
+        bowler: Tejas Patel
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ashish Thapa
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Ashish Thapa
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Ashish Thapa
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Ashish Thapa
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Ashish Thapa
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bibek Diyali
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Bibek Diyali
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Ashish Thapa
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bibek Diyali
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Bibek Diyali
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Bibek Diyali
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Bibek Diyali
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Thapa
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Ashish Thapa
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Ashish Thapa
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Bibek Diyali
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Bibek Diyali
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Thapa
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Ashish Thapa
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Ashish Thapa
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Ashish Thapa
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Ashish Thapa
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bibek Diyali
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Ashish Thapa
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Ashish Thapa
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bibek Diyali
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Bibek Diyali
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Thapa
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Ashish Thapa
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bibek Diyali
+        wicket:
+          player_out: Bibek Diyali
+          fielders:
+          - Chintan Gaja
+          kind: caught
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Yashpal Singh
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Thapa
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Ashish Thapa
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Yashpal Singh
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Yashpal Singh
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Yashpal Singh
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Thapa
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Ashish Thapa
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yashpal Singh
+        wicket:
+          player_out: Yashpal Singh
+          kind: bowled
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Ashish Thapa
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Iqbal Abdulla
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Ashish Thapa
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Iqbal Abdulla
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Iqbal Abdulla
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Iqbal Abdulla
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Thapa
+        wicket:
+          player_out: Ashish Thapa
+          kind: lbw
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Iqbal Abdulla
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Iqbal Abdulla
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Iqbal Abdulla
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Iqbal Abdulla
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Palzor Tamang
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Iqbal Abdulla
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Iqbal Abdulla
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Iqbal Abdulla
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Iqbal Abdulla
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Iqbal Abdulla
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Palzor Tamang
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Palzor Tamang
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Iqbal Abdulla
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Palzor Tamang
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Iqbal Abdulla
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Palzor Tamang
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Iqbal Abdulla
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Iqbal Abdulla
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Palzor Tamang
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Palzor Tamang
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Iqbal Abdulla
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Palzor Tamang
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Iqbal Abdulla
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Palzor Tamang
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Iqbal Abdulla
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Palzor Tamang
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Iqbal Abdulla
+        wicket:
+          player_out: Iqbal Abdulla
+          fielders:
+          - PA Patel
+          kind: stumped
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Palzor Tamang
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jahan Uddin
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Palzor Tamang
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jahan Uddin
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Palzor Tamang
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jahan Uddin
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Palzor Tamang
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jahan Uddin
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Palzor Tamang
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jahan Uddin
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Jahan Uddin
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Jahan Uddin
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Jahan Uddin
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Palzor Tamang
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Palzor Tamang
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Jahan Uddin
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Jahan Uddin
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Jahan Uddin
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Palzor Tamang
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Jahan Uddin
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Jahan Uddin
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Jahan Uddin
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Palzor Tamang
+        wicket:
+          player_out: Palzor Tamang
+          kind: bowled
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Jahan Uddin
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karma Bhutia
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Jahan Uddin
+        bowler: PP Chawla
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Karma Bhutia
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Karma Bhutia
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jahan Uddin
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Jahan Uddin
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karma Bhutia
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Jahan Uddin
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karma Bhutia
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Jahan Uddin
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karma Bhutia
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Jahan Uddin
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karma Bhutia
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Jahan Uddin
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karma Bhutia
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Jahan Uddin
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karma Bhutia
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Karma Bhutia
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Jahan Uddin
+        wicket:
+          player_out: Jahan Uddin
+          kind: bowled
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Karma Bhutia
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishwar Chaudhary
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Karma Bhutia
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ishwar Chaudhary
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Ishwar Chaudhary
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karma Bhutia
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Ishwar Chaudhary
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karma Bhutia
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Ishwar Chaudhary
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karma Bhutia
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Karma Bhutia
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ishwar Chaudhary
+        wicket:
+          player_out: Ishwar Chaudhary
+          kind: caught and bowled
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Karma Bhutia
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prabesh Gurung
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Karma Bhutia
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prabesh Gurung
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Karma Bhutia
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prabesh Gurung
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Prabesh Gurung
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Karma Bhutia
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Karma Bhutia
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prabesh Gurung
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Karma Bhutia
+        bowler: Tejas Patel
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Prabesh Gurung
+    - 17.2:
+        actual_delivery: '17.1'
+        non_striker: Karma Bhutia
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prabesh Gurung
+    - 17.3:
+        actual_delivery: '17.2'
+        non_striker: Karma Bhutia
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prabesh Gurung
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: Karma Bhutia
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prabesh Gurung
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: Karma Bhutia
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prabesh Gurung
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: Prabesh Gurung
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Karma Bhutia
+        wicket:
+          player_out: Karma Bhutia
+          kind: bowled
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Anil Subba
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prabesh Gurung
+        wicket:
+          player_out: Prabesh Gurung
+          fielders:
+          - RV Patel
+          kind: caught
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Anil Subba
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pritam Nirala
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Anil Subba
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pritam Nirala
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Anil Subba
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pritam Nirala
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Pritam Nirala
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anil Subba
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Pritam Nirala
+        bowler: Chintan Gaja
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anil Subba
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Anil Subba
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pritam Nirala
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Anil Subba
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pritam Nirala
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Anil Subba
+        bowler: Roosh Kalaria
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pritam Nirala
+        wicket:
+          player_out: Pritam Nirala
+          kind: bowled
+- 2nd innings:
+    team: Gujarat
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Urvil Patel
+        bowler: Iqbal Abdulla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Priyank Panchal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Urvil Patel
+        bowler: Iqbal Abdulla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Urvil Patel
+        bowler: Iqbal Abdulla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Urvil Patel
+        bowler: Iqbal Abdulla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Priyank Panchal
+        bowler: Iqbal Abdulla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Priyank Panchal
+        bowler: Iqbal Abdulla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Urvil Patel
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Urvil Patel
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Urvil Patel
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Urvil Patel
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Priyank Panchal
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Priyank Panchal
+        bowler: Palzor Tamang
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Urvil Patel
+        bowler: Ishwar Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Priyank Panchal
+        bowler: Ishwar Chaudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Priyank Panchal
+        bowler: Ishwar Chaudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Priyank Panchal
+        bowler: Ishwar Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Urvil Patel
+        bowler: Ishwar Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Urvil Patel
+        bowler: Ishwar Chaudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Priyank Panchal
+        bowler: Prabesh Gurung
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Urvil Patel
+    - 3.2:
+        actual_delivery: '3.1'
+        non_striker: Priyank Panchal
+        bowler: Prabesh Gurung
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: Priyank Panchal
+        bowler: Prabesh Gurung
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: Priyank Panchal
+        bowler: Prabesh Gurung
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Priyank Panchal
+        bowler: Prabesh Gurung
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Urvil Patel
+        bowler: Prabesh Gurung
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Priyank Panchal
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Priyank Panchal
+        bowler: Prabesh Gurung
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+        wicket:
+          player_out: Urvil Patel
+          fielders:
+          - Pritam Nirala
+          kind: caught
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Priyank Panchal
+        bowler: Anil Subba
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RV Patel
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: RV Patel
+        bowler: Anil Subba
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Priyank Panchal

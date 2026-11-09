@@ -1,0 +1,2413 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-04'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2018-01-25'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Punjab
+    by:
+      runs: 5
+  overs: 20
+  players:
+    Punjab:
+    - M Vohra
+    - Mandeep Singh
+    - Harbhajan Singh
+    - Gurkeerat Singh
+    - Yuvraj Singh
+    - Sharad Lumba
+    - Abhishek Gupta
+    - MS Gony
+    - BB Sran
+    - S Kaul
+    - M Markande
+    Rajasthan:
+    - A Choudhary
+    - DL Chahar
+    - MK Lomror
+    - KK Ahmed
+    - RD Chahar
+    - Tajinder Singh
+    - CP Singh
+    - Aditya Garhwal
+    - Ankit Lamba
+    - SF Khan
+    - Chetan Bist
+  registry:
+    people:
+      A Choudhary: 18e6906e
+      Abhishek Gupta: 22a2a635
+      Aditya Garhwal: 8e02f42b
+      Ankit Lamba: 90a3c0dc
+      Anmolpreet Singh: 1399b39c
+      BB Sran: d8b2f218
+      CP Singh: 077da288
+      Chetan Bist: cf9d3356
+      DL Chahar: 23eeb873
+      Gurkeerat Singh: 6eb146d2
+      Harbhajan Singh: 8b5b6769
+      KK Ahmed: a2f46292
+      M Markande: a9fd84fb
+      M Vohra: c03e2850
+      MK Lomror: da934ee8
+      MS Gony: ae78bc32
+      Mandeep Singh: c3a96caf
+      RD Chahar: 2ed569a0
+      S Kaul: dcf81436
+      SF Khan: '25986786'
+      Sharad Lumba: 03c29939
+      Tajinder Singh: f9d99806
+      Yuvraj Singh: 1c914163
+    venues:
+      Eden Gardens, Kolkata: 672f066b
+  teams:
+  - Punjab
+  - Rajasthan
+  toss:
+    winner: Rajasthan
+    decision: field
+  venue: Eden Gardens, Kolkata
+  team_type: club
+innings:
+- 1st innings:
+    team: Punjab
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Mandeep Singh
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Vohra
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Mandeep Singh
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Vohra
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Mandeep Singh
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Vohra
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Mandeep Singh
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Mandeep Singh
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: M Vohra
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Mandeep Singh
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: M Vohra
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Mandeep Singh
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: M Vohra
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+        wicket:
+          player_out: Mandeep Singh
+          kind: lbw
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: M Vohra
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Harbhajan Singh
+        bowler: DL Chahar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: M Vohra
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Harbhajan Singh
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: M Vohra
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Harbhajan Singh
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: M Vohra
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Harbhajan Singh
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: M Vohra
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Harbhajan Singh
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: M Vohra
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: M Vohra
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Harbhajan Singh
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: M Vohra
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Harbhajan Singh
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+        wicket:
+          player_out: M Vohra
+          fielders:
+          - Chetan Bist
+          kind: caught
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Harbhajan Singh
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Harbhajan Singh
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Harbhajan Singh
+        bowler: DL Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Harbhajan Singh
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          role:
+          - in: MK Lomror
+            out: DL Chahar
+            reason: unknown
+            role: bowler
+        batsman: Gurkeerat Singh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Harbhajan Singh
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Harbhajan Singh
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Harbhajan Singh
+        bowler: KK Ahmed
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Gurkeerat Singh
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Harbhajan Singh
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+        wicket:
+          player_out: Gurkeerat Singh
+          fielders:
+          - RD Chahar
+          kind: caught
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Harbhajan Singh
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yuvraj Singh
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Harbhajan Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Harbhajan Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Harbhajan Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yuvraj Singh
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Yuvraj Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Harbhajan Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Harbhajan Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Yuvraj Singh
+        bowler: Tajinder Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Harbhajan Singh
+        bowler: Tajinder Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yuvraj Singh
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Yuvraj Singh
+        bowler: Tajinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Yuvraj Singh
+        bowler: Tajinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Yuvraj Singh
+        bowler: Tajinder Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Harbhajan Singh
+        bowler: Tajinder Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Yuvraj Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Harbhajan Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Harbhajan Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yuvraj Singh
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Yuvraj Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Yuvraj Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Harbhajan Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+        wicket:
+          player_out: Yuvraj Singh
+          fielders:
+          - Chetan Bist
+          kind: stumped
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Sharad Lumba
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Sharad Lumba
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harbhajan Singh
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Sharad Lumba
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Sharad Lumba
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Harbhajan Singh
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Sharad Lumba
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Sharad Lumba
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Sharad Lumba
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Harbhajan Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Sharad Lumba
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Harbhajan Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sharad Lumba
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Harbhajan Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sharad Lumba
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Harbhajan Singh
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Harbhajan Singh
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sharad Lumba
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Harbhajan Singh
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Sharad Lumba
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Sharad Lumba
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Sharad Lumba
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Harbhajan Singh
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Harbhajan Singh
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Sharad Lumba
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Sharad Lumba
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Harbhajan Singh
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sharad Lumba
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Harbhajan Singh
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sharad Lumba
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Harbhajan Singh
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Harbhajan Singh
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Sharad Lumba
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harbhajan Singh
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Sharad Lumba
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harbhajan Singh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Harbhajan Singh
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Sharad Lumba
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harbhajan Singh
+        wicket:
+          player_out: Harbhajan Singh
+          fielders:
+          - Chetan Bist
+          kind: caught
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Sharad Lumba
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Gupta
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Abhishek Gupta
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Sharad Lumba
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Gupta
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Abhishek Gupta
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Sharad Lumba
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Gupta
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Abhishek Gupta
+        bowler: MK Lomror
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Sharad Lumba
+    - 13.6:
+        actual_delivery: '13.5'
+        non_striker: Abhishek Gupta
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sharad Lumba
+    - 13.7:
+        actual_delivery: '13.6'
+        non_striker: Abhishek Gupta
+        bowler: MK Lomror
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Abhishek Gupta
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sharad Lumba
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Abhishek Gupta
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sharad Lumba
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Abhishek Gupta
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sharad Lumba
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Abhishek Gupta
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Sharad Lumba
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Gupta
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Abhishek Gupta
+        bowler: CP Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Abhishek Gupta
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Sharad Lumba
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abhishek Gupta
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Sharad Lumba
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Gupta
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Sharad Lumba
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: Abhishek Gupta
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Abhishek Gupta
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sharad Lumba
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Sharad Lumba
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Gupta
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Sharad Lumba
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Gupta
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Abhishek Gupta
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sharad Lumba
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Abhishek Gupta
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sharad Lumba
+        wicket:
+          player_out: Sharad Lumba
+          fielders:
+          - KK Ahmed
+          kind: caught
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Abhishek Gupta
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MS Gony
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Abhishek Gupta
+        bowler: RD Chahar
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: MS Gony
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: MS Gony
+        bowler: RD Chahar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Gupta
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: MS Gony
+        bowler: KK Ahmed
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Abhishek Gupta
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Abhishek Gupta
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Gony
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: MS Gony
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Gupta
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Abhishek Gupta
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MS Gony
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: MS Gony
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Gupta
+        wicket:
+          player_out: Abhishek Gupta
+          fielders:
+          - Chetan Bist
+          kind: caught
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: MS Gony
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BB Sran
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: MS Gony
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BB Sran
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: MS Gony
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BB Sran
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: MS Gony
+        bowler: A Choudhary
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: BB Sran
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: MS Gony
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BB Sran
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: BB Sran
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Gony
+        wicket:
+          player_out: MS Gony
+          fielders:
+          - SF Khan
+          kind: caught
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: S Kaul
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BB Sran
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: S Kaul
+        bowler: A Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BB Sran
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: S Kaul
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BB Sran
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: BB Sran
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Kaul
+        wicket:
+          player_out: S Kaul
+          fielders:
+          - Ankit Lamba
+          kind: caught
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: M Markande
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BB Sran
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: M Markande
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BB Sran
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: BB Sran
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Markande
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: BB Sran
+        bowler: KK Ahmed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Markande
+- 2nd innings:
+    team: Rajasthan
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Ankit Lamba
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Aditya Garhwal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Ankit Lamba
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Garhwal
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Ankit Lamba
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Aditya Garhwal
+        wicket:
+          player_out: Aditya Garhwal
+          fielders:
+          - Anmolpreet Singh (sub)
+          kind: run out
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: SF Khan
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: SF Khan
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: SF Khan
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Ankit Lamba
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SF Khan
+        wicket:
+          player_out: SF Khan
+          kind: bowled
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Ankit Lamba
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Ankit Lamba
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Ankit Lamba
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Ankit Lamba
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Lomror
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: MK Lomror
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Ankit Lamba
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Ankit Lamba
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Ankit Lamba
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Ankit Lamba
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Ankit Lamba
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Ankit Lamba
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MK Lomror
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: MK Lomror
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ankit Lamba
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: MK Lomror
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: MK Lomror
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Lamba
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: MK Lomror
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Lamba
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Ankit Lamba
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Lomror
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: MK Lomror
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Lamba
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Ankit Lamba
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MK Lomror
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Ankit Lamba
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Lomror
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: MK Lomror
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: MK Lomror
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ankit Lamba
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: MK Lomror
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: MK Lomror
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Ankit Lamba
+        bowler: M Markande
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: MK Lomror
+    - 5.2:
+        actual_delivery: '5.1'
+        non_striker: Ankit Lamba
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 5.3:
+        actual_delivery: '5.2'
+        non_striker: Ankit Lamba
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Lomror
+    - 5.4:
+        actual_delivery: '5.3'
+        non_striker: MK Lomror
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Lamba
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: Ankit Lamba
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: Ankit Lamba
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MK Lomror
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: Ankit Lamba
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MK Lomror
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: MK Lomror
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Lamba
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Ankit Lamba
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Lomror
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: MK Lomror
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Lamba
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: MK Lomror
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: MK Lomror
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: MK Lomror
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Ankit Lamba
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Ankit Lamba
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Lomror
+        wicket:
+          player_out: MK Lomror
+          fielders:
+          - MS Gony
+          kind: caught
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Ankit Lamba
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Ankit Lamba
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chetan Bist
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Chetan Bist
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Chetan Bist
+        bowler: Harbhajan Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ankit Lamba
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Chetan Bist
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Lamba
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Ankit Lamba
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Ankit Lamba
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Ankit Lamba
+        bowler: BB Sran
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chetan Bist
+    - 8.4:
+        actual_delivery: '8.3'
+        non_striker: Ankit Lamba
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chetan Bist
+        wicket:
+          player_out: Chetan Bist
+          kind: lbw
+    - 8.5:
+        actual_delivery: '8.4'
+        non_striker: Ankit Lamba
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tajinder Singh
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: Tajinder Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Lamba
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: Ankit Lamba
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tajinder Singh
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Tajinder Singh
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Tajinder Singh
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Lamba
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Tajinder Singh
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Lamba
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Ankit Lamba
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tajinder Singh
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Tajinder Singh
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Tajinder Singh
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Ankit Lamba
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tajinder Singh
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Ankit Lamba
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tajinder Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Ankit Lamba
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tajinder Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Tajinder Singh
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Lamba
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Tajinder Singh
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Lamba
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Ankit Lamba
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tajinder Singh
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Tajinder Singh
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Tajinder Singh
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Tajinder Singh
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Lamba
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Tajinder Singh
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Tajinder Singh
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Lamba
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Ankit Lamba
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tajinder Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Tajinder Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Tajinder Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Tajinder Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Lamba
+        wicket:
+          player_out: Ankit Lamba
+          fielders:
+          - Abhishek Gupta
+          kind: caught
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Tajinder Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Singh
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: CP Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tajinder Singh
+        wicket:
+          player_out: Tajinder Singh
+          kind: lbw
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: CP Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DL Chahar
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: DL Chahar
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Singh
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: DL Chahar
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Singh
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: CP Singh
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DL Chahar
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: CP Singh
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DL Chahar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: CP Singh
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DL Chahar
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: CP Singh
+        bowler: Harbhajan Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DL Chahar
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: CP Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DL Chahar
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: DL Chahar
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Singh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: DL Chahar
+        bowler: BB Sran
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: CP Singh
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: CP Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DL Chahar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: CP Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DL Chahar
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: CP Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DL Chahar
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: CP Singh
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DL Chahar
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: CP Singh
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DL Chahar
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: CP Singh
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DL Chahar
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: DL Chahar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Singh
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: DL Chahar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Singh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: DL Chahar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Singh
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: CP Singh
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DL Chahar
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: DL Chahar
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Singh
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: DL Chahar
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Singh
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: DL Chahar
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Singh
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: DL Chahar
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Singh
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: DL Chahar
+        bowler: S Kaul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Singh
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: DL Chahar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CP Singh
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: DL Chahar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Singh
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: DL Chahar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: CP Singh
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: DL Chahar
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Singh
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: CP Singh
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DL Chahar
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: CP Singh
+        bowler: M Markande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DL Chahar
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: DL Chahar
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Singh
+        wicket:
+          player_out: DL Chahar
+          kind: retired hurt
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: RD Chahar
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: CP Singh
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: CP Singh
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Chahar
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: RD Chahar
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: CP Singh
+        wicket:
+          player_out: CP Singh
+          fielders:
+          - Harbhajan Singh
+          kind: caught
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: RD Chahar
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Choudhary
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: A Choudhary
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Chahar
+    - 18.7:
+        actual_delivery: '18.7'
+        non_striker: A Choudhary
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Chahar
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: RD Chahar
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Choudhary
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: A Choudhary
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RD Chahar
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: A Choudhary
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RD Chahar
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: RD Chahar
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Choudhary
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: A Choudhary
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RD Chahar
+        wicket:
+          player_out: RD Chahar
+          fielders:
+          - M Markande
+          kind: caught
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: KK Ahmed
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Choudhary

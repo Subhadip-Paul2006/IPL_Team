@@ -1,0 +1,2339 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-03'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-02-24'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Tamil Nadu
+    by:
+      wickets: 6
+  overs: 20
+  players:
+    Bihar:
+    - Mangal Mahrour
+    - Piyush Singh
+    - Babul Kumar
+    - Asfan Khan
+    - MD Rahmatullah
+    - Keshav Kumar
+    - Prashant Singh
+    - Samar Quadri
+    - Vivek Kumar
+    - Ashutosh Aman
+    - Vishal Das
+    Tamil Nadu:
+    - Abhishek Tanwar
+    - R Rohit
+    - M Mohammed
+    - Washington Sundar
+    - M Ashwin
+    - R Ashwin
+    - NS Chaturved
+    - Hari Nishaanth
+    - B Indrajith
+    - Rajendran Vivek
+    - N Jagadeesan
+  registry:
+    people:
+      Abhishek Tanwar: c8ded7bc
+      Asfan Khan: fc3d382b
+      Ashutosh Aman: 4948a916
+      B Indrajith: ff1e68fa
+      Babul Kumar: 85e6ccde
+      Hari Nishaanth: c3f37533
+      Keshav Kumar: 722ca1f2
+      M Ashwin: e2db2409
+      M Mohammed: 1b7c4d69
+      MD Rahmatullah: c10a99ec
+      Mangal Mahrour: 97c06e86
+      N Jagadeesan: bd54eef5
+      NS Chaturved: 1e295ba7
+      Piyush Singh: afab6988
+      Prashant Singh: 5b2a1532
+      R Ashwin: 495d42a5
+      R Rohit: 7d8feff2
+      Rajendran Vivek: 7509f4bc
+      Samar Quadri: 258fa633
+      Vishal Das: e5eb5edf
+      Vivek Kumar: a97c96bf
+      Washington Sundar: f19ccfad
+    venues:
+      CB Patel International Cricket Stadium, Surat: a8d90b2d
+  teams:
+  - Bihar
+  - Tamil Nadu
+  toss:
+    winner: Bihar
+    decision: bat
+  venue: CB Patel International Cricket Stadium, Surat
+  team_type: club
+innings:
+- 1st innings:
+    team: Bihar
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Piyush Singh
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Piyush Singh
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Piyush Singh
+        bowler: Abhishek Tanwar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Piyush Singh
+        bowler: Abhishek Tanwar
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Mangal Mahrour
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Singh
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Piyush Singh
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Piyush Singh
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Piyush Singh
+        bowler: R Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Mangal Mahrour
+        bowler: R Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Singh
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Piyush Singh
+        bowler: R Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Piyush Singh
+        bowler: R Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Piyush Singh
+        bowler: R Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Piyush Singh
+        bowler: R Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Piyush Singh
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Mangal Mahrour
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Singh
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Mangal Mahrour
+        bowler: Abhishek Tanwar
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Piyush Singh
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Piyush Singh
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Mangal Mahrour
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Piyush Singh
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Mangal Mahrour
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Singh
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Mangal Mahrour
+        bowler: R Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Singh
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Mangal Mahrour
+        bowler: R Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Singh
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Mangal Mahrour
+        bowler: R Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Singh
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Mangal Mahrour
+        bowler: R Rohit
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Piyush Singh
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Mangal Mahrour
+        bowler: R Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Singh
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Mangal Mahrour
+        bowler: R Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Singh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Mangal Mahrour
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Singh
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Piyush Singh
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Piyush Singh
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Piyush Singh
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Piyush Singh
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Piyush Singh
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Mangal Mahrour
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Singh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Mangal Mahrour
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Piyush Singh
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Mangal Mahrour
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Singh
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Piyush Singh
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mangal Mahrour
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Piyush Singh
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Piyush Singh
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Piyush Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Piyush Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Piyush Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Mangal Mahrour
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Piyush Singh
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Mangal Mahrour
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Singh
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Piyush Singh
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Piyush Singh
+        bowler: M Mohammed
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 7.3:
+        actual_delivery: '7.2'
+        non_striker: Piyush Singh
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 7.4:
+        actual_delivery: '7.3'
+        non_striker: Piyush Singh
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: Mangal Mahrour
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Singh
+        wicket:
+          player_out: Piyush Singh
+          fielders:
+          - NS Chaturved
+          kind: caught
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Mangal Mahrour
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babul Kumar
+        wicket:
+          player_out: Babul Kumar
+          fielders:
+          - B Indrajith
+          kind: caught
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Mangal Mahrour
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Asfan Khan
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mangal Mahrour
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Mangal Mahrour
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Mangal Mahrour
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+        wicket:
+          player_out: Mangal Mahrour
+          fielders:
+          - NS Chaturved
+          kind: run out
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: MD Rahmatullah
+        bowler: Washington Sundar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Asfan Khan
+    - 8.5:
+        actual_delivery: '8.4'
+        non_striker: MD Rahmatullah
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: MD Rahmatullah
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: MD Rahmatullah
+        bowler: Washington Sundar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Asfan Khan
+    - 8.8:
+        actual_delivery: '8.6'
+        non_striker: MD Rahmatullah
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Asfan Khan
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Asfan Khan
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Asfan Khan
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MD Rahmatullah
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Asfan Khan
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MD Rahmatullah
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Asfan Khan
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: MD Rahmatullah
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Asfan Khan
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: MD Rahmatullah
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Asfan Khan
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Asfan Khan
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: MD Rahmatullah
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: MD Rahmatullah
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Asfan Khan
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: MD Rahmatullah
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Asfan Khan
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Asfan Khan
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Asfan Khan
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Asfan Khan
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MD Rahmatullah
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Asfan Khan
+        bowler: M Ashwin
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 11.4:
+        actual_delivery: '11.3'
+        non_striker: Asfan Khan
+        bowler: M Ashwin
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 11.5:
+        actual_delivery: '11.3'
+        non_striker: Asfan Khan
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 11.6:
+        actual_delivery: '11.4'
+        non_striker: Asfan Khan
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MD Rahmatullah
+    - 11.7:
+        actual_delivery: '11.5'
+        non_striker: Asfan Khan
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 11.8:
+        actual_delivery: '11.6'
+        non_striker: MD Rahmatullah
+        bowler: M Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Asfan Khan
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: MD Rahmatullah
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: MD Rahmatullah
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Asfan Khan
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: MD Rahmatullah
+        bowler: R Ashwin
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Asfan Khan
+    - 12.4:
+        actual_delivery: '12.3'
+        non_striker: MD Rahmatullah
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: MD Rahmatullah
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Asfan Khan
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: Asfan Khan
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: MD Rahmatullah
+        bowler: R Ashwin
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Asfan Khan
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: MD Rahmatullah
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: MD Rahmatullah
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Asfan Khan
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Asfan Khan
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MD Rahmatullah
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: MD Rahmatullah
+        bowler: M Mohammed
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Asfan Khan
+    - 13.5:
+        actual_delivery: '13.4'
+        non_striker: MD Rahmatullah
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Asfan Khan
+    - 13.6:
+        actual_delivery: '13.5'
+        non_striker: Asfan Khan
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 13.7:
+        actual_delivery: '13.6'
+        non_striker: Asfan Khan
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: MD Rahmatullah
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: MD Rahmatullah
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: MD Rahmatullah
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Asfan Khan
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: MD Rahmatullah
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+        wicket:
+          player_out: Asfan Khan
+          kind: bowled
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: MD Rahmatullah
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: MD Rahmatullah
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Keshav Kumar
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Keshav Kumar
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MD Rahmatullah
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Keshav Kumar
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+        wicket:
+          player_out: MD Rahmatullah
+          fielders:
+          - M Ashwin
+          kind: caught
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Prashant Singh
+        bowler: M Mohammed
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Keshav Kumar
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Keshav Kumar
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Prashant Singh
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Keshav Kumar
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Prashant Singh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Keshav Kumar
+        bowler: M Mohammed
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Singh
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Keshav Kumar
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Prashant Singh
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Keshav Kumar
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Singh
+        wicket:
+          player_out: Prashant Singh
+          kind: bowled
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Keshav Kumar
+        bowler: R Ashwin
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Samar Quadri
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Samar Quadri
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Keshav Kumar
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samar Quadri
+        wicket:
+          player_out: Samar Quadri
+          fielders:
+          - M Ashwin
+          kind: caught
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Vivek Kumar
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+        wicket:
+          player_out: Vivek Kumar
+          fielders:
+          - R Rohit
+          kind: run out
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Ashutosh Aman
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Ashutosh Aman
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Keshav Kumar
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Ashutosh Aman
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Keshav Kumar
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Ashutosh Aman
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Keshav Kumar
+        bowler: Washington Sundar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Keshav Kumar
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Keshav Kumar
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Keshav Kumar
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Keshav Kumar
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Ashutosh Aman
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Keshav Kumar
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Ashutosh Aman
+        bowler: R Ashwin
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Keshav Kumar
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Keshav Kumar
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Ashutosh Aman
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Keshav Kumar
+        bowler: Abhishek Tanwar
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Ashutosh Aman
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Keshav Kumar
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+        wicket:
+          player_out: Ashutosh Aman
+          fielders:
+          - NS Chaturved
+          kind: run out
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Keshav Kumar
+        bowler: Abhishek Tanwar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishal Das
+- 2nd innings:
+    team: Tamil Nadu
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Hari Nishaanth
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Hari Nishaanth
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Hari Nishaanth
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Hari Nishaanth
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Hari Nishaanth
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: NS Chaturved
+        bowler: Vivek Kumar
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Hari Nishaanth
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: NS Chaturved
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hari Nishaanth
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: NS Chaturved
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hari Nishaanth
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Hari Nishaanth
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: NS Chaturved
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hari Nishaanth
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Hari Nishaanth
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NS Chaturved
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Hari Nishaanth
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NS Chaturved
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: NS Chaturved
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hari Nishaanth
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Hari Nishaanth
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: NS Chaturved
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Hari Nishaanth
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: NS Chaturved
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hari Nishaanth
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Hari Nishaanth
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: NS Chaturved
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hari Nishaanth
+        wicket:
+          player_out: Hari Nishaanth
+          fielders:
+          - Ashutosh Aman
+          kind: caught
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: NS Chaturved
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: NS Chaturved
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: B Indrajith
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: NS Chaturved
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: B Indrajith
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: NS Chaturved
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: NS Chaturved
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: NS Chaturved
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: B Indrajith
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: NS Chaturved
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: B Indrajith
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: NS Chaturved
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: B Indrajith
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: NS Chaturved
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: NS Chaturved
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: B Indrajith
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: NS Chaturved
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: NS Chaturved
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: B Indrajith
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: NS Chaturved
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: NS Chaturved
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: NS Chaturved
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: NS Chaturved
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: B Indrajith
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: B Indrajith
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: NS Chaturved
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: B Indrajith
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: NS Chaturved
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: NS Chaturved
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: B Indrajith
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: NS Chaturved
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: NS Chaturved
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: B Indrajith
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: NS Chaturved
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: B Indrajith
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: B Indrajith
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: NS Chaturved
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: B Indrajith
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: NS Chaturved
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: NS Chaturved
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: B Indrajith
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: NS Chaturved
+        wicket:
+          player_out: NS Chaturved
+          fielders:
+          - Prashant Singh
+          kind: caught
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: R Ashwin
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: R Ashwin
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: B Indrajith
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: R Ashwin
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: B Indrajith
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ashwin
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: R Ashwin
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: R Ashwin
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: R Ashwin
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: R Ashwin
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: R Ashwin
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: B Indrajith
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Ashwin
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: B Indrajith
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: R Ashwin
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: R Ashwin
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: B Indrajith
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: R Ashwin
+        wicket:
+          player_out: R Ashwin
+          kind: bowled
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Washington Sundar
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: B Indrajith
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: B Indrajith
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Washington Sundar
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: B Indrajith
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Washington Sundar
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: B Indrajith
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Washington Sundar
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: B Indrajith
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Washington Sundar
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: B Indrajith
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Washington Sundar
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: B Indrajith
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Washington Sundar
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Washington Sundar
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: B Indrajith
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Washington Sundar
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: B Indrajith
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Washington Sundar
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: B Indrajith
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: B Indrajith
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Washington Sundar
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: B Indrajith
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: B Indrajith
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: B Indrajith
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Washington Sundar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: B Indrajith
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Washington Sundar
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Washington Sundar
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: B Indrajith
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Washington Sundar
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: B Indrajith
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Washington Sundar
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: B Indrajith
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: B Indrajith
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Washington Sundar
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: B Indrajith
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Washington Sundar
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: B Indrajith
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Washington Sundar
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: B Indrajith
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Washington Sundar
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: B Indrajith
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Washington Sundar
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: B Indrajith
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Washington Sundar
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: B Indrajith
+        wicket:
+          player_out: B Indrajith
+          kind: bowled
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Washington Sundar
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajendran Vivek
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Washington Sundar
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rajendran Vivek
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Washington Sundar
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajendran Vivek
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Rajendran Vivek
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Rajendran Vivek
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Washington Sundar
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Rajendran Vivek
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Washington Sundar
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Washington Sundar
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajendran Vivek
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Washington Sundar
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajendran Vivek
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Rajendran Vivek
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Washington Sundar

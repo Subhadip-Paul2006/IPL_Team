@@ -1,0 +1,2388 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-09'
+  revision: 2
+info:
+  balls_per_over: 6
+  city: Jaipur
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2022-10-18'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Tripura
+    by:
+      runs: 23
+  overs: 20
+  players:
+    Tripura:
+    - Sankar Paul
+    - BB Ghosh
+    - Bikramkumar Das
+    - WP Saha
+    - Sudip Chatterjee
+    - Rajat Dey
+    - Manisankar Murasingh
+    - D Khatri
+    - Rana Dutta
+    - Parvez Sultan
+    - CK Paul
+    - Ajay Sarkar
+    Puducherry:
+    - Damodaran Rohit
+    - Ramachandran Ragupathy
+    - Y Avinash Jadhav
+    - Parameeswaran Sivaraman
+    - Ankit Sharma
+    - Mohit Mittan
+    - KB Arun Karthik
+    - Marimuthu Vikneshwaran
+    - Bharat Sharma
+    - Sagar Udeshi
+    - Thivagar Gopal
+    - A Aravinddaraj
+  registry:
+    people:
+      A Aravinddaraj: 21d38d47
+      Ajay Sarkar: 10636efb
+      Ankit Sharma: 24d94623
+      BB Ghosh: 7c8ce592
+      Bharat Sharma: 2314745e
+      Bikramkumar Das: 601398c4
+      CK Paul: 35b67232
+      D Khatri: 6a48fcbd
+      Damodaran Rohit: 37fec668
+      KB Arun Karthik: 7daedf2f
+      Manisankar Murasingh: 52cb36a0
+      Marimuthu Vikneshwaran: ee2ac9d7
+      Mohamad Rafi: '0479de6b'
+      Mohit Mittan: deae3c43
+      P Ranganathan: 2a426535
+      Parameeswaran Sivaraman: fdb68cc0
+      Parvez Sultan: '00335246'
+      Rajat Dey: ccc04a61
+      Ramachandran Ragupathy: bdecece1
+      Rana Dutta: 6d981899
+      Sagar Udeshi: 8db0c0e1
+      Sankar Paul: 34cbc9d2
+      Sudip Chatterjee: 0cb8626f
+      Thivagar Gopal: e257c9a1
+      VR Lund: 4aef038f
+      WP Saha: fe11caa6
+      Y Avinash Jadhav: 6c0f82e6
+    venues:
+      Sawai Mansingh Stadium, Jaipur: 5a985b66
+  teams:
+  - Tripura
+  - Puducherry
+  toss:
+    winner: Puducherry
+    decision: field
+  umpires:
+  - Mohamad Rafi
+  - VR Lund
+  venue: Sawai Mansingh Stadium, Jaipur
+  team_type: club
+innings:
+- 1st innings:
+    team: Tripura
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Bikramkumar Das
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BB Ghosh
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Bikramkumar Das
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BB Ghosh
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Bikramkumar Das
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BB Ghosh
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: BB Ghosh
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: BB Ghosh
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bikramkumar Das
+        wicket:
+          player_out: BB Ghosh
+          fielders:
+          - Ramachandran Ragupathy
+          - Sagar Udeshi
+          kind: run out
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Bikramkumar Das
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WP Saha
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: WP Saha
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Bikramkumar Das
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: WP Saha
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: WP Saha
+        bowler: Damodaran Rohit
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        extras:
+          wides: 2
+        batsman: Bikramkumar Das
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Bikramkumar Das
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: WP Saha
+        wicket:
+          player_out: WP Saha
+          kind: bowled
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Bikramkumar Das
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Sudip Chatterjee
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Sudip Chatterjee
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Sudip Chatterjee
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Sudip Chatterjee
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Sudip Chatterjee
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Sudip Chatterjee
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bikramkumar Das
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Sudip Chatterjee
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Sudip Chatterjee
+        bowler: Thivagar Gopal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Bikramkumar Das
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Sudip Chatterjee
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Bikramkumar Das
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Bikramkumar Das
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sudip Chatterjee
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Bikramkumar Das
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sudip Chatterjee
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Bikramkumar Das
+        bowler: Damodaran Rohit
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Sudip Chatterjee
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Sudip Chatterjee
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Sudip Chatterjee
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Sudip Chatterjee
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bikramkumar Das
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Sudip Chatterjee
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Sudip Chatterjee
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Bikramkumar Das
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sudip Chatterjee
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Bikramkumar Das
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Sudip Chatterjee
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Sudip Chatterjee
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Bikramkumar Das
+        bowler: Sagar Udeshi
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        extras:
+          noballs: 1
+        batsman: Sudip Chatterjee
+    - 5.3:
+        actual_delivery: '5.2'
+        non_striker: Sudip Chatterjee
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 5.4:
+        actual_delivery: '5.3'
+        non_striker: Sudip Chatterjee
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: Bikramkumar Das
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: Sudip Chatterjee
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bikramkumar Das
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: Sudip Chatterjee
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Sudip Chatterjee
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bikramkumar Das
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Sudip Chatterjee
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Bikramkumar Das
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Sudip Chatterjee
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Bikramkumar Das
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Sudip Chatterjee
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Sudip Chatterjee
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bikramkumar Das
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Sudip Chatterjee
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Bikramkumar Das
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Sudip Chatterjee
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Bikramkumar Das
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sudip Chatterjee
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Bikramkumar Das
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Bikramkumar Das
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Sudip Chatterjee
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Bikramkumar Das
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Sudip Chatterjee
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bikramkumar Das
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Sudip Chatterjee
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Bikramkumar Das
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sudip Chatterjee
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Sudip Chatterjee
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bikramkumar Das
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Sudip Chatterjee
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Sudip Chatterjee
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bikramkumar Das
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Sudip Chatterjee
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Bikramkumar Das
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Sudip Chatterjee
+        bowler: Damodaran Rohit
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Sudip Chatterjee
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Bikramkumar Das
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Sudip Chatterjee
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Bikramkumar Das
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Sudip Chatterjee
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bikramkumar Das
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Sudip Chatterjee
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Sudip Chatterjee
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Sudip Chatterjee
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Bikramkumar Das
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Bikramkumar Das
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sudip Chatterjee
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Bikramkumar Das
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Bikramkumar Das
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sudip Chatterjee
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Sudip Chatterjee
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Bikramkumar Das
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Sudip Chatterjee
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Sudip Chatterjee
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Sudip Chatterjee
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Bikramkumar Das
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Sudip Chatterjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        bowler: A Aravinddaraj
+        batsman: Bikramkumar Das
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Bikramkumar Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        bowler: A Aravinddaraj
+        batsman: Sudip Chatterjee
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Sudip Chatterjee
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        bowler: A Aravinddaraj
+        batsman: Bikramkumar Das
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Sudip Chatterjee
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        bowler: A Aravinddaraj
+        batsman: Bikramkumar Das
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Bikramkumar Das
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        bowler: A Aravinddaraj
+        batsman: Sudip Chatterjee
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Bikramkumar Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        bowler: A Aravinddaraj
+        batsman: Sudip Chatterjee
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Sudip Chatterjee
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Bikramkumar Das
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sudip Chatterjee
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Sudip Chatterjee
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Bikramkumar Das
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Bikramkumar Das
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sudip Chatterjee
+        wicket:
+          player_out: Sudip Chatterjee
+          fielders:
+          - Mohit Mittan
+          kind: caught
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Bikramkumar Das
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Bikramkumar Das
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Rajat Dey
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Bikramkumar Das
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rajat Dey
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Bikramkumar Das
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Rajat Dey
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bikramkumar Das
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Rajat Dey
+        bowler: Bharat Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bikramkumar Das
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Rajat Dey
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bikramkumar Das
+        wicket:
+          player_out: Bikramkumar Das
+          fielders:
+          - Parameeswaran Sivaraman
+          kind: caught
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Rajat Dey
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Manisankar Murasingh
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Rajat Dey
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manisankar Murasingh
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Manisankar Murasingh
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Manisankar Murasingh
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rajat Dey
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Rajat Dey
+        bowler: Ankit Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manisankar Murasingh
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Rajat Dey
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Manisankar Murasingh
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Manisankar Murasingh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rajat Dey
+        wicket:
+          player_out: Rajat Dey
+          kind: bowled
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Manisankar Murasingh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Khatri
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Manisankar Murasingh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Khatri
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Manisankar Murasingh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: D Khatri
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Manisankar Murasingh
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: D Khatri
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: D Khatri
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Manisankar Murasingh
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: D Khatri
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Manisankar Murasingh
+        wicket:
+          player_out: Manisankar Murasingh
+          fielders:
+          - Marimuthu Vikneshwaran
+          kind: caught
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: D Khatri
+        bowler: Thivagar Gopal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Rana Dutta
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: D Khatri
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rana Dutta
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: D Khatri
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rana Dutta
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: D Khatri
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: Rana Dutta
+        bowler: Thivagar Gopal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: D Khatri
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: D Khatri
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rana Dutta
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Rana Dutta
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: D Khatri
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Rana Dutta
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: D Khatri
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: D Khatri
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rana Dutta
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: D Khatri
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rana Dutta
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: D Khatri
+        bowler: Sagar Udeshi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rana Dutta
+- 2nd innings:
+    team: Puducherry
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Ramachandran Ragupathy
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Damodaran Rohit
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Damodaran Rohit
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ramachandran Ragupathy
+        wicket:
+          player_out: Ramachandran Ragupathy
+          fielders:
+          - BB Ghosh
+          kind: caught
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Damodaran Rohit
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          match:
+          - in: Y Avinash Jadhav
+            out: Ramachandran Ragupathy
+            team: Puducherry
+            reason: impact_player
+        batsman: Y Avinash Jadhav
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Damodaran Rohit
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Y Avinash Jadhav
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Damodaran Rohit
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Y Avinash Jadhav
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Damodaran Rohit
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Y Avinash Jadhav
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Damodaran Rohit
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Y Avinash Jadhav
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Damodaran Rohit
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Y Avinash Jadhav
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Damodaran Rohit
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Y Avinash Jadhav
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Damodaran Rohit
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Y Avinash Jadhav
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Damodaran Rohit
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Y Avinash Jadhav
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Damodaran Rohit
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Y Avinash Jadhav
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Y Avinash Jadhav
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Damodaran Rohit
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Y Avinash Jadhav
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Damodaran Rohit
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Y Avinash Jadhav
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Y Avinash Jadhav
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Damodaran Rohit
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Y Avinash Jadhav
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Y Avinash Jadhav
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Damodaran Rohit
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Damodaran Rohit
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Y Avinash Jadhav
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Damodaran Rohit
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Y Avinash Jadhav
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Damodaran Rohit
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Y Avinash Jadhav
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Y Avinash Jadhav
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Y Avinash Jadhav
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Damodaran Rohit
+        wicket:
+          player_out: Damodaran Rohit
+          fielders:
+          - WP Saha
+          - Rana Dutta
+          kind: run out
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Y Avinash Jadhav
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Parameeswaran Sivaraman
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Parameeswaran Sivaraman
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Y Avinash Jadhav
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Parameeswaran Sivaraman
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Y Avinash Jadhav
+        wicket:
+          player_out: Y Avinash Jadhav
+          kind: bowled
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Parameeswaran Sivaraman
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Sharma
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Parameeswaran Sivaraman
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Sharma
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Parameeswaran Sivaraman
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Ankit Sharma
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Parameeswaran Sivaraman
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Parameeswaran Sivaraman
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Sharma
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Parameeswaran Sivaraman
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Sharma
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Parameeswaran Sivaraman
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Sharma
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Parameeswaran Sivaraman
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Sharma
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Parameeswaran Sivaraman
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Ankit Sharma
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Parameeswaran Sivaraman
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Parameeswaran Sivaraman
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Sharma
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Parameeswaran Sivaraman
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Ankit Sharma
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Parameeswaran Sivaraman
+        wicket:
+          player_out: Parameeswaran Sivaraman
+          fielders:
+          - D Khatri
+          kind: caught
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Ankit Sharma
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohit Mittan
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Mohit Mittan
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Sharma
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Mohit Mittan
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Mohit Mittan
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Ankit Sharma
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohit Mittan
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Ankit Sharma
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohit Mittan
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Ankit Sharma
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohit Mittan
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Mohit Mittan
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Ankit Sharma
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohit Mittan
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Ankit Sharma
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        replacements:
+          match:
+          - in: Sankar Paul
+            out: Bikramkumar Das
+            team: Tripura
+            reason: impact_player
+        batsman: Mohit Mittan
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Mohit Mittan
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Ankit Sharma
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohit Mittan
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Mohit Mittan
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Sharma
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Mohit Mittan
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Ankit Sharma
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohit Mittan
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Ankit Sharma
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohit Mittan
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Ankit Sharma
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohit Mittan
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Ankit Sharma
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohit Mittan
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Mohit Mittan
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Ankit Sharma
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohit Mittan
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Ankit Sharma
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohit Mittan
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Mohit Mittan
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Sharma
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Mohit Mittan
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Ankit Sharma
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohit Mittan
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Mohit Mittan
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Sharma
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Ankit Sharma
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohit Mittan
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Mohit Mittan
+        bowler: Sankar Paul
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ankit Sharma
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Ankit Sharma
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohit Mittan
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Mohit Mittan
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Sharma
+        wicket:
+          player_out: Ankit Sharma
+          fielders:
+          - Sudip Chatterjee
+          kind: caught
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Mohit Mittan
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: KB Arun Karthik
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohit Mittan
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Mohit Mittan
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Arun Karthik
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Mohit Mittan
+        bowler: Rana Dutta
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KB Arun Karthik
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: KB Arun Karthik
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohit Mittan
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: KB Arun Karthik
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mohit Mittan
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: KB Arun Karthik
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mohit Mittan
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: KB Arun Karthik
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohit Mittan
+        wicket:
+          player_out: Mohit Mittan
+          kind: lbw
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: KB Arun Karthik
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Marimuthu Vikneshwaran
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: KB Arun Karthik
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Marimuthu Vikneshwaran
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: KB Arun Karthik
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Marimuthu Vikneshwaran
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: KB Arun Karthik
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Marimuthu Vikneshwaran
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: KB Arun Karthik
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Marimuthu Vikneshwaran
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: KB Arun Karthik
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Marimuthu Vikneshwaran
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: KB Arun Karthik
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Marimuthu Vikneshwaran
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: KB Arun Karthik
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Marimuthu Vikneshwaran
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: KB Arun Karthik
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Marimuthu Vikneshwaran
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: KB Arun Karthik
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Marimuthu Vikneshwaran
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Arun Karthik
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: KB Arun Karthik
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Marimuthu Vikneshwaran
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Arun Karthik
+        wicket:
+          player_out: KB Arun Karthik
+          kind: bowled
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bharat Sharma
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bharat Sharma
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Bharat Sharma
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Marimuthu Vikneshwaran
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Bharat Sharma
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Marimuthu Vikneshwaran
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: Parvez Sultan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bharat Sharma
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Bharat Sharma
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Marimuthu Vikneshwaran
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bharat Sharma
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Bharat Sharma
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Marimuthu Vikneshwaran
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Bharat Sharma
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Marimuthu Vikneshwaran
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Bharat Sharma
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Marimuthu Vikneshwaran
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Bharat Sharma
+        bowler: CK Paul
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Marimuthu Vikneshwaran
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Bharat Sharma
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Marimuthu Vikneshwaran
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bharat Sharma
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bharat Sharma
+        wicket:
+          player_out: Bharat Sharma
+          fielders:
+          - D Khatri
+          kind: caught
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagar Udeshi
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagar Udeshi
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Sagar Udeshi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Marimuthu Vikneshwaran
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Sagar Udeshi
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Marimuthu Vikneshwaran
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagar Udeshi
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Sagar Udeshi
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Marimuthu Vikneshwaran
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Sagar Udeshi
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Marimuthu Vikneshwaran
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Sagar Udeshi
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Marimuthu Vikneshwaran
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: Ajay Sarkar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sagar Udeshi
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Sagar Udeshi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Marimuthu Vikneshwaran
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Sagar Udeshi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Marimuthu Vikneshwaran
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Sagar Udeshi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Marimuthu Vikneshwaran
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Sagar Udeshi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Marimuthu Vikneshwaran
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Sagar Udeshi
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Marimuthu Vikneshwaran
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Sagar Udeshi
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: Marimuthu Vikneshwaran
+        bowler: Manisankar Murasingh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sagar Udeshi
+    target:
+      overs: 20
+      runs: 160

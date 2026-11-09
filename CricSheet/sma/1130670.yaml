@@ -1,0 +1,2430 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-04'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2018-01-08'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Hyderabad (India)
+    by:
+      runs: 10
+  overs: 20
+  players:
+    Hyderabad (India):
+    - Tanmay Agarwal
+    - PA Reddy
+    - Bavanaka Sandeep
+    - AT Rayudu
+    - A Ashish Reddy
+    - Kolla Sumanth
+    - Akash Bhandari
+    - Mohammed Siraj
+    - Mehdi Hassan
+    - Ravi Kiran
+    - PP Ojha
+    Kerala:
+    - S Sandeep Warrier
+    - Basil Thampi
+    - Jalaj S Saxena
+    - Vinod Kumar
+    - P Prasanth
+    - SV Samson
+    - Vishnu Vinod
+    - Rohan Prem
+    - Sachin Baby
+    - KB Arun Karthik
+    - Salman Nizar
+  registry:
+    people:
+      A Ashish Reddy: 1c2a64cd
+      AT Rayudu: 70d205c9
+      Akash Bhandari: c2ce55cb
+      Basil Thampi: 871e9faf
+      Bavanaka Sandeep: bc67cc22
+      Jalaj S Saxena: 249abedf
+      KB Arun Karthik: 7daedf2f
+      Kolla Sumanth: b93a5d0b
+      Mehdi Hassan: 5876c626
+      Mohammed Siraj: 2f49c897
+      P Prasanth: ddb00822
+      PA Reddy: 2461eef2
+      PP Ojha: 6c6591ab
+      Ravi Kiran: 0ff9728b
+      Rohan Prem: 92d07362
+      S Sandeep Warrier: cdc6bdba
+      SV Samson: a4cc73aa
+      Sachin Baby: dc9dd038
+      Salman Nizar: 47ff3985
+      Tanmay Agarwal: e6e9b619
+      Vinod Kumar: 8f77af6b
+      Vishnu Vinod: '0494fa6e'
+    venues:
+      Dr PVG Raju ACA Sports Complex, Vizianagaram: 6e0bb613
+  teams:
+  - Hyderabad (India)
+  - Kerala
+  toss:
+    winner: Kerala
+    decision: field
+  venue: Dr PVG Raju ACA Sports Complex, Vizianagaram
+  team_type: club
+innings:
+- 1st innings:
+    team: Hyderabad (India)
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: PA Reddy
+        bowler: S Sandeep Warrier
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 0.2:
+        actual_delivery: '0.1'
+        non_striker: PA Reddy
+        bowler: S Sandeep Warrier
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: Tanmay Agarwal
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Tanmay Agarwal
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: PA Reddy
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Tanmay Agarwal
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Tanmay Agarwal
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: PA Reddy
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: PA Reddy
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Tanmay Agarwal
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PA Reddy
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Tanmay Agarwal
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: PA Reddy
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Tanmay Agarwal
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Tanmay Agarwal
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: PA Reddy
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tanmay Agarwal
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Tanmay Agarwal
+        bowler: S Sandeep Warrier
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: PA Reddy
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: Tanmay Agarwal
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: Tanmay Agarwal
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: PA Reddy
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tanmay Agarwal
+        wicket:
+          player_out: Tanmay Agarwal
+          fielders:
+          - SV Samson
+          kind: caught
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: PA Reddy
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Bavanaka Sandeep
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Bavanaka Sandeep
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: PA Reddy
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Bavanaka Sandeep
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: PA Reddy
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Bavanaka Sandeep
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: PA Reddy
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Bavanaka Sandeep
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: PA Reddy
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: PA Reddy
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: PA Reddy
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Bavanaka Sandeep
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: PA Reddy
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: PA Reddy
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Bavanaka Sandeep
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: PA Reddy
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Bavanaka Sandeep
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Reddy
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Bavanaka Sandeep
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PA Reddy
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: PA Reddy
+        bowler: Vinod Kumar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 6.2:
+        actual_delivery: '6.1'
+        non_striker: PA Reddy
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Bavanaka Sandeep
+    - 6.3:
+        actual_delivery: '6.2'
+        non_striker: PA Reddy
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 6.4:
+        actual_delivery: '6.3'
+        non_striker: Bavanaka Sandeep
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 6.5:
+        actual_delivery: '6.4'
+        non_striker: PA Reddy
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: Bavanaka Sandeep
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: PA Reddy
+        bowler: Vinod Kumar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Bavanaka Sandeep
+    - 6.8:
+        actual_delivery: '6.6'
+        non_striker: PA Reddy
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: PA Reddy
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bavanaka Sandeep
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: PA Reddy
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Bavanaka Sandeep
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: PA Reddy
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Bavanaka Sandeep
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PA Reddy
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Bavanaka Sandeep
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Bavanaka Sandeep
+        bowler: Vinod Kumar
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: PA Reddy
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: PA Reddy
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Bavanaka Sandeep
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: PA Reddy
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Bavanaka Sandeep
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: PA Reddy
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Bavanaka Sandeep
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Bavanaka Sandeep
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Reddy
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: PA Reddy
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Bavanaka Sandeep
+        bowler: Jalaj S Saxena
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: PA Reddy
+    - 9.4:
+        actual_delivery: '9.3'
+        non_striker: Bavanaka Sandeep
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+    - 9.5:
+        actual_delivery: '9.4'
+        non_striker: Bavanaka Sandeep
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Reddy
+        wicket:
+          player_out: PA Reddy
+          kind: caught and bowled
+    - 9.6:
+        actual_delivery: '9.5'
+        non_striker: Bavanaka Sandeep
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AT Rayudu
+    - 9.7:
+        actual_delivery: '9.6'
+        non_striker: Bavanaka Sandeep
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Bavanaka Sandeep
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: AT Rayudu
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Bavanaka Sandeep
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: AT Rayudu
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Bavanaka Sandeep
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: AT Rayudu
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Bavanaka Sandeep
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: AT Rayudu
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Bavanaka Sandeep
+        wicket:
+          player_out: Bavanaka Sandeep
+          fielders:
+          - Rohan Prem
+          kind: caught
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: A Ashish Reddy
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: AT Rayudu
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Ashish Reddy
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: AT Rayudu
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: A Ashish Reddy
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: AT Rayudu
+        bowler: Jalaj S Saxena
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Ashish Reddy
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: A Ashish Reddy
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: AT Rayudu
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Ashish Reddy
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: AT Rayudu
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Ashish Reddy
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: AT Rayudu
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Ashish Reddy
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: AT Rayudu
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: A Ashish Reddy
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: A Ashish Reddy
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: AT Rayudu
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Ashish Reddy
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: AT Rayudu
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Ashish Reddy
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: AT Rayudu
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: A Ashish Reddy
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: AT Rayudu
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: AT Rayudu
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Ashish Reddy
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: A Ashish Reddy
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: AT Rayudu
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Ashish Reddy
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: AT Rayudu
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Ashish Reddy
+        wicket:
+          player_out: A Ashish Reddy
+          fielders:
+          - KB Arun Karthik
+          kind: caught
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: AT Rayudu
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Kolla Sumanth
+        bowler: P Prasanth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Kolla Sumanth
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: AT Rayudu
+        bowler: Basil Thampi
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kolla Sumanth
+    - 15.3:
+        actual_delivery: '15.2'
+        non_striker: AT Rayudu
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+    - 15.4:
+        actual_delivery: '15.3'
+        non_striker: AT Rayudu
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 15.5:
+        actual_delivery: '15.4'
+        non_striker: Kolla Sumanth
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: AT Rayudu
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: Kolla Sumanth
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Kolla Sumanth
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AT Rayudu
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Kolla Sumanth
+        bowler: S Sandeep Warrier
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AT Rayudu
+    - 16.3:
+        actual_delivery: '16.2'
+        non_striker: Kolla Sumanth
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 16.4:
+        actual_delivery: '16.3'
+        non_striker: AT Rayudu
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kolla Sumanth
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: AT Rayudu
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: Kolla Sumanth
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: AT Rayudu
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Kolla Sumanth
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Kolla Sumanth
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AT Rayudu
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Kolla Sumanth
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: AT Rayudu
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Kolla Sumanth
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AT Rayudu
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Kolla Sumanth
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AT Rayudu
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Kolla Sumanth
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Kolla Sumanth
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: AT Rayudu
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Kolla Sumanth
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AT Rayudu
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Kolla Sumanth
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: AT Rayudu
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: AT Rayudu
+        bowler: Vinod Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Kolla Sumanth
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Kolla Sumanth
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AT Rayudu
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: AT Rayudu
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+        wicket:
+          player_out: Kolla Sumanth
+          kind: bowled
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: AT Rayudu
+        bowler: Basil Thampi
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Akash Bhandari
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Akash Bhandari
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AT Rayudu
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Akash Bhandari
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AT Rayudu
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Akash Bhandari
+        bowler: Basil Thampi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AT Rayudu
+- 2nd innings:
+    team: Kerala
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Vishnu Vinod
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: SV Samson
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Vishnu Vinod
+        bowler: Mehdi Hassan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SV Samson
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Vishnu Vinod
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Vishnu Vinod
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Vishnu Vinod
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: SV Samson
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: SV Samson
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Vishnu Vinod
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Vishnu Vinod
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: SV Samson
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vishnu Vinod
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: SV Samson
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: SV Samson
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Vishnu Vinod
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Vishnu Vinod
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: SV Samson
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: SV Samson
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: SV Samson
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: SV Samson
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: SV Samson
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+        wicket:
+          player_out: Vishnu Vinod
+          fielders:
+          - A Ashish Reddy
+          kind: caught
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: SV Samson
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Rohan Prem
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Rohan Prem
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: SV Samson
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Rohan Prem
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: SV Samson
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Rohan Prem
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Rohan Prem
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Rohan Prem
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+        wicket:
+          player_out: SV Samson
+          fielders:
+          - Mohammed Siraj
+          kind: caught
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Sachin Baby
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Rohan Prem
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Sachin Baby
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Rohan Prem
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Rohan Prem
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Sachin Baby
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Sachin Baby
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Rohan Prem
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Rohan Prem
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Sachin Baby
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Rohan Prem
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Sachin Baby
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Rohan Prem
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Sachin Baby
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rohan Prem
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Rohan Prem
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Sachin Baby
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Rohan Prem
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Rohan Prem
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sachin Baby
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Rohan Prem
+        bowler: Akash Bhandari
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Sachin Baby
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Rohan Prem
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Sachin Baby
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Sachin Baby
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Rohan Prem
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Sachin Baby
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Rohan Prem
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Sachin Baby
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Rohan Prem
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sachin Baby
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Rohan Prem
+        bowler: PP Ojha
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sachin Baby
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Sachin Baby
+        bowler: Akash Bhandari
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rohan Prem
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Rohan Prem
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Sachin Baby
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Rohan Prem
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Sachin Baby
+        bowler: Akash Bhandari
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Rohan Prem
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Rohan Prem
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Rohan Prem
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sachin Baby
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Rohan Prem
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sachin Baby
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Rohan Prem
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Rohan Prem
+        bowler: A Ashish Reddy
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Sachin Baby
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: Rohan Prem
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: Sachin Baby
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: Rohan Prem
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Rohan Prem
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Sachin Baby
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Rohan Prem
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Sachin Baby
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Sachin Baby
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohan Prem
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Rohan Prem
+        bowler: Akash Bhandari
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Rohan Prem
+        bowler: A Ashish Reddy
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Sachin Baby
+    - 12.2:
+        actual_delivery: '12.1'
+        non_striker: Rohan Prem
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sachin Baby
+    - 12.3:
+        actual_delivery: '12.2'
+        non_striker: Rohan Prem
+        bowler: A Ashish Reddy
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Sachin Baby
+    - 12.4:
+        actual_delivery: '12.3'
+        non_striker: Sachin Baby
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohan Prem
+        wicket:
+          player_out: Rohan Prem
+          fielders:
+          - A Ashish Reddy
+          kind: run out
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: KB Arun Karthik
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: Sachin Baby
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: KB Arun Karthik
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: KB Arun Karthik
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sachin Baby
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: KB Arun Karthik
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Sachin Baby
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: KB Arun Karthik
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Sachin Baby
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: KB Arun Karthik
+        bowler: Mehdi Hassan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: KB Arun Karthik
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Sachin Baby
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KB Arun Karthik
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Sachin Baby
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Arun Karthik
+        wicket:
+          player_out: KB Arun Karthik
+          kind: lbw
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Sachin Baby
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Salman Nizar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Salman Nizar
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Sachin Baby
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Salman Nizar
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Salman Nizar
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sachin Baby
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Salman Nizar
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sachin Baby
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Salman Nizar
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Sachin Baby
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Salman Nizar
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Salman Nizar
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Sachin Baby
+        bowler: A Ashish Reddy
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Salman Nizar
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Salman Nizar
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sachin Baby
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Salman Nizar
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Sachin Baby
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Salman Nizar
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Salman Nizar
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sachin Baby
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Salman Nizar
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Sachin Baby
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Salman Nizar
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Sachin Baby
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Salman Nizar
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Salman Nizar
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Sachin Baby
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Salman Nizar
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Salman Nizar
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sachin Baby
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Salman Nizar
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Sachin Baby
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Salman Nizar
+        wicket:
+          player_out: Salman Nizar
+          kind: bowled
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: P Prasanth
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Sachin Baby
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Prasanth
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: P Prasanth
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sachin Baby
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Sachin Baby
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: P Prasanth
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Sachin Baby
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Prasanth
+        wicket:
+          player_out: P Prasanth
+          fielders:
+          - AT Rayudu
+          kind: caught
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Vinod Kumar
+        bowler: Ravi Kiran
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sachin Baby
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Sachin Baby
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vinod Kumar
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Vinod Kumar
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sachin Baby
+        wicket:
+          player_out: Sachin Baby
+          fielders:
+          - Bavanaka Sandeep
+          kind: caught
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Basil Thampi
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vinod Kumar
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Vinod Kumar
+        bowler: Mohammed Siraj
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Basil Thampi
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Basil Thampi
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vinod Kumar
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Vinod Kumar
+        bowler: Mohammed Siraj
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Basil Thampi

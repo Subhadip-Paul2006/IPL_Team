@@ -1,0 +1,2451 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-10-23'
+  revision: 2
+info:
+  balls_per_over: 6
+  city: Dehra Dun
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2023-10-21'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Uttar Pradesh
+    by:
+      runs: 87
+  overs: 20
+  players:
+    Uttar Pradesh:
+    - Abhishek Goswami
+    - KS Sharma
+    - N Rana
+    - Sameer Rizvi
+    - RK Singh
+    - Dhruv Jurel
+    - PR Veer
+    - Shiva Singh
+    - Yash Dayal
+    - Kartik Tyagi
+    - Jasmer Dhankhar
+    - B Kumar
+    Nagaland:
+    - K Tewatiya
+    - Joshua Ozukum
+    - Sedezhalie Rupero
+    - Rongsen Jonathan
+    - Hokaito Zhimomi
+    - Sumit Kumar
+    - RS Jaganath Sinivas
+    - Imliwati Lemtur
+    - Moakumzuk Tzudir
+    - Tahmeed Rahman
+    - Nagaho Chishi
+    - Khrievitso Kense
+  registry:
+    people:
+      A Nand Kishore: 84424f4f
+      Abhijit Bhattacharya: 59ec9638
+      Abhishek Goswami: 53c5c146
+      B Kumar: 2e81a32d
+      Dhruv Jurel: bcf325d2
+      HAS Khalid: 291ded7c
+      Hokaito Zhimomi: '96477053'
+      Imliwati Lemtur: 76a33e00
+      Jasmer Dhankhar: a7e1f127
+      Joshua Ozukum: b13c506b
+      K Tewatiya: b5e545ad
+      KS Sharma: 39ed0d2f
+      Kartik Tyagi: 5d2eea49
+      Khrievitso Kense: 2597e56b
+      Moakumzuk Tzudir: dcb0fe34
+      N Rana: fb2d1dda
+      Nagaho Chishi: 5b4d1d4e
+      PR Veer: e148e6bd
+      Prakash Bhatt: f848ab0b
+      RK Singh: 0a509d6b
+      RS Jaganath Sinivas: 3decbc22
+      Rongsen Jonathan: d4753890
+      Sameer Rizvi: f89d3b11
+      Sedezhalie Rupero: e49574d6
+      Shiva Singh: 3b63b5cc
+      Sumit Kumar: fe180dba
+      Tahmeed Rahman: 13903f13
+      Yash Dayal: 7210d461
+    venues:
+      Abhimanyu Cricket Academy, Dehradun: f140992f
+  teams:
+  - Uttar Pradesh
+  - Nagaland
+  toss:
+    winner: Nagaland
+    decision: field
+  umpires:
+  - A Nand Kishore
+  - HAS Khalid
+  venue: Abhimanyu Cricket Academy, Dehradun
+  team_type: club
+innings:
+- 1st innings:
+    team: Uttar Pradesh
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: KS Sharma
+        batsman: Abhishek Goswami
+    - 0.2:
+        actual_delivery: '0.2'
+        bowler: Nagaho Chishi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        non_striker: KS Sharma
+        batsman: Abhishek Goswami
+    - 0.3:
+        actual_delivery: '0.2'
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: KS Sharma
+        batsman: Abhishek Goswami
+    - 0.4:
+        actual_delivery: '0.3'
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: KS Sharma
+        batsman: Abhishek Goswami
+    - 0.5:
+        actual_delivery: '0.4'
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: KS Sharma
+        batsman: Abhishek Goswami
+    - 0.6:
+        actual_delivery: '0.5'
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: KS Sharma
+        batsman: Abhishek Goswami
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Abhishek Goswami
+        bowler: Nagaho Chishi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KS Sharma
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: KS Sharma
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abhishek Goswami
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: KS Sharma
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Goswami
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: KS Sharma
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhishek Goswami
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: KS Sharma
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Goswami
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: KS Sharma
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhishek Goswami
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: KS Sharma
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abhishek Goswami
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Abhishek Goswami
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Sharma
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Abhishek Goswami
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KS Sharma
+        wicket:
+          player_out: KS Sharma
+          fielders:
+          - Imliwati Lemtur
+          kind: caught
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Abhishek Goswami
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Abhishek Goswami
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Abhishek Goswami
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Abhishek Goswami
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Rana
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: N Rana
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Goswami
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: N Rana
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Goswami
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Abhishek Goswami
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Abhishek Goswami
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Abhishek Goswami
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Abhishek Goswami
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Abhishek Goswami
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Rana
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Abhishek Goswami
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Abhishek Goswami
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: N Rana
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Goswami
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: N Rana
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhishek Goswami
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: N Rana
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Goswami
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: N Rana
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Goswami
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Abhishek Goswami
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Abhishek Goswami
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Abhishek Goswami
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Rana
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Abhishek Goswami
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Abhishek Goswami
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Abhishek Goswami
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: N Rana
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Abhishek Goswami
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: N Rana
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Abhishek Goswami
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: N Rana
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhishek Goswami
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: N Rana
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Goswami
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: N Rana
+        bowler: Imliwati Lemtur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Goswami
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: N Rana
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Goswami
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Abhishek Goswami
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Abhishek Goswami
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: N Rana
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Goswami
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: N Rana
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Goswami
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Abhishek Goswami
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Abhishek Goswami
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: N Rana
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Goswami
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Abhishek Goswami
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: N Rana
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Goswami
+        wicket:
+          player_out: Abhishek Goswami
+          fielders:
+          - Hokaito Zhimomi
+          kind: caught
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: N Rana
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Rizvi
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Sameer Rizvi
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: N Rana
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Rizvi
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Sameer Rizvi
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: N Rana
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Rizvi
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Sameer Rizvi
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: N Rana
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: N Rana
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sameer Rizvi
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: N Rana
+        bowler: Tahmeed Rahman
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Sameer Rizvi
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Sameer Rizvi
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: N Rana
+        wicket:
+          player_out: N Rana
+          fielders:
+          - Rongsen Jonathan
+          kind: caught
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Sameer Rizvi
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Sameer Rizvi
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: RK Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sameer Rizvi
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: RK Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sameer Rizvi
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: RK Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sameer Rizvi
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Sameer Rizvi
+        bowler: Rongsen Jonathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: RK Singh
+        bowler: Rongsen Jonathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Rizvi
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Sameer Rizvi
+        bowler: Rongsen Jonathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Sameer Rizvi
+        bowler: Rongsen Jonathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: RK Singh
+        bowler: Rongsen Jonathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Rizvi
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Sameer Rizvi
+        bowler: Rongsen Jonathan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: RK Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Rizvi
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Sameer Rizvi
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Sameer Rizvi
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: RK Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Rizvi
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Sameer Rizvi
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: RK Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Rizvi
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: RK Singh
+        bowler: Rongsen Jonathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Rizvi
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Sameer Rizvi
+        bowler: Rongsen Jonathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: RK Singh
+        bowler: Rongsen Jonathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sameer Rizvi
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Sameer Rizvi
+        bowler: Rongsen Jonathan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+        wicket:
+          player_out: Sameer Rizvi
+          fielders:
+          - Sumit Kumar
+          - Khrievitso Kense
+          kind: run out
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: RK Singh
+        bowler: Rongsen Jonathan
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        extras:
+          wides: 5
+        batsman: Dhruv Jurel
+    - 13.6:
+        actual_delivery: '13.5'
+        non_striker: RK Singh
+        bowler: Rongsen Jonathan
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Dhruv Jurel
+    - 13.7:
+        actual_delivery: '13.5'
+        non_striker: RK Singh
+        bowler: Rongsen Jonathan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 13.8:
+        actual_delivery: '13.6'
+        non_striker: Dhruv Jurel
+        bowler: Rongsen Jonathan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Singh
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: RK Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Dhruv Jurel
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: RK Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Jurel
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: RK Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Jurel
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: RK Singh
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Jurel
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Dhruv Jurel
+        bowler: Khrievitso Kense
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Dhruv Jurel
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: RK Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Jurel
+        wicket:
+          player_out: Dhruv Jurel
+          kind: lbw
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: RK Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          match:
+          - in: PR Veer
+            out: Abhishek Goswami
+            team: Uttar Pradesh
+            reason: impact_player
+        batsman: PR Veer
+        wicket:
+          player_out: PR Veer
+          kind: bowled
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: RK Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shiva Singh
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Shiva Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Singh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Shiva Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Shiva Singh
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Singh
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Shiva Singh
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: RK Singh
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shiva Singh
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: RK Singh
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shiva Singh
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Shiva Singh
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: RK Singh
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shiva Singh
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Shiva Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: RK Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shiva Singh
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Shiva Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: RK Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shiva Singh
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: RK Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shiva Singh
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Shiva Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Shiva Singh
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Singh
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Shiva Singh
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Singh
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Shiva Singh
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: RK Singh
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Shiva Singh
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: RK Singh
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Shiva Singh
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Shiva Singh
+        bowler: RS Jaganath Sinivas
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RK Singh
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Shiva Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Singh
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Shiva Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Singh
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Shiva Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 1
+          total: 5
+          batsman: 4
+        extras:
+          noballs: 1
+        batsman: RK Singh
+    - 19.4:
+        actual_delivery: '19.3'
+        non_striker: Shiva Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 19.5:
+        actual_delivery: '19.4'
+        non_striker: Shiva Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Singh
+    - 19.6:
+        actual_delivery: '19.5'
+        non_striker: Shiva Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: Shiva Singh
+        bowler: K Tewatiya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RK Singh
+- 2nd innings:
+    team: Nagaland
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Sedezhalie Rupero
+        batsman: Joshua Ozukum
+    - 0.2:
+        actual_delivery: '0.2'
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Sedezhalie Rupero
+        batsman: Joshua Ozukum
+    - 0.3:
+        actual_delivery: '0.3'
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Sedezhalie Rupero
+        batsman: Joshua Ozukum
+    - 0.4:
+        actual_delivery: '0.4'
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Sedezhalie Rupero
+        batsman: Joshua Ozukum
+    - 0.5:
+        actual_delivery: '0.5'
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        non_striker: Sedezhalie Rupero
+        batsman: Joshua Ozukum
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Sedezhalie Rupero
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Joshua Ozukum
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Joshua Ozukum
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Joshua Ozukum
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sedezhalie Rupero
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Joshua Ozukum
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Joshua Ozukum
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Joshua Ozukum
+    - 1.6:
+        actual_delivery: '1.4'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Joshua Ozukum
+    - 1.7:
+        actual_delivery: '1.5'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Joshua Ozukum
+    - 1.8:
+        actual_delivery: '1.6'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Joshua Ozukum
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Joshua Ozukum
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Joshua Ozukum
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sedezhalie Rupero
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Sedezhalie Rupero
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Joshua Ozukum
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Sedezhalie Rupero
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Joshua Ozukum
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Sedezhalie Rupero
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Joshua Ozukum
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Sedezhalie Rupero
+        bowler: B Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Joshua Ozukum
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Joshua Ozukum
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Joshua Ozukum
+        wicket:
+          player_out: Joshua Ozukum
+          fielders:
+          - Shiva Singh
+          kind: caught
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Rongsen Jonathan
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Rongsen Jonathan
+    - 3.6:
+        actual_delivery: '3.4'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rongsen Jonathan
+    - 3.7:
+        actual_delivery: '3.5'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 3.8:
+        actual_delivery: '3.6'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Rongsen Jonathan
+    - 3.9:
+        actual_delivery: '3.6'
+        non_striker: Sedezhalie Rupero
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Rongsen Jonathan
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Rongsen Jonathan
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sedezhalie Rupero
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Rongsen Jonathan
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Rongsen Jonathan
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Rongsen Jonathan
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sedezhalie Rupero
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Sedezhalie Rupero
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Sedezhalie Rupero
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Sedezhalie Rupero
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Sedezhalie Rupero
+        bowler: Kartik Tyagi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Rongsen Jonathan
+    - 5.4:
+        actual_delivery: '5.3'
+        non_striker: Sedezhalie Rupero
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 5.5:
+        actual_delivery: '5.4'
+        non_striker: Sedezhalie Rupero
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rongsen Jonathan
+    - 5.6:
+        actual_delivery: '5.5'
+        non_striker: Sedezhalie Rupero
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 5.7:
+        actual_delivery: '5.6'
+        non_striker: Sedezhalie Rupero
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Rongsen Jonathan
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Rongsen Jonathan
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Rongsen Jonathan
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Rongsen Jonathan
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Rongsen Jonathan
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Sedezhalie Rupero
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Rongsen Jonathan
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Sedezhalie Rupero
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Sedezhalie Rupero
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Sedezhalie Rupero
+        bowler: Kartik Tyagi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: Rongsen Jonathan
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Rongsen Jonathan
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sedezhalie Rupero
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Sedezhalie Rupero
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Rongsen Jonathan
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Sedezhalie Rupero
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Sedezhalie Rupero
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rongsen Jonathan
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Rongsen Jonathan
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Rongsen Jonathan
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Rongsen Jonathan
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Sedezhalie Rupero
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: Rongsen Jonathan
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sedezhalie Rupero
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: Sedezhalie Rupero
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Rongsen Jonathan
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Rongsen Jonathan
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sedezhalie Rupero
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Sedezhalie Rupero
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Sedezhalie Rupero
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rongsen Jonathan
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Sedezhalie Rupero
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Sedezhalie Rupero
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rongsen Jonathan
+        wicket:
+          player_out: Rongsen Jonathan
+          kind: lbw
+    - 10.1:
+        actual_delivery: '10.1'
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Hokaito Zhimomi
+        batsman: Sedezhalie Rupero
+    - 10.2:
+        actual_delivery: '10.2'
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Hokaito Zhimomi
+        batsman: Sedezhalie Rupero
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Sedezhalie Rupero
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Sedezhalie Rupero
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Sedezhalie Rupero
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Hokaito Zhimomi
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Hokaito Zhimomi
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sedezhalie Rupero
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Sedezhalie Rupero
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Sedezhalie Rupero
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Sedezhalie Rupero
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Hokaito Zhimomi
+        wicket:
+          player_out: Hokaito Zhimomi
+          kind: lbw
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Sedezhalie Rupero
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sumit Kumar
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Sumit Kumar
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Sumit Kumar
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Sedezhalie Rupero
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Sumit Kumar
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Sedezhalie Rupero
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sumit Kumar
+        wicket:
+          player_out: Sumit Kumar
+          kind: bowled
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Sedezhalie Rupero
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Jaganath Sinivas
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Sedezhalie Rupero
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Jaganath Sinivas
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: RS Jaganath Sinivas
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: RS Jaganath Sinivas
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Sedezhalie Rupero
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: RS Jaganath Sinivas
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: RS Jaganath Sinivas
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: RS Jaganath Sinivas
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: RS Jaganath Sinivas
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sedezhalie Rupero
+        wicket:
+          player_out: Sedezhalie Rupero
+          fielders:
+          - Dhruv Jurel
+          kind: stumped
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: RS Jaganath Sinivas
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imliwati Lemtur
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: RS Jaganath Sinivas
+        bowler: PR Veer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imliwati Lemtur
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: RS Jaganath Sinivas
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imliwati Lemtur
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: RS Jaganath Sinivas
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imliwati Lemtur
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: RS Jaganath Sinivas
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imliwati Lemtur
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: RS Jaganath Sinivas
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imliwati Lemtur
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Imliwati Lemtur
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Jaganath Sinivas
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: RS Jaganath Sinivas
+        bowler: Jasmer Dhankhar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imliwati Lemtur
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: RS Jaganath Sinivas
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imliwati Lemtur
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: RS Jaganath Sinivas
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imliwati Lemtur
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: RS Jaganath Sinivas
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Imliwati Lemtur
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Imliwati Lemtur
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Jaganath Sinivas
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: RS Jaganath Sinivas
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Imliwati Lemtur
+        wicket:
+          player_out: Imliwati Lemtur
+          kind: lbw
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: RS Jaganath Sinivas
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        replacements:
+          match:
+          - in: Moakumzuk Tzudir
+            out: K Tewatiya
+            team: Nagaland
+            reason: impact_player
+        batsman: Moakumzuk Tzudir
+        wicket:
+          player_out: Moakumzuk Tzudir
+          kind: lbw
+    - 16.1:
+        actual_delivery: '16.1'
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        non_striker: Tahmeed Rahman
+        batsman: RS Jaganath Sinivas
+    - 16.2:
+        actual_delivery: '16.2'
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        non_striker: Tahmeed Rahman
+        batsman: RS Jaganath Sinivas
+    - 16.3:
+        actual_delivery: '16.3'
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        non_striker: Tahmeed Rahman
+        batsman: RS Jaganath Sinivas
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: RS Jaganath Sinivas
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tahmeed Rahman
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: RS Jaganath Sinivas
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tahmeed Rahman
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: RS Jaganath Sinivas
+        bowler: Shiva Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tahmeed Rahman
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Tahmeed Rahman
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Jaganath Sinivas
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: RS Jaganath Sinivas
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tahmeed Rahman
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Tahmeed Rahman
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RS Jaganath Sinivas
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Tahmeed Rahman
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Jaganath Sinivas
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: RS Jaganath Sinivas
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tahmeed Rahman
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: RS Jaganath Sinivas
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tahmeed Rahman
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: RS Jaganath Sinivas
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tahmeed Rahman
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: RS Jaganath Sinivas
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tahmeed Rahman
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: RS Jaganath Sinivas
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tahmeed Rahman
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: RS Jaganath Sinivas
+        bowler: Kartik Tyagi
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          byes: 1
+        batsman: Tahmeed Rahman
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Tahmeed Rahman
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RS Jaganath Sinivas
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: RS Jaganath Sinivas
+        bowler: Kartik Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tahmeed Rahman
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Tahmeed Rahman
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RS Jaganath Sinivas
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Tahmeed Rahman
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Jaganath Sinivas
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Tahmeed Rahman
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Jaganath Sinivas
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Tahmeed Rahman
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RS Jaganath Sinivas
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Tahmeed Rahman
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RS Jaganath Sinivas
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Tahmeed Rahman
+        bowler: N Rana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RS Jaganath Sinivas
+    target:
+      overs: 20
+      runs: 188

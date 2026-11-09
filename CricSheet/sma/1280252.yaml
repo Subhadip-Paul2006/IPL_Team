@@ -1,0 +1,1819 @@
+---
+meta:
+  data_version: 0.94
+  created: '2022-12-21'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2021-11-06'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Vidarbha
+    by:
+      wickets: 8
+  overs: 20
+  players:
+    Meghalaya:
+    - Chirag Khurana
+    - Kishan Lyngdoh
+    - Punit Bisht
+    - Rohit Shah
+    - DB Ravi Teja
+    - Larry Sangma
+    - Akash Choudhary
+    - Anish Charak
+    - Dippu Sangma
+    - Ram Gurung
+    - Chengkam Sangma
+    Vidarbha:
+    - UT Yadav
+    - Yash Thakur
+    - DG Nalkande
+    - Akshay Karnewar
+    - Akshay Wakhare
+    - Atharva Taide
+    - Siddhesh Wath
+    - JM Sharma
+    - AV Wankhade
+    - Akshay Wadkar
+    - Ganesh Satish
+  registry:
+    people:
+      AV Wankhade: 5708d0b6
+      Akash Choudhary: 0f60513c
+      Akshay Karnewar: e1e7f950
+      Akshay Wadkar: c88c8a7d
+      Akshay Wakhare: ec9fc54b
+      Anish Charak: 62a48252
+      Atharva Taide: 1ac746c8
+      Chengkam Sangma: cf495041
+      Chirag Khurana: 3d51cc7e
+      DB Ravi Teja: b720a5d6
+      DG Nalkande: cd8d2859
+      Dippu Sangma: 24ea8cf8
+      Ganesh Satish: 0ed1a112
+      JM Sharma: 800d2d97
+      Kishan Lyngdoh: d11f0758
+      Larry Sangma: 77f6fd61
+      Punit Bisht: 310bddc0
+      Ram Gurung: 85c80de3
+      Rohit Shah: a6a04501
+      Siddhesh Wath: 5786f224
+      UT Yadav: cc1e8c68
+      Yash Thakur: 4b31f3a3
+    venues:
+      Devineni Venkata Ramana Praneetha Ground, Mulapadu: 7354790b
+  teams:
+  - Meghalaya
+  - Vidarbha
+  toss:
+    winner: Meghalaya
+    decision: bat
+  venue: Devineni Venkata Ramana Praneetha Ground, Mulapadu
+  team_type: club
+innings:
+- 1st innings:
+    team: Meghalaya
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Kishan Lyngdoh
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Kishan Lyngdoh
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Kishan Lyngdoh
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Chirag Khurana
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Chirag Khurana
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Chirag Khurana
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Kishan Lyngdoh
+        bowler: Yash Thakur
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Khurana
+    - 1.2:
+        actual_delivery: '1.1'
+        non_striker: Kishan Lyngdoh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 1.3:
+        actual_delivery: '1.2'
+        non_striker: Kishan Lyngdoh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 1.4:
+        actual_delivery: '1.3'
+        non_striker: Kishan Lyngdoh
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: Chirag Khurana
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Kishan Lyngdoh
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Chirag Khurana
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kishan Lyngdoh
+        wicket:
+          player_out: Kishan Lyngdoh
+          fielders:
+          - Akshay Wadkar
+          kind: caught
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Chirag Khurana
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Punit Bisht
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Punit Bisht
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Punit Bisht
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Chirag Khurana
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Punit Bisht
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Punit Bisht
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Punit Bisht
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Khurana
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Punit Bisht
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Chirag Khurana
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Punit Bisht
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Chirag Khurana
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Punit Bisht
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Chirag Khurana
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Punit Bisht
+        wicket:
+          player_out: Punit Bisht
+          kind: lbw
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Chirag Khurana
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Shah
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Chirag Khurana
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohit Shah
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Rohit Shah
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Rohit Shah
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Khurana
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Rohit Shah
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Chirag Khurana
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Shah
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Chirag Khurana
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohit Shah
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Rohit Shah
+        bowler: DG Nalkande
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Khurana
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: Rohit Shah
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Khurana
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: Chirag Khurana
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Shah
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Rohit Shah
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Khurana
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Rohit Shah
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Khurana
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Rohit Shah
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Khurana
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Rohit Shah
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Rohit Shah
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Khurana
+        wicket:
+          player_out: Chirag Khurana
+          fielders:
+          - Siddhesh Wath
+          kind: caught
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Rohit Shah
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DB Ravi Teja
+        wicket:
+          player_out: DB Ravi Teja
+          kind: lbw
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Larry Sangma
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Shah
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Larry Sangma
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohit Shah
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Rohit Shah
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Larry Sangma
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Rohit Shah
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Larry Sangma
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Rohit Shah
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Larry Sangma
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Larry Sangma
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Shah
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Rohit Shah
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Larry Sangma
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Rohit Shah
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Larry Sangma
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Rohit Shah
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Larry Sangma
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Rohit Shah
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Larry Sangma
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Rohit Shah
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Larry Sangma
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Rohit Shah
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Larry Sangma
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Rohit Shah
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Larry Sangma
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Rohit Shah
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Larry Sangma
+        wicket:
+          player_out: Larry Sangma
+          fielders:
+          - Yash Thakur
+          kind: caught
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Akash Choudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Shah
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Akash Choudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohit Shah
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Rohit Shah
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Choudhary
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Rohit Shah
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Choudhary
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Akash Choudhary
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohit Shah
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Rohit Shah
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Choudhary
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Rohit Shah
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Choudhary
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Akash Choudhary
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Shah
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Akash Choudhary
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Shah
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Akash Choudhary
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohit Shah
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Akash Choudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Shah
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Akash Choudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rohit Shah
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Rohit Shah
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Choudhary
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Akash Choudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Shah
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Akash Choudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Shah
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Akash Choudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rohit Shah
+        wicket:
+          player_out: Rohit Shah
+          fielders:
+          - JM Sharma
+          kind: caught
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Anish Charak
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Choudhary
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Anish Charak
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Choudhary
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Akash Choudhary
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anish Charak
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Anish Charak
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Choudhary
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Akash Choudhary
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anish Charak
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Akash Choudhary
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anish Charak
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Anish Charak
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Choudhary
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Akash Choudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anish Charak
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Anish Charak
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Choudhary
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Akash Choudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anish Charak
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Akash Choudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anish Charak
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Anish Charak
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Choudhary
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Anish Charak
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Choudhary
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Akash Choudhary
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anish Charak
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Anish Charak
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Choudhary
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Anish Charak
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Choudhary
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Akash Choudhary
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anish Charak
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Akash Choudhary
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anish Charak
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Akash Choudhary
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anish Charak
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Akash Choudhary
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anish Charak
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Anish Charak
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Choudhary
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Akash Choudhary
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anish Charak
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Akash Choudhary
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Anish Charak
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Akash Choudhary
+        bowler: DG Nalkande
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anish Charak
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Anish Charak
+        bowler: Akshay Wakhare
+        extras:
+          wides: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: Akash Choudhary
+    - 15.2:
+        actual_delivery: '15.1'
+        non_striker: Akash Choudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anish Charak
+    - 15.3:
+        actual_delivery: '15.2'
+        non_striker: Akash Choudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anish Charak
+    - 15.4:
+        actual_delivery: '15.3'
+        non_striker: Akash Choudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anish Charak
+    - 15.5:
+        actual_delivery: '15.4'
+        non_striker: Anish Charak
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Choudhary
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: Akash Choudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anish Charak
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: Anish Charak
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akash Choudhary
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Anish Charak
+        bowler: UT Yadav
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Akash Choudhary
+    - 16.2:
+        actual_delivery: '16.1'
+        non_striker: Anish Charak
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akash Choudhary
+        wicket:
+          player_out: Akash Choudhary
+          fielders:
+          - Akshay Karnewar
+          kind: run out
+    - 16.3:
+        actual_delivery: '16.2'
+        non_striker: Anish Charak
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dippu Sangma
+        wicket:
+          player_out: Dippu Sangma
+          fielders:
+          - JM Sharma
+          kind: run out
+    - 16.4:
+        actual_delivery: '16.3'
+        non_striker: Ram Gurung
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anish Charak
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: Anish Charak
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ram Gurung
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: Anish Charak
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ram Gurung
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: Ram Gurung
+        bowler: UT Yadav
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Anish Charak
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Ram Gurung
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anish Charak
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Anish Charak
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ram Gurung
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Anish Charak
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ram Gurung
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Ram Gurung
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anish Charak
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Anish Charak
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ram Gurung
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Anish Charak
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ram Gurung
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Anish Charak
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ram Gurung
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Anish Charak
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ram Gurung
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Anish Charak
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ram Gurung
+        wicket:
+          player_out: Ram Gurung
+          kind: bowled
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Anish Charak
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chengkam Sangma
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Chengkam Sangma
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anish Charak
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Anish Charak
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chengkam Sangma
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Chengkam Sangma
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anish Charak
+        wicket:
+          player_out: Anish Charak
+          kind: bowled
+- 2nd innings:
+    team: Vidarbha
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Atharva Taide
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Siddhesh Wath
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Atharva Taide
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Siddhesh Wath
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Atharva Taide
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Siddhesh Wath
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Atharva Taide
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Siddhesh Wath
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Siddhesh Wath
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Atharva Taide
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Siddhesh Wath
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Siddhesh Wath
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Atharva Taide
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Siddhesh Wath
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Atharva Taide
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Siddhesh Wath
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Atharva Taide
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Siddhesh Wath
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Siddhesh Wath
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Atharva Taide
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Siddhesh Wath
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Siddhesh Wath
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Siddhesh Wath
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Siddhesh Wath
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Siddhesh Wath
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Siddhesh Wath
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Siddhesh Wath
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Atharva Taide
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Atharva Taide
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Siddhesh Wath
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Atharva Taide
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Siddhesh Wath
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Atharva Taide
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Siddhesh Wath
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Siddhesh Wath
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Siddhesh Wath
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Siddhesh Wath
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Siddhesh Wath
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Siddhesh Wath
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Siddhesh Wath
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Atharva Taide
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Siddhesh Wath
+        wicket:
+          player_out: Siddhesh Wath
+          kind: lbw
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Atharva Taide
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Atharva Taide
+        bowler: Dippu Sangma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: JM Sharma
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: JM Sharma
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: JM Sharma
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Atharva Taide
+        bowler: Akash Choudhary
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: JM Sharma
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: JM Sharma
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Taide
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: JM Sharma
+        bowler: Akash Choudhary
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Atharva Taide
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Atharva Taide
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Atharva Taide
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Atharva Taide
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Atharva Taide
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+        wicket:
+          player_out: JM Sharma
+          fielders:
+          - Chengkam Sangma
+          kind: caught
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: AV Wankhade
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Taide
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: AV Wankhade
+        bowler: Anish Charak
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: AV Wankhade
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Atharva Taide
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: AV Wankhade
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: AV Wankhade
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: AV Wankhade
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Atharva Taide
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Wankhade
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: AV Wankhade
+        bowler: Ram Gurung
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Atharva Taide
+        bowler: Ram Gurung
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: AV Wankhade
+        bowler: Ram Gurung
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Atharva Taide
+        bowler: Ram Gurung
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: AV Wankhade
+        bowler: Ram Gurung
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: AV Wankhade
+        bowler: Ram Gurung
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: AV Wankhade
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: AV Wankhade
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Atharva Taide
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Wankhade
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Atharva Taide
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: AV Wankhade
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: AV Wankhade
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: AV Wankhade
+        bowler: Ram Gurung
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Atharva Taide
+        bowler: Ram Gurung
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: AV Wankhade
+        bowler: Ram Gurung
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Atharva Taide
+        bowler: Ram Gurung
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: AV Wankhade
+        bowler: Ram Gurung
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: AV Wankhade
+        bowler: Ram Gurung
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Atharva Taide
+        bowler: Chirag Khurana
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AV Wankhade

@@ -1,0 +1,773 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-03'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-03-02'
+  gender: male
+  match_type: T20
+  outcome:
+    result: no result
+  overs: 20
+  players:
+    Baroda:
+    - KH Devdhar
+    - A Pratyush Kumar
+    - DJ Hooda
+    - YK Pathan
+    - BA Pathan
+    - BA Bhatt
+    - Vishnu Solanki
+    - RT Arothe
+    - Pratik Salunke
+    - KR Kakade
+    - Swapnil Singh
+    Uttar Pradesh:
+    - AS Rajpoot
+    - Mohit Jangra
+    - Mohsin Khan
+    - Saurabh Kumar
+    - Ankit Chaudhary
+    - PK Garg
+    - AD Nath
+    - Samarth Singh
+    - Aryan Juyal
+    - Shubham Chaubey
+    - RK Singh
+  registry:
+    people:
+      A Pratyush Kumar: 1b5c4924
+      AD Nath: f10e94c4
+      AS Rajpoot: db31895a
+      Ankit Chaudhary: c0e59e39
+      Aryan Juyal: 5f2732f7
+      BA Bhatt: dc4686e6
+      BA Pathan: 870e4cec
+      DJ Hooda: 73ad96ed
+      KH Devdhar: 62e07f92
+      KR Kakade: ba86aae4
+      Mohit Jangra: 4052ab5c
+      Mohsin Khan: c33d8116
+      PK Garg: bb965e9a
+      Pratik Salunke: e9fd2634
+      RK Singh: 0a509d6b
+      RT Arothe: '50455929'
+      Samarth Singh: 9889da93
+      Saurabh Kumar: 2a6afc6f
+      Shubham Chaubey: 58588e5a
+      Swapnil Singh: 983f2f61
+      Vishnu Solanki: 2e802011
+      YK Pathan: 3c6ffae8
+    venues:
+      Palam A Ground, Model Sports Complex, Delhi: a84e4939
+  teams:
+  - Baroda
+  - Uttar Pradesh
+  toss:
+    winner: Baroda
+    decision: bat
+  venue: Palam A Ground, Model Sports Complex, Delhi
+  team_type: club
+innings:
+- 1st innings:
+    team: Baroda
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: A Pratyush Kumar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: A Pratyush Kumar
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: A Pratyush Kumar
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 3
+          batsman: 3
+        batsman: KH Devdhar
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: KH Devdhar
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: KH Devdhar
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: A Pratyush Kumar
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: KH Devdhar
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: KH Devdhar
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: A Pratyush Kumar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 2.3:
+        actual_delivery: '2.2'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: A Pratyush Kumar
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Pratyush Kumar
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: A Pratyush Kumar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: A Pratyush Kumar
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: A Pratyush Kumar
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: A Pratyush Kumar
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: A Pratyush Kumar
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: KH Devdhar
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: KH Devdhar
+        bowler: Mohit Jangra
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: KH Devdhar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: KH Devdhar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Pratyush Kumar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: KH Devdhar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: KH Devdhar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Pratyush Kumar
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: KH Devdhar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: A Pratyush Kumar
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: KH Devdhar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Pratyush Kumar
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: KH Devdhar
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Pratyush Kumar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: A Pratyush Kumar
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: KH Devdhar
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Pratyush Kumar
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: A Pratyush Kumar
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: A Pratyush Kumar
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: KH Devdhar
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Pratyush Kumar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: KH Devdhar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: A Pratyush Kumar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: KH Devdhar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Pratyush Kumar
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: A Pratyush Kumar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: A Pratyush Kumar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: KH Devdhar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Pratyush Kumar
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: A Pratyush Kumar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: A Pratyush Kumar
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Devdhar
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: A Pratyush Kumar
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: KH Devdhar
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: A Pratyush Kumar
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: A Pratyush Kumar
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: KH Devdhar
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: A Pratyush Kumar
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+        wicket:
+          player_out: A Pratyush Kumar
+          fielders:
+          - Shubham Chaubey
+          kind: run out
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: DJ Hooda
+        bowler: Ankit Chaudhary
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KH Devdhar
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: DJ Hooda
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+        wicket:
+          player_out: KH Devdhar
+          fielders:
+          - RK Singh
+          kind: caught
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: YK Pathan
+        bowler: Mohit Jangra
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: DJ Hooda
+    - 8.3:
+        actual_delivery: '8.2'
+        non_striker: YK Pathan
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 8.4:
+        actual_delivery: '8.3'
+        non_striker: YK Pathan
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 8.5:
+        actual_delivery: '8.4'
+        non_striker: DJ Hooda
+        bowler: Mohit Jangra
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: YK Pathan
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: YK Pathan
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: DJ Hooda
+        bowler: Mohit Jangra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: YK Pathan
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: YK Pathan
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: DJ Hooda
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: YK Pathan
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: DJ Hooda
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: DJ Hooda
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: YK Pathan
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: YK Pathan
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: DJ Hooda
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: YK Pathan
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: DJ Hooda
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: YK Pathan
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: DJ Hooda
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: YK Pathan
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: YK Pathan
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: DJ Hooda
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: YK Pathan
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: DJ Hooda
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: YK Pathan
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: DJ Hooda
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: YK Pathan
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: YK Pathan
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: YK Pathan
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda

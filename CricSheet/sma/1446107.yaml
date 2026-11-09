@@ -1,0 +1,2323 @@
+---
+meta:
+  data_version: 0.94
+  created: '2024-12-21'
+  revision: 2
+info:
+  balls_per_over: 6
+  city: Bengaluru
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2024-12-15'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Mumbai
+    by:
+      wickets: 5
+  overs: 20
+  player_of_match:
+  - Suryansh Shedge
+  players:
+    Madhya Pradesh:
+    - Arpit Gaud
+    - HP Gawli
+    - Subhransu Senapati
+    - Harpreet Singh
+    - RM Patidar
+    - VR Iyer
+    - Rahul Batham
+    - Tripuresh Singh
+    - Shivam Shukla
+    - K Kartikeya
+    - Avesh Khan
+    Mumbai:
+    - PP Shaw
+    - AM Rahane
+    - SS Iyer
+    - SA Yadav
+    - S Dube
+    - Atharva Ankolekar
+    - Suryansh Shedge
+    - Hardik Tamore
+    - SN Thakur
+    - Tanush Kotian
+    - Royston Dias
+  registry:
+    people:
+      AM Rahane: 29e95537
+      Arpit Gaud: a6a50969
+      Atharva Ankolekar: d6cd318e
+      Avesh Khan: eef2536f
+      HP Gawli: 2c693be3
+      Hardik Tamore: 3082eac3
+      Harpreet Singh: 28c78fb3
+      J Madanagopal: 8275b04a
+      K Kartikeya: f6d8a7ab
+      K Swaroopanand: aa2a4962
+      KN Ananthapadmanabhan: 3144063a
+      P Dharmani: eaa90ab4
+      PP Shaw: 8b3e9c7c
+      RM Patidar: c740ea83
+      Rahul Batham: 891b9757
+      Royston Dias: baaae738
+      S Dube: a4e37e47
+      SA Yadav: 271f83cd
+      SN Thakur: 1abb78f8
+      SS Iyer: 85ec8e33
+      Shivam Shukla: 4de4c0e9
+      Subhransu Senapati: 0edcb652
+      Suryansh Shedge: 970ddd24
+      Tanush Kotian: 5724e517
+      Tripuresh Singh: 3c29632a
+      VR Iyer: a24be938
+    venues:
+      M Chinnaswamy Stadium, Bengaluru: 351ac0b1
+  teams:
+  - Madhya Pradesh
+  - Mumbai
+  toss:
+    winner: Mumbai
+    decision: field
+  umpires:
+  - J Madanagopal
+  - K Swaroopanand
+  venue: M Chinnaswamy Stadium, Bengaluru
+  team_type: club
+innings:
+- 1st innings:
+    team: Madhya Pradesh
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: HP Gawli
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: HP Gawli
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Gaud
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Arpit Gaud
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HP Gawli
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: HP Gawli
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Gaud
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Arpit Gaud
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: HP Gawli
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: HP Gawli
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Arpit Gaud
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: HP Gawli
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: HP Gawli
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: HP Gawli
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Arpit Gaud
+        wicket:
+          player_out: Arpit Gaud
+          fielders:
+          - Atharva Ankolekar
+          kind: caught
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: HP Gawli
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Subhransu Senapati
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HP Gawli
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Subhransu Senapati
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: HP Gawli
+        wicket:
+          player_out: HP Gawli
+          fielders:
+          - SA Yadav
+          kind: caught
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Harpreet Singh
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Subhransu Senapati
+        bowler: Royston Dias
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Harpreet Singh
+    - 2.3:
+        actual_delivery: '2.2'
+        non_striker: Subhransu Senapati
+        bowler: Royston Dias
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Harpreet Singh
+    - 2.4:
+        actual_delivery: '2.2'
+        non_striker: Subhransu Senapati
+        bowler: Royston Dias
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          legbyes: 4
+        batsman: Harpreet Singh
+    - 2.5:
+        actual_delivery: '2.3'
+        non_striker: Subhransu Senapati
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 2.6:
+        actual_delivery: '2.4'
+        non_striker: Harpreet Singh
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 2.7:
+        actual_delivery: '2.5'
+        non_striker: Subhransu Senapati
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 2.8:
+        actual_delivery: '2.6'
+        non_striker: Harpreet Singh
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Subhransu Senapati
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Subhransu Senapati
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Subhransu Senapati
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Subhransu Senapati
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Subhransu Senapati
+        bowler: SN Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Harpreet Singh
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: Subhransu Senapati
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Subhransu Senapati
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Subhransu Senapati
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Subhransu Senapati
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Harpreet Singh
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Subhransu Senapati
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Harpreet Singh
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Subhransu Senapati
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Subhransu Senapati
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Subhransu Senapati
+        bowler: Tanush Kotian
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Harpreet Singh
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: Subhransu Senapati
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Subhransu Senapati
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Subhransu Senapati
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Harpreet Singh
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Subhransu Senapati
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Subhransu Senapati
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Subhransu Senapati
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Harpreet Singh
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Subhransu Senapati
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Harpreet Singh
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Subhransu Senapati
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Harpreet Singh
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Subhransu Senapati
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Harpreet Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Harpreet Singh
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Subhransu Senapati
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Harpreet Singh
+        bowler: Tanush Kotian
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Harpreet Singh
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Subhransu Senapati
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Subhransu Senapati
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Subhransu Senapati
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Harpreet Singh
+        wicket:
+          player_out: Harpreet Singh
+          fielders:
+          - SA Yadav
+          kind: caught
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Subhransu Senapati
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: RM Patidar
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: RM Patidar
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Subhransu Senapati
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: RM Patidar
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Subhransu Senapati
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Subhransu Senapati
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: RM Patidar
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Subhransu Senapati
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: RM Patidar
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Subhransu Senapati
+        wicket:
+          player_out: Subhransu Senapati
+          fielders:
+          - SA Yadav
+          kind: caught
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: VR Iyer
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: RM Patidar
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: VR Iyer
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: RM Patidar
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: VR Iyer
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: RM Patidar
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: VR Iyer
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: RM Patidar
+        bowler: Atharva Ankolekar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: VR Iyer
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: VR Iyer
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RM Patidar
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: VR Iyer
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: RM Patidar
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: VR Iyer
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: RM Patidar
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: VR Iyer
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: VR Iyer
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Patidar
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: VR Iyer
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: RM Patidar
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: VR Iyer
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: RM Patidar
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: VR Iyer
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: VR Iyer
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Patidar
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: VR Iyer
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: RM Patidar
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: VR Iyer
+        wicket:
+          player_out: VR Iyer
+          fielders:
+          - AM Rahane
+          kind: caught
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: RM Patidar
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Batham
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Rahul Batham
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: RM Patidar
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Batham
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Rahul Batham
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Patidar
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Rahul Batham
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Rahul Batham
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RM Patidar
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Rahul Batham
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RM Patidar
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Rahul Batham
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: RM Patidar
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Batham
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: RM Patidar
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Batham
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: RM Patidar
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Batham
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: RM Patidar
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Batham
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Rahul Batham
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: RM Patidar
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Batham
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Rahul Batham
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Rahul Batham
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RM Patidar
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Rahul Batham
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Rahul Batham
+        bowler: Royston Dias
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RM Patidar
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: RM Patidar
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Batham
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Rahul Batham
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Patidar
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Rahul Batham
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Patidar
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Rahul Batham
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Rahul Batham
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Rahul Batham
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: RM Patidar
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Batham
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Rahul Batham
+        bowler: S Dube
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          legbyes: 1
+        batsman: RM Patidar
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: RM Patidar
+        bowler: S Dube
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Rahul Batham
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: RM Patidar
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Batham
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: Rahul Batham
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: RM Patidar
+        bowler: S Dube
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Rahul Batham
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: RM Patidar
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Rahul Batham
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: RM Patidar
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Rahul Batham
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: RM Patidar
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Rahul Batham
+        wicket:
+          player_out: Rahul Batham
+          fielders:
+          - Suryansh Shedge
+          kind: caught
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: RM Patidar
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tripuresh Singh
+        wicket:
+          player_out: Tripuresh Singh
+          fielders:
+          - Hardik Tamore
+          kind: caught
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: RM Patidar
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Shukla
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: RM Patidar
+        bowler: Royston Dias
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Shukla
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Shivam Shukla
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Shivam Shukla
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RM Patidar
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: RM Patidar
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shivam Shukla
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Shivam Shukla
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RM Patidar
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Shivam Shukla
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RM Patidar
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Shivam Shukla
+        bowler: Suryansh Shedge
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+        wicket:
+          player_out: Shivam Shukla
+          fielders:
+          - AM Rahane
+          - Suryansh Shedge
+          kind: run out
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: RM Patidar
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Kartikeya
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: RM Patidar
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Kartikeya
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: K Kartikeya
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RM Patidar
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: K Kartikeya
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RM Patidar
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: K Kartikeya
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RM Patidar
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: K Kartikeya
+        bowler: SN Thakur
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: RM Patidar
+    - 19.7:
+        actual_delivery: '19.6'
+        non_striker: K Kartikeya
+        bowler: SN Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RM Patidar
+- 2nd innings:
+    team: Mumbai
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: AM Rahane
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Shaw
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: PP Shaw
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: AM Rahane
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Shaw
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: PP Shaw
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: AM Rahane
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Shaw
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: PP Shaw
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Rahane
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: AM Rahane
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Shaw
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: PP Shaw
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: AM Rahane
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PP Shaw
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: AM Rahane
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Shaw
+        wicket:
+          player_out: PP Shaw
+          fielders:
+          - Rahul Batham
+          kind: caught
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: AM Rahane
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: SS Iyer
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: SS Iyer
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rahane
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: SS Iyer
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: SS Iyer
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rahane
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: SS Iyer
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AM Rahane
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: SS Iyer
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: AM Rahane
+        bowler: Avesh Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: SS Iyer
+        bowler: Shivam Shukla
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: AM Rahane
+    - 3.2:
+        actual_delivery: '3.1'
+        non_striker: SS Iyer
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 3.3:
+        actual_delivery: '3.2'
+        non_striker: AM Rahane
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 3.4:
+        actual_delivery: '3.3'
+        non_striker: AM Rahane
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Iyer
+    - 3.5:
+        actual_delivery: '3.4'
+        non_striker: AM Rahane
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SS Iyer
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: SS Iyer
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: AM Rahane
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SS Iyer
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: SS Iyer
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: SS Iyer
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: AM Rahane
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SS Iyer
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: AM Rahane
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: AM Rahane
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SS Iyer
+        wicket:
+          player_out: SS Iyer
+          fielders:
+          - RM Patidar
+          kind: caught
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: AM Rahane
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: SA Yadav
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: SA Yadav
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: AM Rahane
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: AM Rahane
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: AM Rahane
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: SA Yadav
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: SA Yadav
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: AM Rahane
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: SA Yadav
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: AM Rahane
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SA Yadav
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: AM Rahane
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: SA Yadav
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: AM Rahane
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: AM Rahane
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Yadav
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: AM Rahane
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: SA Yadav
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: SA Yadav
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: SA Yadav
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: SA Yadav
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: AM Rahane
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: SA Yadav
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: AM Rahane
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Yadav
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: AM Rahane
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: AM Rahane
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Yadav
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: SA Yadav
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rahane
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: SA Yadav
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AM Rahane
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: SA Yadav
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: AM Rahane
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: AM Rahane
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Yadav
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: AM Rahane
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: AM Rahane
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: SA Yadav
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AM Rahane
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: AM Rahane
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: AM Rahane
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SA Yadav
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: AM Rahane
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: AM Rahane
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: AM Rahane
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: AM Rahane
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: AM Rahane
+        bowler: VR Iyer
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SA Yadav
+    - 11.4:
+        actual_delivery: '11.3'
+        non_striker: AM Rahane
+        bowler: VR Iyer
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: SA Yadav
+    - 11.5:
+        actual_delivery: '11.3'
+        non_striker: AM Rahane
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 11.6:
+        actual_delivery: '11.4'
+        non_striker: SA Yadav
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AM Rahane
+        wicket:
+          player_out: AM Rahane
+          fielders:
+          - Rahul Batham
+          kind: caught
+    - 11.7:
+        actual_delivery: '11.5'
+        non_striker: SA Yadav
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 11.8:
+        actual_delivery: '11.6'
+        non_striker: SA Yadav
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dube
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: S Dube
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Yadav
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: S Dube
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: SA Yadav
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: SA Yadav
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: S Dube
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: SA Yadav
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Dube
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: S Dube
+        bowler: Rahul Batham
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SA Yadav
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: SA Yadav
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Dube
+        wicket:
+          player_out: S Dube
+          fielders:
+          - RM Patidar
+          kind: caught
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: SA Yadav
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Ankolekar
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Atharva Ankolekar
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Atharva Ankolekar
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Atharva Ankolekar
+        bowler: K Kartikeya
+        runs:
+          extras: 4
+          total: 4
+          batsman: 0
+        extras:
+          byes: 4
+        batsman: SA Yadav
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Atharva Ankolekar
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Atharva Ankolekar
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Atharva Ankolekar
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SA Yadav
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: SA Yadav
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Ankolekar
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Atharva Ankolekar
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SA Yadav
+        wicket:
+          player_out: SA Yadav
+          fielders:
+          - Avesh Khan
+          kind: caught
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Atharva Ankolekar
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suryansh Shedge
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Atharva Ankolekar
+        bowler: Shivam Shukla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suryansh Shedge
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Atharva Ankolekar
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Suryansh Shedge
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Atharva Ankolekar
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suryansh Shedge
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Atharva Ankolekar
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Suryansh Shedge
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Atharva Ankolekar
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Suryansh Shedge
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Atharva Ankolekar
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suryansh Shedge
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Suryansh Shedge
+        bowler: K Kartikeya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Atharva Ankolekar
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Atharva Ankolekar
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Suryansh Shedge
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Atharva Ankolekar
+        bowler: VR Iyer
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        extras:
+          wides: 1
+        batsman: Suryansh Shedge
+    - 16.3:
+        actual_delivery: '16.2'
+        non_striker: Atharva Ankolekar
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Suryansh Shedge
+    - 16.4:
+        actual_delivery: '16.3'
+        non_striker: Atharva Ankolekar
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suryansh Shedge
+    - 16.5:
+        actual_delivery: '16.4'
+        non_striker: Atharva Ankolekar
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suryansh Shedge
+    - 16.6:
+        actual_delivery: '16.5'
+        non_striker: Suryansh Shedge
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Ankolekar
+    - 16.7:
+        actual_delivery: '16.6'
+        non_striker: Suryansh Shedge
+        bowler: VR Iyer
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Ankolekar
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Atharva Ankolekar
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Suryansh Shedge
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Atharva Ankolekar
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Suryansh Shedge
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Atharva Ankolekar
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Suryansh Shedge
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Atharva Ankolekar
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Suryansh Shedge
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Suryansh Shedge
+        bowler: Tripuresh Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Atharva Ankolekar
+    target:
+      overs: 20
+      runs: 175

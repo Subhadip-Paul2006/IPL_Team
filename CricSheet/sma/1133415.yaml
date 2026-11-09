@@ -1,0 +1,2286 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-04'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2018-01-24'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Uttar Pradesh
+    by:
+      wickets: 7
+  overs: 20
+  players:
+    Baroda:
+    - KH Devdhar
+    - Urvil Patel
+    - DJ Hooda
+    - KH Pandya
+    - Swapnil Singh
+    - Dhruv Patel
+    - A Sheth
+    - RT Arothe
+    - Soaeb Tai
+    - LI Meriwala
+    - Vishnu Solanki
+    Uttar Pradesh:
+    - P Kumar
+    - Amit Mishra
+    - AS Rajpoot
+    - Saurabh Kumar
+    - Mohsin Khan
+    - Umang Sharma
+    - Shivam Chaudhary
+    - SK Raina
+    - AD Nath
+    - RK Singh
+    - SN Khan
+  registry:
+    people:
+      A Sheth: 4312e8f9
+      AD Nath: f10e94c4
+      AS Rajpoot: db31895a
+      Amit Mishra: 40792cff
+      DJ Hooda: 73ad96ed
+      Dhruv Patel: e85f3659
+      KH Devdhar: 62e07f92
+      KH Pandya: 5b8c830e
+      LI Meriwala: d3611425
+      Mohsin Khan: c33d8116
+      P Kumar: e938e1bc
+      RK Singh: 0a509d6b
+      RT Arothe: '50455929'
+      SK Raina: 1dc12ab9
+      SN Khan: f088b960
+      Saurabh Kumar: 2a6afc6f
+      Shivam Chaudhary: e53af640
+      Soaeb Tai: c915ee65
+      Swapnil Singh: 983f2f61
+      Umang Sharma: 6f0f39fb
+      Urvil Patel: cf59b3f0
+      Vishnu Solanki: 2e802011
+    venues:
+      Jadavpur University Campus 2nd Ground, Kolkata: d7e89a1f
+  teams:
+  - Baroda
+  - Uttar Pradesh
+  toss:
+    winner: Uttar Pradesh
+    decision: field
+  venue: Jadavpur University Campus 2nd Ground, Kolkata
+  team_type: club
+innings:
+- 1st innings:
+    team: Baroda
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Urvil Patel
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: KH Devdhar
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: KH Devdhar
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: KH Devdhar
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: KH Devdhar
+        bowler: P Kumar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Urvil Patel
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: KH Devdhar
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: Urvil Patel
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: KH Devdhar
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Urvil Patel
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Urvil Patel
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Urvil Patel
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Urvil Patel
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: KH Devdhar
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Urvil Patel
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Urvil Patel
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Urvil Patel
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: KH Devdhar
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: KH Devdhar
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: KH Devdhar
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Urvil Patel
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Urvil Patel
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Urvil Patel
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: KH Devdhar
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Urvil Patel
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Urvil Patel
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: KH Devdhar
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Urvil Patel
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Urvil Patel
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Urvil Patel
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Urvil Patel
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Urvil Patel
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: KH Devdhar
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Urvil Patel
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: KH Devdhar
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Urvil Patel
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Urvil Patel
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Urvil Patel
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KH Devdhar
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Urvil Patel
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Urvil Patel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: KH Devdhar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: KH Devdhar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Urvil Patel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: KH Devdhar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: KH Devdhar
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Urvil Patel
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Urvil Patel
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: KH Devdhar
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: KH Devdhar
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: KH Devdhar
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Urvil Patel
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Devdhar
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Urvil Patel
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Devdhar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Urvil Patel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Urvil Patel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: KH Devdhar
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Urvil Patel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Devdhar
+        wicket:
+          player_out: KH Devdhar
+          fielders:
+          - SN Khan
+          kind: caught
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: DJ Hooda
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: DJ Hooda
+        bowler: Mohsin Khan
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Urvil Patel
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Urvil Patel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: DJ Hooda
+        bowler: Umang Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Urvil Patel
+        bowler: Umang Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: DJ Hooda
+        bowler: Umang Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Urvil Patel
+        bowler: Umang Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Urvil Patel
+        bowler: Umang Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: DJ Hooda
+        bowler: Umang Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Urvil Patel
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Urvil Patel
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: DJ Hooda
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Urvil Patel
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Hooda
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Urvil Patel
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: DJ Hooda
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: DJ Hooda
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: DJ Hooda
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Urvil Patel
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: DJ Hooda
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Urvil Patel
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: DJ Hooda
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: DJ Hooda
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Urvil Patel
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: DJ Hooda
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Urvil Patel
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: DJ Hooda
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Urvil Patel
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: DJ Hooda
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: DJ Hooda
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Urvil Patel
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: DJ Hooda
+        bowler: P Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: DJ Hooda
+        bowler: Umang Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Urvil Patel
+        bowler: Umang Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: DJ Hooda
+        bowler: Umang Sharma
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Urvil Patel
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: DJ Hooda
+        bowler: Umang Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: DJ Hooda
+        bowler: Umang Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Urvil Patel
+        bowler: Umang Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Urvil Patel
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: DJ Hooda
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: DJ Hooda
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Urvil Patel
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Urvil Patel
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: DJ Hooda
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Urvil Patel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: DJ Hooda
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Urvil Patel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: DJ Hooda
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: DJ Hooda
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Urvil Patel
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: DJ Hooda
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Urvil Patel
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Urvil Patel
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Urvil Patel
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: DJ Hooda
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: DJ Hooda
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Urvil Patel
+        wicket:
+          player_out: Urvil Patel
+          fielders:
+          - AD Nath
+          kind: caught
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: DJ Hooda
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: KH Pandya
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Hooda
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: KH Pandya
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: DJ Hooda
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: DJ Hooda
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KH Pandya
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: DJ Hooda
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: KH Pandya
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: DJ Hooda
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: KH Pandya
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: KH Pandya
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: DJ Hooda
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: KH Pandya
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: DJ Hooda
+        wicket:
+          player_out: DJ Hooda
+          kind: bowled
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: KH Pandya
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Swapnil Singh
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: KH Pandya
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Swapnil Singh
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Swapnil Singh
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KH Pandya
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: KH Pandya
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Swapnil Singh
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: KH Pandya
+        bowler: Mohsin Khan
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Swapnil Singh
+- 2nd innings:
+    team: Uttar Pradesh
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Umang Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shivam Chaudhary
+        wicket:
+          player_out: Shivam Chaudhary
+          kind: bowled
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Umang Sharma
+        bowler: KH Pandya
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SK Raina
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: Umang Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Raina
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Umang Sharma
+        bowler: KH Pandya
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SK Raina
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: SK Raina
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Umang Sharma
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: SK Raina
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Umang Sharma
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: SK Raina
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: SK Raina
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Umang Sharma
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Raina
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Umang Sharma
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SK Raina
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Umang Sharma
+        bowler: A Sheth
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SK Raina
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: SK Raina
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Umang Sharma
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: SK Raina
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: SK Raina
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Umang Sharma
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: SK Raina
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Umang Sharma
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: SK Raina
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Umang Sharma
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: SK Raina
+        bowler: RT Arothe
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Umang Sharma
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: SK Raina
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: Umang Sharma
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Umang Sharma
+        bowler: Soaeb Tai
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SK Raina
+    - 3.2:
+        actual_delivery: '3.1'
+        non_striker: Umang Sharma
+        bowler: Soaeb Tai
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SK Raina
+    - 3.3:
+        actual_delivery: '3.1'
+        non_striker: Umang Sharma
+        bowler: Soaeb Tai
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SK Raina
+    - 3.4:
+        actual_delivery: '3.1'
+        non_striker: Umang Sharma
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 3.5:
+        actual_delivery: '3.2'
+        non_striker: SK Raina
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 3.6:
+        actual_delivery: '3.3'
+        non_striker: Umang Sharma
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 3.7:
+        actual_delivery: '3.4'
+        non_striker: SK Raina
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Umang Sharma
+    - 3.8:
+        actual_delivery: '3.5'
+        non_striker: SK Raina
+        bowler: Soaeb Tai
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Umang Sharma
+    - 3.9:
+        actual_delivery: '3.6'
+        non_striker: Umang Sharma
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Umang Sharma
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SK Raina
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Umang Sharma
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: SK Raina
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Umang Sharma
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: SK Raina
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Umang Sharma
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: SK Raina
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Umang Sharma
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: SK Raina
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Umang Sharma
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Umang Sharma
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Raina
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Umang Sharma
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SK Raina
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Umang Sharma
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SK Raina
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Umang Sharma
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: SK Raina
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Umang Sharma
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Raina
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: SK Raina
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Umang Sharma
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: SK Raina
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Umang Sharma
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: SK Raina
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Umang Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: SK Raina
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Umang Sharma
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: SK Raina
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: SK Raina
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Umang Sharma
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SK Raina
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Umang Sharma
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Raina
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Umang Sharma
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: SK Raina
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Umang Sharma
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: SK Raina
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Umang Sharma
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Umang Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: SK Raina
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Umang Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: SK Raina
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Umang Sharma
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: SK Raina
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Umang Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Umang Sharma
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: SK Raina
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Umang Sharma
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: SK Raina
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Umang Sharma
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: SK Raina
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Umang Sharma
+        bowler: Soaeb Tai
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Raina
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: SK Raina
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Umang Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SK Raina
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Umang Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: SK Raina
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Umang Sharma
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: SK Raina
+        bowler: KH Pandya
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Umang Sharma
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Umang Sharma
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: SK Raina
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Umang Sharma
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: SK Raina
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Umang Sharma
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: SK Raina
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Umang Sharma
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Umang Sharma
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: SK Raina
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Umang Sharma
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: SK Raina
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Umang Sharma
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: SK Raina
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Umang Sharma
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: SK Raina
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Umang Sharma
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Umang Sharma
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: SK Raina
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Umang Sharma
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Raina
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Umang Sharma
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: SK Raina
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Umang Sharma
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: SK Raina
+        bowler: DJ Hooda
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Umang Sharma
+    - 13.7:
+        actual_delivery: '13.6'
+        non_striker: SK Raina
+        bowler: DJ Hooda
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Umang Sharma
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Umang Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SK Raina
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Umang Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Raina
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Umang Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Raina
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Umang Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SK Raina
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: SK Raina
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Umang Sharma
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Umang Sharma
+        bowler: Swapnil Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Raina
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: SK Raina
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Umang Sharma
+        wicket:
+          player_out: Umang Sharma
+          fielders:
+          - Urvil Patel
+          kind: caught
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: SK Raina
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: SK Raina
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Nath
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: AD Nath
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Raina
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: AD Nath
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Raina
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: AD Nath
+        bowler: A Sheth
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SK Raina
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: AD Nath
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SK Raina
+        wicket:
+          player_out: SK Raina
+          fielders:
+          - A Sheth
+          kind: caught
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: AD Nath
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Singh
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: AD Nath
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Singh
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: AD Nath
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: RK Singh
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Nath
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: AD Nath
+        bowler: RT Arothe
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: AD Nath
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Singh
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: AD Nath
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Singh
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: AD Nath
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RK Singh
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: AD Nath
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Singh
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: AD Nath
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: RK Singh
+        bowler: A Sheth
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AD Nath
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: AD Nath
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RK Singh
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: AD Nath
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: RK Singh
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: RK Singh
+        bowler: LI Meriwala
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AD Nath

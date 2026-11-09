@@ -1,0 +1,2460 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-03'
+  revision: 3
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-03-10'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Vidarbha
+    by:
+      runs: 10
+  overs: 20
+  players:
+    Vidarbha:
+    - Atharva Taide
+    - JM Sharma
+    - SU Shrivastava
+    - Akshay Karnewar
+    - Ganesh Satish
+    - RR Rathod
+    - AV Wankhade
+    - RL Jangid
+    - UT Yadav
+    - Akshay Wakhare
+    - SB Wagh
+    Uttar Pradesh:
+    - AS Rajpoot
+    - Yash Dayal
+    - Mohsin Khan
+    - Saurabh Kumar
+    - Ankit Chaudhary
+    - Upendra Yadav
+    - Samarth Singh
+    - PK Garg
+    - AD Nath
+    - RK Singh
+    - Shubham Chaubey
+  registry:
+    people:
+      AD Nath: f10e94c4
+      AS Rajpoot: db31895a
+      AV Wankhade: 5708d0b6
+      Akshay Karnewar: e1e7f950
+      Akshay Wakhare: ec9fc54b
+      Ankit Chaudhary: c0e59e39
+      Atharva Taide: 1ac746c8
+      Ganesh Satish: 0ed1a112
+      JM Sharma: 800d2d97
+      Mohsin Khan: c33d8116
+      PK Garg: bb965e9a
+      RK Singh: 0a509d6b
+      RL Jangid: fe5f2e48
+      RR Rathod: 3c79f8af
+      SB Wagh: dddca1d6
+      SU Shrivastava: a392328e
+      Samarth Singh: 9889da93
+      Saurabh Kumar: 2a6afc6f
+      Shiva Singh: 3b63b5cc
+      Shubham Chaubey: 58588e5a
+      UT Yadav: cc1e8c68
+      Upendra Yadav: 80ffea17
+      Yash Dayal: 7210d461
+    venues:
+      Emerald High School Ground, Indore: '09c89765'
+  teams:
+  - Vidarbha
+  - Uttar Pradesh
+  toss:
+    winner: Uttar Pradesh
+    decision: field
+  venue: Emerald High School Ground, Indore
+  team_type: club
+innings:
+- 1st innings:
+    team: Vidarbha
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: JM Sharma
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: JM Sharma
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: JM Sharma
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Atharva Taide
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Atharva Taide
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Atharva Taide
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: JM Sharma
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: JM Sharma
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: JM Sharma
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: JM Sharma
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: JM Sharma
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Atharva Taide
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: JM Sharma
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: JM Sharma
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Atharva Taide
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Atharva Taide
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Atharva Taide
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: JM Sharma
+        bowler: AS Rajpoot
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Atharva Taide
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: JM Sharma
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Atharva Taide
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Atharva Taide
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Atharva Taide
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: JM Sharma
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: JM Sharma
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: JM Sharma
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Atharva Taide
+        bowler: Yash Dayal
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: JM Sharma
+    - 4.2:
+        actual_delivery: '4.1'
+        non_striker: Atharva Taide
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 4.3:
+        actual_delivery: '4.2'
+        non_striker: JM Sharma
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 4.4:
+        actual_delivery: '4.3'
+        non_striker: JM Sharma
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Atharva Taide
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: JM Sharma
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Taide
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: JM Sharma
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: JM Sharma
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: JM Sharma
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: JM Sharma
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Taide
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: JM Sharma
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: JM Sharma
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Atharva Taide
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: JM Sharma
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Atharva Taide
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Atharva Taide
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Atharva Taide
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: JM Sharma
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Atharva Taide
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Atharva Taide
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Atharva Taide
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: JM Sharma
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Atharva Taide
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+        wicket:
+          player_out: JM Sharma
+          kind: bowled
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Atharva Taide
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: SU Shrivastava
+        bowler: Ankit Chaudhary
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: Atharva Taide
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: SU Shrivastava
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Atharva Taide
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: SU Shrivastava
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Atharva Taide
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Atharva Taide
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: SU Shrivastava
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Atharva Taide
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: SU Shrivastava
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Atharva Taide
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: SU Shrivastava
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Atharva Taide
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: SU Shrivastava
+        bowler: Ankit Chaudhary
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Atharva Taide
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Atharva Taide
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: SU Shrivastava
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Atharva Taide
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: SU Shrivastava
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: SU Shrivastava
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: SU Shrivastava
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: SU Shrivastava
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Taide
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: SU Shrivastava
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+        wicket:
+          player_out: Atharva Taide
+          fielders:
+          - Shubham Chaubey
+          kind: caught
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: SU Shrivastava
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Akshay Karnewar
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Akshay Karnewar
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: SU Shrivastava
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Karnewar
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: SU Shrivastava
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Akshay Karnewar
+        wicket:
+          player_out: Akshay Karnewar
+          fielders:
+          - RK Singh
+          kind: caught
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Ganesh Satish
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: SU Shrivastava
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Ganesh Satish
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: SU Shrivastava
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Ganesh Satish
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Ganesh Satish
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Ganesh Satish
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: SU Shrivastava
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+        wicket:
+          player_out: Ganesh Satish
+          fielders:
+          - Upendra Yadav
+          kind: stumped
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: SU Shrivastava
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rathod
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: RR Rathod
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: SU Shrivastava
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rathod
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: RR Rathod
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: SU Shrivastava
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rathod
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: SU Shrivastava
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rathod
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: RR Rathod
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SU Shrivastava
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: RR Rathod
+        bowler: Saurabh Kumar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SU Shrivastava
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: SU Shrivastava
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rathod
+        wicket:
+          player_out: RR Rathod
+          kind: caught and bowled
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: SU Shrivastava
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: AV Wankhade
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: SU Shrivastava
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Wankhade
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: SU Shrivastava
+        bowler: AS Rajpoot
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AV Wankhade
+    - 14.6:
+        actual_delivery: '14.5'
+        non_striker: SU Shrivastava
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 14.7:
+        actual_delivery: '14.6'
+        non_striker: AV Wankhade
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: AV Wankhade
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: SU Shrivastava
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: AV Wankhade
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SU Shrivastava
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: AV Wankhade
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SU Shrivastava
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: AV Wankhade
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+        wicket:
+          player_out: SU Shrivastava
+          fielders:
+          - Upendra Yadav
+          kind: caught
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: AV Wankhade
+        bowler: Mohsin Khan
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: RL Jangid
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: AV Wankhade
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RL Jangid
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: RL Jangid
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Wankhade
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: RL Jangid
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: AV Wankhade
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: RL Jangid
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Wankhade
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: RL Jangid
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Wankhade
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: RL Jangid
+        bowler: Ankit Chaudhary
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Wankhade
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: AV Wankhade
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: RL Jangid
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Wankhade
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: RL Jangid
+        bowler: Yash Dayal
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: AV Wankhade
+    - 17.4:
+        actual_delivery: '17.3'
+        non_striker: AV Wankhade
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 17.5:
+        actual_delivery: '17.4'
+        non_striker: RL Jangid
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Wankhade
+    - 17.6:
+        actual_delivery: '17.5'
+        non_striker: RL Jangid
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AV Wankhade
+    - 17.7:
+        actual_delivery: '17.6'
+        non_striker: RL Jangid
+        bowler: Yash Dayal
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AV Wankhade
+    - 17.8:
+        actual_delivery: '17.6'
+        non_striker: RL Jangid
+        bowler: Yash Dayal
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: RL Jangid
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: AV Wankhade
+        bowler: AS Rajpoot
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: RL Jangid
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: RL Jangid
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AV Wankhade
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: AV Wankhade
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RL Jangid
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: AV Wankhade
+        bowler: AS Rajpoot
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: RL Jangid
+        bowler: AS Rajpoot
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AV Wankhade
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: RL Jangid
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AV Wankhade
+        wicket:
+          player_out: AV Wankhade
+          fielders:
+          - Shiva Singh (sub)
+          kind: caught
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: UT Yadav
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RL Jangid
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: UT Yadav
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RL Jangid
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: UT Yadav
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: RL Jangid
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: UT Yadav
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: RL Jangid
+        bowler: Mohsin Khan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: UT Yadav
+- 2nd innings:
+    team: Uttar Pradesh
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Samarth Singh
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Upendra Yadav
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Samarth Singh
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Upendra Yadav
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Samarth Singh
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Upendra Yadav
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Samarth Singh
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Upendra Yadav
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Samarth Singh
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Upendra Yadav
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Samarth Singh
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Upendra Yadav
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Upendra Yadav
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Upendra Yadav
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Upendra Yadav
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Singh
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Upendra Yadav
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Upendra Yadav
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Upendra Yadav
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Samarth Singh
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Upendra Yadav
+        wicket:
+          player_out: Upendra Yadav
+          kind: caught and bowled
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Samarth Singh
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PK Garg
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: PK Garg
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Singh
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: PK Garg
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Samarth Singh
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PK Garg
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PK Garg
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PK Garg
+        wicket:
+          player_out: PK Garg
+          fielders:
+          - RR Rathod
+          kind: run out
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Kumar
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Saurabh Kumar
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Kumar
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Saurabh Kumar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Saurabh Kumar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Samarth Singh
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Saurabh Kumar
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Saurabh Kumar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Samarth Singh
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Saurabh Kumar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Singh
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Saurabh Kumar
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Samarth Singh
+        bowler: SB Wagh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Saurabh Kumar
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: Samarth Singh
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Kumar
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Saurabh Kumar
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Samarth Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Kumar
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Samarth Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Saurabh Kumar
+        wicket:
+          player_out: Saurabh Kumar
+          fielders:
+          - JM Sharma
+          kind: stumped
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Samarth Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Samarth Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Nath
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: AD Nath
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Singh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: AD Nath
+        bowler: Akshay Wakhare
+        extras:
+          wides: 2
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: Samarth Singh
+    - 7.2:
+        actual_delivery: '7.1'
+        non_striker: Samarth Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 7.3:
+        actual_delivery: '7.2'
+        non_striker: Samarth Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Nath
+    - 7.4:
+        actual_delivery: '7.3'
+        non_striker: AD Nath
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: Samarth Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Samarth Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Nath
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: AD Nath
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Singh
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Nath
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: AD Nath
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Nath
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: AD Nath
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: AD Nath
+        bowler: Atharva Taide
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Samarth Singh
+    - 9.2:
+        actual_delivery: '9.1'
+        non_striker: AD Nath
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 9.3:
+        actual_delivery: '9.2'
+        non_striker: Samarth Singh
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AD Nath
+    - 9.4:
+        actual_delivery: '9.3'
+        non_striker: Samarth Singh
+        bowler: Atharva Taide
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AD Nath
+    - 9.5:
+        actual_delivery: '9.3'
+        non_striker: Samarth Singh
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Nath
+    - 9.6:
+        actual_delivery: '9.4'
+        non_striker: AD Nath
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 9.7:
+        actual_delivery: '9.5'
+        non_striker: Samarth Singh
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AD Nath
+    - 9.8:
+        actual_delivery: '9.6'
+        non_striker: AD Nath
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: AD Nath
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AD Nath
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Samarth Singh
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AD Nath
+        wicket:
+          player_out: AD Nath
+          fielders:
+          - JM Sharma
+          kind: stumped
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: RK Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Samarth Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: RK Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Samarth Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RK Singh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: RK Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Singh
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: RK Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RK Singh
+        wicket:
+          player_out: RK Singh
+          fielders:
+          - AV Wankhade
+          kind: caught
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubham Chaubey
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Shubham Chaubey
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubham Chaubey
+        wicket:
+          player_out: Shubham Chaubey
+          kind: lbw
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mohsin Khan
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohsin Khan
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Samarth Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mohsin Khan
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Mohsin Khan
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Singh
+        wicket:
+          player_out: Mohsin Khan
+          fielders:
+          - Ganesh Satish
+          kind: run out
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Samarth Singh
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Chaudhary
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Samarth Singh
+        bowler: Akshay Wakhare
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ankit Chaudhary
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Ankit Chaudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Samarth Singh
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Ankit Chaudhary
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Singh
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Chaudhary
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Chaudhary
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ankit Chaudhary
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Chaudhary
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Chaudhary
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Chaudhary
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Ankit Chaudhary
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Samarth Singh
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Chaudhary
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Samarth Singh
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ankit Chaudhary
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Samarth Singh
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Chaudhary
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Ankit Chaudhary
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Samarth Singh
+        bowler: Atharva Taide
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ankit Chaudhary
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Samarth Singh
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Chaudhary
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Ankit Chaudhary
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Samarth Singh
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Chaudhary
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Ankit Chaudhary
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Samarth Singh
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Chaudhary
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Ankit Chaudhary
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Ankit Chaudhary
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ankit Chaudhary
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Ankit Chaudhary
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Samarth Singh
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Chaudhary
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Ankit Chaudhary
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Samarth Singh
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Ankit Chaudhary
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Ankit Chaudhary
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Samarth Singh
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Ankit Chaudhary
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Samarth Singh
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Samarth Singh
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ankit Chaudhary
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Ankit Chaudhary
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Samarth Singh
+        wicket:
+          player_out: Samarth Singh
+          fielders:
+          - RR Rathod
+          kind: caught
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: AS Rajpoot
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Chaudhary
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: AS Rajpoot
+        bowler: SB Wagh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ankit Chaudhary
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: AS Rajpoot
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ankit Chaudhary
+        wicket:
+          player_out: Ankit Chaudhary
+          fielders:
+          - UT Yadav
+          kind: caught
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: AS Rajpoot
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yash Dayal
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: AS Rajpoot
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Dayal
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Yash Dayal
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AS Rajpoot
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Yash Dayal
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Rajpoot
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: AS Rajpoot
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yash Dayal
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Yash Dayal
+        bowler: UT Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AS Rajpoot

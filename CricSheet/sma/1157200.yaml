@@ -1,0 +1,2328 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-03'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-03-02'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Punjab
+    by:
+      wickets: 3
+  overs: 20
+  players:
+    Railways:
+    - Mrunal Devdhar
+    - Pratham Singh
+    - Prashant Gupta
+    - Prashant Awasthi
+    - Ashish Yadav
+    - Abhinav Dixit
+    - AG Paunikar
+    - Harsh Tyagi
+    - Anureet Singh
+    - K Upadhyay
+    - Amit Mishra
+    Punjab:
+    - MS Gony
+    - Sandeep Sharma
+    - BB Sran
+    - Krishan Alang
+    - Mandeep Singh
+    - Yuvraj Singh
+    - M Vohra
+    - Shubman Gill
+    - Gurkeerat Singh
+    - Anmolpreet Singh
+    - P Simran Singh
+  registry:
+    people:
+      AG Paunikar: 3a02626a
+      Abhinav Dixit: f1a7f596
+      Amit Mishra: 1d8388eb
+      Anmolpreet Singh: 1399b39c
+      Anureet Singh: 69be866a
+      Ashish Yadav: 254c7802
+      BB Sran: d8b2f218
+      Gurkeerat Singh: 6eb146d2
+      Harsh Tyagi: 4a15018a
+      K Upadhyay: 27e71d47
+      Krishan Alang: 339bda40
+      M Vohra: c03e2850
+      MS Gony: ae78bc32
+      Mandeep Singh: c3a96caf
+      Mrunal Devdhar: a1765140
+      P Simran Singh: 9418198b
+      Prashant Awasthi: bbbc7d28
+      Prashant Gupta: ad1e02b4
+      Pratham Singh: f9f21866
+      Sandeep Sharma: ce820073
+      Sharad Lumba: 03c29939
+      Shubman Gill: b4b99816
+      Yuvraj Singh: 1c914163
+    venues:
+      Holkar Cricket Stadium, Indore: 354f95b9
+  teams:
+  - Railways
+  - Punjab
+  toss:
+    winner: Railways
+    decision: bat
+  venue: Holkar Cricket Stadium, Indore
+  team_type: club
+innings:
+- 1st innings:
+    team: Railways
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Pratham Singh
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Pratham Singh
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Pratham Singh
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Pratham Singh
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mrunal Devdhar
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Mrunal Devdhar
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Pratham Singh
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mrunal Devdhar
+        wicket:
+          player_out: Mrunal Devdhar
+          fielders:
+          - P Simran Singh
+          kind: caught
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Prashant Gupta
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Prashant Gupta
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Prashant Gupta
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Pratham Singh
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Gupta
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Pratham Singh
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Gupta
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Pratham Singh
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Prashant Gupta
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Prashant Gupta
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Pratham Singh
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Prashant Gupta
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pratham Singh
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Prashant Gupta
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Pratham Singh
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Gupta
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Pratham Singh
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Prashant Gupta
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Prashant Gupta
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Prashant Gupta
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Pratham Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Gupta
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Pratham Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Gupta
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Pratham Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Prashant Gupta
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Pratham Singh
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Gupta
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Pratham Singh
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Prashant Gupta
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Pratham Singh
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Prashant Gupta
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Pratham Singh
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Prashant Gupta
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Pratham Singh
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Pratham Singh
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Prashant Gupta
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Prashant Gupta
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Pratham Singh
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Prashant Gupta
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Pratham Singh
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Prashant Gupta
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pratham Singh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Pratham Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Prashant Gupta
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Pratham Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Prashant Gupta
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Pratham Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Gupta
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Pratham Singh
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Gupta
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Prashant Gupta
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Pratham Singh
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Prashant Gupta
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Pratham Singh
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Prashant Gupta
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Pratham Singh
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Prashant Gupta
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Pratham Singh
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Pratham Singh
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Prashant Gupta
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Pratham Singh
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Gupta
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Pratham Singh
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Prashant Gupta
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Pratham Singh
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Prashant Gupta
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Prashant Gupta
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Pratham Singh
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Pratham Singh
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Gupta
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Pratham Singh
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Gupta
+        wicket:
+          player_out: Pratham Singh
+          fielders:
+          - MS Gony
+          kind: run out
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Prashant Gupta
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Awasthi
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Prashant Awasthi
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Prashant Gupta
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Awasthi
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Prashant Gupta
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Awasthi
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Prashant Gupta
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Prashant Awasthi
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Prashant Gupta
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Awasthi
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Prashant Gupta
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Awasthi
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Prashant Awasthi
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Prashant Gupta
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Prashant Awasthi
+        bowler: Yuvraj Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Gupta
+        wicket:
+          player_out: Prashant Awasthi
+          fielders:
+          - M Vohra
+          kind: run out
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Ashish Yadav
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Prashant Gupta
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Ashish Yadav
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Prashant Gupta
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Ashish Yadav
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Prashant Gupta
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Yadav
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Ashish Yadav
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Prashant Gupta
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Ashish Yadav
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Prashant Gupta
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashish Yadav
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Prashant Gupta
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Ashish Yadav
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Prashant Gupta
+        bowler: MS Gony
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Prashant Gupta
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Ashish Yadav
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Prashant Gupta
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Ashish Yadav
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Prashant Gupta
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Ashish Yadav
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Prashant Gupta
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Prashant Gupta
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Ashish Yadav
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Prashant Gupta
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Yadav
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Prashant Gupta
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Ashish Yadav
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Gupta
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Prashant Gupta
+        bowler: BB Sran
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ashish Yadav
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Prashant Gupta
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Ashish Yadav
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Gupta
+        wicket:
+          player_out: Prashant Gupta
+          fielders:
+          - Sharad Lumba (sub)
+          kind: caught
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Abhinav Dixit
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Ashish Yadav
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhinav Dixit
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Abhinav Dixit
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashish Yadav
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Abhinav Dixit
+        bowler: Krishan Alang
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Abhinav Dixit
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashish Yadav
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Abhinav Dixit
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Ashish Yadav
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhinav Dixit
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Ashish Yadav
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Abhinav Dixit
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Ashish Yadav
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhinav Dixit
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Ashish Yadav
+        bowler: Mandeep Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhinav Dixit
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Ashish Yadav
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhinav Dixit
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Abhinav Dixit
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Yadav
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Abhinav Dixit
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashish Yadav
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Ashish Yadav
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhinav Dixit
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Ashish Yadav
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhinav Dixit
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Abhinav Dixit
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashish Yadav
+        wicket:
+          player_out: Ashish Yadav
+          fielders:
+          - BB Sran
+          kind: caught
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Abhinav Dixit
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AG Paunikar
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Abhinav Dixit
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AG Paunikar
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Abhinav Dixit
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AG Paunikar
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Abhinav Dixit
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AG Paunikar
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: AG Paunikar
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhinav Dixit
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Abhinav Dixit
+        bowler: BB Sran
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AG Paunikar
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Abhinav Dixit
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AG Paunikar
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: AG Paunikar
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhinav Dixit
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Abhinav Dixit
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AG Paunikar
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: AG Paunikar
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Abhinav Dixit
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: AG Paunikar
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhinav Dixit
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Abhinav Dixit
+        bowler: Sandeep Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AG Paunikar
+- 2nd innings:
+    team: Punjab
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Shubman Gill
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Shubman Gill
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Shubman Gill
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Shubman Gill
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: M Vohra
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubman Gill
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Shubman Gill
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: M Vohra
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: M Vohra
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: M Vohra
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubman Gill
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Shubman Gill
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: M Vohra
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: M Vohra
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Shubman Gill
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: M Vohra
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: M Vohra
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Shubman Gill
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: M Vohra
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: M Vohra
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: M Vohra
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Shubman Gill
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: M Vohra
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubman Gill
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: M Vohra
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubman Gill
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Shubman Gill
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: M Vohra
+        wicket:
+          player_out: M Vohra
+          fielders:
+          - Mrunal Devdhar
+          kind: caught
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Mandeep Singh
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Shubman Gill
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Shubman Gill
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Shubman Gill
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Mandeep Singh
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Shubman Gill
+        wicket:
+          player_out: Shubman Gill
+          fielders:
+          - Ashish Yadav
+          kind: caught
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Mandeep Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yuvraj Singh
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Mandeep Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Mandeep Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Mandeep Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yuvraj Singh
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Mandeep Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Mandeep Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Yuvraj Singh
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Mandeep Singh
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Mandeep Singh
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Mandeep Singh
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yuvraj Singh
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Mandeep Singh
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yuvraj Singh
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Mandeep Singh
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yuvraj Singh
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Yuvraj Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Yuvraj Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mandeep Singh
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Yuvraj Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mandeep Singh
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Yuvraj Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Yuvraj Singh
+        bowler: Anureet Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Mandeep Singh
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: Yuvraj Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: Mandeep Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Yuvraj Singh
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Yuvraj Singh
+        bowler: Prashant Awasthi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Mandeep Singh
+        bowler: Prashant Awasthi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yuvraj Singh
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Yuvraj Singh
+        bowler: Prashant Awasthi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Yuvraj Singh
+        bowler: Prashant Awasthi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Mandeep Singh
+        bowler: Prashant Awasthi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Yuvraj Singh
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Yuvraj Singh
+        bowler: Prashant Awasthi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Yuvraj Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Mandeep Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Yuvraj Singh
+        wicket:
+          player_out: Yuvraj Singh
+          fielders:
+          - AG Paunikar
+          kind: caught
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Mandeep Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Gurkeerat Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Gurkeerat Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Mandeep Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Mandeep Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Mandeep Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Mandeep Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Gurkeerat Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Mandeep Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Mandeep Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Gurkeerat Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Mandeep Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Mandeep Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Mandeep Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Mandeep Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Gurkeerat Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Gurkeerat Singh
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Mandeep Singh
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Gurkeerat Singh
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Mandeep Singh
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Gurkeerat Singh
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Mandeep Singh
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Gurkeerat Singh
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mandeep Singh
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Gurkeerat Singh
+        bowler: Ashish Yadav
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Gurkeerat Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Gurkeerat Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Mandeep Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Gurkeerat Singh
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Gurkeerat Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mandeep Singh
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Gurkeerat Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Mandeep Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Gurkeerat Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Mandeep Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Gurkeerat Singh
+        wicket:
+          player_out: Gurkeerat Singh
+          fielders:
+          - Abhinav Dixit
+          kind: caught
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Anmolpreet Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Mandeep Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Mandeep Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Anmolpreet Singh
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Mandeep Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Anmolpreet Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Mandeep Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Mandeep Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Anmolpreet Singh
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Anmolpreet Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Mandeep Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Anmolpreet Singh
+        wicket:
+          player_out: Anmolpreet Singh
+          fielders:
+          - Pratham Singh
+          kind: caught
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: P Simran Singh
+        bowler: Harsh Tyagi
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: P Simran Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Mandeep Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: P Simran Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Mandeep Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: P Simran Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Mandeep Singh
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: P Simran Singh
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Mandeep Singh
+        bowler: Anureet Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: P Simran Singh
+    - 16.2:
+        actual_delivery: '16.1'
+        non_striker: Mandeep Singh
+        bowler: Anureet Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: P Simran Singh
+    - 16.3:
+        actual_delivery: '16.1'
+        non_striker: Mandeep Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: P Simran Singh
+        wicket:
+          player_out: P Simran Singh
+          kind: lbw
+    - 16.4:
+        actual_delivery: '16.2'
+        non_striker: Mandeep Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MS Gony
+    - 16.5:
+        actual_delivery: '16.3'
+        non_striker: Mandeep Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MS Gony
+        wicket:
+          player_out: MS Gony
+          fielders:
+          - Mrunal Devdhar
+          kind: caught
+    - 16.6:
+        actual_delivery: '16.4'
+        non_striker: BB Sran
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mandeep Singh
+    - 16.7:
+        actual_delivery: '16.5'
+        non_striker: BB Sran
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 16.8:
+        actual_delivery: '16.6'
+        non_striker: Mandeep Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: BB Sran
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: BB Sran
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Mandeep Singh
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: BB Sran
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: BB Sran
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Mandeep Singh
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: BB Sran
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: BB Sran
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: BB Sran
+        bowler: K Upadhyay
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: BB Sran
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Mandeep Singh
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: BB Sran
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mandeep Singh
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: BB Sran
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Mandeep Singh
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Mandeep Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: BB Sran
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Mandeep Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: BB Sran
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Mandeep Singh
+        bowler: Anureet Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: BB Sran
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: BB Sran
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mandeep Singh
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: BB Sran
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mandeep Singh
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: BB Sran
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: BB Sran
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mandeep Singh
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: BB Sran
+        bowler: Amit Mishra
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Mandeep Singh

@@ -1,0 +1,2383 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-03'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-02-27'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Gujarat
+    by:
+      runs: 83
+  overs: 20
+  players:
+    Gujarat:
+    - PA Patel
+    - Priyank Panchal
+    - Dhruv Raval
+    - AR Patel
+    - Chirag Gandhi
+    - PP Chawla
+    - HP Patel
+    - Piyush Tanwar
+    - Hemang Patel
+    - A Nagwaswalla
+    - Tejas Patel
+    Bihar:
+    - Vivek Kumar
+    - Prashant Singh
+    - Vishal Das
+    - Ashutosh Aman
+    - Samar Quadri
+    - Babul Kumar
+    - Mangal Mahrour
+    - Piyush Singh
+    - Keshav Kumar
+    - MD Rahmatullah
+    - Asfan Khan
+  registry:
+    people:
+      A Nagwaswalla: 01ada0ed
+      AR Patel: 2e171977
+      Asfan Khan: fc3d382b
+      Ashutosh Aman: 4948a916
+      Babul Kumar: 85e6ccde
+      Chirag Gandhi: 35eb75af
+      Dhruv Raval: e635a5dd
+      HP Patel: 8254ea06
+      Hemang Patel: 59c8c5b5
+      Keshav Kumar: 722ca1f2
+      MD Rahmatullah: c10a99ec
+      Mangal Mahrour: 97c06e86
+      PA Patel: b5da6c24
+      PP Chawla: 98ae73b1
+      Piyush Singh: afab6988
+      Piyush Tanwar: 9c53babc
+      Prashant Singh: 5b2a1532
+      Priyank Panchal: ebf25cf2
+      Samar Quadri: 258fa633
+      Tejas Patel: 76ed445f
+      Vishal Das: e5eb5edf
+      Vivek Kumar: a97c96bf
+    venues:
+      Lalabhai Contractor Stadium, Surat: '0689d53a'
+  teams:
+  - Gujarat
+  - Bihar
+  toss:
+    winner: Gujarat
+    decision: bat
+  venue: Lalabhai Contractor Stadium, Surat
+  team_type: club
+innings:
+- 1st innings:
+    team: Gujarat
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Priyank Panchal
+        bowler: Vivek Kumar
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: PA Patel
+    - 0.2:
+        actual_delivery: '0.1'
+        non_striker: Priyank Panchal
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Patel
+    - 0.3:
+        actual_delivery: '0.2'
+        non_striker: Priyank Panchal
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Patel
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: Priyank Panchal
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Patel
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Priyank Panchal
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: PA Patel
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: PA Patel
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Priyank Panchal
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Priyank Panchal
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: PA Patel
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: PA Patel
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Priyank Panchal
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Priyank Panchal
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: PA Patel
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: PA Patel
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Priyank Panchal
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Priyank Panchal
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Priyank Panchal
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Priyank Panchal
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+        wicket:
+          player_out: PA Patel
+          kind: bowled
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Dhruv Raval
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Priyank Panchal
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Priyank Panchal
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Priyank Panchal
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Raval
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Priyank Panchal
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Dhruv Raval
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Priyank Panchal
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Raval
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Priyank Panchal
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Dhruv Raval
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Priyank Panchal
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Priyank Panchal
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Raval
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Priyank Panchal
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Priyank Panchal
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Dhruv Raval
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Priyank Panchal
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Priyank Panchal
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Priyank Panchal
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Priyank Panchal
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Dhruv Raval
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Dhruv Raval
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Dhruv Raval
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Priyank Panchal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Priyank Panchal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Priyank Panchal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Dhruv Raval
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Dhruv Raval
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Dhruv Raval
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Priyank Panchal
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Dhruv Raval
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Dhruv Raval
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Dhruv Raval
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Priyank Panchal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Dhruv Raval
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Priyank Panchal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Raval
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Priyank Panchal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Dhruv Raval
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Dhruv Raval
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Priyank Panchal
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Dhruv Raval
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Priyank Panchal
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Dhruv Raval
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Priyank Panchal
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Dhruv Raval
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Priyank Panchal
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Dhruv Raval
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Priyank Panchal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Dhruv Raval
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: Dhruv Raval
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Priyank Panchal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Dhruv Raval
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Priyank Panchal
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Priyank Panchal
+        bowler: Babul Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Dhruv Raval
+        bowler: Babul Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Dhruv Raval
+        bowler: Babul Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Dhruv Raval
+        bowler: Babul Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Priyank Panchal
+        bowler: Babul Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Dhruv Raval
+        bowler: Babul Kumar
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Priyank Panchal
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Priyank Panchal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: Priyank Panchal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Dhruv Raval
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Priyank Panchal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Dhruv Raval
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Priyank Panchal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+        wicket:
+          player_out: Dhruv Raval
+          fielders:
+          - Vivek Kumar
+          kind: run out
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Priyank Panchal
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: AR Patel
+        bowler: Ashutosh Aman
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: AR Patel
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: AR Patel
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Priyank Panchal
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: AR Patel
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: AR Patel
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: AR Patel
+        bowler: Vivek Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Priyank Panchal
+        bowler: Mangal Mahrour
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: AR Patel
+        bowler: Mangal Mahrour
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Priyank Panchal
+        bowler: Mangal Mahrour
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: AR Patel
+        bowler: Mangal Mahrour
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: AR Patel
+        bowler: Mangal Mahrour
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: AR Patel
+        bowler: Mangal Mahrour
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: AR Patel
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: AR Patel
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Priyank Panchal
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AR Patel
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Priyank Panchal
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AR Patel
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Priyank Panchal
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Patel
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Priyank Panchal
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Priyank Panchal
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Patel
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Priyank Panchal
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: AR Patel
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Priyank Panchal
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: AR Patel
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Priyank Panchal
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: AR Patel
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+        wicket:
+          player_out: Priyank Panchal
+          fielders:
+          - Babul Kumar
+          kind: caught
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: AR Patel
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: AR Patel
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+        wicket:
+          player_out: Chirag Gandhi
+          fielders:
+          - Asfan Khan
+          kind: stumped
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: AR Patel
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PP Chawla
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: AR Patel
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: PP Chawla
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: AR Patel
+        bowler: Samar Quadri
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Chawla
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: PP Chawla
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: AR Patel
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PP Chawla
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: AR Patel
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Chawla
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: AR Patel
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Chawla
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: AR Patel
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Chawla
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: AR Patel
+        bowler: Vishal Das
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: AR Patel
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: PP Chawla
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: AR Patel
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PP Chawla
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: AR Patel
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: PP Chawla
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: AR Patel
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PP Chawla
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: AR Patel
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PP Chawla
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: PP Chawla
+        bowler: Prashant Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AR Patel
+- 2nd innings:
+    team: Bihar
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Piyush Singh
+        bowler: A Nagwaswalla
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Babul Kumar
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Babul Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Singh
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Babul Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Singh
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Piyush Singh
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Babul Kumar
+        wicket:
+          player_out: Babul Kumar
+          kind: lbw
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Piyush Singh
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Piyush Singh
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Mangal Mahrour
+        wicket:
+          player_out: Mangal Mahrour
+          fielders:
+          - Piyush Tanwar
+          kind: run out
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Piyush Singh
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: Keshav Kumar
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Singh
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Piyush Singh
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Piyush Singh
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: Piyush Singh
+        bowler: HP Patel
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Keshav Kumar
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Piyush Singh
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: Piyush Singh
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Keshav Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Singh
+        wicket:
+          player_out: Piyush Singh
+          fielders:
+          - PA Patel
+          kind: caught
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Keshav Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Keshav Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MD Rahmatullah
+        wicket:
+          player_out: MD Rahmatullah
+          kind: bowled
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Keshav Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Keshav Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Keshav Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Asfan Khan
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Asfan Khan
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Asfan Khan
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Asfan Khan
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Asfan Khan
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Asfan Khan
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Keshav Kumar
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: Asfan Khan
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Keshav Kumar
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Keshav Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Keshav Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Keshav Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Asfan Khan
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Asfan Khan
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Asfan Khan
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Keshav Kumar
+        bowler: A Nagwaswalla
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Asfan Khan
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: Keshav Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Asfan Khan
+        bowler: Tejas Patel
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 2
+          batsman: 1
+        batsman: Keshav Kumar
+    - 5.2:
+        actual_delivery: '5.1'
+        non_striker: Keshav Kumar
+        bowler: Tejas Patel
+        extras:
+          byes: 1
+          noballs: 1
+        runs:
+          extras: 2
+          total: 2
+          batsman: 0
+        batsman: Asfan Khan
+    - 5.3:
+        actual_delivery: '5.1'
+        non_striker: Asfan Khan
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 5.4:
+        actual_delivery: '5.2'
+        non_striker: Asfan Khan
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 5.5:
+        actual_delivery: '5.3'
+        non_striker: Keshav Kumar
+        bowler: Tejas Patel
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Asfan Khan
+    - 5.6:
+        actual_delivery: '5.4'
+        non_striker: Asfan Khan
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 5.7:
+        actual_delivery: '5.5'
+        non_striker: Asfan Khan
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 5.8:
+        actual_delivery: '5.6'
+        non_striker: Keshav Kumar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Asfan Khan
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Asfan Khan
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Asfan Khan
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Asfan Khan
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Asfan Khan
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Asfan Khan
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Keshav Kumar
+        bowler: PP Chawla
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Asfan Khan
+    - 7.2:
+        actual_delivery: '7.1'
+        non_striker: Keshav Kumar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 7.3:
+        actual_delivery: '7.2'
+        non_striker: Keshav Kumar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Asfan Khan
+    - 7.4:
+        actual_delivery: '7.3'
+        non_striker: Asfan Khan
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: Keshav Kumar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Keshav Kumar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Asfan Khan
+        wicket:
+          player_out: Asfan Khan
+          kind: bowled
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Keshav Kumar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Ashutosh Aman
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Keshav Kumar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Keshav Kumar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Keshav Kumar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Keshav Kumar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ashutosh Aman
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Keshav Kumar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Ashutosh Aman
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Keshav Kumar
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Ashutosh Aman
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Keshav Kumar
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Ashutosh Aman
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: Keshav Kumar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Ashutosh Aman
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: Ashutosh Aman
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: Ashutosh Aman
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Ashutosh Aman
+        bowler: AR Patel
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Keshav Kumar
+    - 10.3:
+        actual_delivery: '10.2'
+        non_striker: Ashutosh Aman
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 10.4:
+        actual_delivery: '10.3'
+        non_striker: Keshav Kumar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 10.5:
+        actual_delivery: '10.4'
+        non_striker: Ashutosh Aman
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 10.6:
+        actual_delivery: '10.5'
+        non_striker: Keshav Kumar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 10.7:
+        actual_delivery: '10.6'
+        non_striker: Ashutosh Aman
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Ashutosh Aman
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Keshav Kumar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Keshav Kumar
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Ashutosh Aman
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Keshav Kumar
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Ashutosh Aman
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Keshav Kumar
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Ashutosh Aman
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Ashutosh Aman
+        bowler: HP Patel
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Keshav Kumar
+    - 12.2:
+        actual_delivery: '12.1'
+        non_striker: Ashutosh Aman
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 12.3:
+        actual_delivery: '12.2'
+        non_striker: Ashutosh Aman
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 12.4:
+        actual_delivery: '12.3'
+        non_striker: Ashutosh Aman
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 12.5:
+        actual_delivery: '12.4'
+        non_striker: Ashutosh Aman
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 12.6:
+        actual_delivery: '12.5'
+        non_striker: Keshav Kumar
+        bowler: HP Patel
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 12.7:
+        actual_delivery: '12.6'
+        non_striker: Ashutosh Aman
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Keshav Kumar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Ashutosh Aman
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Keshav Kumar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Keshav Kumar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Keshav Kumar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Ashutosh Aman
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Keshav Kumar
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Keshav Kumar
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Ashutosh Aman
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Ashutosh Aman
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: Keshav Kumar
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Ashutosh Aman
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Keshav Kumar
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Keshav Kumar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Ashutosh Aman
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Keshav Kumar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Ashutosh Aman
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Keshav Kumar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashutosh Aman
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Keshav Kumar
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ashutosh Aman
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Keshav Kumar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Ashutosh Aman
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Keshav Kumar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Keshav Kumar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Keshav Kumar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ashutosh Aman
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Keshav Kumar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ashutosh Aman
+        wicket:
+          player_out: Ashutosh Aman
+          fielders:
+          - PA Patel
+          kind: stumped
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Keshav Kumar
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Singh
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Prashant Singh
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Keshav Kumar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Singh
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Keshav Kumar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Prashant Singh
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Prashant Singh
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Prashant Singh
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Keshav Kumar
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Prashant Singh
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Prashant Singh
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: Keshav Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Prashant Singh
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: Keshav Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Prashant Singh
+        wicket:
+          player_out: Prashant Singh
+          kind: bowled
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: Keshav Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vivek Kumar
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Vivek Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Vivek Kumar
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Vivek Kumar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Keshav Kumar
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Vivek Kumar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Keshav Kumar
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Vivek Kumar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Keshav Kumar
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Vivek Kumar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Keshav Kumar
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: Keshav Kumar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vivek Kumar
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: Keshav Kumar
+        bowler: Tejas Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Vivek Kumar

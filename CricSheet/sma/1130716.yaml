@@ -1,0 +1,2380 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-04'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2018-01-14'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Karnataka
+    by:
+      runs: 20
+  overs: 20
+  players:
+    Karnataka:
+    - MA Agarwal
+    - KK Nair
+    - MK Pandey
+    - Ravikumar Samarth
+    - STR Binny
+    - K Gowtham
+    - P Dubey
+    - CM Gautam
+    - S Aravind
+    - A Mithun
+    - R Vinay Kumar
+    Kerala:
+    - Sijomon Joseph
+    - KM Asif
+    - S Sandeep Warrier
+    - Abhishek Mohan
+    - S Midhun
+    - SV Samson
+    - Vishnu Vinod
+    - KB Arun Karthik
+    - Salman Nizar
+    - Daryl Ferrario
+    - Fabid Ahmed
+  registry:
+    people:
+      A Mithun: 66cf56a5
+      Abhishek Mohan: cdc4604c
+      CM Gautam: 30a2649b
+      Daryl Ferrario: 16b5917d
+      Fabid Ahmed: f705d984
+      K Gowtham: 90de905a
+      KB Arun Karthik: 7daedf2f
+      KK Nair: 944533a5
+      KM Asif: 798cc28e
+      MA Agarwal: 00ea847a
+      MK Pandey: 93b4fc78
+      P Dubey: ed5a5510
+      R Vinay Kumar: 41eb4a4f
+      Ravikumar Samarth: f2dbbff5
+      S Aravind: 957532de
+      S Midhun: ade90de7
+      S Sandeep Warrier: cdc6bdba
+      STR Binny: bd17b45f
+      SV Samson: a4cc73aa
+      Salman Nizar: 47ff3985
+      Sijomon Joseph: 537d02f3
+      Vishnu Vinod: '0494fa6e'
+    venues:
+      Dr PVG Raju ACA Sports Complex, Vizianagaram: 6e0bb613
+  teams:
+  - Karnataka
+  - Kerala
+  toss:
+    winner: Karnataka
+    decision: bat
+  venue: Dr PVG Raju ACA Sports Complex, Vizianagaram
+  team_type: club
+innings:
+- 1st innings:
+    team: Karnataka
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: KK Nair
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: KK Nair
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: KK Nair
+        bowler: Sijomon Joseph
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: MA Agarwal
+    - 0.4:
+        actual_delivery: '0.3'
+        non_striker: KK Nair
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: KK Nair
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: MA Agarwal
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: KK Nair
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: KK Nair
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: KK Nair
+        bowler: S Sandeep Warrier
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: MA Agarwal
+    - 2.3:
+        actual_delivery: '2.2'
+        non_striker: KK Nair
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 2.4:
+        actual_delivery: '2.3'
+        non_striker: KK Nair
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 2.5:
+        actual_delivery: '2.4'
+        non_striker: KK Nair
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 2.6:
+        actual_delivery: '2.5'
+        non_striker: MA Agarwal
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KK Nair
+    - 2.7:
+        actual_delivery: '2.6'
+        non_striker: KK Nair
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MA Agarwal
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: KK Nair
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: KK Nair
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: KK Nair
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: MA Agarwal
+        bowler: S Sandeep Warrier
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KK Nair
+    - 4.4:
+        actual_delivery: '4.3'
+        non_striker: MA Agarwal
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KK Nair
+        wicket:
+          player_out: KK Nair
+          fielders:
+          - Fabid Ahmed
+          kind: caught
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: MK Pandey
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: MK Pandey
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 4.7:
+        actual_delivery: '4.6'
+        non_striker: MA Agarwal
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Pandey
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: MK Pandey
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: MA Agarwal
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Pandey
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: MK Pandey
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: MK Pandey
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: MK Pandey
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MA Agarwal
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: MK Pandey
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: MA Agarwal
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Pandey
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: MA Agarwal
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Pandey
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: MK Pandey
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: MK Pandey
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: MK Pandey
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: MA Agarwal
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MK Pandey
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: MK Pandey
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: MK Pandey
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: MA Agarwal
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MK Pandey
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: MK Pandey
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: MA Agarwal
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MK Pandey
+        wicket:
+          player_out: MK Pandey
+          kind: bowled
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: MA Agarwal
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: MA Agarwal
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Ravikumar Samarth
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Ravikumar Samarth
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Ravikumar Samarth
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Ravikumar Samarth
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: MA Agarwal
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: MA Agarwal
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravikumar Samarth
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: MA Agarwal
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Ravikumar Samarth
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: MA Agarwal
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Ravikumar Samarth
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: MA Agarwal
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: MA Agarwal
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Ravikumar Samarth
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: Ravikumar Samarth
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: MA Agarwal
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Ravikumar Samarth
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: MA Agarwal
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: MA Agarwal
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Ravikumar Samarth
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: MA Agarwal
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: Ravikumar Samarth
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MA Agarwal
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Ravikumar Samarth
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MA Agarwal
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: Ravikumar Samarth
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: Ravikumar Samarth
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: MA Agarwal
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: Ravikumar Samarth
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Ravikumar Samarth
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Ravikumar Samarth
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: MA Agarwal
+        bowler: S Midhun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: MA Agarwal
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Ravikumar Samarth
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MA Agarwal
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: Ravikumar Samarth
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: MA Agarwal
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: Ravikumar Samarth
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: MA Agarwal
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: Ravikumar Samarth
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Ravikumar Samarth
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: Ravikumar Samarth
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravikumar Samarth
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Ravikumar Samarth
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Ravikumar Samarth
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Ravikumar Samarth
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: Ravikumar Samarth
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: MA Agarwal
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Ravikumar Samarth
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: MA Agarwal
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Ravikumar Samarth
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: MA Agarwal
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ravikumar Samarth
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Ravikumar Samarth
+        bowler: Sijomon Joseph
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Ravikumar Samarth
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: MA Agarwal
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Ravikumar Samarth
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravikumar Samarth
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: MA Agarwal
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ravikumar Samarth
+        wicket:
+          player_out: Ravikumar Samarth
+          fielders:
+          - Daryl Ferrario
+          kind: caught
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: STR Binny
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: STR Binny
+        bowler: KM Asif
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: MA Agarwal
+        wicket:
+          player_out: MA Agarwal
+          kind: bowled
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: K Gowtham
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: STR Binny
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: K Gowtham
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: STR Binny
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Gowtham
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: STR Binny
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: K Gowtham
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: K Gowtham
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: STR Binny
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: K Gowtham
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: STR Binny
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: K Gowtham
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: STR Binny
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: K Gowtham
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: STR Binny
+        bowler: S Sandeep Warrier
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: K Gowtham
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: STR Binny
+        bowler: S Sandeep Warrier
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: K Gowtham
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: K Gowtham
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: STR Binny
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: STR Binny
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: K Gowtham
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: STR Binny
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: K Gowtham
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: STR Binny
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+        wicket:
+          player_out: STR Binny
+          fielders:
+          - Fabid Ahmed
+          kind: run out
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: P Dubey
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: K Gowtham
+        wicket:
+          player_out: K Gowtham
+          fielders:
+          - Fabid Ahmed
+          kind: run out
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: P Dubey
+        bowler: Abhishek Mohan
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: CM Gautam
+- 2nd innings:
+    team: Kerala
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Vishnu Vinod
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Vishnu Vinod
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Vishnu Vinod
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Vishnu Vinod
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: SV Samson
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Vishnu Vinod
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Vishnu Vinod
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: SV Samson
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: Vishnu Vinod
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Vishnu Vinod
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: SV Samson
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Vishnu Vinod
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Vishnu Vinod
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Vishnu Vinod
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Vishnu Vinod
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: SV Samson
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: SV Samson
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: SV Samson
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: SV Samson
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Vishnu Vinod
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: SV Samson
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Vishnu Vinod
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: SV Samson
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: SV Samson
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Vishnu Vinod
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: SV Samson
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Vishnu Vinod
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Vishnu Vinod
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Vishnu Vinod
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: Vishnu Vinod
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Vishnu Vinod
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: SV Samson
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Vishnu Vinod
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: SV Samson
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: SV Samson
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: SV Samson
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Vishnu Vinod
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: SV Samson
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: SV Samson
+        bowler: A Mithun
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 6.2:
+        actual_delivery: '6.1'
+        non_striker: SV Samson
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 6.3:
+        actual_delivery: '6.2'
+        non_striker: SV Samson
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 6.4:
+        actual_delivery: '6.3'
+        non_striker: SV Samson
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 6.5:
+        actual_delivery: '6.4'
+        non_striker: SV Samson
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 6.6:
+        actual_delivery: '6.5'
+        non_striker: SV Samson
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Vishnu Vinod
+    - 6.7:
+        actual_delivery: '6.6'
+        non_striker: SV Samson
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: SV Samson
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Vishnu Vinod
+        bowler: K Gowtham
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: SV Samson
+    - 7.3:
+        actual_delivery: '7.2'
+        non_striker: Vishnu Vinod
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 7.4:
+        actual_delivery: '7.3'
+        non_striker: Vishnu Vinod
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 7.5:
+        actual_delivery: '7.4'
+        non_striker: Vishnu Vinod
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: SV Samson
+    - 7.6:
+        actual_delivery: '7.5'
+        non_striker: Vishnu Vinod
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 7.7:
+        actual_delivery: '7.6'
+        non_striker: Vishnu Vinod
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Vishnu Vinod
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: SV Samson
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Vishnu Vinod
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: SV Samson
+        bowler: STR Binny
+        extras:
+          noballs: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Vishnu Vinod
+    - 8.5:
+        actual_delivery: '8.4'
+        non_striker: SV Samson
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Vishnu Vinod
+    - 8.6:
+        actual_delivery: '8.5'
+        non_striker: Vishnu Vinod
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 8.7:
+        actual_delivery: '8.6'
+        non_striker: Vishnu Vinod
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Vishnu Vinod
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Vishnu Vinod
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: SV Samson
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Vishnu Vinod
+        wicket:
+          player_out: Vishnu Vinod
+          kind: lbw
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: SV Samson
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: KB Arun Karthik
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: SV Samson
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: SV Samson
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: KB Arun Karthik
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: SV Samson
+        bowler: STR Binny
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KB Arun Karthik
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: KB Arun Karthik
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: KB Arun Karthik
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: SV Samson
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: SV Samson
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: KB Arun Karthik
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: SV Samson
+        bowler: K Gowtham
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: KB Arun Karthik
+    - 11.4:
+        actual_delivery: '11.3'
+        non_striker: SV Samson
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: KB Arun Karthik
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: KB Arun Karthik
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: SV Samson
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: KB Arun Karthik
+        bowler: K Gowtham
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SV Samson
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: KB Arun Karthik
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SV Samson
+        wicket:
+          player_out: SV Samson
+          fielders:
+          - MK Pandey
+          kind: caught
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: KB Arun Karthik
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Salman Nizar
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: KB Arun Karthik
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Salman Nizar
+        wicket:
+          player_out: Salman Nizar
+          fielders:
+          - CM Gautam
+          kind: caught
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: KB Arun Karthik
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Daryl Ferrario
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Daryl Ferrario
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: KB Arun Karthik
+        bowler: R Vinay Kumar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Daryl Ferrario
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: KB Arun Karthik
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Daryl Ferrario
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: KB Arun Karthik
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Daryl Ferrario
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: KB Arun Karthik
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Daryl Ferrario
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: KB Arun Karthik
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Daryl Ferrario
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Daryl Ferrario
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: KB Arun Karthik
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Daryl Ferrario
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Daryl Ferrario
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: KB Arun Karthik
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Daryl Ferrario
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: Daryl Ferrario
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: KB Arun Karthik
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Daryl Ferrario
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: KB Arun Karthik
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Daryl Ferrario
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: Daryl Ferrario
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: Daryl Ferrario
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: KB Arun Karthik
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Daryl Ferrario
+        wicket:
+          player_out: Daryl Ferrario
+          fielders:
+          - R Vinay Kumar
+          kind: caught
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: KB Arun Karthik
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fabid Ahmed
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: Fabid Ahmed
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: KB Arun Karthik
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: KB Arun Karthik
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fabid Ahmed
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: Fabid Ahmed
+        bowler: P Dubey
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: KB Arun Karthik
+        wicket:
+          player_out: KB Arun Karthik
+          fielders:
+          - MK Pandey
+          kind: caught
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: Fabid Ahmed
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Mohan
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: Abhishek Mohan
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fabid Ahmed
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Fabid Ahmed
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Mohan
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: Abhishek Mohan
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Fabid Ahmed
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: Fabid Ahmed
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Mohan
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: Abhishek Mohan
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Fabid Ahmed
+        wicket:
+          player_out: Fabid Ahmed
+          fielders:
+          - S Aravind
+          kind: run out
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: Sijomon Joseph
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Abhishek Mohan
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Sijomon Joseph
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Mohan
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Abhishek Mohan
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sijomon Joseph
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: Abhishek Mohan
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Sijomon Joseph
+        wicket:
+          player_out: Sijomon Joseph
+          fielders:
+          - CM Gautam
+          kind: caught
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: Abhishek Mohan
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Midhun
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: Abhishek Mohan
+        bowler: STR Binny
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Midhun
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: Abhishek Mohan
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: S Midhun
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: S Midhun
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Mohan
+    - 18.3:
+        actual_delivery: '18.3'
+        non_striker: S Midhun
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Abhishek Mohan
+    - 18.4:
+        actual_delivery: '18.4'
+        non_striker: S Midhun
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Mohan
+    - 18.5:
+        actual_delivery: '18.5'
+        non_striker: Abhishek Mohan
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Midhun
+    - 18.6:
+        actual_delivery: '18.6'
+        non_striker: Abhishek Mohan
+        bowler: S Aravind
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: S Midhun
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: Abhishek Mohan
+        bowler: S Aravind
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Midhun
+        wicket:
+          player_out: S Midhun
+          kind: bowled
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: KM Asif
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Abhishek Mohan
+        wicket:
+          player_out: Abhishek Mohan
+          fielders:
+          - K Gowtham
+          kind: run out
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: KM Asif
+        bowler: A Mithun
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: S Sandeep Warrier
+        wicket:
+          player_out: S Sandeep Warrier
+          fielders:
+          - MK Pandey
+          kind: caught

@@ -1,0 +1,2269 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-03'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-03-02'
+  gender: male
+  match_type: T20
+  outcome:
+    winner: Vidarbha
+    by:
+      wickets: 5
+  overs: 20
+  players:
+    Gujarat:
+    - Priyank Panchal
+    - PA Patel
+    - Dhruv Raval
+    - Piyush Tanwar
+    - AR Patel
+    - Chirag Gandhi
+    - PP Chawla
+    - A Nagwaswalla
+    - HP Patel
+    - Manish Sharma
+    - Hemang Patel
+    Vidarbha:
+    - Akshay Wakhare
+    - SB Wagh
+    - Akshay Karnewar
+    - RL Jangid
+    - RR Rathod
+    - Atharva Taide
+    - Yash Thakur
+    - JM Sharma
+    - SU Shrivastava
+    - FY Fazal
+    - Ganesh Satish
+  registry:
+    people:
+      A Nagwaswalla: 01ada0ed
+      AR Patel: 2e171977
+      Akshay Karnewar: e1e7f950
+      Akshay Wakhare: ec9fc54b
+      Atharva Taide: 1ac746c8
+      Chirag Gandhi: 35eb75af
+      Dhruv Raval: e635a5dd
+      FY Fazal: c15e2193
+      Ganesh Satish: 0ed1a112
+      HP Patel: 8254ea06
+      Hemang Patel: 59c8c5b5
+      JM Sharma: 800d2d97
+      Manish Sharma: b4ff4409
+      PA Patel: b5da6c24
+      PP Chawla: 98ae73b1
+      Piyush Tanwar: 9c53babc
+      Priyank Panchal: ebf25cf2
+      RL Jangid: fe5f2e48
+      RR Rathod: 3c79f8af
+      SB Wagh: dddca1d6
+      SU Shrivastava: a392328e
+      Yash Thakur: 4b31f3a3
+    venues:
+      CB Patel International Cricket Stadium, Surat: a8d90b2d
+  teams:
+  - Gujarat
+  - Vidarbha
+  toss:
+    winner: Gujarat
+    decision: bat
+  venue: CB Patel International Cricket Stadium, Surat
+  team_type: club
+innings:
+- 1st innings:
+    team: Gujarat
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: PA Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: PA Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: PA Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: PA Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: Priyank Panchal
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 0.6:
+        actual_delivery: '0.6'
+        non_striker: Priyank Panchal
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: PA Patel
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Priyank Panchal
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: PA Patel
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: PA Patel
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: PA Patel
+        bowler: SB Wagh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Priyank Panchal
+    - 1.5:
+        actual_delivery: '1.4'
+        non_striker: PA Patel
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 1.6:
+        actual_delivery: '1.5'
+        non_striker: Priyank Panchal
+        bowler: SB Wagh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: PA Patel
+    - 1.7:
+        actual_delivery: '1.6'
+        non_striker: PA Patel
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Priyank Panchal
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: PA Patel
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Priyank Panchal
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: PA Patel
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: Priyank Panchal
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: PA Patel
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: Priyank Panchal
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: PA Patel
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Priyank Panchal
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Priyank Panchal
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PA Patel
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Priyank Panchal
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: PA Patel
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: PA Patel
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: PA Patel
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: PA Patel
+        bowler: RR Rathod
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: PA Patel
+        bowler: RR Rathod
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Priyank Panchal
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: PA Patel
+        bowler: RR Rathod
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: PA Patel
+        bowler: RR Rathod
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: PA Patel
+        bowler: RR Rathod
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+        wicket:
+          player_out: PA Patel
+          fielders:
+          - RL Jangid
+          kind: run out
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: Priyank Panchal
+        bowler: RR Rathod
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Dhruv Raval
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Priyank Panchal
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Dhruv Raval
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: Priyank Panchal
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: Priyank Panchal
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Dhruv Raval
+        wicket:
+          player_out: Dhruv Raval
+          fielders:
+          - Atharva Taide
+          kind: caught
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: Piyush Tanwar
+        bowler: Akshay Karnewar
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Priyank Panchal
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: Priyank Panchal
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Tanwar
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: Priyank Panchal
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Tanwar
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Piyush Tanwar
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: Priyank Panchal
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Tanwar
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Piyush Tanwar
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: Piyush Tanwar
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Priyank Panchal
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Tanwar
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: Piyush Tanwar
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: Piyush Tanwar
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: Piyush Tanwar
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: Priyank Panchal
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Tanwar
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: Piyush Tanwar
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: Priyank Panchal
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Tanwar
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: Piyush Tanwar
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: Piyush Tanwar
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: Priyank Panchal
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Tanwar
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: Piyush Tanwar
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Priyank Panchal
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: Piyush Tanwar
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: Piyush Tanwar
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Priyank Panchal
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: Priyank Panchal
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Tanwar
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: Priyank Panchal
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Tanwar
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: Piyush Tanwar
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: Piyush Tanwar
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Priyank Panchal
+        wicket:
+          player_out: Priyank Panchal
+          fielders:
+          - RR Rathod
+          kind: caught
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: AR Patel
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Tanwar
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: Piyush Tanwar
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: AR Patel
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Tanwar
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: AR Patel
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Tanwar
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: Piyush Tanwar
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: AR Patel
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Tanwar
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: AR Patel
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Tanwar
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: Piyush Tanwar
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Patel
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: Piyush Tanwar
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: Piyush Tanwar
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Patel
+    - 11.2:
+        actual_delivery: '11.2'
+        non_striker: Piyush Tanwar
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Patel
+    - 11.3:
+        actual_delivery: '11.3'
+        non_striker: Piyush Tanwar
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 11.4:
+        actual_delivery: '11.4'
+        non_striker: AR Patel
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Tanwar
+    - 11.5:
+        actual_delivery: '11.5'
+        non_striker: Piyush Tanwar
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 11.6:
+        actual_delivery: '11.6'
+        non_striker: AR Patel
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Tanwar
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: AR Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Tanwar
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: AR Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Tanwar
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: AR Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Piyush Tanwar
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: Piyush Tanwar
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AR Patel
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: Piyush Tanwar
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Patel
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: Piyush Tanwar
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: Piyush Tanwar
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Patel
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: Piyush Tanwar
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: AR Patel
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Piyush Tanwar
+        wicket:
+          player_out: Piyush Tanwar
+          fielders:
+          - JM Sharma
+          kind: stumped
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: AR Patel
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: Chirag Gandhi
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: AR Patel
+        bowler: Atharva Taide
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: Chirag Gandhi
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: AR Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: AR Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: AR Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: Chirag Gandhi
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: AR Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: AR Patel
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: AR Patel
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: Chirag Gandhi
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: AR Patel
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: Chirag Gandhi
+        bowler: RL Jangid
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: AR Patel
+    - 15.6:
+        actual_delivery: '15.5'
+        non_striker: Chirag Gandhi
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 15.7:
+        actual_delivery: '15.6'
+        non_striker: AR Patel
+        bowler: RL Jangid
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: AR Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Chirag Gandhi
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: AR Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: Chirag Gandhi
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: AR Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: AR Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Chirag Gandhi
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: AR Patel
+        bowler: Akshay Wakhare
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: AR Patel
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: Chirag Gandhi
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Patel
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: Chirag Gandhi
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: AR Patel
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: AR Patel
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: AR Patel
+        bowler: Akshay Karnewar
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: AR Patel
+        bowler: Yash Thakur
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 18.2:
+        actual_delivery: '18.1'
+        non_striker: AR Patel
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 18.3:
+        actual_delivery: '18.2'
+        non_striker: AR Patel
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chirag Gandhi
+    - 18.4:
+        actual_delivery: '18.3'
+        non_striker: AR Patel
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Chirag Gandhi
+    - 18.5:
+        actual_delivery: '18.4'
+        non_striker: AR Patel
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+    - 18.6:
+        actual_delivery: '18.5'
+        non_striker: Chirag Gandhi
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 18.7:
+        actual_delivery: '18.6'
+        non_striker: AR Patel
+        bowler: Yash Thakur
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Chirag Gandhi
+    - 19.1:
+        actual_delivery: '19.1'
+        non_striker: Chirag Gandhi
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: AR Patel
+    - 19.2:
+        actual_delivery: '19.2'
+        non_striker: Chirag Gandhi
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: AR Patel
+    - 19.3:
+        actual_delivery: '19.3'
+        non_striker: Chirag Gandhi
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: AR Patel
+    - 19.4:
+        actual_delivery: '19.4'
+        non_striker: Chirag Gandhi
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: AR Patel
+    - 19.5:
+        actual_delivery: '19.5'
+        non_striker: AR Patel
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Chirag Gandhi
+        wicket:
+          player_out: Chirag Gandhi
+          fielders:
+          - SU Shrivastava
+          kind: run out
+    - 19.6:
+        actual_delivery: '19.6'
+        non_striker: AR Patel
+        bowler: SB Wagh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: PP Chawla
+        wicket:
+          player_out: PP Chawla
+          fielders:
+          - FY Fazal
+          kind: caught
+- 2nd innings:
+    team: Vidarbha
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: JM Sharma
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Atharva Taide
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: Atharva Taide
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Atharva Taide
+        bowler: Manish Sharma
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: JM Sharma
+    - 0.5:
+        actual_delivery: '0.4'
+        non_striker: Atharva Taide
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: Atharva Taide
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: JM Sharma
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Atharva Taide
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: JM Sharma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: JM Sharma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Atharva Taide
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: JM Sharma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Atharva Taide
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: JM Sharma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Atharva Taide
+        wicket:
+          player_out: Atharva Taide
+          fielders:
+          - Manish Sharma
+          kind: caught
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: SU Shrivastava
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: SU Shrivastava
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: SU Shrivastava
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: JM Sharma
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: SU Shrivastava
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: SU Shrivastava
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: SU Shrivastava
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: JM Sharma
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: SU Shrivastava
+        wicket:
+          player_out: SU Shrivastava
+          fielders:
+          - PP Chawla
+          kind: caught
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: FY Fazal
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: JM Sharma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: JM Sharma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: FY Fazal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: JM Sharma
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: JM Sharma
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: FY Fazal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: JM Sharma
+    - 3.6:
+        actual_delivery: '3.6'
+        non_striker: FY Fazal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: JM Sharma
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: FY Fazal
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: FY Fazal
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: FY Fazal
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: JM Sharma
+        wicket:
+          player_out: JM Sharma
+          fielders:
+          - PA Patel
+          kind: caught
+    - 4.5:
+        actual_delivery: '4.5'
+        non_striker: FY Fazal
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 4.6:
+        actual_delivery: '4.6'
+        non_striker: FY Fazal
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 5.1:
+        actual_delivery: '5.1'
+        non_striker: Ganesh Satish
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 5.2:
+        actual_delivery: '5.2'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 5.3:
+        actual_delivery: '5.3'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 5.4:
+        actual_delivery: '5.4'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 5.5:
+        actual_delivery: '5.5'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 5.6:
+        actual_delivery: '5.6'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 6.1:
+        actual_delivery: '6.1'
+        non_striker: Ganesh Satish
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 6.2:
+        actual_delivery: '6.2'
+        non_striker: FY Fazal
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 6.3:
+        actual_delivery: '6.3'
+        non_striker: Ganesh Satish
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 6.4:
+        actual_delivery: '6.4'
+        non_striker: FY Fazal
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 6.5:
+        actual_delivery: '6.5'
+        non_striker: Ganesh Satish
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 6.6:
+        actual_delivery: '6.6'
+        non_striker: FY Fazal
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Ganesh Satish
+    - 7.1:
+        actual_delivery: '7.1'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 7.2:
+        actual_delivery: '7.2'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+    - 7.3:
+        actual_delivery: '7.3'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Ganesh Satish
+        wicket:
+          player_out: Ganesh Satish
+          fielders:
+          - PA Patel
+          kind: stumped
+    - 7.4:
+        actual_delivery: '7.4'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 7.5:
+        actual_delivery: '7.5'
+        non_striker: RL Jangid
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 7.6:
+        actual_delivery: '7.6'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RL Jangid
+    - 8.1:
+        actual_delivery: '8.1'
+        non_striker: RL Jangid
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 8.2:
+        actual_delivery: '8.2'
+        non_striker: FY Fazal
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 8.3:
+        actual_delivery: '8.3'
+        non_striker: RL Jangid
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 8.4:
+        actual_delivery: '8.4'
+        non_striker: RL Jangid
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 8.5:
+        actual_delivery: '8.5'
+        non_striker: FY Fazal
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 8.6:
+        actual_delivery: '8.6'
+        non_striker: RL Jangid
+        bowler: Hemang Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 9.1:
+        actual_delivery: '9.1'
+        non_striker: RL Jangid
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 9.2:
+        actual_delivery: '9.2'
+        non_striker: FY Fazal
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 9.3:
+        actual_delivery: '9.3'
+        non_striker: RL Jangid
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 9.4:
+        actual_delivery: '9.4'
+        non_striker: FY Fazal
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 9.5:
+        actual_delivery: '9.5'
+        non_striker: RL Jangid
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 9.6:
+        actual_delivery: '9.6'
+        non_striker: RL Jangid
+        bowler: A Nagwaswalla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 10.1:
+        actual_delivery: '10.1'
+        non_striker: FY Fazal
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 10.2:
+        actual_delivery: '10.2'
+        non_striker: RL Jangid
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FY Fazal
+    - 10.3:
+        actual_delivery: '10.3'
+        non_striker: RL Jangid
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 10.4:
+        actual_delivery: '10.4'
+        non_striker: FY Fazal
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 10.5:
+        actual_delivery: '10.5'
+        non_striker: RL Jangid
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 10.6:
+        actual_delivery: '10.6'
+        non_striker: FY Fazal
+        bowler: Manish Sharma
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 11.1:
+        actual_delivery: '11.1'
+        non_striker: FY Fazal
+        bowler: HP Patel
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: RL Jangid
+    - 11.2:
+        actual_delivery: '11.1'
+        non_striker: FY Fazal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+    - 11.3:
+        actual_delivery: '11.2'
+        non_striker: RL Jangid
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FY Fazal
+    - 11.4:
+        actual_delivery: '11.3'
+        non_striker: RL Jangid
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 11.5:
+        actual_delivery: '11.4'
+        non_striker: FY Fazal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RL Jangid
+    - 11.6:
+        actual_delivery: '11.5'
+        non_striker: FY Fazal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RL Jangid
+        wicket:
+          player_out: RL Jangid
+          fielders:
+          - AR Patel
+          kind: run out
+    - 11.7:
+        actual_delivery: '11.6'
+        non_striker: FY Fazal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rathod
+    - 12.1:
+        actual_delivery: '12.1'
+        non_striker: FY Fazal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rathod
+    - 12.2:
+        actual_delivery: '12.2'
+        non_striker: RR Rathod
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 12.3:
+        actual_delivery: '12.3'
+        non_striker: FY Fazal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rathod
+    - 12.4:
+        actual_delivery: '12.4'
+        non_striker: RR Rathod
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 12.5:
+        actual_delivery: '12.5'
+        non_striker: FY Fazal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rathod
+    - 12.6:
+        actual_delivery: '12.6'
+        non_striker: RR Rathod
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 13.1:
+        actual_delivery: '13.1'
+        non_striker: RR Rathod
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FY Fazal
+    - 13.2:
+        actual_delivery: '13.2'
+        non_striker: RR Rathod
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: FY Fazal
+    - 13.3:
+        actual_delivery: '13.3'
+        non_striker: RR Rathod
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 13.4:
+        actual_delivery: '13.4'
+        non_striker: RR Rathod
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 13.5:
+        actual_delivery: '13.5'
+        non_striker: FY Fazal
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rathod
+    - 13.6:
+        actual_delivery: '13.6'
+        non_striker: RR Rathod
+        bowler: HP Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 14.1:
+        actual_delivery: '14.1'
+        non_striker: RR Rathod
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 14.2:
+        actual_delivery: '14.2'
+        non_striker: RR Rathod
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 14.3:
+        actual_delivery: '14.3'
+        non_striker: FY Fazal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rathod
+    - 14.4:
+        actual_delivery: '14.4'
+        non_striker: FY Fazal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rathod
+    - 14.5:
+        actual_delivery: '14.5'
+        non_striker: FY Fazal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Rathod
+    - 14.6:
+        actual_delivery: '14.6'
+        non_striker: FY Fazal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rathod
+    - 15.1:
+        actual_delivery: '15.1'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rathod
+    - 15.2:
+        actual_delivery: '15.2'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Rathod
+    - 15.3:
+        actual_delivery: '15.3'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: RR Rathod
+    - 15.4:
+        actual_delivery: '15.4'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rathod
+    - 15.5:
+        actual_delivery: '15.5'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rathod
+    - 15.6:
+        actual_delivery: '15.6'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rathod
+    - 16.1:
+        actual_delivery: '16.1'
+        non_striker: RR Rathod
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: FY Fazal
+    - 16.2:
+        actual_delivery: '16.2'
+        non_striker: RR Rathod
+        bowler: PP Chawla
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: FY Fazal
+    - 16.3:
+        actual_delivery: '16.3'
+        non_striker: FY Fazal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rathod
+    - 16.4:
+        actual_delivery: '16.4'
+        non_striker: RR Rathod
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 16.5:
+        actual_delivery: '16.5'
+        non_striker: RR Rathod
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 16.6:
+        actual_delivery: '16.6'
+        non_striker: FY Fazal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: RR Rathod
+    - 17.1:
+        actual_delivery: '17.1'
+        non_striker: RR Rathod
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 17.2:
+        actual_delivery: '17.2'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rathod
+    - 17.3:
+        actual_delivery: '17.3'
+        non_striker: RR Rathod
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: FY Fazal
+    - 17.4:
+        actual_delivery: '17.4'
+        non_striker: RR Rathod
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: FY Fazal
+    - 17.5:
+        actual_delivery: '17.5'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rathod
+    - 17.6:
+        actual_delivery: '17.6'
+        non_striker: FY Fazal
+        bowler: AR Patel
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: RR Rathod
+    - 18.1:
+        actual_delivery: '18.1'
+        non_striker: FY Fazal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: RR Rathod
+    - 18.2:
+        actual_delivery: '18.2'
+        non_striker: FY Fazal
+        bowler: PP Chawla
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: RR Rathod

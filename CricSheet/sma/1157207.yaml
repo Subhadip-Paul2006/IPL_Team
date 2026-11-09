@@ -1,0 +1,392 @@
+---
+meta:
+  data_version: 0.94
+  created: '2023-01-03'
+  revision: 2
+info:
+  balls_per_over: 6
+  competition: Syed Mushtaq Ali Trophy
+  dates:
+  - '2019-03-02'
+  gender: male
+  match_type: T20
+  outcome:
+    result: no result
+  overs: 20
+  players:
+    Hyderabad (India):
+    - J Mallikarjun
+    - Tilak Varma
+    - Kolla Sumanth
+    - PS Sairam
+    - Ravi Teja
+    - Mohammed Siraj
+    - PS Chaitanya Reddy
+    - Rohit Rayudu
+    - Bavanaka Sandeep
+    - Mehdi Hassan
+    - CV Milind
+    Uttarakhand:
+    - D Dhapola
+    - Gaurav Singh
+    - Sunny Rana
+    - Mayank Mishra
+    - Vaibhav Singh Panwar
+    - Girish Rauturi
+    - Shivam Khurana
+    - Vijay Sharma
+    - Bhiguraj Pathania
+    - Saurabh Rawat
+    - Karanveer Kaushal
+  registry:
+    people:
+      Bavanaka Sandeep: bc67cc22
+      Bhiguraj Pathania: 00bcd434
+      CV Milind: 7b5b6311
+      D Dhapola: 5dd172a7
+      Gaurav Singh: 92eefbc5
+      Girish Rauturi: 478bbd5f
+      J Mallikarjun: 2222f8a7
+      Karanveer Kaushal: 9e62632a
+      Kolla Sumanth: b93a5d0b
+      Mayank Mishra: de00b96c
+      Mehdi Hassan: 5876c626
+      Mohammed Siraj: 2f49c897
+      PS Chaitanya Reddy: 887cdfc6
+      PS Sairam: c08963b0
+      Ravi Teja: 5f39537c
+      Rohit Rayudu: b4587494
+      Saurabh Rawat: 839b6d2e
+      Shivam Khurana: e23960c5
+      Sunny Rana: 798c67e5
+      Tilak Varma: b0482a1d
+      Vaibhav Singh Panwar: 8685f676
+      Vijay Sharma: 6e8d1234
+    venues:
+      Palam A Ground, Model Sports Complex, Delhi: a84e4939
+  teams:
+  - Hyderabad (India)
+  - Uttarakhand
+  toss:
+    winner: Uttarakhand
+    decision: field
+  venue: Palam A Ground, Model Sports Complex, Delhi
+  team_type: club
+innings:
+- 1st innings:
+    team: Hyderabad (India)
+    deliveries:
+    - 0.1:
+        actual_delivery: '0.1'
+        non_striker: Tilak Varma
+        bowler: D Dhapola
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Mallikarjun
+    - 0.2:
+        actual_delivery: '0.2'
+        non_striker: Tilak Varma
+        bowler: D Dhapola
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Mallikarjun
+    - 0.3:
+        actual_delivery: '0.3'
+        non_striker: J Mallikarjun
+        bowler: D Dhapola
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Tilak Varma
+    - 0.4:
+        actual_delivery: '0.4'
+        non_striker: Tilak Varma
+        bowler: D Dhapola
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: J Mallikarjun
+    - 0.5:
+        actual_delivery: '0.5'
+        non_striker: J Mallikarjun
+        bowler: D Dhapola
+        extras:
+          wides: 5
+        runs:
+          extras: 5
+          total: 5
+          batsman: 0
+        batsman: Tilak Varma
+    - 0.6:
+        actual_delivery: '0.5'
+        non_striker: J Mallikarjun
+        bowler: D Dhapola
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tilak Varma
+    - 0.7:
+        actual_delivery: '0.6'
+        non_striker: J Mallikarjun
+        bowler: D Dhapola
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tilak Varma
+    - 1.1:
+        actual_delivery: '1.1'
+        non_striker: Tilak Varma
+        bowler: Gaurav Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Mallikarjun
+    - 1.2:
+        actual_delivery: '1.2'
+        non_striker: J Mallikarjun
+        bowler: Gaurav Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 1.3:
+        actual_delivery: '1.3'
+        non_striker: J Mallikarjun
+        bowler: Gaurav Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 1.4:
+        actual_delivery: '1.4'
+        non_striker: Tilak Varma
+        bowler: Gaurav Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: J Mallikarjun
+    - 1.5:
+        actual_delivery: '1.5'
+        non_striker: J Mallikarjun
+        bowler: Gaurav Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Tilak Varma
+    - 1.6:
+        actual_delivery: '1.6'
+        non_striker: Tilak Varma
+        bowler: Gaurav Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: J Mallikarjun
+    - 2.1:
+        actual_delivery: '2.1'
+        non_striker: Tilak Varma
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Mallikarjun
+    - 2.2:
+        actual_delivery: '2.2'
+        non_striker: Tilak Varma
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Mallikarjun
+    - 2.3:
+        actual_delivery: '2.3'
+        non_striker: Tilak Varma
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Mallikarjun
+    - 2.4:
+        actual_delivery: '2.4'
+        non_striker: Tilak Varma
+        bowler: Sunny Rana
+        extras:
+          byes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: J Mallikarjun
+    - 2.5:
+        actual_delivery: '2.5'
+        non_striker: J Mallikarjun
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 2.6:
+        actual_delivery: '2.6'
+        non_striker: J Mallikarjun
+        bowler: Sunny Rana
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 3.1:
+        actual_delivery: '3.1'
+        non_striker: Tilak Varma
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: J Mallikarjun
+        wicket:
+          player_out: J Mallikarjun
+          kind: bowled
+    - 3.2:
+        actual_delivery: '3.2'
+        non_striker: Tilak Varma
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Kolla Sumanth
+    - 3.3:
+        actual_delivery: '3.3'
+        non_striker: Kolla Sumanth
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tilak Varma
+    - 3.4:
+        actual_delivery: '3.4'
+        non_striker: Kolla Sumanth
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Tilak Varma
+    - 3.5:
+        actual_delivery: '3.5'
+        non_striker: Kolla Sumanth
+        bowler: Mayank Mishra
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Tilak Varma
+    - 3.6:
+        actual_delivery: '3.5'
+        non_striker: Kolla Sumanth
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tilak Varma
+    - 3.7:
+        actual_delivery: '3.6'
+        non_striker: Kolla Sumanth
+        bowler: Mayank Mishra
+        runs:
+          extras: 0
+          total: 2
+          batsman: 2
+        batsman: Tilak Varma
+    - 4.1:
+        actual_delivery: '4.1'
+        non_striker: Tilak Varma
+        bowler: Gaurav Singh
+        extras:
+          legbyes: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Kolla Sumanth
+    - 4.2:
+        actual_delivery: '4.2'
+        non_striker: Kolla Sumanth
+        bowler: Gaurav Singh
+        runs:
+          extras: 0
+          total: 4
+          batsman: 4
+        batsman: Tilak Varma
+    - 4.3:
+        actual_delivery: '4.3'
+        non_striker: Kolla Sumanth
+        bowler: Gaurav Singh
+        runs:
+          extras: 0
+          total: 6
+          batsman: 6
+        batsman: Tilak Varma
+    - 4.4:
+        actual_delivery: '4.4'
+        non_striker: Kolla Sumanth
+        bowler: Gaurav Singh
+        extras:
+          wides: 1
+        runs:
+          extras: 1
+          total: 1
+          batsman: 0
+        batsman: Tilak Varma
+    - 4.5:
+        actual_delivery: '4.4'
+        non_striker: Kolla Sumanth
+        bowler: Gaurav Singh
+        runs:
+          extras: 0
+          total: 1
+          batsman: 1
+        batsman: Tilak Varma
+    - 4.6:
+        actual_delivery: '4.5'
+        non_striker: Tilak Varma
+        bowler: Gaurav Singh
+        runs:
+          extras: 0
+          total: 0
+          batsman: 0
+        batsman: Kolla Sumanth
+        wicket:
+          player_out: Kolla Sumanth
+          fielders:
+          - Mayank Mishra
+          kind: caught
