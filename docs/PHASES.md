@@ -1,20 +1,21 @@
 # Engineering Implementation Roadmap (Phases 0 to 10)
 
 **Project Title**: RR Squad Intelligence & Team Composition Platform
-**Event**: IPL 2027 Hackathon
+**Event**: IPL 2027 Hackathon (Rajasthan Royals scouting)
 **Target Franchise**: Rajasthan Royals (RR)
-**Document Version**: 2.0.0-ARCH-REVISION
-**Status**: `[STATUS: PHASE 0 COMPLETE / PHASES 1-10 PLANNED]`
+**Document Version**: 2.1.0-REMEDIATED
+**Status**: `[STATUS: PHASE 0 PARTIALLY_COMPLETE (0a COMPLETE / 0b OPEN) · PHASES 1–10 PLANNED]`
 **Date**: November 2026
 **Primary Authors**: Principal Software Architect, Cricket Data Engineer, Systems Integration Engineer
 
-> **Revision Note (v2.0.0)**: The roadmap was revised from 9 phases (0–8) to **11 phases (0–10)**
-> to reflect the new architecture: dedicated phases for the Membership Verification Engine,
-> Career Discovery & external research, Streamlit application delivery, and a final Hackathon
-> Candidate Evaluation phase. Each phase defines **Objectives, Subphases, Inputs, Outputs,
-> Dependencies, Checkpoints, Acceptance Criteria, Testing Requirements, and Completion Status**.
-> MVP-essential features are prioritised against the hackathon deadline; long-term enhancements
-> are explicitly separated.
+> **Revision Note (v2.1.0, remediation)**: Phase 0 is **split** and its status corrected.
+> The v2.0.0 "Phase 0 COMPLETE" claim bundled *documentation baseline completion* with
+> *empirical data-source and licence verification* that the tracked repository did not
+> support. Phase 0a (documentation baseline) is COMPLETE; Phase 0b (empirical data-source
+> & licence audit) is **OPEN / PARTIALLY_COMPLETE**. Dataset counts are now anchored to the
+> actual local lake (per `docs/DATA_SOURCE_REGISTER.md` §3: 4 directories, 1,939 match JSON
+> files, **no SMAT**, ODC-By licence verified locally); superseded v1-era counts
+> (2,822 incl. SMAT) are recorded as historical only.
 
 ---
 
@@ -22,431 +23,320 @@
 
 ```
 +----------------------------------------------------------------------------------------------------+
-|                          PHASE PROGRESSION & DEPENDENCY TIMELINE (REVISED)                         |
+|                          PHASE PROGRESSION & DEPENDENCY TIMELINE (REMEDIATED)                       |
 +----------------------------------------------------------------------------------------------------+
-| [PHASE 0: DOCUMENTATION & RESEARCH AUDIT]  (COMPLETE)                                             |
+| [PHASE 0a: DOCUMENTATION BASELINE]                (COMPLETE)                                       |
+| [PHASE 0b: EMPIRICAL DATA-SOURCE & LICENCE AUDIT] (OPEN - PARTIALLY_COMPLETE: local evidence done;  |
+|                                                external-source verification outstanding)            |
 |       |                                                                                            |
 |       v                                                                                            |
 | [PHASE 1: HISTORICAL DATASET ACQUISITION & DATA QUALITY]  (PLANNED - MVP)                          |
 |       |                                                                                            |
 |       v                                                                                            |
-| [PHASE 2: UNIFIED DATABASE & PLAYER IDENTITY RESOLUTION (PIRE)]  (PLANNED - MVP)                   |
+| [PHASE 2: UNIFIED DATABASE & PIRE]  31-entity DDL, PIRE deterministic tiers  (PLANNED - MVP)        |
 |       |                                                                                            |
 |       v                                                                                            |
-| [PHASE 3: TEAM MEMBERSHIP VERIFICATION ENGINE (TMVE)]  (PLANNED - MVP)                             |
+| [PHASE 3: TMVE - 3-DIMENSION MEMBERSHIP + team_season_participation + eligibility policies] (MVP)  |
 |       |                                                                                            |
 |       v                                                                                            |
-| [PHASE 4: CAREER DISCOVERY & EXTERNAL RESEARCH (CDCRE)]  (PLANNED - MVP)                           |
+| [PHASE 4: CDCRE DUAL CAPABILITY + AUTHORISED RESEARCH + PROVENANCE (Service C)]  (PLANNED - MVP)   |
 |       |                                                                                            |
 |       v                                                                                            |
-| [PHASE 5: COMPLETE PLAYER PERFORMANCE ANALYTICS (CPPAE)]  (PLANNED - MVP)                          |
+| [PHASE 5: CPPAE PER DATA_DICTIONARY]  (PLANNED - MVP)                                              |
 |       |                                                                                            |
 |       v                                                                                            |
-| [PHASE 6: CONTEXTUAL MATCH INTELLIGENCE (CMIE)]  (PLANNED - MVP ENHANCED)                         |
+| [PHASE 6: CMIE - 5 PROVENANCE TIERS, MEASURED/REPORTED SEPARATION]  (PLANNED - MVP ENHANCED)       |
 |       |                                                                                            |
 |       v                                                                                            |
-| [PHASE 7: PLAYER PROFILE GENERATION (MIE + Service B)]  (PLANNED - MVP)                            |
+| [PHASE 7: MIE ORCHESTRATION + PLAYER PROFILE GENERATION (Service B)]  (PLANNED - MVP)              |
 |       |                                                                                            |
 |       v                                                                                            |
-| [PHASE 8: SQUAD INTELLIGENCE & COMPOSITION (SICE + Service E)]  (PLANNED - MVP)                   |
+| [PHASE 8: SICE + TEAM BUILDER (Service E)]  (PLANNED - MVP)                                        |
 |       |                                                                                            |
 |       v                                                                                            |
-| [PHASE 9: STREAMLIT APPLICATION]  (PLANNED - MVP)                                                  |
+| [PHASE 9: STREAMLIT APPLICATION - 11 VIEWS]  (PLANNED - MVP)                                       |
 |       |                                                                                            |
 |       v                                                                                            |
-| [PHASE 10: HACKATHON CANDIDATE EVALUATION & FINAL SUBMISSION]  (PLANNED)                           |
+| [PHASE 10: HACKATHON CANDIDATE EVALUATION (Top-10 ranking) & FINAL SUBMISSION]  (PLANNED)          |
 +----------------------------------------------------------------------------------------------------+
 ```
 
 **MVP vs Long-Term split**
-- **MVP-essential (hackathon deadline)**: Phases 0–9 produce the working platform: identity
-  resolution, membership verification, career discovery, performance analytics, contextual
-  intelligence, unified player profiles, squad composition evaluation, and the 11-view Streamlit
-  application.
-- **Long-term enhancements (post-MVP)**: deep HawkeyeStats delivery-speed/line-length analysis,
-  EAP regression models, VORP/WAR valuation, Monte Carlo campaign simulation, Playing XI constraint
-  optimizer, Impact Player deployment engine, and the Next.js production frontend. These are
-  tracked in `docs/PRD.md §7` and are **not** required for hackathon submission.
+- **Hackathon-minimum submission**: the Top-10 youngest eligible uncapped candidate board with
+  reproducible ranking methodology and per-candidate evidence dossiers (PRD §4.3), plus the
+  verification pipeline that supports it (Phases 1–4, 7, 10 minimum-depth execution).
+- **MVP platform core (Phases 1–9)**: identity, membership, career, performance, context,
+  profiles, squad composition, and the 11-view Streamlit application.
+- **Post-MVP enhancements**: EAP regression, VORP/WAR, Monte Carlo campaign simulation,
+  Playing XI optimizer, Impact Player engine, Next.js frontend.
 
 ### Consolidated Phase Status Matrix
 
 | Phase # | Identifier | Target Scope | Status | Depends On |
 |---|---|---|---|---|
-| **0** | Documentation & Research Audit | Repo inspection, data audit, licensing, documentation baseline (all 7 docs) | **COMPLETE** | — |
-| **1** | Historical Dataset Acquisition & Data Quality | Ingest `datasets/`, SHA-256 manifests, quarantine, quality/coverage baselines | PLANNED | 0 |
-| **2** | Unified Database & Player Identity Resolution | 27-entity DDL, PIRE, canonical `player_id`, alias registry | PLANNED | 1 |
-| **3** | Team Membership Verification Engine | TMVE six-class taxonomy, RR season segmentation, verification hierarchy | PLANNED | 2 |
-| **4** | Career Discovery & External Research | CDCRE, four-state coverage, authorised research + provenance (Service C) | PLANNED | 2, 3 |
-| **5** | Complete Player Performance Analytics | CPPAE batting/bowling/fielding/WK/match contribution, format-aware | PLANNED | 2 |
-| **6** | Contextual Match Intelligence | CMIE conditions + 5-tier provenance, weather/pitch separation | PLANNED | 5 |
-| **7** | Player Profile Generation | MIE orchestration + Service B (JSON/CSV), unified report | PLANNED | 3, 4, 5, 6 |
-| **8** | Squad Intelligence & Composition | SICE + Service E (Team Builder), squad report | PLANNED | 5, 7 |
-| **9** | Streamlit Application | 11 required views, session-state discipline | PLANNED | 7, 8 |
-| **10** | Hackathon Candidate Evaluation & Final Submission | Adversarial review, validation run, packaging | PLANNED | 9 |
+| **0a** | Documentation baseline | All 7 core docs + PROJECT + README + register + dictionary + pre/post-audit reports | **COMPLETE** | — |
+| **0b** | Empirical data-source & licence audit | Local dataset inventory (done 2026-11-10), licence verification of local archives (done), **external source licence/coverage verification (Kaggle S6/S7, HawkeyeStats S8, Open-Meteo S9, BCCI/ESPN S10–S12) — OUTSTANDING** | **OPEN / PARTIALLY_COMPLETE** | 0a |
+| **1** | Historical Dataset Acquisition & Data Quality | Ingest `datasets/` (verified counts), SHA-256 manifests, quarantine, DQ/coverage baselines, SMAT gap recording | PLANNED | 0b |
+| **2** | Unified Database & Player Identity Resolution | 31-entity DDL execution + migration validation, PIRE deterministic tiers | PLANNED | 1 |
+| **3** | TMVE + Franchise Participation + Eligibility Policies | `team_season_participation` seeding (RR 2008–15/2016–17 suspended/2018–26; 2027 UNKNOWN), three-dimension states, versioned eligibility policies | PLANNED | 2 |
+| **4** | CDCRE dual capability + external research | Candidate discovery + career retrieval; provenance (Service C); negative-verification protocol | PLANNED | 2, 3, 0b |
+| **5** | CPPAE per DATA_DICTIONARY | All B/W/F/M-series metrics, sample sizes, NULL discipline | PLANNED | 2 |
+| **6** | CMIE provenance-tiered context | Weather/pitch separation, timezone + match-method fields, ratings only with methodology version | PLANNED | 5 |
+| **7** | MIE + Profile Generator | Orchestration (candidate-discovery-first sequence), unified reports, JSON/CSV export | PLANNED | 3, 4, 5, 6 |
+| **8** | SICE + Team Builder | Role/depth/balance analysis, comparisons, Team Builder service | PLANNED | 5, 7 |
+| **9** | Streamlit application | 11 views, session-state discipline, import-architecture tests | PLANNED | 7, 8 |
+| **10** | Hackathon evaluation & submission | Top-10 reproducible ranking + dossiers, AC-01…AC-23 execution, submission packaging | PLANNED | 9 |
 
 ---
 
-## 2. Phase 0 — Documentation and Research Audit `[COMPLETE]`
+## 2. Phase 0 — Documentation & Empirical Audit
 
-### 2.1 Objectives
-Establish a forensically audited technical baseline: inspect the workspace, audit local data,
-confirm licensing, and produce the authoritative documentation suite.
+### 2.0a Documentation Baseline — **COMPLETE**
+Objectives: inspect the workspace; produce the authoritative documentation suite; reconcile
+v1/v2 architecture.
+- Subphases: repo inspection · suite authoring (PRD, TRD, ARCHITECTURE, PHASES, AGENTS,
+  AI_INSTRUCTIONS, docs/README, README, PROJECT) · data-path correction (`datasets/`) ·
+  v2.1.0 remediation (this cycle: DDL fixes, participation entity, 3-dimension membership,
+  PIRE terminology, CDCRE dual capability, `agent_cdcre`, Phase 0 split, register +
+  dictionary creation).
+- Inputs: repository, `.agents/teamwork` evidence, local `datasets/`.
+- Outputs: the 10 remediated/created docs + `reports/DOCUMENTATION_REMEDIATION_AUDIT.md`.
+- **Depends on**: — · **Checkpoint**: all docs consistent at entity count 31, `agent_cdcre`,
+  31-entity DDL passing the available SQL parse (see audit report §14).
+- **Acceptance**: cross-doc consistency (Part 17 list) verified; broken internal link count 0
+  (audit report §12). **Testing**: link checker + sqlglot parse + consistency greps.
+- **Status**: **COMPLETE** (as of this remediation commit).
 
-### 2.2 Subphases
-1. Workspace & data inventory (confirm `datasets/` layout: `ipl_male_json`, `hnd_male_json`,
-   `icc_mens_cricket_world_cup_male_json`, `icc_mens_t20_world_cup_male_json`).
-2. Licensing audit (CricSheet ODC-By v1.0; Open-Meteo CC BY 4.0; HawkeyeStats; Kaggle).
-3. Domain anomaly audit (Super Over, DLS, Impact Player, temporal bounds).
-4. Documentation baseline: `README.md`, `PRD.md`, `TRD.md`, `ARCHITECTURE.md`, `PHASES.md`,
-   `AGENTS.md`, `AI_INSTRUCTIONS.md`.
+### 2.0b Empirical Data-Source & Licence Audit — **OPEN (PARTIALLY_COMPLETE)**
+Objectives: establish evidenced availability/licence status for **every** source in
+`docs/DATA_SOURCE_REGISTER.md`.
+- Subphases:
+  1. **Local inventory (DONE 2026-11-10)**: 4 directories, counts 1,243/201/265/230
+     (`DATA_SOURCE_REGISTER.md §3`), ODC-By LICENSE.txt inspected for all four, SMAT absent
+     (recorded `UNAVAILABLE` locally), withheld-match notes recorded (ODI WC −24, T20 WC −29).
+  2. **External licence/coverage verification (OUTSTANDING)**: Kaggle S6/S7 terms + actual
+     columns; HawkeyeStats S8 repo licence + schema/units + that it is third-party, not
+     official Hawk-Eye; Open-Meteo S9 current licence terms; BCCI/ESPN/Cricbuzz S10–S12
+     access restrictions. Each produces a dated, evidence-linked `data_sources` row.
+  3. **Kaggle 2007 quarantine rule validation**: confirm any 2007-labelled IPL records are
+     pre-IPL/exhibition and route to quarantine.
+- Inputs: register, external source terms-of-use pages (authorised inspection).
+- Outputs: register rows upgraded from UNVERIFIED/RESTRICTED to VERIFIED/PARTIALLY_VERIFIED
+  with `license_evidence`; the SMAT `UNAVAILABLE` status reconfirmed or superseded by an
+  acquisition decision.
+- **Depends on**: 0a · **Checkpoint**: every register source row has a `license_status` +
+  dated evidence reference · **Acceptance**: Phase 1 may only start on the local-verified
+  subset; external claims route through CDCRE research, not ingestion assumptions.
+- **Testing**: register audit diff (no source row without dated evidence).
+- **Status**: **PARTIALLY_COMPLETE / OPEN** — local evidence done; external verification
+  outstanding.
 
-### 2.3 Inputs / Outputs
-- **Inputs**: repository, `datasets/`, external licensing terms.
-- **Outputs**: documentation suite under `docs/` and root `README.md`; audit reports under
-  `.agents/teamwork/`.
-
-### 2.4 Dependencies / Checkpoints
-- **Depends on**: none (baseline).
-- **Checkpoint**: all seven documents + root `README.md` exist, cross-referenced, and
-  status-marked.
-
-### 2.5 Acceptance Criteria
-- File counts in `datasets/` recorded (IPL 1,243 + 2 non-JSON files, The Hundred 203,
-  ODI WC 267, T20 WC 232).
-- No SMAT dataset on disk is recorded as a coverage gap (feeds CDCRE four-state coverage).
-- License headers verified.
-
-### 2.6 Testing Requirements
-- Static inventory script; license-header grep. No runtime tests.
-
-### 2.7 Completion Status
-**COMPLETE** — repository at 100% Greenfield Baseline.
-
----
-
-## 3. Phase 1 — Historical Dataset Acquisition and Data Quality `[PLANNED - MVP]`
-
-### 3.1 Objectives
-Build a fault-tolerant ingestion pipeline for `datasets/`, producing immutable raw staging with
-SHA-256 digests and a data-quality/coverage baseline.
-
-### 3.2 Subphases
-1. Checksum & manifest generation across all four dataset folders.
-2. Polymorphic parsers (CricSheet JSON v1.3.0 and legacy YAML v0.94).
-3. Quarantine staging for malformed payloads.
-4. Data Quality & Coverage Service (Service D) baseline: duplicates, conflicts, missing matches.
-
-### 3.3 Inputs / Outputs
-- **Inputs**: `datasets/**`.
-- **Outputs**: `src/ingestion/*`, `data/manifests/raw_lake_manifest.json`, populated
-  `source_records`, `stg_*` staging tables; DQ report.
-
-### 3.4 Dependencies / Checkpoints
-- **Depends on**: Phase 0.
-- **Checkpoint**: all match files staged; quarantine count documented; DQ baseline report exists.
-
-### 3.5 Acceptance Criteria
-- Per-dataset match counts match Phase 0 inventory (IPL 1,243, HND 203, ODI WC 267, T20 WC 232).
-- Zero unhandled parser exceptions; all failures in quarantine log with traces.
-- DQ baseline flags: duplicates, conflicting stats, missing data categories.
-
-### 3.6 Testing Requirements
-- Unit tests per parser; ingestion completeness SQL counts; quarantine assertion.
+> **Phase 0 as a whole is not marked complete.** The documentation baseline (0a) is complete;
+> the empirical audit (0b) remains open. No dataset count is claimed beyond the locally
+> verified figures; the superseded "2,822 files incl. SMAT" is historical only.
 
 ---
 
-## 4. Phase 2 — Unified Database and Player Identity Resolution `[PLANNED - MVP]`
+## 3. Phase 1 — Historical Dataset Acquisition & Data Quality `[PLANNED - MVP]`
 
-### 4.1 Objectives
-Deploy the 27-entity 3NF schema; implement PIRE (ENGINE 01) producing canonical `player_id`.
+- **Objectives**: fault-tolerant ingestion of `datasets/`; SHA-256 immutable staging;
+  quarantine; Data Quality & Coverage baseline (Service D).
+- **Subphases**: (1) checksum/manifest per dataset folder (counts 1,243/201/265/230; SMAT
+  gap recorded, not fabricated) · (2) polymorphic parser (CricSheet JSON v1.3.0) ·
+  (3) quarantine staging incl. the 2007-pre-IPL rule for any future Kaggle acquisition ·
+  (4) DQ baseline (duplicates, conflicts, missing; innings↔delivery consistency checks).
+- **Inputs**: `datasets/` (local, read-only), `DATA_SOURCE_REGISTER.md` statuses.
+- **Outputs**: `src/ingestion/*`, manifest, `source_records`, DQ report.
+- **Depends on**: 0b local-verified subset. **Checkpoints**: per-dataset count = register
+  verified count; zero unhandled parser exceptions; DQ baseline report exists.
+- **Acceptance**: AC-19 (count reconciliation vs register; quarantine assertion).
+- **Testing**: parser unit tests, ingestion SQL counts, quarantine assertion.
+- **Status**: PLANNED.
 
-### 4.2 Subphases
-1. DDL migration (27 entities, FKs, indexes, `deliveries` season partitioning incl. 2024–2027).
-2. ELT: raw → normalised (matches, innings, deliveries, batting_innings, bowling_spells,
-   fielding_events, wicketkeeping_events).
-3. PIRE 4-tier waterfall (registry key → alias → contextual → fuzzy+biometric).
-4. Alias registry + human-review queue.
+## 4. Phase 2 — Unified Database & Player Identity Resolution `[PLANNED - MVP]`
 
-### 4.3 Inputs / Outputs
-- **Inputs**: Phase 1 staging; CricSheet `info.registry.people`.
-- **Outputs**: `migrations/V001__*.sql`, `src/pir/identity_resolver.py`, populated
-  `players`/`player_aliases`.
+- **Objectives**: execute the **31-entity** DDL (migration gates: expression index on
+  `derived_features`; FKs on partitioned `deliveries` (PG15+ requirement; pre-15 fallback =
+  Service D checks); composite `(delivery_id, season_year)` fielding link); PIRE with
+  deterministic tiers + contextual attribute corroboration.
+- **Subphases**: DDL migration + FK/partition validation · ELT raw→normalised · PIRE tier
+  implementation · alias registry + review queue.
+- **Inputs**: Phase 1 staging; CricSheet `people` hashes.
+- **Outputs**: `migrations/V001__*.sql` (+ `V002__participation_membership.sql`),
+  `src/pir/identity_resolver.py`, populated `players`/`player_aliases`.
+- **Depends on**: Phase 1. **Checkpoints**: FK integrity zero orphans; PIRE fixture suite
+  with zero auto-merges; no numeric confidence exposed without `calibrated=TRUE`.
+- **Acceptance**: AC-01, AC-02, AC-15.
+- **Testing**: adversarial collision suite; FK integrity queries; partition-pruning sanity.
+- **Status**: PLANNED.
 
-### 4.4 Dependencies / Checkpoints
-- **Depends on**: Phase 1.
-- **Checkpoint**: schema live; PIRE fixture suite passes; zero identity collisions.
+## 5. Phase 3 — Team Membership Verification (TMVE) `[PLANNED - MVP]`
 
-### 4.5 Acceptance Criteria
-- FK integrity: zero orphan deliveries.
-- PIRE resolves 50 known difficult name-pair fixtures with zero auto-merges (AC-02).
-- Every player row has an `identity_status`; unresolved → `UNRESOLVED`/`PROVISIONAL`, never guessed.
+- **Objectives**: three-dimension membership (relationship · currency ·
+  season-bound/policy-versioned eligibility); franchise participation seeding;
+  negative-verification protocol (TRD §4.5); verification-hierarchy research hooks.
+- **Subphases**: (1) seed `team_season_participation` (RR×IPL 2008–2015 PARTICIPATING/
+  VERIFIED; 2016 & 2017 SUSPENDED/VERIFIED (BCCI suspension notice = tier-1 evidence);
+  2018–2026 PARTICIPATING/VERIFIED; 2027 UNKNOWN until authoritative evidence) ·
+  (2) populate `squad_memberships` + `player_team_history` for RR windows with
+  verified-appearance counts · (3) author `eligibility_policies` v1 for the target season
+  (BCCI/IPL rule reference, effective dates, verified) · (4) `player_membership_state`
+  evaluation service + `NOT_ASSESSED` eligibility default · (5) negative-verification
+  workflow (human-review gated).
+- **Inputs**: Phase 2 registry; official records (Service C).
+- **Outputs**: `src/membership/tmve.py`, populated participation/membership/eligibility
+  tables, TMVE contract.
+- **Depends on**: Phase 2. **Checkpoints**: every RR player row carries all three dimensions;
+  suspension rows exist for RR only (IPL seasons for other teams unaffected); 2027 UNKNOWN.
+- **Acceptance**: AC-04, AC-05, AC-06, AC-08, AC-09.
+- **Testing**: per-dimension fixture tests; suspension assertions; negative-verification
+  audit fixture.
+- **Status**: PLANNED.
 
-### 4.6 Testing Requirements
-- Adversarial name-collision suite; FK integrity queries; partition-pruning sanity check.
+## 6. Phase 4 — Career Discovery & External Research (CDCRE) `[PLANNED - MVP]`
 
----
+- **Objectives**: dual CDCRE capabilities; four-state coverage; authorised research with
+  provenance (Service C); SMAT gap handling.
+- **Subphases**: (1) `player_competition_history` population + coverage-state logic ·
+  (2) career gap detection (incl. franchise suspension windows, dataset availability) ·
+  (3) candidate discovery (pre-identity, raw-name) service · (4) external research
+  integration per TRD §4.2 hierarchy → `verification_records` · (5) coverage/provenance
+  report.
+- **Inputs**: Phases 2/3; external sources (register-governed).
+- **Outputs**: `src/research/cdcre.py`, populated coverage tables, provenance records.
+- **Depends on**: Phases 2, 3, 0b (external licence status where used).
+- **Checkpoints**: no dataset-absence reported as non-participation; candidate discovery
+  works without a player_id (AC-10).
+- **Acceptance**: AC-07, AC-10, AC-11.
+- **Testing**: coverage-state audit on sampled players; provenance completeness; AC-10
+  contract test.
+- **Status**: PLANNED.
 
-## 5. Phase 3 — Team Membership Verification Engine `[PLANNED - MVP]`
+## 7. Phase 5 — Complete Player Performance Analytics (CPPAE) `[PLANNED - MVP]`
 
-### 5.1 Objectives
-Implement TMVE (ENGINE 02): six-class membership, RR season segmentation, verification hierarchy,
-verified-appearance counting distinct from squad inclusion.
-
-### 5.2 Subphases
-1. Build `squad_memberships` + `player_team_history` population for RR (2008–2015, 2018–2026).
-2. Suspension representation (`seasons.is_suspension` for 2016/2017); 2027 as future-target.
-3. Verified RR match-appearance counts (from `matches`/`deliveries`).
-4. Six-class classifier + confidence + evidence assembly (verification_records).
-
-### 5.3 Inputs / Outputs
-- **Inputs**: Phase 2 player registry; official squad/match records.
-- **Outputs**: `src/membership/tmve.py`, populated membership tables, TMVE output contract.
-
-### 5.4 Dependencies / Checkpoints
-- **Depends on**: Phase 2.
-- **Checkpoint**: every RR player carries exactly one membership class; UNVERIFIED used for gaps.
-
-### 5.5 Acceptance Criteria
-- RR 2016–2017 appears only as suspension (AC-04).
-- Squad-inclusion-only players show verified-appearance = 0 (AC-06).
-- No player is classified `CURRENT_SQUAD` without verified current-season evidence.
-
-### 5.6 Testing Requirements
-- Fixture tests per membership class; suspension assertion; appearance-vs-squad-list differential.
-
----
-
-## 6. Phase 4 — Career Discovery and External Research `[PLANNED - MVP]`
-
-### 6.1 Objectives
-Implement CDCRE (ENGINE 03): cross-competition career discovery, four-state coverage, and
-authorised external research with provenance (Service C).
-
-### 6.2 Subphases
-1. `player_competition_history` population + coverage-state logic.
-2. Career gap detection (respecting the RR suspension window and dataset availability).
-3. Authorised external research integration (official records → BCCI → reliable DBs → reputable
-   reporting), each claim written to `verification_records`.
-4. Coverage/provenance report generation.
-
-### 6.3 Inputs / Outputs
-- **Inputs**: Phase 2/3 outputs; external sources.
-- **Outputs**: `src/research/cdcpre.py`, populated coverage tables, provenance records.
-
-### 6.4 Dependencies / Checkpoints
-- **Depends on**: Phases 2, 3.
-- **Checkpoint**: no dataset-absence reported as non-participation (AC-07); all external claims
-  provenance-tracked.
-
-### 6.5 Acceptance Criteria
-- Four coverage states used correctly (verified / dataset-unavailable / not-established /
-  confirmed-non-participation).
-- Every external claim carries source URL, provider, timestamp, licence, status, confidence, record ID.
-
-### 6.6 Testing Requirements
-- Coverage-state audit on sampled players; provenance completeness check (AC-12).
-
----
-
-## 7. Phase 5 — Complete Player Performance Analytics `[PLANNED - MVP]`
-
-### 7.1 Objectives
-Implement CPPAE (ENGINE 04): comprehensive batting, bowling, fielding, wicketkeeping, and
-match-contribution profiles; every statistic documented and format-aware.
-
-### 7.2 Subphases
-1. Batting profile (positions, phase splits, matchup splits, partnership contributions).
-2. Bowling profile (spell phases, batter matchups, pace/spin, speed/line-length when available).
-3. Fielding & wicketkeeping profiles (catches/run-outs/stumpings/dropped, WK appearances).
-4. Match contribution (POTM via `player_awards`, participation, contribution to outcomes).
-5. `derived_features` persistence (versioned, format-tagged, NULL-safe).
-
-### 7.3 Inputs / Outputs
+- **Objectives**: DATA_DICTIONARY-governed batting/bowling/fielding/wicketkeeping/
+  match-contribution profiles; integer-ball bowling notation; format tags; sample sizes.
+- **Subphases**: metric implementation families B/W/F/M (dictionary §1–4) · `derived_features`
+  persistence (unique expression index; `status` class) · reconciliation views
+  (scorecard ↔ ball-level, Service D).
 - **Inputs**: normalised scorecard tables.
-- **Outputs**: `src/analytics/*`, populated `derived_features`, CPPAE output contract.
+- **Outputs**: `src/analytics/*`, populated `derived_features`, CPPAE contract.
+- **Depends on**: Phase 2. **Checkpoints**: zero zero-imputed stats; every metric maps to a
+  dictionary entry with all ten attributes; NOT_COMPUTABLE list enforced (false shots).
+- **Acceptance**: AC-12, AC-13.
+- **Testing**: statistical unit tests vs known scorecards; NULL-safety lint; dictionary
+  completeness audit.
+- **Status**: PLANNED.
 
-### 7.4 Dependencies / Checkpoints
-- **Depends on**: Phase 2 (scorecard ELT).
-- **Checkpoint**: zero zero-imputed stats; every metric has a definition + format tag.
+## 8. Phase 6 — Contextual Match Intelligence (CMIE) `[PLANNED - MVP ENHANCED]`
 
-### 7.5 Acceptance Criteria
-- Missing → `NULL` (AC-09); no cross-format mixing without tags; documented definitions present
-  (AC-08).
+- **Objectives**: 5-tier provenance conditions; weather-as-context discipline (timezone +
+  match-method fields); pitch reporting preserved as text; numeric ratings only with a
+  validated methodology version; no mental-state inference; injury/availability verified-only.
+- **Subphases**: weather backfill (Open-Meteo, pending 0b licence confirmation) ·
+  `pitch_conditions` reported-description + optional ratings · phase/RRR/target/result
+  annotations · provenance-tier tagging.
+- **Inputs**: matches, venues, weather, pitch records.
+- **Outputs**: populated `weather_conditions`/`pitch_conditions`, CMIE contract.
+- **Depends on**: Phases 2, 5 (and 0b for weather source status).
+- **Checkpoints**: 100% of IPL night fixtures enriched or explicitly `UNKNOWN`; weather never
+  labelled pitch; ratings require methodology version (AC-14).
+- **Testing**: weather-linkage test; provenance-tier audit; default audit (no false-claim
+  defaults survive, per TRD D8).
+- **Status**: PLANNED.
 
-### 7.6 Testing Requirements
-- Statistical unit tests against known scorecards; NULL-safety lint; format-tag assertion.
+## 9. Phase 7 — Player Profile Generation (MIE + Service B) `[PLANNED - MVP]`
 
----
-
-## 8. Phase 6 — Contextual Match Intelligence `[PLANNED - MVP ENHANCED]`
-
-### 8.1 Objectives
-Implement CMIE (ENGINE 05): condition annotations with 5-tier provenance; weather explicitly
-separated from pitch measurement.
-
-### 8.2 Subphases
-1. Weather integration (Open-Meteo historical) → `weather_conditions` with macro-context flag.
-2. Pitch conditions → `pitch_conditions` with `provenance_tier`.
-3. Match-phase / required-run-rate / target / result annotations.
-4. Provenance-tier tagging (measured / reported / estimated / inferred / unknown).
-
-### 8.3 Inputs / Outputs
-- **Inputs**: matches, venues, weather API, pitch records.
-- **Outputs**: populated `weather_conditions`/`pitch_conditions`, CMIE output contract.
-
-### 8.4 Dependencies / Checkpoints
-- **Depends on**: Phases 2, 5.
-- **Checkpoint**: 100% IPL night fixtures enriched; weather never labelled as pitch measurement
-  (AC-10).
-
-### 8.5 Acceptance Criteria
-- Five-tier provenance present per contextual datum; no mental-state inference (guardrail).
-
-### 8.6 Testing Requirements
-- Weather-linkage test (zero un-enriched IPL matches); provenance-tier audit.
-
----
-
-## 9. Phase 7 — Player Profile Generation `[PLANNED - MVP]`
-
-### 9.1 Objectives
-Wire MIE orchestration end-to-end and implement Service B (Player Profile Generator): unified
-player intelligence reports and JSON/CSV exports.
-
-### 9.2 Subphases
-1. MIE request routing + engine sequencing + output merging.
-2. Unified report assembly with verification status + provenance.
-3. Service B export (JSON/CSV) with licensing attribution.
-4. Team Builder Service (Service E) wiring to `user_teams`/`user_team_players`.
-
-### 9.3 Inputs / Outputs
+- **Objectives**: MIE end-to-end orchestration (candidate-discovery-first sequence);
+  unified provenance-traced reports; JSON/CSV export with attribution; Team Builder
+  wiring to `user_teams`/`user_team_players`.
+- **Subphases**: MIE routing/merge/verification-status assembly · ambiguity → user
+  clarification path · Service B export + confidentiality guard · Service E wiring.
 - **Inputs**: Phases 3–6 outputs.
 - **Outputs**: `src/mie/`, `src/profile_gen/`, export manifests.
+- **Depends on**: Phases 3, 4, 5, 6. **Checkpoints**: `request_player_intelligence(name)`
+  returns a complete report with all three membership dimensions + eligibility state;
+  UNVERIFIED surfaces (never resolved silently).
+- **Acceptance**: AC-03, AC-20.
+- **Testing**: end-to-end orchestration tests; export-contract tests; engine-import
+  independence (AC-23).
+- **Status**: PLANNED.
 
-### 9.4 Dependencies / Checkpoints
-- **Depends on**: Phases 3, 4, 5, 6.
-- **Checkpoint**: end-to-end `request_player_intelligence(name)` returns a complete, provenance-
-  traced report.
+## 10. Phase 8 — Squad Intelligence & Composition (SICE + Service E) `[PLANNED - MVP]`
 
-### 9.5 Acceptance Criteria
-- MIE returns UNVERIFIED when membership cannot be established (AC-03); request clarification on
-  ambiguity; exports embed attribution (NFR-05).
-
-### 9.6 Testing Requirements
-- End-to-end orchestration tests; export-contract tests; engine-import independence (AC-13).
-
----
-
-## 10. Phase 8 — Squad Intelligence and Composition `[PLANNED - MVP]`
-
-### 10.1 Objectives
-Implement SICE (ENGINE 06) + Team Builder Service (Service E): team management and squad
-evaluation with role-aware analysis and evidence-backed recommendations.
-
-### 10.2 Subphases
-1. Team Builder: create/add/remove players, role assignment, save/load configurations.
-2. SICE role distribution, depth, pace/spin balance, WK/all-rounder, duplication, gaps.
-3. Role-occupant comparison; replacement identification; combination evaluation.
-4. Recommendations assembly (labelled analytical, no unvalidated probabilities — AC-11).
-
-### 10.3 Inputs / Outputs
+- **Objectives**: team management + role-aware squad evaluation; comparisons; labelled
+  recommendations; no unvalidated probabilities.
+- **Subphases**: Team Builder CRUD/roles/saved configs · SICE role/duplication/gap
+  analysis · replacement + combination evaluation · recommendation assembly.
 - **Inputs**: Phase 7 profiles; `user_teams`.
-- **Outputs**: `src/squad/*`, SICE output contract, squad report.
-
-### 10.4 Dependencies / Checkpoints
-- **Depends on**: Phases 5, 7.
-- **Checkpoint**: a saved team produces a complete squad intelligence report.
-
-### 10.5 Acceptance Criteria
-- Team CRUD works end-to-end (AC-14); recommendations labelled analytical; no recruitment
-  probabilities without a validated model.
-
-### 10.6 Testing Requirements
-- SICE fixture tests on 2–3 synthetic squads; team CRUD tests; recommendation-label assertion.
-
----
+- **Outputs**: `src/squad/*`, SICE contract, squad report.
+- **Depends on**: Phases 5, 7. **Checkpoints**: saved team → complete report; labels
+  `ANALYTICAL_RECOMMENDATION` (AC-17).
+- **Acceptance**: AC-16, AC-17.
+- **Testing**: SICE fixture tests; team CRUD tests.
+- **Status**: PLANNED.
 
 ## 11. Phase 9 — Streamlit Application `[PLANNED - MVP]`
 
-### 11.1 Objectives
-Deliver the 11-view Streamlit application consuming MIE/engine contracts; keep UI separate from
-analytics.
-
-### 11.2 Subphases
-1. App scaffold + navigation across the 11 required views.
-2. Per-view wiring to thin adapters (no analytics in Streamlit).
-3. Session-state discipline (ephemeral UI state only).
-4. Data Source & Verification Report view (provenance + verification status).
-
-### 11.3 Inputs / Outputs
+- **Objectives**: 11-view application on MIE/engine contracts; UI separated from analytics;
+  cautious session state.
+- **Subphases**: scaffold + navigation · per-view thin adapters · verification-report view
+  (provenance + UNVERIFIED/CONFLICT listing) · Mermaid + link + architecture test gates
+  (including the deferred Mermaid parser-validation gate).
 - **Inputs**: MIE/engine/service contracts.
-- **Outputs**: `app/streamlit/` application; UI test suite.
+- **Outputs**: `app/streamlit/` + UI test suite.
+- **Depends on**: Phases 7, 8. **Checkpoints**: all 11 views render; no engine imports
+  Streamlit (AC-22/AC-23).
+- **Acceptance**: AC-22, AC-23.
+- **Testing**: e2e per view; import-architecture test.
+- **Status**: PLANNED.
 
-### 11.4 Dependencies / Checkpoints
-- **Depends on**: Phases 7, 8.
-- **Checkpoint**: all 11 views render; no engine module imports Streamlit (AC-13).
+## 12. Phase 10 — Hackathon Candidate Evaluation & Final Submission `[PLANNED]`
 
-### 11.5 Acceptance Criteria
-- 11 views functional; session state used cautiously; UI swap to Next.js possible without engine
-  changes.
-
-### 11.6 Testing Requirements
-- Playwright/Streamlit e2e per view; architecture import test; manual UX walk-through.
-
----
-
-## 12. Phase 10 — Hackathon Candidate Evaluation and Final Submission `[PLANNED]`
-
-### 12.1 Objectives
-Adversarially evaluate the delivered platform against the PRD acceptance criteria, then package
-the final hackathon submission.
-
-### 12.2 Subphases
-1. Execute the full AC suite (AC-01…AC-14) across a diverse candidate player set (RR current,
-   RR historical, never-RR, uncapped prospect, other-franchise, international, unverified).
-2. Data Source & Verification Report sign-off (licensing + provenance completeness).
-3. Documentation reconciliation pass across all seven documents.
-4. Submission packaging (report, demo script, evidence bundle).
-
-### 12.3 Inputs / Outputs
+- **Objectives**: the **Top-10 youngest eligible uncapped candidate board** (PRD §4.3):
+  reproducible role-aware ranking (versioned weights, shrinkage, age-within-role ordering),
+  reserve list, per-candidate dossiers (eligibility verification, age as of evaluation date,
+  roles, domestic evidence, T20 analysis, consistency, context, squad fit, risk/coverage
+  limits, sources); full AC suite execution; submission packaging.
+- **Subphases**: ranking model configuration (documented weights version) · Top-10 +
+  reserve generation · dossier assembly (evidence tiers) · AC-01…AC-23 regression ·
+  documentation reconciliation pass · confidentiality check on outputs.
 - **Inputs**: Phase 9 deliverable.
 - **Outputs**: `reports/FINAL_VERIFICATION_REPORT.md`, submission dossier.
-
-### 12.4 Dependencies / Checkpoints
-- **Depends on**: Phase 9.
-- **Checkpoint**: 100% of MVP acceptance criteria pass; submission artefacts complete.
-
-### 12.5 Acceptance Criteria
-- All AC-01…AC-14 green; confidentiality of the proprietary hackathon dataset preserved;
-  attribution embedded in exports.
-
-### 12.6 Testing Requirements
-- Full regression suite; provenance audit; final manual review.
+- **Depends on**: Phase 9. **Checkpoints**: 100% of MVP acceptance criteria green;
+  reproducibility test (same inputs + model version → same board, AC-18).
+- **Acceptance**: AC-18, AC-19 (final), all green.
+- **Testing**: full regression; provenance audit; ranking reproducibility.
+- **Status**: PLANNED.
 
 ---
 
 ## 13. Cross-Phase Risk Assessment & Mitigation
 
-| # | Risk | Severity | Impacted Phase | Mitigation |
+| # | Risk | Severity | Phase | Mitigation |
 |---|---|---|---|---|
-| **R1** | Parser crash on malformed records | High | 1 | Quarantine lake: malformed payloads logged with traces; run continues |
-| **R2** | Player name collisions (e.g. "R Sharma") | Critical | 2, 4 | PIRE registry-key-first; low-confidence quarantined to human review; never auto-merge |
-| **R3** | Missing context (Hawkeye/weather) | Medium | 6 | Nullable enrichment; missing → NULL, never (0.0,0.0); five-tier provenance |
-| **R4** | Super Over contamination of career totals | Critical | 1, 5 | `is_super_over` hard exclusion in career views |
-| **R5** | DLS truncation distorting run rates | High | 5 | Official revised targets/overs ingested; dynamic phase scaling |
-| **R6** | False "never played / uncapped" classification | Critical | 3, 4 | Four-state coverage + UNVERIFIED membership class; absence ≠ non-participation |
-| **R7** | RR 2016–2017 suspension mis-analysed | High | 3 | `is_suspension` season flag; 2027 future-target handling |
-| **R8** | Unverified external research polluting reports | Critical | 4, 7 | verification_records status; CONFLICT → human review; MIE does not auto-resolve |
-| **R9** | UI performing analytics (fragile coupling) | Medium | 9 | Engines are frontend-agnostic; Streamlit runs no analytics (AC-13) |
-| **R10** | Dataset confidentiality breach in submissions | High | 10 | Isolated handling; public outputs exclude proprietary hackathon dataset contents |
+| **R1** | Parser crash on malformed records | High | 1 | Quarantine with traces; run continues |
+| **R2** | Similar-name collisions | Critical | 2 | PIRE tier-first; never auto-merge; human review |
+| **R3** | Missing context (tracking/weather) | Medium | 6 | Nullable enrichment; NULL never 0.0; 5 provenance tiers |
+| **R4** | Super Over contamination | Critical | 1, 5 | `is_super_over` hard exclusion in all career views |
+| **R5** | DLS truncation distorting run rates | High | 5 | Revised targets/overs ingested; dynamic phase scaling |
+| **R6** | False "never played / uncapped" classification | Critical | 3, 4 | Negative-verification requirements (TRD §4.5); `UNKNOWN`/`NOT_ASSESSED` defaults |
+| **R7** | RR suspension mis-modelled | High | 3 | `team_season_participation` franchise rows; AC-06 assertions |
+| **R8** | Unverified research polluting reports | Critical | 4, 7 | `verification_records` tiers + CONFLICT→human review; MIE no auto-resolve |
+| **R9** | UI performing analytics | Medium | 9 | Import-architecture test (AC-23) |
+| **R10** | Proprietary dataset leakage | High | 10 | Isolated handling; exports never include it (AC-20) |
+| **R11** | FK support on partitioned `deliveries` below PG 15 | Medium | 2 | Target engine is PG16; documented fallback to Service D reconciliation checks |
+| **R12** | External source licence misassumption (Kaggle/Hawkeye) | High | 0b, 4 | Register statuses RESTRICTED/UNVERIFIED until 0b evidence rows; no ingestion on unverified terms |
 
 ---
 
 ## 14. Conclusion & Verification Summary
 
-- **Phase 0** is **COMPLETE**: workspace baseline verified, `datasets/` inventoried, licensing
-  confirmed, and the documentation suite authored.
-- **Phases 1–10** are **PLANNED**. MVP-essential work (Phases 1–9) targets the hackathon
-  deadline; long-term enhancements are deferred and tracked separately.
-- Every phase enforces its acceptance criteria and testing requirements before progression, with
-  the Data Quality & Coverage Service gating merges.
+- **Phase 0a (documentation baseline): COMPLETE** (this remediation cycle).
+- **Phase 0b (empirical data-source & licence audit): OPEN / PARTIALLY_COMPLETE** — local
+  evidence (counts, ODC-By, SMAT gap) recorded in `DATA_SOURCE_REGISTER.md §3`; external
+  source verification outstanding.
+- **Phases 1–10: PLANNED**, with MVP core (1–9) targeting the hackathon deadline and
+  post-MVP enhancements tracked separately.
+- Every phase enforces its acceptance criteria and testing requirements; Service D gates
+  merges. No empirical claim in this roadmap exceeds recorded evidence (register §3).
