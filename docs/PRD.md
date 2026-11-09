@@ -2,86 +2,82 @@
 
 **Project Title**: RR Squad Intelligence & Team Composition Platform
 **Target Franchise**: Rajasthan Royals (RR)
+**Hackathon**: IPL 2027 Rajasthan Royals scouting hackathon
 **Primary Interface (initial)**: Streamlit · **Future Frontend**: Next.js (engines are frontend-agnostic)
-**Document Version**: 2.0.0-ARCH-REVISION
+**Document Version**: 2.1.0-REMEDIATED
 **Status**: `[STATUS: PLANNED - GREENFIELD BASELINE]`
 **Date**: November 2026
 **Primary Authors**: Principal Software Architect, Sports Data Engineer, Cricket Analytics Researcher, Technical Documentation Engineer
 
-> **Revision Note (v2.0.0)**: This PRD was revised to describe the evolved product — a squad
-> intelligence & team composition platform with verified player identity, membership and
-> career discovery — replacing the previous auction-war-room-centric specification. The
-> IPL 2027 hackathon context is retained as the deadline driver and evaluation frame.
+> **Revision Note (v2.1.0, remediation)**: This revision corrects the v2.0.0 workflow (CDCRE
+> now has two capabilities — pre-identity candidate discovery and post-identity career
+> retrieval — removing the PIRE↔CDCRE circular dependency), replaces the conflated six-class
+> membership taxonomy with **three independent dimensions** (RR relationship · current status ·
+> season-bound, policy-versioned eligibility), adds the **franchise-level RR 2016–17
+> suspension** model (`team_season_participation`), specifies the **hackathon final
+> deliverable** (Top 10 youngest eligible uncapped candidates, §4.3), and attaches a
+> traceability mapping (contract · architecture · phase · agent · acceptance criterion) to
+> every functional requirement.
 
 ---
 
 ## 1. Executive Summary & Problem Statement
 
 ### 1.1 Context
-The platform serves the **IPL 2027 Hackathon** and long-term Rajasthan Royals squad-building
-needs. Franchise decision-makers (front office, coaches, analysts) need an **evidence-backed**
-way to:
+The platform serves the **IPL 2027 Rajasthan Royals scouting hackathon** and long-term RR
+squad-building needs. Decision-makers need an evidence-backed way to:
 
-- Identify any cricket player reliably by name, including players unknown to the internal data
-  lake (domestic uncapped prospects, overseas players, players from other IPL franchises).
-- Verify whether a player has represented Rajasthan Royals, and distinguish **historical RR
-  players** from **current squad members** (with the RR 2016–2017 suspension represented
-  separately and IPL 2027 treated as a future target season).
-- Retrieve and analyse a player's complete cricket career across competitions.
-- Build a team composition from verified, profiled players and receive a squad-intelligence
-  evaluation of the assembled team.
+- Identify any cricket player reliably by name, including players unknown to the internal
+  data lake (domestic uncapped prospects, overseas players, players from other franchises).
+- Verify RR representation across **three independent dimensions** (relationship history,
+  currency, season-bound eligibility), with the RR 2016–2017 franchise suspension represented
+  separately and IPL 2027 treated as a future, unverified target season.
+- Retrieve and analyse a complete career across competitions, with explicit coverage states.
+- Build team compositions from verified, profiled players and receive a squad-intelligence
+  evaluation.
+
+**Historical context**: RR membership analysis begins IPL 2008 (first phase 2008–2015). RR
+were suspended for IPL 2016 and 2017 (franchise-specific; the IPL competition continued for
+all other teams). RR returned in 2018; the post-return window is 2018–2026; **IPL 2027 is a
+future target season** and stays unverified until authoritative squad evidence exists.
+
+> **First principle**: *The platform never automatically assumes an unknown player is an
+> uncapped player.* Unknown = unverified/NOT_ASSESSED until independently established.
 
 ### 1.2 Product Vision
-The **RR Squad Intelligence & Team Composition Platform** is a modular analytical system that
-turns a user-supplied player name into a verified, evidence-backed player intelligence report,
-and evaluates user-built teams. It is **initially delivered as a Streamlit application**, with
-the analytical core kept independent of the UI so a future Next.js frontend can reuse it.
+The **RR Squad Intelligence & Team Composition Platform** is a modular analytical system
+delivered initially as a **Streamlit application** (frontend-agnostic engine contracts),
+with the **Mother Intelligence Engine (MIE)** orchestrating **six specialised engines** and
+**five support services** over a **31-entity PostgreSQL core**.
 
-**The product must support all of the following player populations:**
-- Existing RR players · Former RR players · Players who have never represented RR ·
-  Domestic uncapped prospects · Players from other IPL franchises · International players ·
-  Players whose identity or eligibility remains unverified.
+Supported populations: existing RR players · former RR players · players who never
+represented RR · domestic uncapped prospects · players from other IPL franchises ·
+international players · players whose identity or eligibility is unverified.
 
-> **First principle**: *The platform must never automatically assume that an unknown player is
-> an uncapped player.* Unknown ≠ uncapped; unknown = `UNVERIFIED` until established otherwise.
-
-### 1.3 Historical Context (Rajasthan Royals)
-- RR franchise membership analysis **begins with IPL 2008** and the first phase runs **2008–2015**.
-- RR were **suspended for IPL 2016 and 2017**; the suspension period must be represented
-  separately (never analysed as normal seasons, never filled with fabricated data).
-- RR returned in **2018**; post-return historical squad analysis covers **2018 onwards**.
-- The primary post-return analytical window initially covers **2018–2026**.
-- **IPL 2027 is a future target season**: it is treated as such until actual participation and
-  squad records are verified.
-
-### 1.4 The Failure of Naive Team Building
-- Classifying a player who played for RR in a prior season as a current squad member.
-- Treating a squad-list appearance as a match appearance.
-- Treating a missing record as proof of non-participation ("not in the dataset" ≠ "never played").
-- Auto-labeling any unrecognized name as an "uncapped domestic prospect".
-- Mixing IPL/T20, List A and first-class figures without format-aware comparison.
-- Inferring mental state or fabricating injury histories from match statistics.
+### 1.3 The Failure of Naive Team Building
+- Classifying a former RR player as a current squad member (currency conflated with history).
+- Treating squad-list appearance as a match appearance.
+- Treating absence from one dataset as proof of non-participation.
+- Auto-labelling unrecognised names "uncapped".
+- Mixing T20 / List A / first-class figures without format awareness.
+- Inferring mental state, fabricating injury histories, or scoring tiny samples as if large.
 
 ---
 
 ## 2. Target Users & Stakeholder Personas
-
-The system is engineered to serve five distinct stakeholder personas within the Rajasthan Royals
-organization, each with dedicated operational goals, technical proficiencies, core queries, and
-required outputs.
 
 ```
 +-------------------------------------------------------------------------------------------------------+
 |                                    RAJASTHAN ROYALS DECISION HIERARCHY                                |
 +-------------------------------------------------------------------------------------------------------+
 |  Franchise Chief Executive (CEO) & Ownership                                                          |
-|  - High-level squad risk, ROI, compliance sign-off                                                     |
+|  - Squad risk, ROI, compliance sign-off                                                                |
 +-------------------------------------------------------------------------------------------------------+
                                   |
                                   v
 +----------------------------------------------------+--------------------------------------------------+
 | Head of Cricket Operations                         | Squad Strategist & Composition Lead              |
-| - Squad balance, depth, overseas/role caps         | - Team building, candidate evaluation, pivots    |
+| - Squad balance, depth, role caps                  | - Team building, candidate evaluation           |
 +----------------------------------------------------+--------------------------------------------------+
                                   |
                                   v
@@ -91,75 +87,48 @@ required outputs.
 +----------------------------------------------------+--------------------------------------------------+
 ```
 
-### 2.1 Persona 1: Lead Cricket Data Analyst
-- **Profile**: Quantitative researcher with sports analytics, Python, SQL and probabilistic modelling skills.
-- **Primary Goals**: Verify player identity, membership and career claims end-to-end; inspect evidence and provenance behind every figure.
-- **Frustrations & Pain Points**: Black-box databases; missing-value imputation; unverifiable claims; identity collisions on common surnames.
-- **Core Questions**:
-  - *"Has this player actually played for RR, and in which seasons — with evidence?"*
-  - *"What is the provenance of this statistic and how confident are we in it?"*
-- **Required Outputs & Interfaces**: Data Source and Verification Report view, provenance-traced player profiles, JSON/CSV exports.
-
-### 2.2 Persona 2: Head of Cricket Operations
-- **Profile**: Senior administrator responsible for roster construction, squad balance and regulatory compliance.
-- **Primary Goals**: Maintain a transparent overview of squad composition; verify eligibility and membership; monitor role depth and dependencies.
-- **Frustrations & Pain Points**: Fragmented scouting notes; unverified player lists; confusing role overlap.
-- **Core Questions**:
-  - *"Which players in my team have verified current RR membership, and which are historical or unverified?"*
-  - *"What roles does my squad lack, and who are evidence-backed alternatives?"*
-- **Required Outputs & Interfaces**: Squad Composition view, Squad Intelligence Report, role-distribution summaries.
-
-### 2.3 Persona 3: Squad Strategist & Composition Lead
-- **Profile**: Strategic decision-maker building the target team composition for a season or the 2027 auction pool.
-- **Primary Goals**: Assemble a balanced squad; compare candidate vs incumbent role occupants; test alternative combinations.
-- **Frustrations & Pain Points**: No structured way to compare similar-role players; no quantitative weakness analysis.
-- **Core Questions**:
-  - *"If I swap Player A for candidate Player B in the same role, how do squad strengths/weaknesses change?"*
-  - *"Which role duplications and gaps exist in my current composition?"*
-- **Required Outputs & Interfaces**: Player Comparison view, SICE recommendations, alternative-combination analyses.
-
-### 2.4 Persona 4: Batting & Bowling Coaching Staff
-- **Profile**: Domain tacticians responsible for on-field execution and matchday opposition plans.
-- **Primary Goals**: Digest role-specific performance evidence and matchup context in plain, actionable form.
-- **Frustrations & Pain Points**: Dense statistical reports; weather data presented as pitch measurements.
-- **Core Questions**:
-  - *"How does this player perform in the death phase, and in what conditions?"*
-  - *"Which opponents does he historically struggle against?"*
-- **Required Outputs & Interfaces**: Performance Analytics view, Contextual Analysis view, one-page printable player cards.
-
-### 2.5 Persona 5: Franchise Chief Executive & Ownership
-- **Profile**: Executive leadership responsible for multi-year franchise value and governance.
-- **Primary Goals**: Approve squad direction; ensure governance, licensing and evidence integrity across outputs.
-- **Frustrations & Pain Points**: Unsupported claims in reports; unverifiable analytics; missing licensing attribution.
-- **Core Questions**:
-  - *"What evidence supports this squad's expected strength profile?"*
-  - *"Which conclusions in this report are verified vs estimated?"*
-- **Required Outputs & Interfaces**: Executive summary of the Squad Intelligence Report, verification-status summary.
+- **Persona 1 — Lead Cricket Data Analyst**: verifies identity/membership/career claims
+  end-to-end; inspects evidence tiers and provenance; questions: *"Which seasons did this
+  player actually appear for RR, and what is the evidence tier?"*
+- **Persona 2 — Head of Cricket Operations**: squad balance and depth; eligibility
+  compliance; questions: *"Which of my players have verified current membership and which
+  are historical or unverified? Which roles do we lack?"*
+- **Persona 3 — Squad Strategist & Composition Lead**: builds the target composition and the
+  hackathon candidate board; questions: *"If I swap Player A for candidate B in this role,
+  how do strengths/weaknesses change?"*
+- **Persona 4 — Coaching Staff**: role-specific performance evidence in actionable form;
+  questions: *"How does he perform at the death, in what conditions, against whom?"*
+- **Persona 5 — Franchise CEO & Ownership**: governance, evidence integrity, licensing;
+  questions: *"What is verified vs estimated in this report?"*
 
 ---
 
-## 3. Product Objectives & Hackathon-Specific Goals
+## 3. Product Objectives & Hackathon Alignment
 
 ### 3.1 Strategic Product Objectives
-1. **Evidence-Backed Intelligence**: Every player report is traceable to verified sources; verification status is always visible.
-2. **Squad Composition Capability**: Users can build, edit and evaluate teams; the Squad Intelligence Engine delivers role-aware analysis and recommendations.
-3. **Correct Membership Semantics**: Six-class membership taxonomy enforced; current vs historical RR status never conflated; RR 2016–2017 suspension represented separately; IPL 2027 treated as a future target season.
-4. **Talent Pipeline Continuity**: Uncapped domestic prospects are supported *as one of many* player populations, discovered via career research — never assumed from absence.
+1. **Evidence-backed intelligence**: every claim traceable to a tiered, provenance-recorded source.
+2. **Squad composition capability**: build, edit, and evaluate teams with role-aware SICE analysis.
+3. **Correct membership/eligibility semantics**: three independent dimensions; RR suspension as
+   franchise participation state; 2027 future-target handling; unknowns surfaced, never
+   silently classified.
+4. **Talent pipeline continuity**: uncapped prospects discovered via verified career research
+   (CDCRE), never assumed from absence.
+5. **Hackathon deliverable** (§4.3): a transparent, reproducible, role-aware ranking of the
+   **Top 10 youngest eligible uncapped players RR should consider backing for IPL 2027**,
+   with full evidence dossiers.
 
 ### 3.2 Hackathon Evaluation Alignment
-| Priority | Hackathon Criterion | Platform Capability |
+| Priority | Criterion | Platform capability |
 |---|---|---|
-| **High** | **Analytical & Domain Rigor** | Evidence-backed player profiles; six-class membership; coverage-state tracking; format-aware statistics; zero fabrication |
-| **High** | **System Architecture & Engineering** | MIE orchestration of six engines + five services; 27-entity 3NF PostgreSQL core; deterministic queries; provenance records |
-| **High** | **Usability & Actionability** | Streamlit 11-view application; team builder; squad intelligence report; comparison views |
-| **Medium** | **Innovation** | Authorised external research integration with verification; unified player intelligence reports; squad dependency analysis |
-| **Lower** | **Simulation Extras** | Monte Carlo, EAP regression and live war-room simulation are long-term enhancements, not MVP (see §7) |
+| **High** | Analytical & domain rigor | Three-dimension membership; four-state career coverage; DATA_DICTIONARY-governed metrics; format-aware stats; zero fabrication |
+| **High** | Architecture & engineering | MIE + 6 engines + 5 services; 31-entity 3NF core; deterministic queries; provenance records |
+| **High** | Usability | 11-view Streamlit application; team builder; squad report; verification report |
+| **Medium** | Innovation | Pre-identity candidate discovery; versioned eligibility policies; negative-membership verification protocol |
+| **Lower** | Simulation extras | EAP regression, VORP/WAR, Monte Carlo, Playing XI/Impact Player optimizers — **post-MVP, not required for submission** |
 
 ---
 
-## 4. User Workflow (Primary)
-
-The complete workflow the product implements:
+## 4. User Workflow (Primary — revised)
 
 ```
 User opens Streamlit
@@ -170,202 +139,231 @@ Enters player name
         |
 Mother Intelligence Engine
         |
-Player Identity Resolution (PIRE)
+CDCRE capability 1: pre-identity candidate discovery (raw name -> corroborating candidates)
         |
-Internal Database Search
+Player Identity Resolution (PIRE: deterministic tiers + contextual attribute corroboration)
         |
-Is player identified?
+Is identity resolved?
    /             \
   No              Yes
   |                |
-External research  Membership verification (TMVE)
-  |                |
-Identity review    |
+User clarification  Three-dimension membership verification (TMVE)
+ (review & retry)   |
         \          /
-         Player classification (6 classes)
+         Candidate pool / classified player
                   |
-       Career Discovery Engine (CDCRE)
+       CDCRE capability 2: post-identity career retrieval (4-state coverage)
                   |
-       Performance Analytics (CPPAE)
+       Performance analytics (CPPAE, per DATA_DICTIONARY)
                   |
-       Contextual Match Analysis (CMIE)
+       Contextual match analysis (CMIE, 5 provenance tiers)
                   |
-       Unified Player Profile
+       Season-bound eligibility assessment (eligibility_policies, NOT_ASSESSED default)
                   |
-       User adds player to team
+       Unified player profile (MIE)
+                  |
+       User adds player to team (Service E)
                   |
        Squad Intelligence Engine (SICE)
                   |
        Squad report and recommendations
 ```
 
-**Branching rules:**
-- If identity remains ambiguous, **request user clarification** — the system does not guess.
-- If external research cannot establish membership, the player is returned as **UNVERIFIED**.
-- The system **does not automatically convert failed searches into proof of non-membership**;
-  absence of evidence is reported as `UNVERIFIED` / `NOT_ESTABLISHED`, never as `NEVER_REPRESENTED_RR`.
+**Branching rules**:
+- Ambiguous identity → **user clarification / human review**; PIRE never auto-merges similar
+  names.
+- Membership evidence insufficient → the affected dimension returns `UNKNOWN` /
+  `ELIGIBILITY_UNVERIFIED` / `NOT_ASSESSED`; **failed searches are never converted into
+  proof of non-membership or ineligibility**.
 
-### 4.1 Use Case 1: Verified Team Building (MVP Core)
-1. User creates a team in the Team Builder view.
-2. User searches for a player by name (any known alias or spelling).
-3. PIRE resolves identity; user confirms on the Identity Verification view when ambiguity exists.
-4. TMVE classifies membership (e.g., HISTORICAL_RR_PLAYER, seasons 2008–2015; other IPL teams listed).
-5. User reviews the Career Profile and Performance Analytics views.
-6. User adds the player to the team, optionally assigning a role.
-7. SICE evaluates the team; user reviews the Squad Intelligence Report and adjusts.
+### 4.1 Use Case 1: Verified Team Building (MVP core)
+Create team → search name → PIRE (with CDCRE candidates) → confirm on Identity Verification
+view if ambiguous → review three-dimension membership (incl. verified RR seasons,
+2016–17 suspension gap, other IPL teams) → review Career + Performance views → add to team
+(with role) → SICE evaluates; user adjusts per the Squad Intelligence Report.
 
-### 4.2 Use Case 2: Uncapped Prospect Discovery (MVP Supported Population)
-1. User searches for a domestic prospect name.
-2. PIRE/CDCRE perform authorised external research; CDCRE reports career coverage per competition
-   (e.g., SMAT: VERIFIED_PARTICIPATION; Ranji: NOT_ESTABLISHED) — without assuming uncapped status.
-3. TMVE reports membership class (typically NEVER_REPRESENTED_RR only when a verified record base
-   supports it; otherwise UNVERIFIED).
-4. CPPAE presents career evidence-backed performance with format tags.
-5. User adds the player to a team; SICE notes role fit and comparison vs incumbents.
+### 4.2 Use Case 2: Uncapped Prospect Discovery (MVP supported population)
+Search prospect name → CDCRE candidate discovery + authorised research (SMAT is
+`DATASET_UNAVAILABLE` locally → research path, provenance-tracked) → PIRE corroborates →
+TMVE: typically `RR_RELATIONSHIP_UNKNOWN` or (negative-verification requirements met)
+`NO_VERIFIED_RR_RELATIONSHIP`; eligibility `NOT_ASSESSED` until a `VERIFIED_ELIGIBLE`
+assessment under the active policy version → CPPAE presents evidence-backed performance
+with format tags and sample sizes → add to team; SICE notes role fit vs incumbents.
 
-### 4.3 Use Case 3: Squad Gap Analysis (MVP Core)
-1. SICE analyses the assembled team: batting depth, bowling depth, pace/spin balance, wicketkeeping,
-   all-rounders, batting-order flexibility, role duplication, weak/missing roles.
-2. SICE compares role occupants and suggests alternatives with evidence references.
-3. Report clearly labels outputs as *analytical recommendations*, never as official RR selections
-   or auction decisions; no recruitment probabilities unless a calibrated model exists.
+### 4.3 Use Case 3: Hackathon Final Deliverable — Top 10 Youngest Eligible Uncapped Candidates
+The platform must support (SICE + CPPAE + TMVE + eligibility service):
+
+1. **Candidate eligibility verification**: `VERIFIED_ELIGIBLE` under the active
+   `eligibility_policies` version for the target season, with rule-source and verification
+   record (uncapped status independently verified, **not** assumed from absence).
+2. **Exact age calculation** as of the official evaluation date (date recorded in the
+   policy version; per-candidate DOB evidence recorded).
+3. **Primary and secondary playing roles** with documented role criteria
+   (DATA_DICTIONARY role thresholds, format-tagged observed data only).
+4. **Domestic competition evidence** (Ranji/SMAT/Vijay Hazare/Duleep as available; SMAT
+   via research where `DATASET_UNAVAILABLE` locally, provenance-tracked).
+5. **T20 performance analysis** per DATA_DICTIONARY (strike/economy/samples, phase splits).
+6. **Role-adjusted comparison**: rankings within role groups; cross-role presentation uses
+   role-adjusted baselines, never raw cross-role numbers.
+7. **Historical consistency**: multi-season variance where ≥2 seasons of evidence exist.
+8. **Relevant contextual evidence** (CMIE tiers; venue/opposition notes where material).
+9. **Squad fit**: SICE gap/role-match analysis against the current RR composition.
+10. **Risk and data-coverage limitations** per candidate (coverage class, verification
+    status, evidence tier).
+11. **Ranking methodology** (transparent, role-aware, measurable, reproducible, validated
+    against available data):
+    - Within-role baseline: role-group performance distribution over the target window
+      (T20, format-tagged).
+    - Score = within-role percentile of a documented set of role-relevant metrics, each with
+      a **justified, versioned weight** stored in `derived_features.model_version`
+      (equal-weight default; any deviation requires a documented, versioned rationale).
+    - Sample-size shrinkage toward the role baseline for small samples (documented
+      constant, e.g. k = 50 balls), so tiny samples cannot out-rank deep samples silently.
+    - Age ordering applied **within** verified-eligible, role-grouped candidates; ties
+      broken by consistency, then sample size (documented).
+    - Output: **Top 10 + reserve list** (next-ranked verified candidates), each with a
+      full evidence dossier (sources, tiers, dates, confidence where calibrated).
+12. **No hardcoded arbitrary weights**: any weight set is a versioned, documented,
+    reproducible model configuration — not an inline constant.
+
+### 4.4 Use Case 4: Squad Gap Analysis (MVP core)
+SICE analyses the assembled team (depth, balance, duplication, gaps, comparisons,
+alternatives); outputs labelled `ANALYTICAL_RECOMMENDATION`; no probabilities unless a
+calibrated, validated model exists.
 
 ---
 
-## 5. Functional Requirements
+## 5. Functional Requirements (with traceability)
 
-Requirements are grouped by engine/service. Detailed I/O contracts live in `docs/TRD.md` (§3–§13).
+Every FR maps to: **(1) technical contract · (2) architecture component · (3) implementation
+phase · (4) responsible agent · (5) acceptance criterion (AC)**. Contracts in `docs/TRD.md`;
+diagrams in `docs/ARCHITECTURE.md`; phases in `docs/PHASES.md`; agents in `docs/AGENTS.md`.
 
 ### 5.1 Player Identity Resolution (PIRE)
-- **FR-P1**: Resolve exact, aliased, varied and misspelt player names to canonical player IDs.
-- **FR-P2**: Detect and disambiguate duplicate/near-duplicate players; verify DOB where available.
-- **FR-P3**: Output identity confidence, known aliases, matching records, and unresolved warnings.
-- **FR-P4**: Route low-confidence or multi-candidate cases to user clarification.
-- **FR-P5**: **Never merge two players merely because their names are similar.**
+| FR | Requirement | TRD contract | Architecture | Phase | Agent | AC |
+|---|---|---|---|---|---|---|
+| **FR-P1** | Resolve exact/alias/varied/misspelt names to canonical IDs | §3 `PIRE.resolve` | D2/D3 | Phase 2 | `agent_pire` | AC-01, AC-02 |
+| **FR-P2** | Duplicate detection & disambiguation with **contextual attribute corroboration** (DOB, hand, role, era — not biometric) | §3.3 | D3 | Phase 2 | `agent_pire` | AC-02 |
+| **FR-P3** | Output tier, status (RESOLVED/PROVISIONAL/UNRESOLVED), aliases, matching records, warnings | §3.2 | D2/D3 | Phase 2 | `agent_pire` | AC-01 |
+| **FR-P4** | Low-confidence / multi-candidate → user clarification | §3.3 + §2.3 | D2 | Phase 7 | `agent_mie_orchestration` | AC-03 |
+| **FR-P5** | Never merge two players merely because names are similar | §3.3 | D3 | Phase 2 | `agent_pire` | AC-02 |
+| **FR-P6** | Numeric confidence exposed only after calibration (`calibrated=TRUE`), else NULL | §3.3 | — | Phase 10 | `agent_testing_qa` | AC-15 |
 
 ### 5.2 Team Membership Verification (TMVE)
-- **FR-M1**: Classify every player into exactly one of the six membership classes.
-- **FR-M2**: Verify **actual RR match appearances** (count verified appearances; squad inclusion
-  alone is not a match appearance).
-- **FR-M3**: Identify RR seasons of representation; respect the 2008–2015 / 2016–2017 suspension /
-  2018-onwards segmentation; treat 2027 as a future target season.
-- **FR-M4**: Identify other IPL teams and documented retention/auction/transfer/release facts.
-- **FR-M5**: Verify current squad membership **separately** from historical membership.
-- **FR-M6**: When internal records are insufficient, trigger authorised external research with
-  the documented verification hierarchy (official records > scorecards > BCCI > reliable
-  databases > reputable reporting); attach evidence and confidence.
+| FR | Requirement | TRD contract | Architecture | Phase | Agent | AC |
+|---|---|---|---|---|---|---|
+| **FR-M1** | Three independent dimensions (relationship · currency · eligibility) never conflated | §4.3, D5 | D4 | Phase 3 | `agent_tmve` | AC-04 |
+| **FR-M2** | Verified appearances distinct from squad inclusion | §4.1, `player_team_history.appearances` | D4 | Phase 3 | `agent_tmve` | AC-05 |
+| **FR-M3** | RR season segmentation via `team_season_participation` (2008–15 · 2016–17 SUSPENDED · 2018+ · 2027 UNKNOWN) | D4/ADR-004 | D4/D7 | Phase 3 | `agent_tmve` | AC-06 |
+| **FR-M4** | Other IPL teams + documented retention/auction/transfer/release | §4.1 | D4 | Phase 3 | `agent_tmve` | AC-05 |
+| **FR-M5** | Current membership verified separately from history | §4.3 | D4 | Phase 3 | `agent_tmve` | AC-04 |
+| **FR-M6** | Verification hierarchy (5 tiers) + authorised research when internal records insufficient | §4.2 | D5 | Phase 4 | `agent_provenance` | AC-07 |
+| **FR-M7** | Negative membership only via TRD §4.5 requirements (coverage, seasons, squad+scorecard, source quality, conflict handling, human review); else UNKNOWN | §4.5 | D4 | Phase 3/4 | `agent_tmve` | AC-08 |
+| **FR-M8** | Eligibility: season-bound, policy-versioned, source-traceable, effective-date aware, independently verified; default `NOT_ASSESSED` | §4.6, D5 | D4 | Phase 3 | `agent_tmve` | AC-09 |
 
 ### 5.3 Career Discovery & Competition Research (CDCRE)
-- **FR-C1**: Discover career across IPL franchises, domestic state teams, Ranji, SMAT, Vijay
-  Hazare, Duleep, India A/age-group, international cricket and other recognised T20 leagues.
-- **FR-C2**: Report season participation, team history and career gaps.
-- **FR-C3**: Track data coverage and record source provenance for every external claim.
-- **FR-C4**: Distinguish verified participation / dataset coverage unavailable / participation not
-  established / confirmed non-participation — and **never** infer non-participation from dataset
-  absence.
+| FR | Requirement | TRD contract | Architecture | Phase | Agent | AC |
+|---|---|---|---|---|---|---|
+| **FR-C1** | **Two capabilities**: `discover_candidates(raw_name)` (pre-identity, no player_id required) and `discover_career(player_id)` (post-identity) | §5.1 | D2 | Phase 4 | `agent_cdcre` | AC-10 |
+| **FR-C2** | Cross-competition discovery (IPL franchises, domestic state, Ranji, SMAT, Vijay Hazare, Duleep, India A/age-group, international, other T20 leagues) | §5.2 | D2 | Phase 4 | `agent_cdcre` | AC-11 |
+| **FR-C3** | Season participation, team history, career gaps | §5.3 | D2 | Phase 4 | `agent_cdcre` | AC-11 |
+| **FR-C4** | Four coverage states (verified / dataset-unavailable / not-established / confirmed-non-participation); dataset absence never read as non-participation | §5.4 | D2 | Phase 4 | `agent_cdcre` | AC-11 |
+| **FR-C5** | Provenance for every external claim (Service C) | §5.5 | D5/D10 | Phase 4 | `agent_provenance` | AC-07 |
 
 ### 5.4 Complete Player Performance Analytics (CPPAE)
-- **FR-A1**: Produce batting profiles: innings, matches, runs, average, strike rate, boundaries,
-  dot balls, batting positions, opening/top-order/middle-order/finishing splits, performance vs
-  individual bowlers, vs pace/spin, vs bowling styles and verified delivery variations, phase
-  splits, win/loss splits, partnership contributions.
-- **FR-A2**: Produce bowling profiles: overs, runs, wickets, economy, average, strike rate, dot
-  balls, phase splits, batter-specific matchups, pace/spin classification, delivery speed and
-  line/length **when available**.
-- **FR-A3**: Produce fielding profiles: catches, run-outs, stumpings, recorded dropped catches,
-  opportunities, positions where verified, contribution measures.
-- **FR-A4**: Produce wicketkeeping profiles: dismissals, catches, stumpings, recorded missed
-  chances, appearances.
-- **FR-A5**: Produce match-contribution profiles: POTM awards, participation, batting/bowling
-  contribution, match situation, contribution to outcomes, measurable pressure performance.
-- **FR-A6**: Every statistic carries a documented definition and calculation method.
-- **FR-A7**: Do not compute unverified statistics from incomplete data; missing ≠ zero.
-- **FR-A8**: No cross-format (IPL/T20/List A/first-class) comparisons without format-aware
-  comparison.
+| FR | Requirement | TRD contract | Architecture | Phase | Agent | AC |
+|---|---|---|---|---|---|---|
+| **FR-A1** | Batting profile (all DATA_DICTIONARY B-series metrics incl. position/phase/matchup/partnership) | §6, `DATA_DICTIONARY.md` | D6 | Phase 5 | `agent_cppae` | AC-12 |
+| **FR-A2** | Bowling profile (integer legal balls of record; over notation derived; speed/line-length where available) | §6 | D6 | Phase 5 | `agent_cppae` | AC-12 |
+| **FR-A3** | Fielding profile (recorded-only drops/saves; coverage class always reported) | §6 | D6 | Phase 5 | `agent_cppae` | AC-12 |
+| **FR-A4** | Wicketkeeping profile | §6 | D6 | Phase 5 | `agent_cppae` | AC-12 |
+| **FR-A5** | Match contribution (POTM as input signal only; measurable leverage, never mental state) | §6 | D6 | Phase 5 | `agent_cppae` | AC-12 |
+| **FR-A6** | Every metric has a documented definition, formula, null rules, min sample, and observed/derived/model class in `DATA_DICTIONARY.md` | `DATA_DICTIONARY.md` | D6 | Phase 5 | `agent_cppae` | AC-13 |
+| **FR-A7** | No unverified statistics from incomplete data; missing ≠ zero; sample sizes always visible | §6.2 | D6 | Phase 5 | `agent_cppae` | AC-12 |
+| **FR-A8** | No cross-format comparison without format tags; false-shot frequency never computed | §6.2, dictionary §6 | D6 | Phase 5 | `agent_cppae` | AC-12 |
 
 ### 5.5 Contextual Match Intelligence (CMIE)
-- **FR-X1**: Annotate performance with opposition, venue, pitch conditions, weather, match format,
-  innings, phase, required run rate, target and result.
-- **FR-X2**: Classify each contextual datum into: directly measured / officially reported /
-  third-party estimate / model-inferred / unknown.
-- **FR-X3**: Weather must never be represented as a direct measurement of pitch conditions.
-- **FR-X4**: Never infer a player's mental state from match statistics.
+| FR | Requirement | TRD contract | Architecture | Phase | Agent | AC |
+|---|---|---|---|---|---|---|
+| **FR-X1** | Condition annotations with 5-tier provenance (measured/reported/estimated/inferred/unknown) | §7.3 | D2/D6 | Phase 6 | `agent_cmie` | AC-14 |
+| **FR-X2** | Weather recorded as environmental context (timezone + match method fields), never pitch measurement; pitch ratings only with a validated methodology version | §7.1, D10 | D2 | Phase 6 | `agent_cmie` | AC-14 |
+| **FR-X3** | No mental-state inference; injury data verified-only; recurrence scores model-inferred + NULL-unvalidated | §7.3 | D2 | Phase 6 | `agent_cmie` | AC-14 |
 
 ### 5.6 Squad Intelligence & Composition (SICE)
-- **FR-S1**: Analyse role distribution, batting depth, bowling depth, pace/spin balance,
-  wicketkeeping, all-rounder availability, batting-order flexibility, role duplication, weak or
-  missing roles.
-- **FR-S2**: Analyse historical contribution; compare players in similar roles; identify
-  replacements; compare current squad players vs new candidates; evaluate squad combinations.
-- **FR-S3**: Provide squad overview, strengths/weaknesses, dependency analysis, role-specific
-  recruitment priorities, alternative combinations, and evidence-backed recommendations.
-- **FR-S4**: Recommendations are labelled as analytical, not official selections/auction decisions.
-- **FR-S5**: No recruitment probabilities unless the underlying model is statistically validated
-  and calibrated.
+| FR | Requirement | TRD contract | Architecture | Phase | Agent | AC |
+|---|---|---|---|---|---|---|
+| **FR-S1** | Role distribution, depth, balance, duplication, gaps, flexibility | §8.1 | D8 | Phase 8 | `agent_sice` | AC-16 |
+| **FR-S2** | Comparisons, replacements, combinations | §8.1 | D8 | Phase 8 | `agent_sice` | AC-16 |
+| **FR-S3** | Recommendations labelled analytical, evidence-referenced | §8.3 | D8 | Phase 8 | `agent_sice` | AC-17 |
+| **FR-S4** | No recruitment probabilities without a validated/calibrated model | §8.3 | D8 | Phase 8/10 | `agent_sice` | AC-17 |
+| **FR-S5** | Hackathon ranking: transparent role-aware reproducible methodology, versioned weights, shrinkage, Top 10 + reserves + dossiers (PRD §4.3) | §8 + `derived_features` | D8 | Phase 10 | `agent_sice` | AC-18 |
 
 ### 5.7 Support Services
-- **FR-VA1 (Ingestion)**: Import CricSheet datasets, Kaggle datasets, HawkeyeStats, historical
-  weather, official records, and verified research data with provenance.
-- **FR-VB1 (Profile Generator)**: Emit standardised JSON and CSV exports from the central database.
-- **FR-VC1 (Provenance)**: Record source URL, provider, retrieval timestamp, licence, verification
-  status, confidence, and original source record ID for every external claim.
-- **FR-VD1 (Quality & Coverage)**: Detect missing data, duplicates, conflicting statistics,
-  invalid player associations, inconsistent match identities, unavailable contextual features.
-- **FR-VE1 (Team Builder)**: Manage user teams, player add/remove, composition, role assignment,
-  and saved team configurations.
+| FR | Requirement | TRD contract | Architecture | Phase | Agent | AC |
+|---|---|---|---|---|---|---|
+| **FR-VA1** | Ingestion with provenance + quarantine (per DATA_SOURCE_REGISTER statuses; SMAT gap recorded) | §9.1, register | D5 | Phase 1 | `agent_data_ingestion` | AC-19 |
+| **FR-VB1** | JSON/CSV exports with attribution; confidentiality of proprietary data | §9.2 | D1 | Phase 7 | `agent_profile_generator` | AC-20 |
+| **FR-VC1** | Provenance records (URL, provider, timestamp, licence, status, tier, confidence-if-calibrated, record ID) | §9.3 | D10 | Phase 4 | `agent_provenance` | AC-07 |
+| **FR-VD1** | Quality/coverage checks incl. innings↔delivery reconciliation | §9.4 | D5 | Phase 1 (all) | `agent_data_quality` | AC-19 |
+| **FR-VE1** | Team lifecycle + roles + saved configurations | §9.5 | D1/D8 | Phase 8 | `agent_team_builder` | AC-21 |
 
 ### 5.8 Streamlit Application
-- **FR-U1**: Implement the eleven required views (see §6).
-- **FR-U2**: Use session state carefully; separate UI components from analytics calculations.
-- **FR-U3**: Keep core engines independent of Streamlit (reusable by a future Next.js frontend).
+| FR | Requirement | TRD contract | Architecture | Phase | Agent | AC |
+|---|---|---|---|---|---|---|
+| **FR-U1** | 11 required views (§6) | §12.1 | D9 | Phase 9 | `agent_streamlit_app` | AC-22 |
+| **FR-U2** | Session state for ephemeral UI only; no analytics in Streamlit | §12.2 | D9 | Phase 9 | `agent_streamlit_app` | AC-22 |
+| **FR-U3** | Engines importable without Streamlit (Next.js-ready) | §1.2 | D9 | Phase 9 | `agent_streamlit_app` | AC-23 |
 
 ---
 
 ## 6. Streamlit Views (UI Requirements)
 
-1. **Home / Team Builder** — create/rename/delete teams; add/remove players; assign roles; save configurations.
-2. **Player Search** — name entry, PIRE candidates ranked by identity confidence, ambiguity prompts.
-3. **Player Identity Verification** — side-by-side candidate evidence, DOB/role corroboration, confirm-or-review flow.
-4. **Historical RR Membership** — six-class badge, RR seasons (2008–2015 / suspension / 2018+), other IPL teams, evidence links and verification date.
-5. **Player Career Profile** — competition coverage table with four coverage states, gaps, provenance.
-6. **Performance Analytics** — CPPAE profile: batting/bowling/fielding/WK/match-contribution with per-stat definitions and format tags.
-7. **Contextual Analysis** — CMIE annotations with provenance-tier badges (measured / reported / estimated / inferred / unknown).
-8. **Player Comparison** — side-by-side comparison of players occupying similar roles, with SICE notes.
-9. **Squad Composition** — role distribution chart, depth view, current team contents with membership classes.
-10. **Squad Intelligence Report** — strengths/weaknesses, dependencies, recruitment priorities, alternative combinations, recommendations with evidence.
-11. **Data Source and Verification Report** — per-claim provenance, verification status, licences, confidence; UNVERIFIED items listed explicitly.
+1. **Home / Team Builder** — create/rename/delete teams; add/remove players; assign roles;
+   save configurations.
+2. **Player Search** — name entry; PIRE candidates ranked by tier; ambiguity prompts.
+3. **Player Identity Verification** — candidate evidence side-by-side; DOB/role corroboration;
+   confirm-or-review flow.
+4. **Historical RR Membership** — three-dimension badges; RR seasons (2008–15 / 2016–17
+   suspension / 2018+ / 2027 unverified); other IPL teams; evidence links + verification
+   date.
+5. **Player Career Profile** — competition coverage table with four states, gaps, provenance.
+6. **Performance Analytics** — CPPAE profile with DATA_DICTIONARY definitions, format
+   tags, and visible sample sizes.
+7. **Contextual Analysis** — CMIE annotations with provenance-tier badges.
+8. **Player Comparison** — similar-role comparison with SICE notes.
+9. **Squad Composition** — role distribution, depth, membership classes of current members.
+10. **Squad Intelligence Report** — strengths/weaknesses, dependencies, priorities,
+    alternatives, labelled recommendations; hackathon Top-10 board.
+11. **Data Source and Verification Report** — per-claim provenance, verification status,
+    licences, evidence tier; UNVERIFIED/CONFLICT listed explicitly.
 
 ---
 
-## 7. Scope Boundaries: MVP vs Post-MVP vs Out-of-Scope
+## 7. Scope Boundaries
 
 ```
 +-------------------------------------------------------------------------------------------------------+
 |                                        SYSTEM SCOPE PARTITION                                         |
 +-------------------------------------------------------------------------------------------------------+
-|  MVP (HACKATHON-ESSENTIAL)                                                                            |
-|  • MIE orchestration + PIRE (identity resolution)                                                      |
-|  • TMVE (6-class membership verification, RR 2008-2015/suspension/2018+ segmentation)                  |
-|  • CDCRE (career discovery + 4-state coverage tracking)                                                |
-|  • CPPAE (documented performance profiles, format-aware)                                               |
-|  • CMIE (contextual annotations + 5-tier provenance, weather/pitch separation)                        |
-|  • SICE (role/depth/balance analysis, comparisons, recommendations)                                    |
-|  • Services A–E (ingestion, profile export, provenance, quality, team builder)                         |
-|  • 27-entity PostgreSQL core; Streamlit 11-view application                                            |
-|  • Authorised external research with verification + provenance                                        |
+|  HACKATHON MINIMUM SUBMISSION                                                                           |
+|  • Top-10 youngest eligible uncapped candidates + reserve list + per-candidate evidence dossiers       |
+|  • Ranking methodology (transparent, role-aware, reproducible, versioned)                               |
+|  • The supporting verification pipeline for those candidates (identity, membership, eligibility,       |
+|    career coverage, performance)                                                                        |
 |                                                                                                       |
-|  POST-MVP ENHANCEMENTS (long-term)                                                                     |
-|  • CMIE depth: full delivery-speed/line-length analysis (HawkeyeStats)                                 |
-|  • EAP regression models, VORP/WAR valuation, Monte Carlo campaign simulation                         |
-|  • Playing XI constraint optimizer and Impact Player deployment engine                                 |
-|  • Next.js production frontend reusing the same engine contracts                                       |
+|  MVP (PLATFORM CORE, PHASES 1-9)                                                                       |
+|  • MIE + PIRE (FR-P*) · TMVE (FR-M*, 3 dimensions) · CDCRE dual capability (FR-C*) · CPPAE (FR-A*)   |
+|  • CMIE (FR-X*) · SICE (FR-S1-S4) · Services A-E (FR-V*) · 31-entity core · Streamlit 11 views        |
+|  • DATA_SOURCE_REGISTER + DATA_DICTIONARY as governing specs                                          |
 |                                                                                                       |
-|  STRICTLY OUT-OF-SCOPE (EXCLUDED)                                                                     |
-|  • Live auction bidding execution (decision support only)                                             |
-|  • Sub-surface soil-moisture IoT sensors                                                               |
-|  • Wearable biometric telemetry                                                                        |
-|  • Recruitment probability outputs from unvalidated models                                             |
-|  • Any claim of mental-state, fabricated injury history, or invented player data                       |
+|  POST-MVP ENHANCEMENTS (LONG-TERM, NOT REQUIRED FOR SUBMISSION)                                        |
+|  • EAP regression, VORP/WAR, Monte Carlo campaign simulation                                           |
+|  • Playing XI constraint optimizer, Impact Player deployment engine                                    |
+|  • HawkeyeStats delivery-speed/line-length depth; Next.js production frontend                          |
+|                                                                                                       |
+|  STRICTLY OUT-OF-SCOPE                                                                                  |
+|  • Live auction execution · soil-moisture IoT · wearable biometrics · probabilities from unvalidated   |
+|    models · mental-state claims · fabricated injuries · private medical data                          |
 +-------------------------------------------------------------------------------------------------------+
 ```
 
@@ -373,41 +371,55 @@ Requirements are grouped by engine/service. Detailed I/O contracts live in `docs
 
 ## 8. Acceptance Criteria
 
-| ID | Acceptance Criterion | Verification |
+| ID | Criterion | Verification |
 |---|---|---|
-| AC-01 | PIRE resolves all known CricSheet hex-hash players with confidence 1.000 | Automated resolution tests against a known-player fixture set |
-| AC-02 | PIRE never auto-merges two distinct players with similar names | Adversarial name-collision suite (e.g., R Sharma vs Rahul Sharma) — zero auto-merges |
-| AC-03 | TMVE assigns exactly one membership class per player; UNVERIFIED is returned (never NEVER_REPRESENTED_RR) when evidence is insufficient | Review of UNVERIFIED-fixture outcomes |
-| AC-04 | RR 2016–2017 appears as a suspension period, not as seasons with squad data | Schema assertion: `seasons.is_suspension` for 2016, 2017; zero squad rows for those years without explicit suspension flag |
-| AC-05 | IPL 2027 season data exists only as `future_target` and is excluded from verified-membership logic | Query audit on 2027-season rows |
-| AC-06 | Squad-inclusion-only players are not counted as RR match appearances | Verified-appearance count = 0 while `Squad Inclusion` membership row exists |
-| AC-07 | CDCRE reports one of the four coverage states per competition; absence in dataset reported as `DATASET_UNAVAILABLE` or `NOT_ESTABLISHED`, never as non-participation | Coverage-state audit on a sample of players |
-| AC-08 | Every CPPAE statistic has a documented definition and format tag | Static documentation check per `derived_features.feature_name` |
-| AC-09 | Missing values are `NULL`, never 0.0 | Schema lint: zero zero-imputed physical measurements |
-| AC-10 | Weather data is displayed only as macro-context, explicitly not as pitch measurement | UI copy + `data_provenance_flag` audit |
-| AC-11 | SICE outputs are labelled "analytical recommendation" and no recruitment probability appears unless a validated model is registered | Output-contract assertion |
-| AC-12 | Every external claim in a report carries a provenance record (URL, provider, timestamp, licence, status, confidence, record ID) | Provenance completeness check on a generated report |
-| AC-13 | Streamlit renders all 11 views with no UI-side analytics code (engines untouched by Streamlit imports) | Architecture test: engine modules importable without Streamlit installed |
-| AC-14 | Team Builder supports create, add/remove players, role assignment, and save/load team configurations | End-to-end team CRUD test |
+| **AC-01** | PIRE resolves all CricSheet-registry players (tier 1) on the fixture set; `identity_status` semantics hold | Automated resolution tests |
+| **AC-02** | PIRE never auto-merges distinct players with similar names | Adversarial collision suite (R Sharma / Rahul Sharma etc.) — zero auto-merges |
+| **AC-03** | Ambiguous identities route to user clarification; MIE never guesses | Orchestration tests with multi-candidate fixtures |
+| **AC-04** | Three membership dimensions stored/returned independently; no single conflated label | Schema + contract assertions on `player_membership_state` / `player_eligibility` |
+| **AC-05** | Squad-inclusion-only players show `appearances = 0` and `HISTORICAL_RR_SQUAD_ONLY`; verified appearances count only match records | Appearance-vs-squad-list differential test |
+| **AC-06** | `team_season_participation`: RR×IPL 2016 and 2017 rows = `SUSPENDED`/verified; IPL 2016/17 seasons exist with other teams `PARTICIPATING`; RR×IPL 2027 = `UNKNOWN` until evidence | Schema + fixture assertions |
+| **AC-07** | Every external claim carries a provenance record (URL, provider, timestamp, licence, tier, status, record ID) with a verification hierarchy level | Provenance completeness check |
+| **AC-08** | `NO_VERIFIED_RR_RELATIONSHIP` only when TRD §4.5 requirements all satisfied + human review; else `RR_RELATIONSHIP_UNKNOWN` | Negative-verification audit fixture |
+| **AC-09** | Eligibility rows always reference an `eligibility_policies` version; unknown players default `NOT_ASSESSED`, never auto-uncapped | Schema assertion (`policy_id` NOT NULL) + fixture |
+| **AC-10** | `CDCRE.discover_candidates` returns candidates from a raw name with **no player_id argument**; `discover_career` requires a canonical ID | Contract test |
+| **AC-11** | Career coverage uses the four states; dataset absence reported as `DATASET_UNAVAILABLE`/`NOT_ESTABLISHED`, never non-participation | Coverage-state audit |
+| **AC-12** | Every CPPAE metric exists in `DATA_DICTIONARY.md` with all ten required attributes; sample sizes returned; missing → NULL; false-shot = NOT_COMPUTABLE | Dictionary completeness check + statistical tests |
+| **AC-13** | No metric definition missing formula/denominator/null-rule in the dictionary | Static dictionary audit |
+| **AC-14** | Five provenance tiers present per contextual datum; weather rows carry `venue_timezone` + match method; no pitch ratings without `ratings_methodology_version` | Schema + UI copy audit |
+| **AC-15** | No numeric confidence exposed without `calibrated=TRUE` (NULL otherwise) | Contract assertion |
+| **AC-16** | Team CRUD + role assignment + saved configurations work end-to-end | E2E test |
+| **AC-17** | SICE outputs labelled `ANALYTICAL_RECOMMENDATION`; no unvalidated probabilities | Output-contract assertion |
+| **AC-18** | Top-10 ranking reproducible from the same inputs + model version; weights versioned in `derived_features.model_version`; dossiers complete (§4.3 items 1–12) | Reproducibility test (same seed/version → same board) + dossier completeness check |
+| **AC-19** | Ingestion: per-dataset counts match DATA_SOURCE_REGISTER verified counts (1,243/201/265/230; SMAT gap recorded); DQ reconciliation gates pass | Ingestion completeness SQL |
+| **AC-20** | Exports embed ODC-By attribution; no proprietary hackathon content in public exports | Export-contract + confidentiality audit |
+| **AC-21** | Team Builder constraints: 11-view navigation + composition rules (informational caps, not enforced selection) | UI test |
+| **AC-22** | All 11 Streamlit views render with no UI-side analytics | Import-architecture test |
+| **AC-23** | Engine modules importable with Streamlit uninstalled (Next.js-ready) | Static import test |
 
 ---
 
 ## 9. Non-Functional Requirements
 
-- **NFR-01 Determinism**: deterministic queries produce identical outputs for identical data;
-  seeded randomness only where documented.
-- **NFR-02 Zero fabrication**: no invented players, statistics, memberships, injuries, or mental-state claims.
-- **NFR-03 Evidence lineage**: every membership/eligibility/career claim traces to `verification_records` and `data_sources`.
-- **NFR-04 Format awareness**: no IPL/T20/List A/first-class mixing without explicit format tags and normalisation.
-- **NFR-05 Licensing & confidentiality**: ODC-By (CricSheet) and CC BY 4.0 (Open-Meteo) attribution in exports; the proprietary hackathon dataset is kept confidential and isolated from public outputs.
-- **NFR-06 Frontend independence**: engines have zero UI-framework dependencies.
+- **NFR-01 Determinism**: deterministic query path; seeded randomness only where documented;
+  ranking model versioned and reproducible (AC-18).
+- **NFR-02 Zero fabrication**: no invented players, statistics, memberships, injuries,
+  mental states.
+- **NFR-03 Evidence lineage**: every claim → `verification_records` + `data_sources`.
+- **NFR-04 Format awareness**: no T20/List A/first-class mixing without documented
+  normalisation.
+- **NFR-05 Licensing & confidentiality**: ODC-By (verified locally) / CC BY 4.0 attribution;
+  RESTRICTED sources per `DATA_SOURCE_REGISTER.md`; proprietary hackathon data isolated.
+- **NFR-06 Frontend independence**: zero UI-framework imports in engines.
+- **NFR-07 Status honesty**: documented Phase 0 is **PARTIALLY_COMPLETE** (documentation
+  baseline complete; empirical data-source/licence audit incomplete) — see `docs/PHASES.md §2`.
 
 ---
 
 ## 10. Conclusion & Greenfield Baseline Declaration
 
-This PRD establishes the operational specification for the **RR Squad Intelligence & Team
-Composition Platform**. All features represent the **planned target state**
-(`[STATUS: PLANNED - GREENFIELD BASELINE]`). No application code has been pre-implemented.
-Subsequent engineering phases (Phases 0–10, see `docs/PHASES.md`) must validate deliverables
-against these requirements, scope boundaries, and acceptance criteria.
+This PRD specifies the target state for the **RR Squad Intelligence & Team Composition
+Platform**. No application code exists (`[STATUS: PLANNED - GREENFIELD BASELINE]`).
+Phases 1–10 (`docs/PHASES.md`) must validate deliverables against these requirements, scope
+boundaries, and acceptance criteria. The hackathon minimum submission (§7, §4.3) is
+distinct from the long-term platform (MVP + post-MVP).
