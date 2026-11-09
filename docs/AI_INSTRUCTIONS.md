@@ -1,20 +1,31 @@
 # AI Architectural Principles, Coding Standards & Domain Guardrails
 
-**Project Title**: Rajasthan Royals Squad Intelligence & Historical Performance Engine  
-**Event**: IPL 2027 Auction Scouting Hackathon  
-**Target Franchise**: Rajasthan Royals (RR)  
-**Document Version**: 1.0.0-PROD-SPEC  
-**Status**: `[STATUS: ACTIVE MANDATORY DIRECTIVE - GREENFIELD BASELINE]`  
-**Date**: November 2026  
-**Primary Authors**: Principal Software Architect, Systems Governance Lead, Lead Cricket Data Scientist  
+**Project Title**: RR Squad Intelligence & Team Composition Platform
+**Event**: IPL 2027 Hackathon
+**Target Franchise**: Rajasthan Royals (RR)
+**Document Version**: 2.0.0-ARCH-REVISION
+**Status**: `[STATUS: ACTIVE MANDATORY DIRECTIVE - GREENFIELD BASELINE]`
+**Date**: November 2026
+**Primary Authors**: Principal Software Architect, Systems Governance Lead, Lead Cricket Data Scientist
+
+> **Revision Note (v2.0.0)**: This directive now governs the **RR Squad Intelligence & Team
+> Composition Platform** (MIE + six engines + five services). It adds mandatory guardrails for
+> **player identity**, **team membership**, and **evidence verification**, and updates
+> the data directory to `datasets/`. The tenet "use LLMs everywhere" is **rejected**:
+> deterministic queries serve known facts; external research is used only for evidence
+> discovery/verification and is always provenance-tracked.
 
 ---
 
 ## 1. Purpose & Authority
 
-This document serves as the **Supreme Engineering Constitution** for all artificial intelligence agents, software engineers, and automated code synthesis systems operating within this repository. 
+This document is the **Supreme Engineering Constitution** for all AI agents, software engineers,
+and automated code-synthesis systems in this repository.
 
-Every architectural design, database migration, analytical formulation, API endpoint, and test suite MUST strictly comply with the principles, standards, and domain guardrails detailed herein. Any pull request or automated code synthesis that violates any directive in this document shall be automatically rejected by the **Data Quality & Validation Agent** and the **Chief Architect**.
+Every engine design, database migration, analytical formulation, service interface, Streamlit
+component, and test suite MUST comply with the principles, standards, and domain guardrails
+below. Any change that violates any directive is rejected by the **Data Quality & Coverage
+Agent** and the **Chief Architect**.
 
 ---
 
@@ -22,43 +33,52 @@ Every architectural design, database migration, analytical formulation, API endp
 
 ```
 +----------------------------------------------------------------------------------------------------+
-|                                    CORE ARCHITECTURAL TENETS                                       |
+|                                    CORE ARCHITECTURAL TENETS (REVISED)                             |
 +----------------------------------------------------------------------------------------------------+
 |  1. DETERMINISTIC REPRODUCIBILITY                                                                  |
-|     Bit-for-bit identical outputs from identical raw seeds across all execution environments.     |
+|     Identical inputs -> identical outputs. Seeded randomness only where documented.              |
 |                                                                                                    |
-|  2. CENTRAL NORMALISED 3NF RELATIONAL CORE                                                         |
-|     Zero redundant transaction data; single source of truth; strict foreign key referential integrity.|
+|  2. CENTRAL NORMALISED 3NF RELATIONAL CORE (27 ENTITIES)                                           |
+|     Zero redundant transaction data; strict referential integrity; canonical player_id.            |
 |                                                                                                    |
 |  3. READ-ONLY IMMUTABLE DATA LAKE                                                                  |
-|     Raw source files (CricSheet/) are immutable assets staged into a read-only Quarantine Lake.     |
+|     Raw source files in `datasets/` are immutable; staged into read-only raw tables.              |
 |                                                                                                    |
-|  4. UNBROKEN END-TO-END DATA LINEAGE                                                               |
-|     Every metric displayed on the UI traces back via foreign keys to underlying delivery records.   |
+|  4. EVIDENCE & PROVENANCE FIRST                                                                    |
+|     Every external/membership/eligibility claim traces to a verification record + data source.    |
 |                                                                                                    |
 |  5. STRICT SEPARATION OF CONCERNS                                                                  |
-|     Ingestion -> Staging -> Normalisation -> Enrichment -> Analytics -> APIs -> Presentation.       |
+|     Ingestion -> Staging -> Normalisation -> Research -> Analytics -> MIE -> Presentation.        |
+|                                                                                                    |
+|  6. FRONTEND-AGNOSTIC ENGINES                                                                      |
+|     No engine imports a UI framework. Streamlit (initial) and Next.js (future) both consume        |
+|     the same typed contracts.                                                                      |
+|                                                                                                    |
+|  7. NO LLM-DEPENDENCE FOR CORRECTNESS                                                              |
+|     Known facts/statistics come from deterministic queries. LLM-assisted research is flagged     |
+|     (third-party estimate / model-inferred) and routed to human review when it affects identity,  |
+|     membership, or eligibility.                                                                    |
 +----------------------------------------------------------------------------------------------------+
 ```
 
 ### 2.1 Deterministic Reproducibility
-- **Mandate**: All statistical calculations, probabilistic valuation models, and simulation routines must yield bit-for-bit identical results when executed with identical raw inputs and configuration parameters.
-- **Random Number Generation**: Stochastic algorithms (such as the 10,000-iteration Monte Carlo tournament simulator) MUST require an explicit integer random seed parameter (e.g., `seed=42`). The use of unseeded pseudo-random number generators or system-time seeds is strictly prohibited.
-- **Pure Functions**: Core statistical transformation routines must be written as pure functions with zero external side effects, operating solely on their explicit input parameters.
+- All deterministic statistical calculations must yield identical results from identical raw
+  inputs. Stochastic routines MUST require an explicit integer seed.
 
 ### 2.2 Central Normalised 3NF Relational Core
-- **Mandate**: All production match, player, and delivery entities must reside in a fully normalized Third Normal Form (3NF) relational schema within PostgreSQL 16+.
-- **Data Deduplication**: Redundant transaction attributes (such as repeating player names, team names, or venue city strings on delivery records) are strictly forbidden. Deliveries must reference canonical entity IDs via foreign keys.
-- **Materialized Views for Performance**: High-performance analytical rollups (e.g., career phase aggregates, rolling workloads) must be maintained in dedicated materialized views or analytical feature tables (`derived_features`), clearly isolated from core operational tables.
+- All player/match/delivery entities reside in a 3NF PostgreSQL 16 schema across 27 entities.
+- Redundant attributes forbidden; deliveries reference canonical entity IDs via foreign keys.
+- High-volume rollups live in `derived_features`, isolated from the operational core.
 
-### 2.3 Read-Only Immutable Data Lake (Quarantine Lake Architecture)
-- **Mandate**: The local raw data archive (`d:\New folder (2)\CricSheet\`) is an immutable, read-only data repository.
-- **Prohibition on Direct Mutation**: No agent or script shall modify, delete, rename, or append to any file within `CricSheet/`.
-- **Quarantine Staging**: All raw JSON and YAML payloads must be copied into PostgreSQL raw staging tables (`stg_cricsheet_matches`, `stg_cricsheet_deliveries`) accompanied by SHA-256 cryptographic hashes. Any malformed payload that fails parsing is staged into `stg_quarantine_log` with full error traces, preserving the raw data stream without halting the batch ingestion.
+### 2.3 Read-Only Immutable Data Lake
+- `datasets/` is immutable; no agent mutates, renames, or appends to it.
+- Raw payloads are copied to PostgreSQL staging with SHA-256 digests; malformed payloads are
+  quarantined without halting the run.
 
-### 2.4 Unbroken End-to-End Data Lineage
-- **Mandate**: Every statistical metric, valuation figure, and tactical card displayed on the user interface must maintain an unbroken provenance chain tracing back to the raw source file name, delivery timestamp, and calculation version.
-- **Audit Table**: The `derived_features` table must store `source_file_id`, `calculation_timestamp`, `model_version`, and `raw_record_hash` for every calculated row.
+### 2.4 Evidence & Provenance
+- Every derived or externally-sourced claim stores `source_record` provenance (see
+  `verification_records`: URL, provider, retrieval timestamp, licence, verification status,
+  confidence, original record ID).
 
 ---
 
@@ -66,253 +86,206 @@ Every architectural design, database migration, analytical formulation, API endp
 
 ```
 +----------------------------------------------------------------------------------------------------+
-|                                    APPROVED TECHNOLOGY STACK                                       |
+|                                    APPROVED TECHNOLOGY STACK (REVISED)                             |
 +-------------------+-----------------------------------+--------------------------------------------+
-| Layer             | Technology / Framework            | Minimum Version / Standard                 |
+| Layer             | Technology / Framework            | Standard                                  |
 +-------------------+-----------------------------------+--------------------------------------------+
-| Database Core     | PostgreSQL                        | 16.0+ (ANSI SQL, 3NF Normalized)           |
-| In-Memory Cache   | Redis                             | 7.2+ (Sub-200ms query caching)             |
-| Backend Service   | Python / FastAPI                  | Python 3.11+, Pydantic v2, SQLAlchemy 2.0  |
-| Scientific Math   | NumPy / Pandas / Scipy            | NumPy 1.26+, Pandas 2.2+                   |
-| Frontend Web App  | Next.js / React / TypeScript      | Next.js 14+, TypeScript 5.3+ (Strict)      |
-| Styling & UI      | Tailwind CSS / Lucide Icons       | Tailwind 3.4+                              |
-| Data Visualization| Recharts / Apache ECharts         | ECharts 5.5+, Recharts 2.12+               |
-| Network Graphs    | Cytoscape.js / React Flow         | React Flow 11.11+                          |
+| Initial UI        | Streamlit                         | Latest stable; thin adapters, no analytics|
+| Future UI         | Next.js / React / TypeScript      | Reuses engine contracts; not in MVP       |
+| Core Engines      | Python                            | 3.11+ (strict typing, PEP 8)            |
+| Database Core     | PostgreSQL                          | 16.0+ (3NF, 27 entities)                  |
+| Scientific Math   | NumPy / Pandas / SciPy             | NumPy 1.26+, Pandas 2.2+                      |
+| Orchestration     | MIE + typed engine contracts       | UI-independent, versioned                     |
+| Data Sources      | CricSheet, Kaggle, HawkeyeStats,  | Provenance-tracked, licence-compliant         |
+                    | Open-Meteo, official records        |                                             |
 +-------------------+-----------------------------------+--------------------------------------------+
 ```
 
-### 3.1 Python Standards (Backend & Analytics)
-1. **PEP 8 & Type Hints**: All Python source code must comply with PEP 8 style standards and mandate strict type hinting (`from typing import Optional, List, Dict, Union, Tuple`).
-2. **Pydantic v2 Validation**: All API request and response models must be defined as Pydantic v2 schemas with explicit field validators, regex constraints, and documentation strings.
-3. **Immutability**: Domain models representing facts (e.g. a completed delivery record) must use immutable constructs (such as `@dataclass(frozen=True)` or Pydantic `frozen=True`).
-4. **Docstrings**: All functions, classes, and modules must include Google-style docstrings specifying:
-   ```python
-   def compute_true_strike_rate(
-       observed_runs: int,
-       balls_faced: int,
-       expected_runs: float
-   ) -> Optional[float]:
-       """Computes the context-adjusted True Strike Rate relative to phase par.
+### 3.1 Python Standards
+1. **PEP 8 + strict type hints** across all engines and services.
+2. **Typed contracts**: engine request/response models as Pydantic (or frozen dataclasses),
+   versioned, and documented with Google-style docstrings.
+3. **Immutability** for fact records (completed deliveries, scorecard rows).
+4. **Frontend independence**: engines must import no UI framework; the Streamlit layer is the
+   only consumer that imports Streamlit.
 
-       Args:
-           observed_runs: Total runs scored off the bat by the player.
-           balls_faced: Total legal deliveries faced by the player.
-           expected_runs: Tournament phase baseline expected runs for balls faced.
+### 3.2 SQL & Database Standards
+1. Plural `snake_case` table names; singular `snake_case` column names; FKs as
+   `<referenced_singular>_id`.
+2. `TIMESTAMPTZ` UTC timestamps (ISO-8601).
+3. Precise numeric types: strike rates/economies `NUMERIC(6,2)`; probabilities `NUMERIC(5,4)`;
+   coordinates `NUMERIC(6,3)`; INR `NUMERIC(14,2)`.
+4. Foreign keys default `ON DELETE RESTRICT` for audit tables.
+5. **Format-aware storage**: derived statistics carry a `format_tag`; no cross-format mixing
+   without it.
 
-       Returns:
-           Context-adjusted True Strike Rate (TSR) in runs per 100 balls,
-           or None if balls_faced is zero.
-
-       Raises:
-           ValueError: If balls_faced is negative or observed_runs is negative.
-       """
-   ```
-
-### 3.2 SQL & Database Standards (PostgreSQL 16+)
-1. **Naming Conventions**:
-   - Table names: plural `snake_case` (e.g., `matches`, `deliveries`, `player_aliases`).
-   - Column names: singular `snake_case` (e.g., `match_id`, `delivery_number`, `is_super_over`).
-   - Primary keys: single-column `id` (BIGSERIAL or UUID) or explicit composite keys.
-   - Foreign keys: `<referenced_table_singular>_id` (e.g., `batter_id`, `venue_id`).
-2. **Timestamps & Timezones**: All temporal columns must use `TIMESTAMPTZ` and store timestamps in UTC conforming to ISO-8601 (`YYYY-MM-DDTHH:MM:SSZ`).
-3. **Explicit Type Casting**: Avoid loose typing; use precise numeric definitions:
-   - Currency: `NUMERIC(14, 2)` (e.g. purse amounts in INR).
-   - Strike rates & economies: `NUMERIC(6, 2)`.
-   - Probabilities / Win percentages: `NUMERIC(5, 4)` ($0.0000$ to $1.0000$).
-   - Coordinates: `NUMERIC(6, 3)` (trajectory meters).
-4. **Referential Integrity**: Foreign keys must explicitly specify delete actions, defaulting to `ON DELETE RESTRICT` for audit tables to prevent accidental deletion of historical data.
-
-### 3.3 TypeScript & Frontend Standards (Next.js 14+)
-1. **Strict Type Safety**: `tsconfig.json` must enforce `"strict": true`, `"noImplicitAny": true`, and `"strictNullChecks": true`. The use of `any` is strictly prohibited.
-2. **Functional React Components**: All UI components must be written as functional React components with explicit prop interfaces:
-   ```typescript
-   interface MatchupCardProps {
-     readonly batterId: string;
-     readonly bowlerId: string;
-     readonly seasonYear: number;
-     readonly isNightFixture: boolean;
-   }
-   ```
-3. **Zero Mockup Hardcoding in Production**: UI components must consume structured data from FastAPI endpoints. Mock arrays embedded in component files are prohibited.
+### 3.3 Streamlit Standards (Initial UI)
+1. `st.session_state` used **only** for ephemeral UI state (active team, active player, filters).
+2. **No analytics in Streamlit**: every rendered figure comes from an engine/service contract.
+3. Per-view thin adapters isolate views from engine calls; views are UI components, not
+   calculations.
+4. The Data Source & Verification Report view must surface UNVERIFIED and CONFLICT items
+   explicitly.
 
 ---
 
-## 4. Data Provenance, Licensing & Attribution Compliance
+## 4. Identity, Membership & Evidence-Verification Mandates
 
-### 4.1 Legal Licensing Attribution
-Every output, API response, exported report, and UI view generated by this platform must comply with the licensing agreements governing the underlying datasets:
+The integrity of this platform rests on three verification domains. AI agents and engineers MUST
+enforce the following.
 
-| Data Source | License Standard | Mandatory Attribution Text | Application Guardrail |
-|---|---|---|---|
-| **CricSheet** | Open Data Commons Attribution License (ODC-By) v1.0 | *"Cricket match data sourced from CricSheet (cricsheet.org), licensed under the Open Data Commons Attribution License (ODC-By) v1.0."* | Attribution must be displayed in the application footer and embedded in CSV/JSON data exports. |
-| **Open-Meteo** | Creative Commons Attribution 4.0 (CC BY 4.0) | *"Historical weather data provided by Open-Meteo.com under Creative Commons Attribution 4.0 International (CC BY 4.0)."* | Environmental data must be labeled as macro-weather context only. |
-| **Kaggle Datasets** | Creative Commons (CC BY-SA / CC BY 4.0) | *"Historical records cross-referenced against Kaggle IPL open datasets under respective CC licensing terms."* | Verified against CricSheet gold-standard; anomalous 2007 records quarantined. |
-| **HawkeyeStats** | Third-Party GitHub Repository (`alittlefitness`) | *"Ball-tracking trajectory metrics derived from HawkeyeStats open research repository."* | Isolated as optional nullable enrichment; strict null-safety enforced. |
+### 4.1 Player Identity (PIRE)
+- **Never merge two players merely because their names are similar.**
+- Identity resolution uses the 4-tier waterfall (registry key → alias → contextual → fuzzy +
+  biometric). Low-confidence or multi-candidate results are quarantined with
+  `needs_review=TRUE` and routed to user clarification or human review.
+- Date-of-birth and team/competition association are corroborating evidence, not overrides.
+- Unresolved identities are stored with `identity_status='UNRESOLVED'`/`PROVISIONAL`; they are
+  never silently assigned to an existing player.
 
-### 4.2 Data Provenance Architecture
-Every row in `derived_features` must maintain foreign keys to its calculation lineage:
-```sql
-CREATE TABLE derived_features (
-    id BIGSERIAL PRIMARY KEY,
-    feature_name VARCHAR(100) NOT NULL,
-    entity_type VARCHAR(50) NOT NULL, -- 'PLAYER', 'VENUE', 'MATCHUP'
-    entity_id BIGINT NOT NULL,
-    feature_value NUMERIC(10, 4) NOT NULL,
-    calculation_timestamp TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    model_version VARCHAR(50) NOT NULL,
-    source_match_count INTEGER NOT NULL,
-    source_file_hashes TEXT[] NOT NULL
-);
-```
+### 4.2 Team Membership (TMVE)
+- **Six-class taxonomy is exhaustive and mutually exclusive**: `CURRENT_SQUAD`,
+  `HISTORICAL_RR_PLAYER`, `PREVIOUSLY_ASSOCIATED`, `NEVER_REPRESENTED_RR`, `UNVERIFIED`,
+  `ELIGIBILITY_UNVERIFIED`.
+- **`CURRENT_SQUAD` is assigned only with verified current-season squad evidence.**
+- **Squad inclusion is not a match appearance**: a player on a squad list is not counted as a
+  verified appearance.
+- **Historical membership is not current membership**: a former RR player is not re-classified
+  as current.
+- **RR 2016–2017 suspension** is represented separately (never analysed as normal seasons);
+  membership analysis runs 2008–2015 / suspension / 2018+, with 2018–2026 as the primary
+  post-return window and **2027 as a future target season** until verified.
+- **A player who does not appear in a record base is `UNVERIFIED`, not `NEVER_REPRESENTED_RR`**,
+  unless a source confirms the absence.
+
+### 4.3 Evidence Verification (Service C)
+- Every external claim records source URL, provider, retrieval timestamp, licence, verification
+  status, confidence, and original record ID.
+- **The verification hierarchy** is: (1) official IPL/franchise records, (2) official scorecards,
+  (3) BCCI records, (4) reliable cricket databases, (5) reputable secondary reporting.
+- **CONFLICT** between sources routes to human review; MIE does not auto-resolve.
+- **Absence in a dataset is `DATASET_UNAVAILABLE` / `NOT_ESTABLISHED`**, never
+  `CONFIRMED_NON_PARTICIPATION`.
+- **The product must never automatically assume an unknown player is uncapped**; unknown =
+  `UNVERIFIED` / `ELIGIBILITY_UNVERIFIED`.
 
 ---
 
-## 5. Strict Statistical Correctness & Domain Rules
+## 5. Statistical Correctness & Domain Rules
 
-The integrity of this analytics platform rests upon unwavering fidelity to official cricket laws (MCC Laws of Cricket), ICC T20 International Playing Conditions, and BCCI IPL Playing Conditions. 
-
-AI agents and software engineers MUST enforce the following nine domain rules:
+The following domain rules are mandatory. AI agents and engineers MUST enforce them.
 
 ```
 +----------------------------------------------------------------------------------------------------+
-|                                    NINE STATISTICAL COMMANDMENTS                                   |
+|                                    DOMAIN COMMANDMENTS (REVISED)                                   |
 +----------------------------------------------------------------------------------------------------+
-|  RULE 1: NEVER TREAT MISSING AS ZERO                                                              |
-|  RULE 2: NEVER FABRICATE OR HALLUCINATE STATISTICS                                                 |
-|  RULE 3: NEVER CONFUSE BOWLING STYLE WITH DELIVERY VARIATION                                       |
-|  RULE 4: NEVER INTERPRET HAWK-EYE BALL COORDINATES AS FIELDER COORDINATES                          |
-|  RULE 5: NEVER ATTRIBUTE BYES, LEGBYES, OR PENALTY RUNS TO BOWLER'S RUNS CONCEDED                 |
-|  RULE 6: STRICT SUPER OVER ISOLATION PROTOCOL                                                     |
-|  RULE 7: RAIN-INTERRUPTED (DLS) REVISED TARGET ACCOUNTING                                          |
-|  RULE 8: IMPACT PLAYER SUBSTITUTION ACCOUNTING (UP TO 12 PARTICIPANTS PER TEAM)                    |
-|  RULE 9: ZERO BALLS FACED / ZERO OVERS BOWLED HANDLING (DNB / DNBOWL != 0.0)                      |
+|  R1: NEVER treat missing as zero (NULL, not 0.0)                                                  |
+|  R2: NEVER fabricate or hallucinate statistics, players, or memberships                           |
+|  R3: NEVER confuse bowling style with delivery variation                                          |
+|  R4: NEVER interpret Hawk-Eye post-shot ball coordinates as fielder coordinates                    |
+|  R5: NEVER attribute byes/leg-byes/penalty runs to bowler runs conceded                            |
+|  R6: STRICT Super Over isolation from career aggregates                                            |
+|  R7: RAIN-INTERRUPTED (DLS) revised-target accounting                                             |
+|  R8: NEVER infer a player's mental state from match statistics                                     |
+|  R9: NEVER fabricate injury histories (unverified injuries stay flagged)                           |
+|  R10: NEVER mix IPL/T20/List A/first-class statistics without format-aware comparison             |
+|  R11: NEVER represent weather as a direct measurement of pitch conditions                          |
+|  R12: NEVER make an unsupported membership or eligibility claim (absent evidence = UNVERIFIED)     |
 +----------------------------------------------------------------------------------------------------+
 ```
 
-### Rule 1: NEVER Treat Missing as Zero
-- **Domain Reality**: In sports analytics, the absence of an observation is fundamentally distinct from an observed value of zero.
-- **Specific Applications**:
-  1. *Ball Tracking Speed*: If radar/Hawk-Eye optical tracking did not record delivery speed, `ball_speed_kph` must be `NULL`. Setting it to `0.0 km/h` produces catastrophic errors in pace-filtering algorithms.
-  2. *Pitch Landing Coordinates*: If Hawk-Eye coordinates are missing, `pitch_x_coord` and `pitch_y_coord` must be `NULL`. Setting them to `(0.0, 0.0)` erroneously plots the ball dead-center on the middle stump!
-  3. *Batting Average / Economy Rate*: A player with zero dismissals or zero legal balls bowled cannot have a mathematical average computed. Return `NULL`, never `0.0`.
-- **Database Constraint**: Columns representing physical measurements must be nullable without default zeros.
+### Rule R1 — Never treat missing as zero
+- Missing ball speed / tracking coordinates / unrecorded figures stay `NULL`.
+- Zero dismissals → batting average `NULL`; zero overs bowled → economy `NULL`.
 
-### Rule 2: NEVER Fabricate or Hallucinate Statistics
-- **Domain Reality**: All metrics must be mathematically derivable from verified historical records.
-- **Strict Prohibition**: Under no circumstances shall an AI agent generate synthetic player profiles, invent fictional match scorecards, create placeholder deliveries, or fabricate model outputs to simulate a complete dataset.
-- **Validation Mandate**: The Data Quality Agent shall run automated checksum verifications between raw deliveries and career aggregates. Any detected deviation results in an immediate build termination.
+### Rule R2 — Never fabricate
+- No synthetic player profiles, invented match records, or placeholder deliveries.
+- No invented membership, injury, or eligibility. The Data Quality Agent checksums aggregates
+  against raw deliveries and terminates builds on deviation.
 
-### Rule 3: NEVER Confuse Bowling Style with Delivery Variation
-- **Domain Reality**: A bowler's **style** is their permanent physical bowling action registered with the match referee. A **delivery variation** is an individual ball mechanic chosen for a specific delivery.
-- **Taxonomy Definition**:
-  - *Bowling Styles (Permanent)*:
-    1. Right-Arm Fast / Fast-Medium (RAF)
-    2. Left-Arm Fast / Fast-Medium (LAF)
-    3. Right-Arm Offbreak (OS)
-    4. Left-Arm Orthodox (SLA)
-    5. Right-Arm Legbreak (LBG)
-    6. Left-Arm Unorthodox / Chinaman (LAC)
-  - *Delivery Variations (Tactical Mechanics)*:
-    - Slower ball, Off-cutter, Leg-cutter, Knuckle ball, Yorker, Bouncer.
-    - Carrom ball, Doosra, Arm ball, Top-spinner, Slider, Flipper, Googly.
-- **Engine Rule**: When generating the "Batter vs Bowling Type Matrix" (FR-07), aggregate strictly against the bowler's registered **bowling style**, not ad-hoc delivery commentary tags.
+### Rule R3 — Bowling style vs variation
+- `players.bowling_style` is the registered physical style; `deliveries.variation_type` is the
+  per-ball tactic. Matrix aggregations use registered style only.
 
-### Rule 4: NEVER Interpret Hawk-Eye Post-Shot Coordinates as Fielder Coordinates
-- **Domain Reality**: Hawk-Eye optical tracking systems record ball trajectory in two distinct phases: pre-shot (release to pitch bounce to bat impact) and post-shot (bat impact to boundary or fielder interception).
-- **Strict Prohibition**: The landing coordinate of the ball or its point of rest in the outfield MUST NEVER be interpreted as the physical spatial position of the fielding player.
-- **Reasoning**: Outfield ball coordinates represent the terminal trajectory of the ball, not the movement path, starting depth, or physical location of the fielder making the stop or catch.
+### Rule R4 — Hawk-Eye post-shot coordinates
+- Ball terminal coordinates are never fielder positions.
 
-### Rule 5: NEVER Attribute Byes, Legbyes, or Penalty Runs to Bowler's Runs Conceded
-- **Domain Reality**: Under ICC Law 21 (No ball), Law 22 (Wide ball), and Law 23 (Bye and Leg bye), runs scored from byes, leg-byes, and penalty runs are awarded to the team total but are NOT debited against the bowler's bowling analysis.
-- **Mathematical Formulation for Bowler Runs Conceded**:
-  $$\text{Bowler Runs Conceded} = \sum (\text{runs\_batter} + \text{wides} + \text{noballs})$$
-  $$\text{Byes and Legbyes Excluded}: \text{byes} = 0, \text{legbyes} = 0, \text{penalty} = 0$$
-- **Verification Rule**: Any bowling economy calculation that includes byes or leg-byes in the numerator is invalid and must be rejected.
+### Rule R5 — Runs-conceded exclusion
+- Bowler runs conceded excludes byes, leg-byes, and penalty runs.
 
-### Rule 6: Strict Super Over Isolation Protocol
-- **Domain Reality**: In official ICC and BCCI statistical records, runs scored, wickets taken, and deliveries bowled during a Super Over (one-over eliminator) to break a tie DO NOT increment a player's official career batting or bowling statistics.
-- **Implementation Mandate**:
-  1. All innings where `innings.is_super_over = true` must be excluded from default career aggregation views:
-     ```sql
-     CREATE VIEW v_career_batting AS
-     SELECT 
-         batter_id,
-         SUM(runs_batter) AS career_runs,
-         COUNT(id) AS balls_faced
-     FROM deliveries
-     WHERE is_super_over = false
-     GROUP BY batter_id;
-     ```
-  2. Super Over performances must be indexed into a dedicated `super_over_performances` table to serve as high-leverage clutch situational metrics.
+### Rule R6 — Super Over isolation
+- `is_super_over = TRUE` deliveries are excluded from career views by default.
 
-### Rule 7: Rain-Interrupted (DLS) Revised Target Accounting
-- **Domain Reality**: In matches affected by adverse weather, target scores and innings overs are revised using the Duckworth-Lewis-Stern (DLS) method.
-- **Calculation Rule**:
-  - In a match truncated to 6 overs with a revised target of 48 (e.g. Match 1082648), the required run rate must be calculated using the revised target and revised overs:
-    $$\text{Required Run Rate} = \frac{48 - \text{Current Score}}{6.0 - \text{Overs Completed}}$$
-  - **Prohibition**: NEVER divide the target by the standard 20-over quota when the match was officially shortened.
-  - Deliveries in truncated matches must have their match phases dynamically scaled proportionally to innings length.
+### Rule R7 — DLS accounting
+- Rain-truncated matches use the official revised target/overs for run-rate denominators.
 
-### Rule 8: Impact Player Substitution Accounting
-- **Domain Reality**: Under modern IPL playing conditions (2023–present), each team may introduce one tactical Impact Player substitute during the match from a pre-nominated list of 5 substitutes.
-- **Schema & Modeling Mandate**:
-  1. A team roster for an IPL match may include up to 12 participating players (11 starters + 1 active Impact Player).
-  2. The `squad_memberships` table must support the flag `is_impact_player = true`.
-  3. The `deliveries` table must support delivery-level replacement events recording the outgoing player, incoming player, and exact over timestamp.
-  4. In squad simulation (FR-16, FR-17), the constraint solver must allow exactly one tactical replacement per team per match.
+### Rule R8 — No mental-state inference
+- Performance under pressure is expressed via measured leverage situations (e.g., high-leverage
+  deliveries), never as a claim about a player's psychology or mental health.
 
-### Rule 9: Zero Balls Faced / Zero Overs Bowled Handling
-- **Domain Reality**: A player named in the official starting Playing XI who does not bat (Did Not Bat - DNB) or does not bowl (Did Not Bowl - DNBowl) must have their appearance recorded without distorting their averages.
-- **Rule Formulation**:
-  - Batting Average: $\frac{\text{Career Runs}}{\text{Career Dismissals}}$. If dismissals $= 0$ and balls faced $> 0$, average is undefined (conventionally displayed as `career_runs*` or `NULL`). If balls faced $= 0$, average is strictly `NULL` / `DNB`.
-  - Bowling Average & Economy: If balls bowled $= 0$, economy is strictly `NULL` / `DNBowl`. NEVER return `0.00` RPO for a player who did not bowl!
+### Rule R9 — No fabricated injuries
+- `player_injuries` rows carry `verified BOOLEAN`; unverified records remain `verified=FALSE`
+  and are labelled accordingly.
+
+### Rule R10 — Format awareness
+- T20, List A, and first-class figures are tagged by `format_tag`; comparisons across formats
+  require documented normalisation and are flagged when not available.
+
+### Rule R11 — Weather ≠ pitch
+- Ambient weather is a macro-context/dew proxy, labelled as such; it is never presented as
+  direct pitch-soil measurement.
+
+### Rule R12 — Unsupported claims stay UNVERIFIED
+- Membership, eligibility, and career claims lacking verified evidence are returned as
+  `UNVERIFIED` / `NOT_ESTABLISHED`, never as positive or negative determinations.
 
 ---
 
 ## 6. Prohibited Practices & Security Guardrails
 
-The following ten actions are **strictly prohibited** across all agents and automated scripts:
+The following actions are **strictly prohibited** across all agents and scripts.
 
 ```
 +----------------------------------------------------------------------------------------------------+
-|                                    STRICT SYSTEM PROHIBITIONS                                      |
-+----+-----------------------------------------------------------------------------------------------+
-| #  | Prohibited Action Description                                                                 |
-+----+-----------------------------------------------------------------------------------------------+
-| P1 | Generating synthetic, mock, or hallucinated player performance records.                      |
-| P2 | Mutating, modifying, renaming, or deleting raw match files inside `CricSheet/`.                |
-| P3 | Imputing missing values with `0.0` or arbitrary global averages.                              |
-| P4 | Permitting Super Over statistics to increment career batting or bowling totals.                |
-| P5 | Attributing byes, leg-byes, or penalty runs to bowler runs conceded.                         |
-| P6 | Permitting more than 4 overseas players in any simulated Starting Playing XI.                 |
-| P7 | Using raw, unparameterized SQL queries in API endpoints (Mandatory SQLi prevention).          |
-| P8 | Executing live external scraping scripts or making unauthorized network API calls.            |
-| P9 | Bypassing or suppressing failed automated quality test assertions.                            |
-| P10| Confusing macro-meteorological weather (Open-Meteo) with direct in-ground pitch sensors.       |
-+----+-----------------------------------------------------------------------------------------------+
+|                                    STRICT SYSTEM PROHIBITIONS (REVISED)                            |
++----+------------------------------------------------------------------------------------------------+
+| #  | Prohibited Action                                                                    |
++----+----------------------------------------------------------------------------------------+
+| P1 | Generating synthetic / mock / hallucinated player or match records                  |
+| P2 | Mutating, renaming, or deleting raw files inside `datasets/`                        |
+| P3 | Imputing missing values with 0.0 or arbitrary averages                             |
+| P4 | Allowing Super Over statistics to increment career totals                           |
+| P5 | Attributing byes/leg-byes/penalty runs to bowler runs conceded                     |
+| P6 | Merging two players solely because their names are similar                          |
+| P7 | Classifying an unknown player as uncapped or as NEVER_REPRESENTED_RR without evidence|
+| P8 | Inferring a player's mental state from match statistics                            |
+| P9 | Fabricating injury histories or eligibility facts                                   |
+| P10| Representing weather as a direct pitch-condition measurement                       |
+| P11| Making an engine depend on an LLM for deterministic correctness                     |
+| P12| Using raw, unparameterised SQL (mandatory SQLi prevention)                          |
+| P13| Leaking the proprietary hackathon dataset into public outputs or exports           |
+| P14| Performing analytics inside Streamlit (engines must be UI-independent)             |
++----+----------------------------------------------------------------------------------------+
 ```
 
-### 6.1 Database Security (SQL Injection Prevention)
-All database interactions in FastAPI services, background tasks, and migration scripts must use parameterized SQL queries or the SQLAlchemy 2.0 ORM. Raw string formatting (`f"SELECT * FROM players WHERE name = '{name}'"`) is strictly forbidden and constitutes a critical security vulnerability.
+### 6.1 Database Security
+All database interactions use parameterised queries or the ORM. Raw string interpolation of user
+input into SQL is forbidden.
 
-### 6.2 Regulatory Validation Invariants
-Any squad configuration generated by the optimization solver or user interface must pass hard validation checks before persisting:
-```python
-def validate_playing_xi(playing_xi: List[Player]) -> None:
-    if len(playing_xi) != 11:
-        raise ValidationError(f"Playing XI must contain exactly 11 players; received {len(playing_xi)}.")
-    
-    overseas_count = sum(1 for p in playing_xi if p.is_overseas)
-    if overseas_count > 4:
-        raise ValidationError(f"Playing XI exceeds overseas limit: {overseas_count} overseas players (maximum 4).")
-        
-    wk_count = sum(1 for p in playing_xi if p.is_wicketkeeper)
-    if wk_count < 1:
-        raise ValidationError("Playing XI must contain at least 1 designated wicketkeeper.")
-```
+### 6.2 Deterministic-Query Mandate
+Known facts and statistics are served by deterministic database queries. External research is used
+for **evidence discovery and verification** only, with provenance recorded by Service C.
+
+### 6.3 Human-Review Mandate
+Ambiguous player identities and conflicting evidence **require human review**; no agent auto-
+resolves them.
 
 ---
 
 ## 7. Conclusion & Engineering Attestation
 
-This document forms an unbroken chain of architectural and domain constraints. By maintaining strict adherence to these principles, the engineering team guarantees that the **Rajasthan Royals Squad Intelligence & Historical Performance Engine** is built upon forensic mathematical accuracy, regulatory validity, and elite production engineering standards.
+This directive forms an unbroken chain of architectural and domain constraints. By enforcing
+deterministic reproducibility, a strict 27-entity 3NF core, an immutable data lake, evidence-first
+provenance, the six-class membership taxonomy, the four-state coverage model, and the twelve domain
+rules, the team guarantees that the **RR Squad Intelligence & Team Composition Platform** is built
+on forensic accuracy, evidence-backed verification, and production engineering standards.
