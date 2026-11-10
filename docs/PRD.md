@@ -4,12 +4,19 @@
 **Target Franchise**: Rajasthan Royals (RR)
 **Hackathon**: IPL 2027 Rajasthan Royals scouting hackathon
 **Primary Interface (initial)**: Streamlit · **Future Frontend**: Next.js (engines are frontend-agnostic)
-**Document Version**: 2.1.0-REMEDIATED
+**Document Version**: 2.1.1-TARGETED-REMEDIATION
 **Status**: `[STATUS: PLANNED - GREENFIELD BASELINE]`
 **Date**: November 2026
 **Primary Authors**: Principal Software Architect, Sports Data Engineer, Cricket Analytics Researcher, Technical Documentation Engineer
 
-> **Revision Note (v2.1.0, remediation)**: This revision corrects the v2.0.0 workflow (CDCRE
+> **Revision Note (v2.1.1, targeted remediation)**: Use Case 3's ranking methodology is now
+> the versioned, reproducible [`RANKING_SPEC.md`](RANKING_SPEC.md) configuration `RK-1.0.0`
+> (deterministic gate + three-level ordering + documented total-order tiebreakers, one
+> `ranking_runs` row per (config, data snapshot) — AC-18); AC-06 participation rows are
+> evidence-bound (local corroboration is not verification); AC-22/AC-23 test mappings
+> corrected. Full register: `reports/DOCUMENTATION_REMEDIATION_AUDIT.md` §v2.1.1.
+>
+> **Revision Note (v2.1.0, remediation, retained for history)**: This revision corrected the v2.0.0 workflow (CDCRE
 > now has two capabilities — pre-identity candidate discovery and post-identity career
 > retrieval — removing the PIRE↔CDCRE circular dependency), replaces the conflated six-class
 > membership taxonomy with **three independent dimensions** (RR relationship · current status ·
@@ -210,21 +217,29 @@ The platform must support (SICE + CPPAE + TMVE + eligibility service):
 9. **Squad fit**: SICE gap/role-match analysis against the current RR composition.
 10. **Risk and data-coverage limitations** per candidate (coverage class, verification
     status, evidence tier).
-11. **Ranking methodology** (transparent, role-aware, measurable, reproducible, validated
-    against available data):
-    - Within-role baseline: role-group performance distribution over the target window
-      (T20, format-tagged).
-    - Score = within-role percentile of a documented set of role-relevant metrics, each with
-      a **justified, versioned weight** stored in `derived_features.model_version`
-      (equal-weight default; any deviation requires a documented, versioned rationale).
-    - Sample-size shrinkage toward the role baseline for small samples (documented
-      constant, e.g. k = 50 balls), so tiny samples cannot out-rank deep samples silently.
-    - Age ordering applied **within** verified-eligible, role-grouped candidates; ties
-      broken by consistency, then sample size (documented).
-    - Output: **Top 10 + reserve list** (next-ranked verified candidates), each with a
-      full evidence dossier (sources, tiers, dates, confidence where calibrated).
-12. **No hardcoded arbitrary weights**: any weight set is a versioned, documented,
-    reproducible model configuration — not an inline constant.
+11. **Ranking methodology** (transparent, role-aware, measurable, reproducible) —
+    **fully specified in [`docs/RANKING_SPEC.md`](RANKING_SPEC.md), configuration
+    `RK-1.0.0`** (v2.1.1: replaces the retired equal-weight percentile + shrinkage model):
+    - **Candidate universe**: resolved identity + `VERIFIED_ELIGIBLE` under the active
+      `eligibility_policies` version for the target season + age band (min 18 / max 26 at the
+      recorded `evaluation_date`) + minimum verified-sample rule (unknown players are
+      **never** assumed uncapped; `NOT_ASSESSED` is excluded, not promoted).
+    - **Within-role relevance gate** (`gate_thresholds`): per role group, verified
+      career strike rate (or bowling strike rate) at/above the role baseline percentile
+      with a minimum observed-ball sample, so tiny samples cannot out-rank deep samples.
+    - **Deterministic three-level ordering** (pure SQL, no LLM, no subjective weights):
+      age (youngest first, computed at the recorded evaluation date) → consistency
+      (innings batted ÷ appearances) → career average B05 (format-tagged; `NULL`/not-out-only
+      averages sort after computed ones at equal keys).
+    - **Documented total-order tiebreakers**: strike rate → balls faced → `player_id`
+      string form; `seed = 0` (deterministic SQL ordering).
+    - **Output**: **Top 10 + reserve list**, each entry with a full evidence dossier
+      (sources, tiers, dates, sample sizes; confidence only when calibrated); the board is
+      stored in a **`ranking_runs`** row keyed `(ranking_configurations, data_snapshot)` so
+      the same inputs always reproduce exactly one board.
+12. **No hardcoded arbitrary weights / no inline ranking constants**: the complete method
+    is the versioned `ranking_configurations` record + `RANKING_SPEC.md`; every execution is
+    a durable `ranking_runs` row (reproducible and auditable).
 
 ### 4.4 Use Case 4: Squad Gap Analysis (MVP core)
 SICE analyses the assembled team (depth, balance, duplication, gaps, comparisons,
@@ -378,7 +393,7 @@ diagrams in `docs/ARCHITECTURE.md`; phases in `docs/PHASES.md`; agents in `docs/
 | **AC-03** | Ambiguous identities route to user clarification; MIE never guesses | Orchestration tests with multi-candidate fixtures |
 | **AC-04** | Three membership dimensions stored/returned independently; no single conflated label | Schema + contract assertions on `player_membership_state` / `player_eligibility` |
 | **AC-05** | Squad-inclusion-only players show `appearances = 0` and `HISTORICAL_RR_SQUAD_ONLY`; verified appearances count only match records | Appearance-vs-squad-list differential test |
-| **AC-06** | `team_season_participation`: RR×IPL 2016 and 2017 rows = `SUSPENDED`/verified; IPL 2016/17 seasons exist with other teams `PARTICIPATING`; RR×IPL 2027 = `UNKNOWN` until evidence | Schema + fixture assertions |
+| **AC-06** | `team_season_participation`: RR×IPL 2016 and 2017 rows = `SUSPENDED`; the IPL 2016/17 seasons exist with other teams `PARTICIPATING`; RR×IPL 2027 = `UNKNOWN` until evidence. **v2.1.1 (Priority E)**: no participation row may be `VERIFIED` without a cited `verification_records` evidence row (DDL `chk_tsp_verified_evidence`); roadmap/model statements and local tier-4 corroboration (CricSheet fixture presence/absence) do **not** constitute verification; rows seed `PENDING`/`UNVERIFIED` | Schema CHECKs + fixture assertions + `chk_tsp_verified_evidence` enforcement |
 | **AC-07** | Every external claim carries a provenance record (URL, provider, timestamp, licence, tier, status, record ID) with a verification hierarchy level | Provenance completeness check |
 | **AC-08** | `NO_VERIFIED_RR_RELATIONSHIP` only when TRD §4.5 requirements all satisfied + human review; else `RR_RELATIONSHIP_UNKNOWN` | Negative-verification audit fixture |
 | **AC-09** | Eligibility rows always reference an `eligibility_policies` version; unknown players default `NOT_ASSESSED`, never auto-uncapped | Schema assertion (`policy_id` NOT NULL) + fixture |
@@ -390,11 +405,11 @@ diagrams in `docs/ARCHITECTURE.md`; phases in `docs/PHASES.md`; agents in `docs/
 | **AC-15** | No numeric confidence exposed without `calibrated=TRUE` (NULL otherwise) | Contract assertion |
 | **AC-16** | Team CRUD + role assignment + saved configurations work end-to-end | E2E test |
 | **AC-17** | SICE outputs labelled `ANALYTICAL_RECOMMENDATION`; no unvalidated probabilities | Output-contract assertion |
-| **AC-18** | Top-10 ranking reproducible from the same inputs + model version; weights versioned in `derived_features.model_version`; dossiers complete (§4.3 items 1–12) | Reproducibility test (same seed/version → same board) + dossier completeness check |
+| **AC-18** | Top-10 board reproducible: `run_ranking(config_version, data_snapshot)` returns exactly the board stored in the `ranking_runs` row for `(ranking_configurations, data_snapshot_sha256)`; the method is the versioned `RANKING_SPEC.md` config (`RK-1.0.0`), never an inline constant; dossiers complete (§4.3 items 1–12) | Reproducibility test (same config + snapshot → identical stored board; re-run is a no-op) + dossier completeness check |
 | **AC-19** | Ingestion: per-dataset counts match DATA_SOURCE_REGISTER verified counts (1,243/201/265/230; SMAT gap recorded); DQ reconciliation gates pass | Ingestion completeness SQL |
 | **AC-20** | Exports embed ODC-By attribution; no proprietary hackathon content in public exports | Export-contract + confidentiality audit |
 | **AC-21** | Team Builder constraints: 11-view navigation + composition rules (informational caps, not enforced selection) | UI test |
-| **AC-22** | All 11 Streamlit views render with no UI-side analytics | Import-architecture test |
+| **AC-22** | All 11 Streamlit views render with no UI-side analytics | View-render test + static audit that no view performs analytics |
 | **AC-23** | Engine modules importable with Streamlit uninstalled (Next.js-ready) | Static import test |
 
 ---

@@ -1,11 +1,23 @@
 # Technical Requirements Document (TRD) & Central Database Schema
 **Product**: RR Squad Intelligence & Team Composition Platform
 **Focus Franchise**: Rajasthan Royals (RR) · **Primary Interface**: Streamlit (initial) · **Future Frontend**: Next.js
-**Document Version**: 2.1.0-REMEDIATED
+**Document Version**: 2.1.1-TARGETED-REMEDIATION
 **Status**: [STATUS: PLANNED - GREENFIELD BASELINE]
 **Author**: Engineering Architecture Team (`teamwork_worker_2`)
 
-> **Revision Note (v2.1.0, remediation)**: This revision corrects the v2.0.0 DDL (invalid
+> **Revision Note (v2.1.1, targeted remediation)**: Corrects the cricket-statistics DDL
+> and contracts left in v2.1.0 — decimal overs replaced by integer ball counts of record
+> (D11); `deliveries.match_id` removed so delivery↔innings match identity is structural
+> (D12); `chk_dnb` → `chk_dnb_zero` distinguishing DNB from zero-ball batted appearances
+> (D13); `player_eligibility` policy-season integrity + verification-consistency CHECKs
+> (D14); `team_season_participation` evidence-bound status rules (D15); the single
+> three-group phase model; The Hundred as a first-class `HUNDRED` format
+> (`competitions.balls_per_over = 5`); `CURRENT_RR_SQUAD` removed from Dimension 1
+> (currency lives in Dimension 2); TMVE returns Dimensions 1–2 while the Eligibility
+> Service returns Dimension 3 (Option B, MIE composes). Full register:
+> `reports/DOCUMENTATION_REMEDIATION_AUDIT.md` §v2.1.1.
+>
+> **Revision Note (v2.1.0, remediation, retained for history)**: This revision corrected the v2.0.0 DDL (invalid
 > expression UNIQUE constraint, missing partitioned-table FKs, soft delivery links, false-claim
 > defaults, overs datatype), replaces the competition-level `seasons.is_suspension` model with a
 > franchise-level **`team_season_participation`** entity, splits the six-class membership taxonomy
@@ -73,7 +85,7 @@ system for constructing and evaluating a Rajasthan Royals team. The primary work
                                               │ Read / derive (deterministic)
                                               ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│       Central PostgreSQL 16 Normalised Core (31 entities, 3NF core)          │
+│       Central PostgreSQL 16 Normalised Core (33 entities, 3NF core)          │
 │   players, player_aliases, teams, competitions, seasons,                    │
 │   team_season_participation, squad_memberships, player_team_history,        │
 │   matches, innings, deliveries, batting_innings, bowling_spells,           │
@@ -101,7 +113,7 @@ system for constructing and evaluating a Rajasthan Royals team. The primary work
 3. **Six Specialised Engines (ENGINE 01–06)**: PIRE, TMVE, CDCRE, CPPAE, CMIE, SICE — each with
    a documented input/output contract (§3–§8).
 4. **Five Support Services (A–E)**: §9.
-5. **Central Normalised Relational Core (PostgreSQL 16, 31 entities)**: normalised 3NF core
+5. **Central Normalised Relational Core (PostgreSQL 16, 33 entities)**: normalised 3NF core
    with canonical `player_id` across all engines and declarative season partitioning on
    `deliveries` (§10). `derived_features` is a deliberately denormalised feature store,
    documented as the one non-3NF table.
@@ -138,8 +150,10 @@ Streamlit, React, or any UI runtime.
 MIE.request_player_intelligence(name: str, team_id: Optional[UUID]) -> PlayerIntelligenceReport
 PlayerIntelligenceReport {
     identity:       PIRE.Output            # resolved player_id + tier + evidence + warnings
-    membership:     TMVE.Output            # three dimensions + evidence (independent states)
-    eligibility:    EligibilityOutput      # season-bound, policy-versioned (see §4.6)
+    membership:     TMVE.Output            # Dimensions 1-2 (RR relationship + currency), independent states
+    eligibility:    EligibilityOutput      # Dimension 3, from the Eligibility Service — season-bound,
+                                           # policy-versioned (§4.4 Option B; §4.6); MIE composes the three
+                                           # but never blends them into one label
     career:         CDCRE.Output           # competition history + coverage status
     performance:    CPPAE.Output           # batting/bowling/fielding/WK/match contribution
     context:        CMIE.Output            # environmental & match-condition annotations
@@ -243,6 +257,17 @@ history, currency, and (independently) eligibility.
   **RR suspended 2016–2017** (IPL continued; other franchises unaffected), **RR returned
   2018–2026**, **IPL 2027 remains UNVERIFIED participation** until authoritative evidence
   exists.
+  > **v2.1.1 evidence-status correction (Priority E)**: the *windows themselves* are a
+  > documented model, not verified facts. Each `team_season_participation` row for
+  > RR × IPL 2008–2026 is seeded **`UNVERIFIED`/`PENDING`** until claim-level evidence is
+  > retrieved into `verification_records` (tier-1 BCCI suspension notice for 2016/17;
+  > official squad lists / scorecards per window). The locally-corroborating CricSheet IPL
+  > archive (RR fixtures present 2008–2015 & 2018–2026, **absent** 2016–2017; 2016/17
+  > continue with 59–60 other-team fixtures) is **tier-4** database corroboration only —
+  > it supports the model but does not by itself upgrade a row to `VERIFIED`. A single
+  > source establishing one event (e.g. the 2016 suspension notice) does **not** verify
+  > the whole 2008–2026 window. 2027 stays `UNKNOWN`/`UNVERIFIED` until official squad
+  > publication.
 - Identify other IPL teams and documented retention/auction/transfer/release facts.
 - Verify current squad membership **separately** from historical membership.
 - Perform **authorised external research** when internal records are insufficient.
@@ -258,10 +283,17 @@ label. A former RR player can simultaneously have a separately assessed uncapped
 state; a player unknown to the internal database is **never** auto-classified as uncapped.
 
 #### Dimension 1 — RR relationship (`rr_relationship_state`)
+> **v2.1.1 deduplication**: `CURRENT_RR_SQUAD` was removed from this dimension. It
+> duplicated Dimension 2 (`rr_current_state = CURRENT`), which already expresses currency
+> independently. A player's *current-squad* standing is read from Dimension 2, never from
+> the relationship state. Dimension 1 therefore captures only the **nature of the
+> verified RR association**, preserving the project's four intended distinctions —
+> historical appearance · squad-only · previously associated · unknown — plus the
+> documented negative-verified state:
+
 | State | Definition |
 |---|---|
-| `CURRENT_RR_SQUAD` | Verified current-season RR squad evidence. |
-| `HISTORICAL_RR_APPEARANCE` | Verified RR match appearance in a prior season. |
+| `HISTORICAL_RR_APPEARANCE` | Verified RR match appearance in a prior season (whether the player is also on the current squad is Dimension 2, not this state). |
 | `HISTORICAL_RR_SQUAD_ONLY` | Verified RR squad inclusion without a confirmed appearance. |
 | `PREVIOUSLY_ASSOCIATED` | Documented prior association (loan, brief squad, release) with evidence, no confirmed match. |
 | `NO_VERIFIED_RR_RELATIONSHIP` | No verified relationship — **only** via the §4.5 negative-verification requirements. |
@@ -275,19 +307,57 @@ state; a player unknown to the internal database is **never** auto-classified as
 always season-bound and policy-versioned (§4.6); `NOT_ASSESSED` is the default for any player
 whose eligibility has not been independently verified.
 
-### 4.4 Output Contract
+### 4.4 Output Contract (three dimensions, composed by MIE — Option B, v2.1.1)
+
+**Design decision (v2.1.1, documented)**: TMVE returns **Dimensions 1 and 2**
+(RR relationship · current membership). **Dimension 3 (IPL/uncapped eligibility) is
+returned by the Eligibility Service** against the active `eligibility_policies` version for
+the target season, and **MIE composes all three** into the unified report. This keeps TMVE
+franchise-scoped (it verifies RR representation; it does not own BCCI/IPL-wide eligibility
+rules, which are versioned policy content) and removes the ambiguity where the TMVE output
+contract previously described Dimensions 1–2 while the architecture asserted a third.
+
 ```
 TMVE.verify(player_id, as_of_date) -> TMVE.Output {
-    rr_relationship_state:   enum(Dimension 1)
-    rr_current_state:        enum(Dimension 2)
-    rr_seasons:              List[str]       # verified RR seasons (2008-2015 | 2018-2026 verified so far; 2027 unverified)
+    rr_relationship_state:   enum(Dimension 1, §4.3)
+    rr_current_state:        enum(Dimension 2, §4.3)   # CURRENT / NOT_CURRENT / UNKNOWN
+    rr_seasons:              List[str]       # verified RR seasons (2008-2015, 2018-2026 so far; 2027 unverified)
     other_ipl_teams:         List[str]
     verified_rr_appearances: int             # confirmed match count; 0 is a value, not "unknown"
     evidence:                List[SourceRecord]
     verification_date:       date
     membership_confidence:   Optional[float]  # NULL unless calibrated (see §3.3 semantics)
 }
+
+EligibilityService.assess(player_id, target_season_id) -> EligibilityOutput {
+    eligibility_status:  enum(Dimension 3, §4.3)      # VERIFIED_ELIGIBLE / VERIFIED_NOT_ELIGIBLE /
+                                                       # ELIGIBILITY_UNVERIFIED / NOT_ASSESSED
+    policy_id:           UUID                          # active eligibility_policies version for the season
+    policy_version:      int
+    verified:            bool
+    verification_id:     Optional[UUID]                # NULL unless a verified outcome
+    evidence:            List[SourceRecord]
+}
+
+MIE composition (typed response, §2.2):
+    report.membership = TMVE.Output                      # Dimensions 1-2
+    report.eligibility = EligibilityService.assess(...)   # Dimension 3
+    # MIE never blends the three into one label; each is surfaced independently.
 ```
+
+**Database ownership**: Dimensions 1–2 → `player_membership_state` (TMVE writes);
+Dimension 3 → `player_eligibility` + `eligibility_policies` (Eligibility Service writes).
+**Verification responsibility**: TMVE performs §4.5 negative-verification for Dimension 1
+and current-squad verification for Dimension 2; the Eligibility Service performs the
+rule-source + independently-verified assessment for Dimension 3. **Evidence provenance**:
+every state cites `verification_records` rows (Service C). **Error / conflict states**:
+each dimension carries its own `UNKNOWN` / `ELIGIBILITY_UNVERIFIED` / `NOT_ASSESSED` /
+`CONFLICT` values independently; a conflict in one dimension does not propagate to the
+others, and CONFLICT always routes to human review (AI_INSTRUCTIONS §4.3). **Tests /
+acceptance criteria**: AC-04 (three dimensions stored/returned independently), AC-08
+(negative-verification gate), AC-09 (eligibility rows always reference a policy version;
+unknowns default `NOT_ASSESSED`), and the new AC-24 (eligibility season derived from the
+policy, never a redundant independent season_id).
 
 ### 4.5 Negative Membership Verification Requirements
 A player may be classified `NO_VERIFIED_RR_RELATIONSHIP` **only** when all of the following
@@ -321,6 +391,13 @@ carry `policy_id`.
   property: IPL 2016/2017 seasons exist with all other franchises `PARTICIPATING`.
 - **IPL 2027 is a future target season**: RR's 2027 participation row is `UNKNOWN` until
   authoritative squad/participation evidence is verified.
+- **v2.1.1 (Priority E) — verification-status honesty**: every `team_season_participation`
+  row is `PENDING`/`UNVERIFIED` on seeding and may only become `VERIFIED` when a
+  `verification_records` row (tier 1–5) is cited (DDL `chk_tsp_verified_evidence`). The
+  roadmap and DDL comments describing RR 2008–2015 / 2016–17 / 2018–2026 windows are
+  **model statements, not verified evidence**; they do not substitute for retrieval.
+  Local CricSheet archive corroboration (RR fixtures present 2008–2015 & 2018–2026,
+  absent 2016–2017) is recorded as tier-4 supporting evidence, not tier-1.
 
 ---
 
@@ -338,9 +415,13 @@ carry `policy_id`.
 ### 5.2 Competitions Investigated
 Previous IPL franchises · domestic state teams · Ranji Trophy · Syed Mushtaq Ali Trophy · Vijay
 Hazare Trophy · Duleep Trophy · India A and age-group cricket · international cricket · other
-recognised T20 leagues · other verified competitions. **Local data note**: SMAT is
+recognised T20 leagues · **The Hundred (England/Wales, 5-ball-over T20 variant)** · other
+verified competitions. **Local data note**: SMAT is
 `DATASET_UNAVAILABLE` in the current local lake (see `docs/DATA_SOURCE_REGISTER.md`);
 discovery of SMAT participation requires external research and is provenance-tracked.
+The Hundred local archive (`datasets/hnd_male_json`, 201 files, CricSheet, ODC-By) is a
+first-class ingestion source — but its metrics stay `DEFERRED` until the
+`balls_per_over = 5` handling is validated (Priority B, DATA_DICTIONARY §5).
 
 ### 5.3 Responsibilities
 Discover competitions and team history · retrieve available statistics · identify season
@@ -507,9 +588,10 @@ verification status · confidence (only when calibrated) · original source reco
 ### 9.4 Service D — Data Quality & Coverage Service
 Detects missing data · duplicates · conflicting statistics · invalid player associations ·
 inconsistent match identities (including **innings↔delivery consistency** checks: delivery
-`match_id` must equal its innings' `match_id`; innings delivery counts reconcile to
-`deliveries` aggregates) · unavailable contextual features. Emits coverage states consumed by
-CDCRE/TMVE.
+counts and innings↔delivery aggregates reconcile to `deliveries` per innings; the
+delivery↔innings match-key invariant is now **structural** (C4: `match_id` is derived, not
+stored) so no cross-table match-identity check is required) · unavailable contextual
+features. Emits coverage states consumed by CDCRE/TMVE.
 
 ### 9.5 Service E — Team Builder Service
 User team lifecycle: create, add/remove players, composition, role and batting-order
@@ -517,13 +599,15 @@ assignment, saved configurations (`user_teams`, `user_team_players`).
 
 ---
 
-## 10. Central PostgreSQL 16 Database Schema (31 Entities)
+## 10. Central PostgreSQL 16 Database Schema (33 Entities)
 
 Canonical `player_id` is the single join key across engines. Raw (`source_records`),
-normalised, and derived (`derived_features`) layers are strictly segregated. **31 logical
-entities** — two were added in this revision (`team_season_participation`,
-`player_membership_state`, `player_eligibility`, `eligibility_policies`) and the
-competition-level suspension flag removed.
+normalised, and derived (`derived_features`) layers are strictly segregated. **33 logical
+entities** — the v2.1.0 baseline was 31 (adding `team_season_participation`,
+`player_membership_state`, `player_eligibility`, `eligibility_policies` and removing the
+competition-level suspension flag); **v2.1.1 adds 2 more** (`ranking_configurations`,
+`ranking_runs`, Priority F) to hold the versioned, reproducible Top-10 ranking method and
+its durable run records.
 
 ### 10.1 Entity Domains
 ```
@@ -543,6 +627,7 @@ competition-level suspension flag removed.
 │                             player_eligibility                                 │
 │ 8. USER TEAM COMPOSITION  : user_teams, user_team_players                       │
 │ 9. FEATURE STORE          : derived_features                                    │
+│ 10. RANKING (v2.1.1)      : ranking_configurations, ranking_runs                │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -550,7 +635,7 @@ competition-level suspension flag removed.
 | # | Decision | Rationale |
 |---|---|---|
 | D1 | `derived_features`: table UNIQUE constraint **removed**; replaced by a **unique expression index** `UNIQUE (player_id, feature_name, calculation_window, model_version, COALESCE(format_tag,''))` | PostgreSQL forbids expressions inside table-level UNIQUE constraints; expression indexes are the native mechanism and avoid a redundant mutable key column. |
-| D2 | `deliveries`: real FKs on `innings_id`, `match_id`, `batter_id`, `bowler_id`, `non_striker_id`, `player_out_id` (nullable) | Referential integrity. Target PostgreSQL 16 enforces FKs on partitioned referencing tables (supported since PG 15; load order: matches → innings → deliveries, FKs non-deferrable; on pre-15 engines these become enforced-by-check constraints — Phase 2 gate). Composite PK already includes the partition key `season_year`. |
+| D2 | `deliveries`: real FKs on `innings_id`, `batter_id`, `bowler_id`, `non_striker_id`, `player_out_id` (nullable). `match_id` is **not stored** — it is derived through `innings_id → innings.match_id` (C4), so a delivery cannot reference a different match from its innings. | Referential integrity. Target PostgreSQL 16 enforces FKs on partitioned referencing tables (supported since PG 15; load order: matches → innings → deliveries, FKs non-deferrable; on pre-15 engines these become enforced-by-check constraints — Phase 2 gate). Composite PK already includes the partition key `season_year`. Match-scoped delivery access goes through `deliveries.innings_id → innings.match_id` (index `idx_deliveries_innings`). |
 | D3 | `fielding_events`: `delivery_id` optional, integrity preserved via composite `(delivery_id, season_year)` FK to `deliveries(delivery_id, season_year)` + CHECK (both-or-none); partial unique index on (delivery, season_year, player_id, event_type) where delivery is present | Optional relationship stays optional but valid; NULL delivery links are recorded provenance (scorecard-level events without ball ids). |
 | D4 | `team_season_participation` replaces `seasons.is_suspension` | The RR 2016–17 suspension is franchise-specific; IPL continued for other teams. |
 | D5 | Membership split into `player_membership_state` + `player_eligibility` + `eligibility_policies` | Relationship, currency, and eligibility are independent dimensions (Part 4.2/4.4). |
@@ -559,6 +644,13 @@ competition-level suspension flag removed.
 | D8 | False-claim defaults removed: `national_board_noc_status` nullable (no default), `batting_innings.is_not_out` NOT NULL with no default, `wicketkeeping_events.appearances` NOT NULL with no default, `player_availability.availability_status` nullable | Unknowns must stay unknown (NULL) or be set explicitly from data, never defaulted into a fact. |
 | D9 | `deliveries.source_record_id` (nullable FK) | Ball-level provenance mapping to the ingesting raw record. |
 | D10 | `weather_conditions` gains timezone + spatial/temporal matching method columns; `pitch_conditions` gains `reported_description` + `ratings_methodology_version` | Measured-vs-reported separation (Part 7). |
+| **D11 (v2.1.1)** | `innings.overs_allocated`/`target_overs` → integer `overs_allocated_balls`/`target_overs_balls`; `matches.overs_scheduled` → `innings_balls_scheduled` | C5: integer balls are the source of truth; over notation is display-derived from `competitions.balls_per_over`; DLS stores revised target in integer balls; avoids 13.4 overs ≠ 13+4/6 ambiguity. |
+| **D12 (v2.1.1)** | `deliveries.match_id` **removed**; match access is derived via `innings_id → innings.match_id`; index `idx_deliveries_innings` replaces the match+innings index | C4: a delivery can no longer reference a different match from its innings (structural integrity, partition-compatible); the cross-table Service D match-identity invariant is retired. |
+| **D13 (v2.1.1)** | `batting_innings.chk_dnb` → `chk_dnb_zero` (`NOT (did_not_bat = TRUE AND balls_faced > 0)`) | A3: DNB must face 0 balls; a batted appearance may legitimately face 0 (walkover/timed-out) without being fabricated as DNB or as a not-out innings. |
+| **D14 (v2.1.1)** | `player_eligibility.season_id` removed; uniqueness on `(player_id, policy_id)`; eligibility status CHECKs require cited evidence for `VERIFIED_*` | C1/C2: policy-season pairing is structurally enforced (season derives from the policy, removing the 3NF transitive dependence and cross-season policy references); contradictory verified/flag states are now DDL-rejected. |
+| **D15 (v2.1.1)** | `team_season_participation.verification_id` added; `chk_tsp_verified_evidence` + `chk_tsp_status_consistency` enforced; `squad_memberships.is_active_squad` made nullable (no default) | C3/C6 + Priority E: no participation row may be VERIFIED without a cited `verification_records` row; UNKNOWN rows stay PENDING/UNVERIFIED; no defaulted false-claim of active-squad status. |
+| **D16 (v2.1.1)** | New **`ranking_configurations`** table: full versioned Top-10 method config (target season · policy gate · evaluation date · role groups · gate thresholds · ordering keys · tiebreakers · seed), `verified` evidence-bound | Priority F: the ranking is a durable, versioned model configuration, not an inline constant and not `derived_features.model_version` alone. |
+| **D17 (v2.1.1)** | New **`ranking_runs`** table: one row per `(config_id, data_snapshot_sha256)` storing the candidate pool + Top-10 + reserves | Priority F: same inputs → exactly one stored, reproducible, auditable board (AC-18 / AC-25). Entity count 31 → **33**. |
 
 ### 10.3 Complete PostgreSQL 16 DDL
 
@@ -720,10 +812,20 @@ CREATE TABLE competitions (
         'Domestic Franchise T20','Domestic T20','International T20','Domestic List A','ODI','First Class','Other')),
     governing_body   VARCHAR(50) NOT NULL,
     country          VARCHAR(50) NOT NULL,
+    -- B / format model: the two fields below are the SINGLE source of truth for the
+    -- format's ball/over conventions. Every downstream calculation (over display
+    -- notation, economy W06, phase boundaries) reads these, never a hard-coded 6.
     match_overs      INT NOT NULL DEFAULT 20 CHECK (match_overs > 0),
-    balls_per_over   INT NOT NULL DEFAULT 6 CHECK (balls_per_over > 0),
-    created_at       TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
+        -- The Hundred: match_overs = 20, balls_per_over = 5  (100-ball innings).
+    balls_per_over   INT NOT NULL DEFAULT 6 CHECK (balls_per_over IN (4,5,6)),
+        -- 6 = T20/ODI/List A/FC; 5 = The Hundred; 4 = reserved (non-standard).
+    created_at       TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT chk_bpo_sane CHECK (balls_per_over BETWEEN 2 AND 8)
 );
+-- Priority B: a The Hundred competition row is seeded `balls_per_over = 5`
+-- (`info.balls_per_over` in the local hnd_male_json archive confirms 5). The HUNDRED
+-- format_tag is mandatory on every The-Hundred metric; it never inherits six-ball
+-- economy / over-notation / phase maths. See DATA_DICTIONARY §5.
 
 -- ============================================================================
 -- 7. seasons (competition editions; competition-wide, NOT franchise-specific)
@@ -754,19 +856,45 @@ CREATE TABLE team_season_participation (
     effective_start_date DATE,
     effective_end_date   DATE,
     evidence_source_id   UUID REFERENCES data_sources(source_id) ON DELETE SET NULL,
+    verification_id      UUID REFERENCES verification_records(verification_id) ON DELETE SET NULL,
+        -- C3: the authoritative evidence row for this participation claim (Service C).
     verification_status  VARCHAR(20) NOT NULL DEFAULT 'UNVERIFIED'
         CHECK (verification_status IN ('PENDING','VERIFIED','UNVERIFIED','CONFLICT')),
     notes                TEXT,
     created_at           TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT uq_team_season_participation UNIQUE (team_id, season_id),
-    CONSTRAINT chk_tsp_dates CHECK (effective_end_date IS NULL OR effective_start_date IS NULL OR effective_end_date >= effective_start_date)
+    CONSTRAINT chk_tsp_dates CHECK (effective_end_date IS NULL OR effective_start_date IS NULL OR effective_end_date >= effective_start_date),
+    -- C3: a row may be VERIFIED only when a supporting verification record is cited.
+    --    (Roadmap/documentation assumption of a historical fact is NOT verification
+    --    evidence — it is a PENDING/UNVERIFIED row until retrieval lands.)
+    CONSTRAINT chk_tsp_verified_evidence CHECK
+        (NOT (verification_status = 'VERIFIED' AND verification_id IS NULL)),
+    -- C3: status/consistency rules per value combination (documented, enforced):
+    --   UNKNOWN participation  -> PENDING or UNVERIFIED only (a row that asserts nothing
+    --     cannot be VERIFIED; a CONFLICT implies asserted, contradicting claims).
+    --   PARTICIPATING/SUSPENDED/NOT_ENTERED (positive claims) -> PENDING (evidence
+    --     outstanding), VERIFIED (with cited verification record, per
+    --     chk_tsp_verified_evidence), or CONFLICT (contradicting sources; human review).
+    --   UNVERIFIED on a positive claim means "investigated, not established" -> demote the
+    --     participation_status to UNKNOWN instead; enforced by this CHECK.
+    CONSTRAINT chk_tsp_status_consistency CHECK
+        ((participation_status = 'UNKNOWN' AND verification_status IN ('PENDING','UNVERIFIED'))
+         OR (participation_status IN ('PARTICIPATING','SUSPENDED','NOT_ENTERED')
+             AND verification_status IN ('PENDING','VERIFIED','CONFLICT')))
 );
 CREATE INDEX idx_tsp_team ON team_season_participation(team_id);
 CREATE INDEX idx_tsp_season ON team_season_participation(season_id);
--- Representative rows (documentation): RR x IPL 2008..2015 = PARTICIPATING/VERIFIED;
--- RR x IPL 2016, 2017 = SUSPENDED/VERIFIED (BCCI suspension of the franchise; the IPL
--- competition continued for all other teams); RR x IPL 2018..2026 = PARTICIPATING/VERIFIED;
--- RR x IPL 2027 = UNKNOWN until authoritative squad evidence exists.
+-- Representative rows (documentation, evidence-bound):
+--   RR x IPL 2008..2015 = PARTICIPATING; RR x IPL 2016, 2017 = SUSPENDED (BCCI franchise
+--   suspension; IPL competition continued for all other teams); RR x IPL 2018..2026 =
+--   PARTICIPATING; RR x IPL 2027 = UNKNOWN until authoritative squad evidence exists.
+--   CORRECTED v2.1.1: these rows are seeded UNVERIFIED/PENDING until claim-level evidence
+--   is retrieved into verification_records (Priority E). The locally verifiable
+--   corroboration (CricSheet IPL archive: RR fixtures present 2008-2015 & 2018-2026,
+--   ABSENT 2016-2017; 2016/2017 continue with 59-60 other-team fixtures each) supports
+--   the windows but is tier-4 database evidence; tier-1/2 (official BCCI suspension notice)
+--   retrieval upgrades each row to VERIFIED with a dated record. No row is labelled
+--   VERIFIED merely because the roadmap assumes the fact.
 
 -- ============================================================================
 -- 9. squad_memberships (seasonal contracts / squad inclusion)
@@ -782,7 +910,9 @@ CREATE TABLE squad_memberships (
     jersey_number  INT CHECK (jersey_number BETWEEN 0 AND 999),
     is_captain     BOOLEAN NOT NULL DEFAULT FALSE,
     is_overseas   BOOLEAN,
-    is_active_squad BOOLEAN NOT NULL DEFAULT TRUE,
+    -- C6: is_active_squad is now NULLABLE with NO default (unknown active-squad status
+    --     is NULL, never a defaulted TRUE); evidence_source_id stays the source link.
+    is_active_squad BOOLEAN,
     evidence_source_id UUID REFERENCES data_sources(source_id) ON DELETE SET NULL,
     created_at     TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT uq_player_team_season UNIQUE (player_id, team_id, season_id)
@@ -832,7 +962,9 @@ CREATE TABLE matches (
     is_dls_applied     BOOLEAN NOT NULL DEFAULT FALSE,
     dls_method_version VARCHAR(20),
     player_of_match_id UUID REFERENCES players(player_id) ON DELETE SET NULL,
-    overs_scheduled    INT NOT NULL DEFAULT 20 CHECK (overs_scheduled > 0),
+    innings_balls_scheduled INT NOT NULL DEFAULT 120 CHECK (innings_balls_scheduled > 0),
+        -- C5: integer balls of record (120 T20 · 300 ODI/List A · 100 The Hundred);
+        -- overs count is display-derived (balls / competitions.balls_per_over).
     source_record_id   UUID REFERENCES source_records(record_id) ON DELETE SET NULL,
     status             VARCHAR(20) NOT NULL CHECK (status IN
         ('Scheduled','Completed','Abandoned','No Result')),
@@ -853,9 +985,12 @@ CREATE TABLE innings (
     batting_team_id  UUID NOT NULL REFERENCES teams(team_id) ON DELETE RESTRICT,
     bowling_team_id  UUID NOT NULL REFERENCES teams(team_id) ON DELETE RESTRICT,
     is_super_over  BOOLEAN NOT NULL DEFAULT FALSE,
-    overs_allocated NUMERIC(4,1) NOT NULL DEFAULT 20.0 CHECK (overs_allocated > 0),
+    overs_allocated_balls INT NOT NULL DEFAULT 120 CHECK (overs_allocated_balls > 0),
+        -- integer balls of record (C5): 120 = T20; 100 = The Hundred; ODI/List A = 300.
+        -- Over notation is display-derived: floor(balls/balls_per_over) '.' (balls % balls_per_over).
     target_runs    INT CHECK (target_runs >= 0),
-    target_overs   NUMERIC(4,1) CHECK (target_overs > 0),
+    target_overs_balls INT CHECK (target_overs_balls > 0),
+        -- DLS revised target as integer balls (C5); NULL when no DLS revision.
     total_runs     INT NOT NULL DEFAULT 0 CHECK (total_runs >= 0),
     total_wickets  INT NOT NULL DEFAULT 0 CHECK (total_wickets BETWEEN 0 AND 10),
     total_legal_deliveries INT NOT NULL DEFAULT 0,
@@ -877,7 +1012,14 @@ CREATE INDEX idx_innings_super_over ON innings(is_super_over) WHERE is_super_ove
 CREATE TABLE deliveries (
     delivery_id     UUID NOT NULL DEFAULT uuid_generate_v4(),
     innings_id      UUID NOT NULL REFERENCES innings(innings_id) ON DELETE CASCADE,
-    match_id        UUID NOT NULL REFERENCES matches(match_id) ON DELETE CASCADE,
+    -- C4: deliveries.match_id was an independent NOT-NULL fact that could diverge from
+    --   innings.match_id. It is now DERIVED (via the innings_id FK to innings.match_id) and
+    --   not stored, so the delivery and its innings structurally cannot reference different
+    --   matches. Match-level joins go through deliveries.innings_id -> matches. A composite
+    --   FK (match_id, innings_id) is not expressible here because `innings` has no
+    --   (match_id, innings_id) unique key; column removal is the equivalent, stronger
+    --   integrity guarantee and preserves PG16 partitioned-table compatibility
+    --   (partition key season_year is unaffected).
     season_year     VARCHAR(20) NOT NULL,
     over_number     INT NOT NULL CHECK (over_number >= 0 AND over_number < 60),
     ball_in_over    INT NOT NULL CHECK (ball_in_over >= 1),
@@ -902,8 +1044,12 @@ CREATE TABLE deliveries (
     wicket_kind     VARCHAR(30),
     player_out_id   UUID REFERENCES players(player_id) ON DELETE SET NULL,
     is_bowler_credited_wicket BOOLEAN NOT NULL DEFAULT FALSE,
-    match_phase     VARCHAR(20) CHECK (match_phase IN ('Powerplay','Middle 1','Middle 2','Death')),
-        -- T20-derived, nullable: NOT_APPLICABLE as NULL for List A / first-class rows
+    match_phase     VARCHAR(20) CHECK (match_phase IN ('Powerplay','Middle','Death')),
+        -- A4: single three-group phase model (DATA_DICTIONARY §4); the old four-value
+        --     enum ('Middle 1','Middle 2') was inconsistent with the three-group batting/
+        --     bowling summary columns and has been reduced. Boundaries are per-format
+        --     (T20 / ODI / The Hundred rows differ); NULL for List A / first-class rows
+        --     where phase is not meaningful.
     variation_type  VARCHAR(50),
     ball_speed_kph  NUMERIC(5,2) CHECK (ball_speed_kph IS NULL OR ball_speed_kph > 0),
     pitch_coordinate_x NUMERIC(6,3),
@@ -927,13 +1073,16 @@ CREATE TABLE deliveries_y2024_2027 PARTITION OF deliveries
     FOR VALUES IN ('2024','2025','2026','2027');
 CREATE TABLE deliveries_default PARTITION OF deliveries DEFAULT;
 
-CREATE INDEX idx_deliveries_match_innings ON deliveries(match_id, innings_id);
+-- C4: match-level delivery access is served by joining deliveries.innings_id to
+--   innings.match_id (the derived match key). A covering index on (innings_id) supports
+--   both innings-scoped and match-scoped queries; no delivery.match_id column exists to
+--   diverge, so the old "deliveries.innings_id.match_id = deliveries.match_id" Service D
+--   cross-table invariant is no longer required — it is enforced structurally.
+CREATE INDEX idx_deliveries_innings ON deliveries(innings_id);
 CREATE INDEX idx_deliveries_batter ON deliveries(batter_id);
 CREATE INDEX idx_deliveries_bowler ON deliveries(bowler_id);
 CREATE INDEX idx_deliveries_matchup ON deliveries(batter_id, bowler_id);
 CREATE INDEX idx_deliveries_source ON deliveries(source_record_id) WHERE source_record_id IS NOT NULL;
--- NOTE: deliveries.innings_id.match_id = deliveries.match_id consistency is a Service D
--- reconciliation invariant (cross-table; not expressible as an inline CHECK).
 
 -- ============================================================================
 -- 14. batting_innings (D8: no default on is_not_out; sample-size fields explicit)
@@ -946,7 +1095,11 @@ CREATE TABLE batting_innings (
     did_not_bat     BOOLEAN NOT NULL DEFAULT FALSE,  -- DNB rows explicit, not implied
     batting_position INT CHECK (batting_position BETWEEN 1 AND 11),
     runs_scored     INT NOT NULL DEFAULT 0 CHECK (runs_scored >= 0),
-    balls_faced     INT NOT NULL DEFAULT 0 CHECK (balls_faced >= 0),  -- legal balls only
+    balls_faced     INT NOT NULL DEFAULT 0 CHECK (balls_faced >= 0),
+        -- v2.1.1 / A2: authoritative scorecard convention (ICC Law 23 & 24.1,
+        -- DATA_DICTIONARY global conventions + B04): no-balls ARE balls faced;
+        -- wide events are NOT. Ingestion formula: COUNT(delivery events WHERE
+        -- NOT is_wide) in the batter's facing spell. Never "legal only".
     minutes_at_crease INT CHECK (minutes_at_crease >= 0),
     fours           INT NOT NULL DEFAULT 0 CHECK (fours >= 0),
     sixes           INT NOT NULL DEFAULT 0 CHECK (sixes >= 0),
@@ -966,7 +1119,9 @@ CREATE TABLE batting_innings (
     CONSTRAINT uq_innings_batter UNIQUE (innings_id, player_id),
     CONSTRAINT chk_balls_faced CHECK (dot_balls_faced <= balls_faced),
     CONSTRAINT chk_sr_consistency CHECK (strike_rate IS NULL OR balls_faced > 0),
-    CONSTRAINT chk_dnb CHECK (did_not_bat = TRUE OR balls_faced > 0)
+    -- A3: a DNB must face 0 balls; a batted appearance (did_not_bat=FALSE) may face 0 balls
+    --      (walkover / timed-out dismissal) — a legitimate state, not a DNB, never fabricated.
+    CONSTRAINT chk_dnb_zero CHECK (NOT (did_not_bat = TRUE AND balls_faced > 0))
 );
 CREATE INDEX idx_batting_player ON batting_innings(player_id);
 
@@ -1007,8 +1162,11 @@ CREATE TABLE bowling_spells (
     CONSTRAINT chk_spell_avg CHECK (bowling_average IS NULL OR wickets_taken > 0)
 );
 CREATE INDEX idx_bowling_player ON bowling_spells(player_id);
--- Display derivation (never stored as a fact): overs_display =
---   floor(legal_balls_bowled/6) || '.' || (legal_balls_bowled % 6)
+-- Display derivation (never stored as a fact, and FORMAT-AWARE — the divisor is
+-- competitions.balls_per_over, not a hard-coded 6):
+--   overs_display = floor(legal_balls_bowled / balls_per_over) || '.' ||
+--                   (legal_balls_bowled % balls_per_over)
+--   T20/ODI/List A: divisor 6 · The Hundred: divisor 5 (DATA_DICTIONARY W01/§5).
 
 -- ============================================================================
 -- 16. fielding_events (D3: optional but integrity-preserving delivery link)
@@ -1202,7 +1360,9 @@ CREATE TABLE player_membership_state (
     player_id      UUID NOT NULL REFERENCES players(player_id) ON DELETE CASCADE,
     as_of_date     DATE NOT NULL,
     rr_relationship_state VARCHAR(30) NOT NULL CHECK (rr_relationship_state IN (
-        'CURRENT_RR_SQUAD','HISTORICAL_RR_APPEARANCE','HISTORICAL_RR_SQUAD_ONLY',
+        -- C6/D-dedup v2.1.1: CURRENT_RR_SQUAD removed (currency lives in Dimension 2,
+        -- rr_current_state); relationship states capture association nature only.
+        'HISTORICAL_RR_APPEARANCE','HISTORICAL_RR_SQUAD_ONLY',
         'PREVIOUSLY_ASSOCIATED','NO_VERIFIED_RR_RELATIONSHIP','RR_RELATIONSHIP_UNKNOWN')),
     rr_current_state   VARCHAR(15) NOT NULL CHECK (rr_current_state IN
         ('CURRENT','NOT_CURRENT','UNKNOWN')),
@@ -1230,8 +1390,17 @@ CREATE TABLE eligibility_policies (
     notes            TEXT,
     created_at       TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
     CONSTRAINT uq_policy UNIQUE (season_id, policy_version),
-    CONSTRAINT chk_policy_dates CHECK (expiry_date IS NULL OR expiry_date >= effective_date)
+    CONSTRAINT chk_policy_dates CHECK (expiry_date IS NULL OR expiry_date >= effective_date),
+    -- C2: a policy row marked verified MUST cite a supporting verification record.
+    CONSTRAINT chk_policy_verified_evidence CHECK
+        (NOT (verified = TRUE AND verification_id IS NULL))
 );
+-- C1: `player_eligibility` no longer carries its own `season_id`. The eligibility season
+--    is DERIVED from the referenced policy (`eligibility_policies.season_id`), so a
+--    player eligibility row structurally cannot reference a policy belonging to a
+--    different season. Composite uniqueness is on (player_id, policy_id). This is the
+--    appropriate composite-unique + FK design required by the brief (removing the
+--    redundant 3NF-violating season column rather than adding a trigger).
 
 -- ============================================================================
 -- 26. player_eligibility (D5: season-bound, policy-versioned assessment)
@@ -1239,7 +1408,10 @@ CREATE TABLE eligibility_policies (
 CREATE TABLE player_eligibility (
     eligibility_id  UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
     player_id       UUID NOT NULL REFERENCES players(player_id) ON DELETE CASCADE,
-    season_id       UUID NOT NULL REFERENCES seasons(season_id) ON DELETE CASCADE,
+    -- C1: no independent season_id. The eligibility season is DERIVED from the referenced
+    --     policy (eligibility_policies.season_id, which is NOT NULL). Storing season_id
+    --     here was a 3NF violation (transitive dependence on policy_id) and a source of the
+    --     "policy from a different season" defect; removing it makes that state impossible.
     policy_id       UUID NOT NULL REFERENCES eligibility_policies(policy_id) ON DELETE RESTRICT,
     eligibility_status VARCHAR(25) NOT NULL CHECK (eligibility_status IN (
         'VERIFIED_ELIGIBLE','VERIFIED_NOT_ELIGIBLE','ELIGIBILITY_UNVERIFIED','NOT_ASSESSED')),
@@ -1247,7 +1419,13 @@ CREATE TABLE player_eligibility (
     verification_id UUID REFERENCES verification_records(verification_id) ON DELETE SET NULL,
     notes           TEXT,
     created_at      TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    CONSTRAINT uq_player_season_policy UNIQUE (player_id, season_id, policy_id)
+    -- C1: composite uniqueness on (player_id, policy_id); season is inherited from the policy.
+    CONSTRAINT uq_player_policy UNIQUE (player_id, policy_id),
+    -- C2: a VERIFIED_ outcome MUST cite a verification record; an unassessed/unverified
+    --     outcome must not carry a spurious verified flag or evidence link.
+    CONSTRAINT chk_eligibility_status_flag CHECK
+        ((eligibility_status IN ('VERIFIED_ELIGIBLE','VERIFIED_NOT_ELIGIBLE') AND verified = TRUE AND verification_id IS NOT NULL)
+         OR (eligibility_status IN ('ELIGIBILITY_UNVERIFIED','NOT_ASSESSED') AND verified = FALSE))
 );
 CREATE INDEX idx_eligibility_player ON player_eligibility(player_id);
 
@@ -1296,7 +1474,10 @@ CREATE TABLE derived_features (
     calculation_window  VARCHAR(50) NOT NULL,
     format_tag        VARCHAR(20),
     status           VARCHAR(20) NOT NULL DEFAULT 'DERIVED' CHECK (status IN
-        ('OBSERVED','DERIVED','MODEL_INFERRED','NOT_COMPUTABLE')),
+        ('OBSERVED','DERIVED','MODEL_INFERRED','NOT_COMPUTABLE','DEFERRED')),
+        -- v2.1.1: DEFERRED = computable only under documented data conditions that no
+        -- current source satisfies (e.g. The-Hundred derived rate metrics, Priority B
+        -- option 2: ingested & preserved as raw, no derived rate published yet).
     model_version     VARCHAR(20) NOT NULL DEFAULT 'v2.1',
     source_provenance UUID REFERENCES source_records(record_id) ON DELETE SET NULL,
     computed_at       TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP
@@ -1307,6 +1488,54 @@ CREATE UNIQUE INDEX uq_derived_features ON derived_features (
 );
 CREATE INDEX idx_derived_features_player ON derived_features(player_id);
 CREATE INDEX idx_derived_features_group ON derived_features(feature_group);
+
+-- ============================================================================
+-- 30. ranking_configurations (Priority F, v2.1.1) — versioned ranking method config
+-- ============================================================================
+-- The hackathon Top-10 method is NOT an inline constant and NOT `derived_features.
+-- model_version` alone (v2.1.0 gap). The full, versioned configuration lives here so a
+-- specific board is always reproducible from (config_version + data_snapshot + seed).
+CREATE TABLE ranking_configurations (
+    config_id            UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    config_version       VARCHAR(20) NOT NULL,
+    target_season_id     UUID NOT NULL REFERENCES seasons(season_id) ON DELETE RESTRICT,
+    policy_id            UUID NOT NULL REFERENCES eligibility_policies(policy_id)
+        ON DELETE RESTRICT,
+        -- hard eligibility gate: only candidates VERIFIED_ELIGIBLE under this policy version
+    evaluation_date      DATE NOT NULL,     -- ages computed as of this recorded date (not now())
+    role_grouping_json   JSONB,             -- documented role groups + role criteria (RANKING_SPEC)
+    gate_thresholds_json JSONB,             -- relevance gate: within-role baseline percentile + min sample
+    ordering_json        JSONB NOT NULL,    -- primary/secondary/tertiary keys: age, consistency, sample
+    tiebreakers_json     JSONB,             -- documented final deterministic tiebreak (total order)
+    seed                 INT NOT NULL DEFAULT 0,   -- explicit seed; 0 = pure deterministic SQL order
+    created_by           VARCHAR(50),
+    verified             BOOLEAN NOT NULL DEFAULT FALSE,
+    verification_id      UUID REFERENCES verification_records(verification_id) ON DELETE SET NULL,
+    created_at           TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT uq_config_version UNIQUE (config_version),
+    CONSTRAINT chk_ranking_config_evidence CHECK
+        (NOT (verified = TRUE AND verification_id IS NULL))
+);
+CREATE INDEX idx_ranking_config_season ON ranking_configurations(target_season_id);
+
+-- ============================================================================
+-- 31. ranking_runs (Priority F, v2.1.1) — durable, versioned ranking-run record
+-- ============================================================================
+-- One row per (config_version, data snapshot). Same inputs -> exactly one stored board,
+-- so the Top-10 + reserves are reproducible and auditable (AC-18 / AC-25).
+CREATE TABLE ranking_runs (
+    run_id                UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    config_id             UUID NOT NULL REFERENCES ranking_configurations(config_id)
+        ON DELETE RESTRICT,
+    data_snapshot_sha256  CHAR(64) NOT NULL,  -- evidence of the frozen input set (hash of candidate pool)
+    candidate_pool        JSONB NOT NULL,     -- eligible candidate pool at run time (provenance)
+    top10                 JSONB NOT NULL,     -- ordered board: rank, player_id, scores, evidence refs
+    reserve_list          JSONB,              -- next-ranked eligible candidates after Top-10
+    computed_at           TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    determinism_note      TEXT,
+    CONSTRAINT uq_run_per_config_snapshot UNIQUE (config_id, data_snapshot_sha256)
+);
+CREATE INDEX idx_ranking_run_config ON ranking_runs(config_id);
 ```
 
 ### 10.4 DDL Integrity Summary
@@ -1360,12 +1589,14 @@ frontend; no engine imports Streamlit.
 |---|---|---|
 | `discover_candidates(raw_name)` | CDCRE (pre-identity) | Candidate + corroboration evidence; no player_id required |
 | `resolve_player(raw_name, candidates)` | PIRE | Tiered identity resolution + status + evidence |
-| `verify_membership(player_id, as_of_date)` | TMVE | Three-dimension states + evidence + confidence (only if calibrated) |
+| `verify_membership(player_id, as_of_date)` | TMVE | Dimensions 1–2 (RR relationship + currency) + evidence + confidence (only if calibrated). Dimension 3 via `assess_eligibility` (§4.4 Option B) |
 | `discover_career(player_id)` | CDCRE (post-identity) | Competition history + four-state coverage + provenance |
 | `analyse_performance(player_id, formats, window)` | CPPAE | Full performance profile, per DATA_DICTIONARY |
 | `contextualise(player_id)` | CMIE | Condition annotations + provenance tiers |
 | `evaluate_squad(user_team_id)` | SICE | Squad intelligence report |
 | `assess_eligibility(player_id, season_id)` | player_eligibility | Season-bound, policy-versioned status |
+| `run_ranking(config_version, data_snapshot)` | SICE / `ranking_runs` | Executes the versioned Top-10 method (full spec: [`RANKING_SPEC.md`](RANKING_SPEC.md)); returns the reproducible board (AC-18/AC-25); one stored `ranking_runs` row per `(config, snapshot)` |
+| `get_ranking_run(run_id)` | `ranking_runs` | Read a stored, auditable board + candidate pool |
 | `generate_profile_export(player_id, fmt)` | Service B | JSON/CSV export with attribution |
 | `get_provenance(record_id)` | Service C | Provenance + verification status |
 | `upsert_user_team(user_team)` | Service E | Team create/update |
