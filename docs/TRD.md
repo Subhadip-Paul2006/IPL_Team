@@ -85,7 +85,7 @@ system for constructing and evaluating a Rajasthan Royals team. The primary work
                                               │ Read / derive (deterministic)
                                               ▼
 ┌─────────────────────────────────────────────────────────────────────────────┐
-│       Central PostgreSQL 16 Normalised Core (31 entities, 3NF core)          │
+│       Central PostgreSQL 16 Normalised Core (33 entities, 3NF core)          │
 │   players, player_aliases, teams, competitions, seasons,                    │
 │   team_season_participation, squad_memberships, player_team_history,        │
 │   matches, innings, deliveries, batting_innings, bowling_spells,           │
@@ -113,7 +113,7 @@ system for constructing and evaluating a Rajasthan Royals team. The primary work
 3. **Six Specialised Engines (ENGINE 01–06)**: PIRE, TMVE, CDCRE, CPPAE, CMIE, SICE — each with
    a documented input/output contract (§3–§8).
 4. **Five Support Services (A–E)**: §9.
-5. **Central Normalised Relational Core (PostgreSQL 16, 31 entities)**: normalised 3NF core
+5. **Central Normalised Relational Core (PostgreSQL 16, 33 entities)**: normalised 3NF core
    with canonical `player_id` across all engines and declarative season partitioning on
    `deliveries` (§10). `derived_features` is a deliberately denormalised feature store,
    documented as the one non-3NF table.
@@ -599,13 +599,15 @@ assignment, saved configurations (`user_teams`, `user_team_players`).
 
 ---
 
-## 10. Central PostgreSQL 16 Database Schema (31 Entities)
+## 10. Central PostgreSQL 16 Database Schema (33 Entities)
 
 Canonical `player_id` is the single join key across engines. Raw (`source_records`),
-normalised, and derived (`derived_features`) layers are strictly segregated. **31 logical
-entities** — two were added in this revision (`team_season_participation`,
-`player_membership_state`, `player_eligibility`, `eligibility_policies`) and the
-competition-level suspension flag removed.
+normalised, and derived (`derived_features`) layers are strictly segregated. **33 logical
+entities** — the v2.1.0 baseline was 31 (adding `team_season_participation`,
+`player_membership_state`, `player_eligibility`, `eligibility_policies` and removing the
+competition-level suspension flag); **v2.1.1 adds 2 more** (`ranking_configurations`,
+`ranking_runs`, Priority F) to hold the versioned, reproducible Top-10 ranking method and
+its durable run records.
 
 ### 10.1 Entity Domains
 ```
@@ -625,6 +627,7 @@ competition-level suspension flag removed.
 │                             player_eligibility                                 │
 │ 8. USER TEAM COMPOSITION  : user_teams, user_team_players                       │
 │ 9. FEATURE STORE          : derived_features                                    │
+│ 10. RANKING (v2.1.1)      : ranking_configurations, ranking_runs                │
 └─────────────────────────────────────────────────────────────────────────────────┘
 ```
 
@@ -646,6 +649,8 @@ competition-level suspension flag removed.
 | **D13 (v2.1.1)** | `batting_innings.chk_dnb` → `chk_dnb_zero` (`NOT (did_not_bat = TRUE AND balls_faced > 0)`) | A3: DNB must face 0 balls; a batted appearance may legitimately face 0 (walkover/timed-out) without being fabricated as DNB or as a not-out innings. |
 | **D14 (v2.1.1)** | `player_eligibility.season_id` removed; uniqueness on `(player_id, policy_id)`; eligibility status CHECKs require cited evidence for `VERIFIED_*` | C1/C2: policy-season pairing is structurally enforced (season derives from the policy, removing the 3NF transitive dependence and cross-season policy references); contradictory verified/flag states are now DDL-rejected. |
 | **D15 (v2.1.1)** | `team_season_participation.verification_id` added; `chk_tsp_verified_evidence` + `chk_tsp_status_consistency` enforced; `squad_memberships.is_active_squad` made nullable (no default) | C3/C6 + Priority E: no participation row may be VERIFIED without a cited `verification_records` row; UNKNOWN rows stay PENDING/UNVERIFIED; no defaulted false-claim of active-squad status. |
+| **D16 (v2.1.1)** | New **`ranking_configurations`** table: full versioned Top-10 method config (target season · policy gate · evaluation date · role groups · gate thresholds · ordering keys · tiebreakers · seed), `verified` evidence-bound | Priority F: the ranking is a durable, versioned model configuration, not an inline constant and not `derived_features.model_version` alone. |
+| **D17 (v2.1.1)** | New **`ranking_runs`** table: one row per `(config_id, data_snapshot_sha256)` storing the candidate pool + Top-10 + reserves | Priority F: same inputs → exactly one stored, reproducible, auditable board (AC-18 / AC-25). Entity count 31 → **33**. |
 
 ### 10.3 Complete PostgreSQL 16 DDL
 
@@ -1483,6 +1488,54 @@ CREATE UNIQUE INDEX uq_derived_features ON derived_features (
 );
 CREATE INDEX idx_derived_features_player ON derived_features(player_id);
 CREATE INDEX idx_derived_features_group ON derived_features(feature_group);
+
+-- ============================================================================
+-- 30. ranking_configurations (Priority F, v2.1.1) — versioned ranking method config
+-- ============================================================================
+-- The hackathon Top-10 method is NOT an inline constant and NOT `derived_features.
+-- model_version` alone (v2.1.0 gap). The full, versioned configuration lives here so a
+-- specific board is always reproducible from (config_version + data_snapshot + seed).
+CREATE TABLE ranking_configurations (
+    config_id            UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    config_version       VARCHAR(20) NOT NULL,
+    target_season_id     UUID NOT NULL REFERENCES seasons(season_id) ON DELETE RESTRICT,
+    policy_id            UUID NOT NULL REFERENCES eligibility_policies(policy_id)
+        ON DELETE RESTRICT,
+        -- hard eligibility gate: only candidates VERIFIED_ELIGIBLE under this policy version
+    evaluation_date      DATE NOT NULL,     -- ages computed as of this recorded date (not now())
+    role_grouping_json   JSONB,             -- documented role groups + role criteria (RANKING_SPEC)
+    gate_thresholds_json JSONB,             -- relevance gate: within-role baseline percentile + min sample
+    ordering_json        JSONB NOT NULL,    -- primary/secondary/tertiary keys: age, consistency, sample
+    tiebreakers_json     JSONB,             -- documented final deterministic tiebreak (total order)
+    seed                 INT NOT NULL DEFAULT 0,   -- explicit seed; 0 = pure deterministic SQL order
+    created_by           VARCHAR(50),
+    verified             BOOLEAN NOT NULL DEFAULT FALSE,
+    verification_id      UUID REFERENCES verification_records(verification_id) ON DELETE SET NULL,
+    created_at           TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT uq_config_version UNIQUE (config_version),
+    CONSTRAINT chk_ranking_config_evidence CHECK
+        (NOT (verified = TRUE AND verification_id IS NULL))
+);
+CREATE INDEX idx_ranking_config_season ON ranking_configurations(target_season_id);
+
+-- ============================================================================
+-- 31. ranking_runs (Priority F, v2.1.1) — durable, versioned ranking-run record
+-- ============================================================================
+-- One row per (config_version, data snapshot). Same inputs -> exactly one stored board,
+-- so the Top-10 + reserves are reproducible and auditable (AC-18 / AC-25).
+CREATE TABLE ranking_runs (
+    run_id                UUID PRIMARY KEY DEFAULT uuid_generate_v4(),
+    config_id             UUID NOT NULL REFERENCES ranking_configurations(config_id)
+        ON DELETE RESTRICT,
+    data_snapshot_sha256  CHAR(64) NOT NULL,  -- evidence of the frozen input set (hash of candidate pool)
+    candidate_pool        JSONB NOT NULL,     -- eligible candidate pool at run time (provenance)
+    top10                 JSONB NOT NULL,     -- ordered board: rank, player_id, scores, evidence refs
+    reserve_list          JSONB,              -- next-ranked eligible candidates after Top-10
+    computed_at           TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP,
+    determinism_note      TEXT,
+    CONSTRAINT uq_run_per_config_snapshot UNIQUE (config_id, data_snapshot_sha256)
+);
+CREATE INDEX idx_ranking_run_config ON ranking_runs(config_id);
 ```
 
 ### 10.4 DDL Integrity Summary
@@ -1536,12 +1589,14 @@ frontend; no engine imports Streamlit.
 |---|---|---|
 | `discover_candidates(raw_name)` | CDCRE (pre-identity) | Candidate + corroboration evidence; no player_id required |
 | `resolve_player(raw_name, candidates)` | PIRE | Tiered identity resolution + status + evidence |
-| `verify_membership(player_id, as_of_date)` | TMVE | Three-dimension states + evidence + confidence (only if calibrated) |
+| `verify_membership(player_id, as_of_date)` | TMVE | Dimensions 1–2 (RR relationship + currency) + evidence + confidence (only if calibrated). Dimension 3 via `assess_eligibility` (§4.4 Option B) |
 | `discover_career(player_id)` | CDCRE (post-identity) | Competition history + four-state coverage + provenance |
 | `analyse_performance(player_id, formats, window)` | CPPAE | Full performance profile, per DATA_DICTIONARY |
 | `contextualise(player_id)` | CMIE | Condition annotations + provenance tiers |
 | `evaluate_squad(user_team_id)` | SICE | Squad intelligence report |
 | `assess_eligibility(player_id, season_id)` | player_eligibility | Season-bound, policy-versioned status |
+| `run_ranking(config_version, data_snapshot)` | SICE / `ranking_runs` | Executes the versioned Top-10 method; returns the reproducible board (AC-18/AC-25); one stored `ranking_runs` row per `(config, snapshot)` |
+| `get_ranking_run(run_id)` | `ranking_runs` | Read a stored, auditable board + candidate pool |
 | `generate_profile_export(player_id, fmt)` | Service B | JSON/CSV export with attribution |
 | `get_provenance(record_id)` | Service C | Provenance + verification status |
 | `upsert_user_team(user_team)` | Service E | Team create/update |
