@@ -1595,7 +1595,7 @@ frontend; no engine imports Streamlit.
 | `contextualise(player_id)` | CMIE | Condition annotations + provenance tiers |
 | `evaluate_squad(user_team_id)` | SICE | Squad intelligence report |
 | `assess_eligibility(player_id, season_id)` | player_eligibility | Season-bound, policy-versioned status |
-| `run_ranking(config_version, data_snapshot)` | SICE / `ranking_runs` | Executes the versioned Top-10 method; returns the reproducible board (AC-18/AC-25); one stored `ranking_runs` row per `(config, snapshot)` |
+| `run_ranking(config_version, data_snapshot)` | SICE / `ranking_runs` | Executes the versioned Top-10 method (full spec: [`RANKING_SPEC.md`](RANKING_SPEC.md)); returns the reproducible board (AC-18/AC-25); one stored `ranking_runs` row per `(config, snapshot)` |
 | `get_ranking_run(run_id)` | `ranking_runs` | Read a stored, auditable board + candidate pool |
 | `generate_profile_export(player_id, fmt)` | Service B | JSON/CSV export with attribution |
 | `get_provenance(record_id)` | Service C | Provenance + verification status |
