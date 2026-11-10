@@ -3,12 +3,21 @@
 **Project Title**: RR Squad Intelligence & Team Composition Platform
 **Event**: IPL 2027 Hackathon
 **Target Franchise**: Rajasthan Royals (RR)
-**Document Version**: 2.0.0-ARCH-REVISION
+**Document Version**: 2.1.1-TARGETED-REMEDIATION
 **Status**: `[STATUS: ACTIVE OPERATING CONSTITUTION - GREENFIELD BASELINE]`
 **Date**: November 2026
 **Primary Authors**: Principal Software Architect, Multi-Agent Systems Engineer, Cricket Data Lead
 
-> **Revision Note (v2.0.0)**: Agent responsibilities were re-mapped to the revised
+> **Revision Note (v2.1.1, targeted remediation)**: Aligned agent contracts to the v2.1.1
+> architecture — the 33-entity schema (adds `ranking_configurations` + `ranking_runs`);
+> TMVE owns Dimensions 1–2 only (eligibility Dimension 3 is the Eligibility Service,
+> composed by MIE, TRD §4.4 Option B); SICE owns the versioned Top-10 method per
+> [`RANKING_SPEC.md`](RANKING_SPEC.md) (`RK-1.0.0`) and stores every board in
+> `ranking_runs`; ingestion handles the **The Hundred** archive as the `HUNDRED`
+> format (`balls_per_over = 5`, derived metrics deferred — DATA_DICTIONARY §5);
+> participation-window claims are model statements, not verified evidence (Priority E).
+>
+> **Revision Note (v2.0.0, retained for history)**: Agent responsibilities were re-mapped
 > architecture — the **Mother Intelligence Engine (MIE)** orchestrating **six specialised
 > engines** (PIRE, TMVE, CDCRE, CPPAE, CMIE, SICE) and **five support services** (Ingestion,
 > Profile Generator, Provenance, Quality & Coverage, Team Builder). The frontend agent now owns
@@ -58,7 +67,7 @@ handoff protocol.
 
 ### Agent 01: Chief Architect
 - **Identifier**: `agent_chief_architect`
-- **Core Mission**: Govern the MIE orchestration model, the 31-entity schema, and
+- **Core Mission**: Govern the MIE orchestration model, the 33-entity schema, and
   architecture integrity.
 - **Responsibilities**: maintain `docs/ARCHITECTURE.md`; approve schema migrations; enforce
   raw/normalised/derived separation; veto architectural violations; sign off phase gates (0–10).
@@ -95,24 +104,48 @@ handoff protocol.
 
 ### Agent 04: TMVE Agent (Engine 02)
 - **Identifier**: `agent_tmve`
-- **Core Mission**: Verify RR representation via **three independent dimensions** (RR
-  relationship · current status · season-bound, policy-versioned eligibility), with franchise-
-  level participation (`team_season_participation`: RR 2008–2015 · 2016–2017 SUSPENDED ·
-  2018–2026 · 2027 UNKNOWN-until-evidenced) and the documented verification hierarchy.
+- **Core Mission**: Verify RR representation via **Dimensions 1–2** (RR relationship ·
+  current status), with franchise-level participation
+  (`team_season_participation`: RR 2008–2015 · 2016–2017 SUSPENDED · 2018–2026 ·
+  2027 UNKNOWN-until-evidenced) and the documented verification hierarchy.
+  **v2.1.1 Option B**: Dimension 3 (season-bound, policy-versioned eligibility) is owned
+  by the **Eligibility Service** (`agent_eligibility_policy`, a Service A–E extension),
+  not by TMVE; **MIE composes all three** and never blends them into one label
+  (TRD §4.4).
 - **Responsibilities**: verify **actual appearances** (distinct from squad inclusion); identify
   RR seasons and other IPL teams; retention/auction/transfer/release facts; separate current
   from historical; negative membership **only** via TRD §4.5 requirements; trigger authorised
-  research when internal records are insufficient; eligibility always via versioned
-  `eligibility_policies` (default `NOT_ASSESSED`).
+  research when internal records are insufficient; **v2.1.1 (Priority E)**: the
+  participation-window model (2008–2015 · 2016–17 SUSPENDED · 2018–2026) is documentation,
+  not evidence — each `team_season_participation` row seeds `PENDING`/`UNVERIFIED` and
+  becomes `VERIFIED` only via a cited `verification_records` row
+  (DDL `chk_tsp_verified_evidence`); local CricSheet fixture presence/absence is tier-4
+  corroboration only.
 - **Inputs**: `squad_memberships`, `player_team_history`, `team_season_participation`,
-  `matches`, `verification_records`, `eligibility_policies`.
-  **Outputs**: TMVE.Output (three dimension states, RR seasons, verified-appearance count,
-  evidence, calibrated confidence only).
+  `matches`, `verification_records`.
+  **Outputs**: TMVE.Output (Dimensions 1–2 states, RR seasons, verified-appearance count,
+  evidence, calibrated confidence only). Dimension 3 via
+  `EligibilityService.assess` (see §Agent 04b below).
 - **Guardrails**: `CURRENT_RR_SQUAD` only with verified current-season evidence; absence from
   one dataset never yields `NO_VERIFIED_RR_RELATIONSHIP` (use `RR_RELATIONSHIP_UNKNOWN`);
   unknown players are **never** auto-assumed uncapped (`NOT_ASSESSED` default).
 - **Verification**: dimension-assignment fixtures; suspension assertion; appearance-vs-squad-
   list differential; negative-verification audit.
+
+### Agent 04b: Eligibility Policy Service (v2.1.1, Option B)
+- **Identifier**: `agent_eligibility_policy`
+- **Core Mission**: Own **Dimension 3** — the season-bound, policy-versioned
+  `VERIFIED_ELIGIBLE / VERIFIED_NOT_ELIGIBLE / ELIGIBILITY_UNVERIFIED / NOT_ASSESSED`
+  assessment against the active `eligibility_policies` version for the target season
+  (TRD §4.4 / §4.6). TMVE (Agent 04) owns Dimensions 1–2; MIE composes all three.
+- **Responsibilities**: maintain versioned `eligibility_policies` (rule-source,
+  effective/expiry, independently verified); write `player_eligibility` rows; enforce
+  DDL CHECKs (`chk_eligibility_status_flag`); route `CONFLICT`/`UNVERIFIED` to
+  human review; **never assume an unknown player is uncapped** (default `NOT_ASSESSED`).
+- **Inputs**: `eligibility_policies`, `players`, `verification_records`. **Outputs**:
+  `EligibilityService.assess` contract (TRD §4.4), `player_eligibility` rows.
+- **Verification**: AC-09/AC-24 fixtures (policy-version reference; unknowns
+  `NOT_ASSESSED`); eligibility status/flag CHECK enforcement.
 
 ### Agent 05: CDCRE Agent (Engine 03)
 - **Identifier**: `agent_cdcre`
@@ -134,10 +167,20 @@ handoff protocol.
 - **Identifier**: `agent_cppae`
 - **Core Mission**: Produce comprehensive batting/bowling/fielding/wicketkeeping/
   match-contribution profiles with documented definitions and format-aware statistics.
-- **Responsibilities**: all CPPAE metric families; NULL-safe computation; no unverified
-  statistics from incomplete data; no mental-state inference.
-- **Inputs**: scorecard tables, `player_awards`. **Outputs**: CPPAE.Output + `derived_features`.
-- **Verification**: statistical ground-truth tests; NULL-safety lint; format-tag assertions.
+- **Responsibilities**: all CPPAE metric families **as defined in
+  [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md)** (economy = `balls_per_over × runs /
+  legal_balls`, never `10 ×`; balls faced = legal + no-balls, wides excluded; single
+  three-group phase model); NULL-safe computation; no unverified statistics from
+  incomplete data; no mental-state inference. **v2.1.1 (Priority B)**: The Hundred is the
+  `HUNDRED` format (`competitions.balls_per_over = 5`, 100-ball innings, three-group phase
+  boundaries per DATA_DICTIONARY §4.1/§5) — HUNDRED never inherits six-ball-over
+  calculations; derived HUNDRED rate metrics are class `DEFERRED` until the
+  `balls_per_over = 5` handling is validated (ingested/preserved as raw, no derived rate
+  published).
+- **Inputs**: scorecard tables, `player_awards`, `competitions.balls_per_over`.
+  **Outputs**: CPPAE.Output + `derived_features` (status includes `DEFERRED`).
+- **Verification**: statistical ground-truth tests; NULL-safety lint; format-tag assertions
+  (HUNDRED vs six-ball-over separation test).
 
 ### Agent 07: CMIE Agent (Engine 05)
 - **Identifier**: `agent_cmie`
@@ -151,21 +194,40 @@ handoff protocol.
 ### Agent 08: SICE Agent (Engine 06)
 - **Identifier**: `agent_sice`
 - **Core Mission**: Evaluate user-assembled teams: role distribution, depth, balance,
-  duplication, gaps, comparisons, replacements, combinations, and recommendations.
+  duplication, gaps, comparisons, replacements, combinations, and recommendations; and
+  own the **versioned Top-10 ranking method** (Use Case 3).
 - **Responsibilities**: squad intelligence analysis; **label outputs as analytical
   recommendations, never official selections/auction decisions**; no recruitment probabilities
-  unless a model is statistically validated and calibrated.
-- **Inputs**: `user_teams`, CPPAE/SICE-derived features. **Outputs**: SICE.Output.
-- **Verification**: SICE fixture tests; recommendation-label assertion.
+  unless a model is statistically validated and calibrated. **v2.1.1 (Priority F)**: SICE is
+  the owner of [`RANKING_SPEC.md`](RANKING_SPEC.md) config `RK-1.0.0` — the deterministic
+  three-level ordering (age → consistency → career avg B05) over a within-role relevance
+  gate, with documented total-order tiebreakers (seed = 0). Every board is stored as a
+  `ranking_runs` row keyed `(ranking_configurations, data_snapshot_sha256)`, so identical
+  inputs reproduce exactly one board (AC-18 / AC-25). SICE composes the board into the
+  Squad Intelligence Report; it does not re-derive the method inline.
+- **Inputs**: `user_teams`, CPPAE/SICE-derived features, `ranking_configurations`,
+  `ranking_runs`, `eligibility_policies`. **Outputs**: SICE.Output + the stored
+  `ranking_runs` board (Top-10 + reserves) + recommendation labels.
+- **Verification**: SICE fixture tests; recommendation-label assertion; ranking
+  reproducibility test (same config + snapshot → identical stored board; re-run is a no-op).
 
 ### Agent 09: Data Ingestion Agent (Service A)
 - **Identifier**: `agent_data_ingestion`
-- **Core Mission**: Ingest CricSheet, Kaggle, HawkeyeStats, historical weather, official records,
-  and verified research into immutable staging with SHA-256 provenance and quarantining.
+- **Core Mission**: Ingest CricSheet (IPL, **The Hundred**, ODI WC, T20 WC), Kaggle,
+  HawkeyeStats, historical weather, official records, and verified research into immutable
+  staging with SHA-256 provenance and quarantining.
 - **Responsibilities**: parsers for JSON v1.3.0 / YAML v0.94; manifests; quarantine without
-  halting; **prohibited from mutating files in `datasets/`**.
+  halting; **prohibited from mutating files in `datasets/`**. **v2.1.1 (Priority B)**:
+  `datasets/hnd_male_json/` (201 files, ODC-By VERIFIED) ingests under
+  `competition.format_tag = 'HUNDRED'`, `competitions.balls_per_over = 5`; wide/no-ball
+  events stay delivery events (legal-ball counts are derived, never parsed from
+  ball-notation strings); **derived HUNDRED rates remain `DEFERRED`** until Phase 5
+  validation. **v2.1.1 (Priority I)**: HawkeyeStats acquisition is human-gated — the
+  repository has **no licence** (checked 2026-11-11); no reuse is assumed until a licence
+  decision is recorded.
 - **Inputs**: `datasets/**`, external sources. **Outputs**: `source_records`, staging, DQ feeds.
-- **Verification**: match-count reconciliation; quarantine traceability.
+- **Verification**: match-count reconciliation (1,243 / 201 / 265 / 230 per
+  DATA_SOURCE_REGISTER); quarantine traceability; HUNDRED over-notation spot-checks.
 
 ### Agent 10: Provenance Agent (Service C)
 - **Identifier**: `agent_provenance`
@@ -208,14 +270,18 @@ handoff protocol.
   keep UI strictly separated from analytics.
 - **Responsibilities**: navigation + per-view thin adapters; cautious `st.session_state`;
   **no engine module may import Streamlit** (a future Next.js agent reuses the same contracts).
-- **Verification**: e2e per view; architecture import test (AC-13).
+- **Verification**: e2e per view; UI-side-analytics test (AC-22); static import
+  architecture test (AC-23).
 
 ### Agent 15: Documentation Agent
 - **Identifier**: `agent_documentation`
 - **Core Mission**: Keep the seven documents consistent and cross-referenced, status-marked, and
   licence-correct.
 - **Responsibilities**: consistency across `README/PRD/TRD/ARCHITECTURE/PHASES/AGENTS/
-  AI_INSTRUCTIONS`; traceability; status markings; attribution embedding.
+  AI_INSTRUCTIONS` **plus the v2.1.1 companion set** (`DATA_DICTIONARY`,
+  `DATA_SOURCE_REGISTER`, `RANKING_SPEC`, `reports/DOCUMENTATION_REMEDIATION_AUDIT`);
+  traceability; status markings; attribution embedding; the DDL parse gate
+  (sqlglot) and `git diff --check` on every docs commit.
 - **Guardrails**: no functional/business-logic changes; no architectural decisions without
   Chief Architect sign-off.
 - **Verification**: markdown lint + link check; every PRD feature mapped to a PHASES phase.
