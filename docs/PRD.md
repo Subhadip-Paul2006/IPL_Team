@@ -4,12 +4,19 @@
 **Target Franchise**: Rajasthan Royals (RR)
 **Hackathon**: IPL 2027 Rajasthan Royals scouting hackathon
 **Primary Interface (initial)**: Streamlit · **Future Frontend**: Next.js (engines are frontend-agnostic)
-**Document Version**: 2.1.0-REMEDIATED
+**Document Version**: 2.1.1-TARGETED-REMEDIATION
 **Status**: `[STATUS: PLANNED - GREENFIELD BASELINE]`
 **Date**: November 2026
 **Primary Authors**: Principal Software Architect, Sports Data Engineer, Cricket Analytics Researcher, Technical Documentation Engineer
 
-> **Revision Note (v2.1.0, remediation)**: This revision corrects the v2.0.0 workflow (CDCRE
+> **Revision Note (v2.1.1, targeted remediation)**: Use Case 3's ranking methodology is now
+> the versioned, reproducible [`RANKING_SPEC.md`](RANKING_SPEC.md) configuration `RK-1.0.0`
+> (deterministic gate + three-level ordering + documented total-order tiebreakers, one
+> `ranking_runs` row per (config, data snapshot) — AC-18); AC-06 participation rows are
+> evidence-bound (local corroboration is not verification); AC-22/AC-23 test mappings
+> corrected. Full register: `reports/DOCUMENTATION_REMEDIATION_AUDIT.md` §v2.1.1.
+>
+> **Revision Note (v2.1.0, remediation, retained for history)**: This revision corrected the v2.0.0 workflow (CDCRE
 > now has two capabilities — pre-identity candidate discovery and post-identity career
 > retrieval — removing the PIRE↔CDCRE circular dependency), replaces the conflated six-class
 > membership taxonomy with **three independent dimensions** (RR relationship · current status ·
@@ -402,7 +409,7 @@ diagrams in `docs/ARCHITECTURE.md`; phases in `docs/PHASES.md`; agents in `docs/
 | **AC-19** | Ingestion: per-dataset counts match DATA_SOURCE_REGISTER verified counts (1,243/201/265/230; SMAT gap recorded); DQ reconciliation gates pass | Ingestion completeness SQL |
 | **AC-20** | Exports embed ODC-By attribution; no proprietary hackathon content in public exports | Export-contract + confidentiality audit |
 | **AC-21** | Team Builder constraints: 11-view navigation + composition rules (informational caps, not enforced selection) | UI test |
-| **AC-22** | All 11 Streamlit views render with no UI-side analytics | Import-architecture test |
+| **AC-22** | All 11 Streamlit views render with no UI-side analytics | View-render test + static audit that no view performs analytics |
 | **AC-23** | Engine modules importable with Streamlit uninstalled (Next.js-ready) | Static import test |
 
 ---
