@@ -1,11 +1,22 @@
 # System Architecture & Technical Design Specification
 **Product**: RR Squad Intelligence & Team Composition Platform
 **Focus Franchise**: Rajasthan Royals (RR) · **Primary Interface (initial)**: Streamlit
-**Document Version**: 2.1.0 (ARCHITECTURE RE-REVISION)
+**Document Version**: 2.1.1-TARGETED-REMEDIATION
 **Status**: [STATUS: PLANNED - GREENFIELD BASELINE]
 **Author**: Engineering Architecture Team (`teamwork_worker_2`)
 
-> **Revision Note (v2.1.0, remediation)**: The data model is now **31 entities** (v2.0.0 had 27).
+> **Revision Note (v2.1.1, targeted remediation)**: The data model is now **33 entities** —
+> adds the versioned ranking pair (`ranking_configurations`, `ranking_runs`) so the
+> hackathon Top-10 method is a durable, reproducible model configuration
+> ([`RANKING_SPEC.md`](RANKING_SPEC.md) `RK-1.0.0`), not an inline constant. The Hundred is
+> a first-class `HUNDRED` format (`competitions.balls_per_over = 5`, 100-ball innings;
+> derived HUNDRED rate metrics stay `DEFERRED` until validation — DATA_DICTIONARY §5).
+> TMVE owns membership **Dimensions 1–2**; Dimension 3 is the Eligibility Service, and MIE
+> composes all three (TRD §4.4 Option B). `CURRENT_RR_SQUAD` is removed from Dimension 1
+> (currency lives in Dimension 2). Integer ball counts replace decimal overs throughout
+> (TRD D11).
+>
+> **Revision Note (v2.1.0, remediation, retained for history)**: The data model was revised to **31 entities** (v2.0.0 had 27).
 > The competition-level `seasons.is_suspension` model is replaced by the franchise-level
 > **`team_season_participation`** entity (RR 2016–17 is a franchise suspension; IPL continued).
 > Membership is modelled as **three independent dimensions** (RR relationship · current status ·
@@ -32,7 +43,7 @@ Guiding principles:
    decisions.
 2. **Frontend-Agnostic Engines**: typed contracts independent of any UI framework; Streamlit
    is the initial consumer; a future Next.js frontend reuses the same layer.
-3. **Normalised 3NF Relational Core**: 31-entity PostgreSQL 16 schema; canonical `player_id`
+3. **Normalised 3NF Relational Core**: 33-entity PostgreSQL 16 schema; canonical `player_id`
    across all engines; `derived_features` is the single documented non-3NF exception.
 4. **Raw / Normalised / Derived Separation**: immutable raw payloads, normalised records,
    and derived features are strictly segregated.
@@ -92,12 +103,13 @@ flowchart TD
         S_TeamBuilder["E: Team Builder"]
     end
 
-    subgraph Storage["Central PostgreSQL 16 Core (31 Entities, 3NF core)"]
+    subgraph Storage["Central PostgreSQL 16 Core (33 Entities, 3NF core)"]
         DB_Core[("players, matches, deliveries, batting_innings, ...")]
         DB_Provenance[("data_sources, source_records, verification_records")]
         DB_User[("user_teams, user_team_players")]
         DB_Features[("derived_features")]
         DB_Member[("team_season_participation, player_membership_state, player_eligibility, eligibility_policies")]
+        DB_Ranking[("ranking_configurations, ranking_runs")]
     end
 
     V_TeamBuilder --> MIE_Orchestrator
@@ -138,6 +150,7 @@ flowchart TD
     CMIE --> DB_Core
     SICE --> DB_Core
     SICE --> DB_User
+    SICE --> DB_Ranking
     S_TeamBuilder --> DB_User
 
     S_Ingest --> DB_Provenance
@@ -158,19 +171,22 @@ flowchart TD
     PIRE_Res -- "No / multiple candidates" --> UserClarify["Request User Clarification / Human Review"]
     UserClarify --> MIE_Accept
 
-    PIRE_Res -- "Yes -> canonical player_id" --> TMVE_Run["TMVE: three-dimension membership evaluation (RR relationship, currency, eligibility)"]
+    PIRE_Res -- "Yes -> canonical player_id" --> TMVE_Run["TMVE: membership Dimensions 1-2 (RR relationship + currency)"]
     TMVE_Run --> InternalSuf{"Internal records sufficient?"}
     InternalSuf -- "No" --> ExtResearch["Authorised external research (provenance-tracked, tiered)"]
     ExtResearch --> TMVE_Run
 
     TMVE_Run --> CDCRE_Career["CDCRE capability 2: discover_career(player_id) - POST-IDENTITY full career + 4-state coverage"]
-    CDCRE_Career --> CPPAE_Run["CPPAE: Performance Analytics (format-aware, per DATA_DICTIONARY)"]
+    CDCRE_Career --> CPPAE_Run["CPPAE: Performance Analytics (format-aware, per DATA_DICTIONARY; HUNDRED format-aware, derived rates DEFERRED)"]
     CPPAE_Run --> CMIE_Run["CMIE: Contextual Match Intelligence (5 provenance tiers)"]
-    CMIE_Run --> EligAssess["Eligibility: season-bound, policy-versioned (NOT_ASSESSED default)"]
-    EligAssess --> Unified["MIE: Unified Player Intelligence Report"]
+    CMIE_Run --> EligAssess["Eligibility Service: Dimension 3 - season-bound, policy-versioned (NOT_ASSESSED default)"]
+    EligAssess --> Unified["MIE: Unified Player Intelligence Report (composes Dimensions 1-2 + 3, never blends them)"]
     Unified --> AddTeam["User Adds Player to Team (Service E)"]
     AddTeam --> SICE_Run["SICE: Evaluate Complete Team"]
     SICE_Run --> SquadReport["Squad Report & Recommendations (Service B export)"]
+    SICE_Run --> RankRun["SICE: run_ranking(RANKING_SPEC config, data snapshot) - versioned Top-10 board"]
+    RankRun --> RankStore[("ranking_configurations + ranking_runs (one board per config+snapshot)")]
+    RankRun -.->|labelled| SquadReport
 ```
 
 ### 2.3 Diagram 3: Player Identity Resolution (PIRE) Workflow — revised terminology
@@ -200,27 +216,30 @@ flowchart TD
 ```mermaid
 flowchart TD
     P(["Canonical player_id from PIRE"]) --> QueryHist["Query squad_memberships + player_team_history + matches + team_season_participation (RR team, seasons in scope)"]
-    QueryHist --> Dim1{"RR relationship state?"}
-    Dim1 -- "Verified current-season squad evidence" --> R1["CURRENT_RR_SQUAD"]
+    QueryHist --> Dim1{"Dimension 1: RR relationship state?"}
     Dim1 -- "Verified prior RR match appearance" --> R2["HISTORICAL_RR_APPEARANCE"]
     Dim1 -- "Squad inclusion only, no confirmed appearance" --> R3["HISTORICAL_RR_SQUAD_ONLY"]
     Dim1 -- "Documented association only" --> R4["PREVIOUSLY_ASSOCIATED"]
     Dim1 -- "All TRD 4.5 negative-verification requirements met" --> R5["NO_VERIFIED_RR_RELATIONSHIP"]
     Dim1 -- "Evidence base incomplete" --> R6["RR_RELATIONSHIP_UNKNOWN"]
-    R1 --> Dim2["Dimension 2: rr_current_state = CURRENT / NOT_CURRENT / UNKNOWN (verified independently)"]
-    R2 --> Dim2
+    R2 --> Dim2["Dimension 2: rr_current_state = CURRENT / NOT_CURRENT / UNKNOWN (verified independently)"]
     R3 --> Dim2
     R4 --> Dim2
     R5 --> Dim2
     R6 --> Dim2
-    Dim2 --> Dim3["Dimension 3: eligibility (season-bound, policy-versioned): NOT_ASSESSED until verified"]
-    Dim3 --> Persist["player_membership_state + player_eligibility rows (evidence-bound)"]
+    Dim2 --> Dim3["Dimension 3 (Eligibility Service, not TMVE): season-bound, policy-versioned: NOT_ASSESSED until verified"]
+    Dim3 --> Persist["player_membership_state (Dimensions 1-2, TMVE writes) + player_eligibility (Dimension 3, Eligibility Service writes); MIE composes"]
 ```
 
-> Squad inclusion alone never yields `HISTORICAL_RR_APPEARANCE`. Absence from the internal
-> database alone never yields `NO_VERIFIED_RR_RELATIONSHIP` — that state requires the TRD §4.5
-> documented negative-verification requirements (coverage scope, season list, squad-list +
-> scorecard coverage, source quality, conflict handling, human review).
+> v2.1.1: `CURRENT_RR_SQUAD` was removed from Dimension 1 — current-squad standing is
+> Dimension 2 (`rr_current_state = CURRENT`), read independently, so the relationship state
+> no longer duplicates currency. Squad inclusion alone never yields
+> `HISTORICAL_RR_APPEARANCE`. Absence from the internal database alone never yields
+> `NO_VERIFIED_RR_RELATIONSHIP` — that state requires the TRD §4.5 documented
+> negative-verification requirements (coverage scope, season list, squad-list + scorecard
+> coverage, source quality, conflict handling, human review). Dimension 3 is produced by the
+> Eligibility Service against the active `eligibility_policies` version; MIE composes all
+> three and never blends them into one label (TRD §4.4 Option B).
 
 ### 2.5 Diagram 5: Data Ingestion & Provenance Architecture
 
@@ -256,7 +275,7 @@ flowchart TD
 
     Hasher --> Staging
     Staging --> Validator
-    Validator -- "Valid" --> Normalise["Normalisation into 31-entity core"]
+    Validator -- "Valid" --> Normalise["Normalisation into 33-entity core"]
     Validator -- "Malformed / pre-IPL 2007 anomaly" --> DLQ
     Hasher --> VRec
     Hasher --> DSrc
@@ -274,7 +293,7 @@ flowchart TD
     Cache --> Out(["CPPAE.Output: structured performance profile + samples block"])
 ```
 
-### 2.7 Diagram 7: Central Database Entity-Relationship Diagram (31 Entities, DDL-mirrored)
+### 2.7 Diagram 7: Central Database Entity-Relationship Diagram (33 Entities, DDL-mirrored)
 
 ```mermaid
 erDiagram
@@ -304,7 +323,6 @@ erDiagram
     SEASONS ||--o{ SQUAD_MEMBERSHIPS : "applies_to"
     SEASONS ||--o{ MATCHES : "contains"
     SEASONS ||--o{ PLAYER_AVAILABILITY : "season_of"
-    SEASONS ||--o{ PLAYER_ELIGIBILITY : "eligibility_season"
     SEASONS ||--o{ ELIGIBILITY_POLICIES : "governs"
     VENUES ||--o{ TEAMS : "home_venue_of"
     VENUES ||--o{ MATCHES : "hosts"
@@ -333,15 +351,21 @@ erDiagram
     PLAYER_TEAM_HISTORY }o--|| SOURCE_RECORDS : "provenance"
     PLAYER_COMPETITION_HISTORY }o--|| SOURCE_RECORDS : "provenance"
     PLAYER_MEMBERSHIP_STATE }o--|| VERIFICATION_RECORDS : "evidence"
+    % v2.1.1 (Priority F): versioned ranking method + durable reproducible boards
+    SEASONS ||--o{ RANKING_CONFIGURATIONS : "targets"
+    ELIGIBILITY_POLICIES ||--o{ RANKING_CONFIGURATIONS : "eligibility_gate"
+    RANKING_CONFIGURATIONS ||--o{ RANKING_RUNS : "produces"
+    RANKING_CONFIGURATIONS }o--|| VERIFICATION_RECORDS : "verified_by"
 ```
 
-> The **31 entities**: `players`, `player_aliases`, `teams`, `venues`, `competitions`,
+> The **33 entities**: `players`, `player_aliases`, `teams`, `venues`, `competitions`,
 > `seasons`, `team_season_participation`, `squad_memberships`, `player_team_history`,
 > `matches`, `innings`, `deliveries`, `batting_innings`, `bowling_spells`, `fielding_events`,
 > `wicketkeeping_events`, `pitch_conditions`, `weather_conditions`, `player_availability`,
 > `player_injuries`, `player_awards`, `player_competition_history`, `player_membership_state`,
 > `eligibility_policies`, `player_eligibility`, `user_teams`, `user_team_players`,
-> `data_sources`, `source_records`, `verification_records`, `derived_features`.
+> `data_sources`, `source_records`, `verification_records`, `derived_features`,
+> `ranking_configurations`, `ranking_runs`.
 >
 > **The `TEAMS → SEASONS` edge has been removed** (it existed in no DDL); teams relate to
 > seasons through `team_season_participation` (one participation row per team+season,
@@ -400,7 +424,7 @@ flowchart TD
 - **Context**: The engine analyses >250,000 delivery events across 2008–2026 plus
   multi-competition career data. A document store risks inconsistent player names and broken
   joins.
-- **Decision**: PostgreSQL 16 normalised 3NF core across 31 entities; `deliveries` partitioned
+- **Decision**: PostgreSQL 16 normalised 3NF core across 33 entities; `deliveries` partitioned
   by `season_year` (partitions through 2027).
 - **Consequences**: referential integrity (including FKs on the partitioned `deliveries`
   table, supported since PG 15), partition pruning, stable canonical `player_id`.
@@ -478,13 +502,13 @@ flowchart TD
    environment. Diagrams were lint-checked structurally (unique node ids, edge syntax,
    balanced fences) but **not** parser-validated. A Mermaid lint gate (e.g.,
    `@mermaid-js/mermaid-cli`) is a Phase 9 checkpoint.
-2. **Schema integrity**: the 31-entity DDL in `docs/TRD.md §10` passes a sqlglot
+2. **Schema integrity**: the 33-entity DDL in `docs/TRD.md §10` passes a sqlglot
    PostgreSQL-dialect parse with zero errors; all FK target tables are defined; partition-key
    composite PK is respected. (No live PostgreSQL execution available — recorded limitation;
    Phase 2 gate covers execution.)
 3. **ERD ↔ DDL**: every ERD edge corresponds to a DDL relationship (§2.7 note); the invalid
    `TEAMS → SEASONS` edge was removed.
-4. **Cross-document consistency**: terminology, entity count (31), three-dimension
+4. **Cross-document consistency**: terminology, entity count (33), three-dimension
    membership, eligibility policy model, engine names, and `agent_cdcre` identifier match
    across `PRD.md`, `TRD.md`, `ARCHITECTURE.md`, `PHASES.md`, `AGENTS.md`,
    `AI_INSTRUCTIONS.md`, `README.md`, `PROJECT.md`, and `docs/README.md`.
