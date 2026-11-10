@@ -1,5 +1,12 @@
 # DOCUMENTATION PRE-REMEDIATION AUDIT
 
+> **HISTORICAL AUDIT NOTICE & SUPERSESSION BANNER (v2.2.0 — 2026-11-11)**:  
+> This pre-remediation audit records the forensic baseline inspection of commit `1141ef9` performed on 2026-11-10 during the initial pre-revision phase. It is preserved strictly as an un-retouched historical baseline document without retrospective falsification or modification of its historical observations.  
+>  
+> **Supersession State**:  
+> 1. Superseded in part by **v2.1.1** (commit `eaebdcb`, PR #3: `docs/v2.1.1-targeted-remediation`), which expanded the core PostgreSQL relational schema from 31 to 33 entities (`ranking_configurations`, `ranking_runs`), resolved DDL integrity issues C1–C6, aligned TMVE Option B 3-dimension contracts, and introduced `RANKING_SPEC.md` (`RK-1.0.0`).  
+> 2. Superseded comprehensively by **v2.2.0** (`docs/v2.2.0-pvre-dual-mode`), which introduces **Engine 07 — PVRE** (Player Verification & Research Engine) with internal Mother Controller routing (Mode A RR incumbent replacement intelligence, Mode B verified uncapped domestic discovery, and mandatory `REVIEW_REQUIRED` safety gating), formalizes Phase 4B in `docs/PHASES.md` (`AC-24`..`AC-30`), expands the domestic and age-group data source register (S18A–H, S19B, S20B), integrates 5,083 local JSON match files across 13 directories (including 695 SMAT matches in `datasets/sma_json/`), synchronizes 7 specialized engines, 18 system agents (`agent_pvre`), 5 support services (Services A–E), and strictly decouples Top-10 ranking (`RK-1.0.0`) from replacement evaluation (`RE-1.0.0`).
+
 **Project**: RR Squad Intelligence & Team Composition Platform (IPL 2027 RR scouting hackathon)
 **Repository**: `Subhadip-Paul2006/IPL_Team`
 **Audit date**: 2026-11-10

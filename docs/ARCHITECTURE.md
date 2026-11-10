@@ -1,11 +1,18 @@
 # System Architecture & Technical Design Specification
 **Product**: RR Squad Intelligence & Team Composition Platform
 **Focus Franchise**: Rajasthan Royals (RR) · **Primary Interface (initial)**: Streamlit
-**Document Version**: 2.1.1-TARGETED-REMEDIATION
+**Document Version**: 2.2.0
 **Status**: [STATUS: PLANNED - GREENFIELD BASELINE]
 **Author**: Engineering Architecture Team (`teamwork_worker_2`)
 
-> **Revision Note (v2.1.1, targeted remediation)**: The data model is now **33 entities** —
+> **Revision Note (v2.2.0, PVRE Dual-Mode Research Architecture)**: Updated architecture from
+> six to seven specialised engines (Engine 07: PVRE). Added PVRE dual-mode orchestration diagrams
+> (Diagram 2b, Diagram 2c Mode A, Diagram 2d Mode B, Diagram 2e REVIEW_REQUIRED flow). Updated
+> high-level architecture diagram and SICE evaluation diagram. Added ADR-008: PVRE Dual-Mode
+> Player Verification, Research Routing & REVIEW_REQUIRED Safety Boundary. Reconciled all entity
+> mentions to 33 entities across the document suite.
+>
+> **Revision Note (v2.1.1, targeted remediation, retained for history)**: The data model is now **33 entities** —
 > adds the versioned ranking pair (`ranking_configurations`, `ranking_runs`) so the
 > hackathon Top-10 method is a durable, reproducible model configuration
 > ([`RANKING_SPEC.md`](RANKING_SPEC.md) `RK-1.0.0`), not an inline constant. The Hundred is
@@ -38,7 +45,7 @@ player name → **MIE** resolves identity, verifies RR membership across three i
 dimensions, retrieves the career, analyses performance and context, and evaluates the squad.
 Guiding principles:
 
-1. **Central Orchestration (MIE)**: coordinates the six engines, merges outputs, tracks
+1. **Central Orchestration (MIE)**: coordinates the seven engines, merges outputs, tracks
    verification status and provenance. Never invents statistics or membership/eligibility
    decisions.
 2. **Frontend-Agnostic Engines**: typed contracts independent of any UI framework; Streamlit
@@ -86,13 +93,14 @@ flowchart TD
         MIE_Verif["Verification Status & Provenance Tracker"]
     end
 
-    subgraph Engines["Six Specialised Engines"]
+    subgraph Engines["Seven Specialised Engines"]
         PIRE["ENGINE 01: PIRE - Identity Resolution"]
         TMVE["ENGINE 02: TMVE - Membership Verification"]
         CDCRE["ENGINE 03: CDCRE - Candidate + Career Discovery"]
         CPPAE["ENGINE 04: CPPAE - Performance Analytics"]
         CMIE["ENGINE 05: CMIE - Contextual Match Intelligence"]
         SICE["ENGINE 06: SICE - Squad Intelligence & Composition"]
+        PVRE["ENGINE 07: PVRE - Player Verification & Research Engine"]
     end
 
     subgraph Services["Five Support Services"]
@@ -127,6 +135,7 @@ flowchart TD
     MIE_Orchestrator --> PIRE
     MIE_Orchestrator --> TMVE
     MIE_Orchestrator --> CDCRE
+    MIE_Orchestrator --> PVRE
     MIE_Orchestrator --> CPPAE
     MIE_Orchestrator --> CMIE
     MIE_Orchestrator --> SICE
@@ -134,6 +143,7 @@ flowchart TD
     PIRE --> MIE_Merge
     TMVE --> MIE_Merge
     CDCRE --> MIE_Merge
+    PVRE --> MIE_Merge
     CPPAE --> MIE_Merge
     CMIE --> MIE_Merge
     SICE --> MIE_Merge
@@ -151,6 +161,9 @@ flowchart TD
     SICE --> DB_Core
     SICE --> DB_User
     SICE --> DB_Ranking
+    PVRE --> DB_Core
+    PVRE --> DB_Provenance
+    PVRE --> DB_Features
     S_TeamBuilder --> DB_User
 
     S_Ingest --> DB_Provenance
@@ -187,6 +200,204 @@ flowchart TD
     SICE_Run --> RankRun["SICE: run_ranking(RANKING_SPEC config, data snapshot) - versioned Top-10 board"]
     RankRun --> RankStore[("ranking_configurations + ranking_runs (one board per config+snapshot)")]
     RankRun -.->|labelled| SquadReport
+```
+
+<a id="22b-diagram-2b-pvre-dual-mode-mother-controller-architecture"></a>
+<a id="22b-diagram-2b-pvre-dual-mode-orchestration-architecture"></a>
+### 2.2b Diagram 2b: PVRE Dual-Mode Mother Controller Architecture
+
+```mermaid
+flowchart TD
+    subgraph MIE_Context["MIE Cross-Engine Ingestion (Sole Cross-Engine Orchestrator)"]
+        MIE_In["MIE resolves identity (PIRE), RR status (TMVE), & eligibility (Eligibility Policy Service)"]
+        REQ["PVRERequestContract(run_id, player_id, identity, rr_state, capped_status, eligibility, season, eval_date)"]
+    end
+
+    subgraph Controller["PVRE Mother Controller (Engine 07 Internal Workflow Router)"]
+        MC_Entry["Mother Controller Input Validation"]
+        MC_Classifier{"7-Step Deterministic Waterfall"}
+    end
+
+    subgraph Modes["PVRE Internal Execution Modes"]
+        MODE_A["Mode A: Existing RR Player Replacement Intelligence (Modules A1, A2, A3)"]
+        MODE_B["Mode B: Verified Uncapped Candidate Domestic Career Intelligence"]
+        MODE_REV["Mandatory REVIEW_REQUIRED Safety State (Structured Review Dossier)"]
+        MODE_OOS["Out-of-Scope Notice (Non-RR Capped Player)"]
+    end
+
+    subgraph Output["Contract Emission to MIE"]
+        RESP["PVREOutputContract (26 Typed Fields, Full Provenance)"]
+    end
+
+    subgraph MIE_Downstream["Downstream MIE Orchestration to Analytics & Squad"]
+        MIE_Route["MIE merges PVRE output, invokes CPPAE/CMIE & forwards to SICE"]
+        SICE["ENGINE 06: SICE (16-Dimension Incumbent-vs-Candidate Comparison)"]
+        DB[("PostgreSQL 16 Database (33 Entities)")]
+    end
+
+    MIE_In --> REQ
+    REQ --> MC_Entry
+    MC_Entry --> MC_Classifier
+
+    MC_Classifier -->|"Steps 2-3: Verified RR Relationship"| MODE_A
+    MC_Classifier -->|"Steps 4-5: Verified Uncapped & Zero Caps"| MODE_B
+    MC_Classifier -->|"Step 6: Ambiguity / Conflict / Incomplete"| MODE_REV
+    MC_Classifier -->|"Step 7: Verified Non-RR Capped"| MODE_OOS
+
+    MODE_A --> RESP
+    MODE_B --> RESP
+    MODE_REV --> RESP
+    MODE_OOS --> RESP
+
+    RESP --> MIE_Route
+    MIE_Route --> SICE
+    MIE_Route --> DB
+    RESP --> DB
+```
+
+### 2.2c Diagram 2c: Mode A Replacement Intelligence Flow
+
+```mermaid
+flowchart TD
+    subgraph Trigger["Mode A Trigger"]
+        INC["Verified RR Incumbent (CURRENT_RR / HISTORICAL_RR_APPEARED / SQUAD_ONLY)"]
+    end
+
+    subgraph ModA1["Module A1: RR Historical Research"]
+        A1_Squad["Documented Squad Memberships by Season"]
+        A1_App["Actual Match Appearances (Scorecards)"]
+        A1_BatBowl["Season-wise Batting & Bowling Metrics"]
+        A1_Field["Fielding & Wicketkeeping Events"]
+        A1_Roles["Role Changes & Tactical Evolution"]
+    end
+
+    subgraph ModA2["Module A2: Recent Global Performance Research"]
+        A2_Win["2-to-3 Year Configurable Evaluation Window"]
+        A2_Leagues["Global Competitions: BBL, PSL, CPL, SA20, The Hundred, Intl, Domestic"]
+        A2_Stats["Format-Tagged Performance Profiles with Sample Sizes"]
+        A2_Injur["Verified Injury & Availability Records"]
+        A2_Gaps["Participation Continuity & Gap Tracking"]
+    end
+
+    subgraph ModA3["Module A3: Replaceability Evidence Assessment"]
+        A3_Synth["Trajectory & Role Importance Synthesis"]
+        A3_Sig{"Assessment Signal Generator"}
+        SIG_RETAIN["RETAIN_SIGNAL"]
+        SIG_MONITOR["MONITOR_SIGNAL"]
+        SIG_REPLACE["POTENTIALLY_REPLACEABLE"]
+        SIG_INSUFF["INSUFFICIENT_EVIDENCE"]
+        SIG_REVIEW["REVIEW_REQUIRED"]
+    end
+
+    subgraph SICE_Comp["SICE Replacement Evaluation (§8.4)"]
+        SICE_16["16-Dimension Role-Aware Comparison"]
+        SICE_Out["ANALYTICAL_RETAIN / MONITOR / REPLACEMENT_CANDIDATE"]
+    end
+
+    INC --> ModA1
+    INC --> ModA2
+    ModA1 --> ModA3
+    ModA2 --> ModA3
+    A3_Synth --> A3_Sig
+    A3_Sig --> SIG_RETAIN
+    A3_Sig --> SIG_MONITOR
+    A3_Sig --> SIG_REPLACE
+    A3_Sig --> SIG_INSUFF
+    A3_Sig --> SIG_REVIEW
+    A3_Sig --> SICE_Comp
+```
+
+### 2.2d Diagram 2d: Mode B Uncapped Candidate Intelligence Flow
+
+```mermaid
+flowchart TD
+    subgraph TriggerB["Mode B Trigger"]
+        CAND["Player with NO_VERIFIED_RR_RELATIONSHIP & VERIFIED_ELIGIBLE"]
+    end
+
+    subgraph Discovery["Comprehensive Domestic Career Discovery"]
+        DOM_Ranji["Ranji Trophy (First-Class Red-Ball)"]
+        DOM_SMAT["Syed Mushtaq Ali Trophy (SMAT T20)"]
+        DOM_VHT["Vijay Hazare Trophy (List A 50-Over)"]
+        DOM_Duleep["Duleep & Premier BCCI Tournaments"]
+        DOM_Age["Age-Group BCCI (U19 Vinoo Mankad / U23 CK Nayudu)"]
+        DOM_Leagues["Other Franchise Leagues & Global Records"]
+    end
+
+    subgraph Verification["Verification & Coverage Gate"]
+        COV["Four-State Coverage Tracking"]
+        EPS_Gate["Policy Verification: Zero Senior International Caps"]
+        ABS_Check{"Database Absence Check"}
+        AFFIRM["Affirmative Proof Established"]
+        NO_AFFIRM["Unverified → NOT_ASSESSED"]
+    end
+
+    subgraph Pool["Verified Uncapped Pool"]
+        UN_POOL["Verified Uncapped Candidate Pool"]
+        SICE_B["SICE Squad Integration & Top-10 Ranking Deliverable"]
+    end
+
+    CAND --> Discovery
+    Discovery --> COV
+    COV --> EPS_Gate
+    EPS_Gate --> ABS_Check
+    ABS_Check -->|"Affirmative Evidence"| AFFIRM
+    ABS_Check -->|"Missing Evidence"| NO_AFFIRM
+    AFFIRM --> UN_POOL
+    UN_POOL --> SICE_B
+```
+
+### 2.2e Diagram 2e: Mandatory REVIEW_REQUIRED Safety Flow
+
+```mermaid
+flowchart TD
+    subgraph Triggers["Safety Trigger Conditions"]
+        T1["Multiple Identities / Ambiguity"]
+        T2["DOB / Attribute Conflicts"]
+        T3["Contradictory RR Relationship Evidence"]
+        T4["Unverified IPL Eligibility"]
+        T5["Material Source Discrepancies"]
+        T6["Incomplete Global / Domestic Sample"]
+    end
+
+    subgraph SafetyGate["PVRE Safety Interceptor"]
+        INTERCEPT["Intercept Request / Halt Automated Routing"]
+        DOSSIER["Compile Structured Review Dossier"]
+    end
+
+    subgraph DossierOutput["Review Dossier Attributes"]
+        R_Status["review_status = REVIEW_REQUIRED"]
+        R_Codes["review_reason_codes"]
+        R_Claims["unresolved_claims"]
+        R_Src["conflicting_source_ids"]
+        R_Miss["missing_evidence"]
+        R_Checks["recommended_manual_checks"]
+    end
+
+    subgraph Outcome["Safety Outcomes"]
+        BLOCK["Block Automated Candidate Pool Entry"]
+        ALERT["Alert Human Cricket Analyst / Operations Lead"]
+        RESOLVE["Manual Review / Resolution via UI View 11"]
+    end
+
+    T1 --> INTERCEPT
+    T2 --> INTERCEPT
+    T3 --> INTERCEPT
+    T4 --> INTERCEPT
+    T5 --> INTERCEPT
+    T6 --> INTERCEPT
+
+    INTERCEPT --> DOSSIER
+    DOSSIER --> R_Status
+    DOSSIER --> R_Codes
+    DOSSIER --> R_Claims
+    DOSSIER --> R_Src
+    DOSSIER --> R_Miss
+    DOSSIER --> R_Checks
+
+    DOSSIER --> BLOCK
+    DOSSIER --> ALERT
+    ALERT --> RESOLVE
 ```
 
 ### 2.3 Diagram 3: Player Identity Resolution (PIRE) Workflow — revised terminology
@@ -493,6 +704,43 @@ flowchart TD
   coverage, and eligibility confidences are separate measurements reported by separate
   engines.
 - **Consequences**: no false precision; every exposed number is defensible.
+
+---
+
+### ADR-008: PVRE Dual-Mode Player Verification, Research Routing & REVIEW_REQUIRED Safety Boundary
+
+- **Context**: In v2.1.1, the platform resolved player identities (PIRE), verified franchise
+  membership (TMVE), discovered careers (CDCRE), and performed squad analysis (SICE), but lacked
+  a dedicated controller to systematically evaluate incumbent Rajasthan Royals players for
+  potential replacement by younger uncapped prospects, or to orchestrate deep domestic career
+  discovery for uncapped talent. Furthermore, unverified or conflicting identity and eligibility
+  claims lacked a unified, non-bypassable safety state, risking automated decision errors.
+- **Decision**: Introduce **ENGINE 07 — Player Verification & Research Engine (PVRE)**
+  orchestrated by the Mother Intelligence Engine (MIE). MIE remains the sole cross-engine orchestrator.
+  PVRE implements:
+  1. An internal Mother Controller governing deterministic 7-step routing precedence within Engine 07.
+  2. **Mode A (Existing RR Player Replacement Intelligence)**: Dual-scope research investigating
+     complete RR historical performance (distinguishing squad inclusion from actual appearances)
+     and recent 2-to-3 year global performance outside RR across recognised competitions (BBL,
+     PSL, CPL, SA20, The Hundred, Intl, domestic). Generates structured analytical signals
+     (`RETAIN_SIGNAL`, `MONITOR_SIGNAL`, `POTENTIALLY_REPLACEABLE`, `INSUFFICIENT_EVIDENCE`,
+     `REVIEW_REQUIRED`) forwarded to SICE.
+  3. **Mode B (Verified Uncapped Candidate Intelligence)**: Complete career discovery across
+     Ranji Trophy, SMAT, VHT, Duleep, and age-group competitions; enforces affirmative
+     eligibility verification under the active target-season policy.
+  4. **Mandatory `REVIEW_REQUIRED` Safety Boundary**: Non-bypassable safety pathway triggered
+     on identity ambiguity, attribute conflict, contradictory RR evidence, unverified eligibility,
+     or coverage gaps; compiles structured review dossiers with reason codes, unresolved claims,
+     conflicting source IDs, and recommended manual checks; strictly blocks unverified players
+     from entering the uncapped ranking pool.
+  5. **Role-Aware SICE Replacement Evaluation**: SICE evaluates incumbent replacement trade-offs
+     across 16 specified dimensions; keeps the hackathon Top-10 ranking deliverable strictly
+     separate.
+- **Consequences**:
+  - *Positive*: Rigorous separation between incumbent evaluation and uncapped candidate discovery;
+    deterministic routing; complete provenance tracking; zero silent classification errors.
+  - *Trade-offs*: Additional coordination layer managed by MIE; requires strict adherence to
+    typed contracts and manual review workflows for flagged records.
 
 ---
 

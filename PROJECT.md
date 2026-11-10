@@ -4,35 +4,35 @@
 > Performance Engine" specification (Next.js 15 / FastAPI / Redis presentation-and-service
 > stack, 20-entity schema, F01–F25 auction-war-room feature inventory, `CricSheet/` data
 > path). **That architecture is no longer the project architecture.** This file has been
-> reconciled (v2.1.0) to the current charter. The superseded v1 content is preserved for
+> reconciled (v2.2.0) to the current charter. The superseded v1 content is preserved for
 > audit at the end of this file under "Appendix A — Historical v1.0.0 Specification
 > (superseded)". Authoritative current documents: `README.md`, `docs/PRD.md`,
 > `docs/TRD.md`, `docs/ARCHITECTURE.md`, `docs/PHASES.md`, `docs/AGENTS.md`,
-> `docs/AI_INSTRUCTIONS.md`, `docs/DATA_SOURCE_REGISTER.md`, `docs/DATA_DICTIONARY.md`.
+> `docs/AI_INSTRUCTIONS.md`, `docs/DATA_SOURCE_REGISTER.md`, `docs/DATA_DICTIONARY.md`, `docs/RANKING_SPEC.md`.
 
-## Architecture (current, v2.1.0)
+## Architecture (current, v2.2.0)
 - **Streamlit-primary, frontend-agnostic engine layer**: Streamlit application (initial
   UI, 11 views) over typed, versioned engine contracts; a future Next.js frontend reuses
   the same contracts (no engine imports a UI framework).
-- **Mother Intelligence Engine (MIE)**: central orchestrator — coordinates the six
+- **Mother Intelligence Engine (MIE)**: central orchestrator — coordinates the seven
   specialised engines, merges verified outputs, tracks verification status and source
   provenance, returns structured reports. MIE never invents statistics, identities,
   memberships, or eligibility decisions.
-- **Six specialised engines**: PIRE (identity) · TMVE (membership verification) · CDCRE
+- **Seven specialised engines**: PIRE (identity) · TMVE (membership verification) · CDCRE
   (career discovery, dual capability) · CPPAE (performance analytics) · CMIE (contextual
-  match intelligence) · SICE (squad intelligence & composition).
-- **Five support services**: A. Data Ingestion · B. Player Profile Generator ·
+  match intelligence) · SICE (squad intelligence & composition) · PVRE (player verification & research engine).
+- **Support services**: A. Data Ingestion · B. Player Profile Generator ·
   C. Source Verification & Provenance · D. Data Quality & Coverage · E. Team Builder.
-- **Normalised 31-entity PostgreSQL 16 core** (3NF core; `derived_features` the single
+- **Normalised 33-entity PostgreSQL 16 core** (3NF core; `derived_features` the single
   documented non-3NF exception; season-partitioned `deliveries` with enforced
-  partitioned-table FKs on PG ≥ 15).
+  partitioned-table FKs on PG ≥ 15; includes `player_season_stats` and `player_match_stats`).
 - **Ingestion & provenance pipeline**: immutable raw staging (SHA-256), quarantine
   handling, five-tier evidence provenance (`datasets/` local lake; Kaggle / HawkeyeStats /
   Open-Meteo / official records per `docs/DATA_SOURCE_REGISTER.md`).
 - **Core engineering principles**:
   1. *Deterministic reproducibility* — deterministic query path; versioned, seeded model
      configuration; bit-for-bit reproducible rankings (AC-18).
-  2. *Normalised 3NF relational core* — 31 entities, hard foreign keys, expression
+  2. *Normalised 3NF relational core* — 33 entities, hard foreign keys, expression
      indexes, domain check constraints; no false-claim defaults.
   3. *Read-only immutable data lake* — `datasets/` is immutable; payloads staged with
      SHA-256 digests and quarantining.
@@ -55,10 +55,11 @@
 | C3 | CDCRE (dual capability) | Engine 03 | `discover_candidates(raw_name)` pre-identity + `discover_career(player_id)` post-identity; four-state coverage | 4 | TRD §5 | `[STATUS: PLANNED]` |
 | C4 | CPPAE | Engine 04 | Full performance profiles governed by `DATA_DICTIONARY.md` (B/W/F/M series, NOT_COMPUTABLE list) | 5 | TRD §6 + DATA_DICTIONARY | `[STATUS: PLANNED]` |
 | C5 | CMIE | Engine 05 | Contextual conditions with 5 provenance tiers; weather ≠ pitch; ratings only with validated methodology | 6 | TRD §7 | `[STATUS: PLANNED]` |
-| C6 | SICE | Engine 06 | Squad role/depth/balance analysis; labelled analytical recommendations; hackathon ranking support | 8 | TRD §8 | `[STATUS: PLANNED]` |
+| C6 | SICE | Engine 06 | Squad role/depth/balance analysis; 16-dimension replacement comparison (§8.4); labelled analytical recommendations; hackathon ranking support | 8 | TRD §8 | `[STATUS: PLANNED]` |
+| C6b | PVRE | Engine 07 | Dual-mode player research & replacement intelligence (Mode A: RR replacement; Mode B: uncapped domestic discovery; REVIEW_REQUIRED safety) | 4B | TRD §9 | `[STATUS: PLANNED - MVP]` |
 | C7 | MIE | Orchestrator | Candidate-discovery-first sequence; merges outputs; verification tracking; provenance assembly | 7 | TRD §2 | `[STATUS: PLANNED]` |
-| C8 | Services A–E | Support | Ingestion · profile export · provenance · quality/coverage · team builder | 1/7/4/1/8 | TRD §9 | `[STATUS: PLANNED]` |
-| C9 | 31-entity DDL | Data | Remediated PostgreSQL 16 core (design decisions D1–D10) | 2 | TRD §10 | `[STATUS: PLANNED]` |
+| C8 | Services A–E | Support | Ingestion · profile export · provenance · quality/coverage · team builder | 1/7/4/1/8 | TRD §10 | `[STATUS: PLANNED]` |
+| C9 | 33-entity DDL | Data | Verified PostgreSQL 16 core (design decisions D1–D10 + entity reconciliation) | 2 | TRD §11 | `[STATUS: PLANNED]` |
 | C10 | `team_season_participation` | Data | Franchise-season participation (PARTICIPATING/SUSPENDED/NOT_ENTERED/UNKNOWN, evidence-bound) | 3 | TRD D4 | `[STATUS: PLANNED]` |
 | C11 | Eligibility policy model | Data | `eligibility_policies` (versioned, season-bound, source-traceable, effective-dated) + `player_eligibility` | 3 | TRD D5 | `[STATUS: PLANNED]` |
 | C12 | DATA_SOURCE_REGISTER | Governance | Source-to-field mapping, verification statuses, match/delivery reconciliation, licence evidence | 0b | docs/DATA_SOURCE_REGISTER.md | `[STATUS: OPEN - external verification outstanding]` |
@@ -68,26 +69,28 @@
 | C16 | Post-MVP enhancements | Deferred | EAP/VORP-WAR regression, Monte Carlo campaign simulation, Playing XI optimizer, Impact Player engine, Next.js frontend | — | PRD §7 | `[STATUS: POST-MVP]` |
 
 ## Roadmap
-Phases 0a/0b → 1–10 per [`docs/PHASES.md`](docs/PHASES.md). **Phase 0a COMPLETE; Phase 0b
-OPEN (PARTIALLY_COMPLETE)**; Phases 1–10 PLANNED.
+Phases 0a/0b → 1–4 → 4B (PVRE) → 5–10 per [`docs/PHASES.md`](docs/PHASES.md). **Phase 0a COMPLETE; Phase 0b
+OPEN (PARTIALLY_COMPLETE)**; Phase 4B `[PLANNED - MVP]`; Phases 1–10 PLANNED.
 
 ## Repository Layout
 
 ```
 d:\New folder (2)\
 ├── .agents/teamwork/                    # Historical agent evidence (v1/v2 audits) — preserved, not modified
-├── datasets/                            # [IMMUTABLE, UNTRACKED] Raw cricket datasets (4 CricSheet archives, ODC-By)
+├── datasets/                            # [IMMUTABLE, UNTRACKED] Raw cricket datasets (13 CricSheet archives, 5,083 JSON files, ODC-By)
 │   ├── ipl_male_json/                   #   1,243 IPL match files (JSON v1.3.0) + LICENSE/README
+│   ├── bbl_male_json/                   #   662 BBL match files
+│   ├── sma_json/                        #   695 SMAT match files
 │   ├── hnd_male_json/                   #   201 The Hundred match files
 │   ├── icc_mens_cricket_world_cup_male_json/ # 265 ODI WC files (24 withheld, CricSheet policy)
 │   └── icc_mens_t20_world_cup_male_json/     # 230 T20 WC files (29 withheld, CricSheet policy)
-├── docs/                                # Authoritative documentation suite (9 documents)
+├── docs/                                # Authoritative documentation suite (10 documents)
 │   ├── README.md · PRD.md · TRD.md · ARCHITECTURE.md · PHASES.md
 │   ├── AGENTS.md · AI_INSTRUCTIONS.md
-│   ├── DATA_SOURCE_REGISTER.md · DATA_DICTIONARY.md
+│   ├── DATA_SOURCE_REGISTER.md · DATA_DICTIONARY.md · RANKING_SPEC.md
 ├── reports/DOCUMENTATION_REMEDIATION_AUDIT.md
 ├── DOCUMENTATION_PRE_REMEDIATION_AUDIT.md
-├── PROJECT.md                           # This charter (v2.1.0)
+├── PROJECT.md                           # This charter (v2.2.0)
 └── README.md                            # Project overview, status, change set
 ```
 
@@ -103,9 +106,10 @@ d:\New folder (2)\
 │   ├── analytics/                       #   CPPAE per DATA_DICTIONARY (NULL-safe, format-tagged, sample-visible)
 │   ├── context/                         #   CMIE (5 provenance tiers; weather/pitch separation)
 │   ├── squad/                           #   SICE + ranking model configuration (versioned weights)
+│   ├── pvre/                            #   PVRE Mother Controller, Mode A, Mode B, REVIEW_REQUIRED safety
 │   ├── elt/                             #   Ingestion, SHA-256 staging, quarantine, reconciliation (Service D)
 │   └── profile_gen/                     #   Service B exports (JSON/CSV, attribution, confidentiality guard)
-├── migrations/                          # [PLANNED - Phase 2] V001__initial_31_entity_schema.sql, V002__*.sql
+├── migrations/                          # [PLANNED - Phase 2] V001__initial_33_entity_schema.sql, V002__*.sql
 ├── app/streamlit/                       # [PLANNED - Phase 9] 11-view Streamlit application (thin adapters only)
 └── tests/                               # Unit, integration, statistical, adversarial, and architecture import tests
 ```
@@ -125,8 +129,8 @@ continuity only** and must not be read as the current architecture.
 > Relational Core (PostgreSQL 16, 20 Discrete Entities, Declarative Partitioning) ↔
 > Ingestion & Contextual Enrichment Pipeline (CricSheet JSON v1.3.0 / YAML v0.94 in
 > `CricSheet/`, Kaggle Historicals, Open-Meteo Historical Weather, HawkeyeStats Tracking
-> Telemetry). **Superseded by the MIE + 6 engines + 5 services architecture over the
-> 31-entity core with `datasets/` as the data path.**
+> Telemetry). **Superseded by the MIE + 7 specialised engines + 5 services architecture over the
+> 33-entity core with `datasets/` as the data path.**
 
 ### A.2 Superseded v1 Feature Inventory (F01–F25, all PLANNED, now re-mapped)
 | # | Feature | v1 Category | v2.1.0 Disposition |
@@ -155,4 +159,4 @@ continuity only** and must not be read as the current architecture.
 | F22 | Multi-Format Ingestion Engine | Ingestion | Service A ingestion (JSON v1.3.0 local; YAML not present locally — `datasets/` are all JSON) |
 | F23 | DLS Par & Revised Target Reconciler | Ingestion | CPPAE/CMIE DLS rules (DATA_DICTIONARY global conventions) |
 | F24 | Super Over Isolation | Core Data | Enforced in DDL (`innings.is_super_over`) + DATA_DICTIONARY exclusions |
-| F25 | Central 20-Entity Schema | Architecture | Superseded by the 31-entity remediated DDL (TRD §10) |
+| F25 | Central 20-Entity Schema | Architecture | Superseded by the 33-entity remediated DDL (TRD §11) |

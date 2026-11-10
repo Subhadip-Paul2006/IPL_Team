@@ -347,3 +347,74 @@ phase gates, and do not mask any unresolved *documentation* defect. Remaining it
 §16 are explicitly future-work, not unresolved defects in the delivered specification.
 
 **GOOD TO GO**
+
+
+---
+
+## 20. Addendum — v2.2.0 PVRE Dual-Mode Engine Architecture Revision (2026-11-10)
+
+### 20.1 Executive Summary & Baseline
+- **Revision Target**: Platform Architecture & Documentation Version `v2.2.0-PVRE-DUAL-MODE`.
+- **Git Baseline Commit**: `eaebdcb29f7912451a1af05b4fa6973379d302bd` (`origin/main`).
+- **Target Branch**: `docs/v2.2.0-pvre-dual-mode`.
+- **Architectural Scope**: Introduces **ENGINE 07 — PVRE (Player Verification & Research Engine)** into the authoritative architecture, orchestrating two distinct execution modes:
+  1. **Mode A — Existing RR Player Replacement Intelligence**: Evaluates verified current/historical Rajasthan Royals players by auditing their complete RR participation history (Module A1) and analyzing their recent performance across a configurable 2-to-3 year global window (Module A2: BBL, PSL, CPL, SA20, The Hundred, domestic T20, international cricket). Synthesises replaceability signals (`RETAIN_SIGNAL`, `MONITOR_SIGNAL`, `POTENTIALLY_REPLACEABLE`, `INSUFFICIENT_EVIDENCE`, `REVIEW_REQUIRED`) in Module A3 and forwards structured dossiers to SICE.
+  2. **Mode B — Verified Uncapped Candidate Intelligence**: Executes comprehensive domestic career discovery (Ranji, SMAT, Vijay Hazare, Duleep, U19/U23) for players not associated with RR who are independently verified as uncapped-eligible under the applicable season policy.
+  3. **Mandatory REVIEW_REQUIRED Safety Gate**: Deterministic fallback whenever player identity, RR association, or eligibility evidence conflicts or remains incomplete. Unresolved candidates never enter the verified ranking pool.
+  4. **SICE Incumbent-vs-Candidate Comparison Integration (§8.4)**: Evaluates incumbent RR players against role-matched verified uncapped candidates across 16 multi-dimensional metrics (D01–D16).
+  5. **Strict Architectural Decoupling**: Mode A incumbent replacement evaluation (`run_type = 'REPLACEMENT_EVALUATION'`) is strictly isolated from the hackathon Top-10 uncapped candidate ranking (`run_type = 'HACKATHON_TOP10'`, `RK-1.0.0`). Mode A evaluations never alter or contaminate the standalone candidate discovery board.
+
+### 20.2 Architectural Metrics & Counts Reconciled
+- **Specialised Engines**: Reconciled from 6 to **7 engines** (PIRE, TMVE, CDCRE, CPPAE, CMIE, SICE, PVRE).
+- **Support Services**: Strictly categorized as **5 support services** (Service A: Data Ingestion, Service B: Profile Generator, Service C: Source Verification & Provenance, Service D: Data Quality & Coverage, Service E: Team Builder) plus 1 specialized policy service (Agent 04b Eligibility Policy Service).
+- **Central PostgreSQL Core**: Reconciled and verified at **33 entities** (including `player_season_stats` and `player_match_stats` as verified 3NF historical aggregates; schema audit confirmed zero DDL changes required for PVRE data persistence).
+- **Multi-Agent System**: Reconciled from 16 to **18 system agents** (adding `agent_pvre` as Agent 08b; Family 1: 2, Family 2: 8, Family 3: 5, Family 4: 3).
+- **Engineering Roadmap**: Added **Phase 4B `[STATUS: PLANNED - MVP]`** to `docs/PHASES.md` with 12 explicit checkpoints, acceptance criteria AC-24 through AC-30, and 10 explicit test scenarios.
+- **Acceptance Criteria**: Expanded from AC-01..AC-23 to **AC-01..AC-30**.
+
+### 20.3 Empirical Local Dataset Audit & Register Expansion
+Empirical filesystem inspection of `datasets/` verified local presence of **5,083 JSON match files** across 13 directories:
+- `ipl_male_json`: 1,243 files (ODC-By v1.0)
+- `bbl_male_json`: 662 files (ODC-By v1.0)
+- `sma_json`: 695 files (ODC-By v1.0 — Syed Mushtaq Ali Trophy verified locally present, resolving prior documentation ambiguity!)
+- `bpl_male_json`: 469 files (ODC-By v1.0)
+- `cpl_male_json`: 445 files (ODC-By v1.0)
+- `psl_male_json`: 357 files (ODC-By v1.0)
+- `icc_mens_cricket_world_cup_male_json`: 265 files (ODC-By v1.0, 24 withheld per policy)
+- `icc_mens_t20_world_cup_male_json`: 230 files (ODC-By v1.0, 29 withheld per policy)
+- `hnd_male_json`: 201 files (ODC-By v1.0, balls_per_over=5)
+- `lpl_male_json`: 143 files (ODC-By v1.0)
+- `ilt_male_json`: 134 files (ODC-By v1.0)
+- `sat_male_json`: 130 files (ODC-By v1.0)
+- `mlc_male_json`: 109 files (ODC-By v1.0)
+Dedicated domestic and age-group sources (S18A–H, S19B, S20B) and API/browser access constraints documented in `docs/DATA_SOURCE_REGISTER.md`.
+
+### 20.4 Document Modification Summary
+All 14 authoritative documentation files updated and cross-synchronised:
+1. `README.md`: Bumped to v2.2.0; 7 engines, 18 agents, 5 support services, 33 entities; updated architecture overview, engine table, repository layout, roadmap, and implementation status.
+2. `PROJECT.md`: Bumped to v2.2.0; 7 engines, 18 agents, 5 support services, 33 entities; updated feature inventory and roadmap (added Phase 4B); preserved Appendix A.
+3. `DOCUMENTATION_PRE_REMEDIATION_AUDIT.md`: Preserved historical audit baseline intact; added dated v2.2.0 supersession banner at top documenting supersession by v2.1.1 (`eaebdcb`) and v2.2.0 (`docs/v2.2.0-pvre-dual-mode`).
+4. `reports/DOCUMENTATION_REMEDIATION_AUDIT.md`: Updated Section 20 Addendum covering full 14-file suite, 5,083 JSON dataset audit, 5 support services, and final approval verdict.
+5. `docs/README.md`: Bumped to v2.2.0; 7 engines, 18 agents, 5 support services, 33 entities; clarified 31-to-33 entity historical progression; updated reading pathways, traceability matrix, and changelog.
+6. `docs/PRD.md`: Bumped to v2.2.0; 7 engines, 18 agents, 5 support services, 33 entities; updated Section 4 workflow; added Use Cases 5, 6, 7; added FR-S6 and FR-PV1..8; updated Views 4, 8, 10, 11; added AC-24..AC-30.
+7. `docs/TRD.md`: Bumped to v2.2.0; 7 engines; updated Section 2.3 MIE sequence (MIE sole cross-engine orchestrator; Mother Controller internal to PVRE); added Section 8.4 SICE replacement comparison; added Section 9 PVRE (9.1..9.7) with 26-field typed output contract; updated Section 10 (5 support services, local SMAT lake note); added Section 11.5 documenting 33-entity schema audit.
+8. `docs/ARCHITECTURE.md`: Bumped to v2.2.0; 7 engines, 33 entities; updated Diagram 1 and Diagram 2b establishing MIE as sole cross-engine orchestrator and Mother Controller as internal router; added Diagrams 2c, 2d, 2e; added ADR-008.
+9. `docs/PHASES.md`: Bumped to v2.2.0; added Phase 4B `[PLANNED - MVP]` with 12 checkpoints, AC-24..AC-30, 26-field contract compliance, and 10 explicit test scenarios; updated Phase 7 (MIE) and Phase 8 (SICE) with explicit Phase 4B dependencies; updated Hackathon phase; added Risks R-13, R-14.
+10. `docs/AGENTS.md`: Bumped to v2.2.0; updated hierarchy diagram for 18 agents, 7 engines, 5 support services; updated MIE, SICE, Docs, QA agent contracts; added `agent_pvre`.
+11. `docs/AI_INSTRUCTIONS.md`: Bumped to v2.2.0; 33 entities, 7 engines, 5 support services; added Domain Commandments R13–R22.
+12. `docs/DATA_SOURCE_REGISTER.md`: Bumped to v2.2.0; added S18A–H, S19B, S20B; updated SMAT local presence (695 files); added global franchise files (BBL, PSL, CPL, SA20, etc., totaling 5,083 JSON files); added Section 2.4 API/browser access constraints; added Section 2.5 marking protocol, conflict resolution, and fallback behavior.
+13. `docs/DATA_DICTIONARY.md`: Bumped to v2.2.0; added Section 9 (PVRE Recent-Form Metrics R01–R06 with exponential decay and gap taxonomy), Section 10 (PVRE Replacement Assessment Signals), Section 11 (SICE 16 Role-Aware Comparison Dimensions D01–D16).
+14. `docs/RANKING_SPEC.md`: Bumped to v2.2.0; decoupled Top-10 uncapped ranking (`RK-1.0.0`) from Incumbent Replacement Evaluation (`RE-1.0.0`); added Section 9 for SICE replacement comparison reproducibility and storage in `ranking_runs`.
+
+### 20.5 Verification & Audit Results
+- **Cross-Document Consistency**: Engine count (7), Agent count (18), Entity count (33), Acceptance Criteria (AC-01..AC-30), and Phase count (Phase 0a/0b, Phases 1–4, 4B, 5–10) verified 100% consistent across all documents.
+- **Link Integrity**: Internal markdown document links verified valid.
+- **Guardrail Adherence**:
+  * No arbitrary composite scores (prohibited; 16 multi-dimensional matrix mandated).
+  * No uncalibrated replacement probabilities (prohibited; discrete assessment states mandated).
+  * No silent mode fallback (prohibited; `REVIEW_REQUIRED` hard safety path enforced).
+  * No assumption of uncapped status for unknown players (prohibited; independent policy verification mandated).
+  * Greenfield Baseline status preserved uniformly across all documents (`[STATUS: PLANNED - GREENFIELD BASELINE]`).
+
+### 20.6 Final Verdict
+**DOCUMENTATION GOOD TO GO — v2.2.0 APPROVED ARCHITECTURAL BASELINE**

@@ -3,12 +3,23 @@
 **Project Title**: RR Squad Intelligence & Team Composition Platform
 **Event**: IPL 2027 Hackathon (Rajasthan Royals scouting)
 **Target Franchise**: Rajasthan Royals (RR)
-**Document Version**: 2.1.0-REMEDIATED
+**Document Version**: 2.2.0
 **Status**: `[STATUS: PHASE 0 PARTIALLY_COMPLETE (0a COMPLETE / 0b OPEN) · PHASES 1–10 PLANNED]`
 **Date**: November 2026
 **Primary Authors**: Principal Software Architect, Cricket Data Engineer, Systems Integration Engineer
 
-> **Revision Note (v2.1.0, remediation)**: Phase 0 is **split** and its status corrected.
+> **Revision Note (v2.2.0, PVRE Dual-Mode Implementation Phase)**: Introduces **Phase 4B — PVRE
+> Dual-Mode Player Verification & Research Engine** [PLANNED - MVP] into the authoritative
+> implementation roadmap. Phase 4B governs the implementation of the Mother Controller,
+> deterministic routing precedence, Mode A (Existing RR Player Replacement Intelligence: Module A1
+> RR History, Module A2 Recent Global Performance across a configurable 2–3 year window, Module A3
+> Replaceability Evidence Assessment with 5 analytical signal states), Mode B (Verified Uncapped
+> Candidate Intelligence: complete domestic career discovery across Ranji, SMAT, VHT, Duleep, and
+> age-groups), mandatory `REVIEW_REQUIRED` safety pathway, and SICE role-aware incumbent-vs-candidate
+> replacement comparison. Reconciles database entity count to 33 entities everywhere. Adds 12 explicit
+> checkpoints and maps Acceptance Criteria AC-24 through AC-30.
+>
+> **Revision Note (v2.1.0, remediation, retained for history)**: Phase 0 is **split** and its status corrected.
 > The v2.0.0 "Phase 0 COMPLETE" claim bundled *documentation baseline completion* with
 > *empirical data-source and licence verification* that the tracked repository did not
 > support. Phase 0a (documentation baseline) is COMPLETE; Phase 0b (empirical data-source
@@ -33,13 +44,17 @@
 | [PHASE 1: HISTORICAL DATASET ACQUISITION & DATA QUALITY]  (PLANNED - MVP)                          |
 |       |                                                                                            |
 |       v                                                                                            |
-| [PHASE 2: UNIFIED DATABASE & PIRE]  31-entity DDL, PIRE deterministic tiers  (PLANNED - MVP)        |
+| [PHASE 2: UNIFIED DATABASE & PIRE]  33-entity DDL, PIRE deterministic tiers  (PLANNED - MVP)        |
 |       |                                                                                            |
 |       v                                                                                            |
 | [PHASE 3: TMVE - 3-DIMENSION MEMBERSHIP + team_season_participation + eligibility policies] (MVP)  |
 |       |                                                                                            |
 |       v                                                                                            |
 | [PHASE 4: CDCRE DUAL CAPABILITY + AUTHORISED RESEARCH + PROVENANCE (Service C)]  (PLANNED - MVP)   |
+|       |                                                                                            |
+|       v                                                                                            |
+| [PHASE 4B: PVRE DUAL-MODE RESEARCH & REPLACEMENT ENGINE] (PLANNED - MVP)                           |
+|   - Mother Controller · Mode A (RR history + global form) · Mode B (uncapped) · REVIEW_REQUIRED    |
 |       |                                                                                            |
 |       v                                                                                            |
 | [PHASE 5: CPPAE PER DATA_DICTIONARY]  (PLANNED - MVP)                                              |
@@ -77,15 +92,16 @@
 | **0a** | Documentation baseline | All 7 core docs + PROJECT + README + register + dictionary + pre/post-audit reports | **COMPLETE** | — |
 | **0b** | Empirical data-source & licence audit | Local dataset inventory (done 2026-11-10), licence verification of local archives (done), **external source licence/coverage verification (Kaggle S6/S7, HawkeyeStats S8, Open-Meteo S9, BCCI/ESPN S10–S12) — OUTSTANDING** | **OPEN / PARTIALLY_COMPLETE** | 0a |
 | **1** | Historical Dataset Acquisition & Data Quality | Ingest `datasets/` (verified counts), SHA-256 manifests, quarantine, DQ/coverage baselines, SMAT gap recording | PLANNED | 0b |
-| **2** | Unified Database & Player Identity Resolution | 31-entity DDL execution + migration validation, PIRE deterministic tiers | PLANNED | 1 |
+| **2** | Unified Database & Player Identity Resolution | 33-entity DDL execution + migration validation, PIRE deterministic tiers | PLANNED | 1 |
 | **3** | TMVE + Franchise Participation + Eligibility Policies | `team_season_participation` seeding (RR 2008–15/2016–17 suspended/2018–26; 2027 UNKNOWN), three-dimension states, versioned eligibility policies | PLANNED | 2 |
 | **4** | CDCRE dual capability + external research | Candidate discovery + career retrieval; provenance (Service C); negative-verification protocol | PLANNED | 2, 3, 0b |
-| **5** | CPPAE per DATA_DICTIONARY | All B/W/F/M-series metrics, sample sizes, NULL discipline | PLANNED | 2 |
+| **4B** | PVRE Dual-Mode Player Verification & Research Engine | Mother Controller routing, Mode A (RR history + recent global form 2–3 yr window + replaceability assessment), Mode B (full domestic career discovery + independent eligibility verification), mandatory `REVIEW_REQUIRED` safety pathway, SICE replacement comparison integration | PLANNED | 2, 3, 4 |
+| **5** | Complete Player Performance Analytics | DATA_DICTIONARY-governed profiles (B/W/F/M), integer-ball bowling notation, derived_features persistence, scorecard reconciliation | PLANNED | 2 |
 | **6** | CMIE provenance-tiered context | Weather/pitch separation, timezone + match-method fields, ratings only with methodology version | PLANNED | 5 |
 | **7** | MIE + Profile Generator | Orchestration (candidate-discovery-first sequence), unified reports, JSON/CSV export | PLANNED | 3, 4, 5, 6 |
 | **8** | SICE + Team Builder | Role/depth/balance analysis, comparisons, Team Builder service | PLANNED | 5, 7 |
 | **9** | Streamlit application | 11 views, session-state discipline, import-architecture tests | PLANNED | 7, 8 |
-| **10** | Hackathon evaluation & submission | Top-10 reproducible ranking + dossiers, AC-01…AC-23 execution, submission packaging | PLANNED | 9 |
+| **10** | Hackathon evaluation & submission | Top-10 reproducible ranking + dossiers, AC-01…AC-30 execution, submission packaging | PLANNED | 9 |
 
 ---
 
@@ -102,7 +118,7 @@ v1/v2 architecture.
 - Inputs: repository, `.agents/teamwork` evidence, local `datasets/`.
 - Outputs: the 10 remediated/created docs + `reports/DOCUMENTATION_REMEDIATION_AUDIT.md`.
 - **Depends on**: — · **Checkpoint**: all docs consistent at entity count 31, `agent_cdcre`,
-  31-entity DDL passing the available SQL parse (see audit report §14).
+  33-entity DDL passing the available SQL parse (see audit report §14 and TRD §11.5).
 - **Acceptance**: cross-doc consistency (Part 17 list) verified; broken internal link count 0
   (audit report §12). **Testing**: link checker + sqlglot parse + consistency greps.
 - **Status**: **COMPLETE** (as of this remediation commit).
@@ -137,6 +153,7 @@ Objectives: establish evidenced availability/licence status for **every** source
 
 ---
 
+<a id="3-phase-1--historical-dataset-acquisition--data-quality"></a>
 ## 3. Phase 1 — Historical Dataset Acquisition & Data Quality `[PLANNED - MVP]`
 
 - **Objectives**: fault-tolerant ingestion of `datasets/`; SHA-256 immutable staging;
@@ -153,9 +170,10 @@ Objectives: establish evidenced availability/licence status for **every** source
 - **Testing**: parser unit tests, ingestion SQL counts, quarantine assertion.
 - **Status**: PLANNED.
 
+<a id="4-phase-2--unified-database--player-identity-resolution"></a>
 ## 4. Phase 2 — Unified Database & Player Identity Resolution `[PLANNED - MVP]`
 
-- **Objectives**: execute the **31-entity** DDL (migration gates: expression index on
+- **Objectives**: execute the **33-entity** DDL (migration gates: expression index on
   `derived_features`; FKs on partitioned `deliveries` (PG15+ requirement; pre-15 fallback =
   Service D checks); composite `(delivery_id, season_year)` fielding link); PIRE with
   deterministic tiers + contextual attribute corroboration.
@@ -170,6 +188,7 @@ Objectives: establish evidenced availability/licence status for **every** source
 - **Testing**: adversarial collision suite; FK integrity queries; partition-pruning sanity.
 - **Status**: PLANNED.
 
+<a id="5-phase-3--team-membership-verification-tmve"></a>
 ## 5. Phase 3 — Team Membership Verification (TMVE) `[PLANNED - MVP]`
 
 - **Objectives**: three-dimension membership (relationship · currency ·
@@ -193,6 +212,7 @@ Objectives: establish evidenced availability/licence status for **every** source
   audit fixture.
 - **Status**: PLANNED.
 
+<a id="6-phase-4--career-discovery--external-research-cdcre"></a>
 ## 6. Phase 4 — Career Discovery & External Research (CDCRE) `[PLANNED - MVP]`
 
 - **Objectives**: dual CDCRE capabilities; four-state coverage; authorised research with
@@ -212,7 +232,136 @@ Objectives: establish evidenced availability/licence status for **every** source
   contract test.
 - **Status**: PLANNED.
 
-## 7. Phase 5 — Complete Player Performance Analytics (CPPAE) `[PLANNED - MVP]`
+<a id="7-phase-4b--player-verification--research-engine-pvre-dual-mode"></a>
+## 7. Phase 4B — PVRE Dual-Mode Player Verification & Research Engine `[PLANNED - MVP]`
+
+- **Status**: `[STATUS: PLANNED - GREENFIELD BASELINE]`
+- **Objective**: Implement and validate Engine 07 (PVRE), the specialised dual-mode research and
+  verification engine orchestrated by MIE. PVRE equips Rajasthan Royals decision-makers with the
+  intelligence required to evaluate whether an existing RR incumbent can be replaced by a younger,
+  verified-eligible uncapped talent (Mode A), or to execute deep, multi-format domestic career
+  discovery for uncapped prospects (Mode B). It enforces an inviolable, non-bypassable
+  `REVIEW_REQUIRED` safety pathway whenever identity, membership, or eligibility evidence is
+  conflicting or incomplete.
+- **Scope**:
+  1. Mother Controller lifecycle, request classification, and deterministic 7-step routing waterfall.
+  2. Mode A: Module A1 (RR historical research, squad membership vs match appearances separation).
+  3. Mode A: Module A2 (recent global performance research across 2–3 year configurable window in
+     recognised leagues: BBL, PSL, CPL, SA20, The Hundred, International, and Indian domestic).
+  4. Mode A: Module A3 (replaceability evidence assessment; analytical signals: `RETAIN_SIGNAL`,
+     `MONITOR_SIGNAL`, `POTENTIALLY_REPLACEABLE`, `INSUFFICIENT_EVIDENCE`, `REVIEW_REQUIRED`).
+  5. Mode B: Uncapped candidate career discovery across Ranji Trophy, SMAT, VHT, Duleep, and
+     age-groups, with independent policy verification (absence is never proof of uncapped status).
+  6. Mandatory `REVIEW_REQUIRED` safety state with structured review dossiers.
+  7. Typed, versioned request and response contracts (`PVREOutputContract` with all 26 mandatory fields per R2.7).
+  8. Downstream integration with SICE for 16-dimension role-aware incumbent-vs-candidate replacement
+     comparisons.
+- **Subphases**:
+  - **4B.1 Mother Controller & Classification Engine**: Request ingestion, pre-identity discovery
+    hook, PIRE identity resolution, TMVE membership retrieval, Eligibility Policy Service check,
+    deterministic routing waterfall, and retry management.
+  - **4B.2 Mode A RR Historical & Recent Global Research Modules**:
+    * *Module A1 (RR History)*: Scorecard join vs squad membership, batting/bowling/fielding/keeping
+      career tables, phase splits, role changes across 2008–2015 and 2018–2026.
+    * *Module A2 (Recent Global Form)*: Multi-league connectors (BBL, PSL, CPL, SA20, The Hundred,
+      Intl, Ranji, SMAT, VHT), 2–3 year configurable window, sample size tracking, format-tagged
+      metrics, verified injury/availability integration.
+  - **4B.3 Mode A Replaceability Evidence Assessment**: Signal synthesis algorithm generating
+    `RETAIN_SIGNAL`, `MONITOR_SIGNAL`, `POTENTIALLY_REPLACEABLE`, `INSUFFICIENT_EVIDENCE`, or
+    `REVIEW_REQUIRED` without arbitrary thresholds or fabricated release probabilities.
+  - **4B.4 Mode B Uncapped Discovery & Policy Verification**: Domestic competition extractors,
+    match-level aggregations, senior international cap verification, policy validation under active
+    `eligibility_policies` version, and affirmative uncapped pool registration.
+  - **4B.5 Mandatory `REVIEW_REQUIRED` Safety Pathway & Audit Dossier**: Interceptor for identity
+    ambiguity, DOB conflicts, membership contradictions, unverified eligibility, source conflicts,
+    and missing samples; compiles structured review dossiers and blocks automated pool entry.
+  - **4B.6 SICE Replacement Integration**: Implementation of the 16-dimension role-aware comparison
+    protocol and durable `ranking_runs` storage.
+- **Inputs**:
+  - Phase 1 staged datasets (`datasets/`).
+  - Phase 2 canonical player registry (`players`, `player_aliases`).
+  - Phase 3 three-dimension membership state (`player_membership_state`, `team_season_participation`).
+  - Phase 3 active eligibility policy (`eligibility_policies`, `player_eligibility`).
+  - Phase 4 CDCRE candidate discovery and career discovery capabilities.
+- **Outputs**:
+  - `src/pvre/mother_controller.py`: Mother Controller and classification router.
+  - `src/pvre/mode_a/rr_history.py`: Module A1 RR historical performance analyzer.
+  - `src/pvre/mode_a/global_performance.py`: Module A2 recent global performance research.
+  - `src/pvre/mode_a/replaceability_assessor.py`: Module A3 replaceability signal generator.
+  - `src/pvre/mode_b/uncapped_intelligence.py`: Mode B domestic discovery & verification engine.
+  - `src/pvre/safety/review_handler.py`: Mandatory `REVIEW_REQUIRED` dossier generator.
+  - `src/pvre/contracts.py`: Typed `PVRERequestContract` and `PVREOutputContract` models.
+  - Populated `derived_features` rows (`feature_set_name = 'pvre_replacement_assessment'`).
+  - Populated `verification_records` audit entries.
+- **Dependencies**: Phase 2 (PIRE), Phase 3 (TMVE & Eligibility Service), Phase 4 (CDCRE),
+  Phase 0b (External source verification).
+- **Implementation Sequence**:
+  1. Author Pydantic/dataclass contracts (`PVRERequestContract`, `PVREOutputContract`).
+  2. Implement Mother Controller classification logic and routing waterfall.
+  3. Implement Module A1 (RR history) with strict appearance vs squad membership separation.
+  4. Implement Module A2 (Global form) with 2–3 year window boundary enforcement and multi-league
+     format tagging.
+  5. Implement Module A3 (Replaceability assessment) signal synthesis.
+  6. Implement Mode B domestic discovery and affirmative policy verification.
+  7. Implement `REVIEW_REQUIRED` safety interceptor and review dossier generation.
+  8. Integrate PVRE output into SICE role-aware replacement comparison protocol.
+  9. Execute comprehensive test suite covering all routing branches and edge cases.
+- **Checkpoints (12 Explicit Verification Gates)**:
+  1. *Mother Controller and classification*: Correctly dispatches requests to Mode A, Mode B,
+     `REVIEW_REQUIRED`, or `OUT_OF_SCOPE` without guessing.
+  2. *Existing RR association routing*: All players with `CURRENT_RR`, `HISTORICAL_RR_APPEARED`,
+     or `HISTORICAL_RR_SQUAD_ONLY` deterministically enter Mode A.
+  3. *RR historical research*: Scorecard appearances strictly separated from squad inclusion;
+     zero batting/bowling stats credited for squad-only seasons.
+  4. *Recent global performance research*: Accurately bounds performance to the 2–3 year
+     configurable window; captures recognised leagues with visible sample sizes; format tags
+     prevent cross-format contamination.
+  5. *Replaceability evidence assessment*: Produces one of the 5 valid signal states with
+     traceable component scores; generates zero standalone release decisions.
+  6. *Uncapped candidate research*: Covers Ranji, SMAT, VHT, Duleep, and age-group matches without
+     assuming uncapped status from database absence.
+  7. *Eligibility verification*: Uncapped candidates carry verified affirmative proof under the
+     active target-season policy; zero senior international caps.
+  8. *`REVIEW_REQUIRED` handling*: Hard safety interceptor triggers on all ambiguous or conflicting
+     fixtures, generating structured review dossiers and blocking candidate pool entry.
+  9. *Shared output contract*: Contract validates all 26 mandatory fields per R2.7 with explicit null,
+     unavailable, not-established, verified, and conflict semantics.
+  10. *CPPAE/CMIE integration*: Performance metrics and contextual conditions seamlessly feed
+      the PVRE research scope without introducing circular dependencies.
+  11. *SICE incumbent-vs-candidate comparison*: SICE successfully compares incumbent dossiers and
+      candidate profiles across 16 role-aware dimensions, emitting versioned analytical
+      recommendations.
+  12. *End-to-end acceptance tests*: Full test harness executes successfully across all PVRE
+      acceptance criteria (AC-24 through AC-30).
+- **Acceptance Criteria**: AC-24, AC-25, AC-26, AC-27, AC-28, AC-29, AC-30.
+- **Explicit Test Scenarios (10 Mandatory Test Fixtures)**:
+  1. *Verified RR Incumbent Scenario*: Input fixture Sanju Samson ($t_{\text{eval}} = \text{2026-11-01}$). PIRE resolves player ID; TMVE confirms `CURRENT_RR`; Module A1 analyzes RR seasons (2013–2015, 2018–2026); Module A2 assesses 2–3 yr global/international window; Module A3 emits `RETAIN_SIGNAL`. Profile forwarded to SICE. Assert: `route_status = 'ROUTED_RR_INCUMBENT'`, `replaceability_assessment = 'RETAIN_SIGNAL'`. Failure condition: conflating squad inclusion with match appearances or failing to bound recent window.
+  2. *Historical RR Player Scenario*: Input fixture Ajinkya Rahane / Shane Watson / Squad-only alumnus. PIRE resolves player ID; TMVE confirms `HISTORICAL_RR_APPEARED` or `HISTORICAL_RR_SQUAD_ONLY`, currency `FORMER_RR`; Module A1 accurately isolates RR tenure; Module A2 analyzes recent global form outside RR; Module A3 emits analytical signal. Assert: `route_status = 'ROUTED_RR_INCUMBENT'`, `rr_relationship_state = 'HISTORICAL_RR_*'`. Failure condition: missing historical RR seasons or crediting batting/bowling statistics for squad-only alumni (`appearances = 0`).
+  3. *Verified Uncapped Candidate Scenario*: Input fixture domestic T20 breakout performer (e.g. young SMAT star). PIRE resolves identity; TMVE confirms `NO_VERIFIED_RR_RELATIONSHIP`; Eligibility Policy Service verifies 0 international caps and target policy compliance; Module B retrieves domestic career across SMAT, VHT, Ranji; enters candidate pool. Assert: `route_status = 'ROUTED_UNCAPPED_CANDIDATE'`, `ipl_uncapped_eligibility = 'VERIFIED_ELIGIBLE'`. Failure condition: admitting candidate without affirmative policy verification.
+  4. *Verified Capped Non-RR Player Scenario*: Input fixture Virat Kohli / Jasprit Bumrah. PIRE resolves identity; TMVE confirms `NO_VERIFIED_RR_RELATIONSHIP`; international caps verified; player is CAPPED; deterministically routes to `OUT_OF_SCOPE`. Assert: `route_status = 'ROUTED_OUT_OF_SCOPE'`, `player_capped_status = 'CAPPED'`, candidate pool entry blocked. Failure condition: permitting a capped player into Mode B uncapped candidate pool.
+  5. *Unknown Player Absent from Database Scenario*: Input fixture newly registered domestic U-19 prospect absent from internal DB. Mother Controller triggers CDCRE candidate discovery (no player_id); defaults `player_capped_status = 'UNVERIFIED'`, `ipl_uncapped_eligibility = 'NOT_ASSESSED'`; routes to `REVIEW_REQUIRED`. Assert: `route_status = 'ROUTED_SAFETY_REVIEW'`, `review_status = 'REVIEW_REQUIRED'`, `review_reason_codes` contains `UNKNOWN_PLAYER_NOT_IN_DATABASE`. Failure condition: auto-assuming unknown player is uncapped.
+  6. *Duplicate Identities Scenario*: Input fixture two distinct domestic players with identical names ("Amit Sharma"). PIRE detects ambiguous match with multiple candidate entities and distinct birth dates/state associations; Mother Controller halts automated processing; flags identity collision; compiles candidate dossiers. Assert: `route_status = 'ROUTED_SAFETY_REVIEW'`, `review_reason_codes` contains `COLLISION_MULTIPLE_IDENTITIES`. Failure condition: auto-merging distinct players or silently picking first match.
+  7. *Conflicting DOB or Membership Evidence Scenario*: Input fixture passport DOB 2004-05-10 vs BCCI tournament roster DOB 2003-11-22. Provenance engine detects conflicting assertions across sources; flags `CONFLICT`; persists both claims in `verification_records`; routes immediately to `REVIEW_REQUIRED`. Assert: `route_status = 'ROUTED_SAFETY_REVIEW'`, `review_reason_codes` contains `CONFLICT_DOB_RECORD`. Failure condition: overwriting or silently averaging conflicting dates of birth.
+  8. *Missing Domestic Datasets Scenario*: Input fixture player participated in SMAT 2020 or Vinoo Mankad 2022 (unindexed season in data lake). Domestic discovery detects unindexed seasons in data lake; flags `career_coverage_state = 'PARTIAL_COVERAGE'`; lists missing tournaments; evaluates metrics over available sample only. Assert: `career_coverage_state = 'PARTIAL_COVERAGE'`, `missing_competitions` populated. Failure condition: treating missing datasets as evidence of non-participation.
+  9. *Conflicting External Sources Scenario*: Input fixture ESPNcricinfo reports 35 matches, BCCI scorecards verify 32. Provenance tracker flags statistical discrepancy across providers; marks `verification_status = 'CONFLICT'`; compiles review dossier with conflicting source IDs. Assert: `route_status = 'ROUTED_SAFETY_REVIEW'`, `review_reason_codes` contains `CONFLICTING_CAREER_STATISTICS`. Failure condition: silently adopting unverified third-party numbers over verified scorecards.
+  10. *Incomplete Career Coverage Scenario*: Input fixture player debuted in 2018, but verified scorecards available only from 2022. System identifies truncated temporal coverage; sets `career_coverage_state = 'PARTIAL_COVERAGE'`; computes sample indicators; attaches `COVERAGE_LIMITED` flags; does not extrapolate. Assert: `career_coverage_state = 'PARTIAL_COVERAGE'`, sample indicators explicitly displayed. Failure condition: extrapolating or interpolating missing seasons.
+- **Failure Conditions**:
+  - Any unknown player automatically assumed to be uncapped.
+  - Any squad-only player credited with match appearances or performance metrics.
+  - Cross-format statistics merged without format tagging.
+  - A standalone player release or retention decision made inside PVRE.
+  - An ambiguous identity or conflicting DOB bypassing `REVIEW_REQUIRED`.
+  - Top-10 hackathon ranking logic merged into incumbent replacement evaluation.
+- **Data & Provenance Requirements**: Every external datum must link to a `source_records` row and
+  a `verification_records` assertion with documented tier, provider, timestamp, and licence.
+- **Completion Evidence**: Test execution reports demonstrating 100% pass rate on AC-24..AC-30,
+  zero auto-merges, zero fabricated stats, and verified contract compliance.
+
+---
+
+<a id="8-phase-5--complete-player-performance-analytics-cppae"></a>
+<a id="7-phase-5--complete-player-performance-analytics-cppae"></a>
+## 8. Phase 5 — Complete Player Performance Analytics (CPPAE) `[PLANNED - MVP]`
 
 - **Objectives**: DATA_DICTIONARY-governed batting/bowling/fielding/wicketkeeping/
   match-contribution profiles; integer-ball bowling notation; format tags; sample sizes.
@@ -228,7 +377,9 @@ Objectives: establish evidenced availability/licence status for **every** source
   completeness audit.
 - **Status**: PLANNED.
 
-## 8. Phase 6 — Contextual Match Intelligence (CMIE) `[PLANNED - MVP ENHANCED]`
+<a id="9-phase-6--contextual-match-intelligence-cmie"></a>
+<a id="8-phase-6--contextual-match-intelligence-cmie"></a>
+## 9. Phase 6 — Contextual Match Intelligence (CMIE) `[PLANNED - MVP ENHANCED]`
 
 - **Objectives**: 5-tier provenance conditions; weather-as-context discipline (timezone +
   match-method fields); pitch reporting preserved as text; numeric ratings only with a
@@ -245,16 +396,19 @@ Objectives: establish evidenced availability/licence status for **every** source
   defaults survive, per TRD D8).
 - **Status**: PLANNED.
 
-## 9. Phase 7 — Player Profile Generation (MIE + Service B) `[PLANNED - MVP]`
+<a id="10-phase-7--player-profile-generation-mie--service-b"></a>
+<a id="9-phase-7--player-profile-generation-mie--service-b"></a>
+## 10. Phase 7 — Player Profile Generation (MIE + Service B) `[PLANNED - MVP]`
 
 - **Objectives**: MIE end-to-end orchestration (candidate-discovery-first sequence);
-  unified provenance-traced reports; JSON/CSV export with attribution; Team Builder
-  wiring to `user_teams`/`user_team_players`.
+  PVRE Mother Controller routing (Mode A / Mode B / REVIEW_REQUIRED); unified
+  provenance-traced reports; JSON/CSV export with attribution; Team Builder wiring
+  to `user_teams`/`user_team_players`.
 - **Subphases**: MIE routing/merge/verification-status assembly · ambiguity → user
   clarification path · Service B export + confidentiality guard · Service E wiring.
-- **Inputs**: Phases 3–6 outputs.
+- **Inputs**: Phases 3–6 outputs; Phase 4B (PVRE) player research dossiers.
 - **Outputs**: `src/mie/`, `src/profile_gen/`, export manifests.
-- **Depends on**: Phases 3, 4, 5, 6. **Checkpoints**: `request_player_intelligence(name)`
+- **Depends on**: Phases 3, 4, 4B, 5, 6. **Checkpoints**: `request_player_intelligence(name)`
   returns a complete report with all three membership dimensions + eligibility state;
   UNVERIFIED surfaces (never resolved silently).
 - **Acceptance**: AC-03, AC-20.
@@ -262,21 +416,27 @@ Objectives: establish evidenced availability/licence status for **every** source
   independence (AC-23).
 - **Status**: PLANNED.
 
-## 10. Phase 8 — Squad Intelligence & Composition (SICE + Service E) `[PLANNED - MVP]`
+<a id="11-phase-8--squad-intelligence--composition-sice--service-e"></a>
+<a id="10-phase-8--squad-intelligence--composition-sice--service-e"></a>
+## 11. Phase 8 — Squad Intelligence & Composition (SICE + Service E) `[PLANNED - MVP]`
 
-- **Objectives**: team management + role-aware squad evaluation; comparisons; labelled
-  recommendations; no unvalidated probabilities.
+- **Objectives**: team management + role-aware squad evaluation; SICE incumbent-vs-candidate
+  replacement evaluation (§8.4) consuming PVRE Mode A replaceability assessments across 16
+  dimensions; comparisons; labelled recommendations; no unvalidated probabilities; durable
+  storage in `ranking_runs` (`run_type = 'REPLACEMENT_EVALUATION'`).
 - **Subphases**: Team Builder CRUD/roles/saved configs · SICE role/duplication/gap
   analysis · replacement + combination evaluation · recommendation assembly.
-- **Inputs**: Phase 7 profiles; `user_teams`.
+- **Inputs**: Phase 7 profiles; Phase 4B (PVRE) replaceability assessments; `user_teams`.
 - **Outputs**: `src/squad/*`, SICE contract, squad report.
-- **Depends on**: Phases 5, 7. **Checkpoints**: saved team → complete report; labels
+- **Depends on**: Phases 4B, 5, 7. **Checkpoints**: saved team → complete report; labels
   `ANALYTICAL_RECOMMENDATION` (AC-17).
 - **Acceptance**: AC-16, AC-17.
 - **Testing**: SICE fixture tests; team CRUD tests.
 - **Status**: PLANNED.
 
-## 11. Phase 9 — Streamlit Application `[PLANNED - MVP]`
+<a id="12-phase-9--streamlit-application"></a>
+<a id="11-phase-9--streamlit-application"></a>
+## 12. Phase 9 — Streamlit Application `[PLANNED - MVP]`
 
 - **Objectives**: 11-view application on MIE/engine contracts; UI separated from analytics;
   cautious session state.
@@ -291,15 +451,18 @@ Objectives: establish evidenced availability/licence status for **every** source
 - **Testing**: e2e per view; import-architecture test.
 - **Status**: PLANNED.
 
-## 12. Phase 10 — Hackathon Candidate Evaluation & Final Submission `[PLANNED]`
+<a id="13-phase-10--hackathon-candidate-evaluation--final-submission"></a>
+<a id="12-phase-10--hackathon-candidate-evaluation--final-submission"></a>
+## 13. Phase 10 — Hackathon Candidate Evaluation & Final Submission `[PLANNED]`
 
 - **Objectives**: the **Top-10 youngest eligible uncapped candidate board** (PRD §4.3):
-  reproducible role-aware ranking (versioned weights, shrinkage, age-within-role ordering),
+  reproducible role-aware ranking per [`docs/RANKING_SPEC.md`](RANKING_SPEC.md) (`RK-1.0.0`),
   reserve list, per-candidate dossiers (eligibility verification, age as of evaluation date,
   roles, domestic evidence, T20 analysis, consistency, context, squad fit, risk/coverage
-  limits, sources); full AC suite execution; submission packaging.
+  limits, sources); strict architectural separation from PVRE Mode A incumbent replacement
+  evaluation; full AC suite execution (AC-01…AC-30); submission packaging.
 - **Subphases**: ranking model configuration (documented weights version) · Top-10 +
-  reserve generation · dossier assembly (evidence tiers) · AC-01…AC-23 regression ·
+  reserve generation · dossier assembly (evidence tiers) · AC-01…AC-30 regression ·
   documentation reconciliation pass · confidentiality check on outputs.
 - **Inputs**: Phase 9 deliverable.
 - **Outputs**: `reports/FINAL_VERIFICATION_REPORT.md`, submission dossier.
@@ -311,7 +474,9 @@ Objectives: establish evidenced availability/licence status for **every** source
 
 ---
 
-## 13. Cross-Phase Risk Assessment & Mitigation
+<a id="14-cross-phase-risk-assessment--mitigation"></a>
+<a id="13-cross-phase-risk-assessment--mitigation"></a>
+## 14. Cross-Phase Risk Assessment & Mitigation
 
 | # | Risk | Severity | Phase | Mitigation |
 |---|---|---|---|---|
@@ -327,10 +492,12 @@ Objectives: establish evidenced availability/licence status for **every** source
 | **R10** | Proprietary dataset leakage | High | 10 | Isolated handling; exports never include it (AC-20) |
 | **R11** | FK support on partitioned `deliveries` below PG 15 | Medium | 2 | Target engine is PG16; documented fallback to Service D reconciliation checks |
 | **R12** | External source licence misassumption (Kaggle/Hawkeye) | High | 0b, 4 | Register statuses RESTRICTED/UNVERIFIED until 0b evidence rows; no ingestion on unverified terms |
+| **R13** | PVRE multi-league coverage gaps lead to false non-participation assumptions | High | 4B | Enforce four-state coverage tracking (`DATASET_UNAVAILABLE`/`NOT_ESTABLISHED`); mandate that missing datasets are never treated as non-participation; report sample sizes explicitly alongside every recent-form metric |
+| **R14** | Mode A replacement evaluation exhibits role bias or uncalibrated replacement scores | High | 4B, 8 | Enforce role-aware comparison protocol across 16 dimensions; prohibit arbitrary single composite replacement scores; report component metrics transparently; label all outputs ANALYTICAL_RECOMMENDATION |
 
 ---
 
-## 14. Conclusion & Verification Summary
+## 15. Conclusion & Verification Summary
 
 - **Phase 0a (documentation baseline): COMPLETE** (this remediation cycle).
 - **Phase 0b (empirical data-source & licence audit): OPEN / PARTIALLY_COMPLETE** — local
