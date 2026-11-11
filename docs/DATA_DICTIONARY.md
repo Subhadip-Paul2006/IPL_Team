@@ -1,8 +1,13 @@
 # Metric Data Dictionary
 
 **Project**: RR Squad Intelligence & Team Composition Platform
-**Document Version**: 2.1.1-TARGETED-REMEDIATION · **Status**: `[STATUS: PLANNED - GREENFIELD BASELINE]`
+**Document Version**: 2.2.0-PVRE-DUAL-MODE · **Status**: `[STATUS: PLANNED - GREENFIELD BASELINE]`
 
+> **v2.2.0 revision**: added PVRE Recent-Form Metrics (Module A2), PVRE Replaceability Assessment
+> Signals (Module A3), and SICE 16 Role-Aware Incumbent-vs-Candidate Comparison Dimensions (§9, §10, §11).
+> Prohibits uncalibrated replacement probabilities and arbitrary single-number composite scores.
+> Maintains format-aware economy, DDL 33-entity schema alignment, and strict evidence-backed provenance.
+>
 > **v2.1.1 revision**: economy-rate formula corrected to the format-aware
 > `balls_per_over × runs / legal_balls` convention (W06); balls-faced definition
 > corrected to the authoritative scorecard convention (no-balls count as balls faced;
@@ -243,3 +248,86 @@ from silently inheriting six-ball-over behaviour.
 | Delivery line/length without tracking | **NOT_COMPUTABLE** | Tracking coverage sparse; untracked balls excluded, coverage reported |
 | Mental-state / composure measures | **NOT_COMPUTABLE** | Prohibited by domain rules; high-leverage = measurable state (M06) |
 | The-Hundred derived rate metrics | **DEFERRED** | `HUNDRED` phase/economy splits not yet computed (Priority B option 2): ingested & preserved as raw; no derived The-Hundred rate published until `balls_per_over = 5` handling is validated on the local archive (see §5 deferral) |
+
+
+---
+
+## 9. PVRE Recent-Form Metrics (Module A2 — Global Performance)
+
+PVRE Module A2 assesses an incumbent player's recent global performance outside and within Rajasthan Royals over a configurable window of **two to three years** relative to an explicit `evaluation_date` ($t_{\text{eval}}$).
+
+### 9.1 Time-Decay Weighting Function
+When weighting recent innings within the research window $W \in [2, 3]$ years, the platform applies an exponential decay function based on the elapsed days between the match date ($t_i$) and the evaluation date ($t_{\text{eval}}$):
+$$w(t_i) = \exp\left(-\frac{\ln(2) \cdot (t_{\text{eval}} - t_i)}{T_{\text{half}}}\right)$$
+where $T_{\text{half}} = 365\text{ days}$ (default parameter, versioned in `ranking_configurations`). If $t_i > t_{\text{eval}}$, the match is excluded. If $(t_{\text{eval}} - t_i) > W \times 365.25\text{ days}$, $w(t_i) = 0$.
+
+| # | Metric | Class | Definition / Formula | Source fields | Exclusions | Null / sample rules |
+|---|---|---|---|---|---|---|
+| R01 | Window Batting Strike Rate | DERIVED | Format-aware weighted strike rate over research window $W \in [2, 3]$ years: $\frac{100 \times \sum_{i \in W} w(t_i) \times \text{runs}_i}{\sum_{i \in W} w(t_i) \times \text{balls}_i}$ | `batting_innings`, `matches.match_date` | Super Over; matches outside window | Denominator 0 → NULL; `sample=balls_faced` displayed |
+| R02 | Window Bowling Economy Rate | DERIVED | Format-aware weighted economy over window $W$: $\frac{\sum_{i \in W} w(t_i) \times \text{balls\_per\_over}(c_i) \times \text{runs\_conceded}_i}{\sum_{i \in W} w(t_i) \times \text{legal\_balls}_i}$ | `bowling_spells`, `competitions.balls_per_over` | Super Over; matches outside window | Legal balls 0 → NULL; The Hundred uses 5 balls/over |
+| R03 | Window Boundary % | DERIVED | $100 \times \frac{\sum_{i \in W} w(t_i) \times (4\times\text{fours}_i + 6\times\text{sixes}_i)}{\sum_{i \in W} w(t_i) \times \text{runs}_i}$ | `batting_innings` | Outside window | Runs 0 → NULL |
+| R04 | Window Dot Ball % | DERIVED | $100 \times \frac{\sum_{i \in W} w(t_i) \times \text{dot\_balls}_i}{\sum_{i \in W} w(t_i) \times \text{balls}_i}$ | `batting_innings` / `bowling_spells` | Outside window | Balls 0 → NULL; computed for competitions with verified delivery tracking; returns `NOT_COMPUTABLE_FROM_AVAILABLE_SOURCES` for scorecard-only domestic matches |
+| R05 | Participation Consistency & Gap Taxonomy | DERIVED | Ratio of matches played to team scheduled matches per competition season in window $W$; identifies calendar gaps | `matches`, `teams`, `source_records` | Unrecorded fixtures | Expressed as seasonal breakdown; every unplayed match tagged with mutually exclusive gap code: `GAP_VERIFIED_INJURY`, `GAP_NATIONAL_DUTY`, `GAP_DOMESTIC_CLASH`, `GAP_NOT_SELECTED`, `GAP_UNKNOWN_UNEXPLAINED` |
+| R06 | Window Sample Indicators | OBSERVED | Vector of sample counts: `(matches, innings, balls_faced, overs_bowled, legal_balls_bowled, wickets_taken)` per competition and format in window $W$ | `matches`, `batting_innings`, `bowling_spells` | Outside window | Displayed alongside all window metrics; never hidden; balls faced < 20 or legal balls < 30 flags `INSUFFICIENT_SAMPLE` |
+
+### 9.2 Four Career Coverage States
+PVRE enforces four mutually exclusive states governing a player's career evidence:
+1. `COMPLETE_WITHIN_VERIFIED_SOURCES`: All known competitions and seasons in which the player is recorded to have participated have 100% verified match scorecard or ball-by-ball coverage in the platform's registered sources.
+2. `PARTIAL_COVERAGE`: The player has verifiable appearances, but one or more domestic competitions, youth tournaments, or seasons have documented missing match records in the data lake (e.g. unindexed SMAT group games, missing Vinoo Mankad scorecards). The output profile carries an explicit `missing_competitions` array.
+3. `UNKNOWN`: Insufficient evidence to establish whether the player participated in domestic or league cricket; external research is pending.
+4. `REVIEW_REQUIRED`: Discrepancy between external assertions and verified scorecards, or contradictory squad records across providers.
+
+> **Contextual Normalisation Rule**: Raw cross-league statistics must never be aggregated without explicit league-context metadata (`competition_id`, `tier`, `format_tag`). Performance in one tournament (e.g. domestic T20) is not directly interchangeable with international or IPL statistics without documented baseline weighting.
+
+---
+
+## 10. PVRE Replacement Assessment Signals (Module A3)
+
+PVRE Module A3 produces a structured analytical assessment of an incumbent Rajasthan Royals player. The assessment synthesises RR historical contribution, recent 2–3 year global form, age trajectory, availability evidence, and data completeness.
+
+### 10.1 Assessment States
+- `RETAIN_SIGNAL`: The incumbent demonstrates sustained elite role-specific performance across both historical RR appearances and recent global competitions with high sample adequacy and consistent availability.
+- `MONITOR_SIGNAL`: The incumbent exhibits moderate role performance or minor form fluctuation in the recent window, but maintains historical equity or limited replacement urgency. Requires ongoing tracking through domestic/franchise seasons.
+- `POTENTIALLY_REPLACEABLE`: The incumbent displays persistent form degradation over 2–3 years, role stagnation, availability constraints, or advancing age where verified uncapped candidates offer superior role fit, efficiency, or development trajectory.
+- `INSUFFICIENT_EVIDENCE`: Evidentiary coverage within the 2–3 year evaluation window falls below minimum sample thresholds (<20 batting balls, <30 overs bowled, or unverified recent leagues). Prevents premature classification.
+- `REVIEW_REQUIRED`: Unresolved data conflicts, contradictory contract/appearance records, contested identity records, or missing mandatory provenance. Requires human analyst audit.
+
+### 10.2 Architectural Guardrails
+1. **Analytical Signals, Not Decisions**: PVRE signals are advisory inputs to the Senior Management and SICE engine. PVRE does not make auction, release, retention, or signing decisions.
+2. **Prohibition of Replacement Probabilities**: PVRE must NOT generate scalar replacement probabilities (e.g. "78.4% replaceability score") or arbitrary composite single-index scores. Assessments must be multi-dimensional evidence vectors.
+3. **No Arbitrary Thresholds**: Classification rules must be parameterized, reproducible, and versioned in `ranking_runs` configuration.
+
+### 10.3 SICE Analytical Recommendation States
+When SICE evaluates assembled squad composition and incumbent replacement trade-offs against candidate profiles, it emits one of 5 structured analytical recommendation states:
+1. `ANALYTICAL_RETAIN`: Recommend retention based on role superiority, historical equity, and squad balance.
+2. `ANALYTICAL_MONITOR`: Maintain on watchlist; compare in pre-auction trials.
+3. `ANALYTICAL_REPLACEMENT_CANDIDATE`: Candidate demonstrates superior role fit and statistical profile across comparison dimensions.
+4. `NO_SUITABLE_VERIFIED_REPLACEMENT`: Incumbent is potentially replaceable, but no verified uncapped candidate meets role and squad constraints.
+5. `INSUFFICIENT_EVIDENCE`: Either incumbent or candidate lacks sufficient sample size.
+
+---
+
+## 11. SICE Role-Aware Incumbent-vs-Candidate Comparison Dimensions
+
+When SICE consumes a PVRE Mode A incumbent profile alongside top-ranked verified uncapped candidates (from Mode B / SICE ranking pool), it evaluates the pair across **16 Role-Aware Comparison Dimensions**.
+
+| # | Dimension | Role Applicability | Incumbent Metric Basis | Candidate Metric Basis | Evidentiary Basis |
+|---|---|---|---|---|---|
+| D01 | Base Scoring Rate | Top-order, Finisher, All-rounder | Window Batting Strike Rate (R01, B06) | SMAT/Domestic T20 Strike Rate (B06) | CricSheet ball-level legal balls |
+| D02 | Dismissal Resistance | Top-order, Anchor | Window Batting Average (B05) | SMAT/Domestic Batting Average (B05) | Dismissal counts, innings |
+| D03 | Boundary Generation | Opener, Middle-order, Finisher | Window Boundary % (R03, B08) | Domestic T20 Boundary % (B08) | Fours and sixes off the bat |
+| D04 | Dot Ball Suppression | Top-order, Finisher | Window Batting Dot % (R04, B09) | Domestic T20 Batting Dot % (B09) | Dot balls faced / legal balls |
+| D05 | Powerplay Batting Impact | Opener, Top-order | Phase Powerplay Strike Rate (B12) | Domestic T20 Powerplay SR (B12) | Overs 1–6 recorded deliveries |
+| D06 | Middle-Overs Rotation & Acceleration | Anchor, Middle-order | Middle Phase SR & Boundary % (B12) | Domestic T20 Middle Phase SR (B12) | Overs 7–15 recorded deliveries |
+| D07 | Death-Overs Boundary Execution | Finisher, Lower-order | Death Phase Strike Rate (B12) | Domestic T20 Death Phase SR (B12) | Overs 16–20 recorded deliveries |
+| D08 | Run Suppression (Economy) | All Bowlers, All-rounders | Window Bowling Economy Rate (R02, W06) | Domestic T20 Economy Rate (W06) | Legal balls bowled / runs conceded |
+| D09 | Wicket-Taking Efficiency | Pace, Spin, Death Bowler | Bowling Strike Rate (W07, W05) | Domestic T20 Bowling SR (W07) | Wickets taken / legal balls |
+| D10 | Bowling Dot Ball Pressure | Powerplay Bowler, Death Bowler | Bowling Dot % (W08) | Domestic T20 Bowling Dot % (W08) | Dot balls bowled / legal balls |
+| D11 | Phase-Specific Bowling Control | Powerplay / Death Specialist | Phase Economy & Wickets (W09) | Phase Economy & Wickets (W09) | Phase-partitioned bowling spells |
+| D12 | Matchup Resilience | All Roles | Pace vs Spin Splits (B14, B15, W10) | Pace vs Spin Splits (B14, B15, W10) | Handedness and style deliveries |
+| D13 | High-Leverage Execution | All Roles | High-Leverage Metric (M06) | High-Leverage Metric (M06) | Measurable game state threshold |
+| D14 | Fielding & Keeping Contribution | Fielders, Wicketkeepers | Fielding Events & Coverage (F01–F09) | Fielding Events & Coverage (F01–F09) | Recorded opportunity events only |
+| D15 | Age & Trajectory Delta | All Roles | Incumbent Age as of `evaluation_date` | Candidate Age as of `evaluation_date` | DOB verification via PIRE / TMVE |
+| D16 | Sample Adequacy & Evidentiary Tier | All Roles | Window Sample Indicators (R06) | Career Sample Indicators (R06) | Confidence interval, sample tier |
+
+> **Comparative Output Contract**: SICE outputs a multidimensional comparison matrix displaying absolute metrics, sample sizes, and relative deltas for each dimension. SICE **never collapses** the comparison into an arbitrary single score.

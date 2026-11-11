@@ -3,13 +3,20 @@
 **Project Title**: RR Squad Intelligence & Team Composition Platform
 **Event**: IPL 2027 Hackathon
 **Target Franchise**: Rajasthan Royals (RR)
-**Document Version**: 2.0.0-ARCH-REVISION
+**Document Version**: 2.2.0
 **Status**: `[STATUS: ACTIVE MANDATORY DIRECTIVE - GREENFIELD BASELINE]`
 **Date**: November 2026
 **Primary Authors**: Principal Software Architect, Systems Governance Lead, Lead Cricket Data Scientist
 
-> **Revision Note (v2.0.0)**: This directive now governs the **RR Squad Intelligence & Team
-> Composition Platform** (MIE + six engines + five services). It adds mandatory guardrails for
+> **Revision Note (v2.2.0, PVRE Architecture Mandates)**: This directive now governs the
+> **RR Squad Intelligence & Team Composition Platform** (MIE + seven specialised engines + five
+> support services over a 33-entity PostgreSQL core). Adds mandatory domain rules R13–R22 governing
+> PVRE dual-mode verification, replacement intelligence boundaries, zero uncapped inference from
+> database absence, mandatory `REVIEW_REQUIRED` safety gating, and strict separation between the
+> hackathon Top-10 ranking and incumbent replacement evaluation.
+>
+> **Revision Note (v2.0.0, retained for history)**: This directive governed the earlier baseline
+> (MIE + seven engines + support services). It adds mandatory guardrails for
 > **player identity**, **team membership**, and **evidence verification**, and updates
 > the data directory to `datasets/`. The tenet "use LLMs everywhere" is **rejected**:
 > deterministic queries serve known facts; external research is used only for evidence
@@ -38,7 +45,7 @@ Agent** and the **Chief Architect**.
 |  1. DETERMINISTIC REPRODUCIBILITY                                                                  |
 |     Identical inputs -> identical outputs. Seeded randomness only where documented.              |
 |                                                                                                    |
-|  2. CENTRAL NORMALISED 3NF RELATIONAL CORE (27 ENTITIES)                                           |
+|  2. CENTRAL NORMALISED 3NF RELATIONAL CORE (33 ENTITIES)                                           |
 |     Zero redundant transaction data; strict referential integrity; canonical player_id.            |
 |                                                                                                    |
 |  3. READ-ONLY IMMUTABLE DATA LAKE                                                                  |
@@ -94,7 +101,7 @@ Agent** and the **Chief Architect**.
 | Initial UI        | Streamlit                         | Latest stable; thin adapters, no analytics|
 | Future UI         | Next.js / React / TypeScript      | Reuses engine contracts; not in MVP       |
 | Core Engines      | Python                            | 3.11+ (strict typing, PEP 8)            |
-| Database Core     | PostgreSQL                          | 16.0+ (3NF, 31 entities)                  |
+| Database Core     | PostgreSQL                          | 16.0+ (3NF, 33 entities)                  |
 | Scientific Math   | NumPy / Pandas / SciPy             | NumPy 1.26+, Pandas 2.2+                      |
 | Orchestration     | MIE + typed engine contracts       | UI-independent, versioned                     |
 | Data Sources      | CricSheet, Kaggle, HawkeyeStats,  | Provenance-tracked, licence-compliant         |
@@ -215,6 +222,16 @@ The following domain rules are mandatory. AI agents and engineers MUST enforce t
 |  R10: NEVER mix IPL/T20/List A/first-class statistics without format-aware comparison             |
 |  R11: NEVER represent weather as a direct measurement of pitch conditions                          |
 |  R12: NEVER make an unsupported membership or eligibility claim (absent evidence = UNVERIFIED)     |
+|  R13: NEVER equate missing database records with uncapped status (absence != uncapped)             |
+|  R14: NEVER treat absence of RR evidence as verified non-membership without TRD §4.5 requirements   |
+|  R15: NEVER merge two identities because of similar names; maintain strict collision boundaries    |
+|  R16: NEVER treat unverified browser snippets or search results as verified facts                  |
+|  R17: NEVER overwrite conflicting evidence; preserve source conflicts and flag REVIEW_REQUIRED     |
+|  R18: ALWAYS apply REVIEW_REQUIRED when mandatory evidence is incomplete or contradictory          |
+|  R19: NEVER invent statistics, match appearances, or career participation (missing = NULL)         |
+|  R20: NEVER make replacement or release decisions inside PVRE (analytical signals to SICE only)    |
+|  R21: NEVER mix the Top-10 ranking model with incumbent replacement evaluation                     |
+|  R22: NEVER expose secrets, credentials, or proprietary hackathon content in public outputs        |
 +----------------------------------------------------------------------------------------------------+
 ```
 
@@ -263,6 +280,63 @@ The following domain rules are mandatory. AI agents and engineers MUST enforce t
 - Membership, eligibility, and career claims lacking verified evidence are returned as
   `UNVERIFIED` / `NOT_ESTABLISHED`, never as positive or negative determinations.
 
+### Rule R13 — Never equate missing database records with uncapped status
+- Absence from the internal database or external datasets is **never** proof of uncapped status.
+- Unknown players default strictly to `eligibility_status = 'NOT_ASSESSED'`.
+- A player enters the verified uncapped pool only when affirmative evidence verifies zero senior
+  international appearances and compliance with the active target-season policy.
+
+### Rule R14 — Never treat absence of RR records as verified non-membership
+- Negative RR membership (`NO_VERIFIED_RR_RELATIONSHIP`) is permitted only when all TRD §4.5
+  requirements are satisfied (dataset completeness, all RR seasons checked, squad + scorecard
+  presence verified negative, source tier-1/tier-2 quality, human analyst sign-off).
+- In all other cases of missing or partial records, the state must remain `RR_RELATIONSHIP_UNKNOWN`.
+
+### Rule R15 — Never merge two identities due to name similarity
+- Disambiguation must rely on deterministic contextual attribute corroboration (DOB, playing role,
+  batting/bowling style, active era).
+- Ambiguous or colliding identities must route immediately to `REVIEW_REQUIRED`; auto-merging is
+  strictly prohibited.
+
+### Rule R16 — Never treat browser search snippets as verified facts
+- Web search summaries, snippets, or unverified browser text are strictly third-party hints.
+- Facts require ingestion into `source_records` and validation in `verification_records` with
+  documented licence, provider, timestamp, and tier.
+
+### Rule R17 — Never overwrite conflicting evidence
+- When source records materially disagree (e.g. conflicting dates of birth, disputed match counts),
+  competing claims must be preserved with `verification_status = 'CONFLICT'`.
+- AI agents are strictly prohibited from silently picking a winner or averaging conflicting values.
+
+### Rule R18 — Always apply `REVIEW_REQUIRED` when mandatory evidence is insufficient
+- Whenever mandatory identity attributes, RR membership status, or eligibility evidence are
+  missing, unverified, or contradictory, the execution flow must halt automated routing and
+  emit a structured review dossier.
+- Unresolved cases must never enter the candidate pool.
+
+### Rule R19 — Never invent statistics or career participation
+- Squad inclusion never implies match appearances; squad-only alumni must show `appearances = 0`
+  and receive no batting or bowling statistics.
+- Missing competition records must be reported as `DATASET_UNAVAILABLE` or `NOT_ESTABLISHED`,
+  never assumed as zero matches.
+
+### Rule R20 — Never make replacement decisions inside PVRE
+- PVRE produces evidence dossiers and structured analytical signals (`RETAIN_SIGNAL`,
+  `MONITOR_SIGNAL`, `POTENTIALLY_REPLACEABLE`, `INSUFFICIENT_EVIDENCE`, `REVIEW_REQUIRED`).
+- PVRE is strictly prohibited from deciding to release, replace, or retain a player, and from
+  inventing arbitrary replacement probabilities. Final squad evaluations belong to SICE and
+  franchise leadership.
+
+### Rule R21 — Never mix the Top-10 ranking model with replacement evaluation
+- The Top-10 youngest eligible uncapped candidate ranking (`RANKING_SPEC.md` `RK-1.0.0`) is a
+  standalone hackathon competition deliverable.
+- It must never be combined, merged, or averaged with PVRE Mode A incumbent replacement evaluation,
+  which compares specific incumbent roles against candidate alternatives.
+
+### Rule R22 — Never expose secrets, credentials, or proprietary hackathon data
+- API keys, credentials, and confidential hackathon datasets must never appear in Git repositories,
+  public logs, or client-side JSON/CSV exports.
+
 ---
 
 ## 6. Prohibited Practices & Security Guardrails
@@ -309,7 +383,7 @@ resolves them.
 ## 7. Conclusion & Engineering Attestation
 
 This directive forms an unbroken chain of architectural and domain constraints. By enforcing
-deterministic reproducibility, a normalised 31-entity 3NF core (with `derived_features` as the
+deterministic reproducibility, a normalised 33-entity 3NF core (with `derived_features` as the
 single documented non-3NF exception), an immutable data lake, evidence-first provenance, the
 three-dimension membership model (relationship · currency · season-bound eligibility), the
 franchise-level participation model, the four-state coverage model, and the domain rules above,
