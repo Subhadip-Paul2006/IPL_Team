@@ -108,3 +108,9 @@ reports/*confidential*
 
 # Multi-agent orchestrator scratch and teamwork state
 .agents/teamwork/
+
+# Derived data and private dataset artifacts (Rule R4 Invariant 3)
+data/*
+!data/manifests/
+data/output/
+
