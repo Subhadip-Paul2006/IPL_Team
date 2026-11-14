@@ -8,6 +8,17 @@ from src.contracts.career import (
     PlayerInjury,
     PlayerMembershipState,
 )
+from src.contracts.cdcre import (
+    AmbiguityStatus,
+    CandidateDiscoveryResult,
+    CandidatePlayerRecord,
+    CareerDataCoverage,
+    CareerGapRecord,
+    CDCREOutputContract,
+    CompetitionHistoryRecord,
+    CoverageStatus,
+    GapType,
+)
 from src.contracts.competition import (
     Competition,
     PlayerTeamHistory,
@@ -94,4 +105,14 @@ __all__ = [
     "TMVEOutputContract",
     "EligibilityOutputContract",
     "ReviewDossierContract",
+    # Phase 4A: CDCRE Inter-Engine Contracts
+    "AmbiguityStatus",
+    "CoverageStatus",
+    "GapType",
+    "CandidatePlayerRecord",
+    "CandidateDiscoveryResult",
+    "CompetitionHistoryRecord",
+    "CareerGapRecord",
+    "CareerDataCoverage",
+    "CDCREOutputContract",
 ]
