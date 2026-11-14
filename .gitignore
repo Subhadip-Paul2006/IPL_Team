@@ -62,3 +62,49 @@ venv/
 node_modules/
 .mermaid-cache/
 *.log
+
+
+# ----------------------------------------------------------------------------
+# Phase 1A Security, Credentials & Scaffolding Protections
+# ----------------------------------------------------------------------------
+# Protect all environment files except the safe documented template
+.env*
+!.env.example
+
+# Credentials, secrets, certificates, and cloud service account tokens
+credentials/
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+*.crt
+
+# Loose organizer CSVs, raw downloads, and dumps
+*.csv
+organizer_data/
+raw_cricsheet/
+
+# Local databases and SQLite stores
+*.db
+*.sqlite
+*.sqlite3
+
+# Python build and packaging distributions
+dist/
+build/
+*.egg-info/
+
+# Testing, type checking, and linting caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Confidential / private analytical reports
+reports/private/
+reports/*confidential*
+*.private.*
+
+# Multi-agent orchestrator scratch and teamwork state
+.agents/teamwork/

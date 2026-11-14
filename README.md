@@ -277,6 +277,7 @@ claimed beyond the locally verified figures in `DATA_SOURCE_REGISTER.md §3`.
 
 ## 9. Data Attribution & Licensing
 
+### Data Sources & Trademarks
 - **CricSheet (local `datasets/`)**: **ODC-By** — `LICENSE.txt` present and inspected in all
   four archives; attribution mandatory in all exports (verified locally 2026-11-10).
 - **Open-Meteo historical weather**: **CC BY 4.0** (stated; terms to be re-verified at
@@ -288,6 +289,19 @@ claimed beyond the locally verified figures in `DATA_SOURCE_REGISTER.md §3`.
 - **Proprietary hackathon dataset**: confidential; isolated from public outputs.
 - **Trademarks**: "IPL", "BCCI", "Rajasthan Royals" and associated marks belong to their
   respective owners; used under hackathon fair-dealing for analytical research.
+
+### Open-Source Software Libraries
+The Phase 1A platform foundation utilizes the following open-source software packages under their respective permissive licenses:
+- **supabase-py** (MIT License) — Official Python client library for Supabase PostgREST, Auth, and Storage.
+- **pydantic** (MIT License) — Data validation and contract specification using Python type annotations.
+- **pydantic-settings** (MIT License) — Typed application settings management and environment parsing.
+- **python-dotenv** (BSD-3-Clause License) — Parsing of `.env` configuration files for local development.
+- **psycopg2-binary** (LGPL-3.0 with OpenSSL exception) — PostgreSQL adapter for Python database connectivity.
+- **pytest** (MIT License) — Modern Python testing framework.
+- **pytest-asyncio** (Apache-2.0 License) — Asyncio runtime support for pytest test fixtures.
+- **mypy** (MIT License) — Static type analysis and verification.
+- **ruff** (MIT / Apache-2.0 License) — High-performance Python linter and code formatter.
+- **hatchling** (MIT License) — Extensible build backend for PEP 517 / PEP 621 Python packaging.
 
 ---
 
