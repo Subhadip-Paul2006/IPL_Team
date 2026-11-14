@@ -358,3 +358,60 @@ def test_null_safe_nested_dict_parsing(parser: CricSheetParser):
     assert parsed.match.outcome_type == "no_result"
     assert parsed.match.innings_balls_scheduled == 120
     assert len(parsed.innings) == 0
+
+
+def test_the_hundred_phase_determination_and_parsing(parser: CricSheetParser):
+    """Verify The Hundred (balls_per_over=5) 3-group phase boundaries.
+
+    Rules per DATA_DICTIONARY.md §4.1 and §5:
+    - Powerplay: overs 0-4 (balls 1-25)
+    - Middle: overs 5-17 (balls 26-90)
+    - Death: overs 18-19 (balls 91-100, final 10 balls)
+    - Never inherits 6-ball T20 boundaries.
+    """
+    from src.ingestion.cricsheet_parser import determine_match_phase
+
+    # Test determine_match_phase directly
+    assert determine_match_phase(0, "T20", balls_per_over=5) == "Powerplay"
+    assert determine_match_phase(4, "T20", balls_per_over=5) == "Powerplay"
+    assert determine_match_phase(5, "T20", balls_per_over=5) == "Middle"
+    assert determine_match_phase(17, "T20", balls_per_over=5) == "Middle"
+    assert determine_match_phase(18, "T20", balls_per_over=5) == "Death"
+    assert determine_match_phase(19, "T20", balls_per_over=5) == "Death"
+
+    # Test parser on synthetic The Hundred payload
+    payload = {
+        "meta": {"data_version": "1.3.0"},
+        "info": {
+            "balls_per_over": 5,
+            "overs": 20,
+            "match_type": "T20",
+            "dates": ["2024-08-01"],
+            "teams": ["Oval Invincibles", "Manchester Originals"],
+            "outcome": {"winner": "Oval Invincibles", "by": {"runs": 10}},
+            "registry": {"people": {"Batter 1": "b1", "Bowler 1": "bw1"}},
+        },
+        "innings": [
+            {
+                "team": "Oval Invincibles",
+                "overs": [
+                    # Over 4 (ball 21-25) -> Powerplay
+                    {"over": 4, "deliveries": [{"batter": "Batter 1", "bowler": "Bowler 1", "runs": {"batter": 1, "extras": 0, "total": 1}}]},
+                    # Over 5 (ball 26-30) -> Middle
+                    {"over": 5, "deliveries": [{"batter": "Batter 1", "bowler": "Bowler 1", "runs": {"batter": 1, "extras": 0, "total": 1}}]},
+                    # Over 17 (ball 86-90) -> Middle
+                    {"over": 17, "deliveries": [{"batter": "Batter 1", "bowler": "Bowler 1", "runs": {"batter": 1, "extras": 0, "total": 1}}]},
+                    # Over 18 (ball 91-95) -> Death
+                    {"over": 18, "deliveries": [{"batter": "Batter 1", "bowler": "Bowler 1", "runs": {"batter": 1, "extras": 0, "total": 1}}]},
+                ],
+            }
+        ],
+    }
+
+    parsed = parser.parse_json(payload, external_id="HND_TEST_01")
+    assert len(parsed.deliveries) == 4
+    delivs = parsed.deliveries
+    assert delivs[0].over_number == 4 and delivs[0].match_phase == "Powerplay"
+    assert delivs[1].over_number == 5 and delivs[1].match_phase == "Middle"
+    assert delivs[2].over_number == 17 and delivs[2].match_phase == "Middle"
+    assert delivs[3].over_number == 18 and delivs[3].match_phase == "Death"

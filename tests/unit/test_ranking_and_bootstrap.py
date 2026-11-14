@@ -139,3 +139,109 @@ def test_match_level_bootstrap_execution():
     assert top_bowlers[0].score_ci_lower is not None
     assert top_bowlers[0].score_ci_upper is not None
     assert top_bowlers[0].top10_stability_pct is not None
+
+
+def test_ranking_preserves_profile_tag():
+    """Verify that SiceRankingEngine.rank_batters preserves profile_tag on RankedCandidate."""
+    sice = SiceRankingEngine(seed=42)
+    candidates = [
+        BatterPressureMetrics(
+            player_id="UNDEF_1", canonical_name="Undefeated Batter", match_appearances=12,
+            balls_faced_total=200, runs_total=300, sr_total=150.0, avg_total=None,
+            balls_faced_pressure=80, runs_pressure=160, fours_pressure=10, sixes_pressure=8,
+            dots_pressure=15, dismissals_pressure=0, sr_pressure_raw=200.0, avg_pressure_raw=None,
+            sr_pressure_shrunk=190.0, avg_pressure_shrunk=None, dot_pct_pressure=18.75,
+            boundary_pct_pressure=55.0, delta_sr=50.0, bpps=88.0, is_qualified=True,
+            profile_tag="UNDEFEATED_IN_WINDOW",
+        ),
+        BatterPressureMetrics(
+            player_id="NORM_1", canonical_name="Normal Batter", match_appearances=12,
+            balls_faced_total=180, runs_total=250, sr_total=138.8, avg_total=28.0,
+            balls_faced_pressure=70, runs_pressure=130, fours_pressure=8, sixes_pressure=6,
+            dots_pressure=18, dismissals_pressure=3, sr_pressure_raw=185.7, avg_pressure_raw=43.3,
+            sr_pressure_shrunk=178.0, avg_pressure_shrunk=40.0, dot_pct_pressure=25.7,
+            boundary_pct_pressure=52.3, delta_sr=46.9, bpps=80.0, is_qualified=True,
+            profile_tag=None,
+        ),
+    ]
+
+    top10, reserves = sice.rank_batters(candidates, top_n=10)
+    assert len(top10) == 2
+    assert top10[0].player_id == "UNDEF_1"
+    assert top10[0].profile_tag == "UNDEFEATED_IN_WINDOW"
+    assert top10[1].player_id == "NORM_1"
+    assert top10[1].profile_tag is None
+
+
+def test_match_level_bootstrap_qualified_batters_option_b():
+    """Verify bootstrap calculation executes without error for qualified batters (both dismissed and Option B undefeated)."""
+    from src.cmie.match_context import PreDeliveryState
+    from src.sice.ranking_engine import RankedCandidate
+
+    sice = SiceRankingEngine(seed=42)
+
+    top_batters = [
+        RankedCandidate(
+            rank=1, player_id="UNDEF", canonical_name="Undefeated Batter", score=90.0,
+            match_appearances=12, volume_total=120, volume_pressure=60,
+            key_metric_raw=200.0, key_metric_shrunk=190.0, delta_metric=50.0,
+            role="BATTER", profile_tag="UNDEFEATED_IN_WINDOW",
+        ),
+        RankedCandidate(
+            rank=2, player_id="DISM", canonical_name="Dismissed Batter", score=80.0,
+            match_appearances=12, volume_total=120, volume_pressure=60,
+            key_metric_raw=170.0, key_metric_shrunk=165.0, delta_metric=20.0,
+            role="BATTER",
+        ),
+    ]
+    top_bowlers = [
+        RankedCandidate(
+            rank=1, player_id="B1", canonical_name="Bowler 1", score=85.0,
+            match_appearances=12, volume_total=120, volume_pressure=60,
+            key_metric_raw=6.5, key_metric_shrunk=7.0, delta_metric=0.5,
+            role="BOWLER",
+        )
+    ]
+
+    deliv_by_m = {}
+    states_by_m = {}
+    for i in range(1, 13):
+        mid = f"M{i}"
+        delivs = []
+        sts = []
+        # 10 balls for UNDEF (undefeated), 10 balls for DISM (1 dismissal in each match)
+        for j in range(10):
+            delivs.append({"runs": "4", "extras_type": "None", "is_wicket": "false", "dismissal_type": "", "dismissed_player_id": ""})
+            sts.append(PreDeliveryState(
+                match_id=mid, innings=1, overid=j + 1, over_ball_num=1, innings_ball_num=j + 1,
+                striker_id="UNDEF", bowler_id="B1", legal_balls_bowled=j, legal_balls_remaining=120 - j,
+                current_runs=float(j * 4), current_wickets=0, wickets_in_hand=10, crr=12.0, cdpi=0.75, mpt="HIGH", is_pressure=True,
+            ))
+        for j in range(10):
+            is_w = (j == 9)
+            delivs.append({
+                "runs": "2", "extras_type": "None", "is_wicket": "true" if is_w else "false",
+                "dismissal_type": "bowled" if is_w else "", "dismissed_player_id": "DISM" if is_w else "",
+            })
+            sts.append(PreDeliveryState(
+                match_id=mid, innings=2, overid=j + 1, over_ball_num=1, innings_ball_num=j + 1,
+                striker_id="DISM", bowler_id="B1", legal_balls_bowled=j, legal_balls_remaining=120 - j,
+                current_runs=float(j * 2), current_wickets=1 if is_w else 0, wickets_in_hand=9, crr=8.0, cdpi=0.75, mpt="HIGH", is_pressure=True,
+            ))
+        deliv_by_m[mid] = delivs
+        states_by_m[mid] = sts
+
+    names = {"UNDEF": "Undefeated Batter", "DISM": "Dismissed Batter", "B1": "Bowler 1"}
+    appearances = {"UNDEF": 12, "DISM": 12, "B1": 12}
+
+    sice.run_match_level_bootstrap(
+        deliv_by_m, states_by_m, names, appearances, top_batters, top_bowlers, n_iterations=25,
+    )
+
+    # Both batters should have populated CIs and stability without any NameError / UnboundLocalError
+    assert top_batters[0].score_ci_lower is not None
+    assert top_batters[0].score_ci_upper is not None
+    assert top_batters[0].top10_stability_pct is not None
+    assert top_batters[1].score_ci_lower is not None
+    assert top_batters[1].score_ci_upper is not None
+    assert top_batters[1].top10_stability_pct is not None

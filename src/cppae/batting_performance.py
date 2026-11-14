@@ -38,6 +38,7 @@ class BatterPressureMetrics:
     delta_sr: float | None
     bpps: float  # [0.0, 100.0]
     is_qualified: bool = False
+    profile_tag: str | None = None
 
 
 class BattingPerformanceEngine:
@@ -139,7 +140,7 @@ class BattingPerformanceEngine:
             if p_d > 0:
                 avg_p_shrunk = (p_d / (p_d + self.k_bat_avg)) * (avg_p_raw or 0.0) + (self.k_bat_avg / (p_d + self.k_bat_avg)) * prior_avg
             else:
-                avg_p_shrunk = prior_avg
+                avg_p_shrunk = None
 
             dot_pct = (p_dot / p_bf * 100.0) if p_bf > 0 else 0.0
             bnd_pct = ((p_4 * 4 + p_6 * 6) / max(1, p_r) * 100.0) if p_r > 0 else 0.0
@@ -147,12 +148,18 @@ class BattingPerformanceEngine:
 
             # Component scoring
             c_sr = max(0.0, min(100.0, (sr_p_shrunk - 80.0) / 1.20))
-            c_avg = max(0.0, min(100.0, (avg_p_shrunk - 10.0) * 2.0))
             c_dot = max(0.0, min(100.0, 100.0 - dot_pct * 1.5))
             c_bnd = max(0.0, min(100.0, bnd_pct * 1.25))
             c_delta = max(0.0, min(100.0, 50.0 + delta_sr * 1.5))
 
-            bpps = 0.35 * c_sr + 0.25 * c_avg + 0.15 * c_dot + 0.15 * c_bnd + 0.10 * c_delta
+            if p_d > 0 and avg_p_shrunk is not None:
+                c_avg = max(0.0, min(100.0, (avg_p_shrunk - 10.0) * 2.0))
+                bpps = 0.35 * c_sr + 0.25 * c_avg + 0.15 * c_dot + 0.15 * c_bnd + 0.10 * c_delta
+                profile_tag = None
+            else:
+                # Decision 1 — Option B: Proportional reweighting across four observed components for undefeated batters
+                bpps = 0.4667 * c_sr + 0.2000 * c_dot + 0.2000 * c_bnd + 0.1333 * c_delta
+                profile_tag = "UNDEFEATED_IN_WINDOW"
 
             is_qual = (total_bf >= min_balls_faced) and (p_bf >= min_pressure_balls) and (matches >= min_matches)
 
@@ -172,13 +179,14 @@ class BattingPerformanceEngine:
                 dismissals_pressure=p_d,
                 sr_pressure_raw=round(sr_p_raw, 2) if sr_p_raw is not None else None,
                 avg_pressure_raw=round(avg_p_raw, 2) if avg_p_raw is not None else None,
-                sr_pressure_shrunk=round(sr_p_shrunk, 2),
-                avg_pressure_shrunk=round(avg_p_shrunk, 2),
+                sr_pressure_shrunk=round(sr_p_shrunk, 2) if sr_p_shrunk is not None else None,
+                avg_pressure_shrunk=round(avg_p_shrunk, 2) if avg_p_shrunk is not None else None,
                 dot_pct_pressure=round(dot_pct, 2),
                 boundary_pct_pressure=round(bnd_pct, 2),
                 delta_sr=round(delta_sr, 2),
                 bpps=round(bpps, 2),
                 is_qualified=is_qual,
+                profile_tag=profile_tag,
             ))
 
         return results

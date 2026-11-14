@@ -34,6 +34,7 @@ class RankedCandidate:
     status: str = "TOP_10"  # TOP_10 or RESERVE
     uncertainty_flag: str = "VERIFIED"  # VERIFIED or PROVISIONAL
     role: str = "BATTER"  # BATTER or BOWLER
+    profile_tag: str | None = None
 
 
 @dataclass
@@ -91,6 +92,7 @@ class SiceRankingEngine:
                 status="TOP_10",
                 uncertainty_flag="VERIFIED" if i <= 8 else "PROVISIONAL",
                 role="BATTER",
+                profile_tag=c.profile_tag,
             ))
 
         reserves: list[RankedCandidate] = []
@@ -109,6 +111,7 @@ class SiceRankingEngine:
                 status="RESERVE",
                 uncertainty_flag="VERIFIED",
                 role="BATTER",
+                profile_tag=c.profile_tag,
             ))
 
         return top10, reserves
@@ -336,18 +339,22 @@ class SiceRankingEngine:
                 sr_all = (r_all / bf_all * 100.0) if bf_all > 0 else 120.0
                 sr_p_raw = (p_r / p_bf * 100.0) if p_bf > 0 else 140.0
                 sr_p_shrunk = (p_bf / (p_bf + k_bat)) * sr_p_raw + (k_bat / (p_bf + k_bat)) * prior_sr
-                avg_p_raw = (p_r / max(1, p_d))
-                avg_p_shrunk = (p_d / (p_d + k_bat_avg)) * avg_p_raw + (k_bat_avg / (p_d + k_bat_avg)) * prior_avg
-                dot_pct = (p_dot / p_bf * 100.0)
-                bnd_pct = ((p_4 * 4 + p_6 * 6) / max(1, p_r) * 100.0)
+                dot_pct = (p_dot / p_bf * 100.0) if p_bf > 0 else 0.0
+                bnd_pct = ((p_4 * 4 + p_6 * 6) / max(1, p_r) * 100.0) if p_r > 0 else 0.0
                 delta_sr = sr_p_raw - sr_all
-
                 c_sr = max(0.0, min(100.0, (sr_p_shrunk - 80.0) / 1.20))
-                c_avg = max(0.0, min(100.0, (avg_p_shrunk - 10.0) * 2.0))
                 c_dot = max(0.0, min(100.0, 100.0 - dot_pct * 1.5))
                 c_bnd = max(0.0, min(100.0, bnd_pct * 1.25))
                 c_delta = max(0.0, min(100.0, 50.0 + delta_sr * 1.5))
-                bpps = 0.35 * c_sr + 0.25 * c_avg + 0.15 * c_dot + 0.15 * c_bnd + 0.10 * c_delta
+
+                if p_d > 0:
+                    avg_p_raw = (p_r / p_d)
+                    avg_p_shrunk = (p_d / (p_d + k_bat_avg)) * avg_p_raw + (k_bat_avg / (p_d + k_bat_avg)) * prior_avg
+                    c_avg = max(0.0, min(100.0, (avg_p_shrunk - 10.0) * 2.0))
+                    bpps = 0.35 * c_sr + 0.25 * c_avg + 0.15 * c_dot + 0.15 * c_bnd + 0.10 * c_delta
+                else:
+                    # Decision 1 — Option B proportional reweighting for undefeated batter in bootstrap iteration
+                    bpps = 0.4667 * c_sr + 0.2000 * c_dot + 0.2000 * c_bnd + 0.1333 * c_delta
                 rep_bat_scores.append((pid, bpps))
 
             rep_bat_scores.sort(key=lambda x: x[1], reverse=True)

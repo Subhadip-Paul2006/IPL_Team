@@ -42,13 +42,19 @@ class BowlerPressureMetrics:
     delta_econ: float | None
     bwps: float  # [0.0, 100.0]
     is_qualified: bool = False
+    balls_per_over: int = 6
+    overs_display: str = "0.0"
+    bowling_avg_total: float | None = None
+    bowling_sr_total: float | None = None
+    dot_pct_total: float | None = None
 
 
 class BowlingPerformanceEngine:
     """Calculates BWPS and detailed bowling pressure metrics."""
 
-    def __init__(self, k_bowl: float = 40.0) -> None:
+    def __init__(self, k_bowl: float = 40.0, balls_per_over: int = 6) -> None:
         self.k_bowl = k_bowl
+        self.balls_per_over = balls_per_over
 
     def calculate_metrics(
         self,
@@ -64,6 +70,7 @@ class BowlingPerformanceEngine:
         lb_all: dict[str, int] = {}
         runs_all: dict[str, int] = {}
         wickets_all: dict[str, int] = {}
+        dots_all: dict[str, int] = {}
 
         lb_p: dict[str, int] = {}
         runs_p: dict[str, int] = {}
@@ -90,6 +97,8 @@ class BowlingPerformanceEngine:
             if is_legal:
                 lb_all[b_id] = lb_all.get(b_id, 0) + 1
                 runs_all[b_id] = runs_all.get(b_id, 0) + bowler_runs
+                if bowler_runs == 0:
+                    dots_all[b_id] = dots_all.get(b_id, 0) + 1
                 if is_w:
                     wickets_all[b_id] = wickets_all.get(b_id, 0) + 1
 
@@ -111,7 +120,8 @@ class BowlingPerformanceEngine:
         # Calculate population prior for Empirical Bayes
         total_p_runs = sum(runs_p.values())
         total_p_lb = sum(lb_p.values())
-        prior_econ = (total_p_runs / max(1, total_p_lb) * 6.0) if total_p_lb > 0 else 9.0
+        default_prior = 1.5 * self.balls_per_over
+        prior_econ = (total_p_runs / max(1, total_p_lb) * self.balls_per_over) if total_p_lb > 0 else default_prior
 
         results: list[BowlerPressureMetrics] = []
 
@@ -120,6 +130,7 @@ class BowlingPerformanceEngine:
             total_lb = lb_all.get(b, 0)
             total_r = runs_all.get(b, 0)
             total_w = wickets_all.get(b, 0)
+            total_dots = dots_all.get(b, 0)
             p_lb = lb_p.get(b, 0)
             p_r = runs_p.get(b, 0)
             p_dot = dots_p.get(b, 0)
@@ -127,8 +138,8 @@ class BowlingPerformanceEngine:
             p_w = wickets_p.get(b, 0)
             matches = match_appearances.get(b, 0)
 
-            econ_all = (total_r / total_lb * 6.0) if total_lb > 0 else None
-            econ_p_raw = (p_r / p_lb * 6.0) if p_lb > 0 else None
+            econ_all = (total_r / total_lb * self.balls_per_over) if total_lb > 0 else None
+            econ_p_raw = (p_r / p_lb * self.balls_per_over) if p_lb > 0 else None
 
             # Empirical Bayes shrinkage on pressure economy
             if p_lb > 0:
@@ -153,6 +164,11 @@ class BowlingPerformanceEngine:
 
             is_qual = (total_lb >= min_legal_balls) and (p_lb >= min_pressure_balls) and (matches >= min_matches)
 
+            overs_display = f"{total_lb // self.balls_per_over}.{total_lb % self.balls_per_over}"
+            bowling_avg = round(total_r / total_w, 2) if total_w > 0 else None
+            bowling_sr = round(total_lb / total_w, 2) if total_w > 0 else None
+            dot_pct_all = round(total_dots / total_lb * 100.0, 2) if total_lb > 0 else None
+
             results.append(BowlerPressureMetrics(
                 player_id=b,
                 canonical_name=player_names.get(b, f"Player_{b}"),
@@ -174,6 +190,11 @@ class BowlingPerformanceEngine:
                 delta_econ=round(delta_econ, 2),
                 bwps=round(bwps, 2),
                 is_qualified=is_qual,
+                balls_per_over=self.balls_per_over,
+                overs_display=overs_display,
+                bowling_avg_total=bowling_avg,
+                bowling_sr_total=bowling_sr,
+                dot_pct_total=dot_pct_all,
             ))
 
         return results

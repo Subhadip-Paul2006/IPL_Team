@@ -37,10 +37,17 @@ def parse_match_date(date_str: str) -> date:
     return datetime.strptime(date_str[:10], "%Y-%m-%d").date()
 
 
-def determine_match_phase(over_number: int, match_type: str = "T20") -> str:
+def determine_match_phase(over_number: int, match_type: str = "T20", balls_per_over: int = 6) -> str:
     """Assign match phase (Powerplay, Middle, Death) based on format and over number."""
     m_type = match_type.upper()
-    if m_type in ("T20", "IT20"):
+    if balls_per_over == 5 or m_type == "HUNDRED":
+        # The Hundred: 5-ball overs. Powerplay: overs 0-4 (balls 1-25), Middle: overs 5-17 (balls 26-90), Death: overs 18-19 (balls 91-100)
+        if over_number < 5:
+            return "Powerplay"
+        if over_number < 18:
+            return "Middle"
+        return "Death"
+    elif m_type in ("T20", "IT20"):
         if over_number < 6:
             return "Powerplay"
         if over_number < 15:
@@ -377,6 +384,7 @@ class CricSheetParser:
                         delivery_sequence=delivery_seq,
                         player_id_map=player_id_map,
                         match_type=match_type,
+                        balls_per_over=balls_per_over,
                     )
                     deliveries.append(deliv_obj)
                     delivery_seq += 1
@@ -419,6 +427,7 @@ class CricSheetParser:
                         delivery_sequence=delivery_seq,
                         player_id_map=player_id_map,
                         match_type=match_type,
+                        balls_per_over=balls_per_over,
                     )
                     deliveries.append(deliv_obj)
                     delivery_seq += 1
@@ -459,6 +468,7 @@ class CricSheetParser:
         delivery_sequence: int,
         player_id_map: dict[str, UUID],
         match_type: str,
+        balls_per_over: int = 6,
     ) -> Delivery:
         """Parse discrete ball delivery event."""
         batter_name = str(deliv_data.get("batter", deliv_data.get("batsman", "Unknown Batter"))).strip()
@@ -525,7 +535,7 @@ class CricSheetParser:
             player_out_id = None
             is_bowler_credited = False
 
-        match_phase = determine_match_phase(over_number, match_type)
+        match_phase = determine_match_phase(over_number, match_type, balls_per_over)
 
         delivery_id = derive_uuid(
             "delivery",
