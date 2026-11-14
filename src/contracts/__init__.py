@@ -31,6 +31,15 @@ from src.contracts.scorecard import (
     WicketkeepingEvent,
 )
 from src.contracts.team_builder import UserTeam, UserTeamPlayer
+from src.contracts.tmve import (
+    EligibilityOutputContract,
+    EligibilityStatus,
+    ReviewDossierContract,
+    RRCurrentState,
+    RRRelationshipState,
+    TMVEOutputContract,
+    TMVERequestContract,
+)
 
 __all__ = [
     "BaseContract",
@@ -77,4 +86,12 @@ __all__ = [
     # Domain 9: Ranking Configurations & Runs (32-33)
     "RankingConfiguration",
     "RankingRun",
+    # Phase 3: TMVE Inter-Engine Contracts
+    "RRRelationshipState",
+    "RRCurrentState",
+    "EligibilityStatus",
+    "TMVERequestContract",
+    "TMVEOutputContract",
+    "EligibilityOutputContract",
+    "ReviewDossierContract",
 ]
