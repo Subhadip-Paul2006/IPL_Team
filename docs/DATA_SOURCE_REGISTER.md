@@ -1,7 +1,7 @@
 # Data Source Register
 
 **Project**: RR Squad Intelligence & Team Composition Platform
-**Document Version**: 2.2.0 · **Status**: `[STATUS: PLANNED - GREENFIELD BASELINE]`
+**Document Version**: 2.2.0 · **Status**: `[STATUS: VERIFIED & GOVERNED - ACTIVE BASELINE v2.2.0]`
 **Verification date of local evidence**: 2026-11-10 · **external re-checks**: 2026-11-11
 (working directory `d:\New folder (2)`)
 
@@ -199,3 +199,34 @@ external research in Engine 07 (PVRE) and Service C must comply with strict acce
 | **Priority B — The Hundred format (local `datasets/hnd_male_json`, inspected 2026-11-11)** | `info.balls_per_over = 5`, `info.overs = 20` → 100-ball innings; over blocks carry `deliveries` arrays (5 legal events + wide events); `powerplays: [{from: 0.1, to: 4.5, type: mandatory}]`; sample innings: 20 over-blocks / 101–106 delivery events (including wide events). Confirmed by Wikipedia "The Hundred (cricket)": 5-ball overs, 100 balls per innings, 20 overs, max 4 overs per bowler, final-10-balls powerplay with two designated bowlers. → The Hundred is a first-class `HUNDRED` format (`competitions.balls_per_over = 5`); it must NOT inherit six-ball-over maths (DATA_DICTIONARY §5) |
 | **Priority E/H — RR participation windows (local `datasets/ipl_male_json`, inspected 2026-11-11)** | Files mentioning "Rajasthan Royals" by season: 2007/08 (16) · 2009 (13) · 2009/10 (14) · 2011 (13) · 2012 (16) · 2013 (18) · 2014 (14) · 2015 (14) · **2016 (0) · 2017 (0)** · 2018 (15) · 2019 (14) · 2020/21 (14) · 2021 (14) · 2022 (17) · 2023 (14) · 2024 (15) · 2025 (14) · 2026 (16). 2016/2017 continue with 59–60 other-franchise fixtures each. → **Tier-4 local corroboration** of the RR 2008–2015 · suspended 2016–17 · 2018–2026 windows; reproducible script evidence, NOT tier-1; each `team_season_participation` row stays PENDING/UNVERIFIED until the S10 per-claim evidence lines are retrieved (TRD D15) |
 | **Priority H — wide-event / notation evidence (local archives, 2026-11-11)** | IPL 2017 sample (`1082591.json`): `balls_per_over = 6`, 20 over-blocks; wide events present as delivery events within over blocks (over-block event count can exceed 6). HND sample (`1252666.json`): `balls_per_over = 5`, 20 over-blocks, event counts 101–106 incl. wide events. → legal-ball counts are derived (never parsed from ball-notation strings); wide/no-ball are delivery events; consistent with DATA_DICTIONARY global conventions and TRD DDL ingestion formula |
+
+---
+
+## 4. Actionable Source-Permission Matrix (All 20 Register Entries & Data Pack)
+
+This authoritative matrix synthesizes legal licensing terms, technical retrieval boundaries, storage permissions, automated access rules, and attribution requirements across all sources.
+
+| Source ID | Source Name & Resource | License / Legal Terms | Permitted Use | Storage Allowed | Automated Scraping | Attribution Required | Audit Status |
+|:---|:---|:---|:---|:---:|:---:|:---:|:---:|
+| **S1** | **CricSheet IPL Archive (local)** | ODC-By v1.0 | Academic, research, commercial, derivative analytics | **YES** | Local Lake | **YES** (ODC-By notice) | **VERIFIED / PERMITTED** |
+| **S2** | **CricSheet The Hundred (local)** | ODC-By v1.0 | Academic, research, commercial, derivative analytics | **YES** | Local Lake | **YES** (ODC-By notice) | **VERIFIED / PERMITTED** |
+| **S3** | **CricSheet Men's ODI WC (local)** | ODC-By v1.0 | Academic, research, commercial, derivative analytics | **YES** | Local Lake | **YES** (ODC-By notice) | **VERIFIED / PERMITTED** |
+| **S4** | **CricSheet Men's T20 WC (local)** | ODC-By v1.0 | Academic, research, commercial, derivative analytics | **YES** | Local Lake | **YES** (ODC-By notice) | **VERIFIED / PERMITTED** |
+| **S5** | **CricSheet SMAT (local)** | ODC-By v1.0 | Domestic T20 analysis, candidate discovery | **YES** | Local Lake | **YES** (ODC-By notice) | **VERIFIED / PERMITTED** |
+| **S6** | **Kaggle IPL Complete (2008–2020)** | Author-selected publisher terms | Unverified; third-party community upload | **NO** | **PROHIBITED** | N/A | **UNVERIFIED / RESTRICTED** |
+| **S7** | **Kaggle IPL "2007–2026" Delivery** | Author-selected terms; invalid 2007 title | Unverified; quarantine mandatory for `date < 2008-04-18` | **NO** | **PROHIBITED** | N/A | **UNVERIFIED / RESTRICTED** |
+| **S8** | **HawkeyeStats GitHub Repo** | No license file in repo; third-party ICC endpoint proxy | None; absence of license implies all rights reserved | **NO** | **PROHIBITED** | N/A | **BLOCKED / RESTRICTED** |
+| **S9** | **Open-Meteo Historical Weather API** | CC BY 4.0 (data); free API terms (<10k calls/day, non-commercial) | Environmental context proxy only; commercial use requires paid license | **YES** (Context only) | Rate-limited (<600/min) | **YES** (CC BY 4.0 link) | **VERIFIED / CONDITIONAL** |
+| **S10** | **BCCI / IPL / RR Official Records** | BCCI Terms & Conditions (PDF); proprietary copyright | Personal viewing; internal scouting citation | **Claim-only** | **PROHIBITED** | **YES** (Citation) | **RESTRICTED / PER-CLAIM** |
+| **S11** | **ESPNcricinfo / Cricbuzz Secondary** | Website terms of use; HTTP 403 on automated clients | Browsing only; secondary verification | **Claim-only** | **PROHIBITED** | **YES** (Citation) | **RESTRICTED / PER-CLAIM** |
+| **S12** | **Official Published Match Scorecards** | Publisher copyright (BCCI / ICC / Franchise) | Verification of match appearances (Tier 2 evidence) | **Claim-only** | **PROHIBITED** | **YES** (Publisher) | **RESTRICTED / PER-CLAIM** |
+| **S13** | **CricSheet BBL Archive (local)** | ODC-By v1.0 | PVRE Mode A global performance research | **YES** | Local Lake | **YES** (ODC-By notice) | **VERIFIED / PERMITTED** |
+| **S14** | **CricSheet PSL Archive (local)** | ODC-By v1.0 | PVRE Mode A global performance research | **YES** | Local Lake | **YES** (ODC-By notice) | **VERIFIED / PERMITTED** |
+| **S15** | **CricSheet CPL Archive (local)** | ODC-By v1.0 | PVRE Mode A global performance research | **YES** | Local Lake | **YES** (ODC-By notice) | **VERIFIED / PERMITTED** |
+| **S16** | **CricSheet SA20 Archive (local)** | ODC-By v1.0 | PVRE Mode A global performance research | **YES** | Local Lake | **YES** (ODC-By notice) | **VERIFIED / PERMITTED** |
+| **S17** | **Other Franchise Leagues (BPL, ILT, LPL, MLC)** | ODC-By v1.0 | PVRE Mode A global performance research | **YES** | Local Lake | **YES** (ODC-By notice) | **VERIFIED / PERMITTED** |
+| **S18A–H**| **BCCI Domestic & Youth Archives (Ranji, VHT, Duleep, U19, U23)** | BCCI terms; automated extraction prohibited | Targeted scorecard verification (Service C) | **Claim-only** | **PROHIBITED** | **YES** (BCCI.tv) | **RESTRICTED / PER-CLAIM** |
+| **S19A** | **CricSheet ICC Senior Internationals** | ODC-By v1.0 / Official ICC scorecards | Affirmative senior cap verification (disqualifier) | **YES** | Local Lake | **YES** (ODC-By notice) | **VERIFIED / PERMITTED** |
+| **S19B** | **ICC / ACC Youth International Match Archive** | ICC / ACC copyright; fair-dealing scouting research | High-pressure junior international benchmark | **Claim-only** | **PROHIBITED** | **YES** (ICC/ACC) | **RESTRICTED / PER-CLAIM** |
+| **S20A–B**| **ESPNcricinfo Historical Domestic Archive** | ESPNcricinfo proprietary terms | Secondary pre-2018 corroboration | **Claim-only** | **PROHIBITED** | **YES** (ESPN) | **RESTRICTED / PER-CLAIM** |
+| **PACK** | **Organizer Private Data Pack (`datasets/`)** | Confidential hackathon asset; unverified license | Strictly isolated; internal research only | **Isolated** | **PROHIBITED** | Never in exports | **BLOCKED FROM EXPORT** |

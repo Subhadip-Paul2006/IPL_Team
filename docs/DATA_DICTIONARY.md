@@ -196,12 +196,12 @@ governing value per format, so a The Hundred competition row carries `5` and its
 economy, notation and phases all follow from that single field. This prevents the format
 from silently inheriting six-ball-over behaviour.
 
-> **Deferral (documented)**: The Hundred's powerplay is the **first 25 balls** (per the
-> source `powerplays` field `from 0.1 to 4.5`). Phase 5 (CPPAE) computes The Hundred phase
-> splits only after `balls_per_over = 5` handling is implemented and validated on the local
-> 201-file archive; until then The Hundred is **ingested and preserved as raw data only**
-> (Priority B option 2), and no The-Hundred-derived rate is published. This is a deliberate,
-> versioned deferral, not an omission.
+> **Audit Verdict & Retention as DEFERRED (Phase 05 Audit)**: While delivery-to-innings
+> sums reconcile across the 201 local JSON files (`datasets/hnd_male_json/`), forensic code audit
+> identified that `src/cppae/bowling_performance.py` hardcodes six-ball economy semantics (`* 6.0`),
+> five-ball over display conversion is not implemented, and 10-ball consecutive spells are unverified
+> in pipeline aggregation. In compliance with strict governance, derived rate metrics for The Hundred
+> are **retained as DEFERRED** until format-aware five-ball economy and spell consolidation are implemented and tested.
 
 ---
 
@@ -247,7 +247,8 @@ from silently inheriting six-ball-over behaviour.
 | Direct pitch moisture / soil sensors | **NOT_COMPUTABLE** | No sensor data in any register source; weather is context only |
 | Delivery line/length without tracking | **NOT_COMPUTABLE** | Tracking coverage sparse; untracked balls excluded, coverage reported |
 | Mental-state / composure measures | **NOT_COMPUTABLE** | Prohibited by domain rules; high-leverage = measurable state (M06) |
-| The-Hundred derived rate metrics | **DEFERRED** | `HUNDRED` phase/economy splits not yet computed (Priority B option 2): ingested & preserved as raw; no derived The-Hundred rate published until `balls_per_over = 5` handling is validated on the local archive (see §5 deferral) |
+| The-Hundred derived rate metrics | **DEFERRED** | Retained as DEFERRED per Phase 05 Audit: raw delivery-to-innings sums reconciled across 201 files, but bowling economy in engine hardcodes six-ball semantics (* 6.0) and consecutive spell aggregation is unverified (see §5 audit). |
+| Non-T20 high-leverage thresholds (The Hundred, ODI, First-Class) | **DEFERRED** | Phase 05 Decision 3: No unvalidated leverage thresholds invented; preserved as DEFERRED until empirical pressure models for non-T20 formats are calibrated. |
 
 
 ---

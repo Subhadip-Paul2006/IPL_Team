@@ -8,6 +8,17 @@ from src.contracts.career import (
     PlayerInjury,
     PlayerMembershipState,
 )
+from src.contracts.cdcre import (
+    AmbiguityStatus,
+    CandidateDiscoveryResult,
+    CandidatePlayerRecord,
+    CareerDataCoverage,
+    CareerGapRecord,
+    CDCREOutputContract,
+    CompetitionHistoryRecord,
+    CoverageStatus,
+    GapType,
+)
 from src.contracts.competition import (
     Competition,
     PlayerTeamHistory,
@@ -18,11 +29,52 @@ from src.contracts.competition import (
     Venue,
 )
 from src.contracts.conditions import PitchCondition, WeatherCondition
+from src.contracts.cppae import (
+    BattingPhaseSplit,
+    BattingPositionSplit,
+    BattingProfile,
+    BowlingPhaseSplit,
+    BowlingProfile,
+    CPPAEOutput,
+    DeliverySpeedSummary,
+    FieldingProfile,
+    HeadToHeadMatchup,
+    LineLengthSummary,
+    MatchContributionProfile,
+    PartnershipRecord,
+    PerStatMetric,
+    SampleSizes,
+    WicketkeepingProfile,
+)
 from src.contracts.eligibility import EligibilityPolicy, PlayerEligibility
 from src.contracts.features import DerivedFeature
 from src.contracts.match import Delivery, Innings, Match
 from src.contracts.player import Player, PlayerAlias
 from src.contracts.provenance import DataSource, SourceRecord, VerificationRecord
+from src.contracts.pvre import (
+    CareerCoverageState,
+    CareerVerification,
+    EvidenceSource,
+    EvidenceTier,
+    PlayerCappedStatus,
+    PlayerResearchOutput,
+    PlayerResearchRequest,
+    PVREOutputContract,
+    PVRERequestContract,
+    PVREReviewDossierContract,
+    PVREReviewStatus,
+    PVREVerificationStatus,
+    ReplaceabilitySignal,
+    ReplacementCandidateEvidence,
+    ReplacementResearchRequest,
+    ResearchConflict,
+    ResearchCoverage,
+    ResearchMode,
+    RouteStatus,
+    SourceReliability,
+    VerificationClaim,
+    VerificationStatus,
+)
 from src.contracts.ranking import RankingConfiguration, RankingRun
 from src.contracts.scorecard import (
     BattingInnings,
@@ -31,6 +83,15 @@ from src.contracts.scorecard import (
     WicketkeepingEvent,
 )
 from src.contracts.team_builder import UserTeam, UserTeamPlayer
+from src.contracts.tmve import (
+    EligibilityOutputContract,
+    EligibilityStatus,
+    ReviewDossierContract,
+    RRCurrentState,
+    RRRelationshipState,
+    TMVEOutputContract,
+    TMVERequestContract,
+)
 
 __all__ = [
     "BaseContract",
@@ -77,4 +138,61 @@ __all__ = [
     # Domain 9: Ranking Configurations & Runs (32-33)
     "RankingConfiguration",
     "RankingRun",
+    # Phase 3: TMVE Inter-Engine Contracts
+    "RRRelationshipState",
+    "RRCurrentState",
+    "EligibilityStatus",
+    "TMVERequestContract",
+    "TMVEOutputContract",
+    "EligibilityOutputContract",
+    "ReviewDossierContract",
+    # Phase 4A: CDCRE Inter-Engine Contracts
+    "AmbiguityStatus",
+    "CoverageStatus",
+    "GapType",
+    "CandidatePlayerRecord",
+    "CandidateDiscoveryResult",
+    "CompetitionHistoryRecord",
+    "CareerGapRecord",
+    "CareerDataCoverage",
+    "CDCREOutputContract",
+    # Phase 5: CPPAE Inter-Engine & Feature Contracts
+    "PerStatMetric",
+    "BattingPhaseSplit",
+    "BattingPositionSplit",
+    "HeadToHeadMatchup",
+    "PartnershipRecord",
+    "BattingProfile",
+    "BowlingPhaseSplit",
+    "DeliverySpeedSummary",
+    "LineLengthSummary",
+    "BowlingProfile",
+    "FieldingProfile",
+    "WicketkeepingProfile",
+    "MatchContributionProfile",
+    "SampleSizes",
+    "CPPAEOutput",
+    # Phase 4B: PVRE Inter-Engine Contracts
+    "ResearchMode",
+    "RouteStatus",
+    "ReplaceabilitySignal",
+    "CareerCoverageState",
+    "PlayerCappedStatus",
+    "PVREVerificationStatus",
+    "VerificationStatus",
+    "PVREReviewStatus",
+    "SourceReliability",
+    "EvidenceTier",
+    "PVRERequestContract",
+    "PVREOutputContract",
+    "PVREReviewDossierContract",
+    "ReplacementCandidateEvidence",
+    "PlayerResearchRequest",
+    "PlayerResearchOutput",
+    "ReplacementResearchRequest",
+    "VerificationClaim",
+    "EvidenceSource",
+    "ResearchConflict",
+    "CareerVerification",
+    "ResearchCoverage",
 ]

@@ -1,0 +1,89 @@
+{
+  "manifest_version": "1.0.0",
+  "generated_at": "2026-11-13T08:00:42.280539+00:00",
+  "datasets_root": "D:\\New folder (2)\\datasets",
+  "total_files_count": 10,
+  "total_size_bytes": 44050367,
+  "files": [
+    {
+      "dataset_group": "organizer_pack",
+      "relative_path": "6af3166e7b922_data_pack/ball_by_ball.csv",
+      "file_name": "ball_by_ball.csv",
+      "sha256": "a3926f49d2c684dca2a5d2de535a02c5ee46ea654ca1e79dd31c69e7544e9889",
+      "size_bytes": 41071609,
+      "row_count": 200999
+    },
+    {
+      "dataset_group": "organizer_pack",
+      "relative_path": "6af3166e7b922_data_pack/competitions.csv",
+      "file_name": "competitions.csv",
+      "sha256": "507ceb7189f972d4e4f299ddcfc97f3c3247af1913f6291106f161fa8353fd9b",
+      "size_bytes": 7624,
+      "row_count": 141
+    },
+    {
+      "dataset_group": "organizer_pack",
+      "relative_path": "6af3166e7b922_data_pack/competition_team_player_mapping.csv",
+      "file_name": "competition_team_player_mapping.csv",
+      "sha256": "1ded4e42a933618572d6e2c3a521c3257eb1844fab4456d567d77cbb2d3bbb12",
+      "size_bytes": 462969,
+      "row_count": 6413
+    },
+    {
+      "dataset_group": "organizer_pack",
+      "relative_path": "6af3166e7b922_data_pack/matches.csv",
+      "file_name": "matches.csv",
+      "sha256": "bb100ab84b8b9a15160c1f2315cf675210131a30e779ec5079fd5403dcf56eef",
+      "size_bytes": 123864,
+      "row_count": 883
+    },
+    {
+      "dataset_group": "organizer_pack",
+      "relative_path": "6af3166e7b922_data_pack/playing_eleven.csv",
+      "file_name": "playing_eleven.csv",
+      "sha256": "7517c73722a28d5d61c808ccf0cbed315a8780586d02e946eb9a7f5daf011c27",
+      "size_bytes": 966287,
+      "row_count": 28381
+    },
+    {
+      "dataset_group": "organizer_pack",
+      "relative_path": "6af3166e7b922_data_pack/teams.csv",
+      "file_name": "teams.csv",
+      "sha256": "a65e5922a9b3bf49247b24fc9471782e700efb31f8dcc5042923238b87c50a5d",
+      "size_bytes": 6922,
+      "row_count": 353
+    },
+    {
+      "dataset_group": "cricsheet_reference",
+      "relative_path": "names.csv",
+      "file_name": "names.csv",
+      "sha256": "cde5292c15be1cf03e0b366875b5aa2e23c29283ca9d368bb0f768ea85761fb1",
+      "size_bytes": 162471,
+      "row_count": 7551
+    },
+    {
+      "dataset_group": "cricsheet_reference",
+      "relative_path": "people.csv",
+      "file_name": "people.csv",
+      "sha256": "3926fec53340ed8539ba98b420f907ab5e8aced21e8a61138d313adc1ed8a42b",
+      "size_bytes": 1187398,
+      "row_count": 18698
+    },
+    {
+      "dataset_group": "cricsheet_reference",
+      "relative_path": "venues.csv",
+      "file_name": "venues.csv",
+      "sha256": "e0d4ec19b3789c16d99a24ec743ab7e4a1f839bb7f62a7c9678a13e30de8066e",
+      "size_bytes": 48722,
+      "row_count": 591
+    },
+    {
+      "dataset_group": "cricsheet_reference",
+      "relative_path": "venue_names.csv",
+      "file_name": "venue_names.csv",
+      "sha256": "01e3b9d059f86ba6ee086cdb08d612b96a45f301912e3302e2edb6f79fa11cfd",
+      "size_bytes": 12501,
+      "row_count": 297
+    }
+  ]
+}

@@ -2,7 +2,7 @@
 
 **Focus Franchise**: Rajasthan Royals (RR) · **Competition**: IPL 2027 RR scouting hackathon
 **Primary Interface (initial)**: Streamlit · **Future Frontend**: Next.js (engines are frontend-agnostic)
-**Status**: `[STATUS: GREENFIELD BASELINE — PHASE 0a COMPLETE / PHASE 0b OPEN (PARTIALLY_COMPLETE) / PHASES 1–10 PLANNED]`
+**Status**: `[STATUS: ACTIVE DEVELOPMENT — PHASE 1 COMPLETE · PHASE 2 COMPLETE · PHASE 3 (TMVE) COMPLETE · PHASES 4–10 PLANNED]`
 
 > **Product version 2.2.0 (PVRE Dual-Mode Intelligence)**. Introduces **ENGINE 07 — PVRE
 > (Player Verification & Research Engine)** featuring Mother Controller routing, Mode A (Existing
@@ -214,10 +214,13 @@ d:\New folder (2)\
 
 ---
 
-## 7. Installation & Execution (Planned)
+## 7. Installation & Execution
 
-The repository is at the **Greenfield Baseline** — no application code exists yet. The
-following is the *planned* runbook; it is realised incrementally across Phases 1–9.
+The repository core architecture is actively implemented across Phases 1, 2, and 3:
+- **Phase 1**: Ingestion and Pressure Analytics Pipeline (`src/ingestion/`, `src/cppae/`, `src/cmie/`, `src/sice/`).
+- **Phase 2**: PostgreSQL 16 33-Entity Schema and PIRE Identity Resolution (`supabase/migrations/`, `src/pire/`).
+- **Phase 3**: Team Membership Verification Engine (`src/contracts/tmve.py`, `src/membership/`).
+- **Phases 4–10**: CDCRE, PVRE, CPPAE completion, and Streamlit frontend are planned.
 
 ### 7.1 Prerequisites
 - **Python** 3.11+ (engines, services, Streamlit app).
